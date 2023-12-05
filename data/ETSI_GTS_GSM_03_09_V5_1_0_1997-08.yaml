@@ -1,0 +1,81 @@
+---
+schema-version: v1.2.7
+id: ETSIGTSGSM03.09V5.1.01997-08
+title:
+- content: Digital cellular telecommunications system (Phase 2+) (GSM); Handover procedures
+    (GSM 03.09 version 5.1.0)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI GTS GSM 03.09 V5.1.0 (1997-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI GTS GSM 03.09 V5.1.0 (1997-08)
+date:
+- type: published
+  value: 1997-08
+version:
+- draft: 5.1.0
+revdate: 1997-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This GTS contains a detailed\r\ndescription of the handover procedures
+    to be used in GSM PLMNs.  The\r\npurpose of the handover procedures, as described
+    in this\r\nspecification,  are to ensure that the connection to the MS is\r\nmaintained
+    as it moves from one BSS area to another.\r\nThis specification considers the
+    following two cases:\r\ni) Handover between Base Stations connected to the same
+    MSC,  this is\r\ntermed an Intra-MSC handover.\r\n ii) Handover between Base Stations
+    connected to different MSCs, this\r\nis termed an Inter-MSC handover.  This category
+    can be sub-divided\r\ninto three further procedures:\r\n a) the Basic Inter-MSC
+    Handover procedure, where the MS is handed over\r\nfrom a controlling MSC (MSC-A)
+    to another MSC (MSC-B);\r\n b) the Subsequent Inter-MSC Handover procedure, where
+    the MS is handed\r\nover from MSC-B to a third MSC (MSC-B );\r\n c) the Subsequent
+    Inter-MSC handback, where the MS is handed back from\r\nMSC-B to MSC-A.\r\n In
+    both cases i) and ii) the same procedures as defined in the TS GSM\r\n08.08 and
+    the TS GSM 04.08 shall be used on the A-interface and on the\r\nRadio Interface,
+    respectively.  In case ii) the handover procedures\r\nshall transport the A-interface
+    messages between MSC-A and MSC-B\r\ndescribed in the Mobile Application Part (MAP),
+    Technical\r\nSpecification GSM 09.02.  The split in functionality between the
+    BSS\r\nand MSC is described in the GSM 08 series of Technical Specifications.\r\nThe
+    interworking between the GSM 09.02 protocol and the GSM 08.08\r\nprotocol is described
+    in the GSM 09.10 Technical Specification.\r\nHandovers which take place on the
+    same MSC are termed Intra-MSC\r\nhandovers; this includes both Inter-BSS and Intra-BSS
+    handovers.\r\nThis technical specification also covers the requirements for directed\r\nretry
+    and the handover without a circuit conneMtion between MSC-A and\r\nMSC-B.  This
+    technical specification does not consider the case of\r\nhandovers between radio
+    channels on the same BSS (Intra-BSS handover)\r\nor the handover of packet radio
+    services.\r\nInter-MSC hand-over  imposes a few limitations  on the system. After\r\ninter-MSC
+    hand-over:\r\n- call re-establishment is not supported.\r\nThe list of GSM 08.08
+    features supported during and after Inter-MSC\r\nhandover is given in TS GSM 09.08.\r\nIn
+    the Inter-MSC handover case, the interworking between a Phase 1\r\nBSSMAP protocol
+    possibly used by one MSC and the Phase 2 BSSMAP\r\nprotocol used in the Phase
+    2 MAP protocol on the E-interface is\r\nperformed by this MSC.\r\nNOTE: The message
+    primitive names used in the SDL diagrams and message\r\nflows in this technical
+    specification do not represent the actual\r\nmessages specified in the GSM 04
+    and GSM 08 series or the services\r\nspecified in the GSM 09 series of technical
+    specifications.  The\r\nprimitive names are only intended to be indicative of
+    their use in\r\nthis document.\r\n  "
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: GSM
+- content: GSM_PHASE2_PLUS
+- content: HANDOVER
+- content: MOBILE
+- content: RADIO
+doctype:
+  type: GSM Technical Specification
+  abbreviation: GTS
+editorialgroup:
+- name: Network Aspects
+ext:
+  schema-version: v0.0.3

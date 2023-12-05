@@ -1,0 +1,69 @@
+---
+schema-version: v1.2.7
+id: ETSIES203178V1.1.12015-02
+title:
+- content: Functional architecture to support European requirements on emergency caller
+    location determination and transport
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI ES 203 178 V1.1.1 (2015-02)
+  type: ETSI
+  primary: true
+docnumber: ETSI ES 203 178 V1.1.1 (2015-02)
+date:
+- type: published
+  value: 2015-02
+version:
+- draft: 1.1.1
+revdate: 2015-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: 'Considering TS 102 650 and architectures from other standardisation organisations
+    a single functional architecture to support European requirements on emergency
+    caller location determination and transport needs to be developed in particular
+    for the case where VoIP service provider and one or several network operators  -
+    all serving the customer in the establishment of an emergency call -  are independent
+    enterprises needing to co-operate to determine the location of the (nomadic) caller.
+    The architecture shall identify all necessary interfaces, which are needed to
+    fulfil the requirements outlined in EC Mandate M/493, and provide a basis for
+    possible protocols to be used on those interfaces. Environmental aspect comments:
+    1) The establishment of emergency calls and the provision of location information
+    about the caller shall not be hampered by high service or network loads or partial
+    service or network outages. (2) The location information shall be provided to
+    the PSAP in a manner that it is easily associated with the respective incoming
+    voice call. (3) Location related information accurate enough to allow routing
+    of the call must be constrained to those entities that require it in order to
+    deliver the call to the correct PSAP. (4) Accurate location information shall
+    be obtained from at least a trustworthy source. A CPE may not be  considered trustworthy.
+    User /Consumer Aspects comments: 1) The location should be determined as fast
+    as possible. (2) Should the location determination fail for any reason, the emergency
+    call is still to be setup without delay. (3) The access to and the provision of
+    location information shall be strictly limited to emergency calls only. (4) The
+    architecture shall not be based on location information provided by an entity
+    controlled by the user. Security Aspects  (1) The access to location information
+    shall be strictly limited to cases of an emergency call. (2) Location information
+    sufficiently detailed to dispatch personnel and resources shall only be provided
+    to the PSAP handling the emergency call.'
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: EMERGENCY
+- content: LOCATION
+- content: VoIP
+doctype:
+  type: ETSI Standard
+  abbreviation: ES
+editorialgroup:
+- name: End-to-End Network Architectures
+ext:
+  schema-version: v0.0.3

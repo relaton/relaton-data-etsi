@@ -1,0 +1,62 @@
+---
+schema-version: v1.2.7
+id: ETSITS104002V1.1.12023-08
+title:
+- content: Publicly Available Specification (PAS); DASH-IF Forensic A/B Watermarking
+    An interoperable watermarking integration schema
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI TS 104 002 V1.1.1 (2023-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 104 002 V1.1.1 (2023-08)
+date:
+- type: published
+  value: 2023-08
+version:
+- draft: 1.1.1
+revdate: 2023-08
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "•The scope of this work is the definition of an architecture and an Application
+    Programming Interface (API) for supporting A/B forensic watermarking for Over-The-Top
+    (OTT) on content that is delivered in an Adaptive Bitrate (ABR) format. To the
+    possible extend, the proposed solutions do not make assumptions on the ABR technology
+    that is being used, it can be for example, DASH or HLS. A/B forensic watermarking
+    means that at least two watermarked versions of content (variant A and variant
+    B) are delivered up to a CDN edge server from the encoder. The edge server is
+    responsible for delivering either the A or B variant of every segment to the device.\r\n•\tWhile
+    digital watermarking can be used for different use cases, this work will focus
+    on forensic use cases. In this context, it is used to define the origin of content
+    leakage. The watermarking technology modifies media content in a robust and invisible
+    way in order to encode a unique identifier, e.g., a unique session ID. The embedded
+    watermark provides means to identify where the media content, that has been redistributed
+    without authorization, is coming from. In other words, the watermark is used to
+    forensically trace the origin of content leakage.\r\n•This work is carried out
+    under the PAS agreement between ETSI and DASH-IF\r\n"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: BROADBAND
+- content: CDN
+- content: DASH
+- content: DRM
+- content: INTERNET
+- content: PAS
+doctype:
+  type: Technical Specification
+  abbreviation: TS
+editorialgroup:
+- name: EBU/CENELEC/ETSI on Broadcasting
+ext:
+  schema-version: v0.0.3

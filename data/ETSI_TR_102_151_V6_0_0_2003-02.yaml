@@ -1,0 +1,60 @@
+---
+schema-version: v1.2.7
+id: ETSITR102151V6.0.02003-02
+title:
+- content: Smart Cards; Measurement of Electromagnetic Emission of SIM Cards (Release
+    6)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI TR 102 151 V6.0.0 (2003-02)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 102 151 V6.0.0 (2003-02)
+date:
+- type: published
+  value: 2003-02
+version:
+- draft: 6.0.0
+revdate: 2003-02
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "1) The definition of a reference board in order to perform EMC tests to
+    investigate the EMC interaction between the UICC and the ME with respect to unsynchronised
+    oscillators on the UICC.\r\n2) The definition of a test card with a SIM application
+    in order to establish the correlation between the reference and the final system
+    (GSM, WCDMA, ..).\r\nThe aim of the test card is to include as many possible silicon
+    / module implementation intended to be used by the card manufacturer for UICC.\r\nThe
+    most important requirements are:\r\n- The test card shall be able to operate with
+    an existing GSM system simulator.\r\n- The test card shall be able to enable the
+    worst cases of all consumption modes which are used in the application software.\r\nThe
+    consumption modes could be defined as follows:\r\n- Execute Code in NVM (endless
+    loop), don't use additional hardware (peripherals).\r\n- Execute Code in NVM (endless
+    loop), use hardware peripherals, e.g. cryptographic modules (endless loop) which
+    are also used within the real application.\r\n- All available clock modes (e.g.
+    direct mode, multiplication modes, free running modes) shall be selectable.\r\n-
+    Program NVM (endless loop).\r\n- Clock stop mode shall be also supported.\r\nA
+    documentation of the relation between the several clock modes (internal used frequency)
+    and the power consumption is to be elaborated.\r\nThe time scale estimated for
+    this task is 6 - 9 months."
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: EMC
+- content: SMART CARD
+doctype:
+  type: Technical Report
+  abbreviation: TR
+editorialgroup:
+- name: Smart Card Platform
+ext:
+  schema-version: v0.0.3

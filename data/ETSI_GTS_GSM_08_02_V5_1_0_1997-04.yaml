@@ -1,0 +1,82 @@
+---
+schema-version: v1.2.7
+id: ETSIGTSGSM08.02V5.1.01997-04
+title:
+- content: Digital cellular telecommunications system (Phase 2+) (GSM); Base Station
+    System - Mobile-services Switching Centre (BSS - MSC) interface; Interface principles
+    (GSM 08.02)
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI GTS GSM 08.02 V5.1.0 (1997-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI GTS GSM 08.02 V5.1.0 (1997-04)
+date:
+- type: published
+  value: 1997-04
+version:
+- draft: 5.1.0
+revdate: 1997-04
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+    gives the principles on which the detailed interface specificatio\r\nns in the
+    rest of the GSM 08.0X series of Technical Specifications are\r\nbased.\r\nThe
+    set of fixed equipment accessed from the MSC through one particula\r\nr instance
+    of the interface will be later referred to as a Base Statio\r\nn System (BSS).
+    A BSS ensures the coverage of n cells, where n can be\r\n1 or more.\r\nThe function
+    of a BSS may be further subdivided into a control functio\r\nn, performed by one
+    Base Station Controller (BSC) and a transceiving f\r\nunction, performed by \"n\"
+    Base Transceiver Station equipments (BTS), o\r\nne for each cell. However, the
+    study of such a split is outside the sc\r\nope of the 08.0x series of Technical
+    Specifications, where the BSS wil\r\nl be considered as a whole.\r\nThe BSS-MSC
+    interface defined in the GSM 08 series of Technical Specif\r\nications is designed
+    to support a wide range of possible architectures\r\non both sides. Characteristics
+    like the physical location of the tran\r\nscoders/rate adaptation inside the BSS
+    (either integrated into the tra\r\nnsceivers or very near to the MSC) or the use
+    of traffic or signalling\r\nconcentration at either side are left to the operators
+    choice. Annex\r\nA to this Technical Specification contains guidance information
+    concer\r\nning the use of remote mobile switching units, which for the purposes\r\nof
+    this specification are considered as part of the MSC.\r\nDirect connection between
+    two BSSs is not supported by this interface.\r\nThis interface is based on the
+    use of 1 or more 2 048 kbit/s digital t\r\nransmission system interfaces. Each
+    2 048 kbit/s interface provides 31\r\n*64 kbit/s channels which can be used for
+    traffic or signalling as the\r\noperator requires.\r\nThe signalling is layured,
+    terminology similar to that in the OSI refe\r\nrence model is used in this series,
+    however the layers referred to are\r\nnot identical to the equivalently named
+    layer in the OSI model.\r\nThis interface is defined at the boundary of the MSC
+    and has a per cha\r\nnnel bit rate of 64 kbit/s, but the net radio path traffic
+    channel is\r\nat a rate of less than 16 kbit/s. A transcoder or rate adapter functio\r\nn
+    is thus needed for the rate conversion. The interface is designed su\r\nch that
+    the transcoding or rate adaptation function may be geographica\r\nlly situated
+    at either the MSC site or the BSS site, however the trans\r\ncoder is considered
+    to be part of the BSS.\r\nThe interface has been designed around the aims of GSM
+    08.01 allowing\r\neach component and the system as a whole to evolve.\r\n "
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: BASE STATION
+- content: GSM
+- content: GSM_PHASE2_PLUS
+- content: INTERFACE
+- content: MOBILE
+- content: MSC
+- content: PLMN
+- content: RADIO
+doctype:
+  type: GSM Technical Specification
+  abbreviation: GTS
+editorialgroup:
+- name: Network Aspects
+ext:
+  schema-version: v0.0.3

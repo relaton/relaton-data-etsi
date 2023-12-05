@@ -1,0 +1,72 @@
+---
+schema-version: v1.2.7
+id: ETSIGSNFV-REL002V1.1.12015-09
+title:
+- content: Network Functions Virtualisation (NFV); Reliability; Report on Scalable
+    Architectures for Reliability Management
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+docid:
+- id: ETSI GS NFV-REL 002 V1.1.1 (2015-09)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-REL 002 V1.1.1 (2015-09)
+date:
+- type: published
+  value: 2015-09
+version:
+- draft: 1.1.1
+revdate: 2015-09
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This WI proposes a study of how one designs processing components to achieve
+    scalabiity, efficiency, and reliability in NFV environments. To meet the low-latency
+    and high-availability requirements, this will require new techniques and abstractions
+    for managing shared processing state. The hope is to identify application-independent
+    techniques that can be applied generally, rather than have each VNF use its own
+    idiosyncratic method for meeting these goals.   \r\n\r\nAlthough an individual
+    VNF could manage its own scale and replication, it is envisioned that an end-to-end
+    service composed of many disparate VNFs would require a a single coherent manager,
+    such as an orchestrator that would manage the scale and capacity of the VNFs.
+    \  \r\n\r\nTo illustrate our intentions, consider how one might achieve scalable
+    reliability when there is no state shared between flows and the failure of a small
+    number of flows is acceptable. Today’s IT/Cloud Data Centers exhibit very high
+    availability levels by limiting the amount of unique state in a single element
+    and creating a virtual network function from a number of small replicated components
+    whose functional capacity  can be scaled in and out by adjusting the running number
+    of components. Reliability and availability for these type of VNFs is provided
+    by a number of small replicated components. When an individual component fails,
+    little state is lost and the overall VNF experiences minimal change in functional
+    capacity. Capacity failures can be recovered by instantiating additional components.
+    Adjustments to load balancing across the active instances may be required.  \r\n\r\nWe
+    offer this as an initial example of how scalable reliability might be achieved.
+    We anticipate the resulting document will consider a wide variety of use cases,
+    involving differing levels of shared state and different reliability requirements,
+    and these will each require their own application-independent way of how to manage
+    state, react to failures, and respond to increased load.  \r\n\r\nAccordingly,
+    the deliverable from this proposed WID is an Informative Report. The intent is
+    to provide guidance on Best Practices for scale out system architectures for the
+    management of reliability.  \r\n\r\nExternal dependencies of this work item are:
+    - MANO VNFD - SWA Design Patterns and Trusted Computing - REL Documents.\r\n"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: ARCHITECTURE
+- content: NFV
+- content: RELIABILITY
+doctype:
+  type: Group Specification
+  abbreviation: GS
+editorialgroup:
+- name: Reliability & Availability
+ext:
+  schema-version: v0.0.3
