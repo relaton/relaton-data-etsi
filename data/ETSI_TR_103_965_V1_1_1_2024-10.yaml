@@ -1,0 +1,81 @@
+---
+schema-version: v1.2.9
+id: ETSITR103965V1.1.12024-10
+title:
+- content: CYBER; Quantum-Safe Cryptography (QSC); Impact of Quantum Computing on
+    Cryptographic Security Proofs
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63084
+  type: src
+- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103965/01.01.01_60/tr_103965v010101p.pdf
+  type: pdf
+docid:
+- id: ETSI TR 103 965 V1.1.1 (2024-10)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 103 965 V1.1.1 (2024-10)
+date:
+- type: published
+  value: 2024-10
+contributor:
+- organization:
+    name:
+    - content: European Telecommunications Standards Institute
+      language:
+      - en
+      script:
+      - Latn
+    abbreviation:
+      content: ETSI
+      language:
+      - en
+      script:
+      - Latn
+  role:
+  - type: publisher
+version:
+- draft: 1.1.1
+revdate: 2024-10
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This work item is intended to provide an overview of the impact of quantum
+    computing on the security proofs of several cryptographic protocols. It discusses
+    which security proofs are invalidated, or otherwise affected, in the presence
+    of a large-scale quantum-capable attacker, and discusses for each affected system
+    whether \r\na)\tan alternative proof has been found that does provide security
+    against quantum attacks, but possibly with a reduced security level, \r\nb)\tno
+    alternative proof has been found, but security is expected to still hold,\r\nc)\tthe
+    cryptographic system is expected to be broken by quantum attacks, in a way which
+    is not captured by the classical security proof, although no concrete quantum
+    attack exists yet, or\r\nd)\ta concrete quantum attack that breaks security, in
+    a way which is not captured by the classical proof, is available.\r\nFurthermore,
+    the practical impact of these considerations is presented.\r\nExamples of cryptographic
+    security proofs that are affected by quantum computing are proofs written with
+    the Random-Oracle methodology (thus impacting the popular Fiat-Shamir and Fujisaki-Okamoto
+    transforms), the rewinding technique for zero-knowledge proof systems, and the
+    binding property of commitment schemes.\r\nA starting point for this work item
+    is provided by the e-print paper “Post-Quantum Cryptography: Computational-Hardness
+    Assumptions and Beyond” (https://eprint.iacr.org/2021/571)"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: Quantum Safe Cryptography
+- content: SECURITY
+ext:
+  schema-version: v0.0.3
+  doctype:
+    type: Technical Report
+    abbreviation: TR
+  editorialgroup:
+  - name: Quantum-Safe Cryptography

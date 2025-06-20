@@ -1,0 +1,79 @@
+---
+schema-version: v1.2.9
+id: ETSITR103953V1.1.12024-07
+title:
+- content: Cyber Security (CYBER); Guidelines for TLMSP Usage
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67983
+  type: src
+- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103953/01.01.01_60/tr_103953v010101p.pdf
+  type: pdf
+docid:
+- id: ETSI TR 103 953 V1.1.1 (2024-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 103 953 V1.1.1 (2024-07)
+date:
+- type: published
+  value: 2024-07
+contributor:
+- organization:
+    name:
+    - content: European Telecommunications Standards Institute
+      language:
+      - en
+      script:
+      - Latn
+    abbreviation:
+      content: ETSI
+      language:
+      - en
+      script:
+      - Latn
+  role:
+  - type: publisher
+version:
+- draft: 1.1.1
+revdate: 2024-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "TLMSP (ETSI TS 103 523-2) is a feature-rich protocol and it could be unclear
+    to some users how to configure it in different scenarios, i.e. when different
+    application layer protocols are used, and when used for different services. A
+    TR providing guidelines on the following topics is proposed:\r\n1.\thow to map
+    different parts (such as header fields, sub-parts of payload, etc) of the application
+    layer protocol onto different TLMSP contexts,\r\n2.\thow to assign access rights
+    (read/write/delete/insert) to those contexts, \r\n3.\trecommendations on usage
+    of deletions and insertions by authorized middleboxes, \r\n4.\tsuitable format
+    and content of TLMSP audit containers, \r\n5.\thow to (in more specific detail)
+    \r\na.\tapply dynamic discovery of middleboxes,\r\nb.\tuse the TLMSP alternative
+    modes (TLS-fallback and TLMSP-proxying).\r\n\r\nIn particular the items 2-5 will
+    depend not only on the application protocol, but also on specifics of the service
+    running over that protocol such as the type/functionality of middleboxes present,
+    security threats, relevant security policies, etc.\r\nAs the work progresses,
+    other topics could be included, as identified.\r\n\r\nExamples of application
+    layer protocols in scope include at least: HTTP, …\r\nExamples of services in
+    scope includes at least: external access into corporate network, internet access
+    from inside corporate network, data center usage, malware protection,…\r\n"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: Cyber Security
+ext:
+  schema-version: v0.0.3
+  doctype:
+    type: Technical Report
+    abbreviation: TR
+  editorialgroup:
+  - name: Cyber Security
