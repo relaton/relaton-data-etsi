@@ -1,0 +1,79 @@
+---
+schema-version: v1.2.9
+id: ETSIGSNFV-SEC026V5.1.12025-07
+title:
+- content: Network Functions Virtualisation (NFV) Release 5; Security; Isolation and
+    trust domain specification
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+link:
+- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59219
+  type: src
+- content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/026/05.01.01_60/gs_NFV-SEC026v050101p.pdf
+  type: pdf
+docid:
+- id: ETSI GS NFV-SEC 026 V5.1.1 (2025-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-SEC 026 V5.1.1 (2025-07)
+date:
+- type: published
+  value: 2025-07
+contributor:
+- organization:
+    name:
+    - content: European Telecommunications Standards Institute
+      language:
+      - en
+      script:
+      - Latn
+    abbreviation:
+      content: ETSI
+      language:
+      - en
+      script:
+      - Latn
+  role:
+  - type: publisher
+version:
+- draft: 5.1.1
+revdate: 2025-07
+language:
+- en
+script:
+- Latn
+abstract:
+- content: "This work item will define the requirements and solutions for the NFV
+    System to enhance network functions and services isolation between tenants. This
+    includes:  \r\no\tAnalysis of the threat models\r\no\tTrust domain separation
+    (multi-tenant NFVI, traffic and resource separation, tenant-dependant resource
+    management and access control..)\r\no\tMemory protection and access control (protection
+    against memory introspection, confidentiality of sensitive data and credentials),
+    \r\no\tHypervisor trust partitioning\r\no\tThe Virtualization Container (e.g.
+    Virtual Machine and OS container) Escape protection (e.g. protection against VNF
+    compromizing its local host OS, taking control of the hypervisor and then gaining
+    access to private and sensitive data of co-resident Virtualization Containers)
+    .\r\no\tAssociated key management system for all above items.\r\nThe WI will take
+    into account the output of GR NFV-EVE018 WI concerning the multi-tenancy.\r\n"
+  language:
+  - en
+  script:
+  - Latn
+  format: text/plain
+keyword:
+- content: access control
+- content: Cybersecurity
+- content: NFV
+- content: NFVI
+- content: SECURITY
+- content: trust
+ext:
+  schema-version: v0.0.3
+  doctype:
+    type: Group Specification
+    abbreviation: GS
+  editorialgroup:
+  - name: Security
