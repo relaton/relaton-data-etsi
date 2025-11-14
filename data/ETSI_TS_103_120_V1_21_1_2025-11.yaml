@@ -1,26 +1,26 @@
 ---
 schema-version: v1.2.9
-id: ETSITS103120V1.20.12025-08
+id: ETSITS103120V1.21.12025-11
 title:
-- content: "<empty>"
+- content: Lawful Interception (LI); Interface for warrant information
   language:
   - en
   script:
   - Latn
   format: text/plain
 link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74972
+- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76255
   type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103120/01.20.01_60/ts_103120v012001p.pdf
+- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103120/01.21.01_60/ts_103120v012101p.pdf
   type: pdf
 docid:
-- id: ETSI TS 103 120 V1.20.1 (2025-08)
+- id: ETSI TS 103 120 V1.21.1 (2025-11)
   type: ETSI
   primary: true
-docnumber: ETSI TS 103 120 V1.20.1 (2025-08)
+docnumber: ETSI TS 103 120 V1.21.1 (2025-11)
 date:
 - type: published
-  value: 2025-08
+  value: 2025-11
 contributor:
 - organization:
     name:
@@ -38,8 +38,8 @@ contributor:
   role:
   - type: publisher
 version:
-- draft: 1.20.1
-revdate: 2025-08
+- draft: 1.21.1
+revdate: 2025-11
 language:
 - en
 script:
@@ -53,13 +53,14 @@ abstract:
     and detailed example of one particular Warrantry interface.\r\nThe present document
     also supports Lawful Disclosure, which encompasses the various processes that
     deal with requests for data stored within the CSP domain, on behalf of a government
-    authorised organisation.\r\nThis revision is to provide the following: Update
-    of obsolete IETF RFC references; Manual information for LDTaskObject; Deadline
-    fields for LDTaskObject; Add discovery of CSP capabilities for e-Evidence regulation;
-    Add LD Workflow Endpoints supported by CSP; Changes to support e-Evidence; New
-    workflow profile for recurring tasks; Clarification of LDTaskFlag; Alignment of
-    References in Table C.1 ETSI Target Identifier; Clarification on JSON names in
-    relation to XML namespaces; Correction to delivery URL object description text."
+    authorised organisation.\r\n\r\nThis revision is to provide the following: Moving
+    attachments to the Forge; Support for LocationPush request; Addition of transmission
+    date to alternative preservation references; Handling of list-type fields; Clarification
+    of usage of ListOfTrafficPolicyReferences field; Addition of TrafficPolicy Workflow;
+    Delivery and Deliver clarifications; Corrections to clauses referenced in XML
+    Dictionary; Correction of ListOfTrafficPolicyReferences field; Corrections in
+    Table C.1; Addition of CountryCode to LIST query parameters; Correction to cross
+    reference clause number."
   language:
   - en
   script:
