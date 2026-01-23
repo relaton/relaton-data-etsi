@@ -45,34 +45,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Work on Machine-to-Machine (M2M) applications has given rise to the possibility
-    of having a UICC that is embedded in a communication device in such a way that
-    the UICC is not easily accessible or replaceable.  The ability to change network
-    subscriptions on such devices becomes problematic, thus necessitating new methods
-    for securely and remotely provisioning access credentials on these Embedded UICCs
-    (eUICC) and managing subscription changes from one MNO to another. These new methods
-    shall take into account that the change of subscription may involve provisioning
-    of a new eUICC network access application as well as MNO specific applications,
-    and the movement of data stored within the eUICC.  Any changes must preserve the
-    industry and end-user benefits that the non-embedded UICC provides today for organizations
-    and systems such as GSM, 3GPP, 3GPP2, particularly in terms of security, flexibility
-    in business relationships, logistics, and end-user experience.\r\nThe expression
-    \"Embedded UICC\" refers to a UICC that is not intended to be removed from or
-    replaced in the terminal.\r\nThis Work Item proposes to identify and analyse a
-    representative set of use cases that will provide the key requirements for the
-    development of a trusted framework for the management of an embedded UICC, and
-    to create CRs against ETSI TS 102 412.\r\nThe scope of work to be undertaken covers
-    the following:\r\n·Defining use cases and corresponding requirements for remote
-    personalization and subscription management of such an Embedded UICC including
-    its integration in telecommunication network infrastructures.\r\nIt is expected
-    that the use cases will identify aspects that need to be standardised by other
-    organisations such as 3GPP, 3GPP2 and GlobalPlatform.\r\nAn illustrative set of
-    use cases and requirements are provided in the GSMA document accompanying this
-    Work Item; Embedded SIM Task Force Requirements and Use Cases V1.0 GSMA 21 February
-    2011 found in SCPREQ(11)0018/SCP(11)0088.\r\n\r\nSupporting ETSI Member organisations:\r\nAT&T\r\nDeutsche
-    Telekom \r\nFrance Telecom / Orange\r\nGemalto\r\nGiesecke & Devrient \r\nIncard
-    ST Microelectronics\r\nInfineon Technologies\r\nOberthur Technologies\r\nOracle\r\nSagem
-    Orga\r\nTelefonica\r\nTelecom Italia\r\nVodafone"
+- content: !binary |-
+    V29yayBvbiBNYWNoaW5lLXRvLU1hY2hpbmUgKE0yTSkgYXBwbGljYXRpb25zIGhhcyBnaXZlbiByaXNlIHRvIHRoZSBwb3NzaWJpbGl0eSBvZiBoYXZpbmcgYSBVSUNDIHRoYXQgaXMgZW1iZWRkZWQgaW4gYSBjb21tdW5pY2F0aW9uIGRldmljZSBpbiBzdWNoIGEgd2F5IHRoYXQgdGhlIFVJQ0MgaXMgbm90IGVhc2lseSBhY2Nlc3NpYmxlIG9yIHJlcGxhY2VhYmxlLiAgVGhlIGFiaWxpdHkgdG8gY2hhbmdlIG5ldHdvcmsgc3Vic2NyaXB0aW9ucyBvbiBzdWNoIGRldmljZXMgYmVjb21lcyBwcm9ibGVtYXRpYywgdGh1cyBuZWNlc3NpdGF0aW5nIG5ldyBtZXRob2RzIGZvciBzZWN1cmVseSBhbmQgcmVtb3RlbHkgcHJvdmlzaW9uaW5nIGFjY2VzcyBjcmVkZW50aWFscyBvbiB0aGVzZSBFbWJlZGRlZCBVSUNDcyAoZVVJQ0MpIGFuZCBtYW5hZ2luZyBzdWJzY3JpcHRpb24gY2hhbmdlcyBmcm9tIG9uZSBNTk8gdG8gYW5vdGhlci4gVGhlc2UgbmV3IG1ldGhvZHMgc2hhbGwgdGFrZSBpbnRvIGFjY291bnQgdGhhdCB0aGUgY2hhbmdlIG9mIHN1YnNjcmlwdGlvbiBtYXkgaW52b2x2ZSBwcm92aXNpb25pbmcgb2YgYSBuZXcgZVVJQ0MgbmV0d29yayBhY2Nlc3MgYXBwbGljYXRpb24gYXMgd2VsbCBhcyBNTk8gc3BlY2lmaWMgYXBwbGljYXRpb25zLCBhbmQgdGhlIG1vdmVtZW50IG9mIGRhdGEgc3RvcmVkIHdpdGhpbiB0aGUgZVVJQ0MuICBBbnkgY2hhbmdlcyBtdXN0IHByZXNlcnZlIHRoZSBpbmR1c3RyeSBhbmQgZW5kLXVzZXIgYmVuZWZpdHMgdGhhdCB0aGUgbm9uLWVtYmVkZGVkIFVJQ0MgcHJvdmlkZXMgdG9kYXkgZm9yIG9yZ2FuaXphdGlvbnMgYW5kIHN5c3RlbXMgc3VjaCBhcyBHU00sIDNHUFAsIDNHUFAyLCBwYXJ0aWN1bGFybHkgaW4gdGVybXMgb2Ygc2VjdXJpdHksIGZsZXhpYmlsaXR5IGluIGJ1c2luZXNzIHJlbGF0aW9uc2hpcHMsIGxvZ2lzdGljcywgYW5kIGVuZC11c2VyIGV4cGVyaWVuY2UuDQpUaGUgZXhwcmVzc2lvbiAiRW1iZWRkZWQgVUlDQyIgcmVmZXJzIHRvIGEgVUlDQyB0aGF0IGlzIG5vdCBpbnRlbmRlZCB0byBiZSByZW1vdmVkIGZyb20gb3IgcmVwbGFjZWQgaW4gdGhlIHRlcm1pbmFsLg0KVGhpcyBXb3JrIEl0ZW0gcHJvcG9zZXMgdG8gaWRlbnRpZnkgYW5kIGFuYWx5c2UgYSByZXByZXNlbnRhdGl2ZSBzZXQgb2YgdXNlIGNhc2VzIHRoYXQgd2lsbCBwcm92aWRlIHRoZSBrZXkgcmVxdWlyZW1lbnRzIGZvciB0aGUgZGV2ZWxvcG1lbnQgb2YgYSB0cnVzdGVkIGZyYW1ld29yayBmb3IgdGhlIG1hbmFnZW1lbnQgb2YgYW4gZW1iZWRkZWQgVUlDQywgYW5kIHRvIGNyZWF0ZSBDUnMgYWdhaW5zdCBFVFNJIFRTIDEwMiA0MTIuDQpUaGUgc2NvcGUgb2Ygd29yayB0byBiZSB1bmRlcnRha2VuIGNvdmVycyB0aGUgZm9sbG93aW5nOg0KwrdEZWZpbmluZyB1c2UgY2FzZXMgYW5kIGNvcnJlc3BvbmRpbmcgcmVxdWlyZW1lbnRzIGZvciByZW1vdGUgcGVyc29uYWxpemF0aW9uIGFuZCBzdWJzY3JpcHRpb24gbWFuYWdlbWVudCBvZiBzdWNoIGFuIEVtYmVkZGVkIFVJQ0MgaW5jbHVkaW5nIGl0cyBpbnRlZ3JhdGlvbiBpbiB0ZWxlY29tbXVuaWNhdGlvbiBuZXR3b3JrIGluZnJhc3RydWN0dXJlcy4NCkl0IGlzIGV4cGVjdGVkIHRoYXQgdGhlIHVzZSBjYXNlcyB3aWxsIGlkZW50aWZ5IGFzcGVjdHMgdGhhdCBuZWVkIHRvIGJlIHN0YW5kYXJkaXNlZCBieSBvdGhlciBvcmdhbmlzYXRpb25zIHN1Y2ggYXMgM0dQUCwgM0dQUDIgYW5kIEdsb2JhbFBsYXRmb3JtLg0KQW4gaWxsdXN0cmF0aXZlIHNldCBvZiB1c2UgY2FzZXMgYW5kIHJlcXVpcmVtZW50cyBhcmUgcHJvdmlkZWQgaW4gdGhlIEdTTUEgZG9jdW1lbnQgYWNjb21wYW55aW5nIHRoaXMgV29yayBJdGVtOyBFbWJlZGRlZCBTSU0gVGFzayBGb3JjZSBSZXF1aXJlbWVudHMgYW5kIFVzZSBDYXNlcyBWMS4wIEdTTUEgMjEgRmVicnVhcnkgMjAxMSBmb3VuZCBpbiBTQ1BSRVEoMTEpMDAxOC9TQ1AoMTEpMDA4OC4NCg0KU3VwcG9ydGluZyBFVFNJIE1lbWJlciBvcmdhbmlzYXRpb25zOg0KQVQmVA0KRGV1dHNjaGUgVGVsZWtvbSANCkZyYW5jZSBUZWxlY29tIC8gT3JhbmdlDQpHZW1hbHRvDQpHaWVzZWNrZSAmIERldnJpZW50IA0KSW5jYXJkIFNUIE1pY3JvZWxlY3Ryb25pY3MNCkluZmluZW9uIFRlY2hub2xvZ2llcw0KT2JlcnRodXIgVGVjaG5vbG9naWVzDQpPcmFjbGUNClNhZ2VtIE9yZ2ENClRlbGVmb25pY2ENClRlbGVjb20gSXRhbGlhDQpWb2RhZm9uZQ==
   language:
   - en
   script:

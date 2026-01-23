@@ -46,26 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The present document specifies generally applicable policy and security
-    requirements for Trust Service Providers (TSP) issuing public key certificates,
-    including trusted web site certificates.\r\nThe policy and security requirements
-    are defined in terms of requirements for the issuance, maintenance and life-cycle
-    management of certificates. These policy and security requirements support six
-    reference certificate policies. \r\nA framework for the definition of policy requirements
-    for TSPs issuing certificates in a specific context where particular requirements
-    apply is defined.\r\nThe present document is applicable to:\r\n•\tthe general
-    requirements of certification in support of cryptographic mechanisms, including
-    electronic signatures and electronic seals \r\n•\tthe general requirements of
-    certification authorities issuing TLS/SSL certificates.\r\n•\tthe general requirements
-    of the use of cryptography for authentication and encryption\r\nThe present document
-    does not specify how the requirements identified can be assessed by an independent
-    party, including requirements for information to be made available to such independent
-    assessors, or requirements on such assessors.\r\nThe present document however
-    provides a check-list of the policy requirements specific to TSP issuing certificates
-    (as expressed in the present document) including the generic requirements which
-    are independent of the type of service (as expressed in EN 319 401).\r\nThe present
-    document includes provisions consistent with the requirements from the CAB Forum
-    in EVCG and BRG."
+- content: !binary |-
+    VGhlIHByZXNlbnQgZG9jdW1lbnQgc3BlY2lmaWVzIGdlbmVyYWxseSBhcHBsaWNhYmxlIHBvbGljeSBhbmQgc2VjdXJpdHkgcmVxdWlyZW1lbnRzIGZvciBUcnVzdCBTZXJ2aWNlIFByb3ZpZGVycyAoVFNQKSBpc3N1aW5nIHB1YmxpYyBrZXkgY2VydGlmaWNhdGVzLCBpbmNsdWRpbmcgdHJ1c3RlZCB3ZWIgc2l0ZSBjZXJ0aWZpY2F0ZXMuDQpUaGUgcG9saWN5IGFuZCBzZWN1cml0eSByZXF1aXJlbWVudHMgYXJlIGRlZmluZWQgaW4gdGVybXMgb2YgcmVxdWlyZW1lbnRzIGZvciB0aGUgaXNzdWFuY2UsIG1haW50ZW5hbmNlIGFuZCBsaWZlLWN5Y2xlIG1hbmFnZW1lbnQgb2YgY2VydGlmaWNhdGVzLiBUaGVzZSBwb2xpY3kgYW5kIHNlY3VyaXR5IHJlcXVpcmVtZW50cyBzdXBwb3J0IHNpeCByZWZlcmVuY2UgY2VydGlmaWNhdGUgcG9saWNpZXMuIA0KQSBmcmFtZXdvcmsgZm9yIHRoZSBkZWZpbml0aW9uIG9mIHBvbGljeSByZXF1aXJlbWVudHMgZm9yIFRTUHMgaXNzdWluZyBjZXJ0aWZpY2F0ZXMgaW4gYSBzcGVjaWZpYyBjb250ZXh0IHdoZXJlIHBhcnRpY3VsYXIgcmVxdWlyZW1lbnRzIGFwcGx5IGlzIGRlZmluZWQuDQpUaGUgcHJlc2VudCBkb2N1bWVudCBpcyBhcHBsaWNhYmxlIHRvOg0K4oCiCXRoZSBnZW5lcmFsIHJlcXVpcmVtZW50cyBvZiBjZXJ0aWZpY2F0aW9uIGluIHN1cHBvcnQgb2YgY3J5cHRvZ3JhcGhpYyBtZWNoYW5pc21zLCBpbmNsdWRpbmcgZWxlY3Ryb25pYyBzaWduYXR1cmVzIGFuZCBlbGVjdHJvbmljIHNlYWxzIA0K4oCiCXRoZSBnZW5lcmFsIHJlcXVpcmVtZW50cyBvZiBjZXJ0aWZpY2F0aW9uIGF1dGhvcml0aWVzIGlzc3VpbmcgVExTL1NTTCBjZXJ0aWZpY2F0ZXMuDQrigKIJdGhlIGdlbmVyYWwgcmVxdWlyZW1lbnRzIG9mIHRoZSB1c2Ugb2YgY3J5cHRvZ3JhcGh5IGZvciBhdXRoZW50aWNhdGlvbiBhbmQgZW5jcnlwdGlvbg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgZG9lcyBub3Qgc3BlY2lmeSBob3cgdGhlIHJlcXVpcmVtZW50cyBpZGVudGlmaWVkIGNhbiBiZSBhc3Nlc3NlZCBieSBhbiBpbmRlcGVuZGVudCBwYXJ0eSwgaW5jbHVkaW5nIHJlcXVpcmVtZW50cyBmb3IgaW5mb3JtYXRpb24gdG8gYmUgbWFkZSBhdmFpbGFibGUgdG8gc3VjaCBpbmRlcGVuZGVudCBhc3Nlc3NvcnMsIG9yIHJlcXVpcmVtZW50cyBvbiBzdWNoIGFzc2Vzc29ycy4NClRoZSBwcmVzZW50IGRvY3VtZW50IGhvd2V2ZXIgcHJvdmlkZXMgYSBjaGVjay1saXN0IG9mIHRoZSBwb2xpY3kgcmVxdWlyZW1lbnRzIHNwZWNpZmljIHRvIFRTUCBpc3N1aW5nIGNlcnRpZmljYXRlcyAoYXMgZXhwcmVzc2VkIGluIHRoZSBwcmVzZW50IGRvY3VtZW50KSBpbmNsdWRpbmcgdGhlIGdlbmVyaWMgcmVxdWlyZW1lbnRzIHdoaWNoIGFyZSBpbmRlcGVuZGVudCBvZiB0aGUgdHlwZSBvZiBzZXJ2aWNlIChhcyBleHByZXNzZWQgaW4gRU4gMzE5IDQwMSkuDQpUaGUgcHJlc2VudCBkb2N1bWVudCBpbmNsdWRlcyBwcm92aXNpb25zIGNvbnNpc3RlbnQgd2l0aCB0aGUgcmVxdWlyZW1lbnRzIGZyb20gdGhlIENBQiBGb3J1bSBpbiBFVkNHIGFuZCBCUkcu
   language:
   - en
   script:

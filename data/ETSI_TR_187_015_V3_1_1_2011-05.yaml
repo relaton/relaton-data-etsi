@@ -46,24 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This document describes how to counteract the occurrence of Unsolicited
-    Communications (UC) in the NGN. This document will be a technical report (TR).
-    \r\nIt addresses the methodologies on preventing the terminating party from receiving
-    UC and also addresses the legal implications.\r\nIn the context of NGN scenario
-    definitions the applicability, effectiveness and architectural instantiation of
-    UC prevention methods are described.\r\nRelevant objectives and requirements will
-    be identified for extending the NGN architecture by signalling and security.\r\nThe
-    architectural enhancements on the NGN will be identified i.e.\r\n·Home networks,
-    focusing on interconnection from the CNG with the NGN and interaction between
-    the CNG and CND. \r\nAnd proposing UC detection & handling on the CNG.\r\n·Enterprise
-    networks, focusing in interconnection between the NGCN and the NGN and the interaction
-    between the UE and the NGCN and NGN. \r\nAnd proposing UC detection & handling
-    for NGCN devices\r\n·Single user scenario, focusing on interconnection between
-    the UE and the NGN. \r\nAnd proposing a UC detection & handling framework for
-    entities of the NGN.\r\nThe TR will be based and closely aligned with existing
-    and ongoing work within TISPAN and other SDOs with the goal to define a comprehensive
-    solution which could be applied in the whole NGN.\r\nNote:. PUC for IMS (mechanisms,
-    interconnection points, interfaces and protocols) shall not be described here."
+- content: !binary |-
+    VGhpcyBkb2N1bWVudCBkZXNjcmliZXMgaG93IHRvIGNvdW50ZXJhY3QgdGhlIG9jY3VycmVuY2Ugb2YgVW5zb2xpY2l0ZWQgQ29tbXVuaWNhdGlvbnMgKFVDKSBpbiB0aGUgTkdOLiBUaGlzIGRvY3VtZW50IHdpbGwgYmUgYSB0ZWNobmljYWwgcmVwb3J0IChUUikuIA0KSXQgYWRkcmVzc2VzIHRoZSBtZXRob2RvbG9naWVzIG9uIHByZXZlbnRpbmcgdGhlIHRlcm1pbmF0aW5nIHBhcnR5IGZyb20gcmVjZWl2aW5nIFVDIGFuZCBhbHNvIGFkZHJlc3NlcyB0aGUgbGVnYWwgaW1wbGljYXRpb25zLg0KSW4gdGhlIGNvbnRleHQgb2YgTkdOIHNjZW5hcmlvIGRlZmluaXRpb25zIHRoZSBhcHBsaWNhYmlsaXR5LCBlZmZlY3RpdmVuZXNzIGFuZCBhcmNoaXRlY3R1cmFsIGluc3RhbnRpYXRpb24gb2YgVUMgcHJldmVudGlvbiBtZXRob2RzIGFyZSBkZXNjcmliZWQuDQpSZWxldmFudCBvYmplY3RpdmVzIGFuZCByZXF1aXJlbWVudHMgd2lsbCBiZSBpZGVudGlmaWVkIGZvciBleHRlbmRpbmcgdGhlIE5HTiBhcmNoaXRlY3R1cmUgYnkgc2lnbmFsbGluZyBhbmQgc2VjdXJpdHkuDQpUaGUgYXJjaGl0ZWN0dXJhbCBlbmhhbmNlbWVudHMgb24gdGhlIE5HTiB3aWxsIGJlIGlkZW50aWZpZWQgaS5lLg0KwrdIb21lIG5ldHdvcmtzLCBmb2N1c2luZyBvbiBpbnRlcmNvbm5lY3Rpb24gZnJvbSB0aGUgQ05HIHdpdGggdGhlIE5HTiBhbmQgaW50ZXJhY3Rpb24gYmV0d2VlbiB0aGUgQ05HIGFuZCBDTkQuIA0KQW5kIHByb3Bvc2luZyBVQyBkZXRlY3Rpb24gJiBoYW5kbGluZyBvbiB0aGUgQ05HLg0KwrdFbnRlcnByaXNlIG5ldHdvcmtzLCBmb2N1c2luZyBpbiBpbnRlcmNvbm5lY3Rpb24gYmV0d2VlbiB0aGUgTkdDTiBhbmQgdGhlIE5HTiBhbmQgdGhlIGludGVyYWN0aW9uIGJldHdlZW4gdGhlIFVFIGFuZCB0aGUgTkdDTiBhbmQgTkdOLiANCkFuZCBwcm9wb3NpbmcgVUMgZGV0ZWN0aW9uICYgaGFuZGxpbmcgZm9yIE5HQ04gZGV2aWNlcw0KwrdTaW5nbGUgdXNlciBzY2VuYXJpbywgZm9jdXNpbmcgb24gaW50ZXJjb25uZWN0aW9uIGJldHdlZW4gdGhlIFVFIGFuZCB0aGUgTkdOLiANCkFuZCBwcm9wb3NpbmcgYSBVQyBkZXRlY3Rpb24gJiBoYW5kbGluZyBmcmFtZXdvcmsgZm9yIGVudGl0aWVzIG9mIHRoZSBOR04uDQpUaGUgVFIgd2lsbCBiZSBiYXNlZCBhbmQgY2xvc2VseSBhbGlnbmVkIHdpdGggZXhpc3RpbmcgYW5kIG9uZ29pbmcgd29yayB3aXRoaW4gVElTUEFOIGFuZCBvdGhlciBTRE9zIHdpdGggdGhlIGdvYWwgdG8gZGVmaW5lIGEgY29tcHJlaGVuc2l2ZSBzb2x1dGlvbiB3aGljaCBjb3VsZCBiZSBhcHBsaWVkIGluIHRoZSB3aG9sZSBOR04uDQpOb3RlOi4gUFVDIGZvciBJTVMgKG1lY2hhbmlzbXMsIGludGVyY29ubmVjdGlvbiBwb2ludHMsIGludGVyZmFjZXMgYW5kIHByb3RvY29scykgc2hhbGwgbm90IGJlIGRlc2NyaWJlZCBoZXJlLg==
   language:
   - en
   script:

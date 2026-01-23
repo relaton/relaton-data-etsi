@@ -47,17 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The scope for this WI is to specify NORMATIVE rules for how to use the
-    Gq', Rq and Ia protocols as of TISPAN release 1. The usage of these protocols
-    between the following functional entities is covered by these rules. : \r\n·P-CSCF
-    and SPDF using Gq' \r\n·IBCF and SPDF using Gq'\r\n·SPDF and (C- and I-) BGF using
-    Ia\r\n·SPDF and A-RACF using Rq\r\nIn addition, to illustrate the usage of these
-    rules INFORMATIVE signalling flows between the above-listed entities  are within
-    the scope of this WI. \r\nNon-IMS AF entities are out of scope of this WI. Thus,
-    the rules for using the Gq', Rq and Ia protocols and the signalling flows provided
-    do NOT cover possible signalling scenarios for non-IMS applications. They describe
-    however basic principles for how parameters travel via these protocols for IMS,
-    which should be considered when using these protocols for non-IMS AF entities."
+- content: !binary |-
+    VGhlIHNjb3BlIGZvciB0aGlzIFdJIGlzIHRvIHNwZWNpZnkgTk9STUFUSVZFIHJ1bGVzIGZvciBob3cgdG8gdXNlIHRoZSBHcScsIFJxIGFuZCBJYSBwcm90b2NvbHMgYXMgb2YgVElTUEFOIHJlbGVhc2UgMS4gVGhlIHVzYWdlIG9mIHRoZXNlIHByb3RvY29scyBiZXR3ZWVuIHRoZSBmb2xsb3dpbmcgZnVuY3Rpb25hbCBlbnRpdGllcyBpcyBjb3ZlcmVkIGJ5IHRoZXNlIHJ1bGVzLiA6IA0KwrdQLUNTQ0YgYW5kIFNQREYgdXNpbmcgR3EnIA0KwrdJQkNGIGFuZCBTUERGIHVzaW5nIEdxJw0KwrdTUERGIGFuZCAoQy0gYW5kIEktKSBCR0YgdXNpbmcgSWENCsK3U1BERiBhbmQgQS1SQUNGIHVzaW5nIFJxDQpJbiBhZGRpdGlvbiwgdG8gaWxsdXN0cmF0ZSB0aGUgdXNhZ2Ugb2YgdGhlc2UgcnVsZXMgSU5GT1JNQVRJVkUgc2lnbmFsbGluZyBmbG93cyBiZXR3ZWVuIHRoZSBhYm92ZS1saXN0ZWQgZW50aXRpZXMgIGFyZSB3aXRoaW4gdGhlIHNjb3BlIG9mIHRoaXMgV0kuIA0KTm9uLUlNUyBBRiBlbnRpdGllcyBhcmUgb3V0IG9mIHNjb3BlIG9mIHRoaXMgV0kuIFRodXMsIHRoZSBydWxlcyBmb3IgdXNpbmcgdGhlIEdxJywgUnEgYW5kIElhIHByb3RvY29scyBhbmQgdGhlIHNpZ25hbGxpbmcgZmxvd3MgcHJvdmlkZWQgZG8gTk9UIGNvdmVyIHBvc3NpYmxlIHNpZ25hbGxpbmcgc2NlbmFyaW9zIGZvciBub24tSU1TIGFwcGxpY2F0aW9ucy4gVGhleSBkZXNjcmliZSBob3dldmVyIGJhc2ljIHByaW5jaXBsZXMgZm9yIGhvdyBwYXJhbWV0ZXJzIHRyYXZlbCB2aWEgdGhlc2UgcHJvdG9jb2xzIGZvciBJTVMsIHdoaWNoIHNob3VsZCBiZSBjb25zaWRlcmVkIHdoZW4gdXNpbmcgdGhlc2UgcHJvdG9jb2xzIGZvciBub24tSU1TIEFGIGVudGl0aWVzLg==
   language:
   - en
   script:

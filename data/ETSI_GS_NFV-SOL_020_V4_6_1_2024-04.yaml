@@ -47,18 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-SOL 020 provides bug fixes and other improvements
-    as a Release 4 maintenance version of the document, starting with NFVSOL(23)000393.
-    The scope of the former edition is summarized hereafter:\r\n\r\nThe work item
-    will specify the service interfaces to fulfill the functional requirement of the
-    container infrastructure service cluster management (CIS Cluster Management, or
-    CCM in abbreviation) as specified by ETSI GS NFV-IFA 036. It will analyze the
-    NFV object model for CIS cluster management and the managed objects of the referenced
-    open-source solutions (e.g. Kubernetes® cluster API) and provide a mapping between
-    them. Based on the analysis results, the referenced solutions will be profiled
-    for specifying the CIS cluster lifecycle, configuration, performance, fault and
-    security management service interfaces. The resulting deliverable will contain
-    normative provisions."
+- content: !binary |-
+    VGhpcyByZXZpc2lvbiBvZiBORlYtU09MIDAyMCBwcm92aWRlcyBidWcgZml4ZXMgYW5kIG90aGVyIGltcHJvdmVtZW50cyBhcyBhIFJlbGVhc2UgNCBtYWludGVuYW5jZSB2ZXJzaW9uIG9mIHRoZSBkb2N1bWVudCwgc3RhcnRpbmcgd2l0aCBORlZTT0woMjMpMDAwMzkzLiBUaGUgc2NvcGUgb2YgdGhlIGZvcm1lciBlZGl0aW9uIGlzIHN1bW1hcml6ZWQgaGVyZWFmdGVyOg0KDQpUaGUgd29yayBpdGVtIHdpbGwgc3BlY2lmeSB0aGUgc2VydmljZSBpbnRlcmZhY2VzIHRvIGZ1bGZpbGwgdGhlIGZ1bmN0aW9uYWwgcmVxdWlyZW1lbnQgb2YgdGhlIGNvbnRhaW5lciBpbmZyYXN0cnVjdHVyZSBzZXJ2aWNlIGNsdXN0ZXIgbWFuYWdlbWVudCAoQ0lTIENsdXN0ZXIgTWFuYWdlbWVudCwgb3IgQ0NNIGluIGFiYnJldmlhdGlvbikgYXMgc3BlY2lmaWVkIGJ5IEVUU0kgR1MgTkZWLUlGQSAwMzYuIEl0IHdpbGwgYW5hbHl6ZSB0aGUgTkZWIG9iamVjdCBtb2RlbCBmb3IgQ0lTIGNsdXN0ZXIgbWFuYWdlbWVudCBhbmQgdGhlIG1hbmFnZWQgb2JqZWN0cyBvZiB0aGUgcmVmZXJlbmNlZCBvcGVuLXNvdXJjZSBzb2x1dGlvbnMgKGUuZy4gS3ViZXJuZXRlc8KuIGNsdXN0ZXIgQVBJKSBhbmQgcHJvdmlkZSBhIG1hcHBpbmcgYmV0d2VlbiB0aGVtLiBCYXNlZCBvbiB0aGUgYW5hbHlzaXMgcmVzdWx0cywgdGhlIHJlZmVyZW5jZWQgc29sdXRpb25zIHdpbGwgYmUgcHJvZmlsZWQgZm9yIHNwZWNpZnlpbmcgdGhlIENJUyBjbHVzdGVyIGxpZmVjeWNsZSwgY29uZmlndXJhdGlvbiwgcGVyZm9ybWFuY2UsIGZhdWx0IGFuZCBzZWN1cml0eSBtYW5hZ2VtZW50IHNlcnZpY2UgaW50ZXJmYWNlcy4gVGhlIHJlc3VsdGluZyBkZWxpdmVyYWJsZSB3aWxsIGNvbnRhaW4gbm9ybWF0aXZlIHByb3Zpc2lvbnMu
   language:
   - en
   script:

@@ -46,22 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "•The scope of this work is the definition of an architecture and an Application
-    Programming Interface (API) for supporting A/B forensic watermarking for Over-The-Top
-    (OTT) on content that is delivered in an Adaptive Bitrate (ABR) format. To the
-    possible extend, the proposed solutions do not make assumptions on the ABR technology
-    that is being used, it can be for example, DASH or HLS. A/B forensic watermarking
-    means that at least two watermarked versions of content (variant A and variant
-    B) are delivered up to a CDN edge server from the encoder. The edge server is
-    responsible for delivering either the A or B variant of every segment to the device.\r\n•\tWhile
-    digital watermarking can be used for different use cases, this work will focus
-    on forensic use cases. In this context, it is used to define the origin of content
-    leakage. The watermarking technology modifies media content in a robust and invisible
-    way in order to encode a unique identifier, e.g., a unique session ID. The embedded
-    watermark provides means to identify where the media content, that has been redistributed
-    without authorization, is coming from. In other words, the watermark is used to
-    forensically trace the origin of content leakage.\r\n•This work is carried out
-    under the PAS agreement between ETSI and DASH-IF\r\n"
+- content: !binary |-
+    4oCiVGhlIHNjb3BlIG9mIHRoaXMgd29yayBpcyB0aGUgZGVmaW5pdGlvbiBvZiBhbiBhcmNoaXRlY3R1cmUgYW5kIGFuIEFwcGxpY2F0aW9uIFByb2dyYW1taW5nIEludGVyZmFjZSAoQVBJKSBmb3Igc3VwcG9ydGluZyBBL0IgZm9yZW5zaWMgd2F0ZXJtYXJraW5nIGZvciBPdmVyLVRoZS1Ub3AgKE9UVCkgb24gY29udGVudCB0aGF0IGlzIGRlbGl2ZXJlZCBpbiBhbiBBZGFwdGl2ZSBCaXRyYXRlIChBQlIpIGZvcm1hdC4gVG8gdGhlIHBvc3NpYmxlIGV4dGVuZCwgdGhlIHByb3Bvc2VkIHNvbHV0aW9ucyBkbyBub3QgbWFrZSBhc3N1bXB0aW9ucyBvbiB0aGUgQUJSIHRlY2hub2xvZ3kgdGhhdCBpcyBiZWluZyB1c2VkLCBpdCBjYW4gYmUgZm9yIGV4YW1wbGUsIERBU0ggb3IgSExTLiBBL0IgZm9yZW5zaWMgd2F0ZXJtYXJraW5nIG1lYW5zIHRoYXQgYXQgbGVhc3QgdHdvIHdhdGVybWFya2VkIHZlcnNpb25zIG9mIGNvbnRlbnQgKHZhcmlhbnQgQSBhbmQgdmFyaWFudCBCKSBhcmUgZGVsaXZlcmVkIHVwIHRvIGEgQ0ROIGVkZ2Ugc2VydmVyIGZyb20gdGhlIGVuY29kZXIuIFRoZSBlZGdlIHNlcnZlciBpcyByZXNwb25zaWJsZSBmb3IgZGVsaXZlcmluZyBlaXRoZXIgdGhlIEEgb3IgQiB2YXJpYW50IG9mIGV2ZXJ5IHNlZ21lbnQgdG8gdGhlIGRldmljZS4NCuKAoglXaGlsZSBkaWdpdGFsIHdhdGVybWFya2luZyBjYW4gYmUgdXNlZCBmb3IgZGlmZmVyZW50IHVzZSBjYXNlcywgdGhpcyB3b3JrIHdpbGwgZm9jdXMgb24gZm9yZW5zaWMgdXNlIGNhc2VzLiBJbiB0aGlzIGNvbnRleHQsIGl0IGlzIHVzZWQgdG8gZGVmaW5lIHRoZSBvcmlnaW4gb2YgY29udGVudCBsZWFrYWdlLiBUaGUgd2F0ZXJtYXJraW5nIHRlY2hub2xvZ3kgbW9kaWZpZXMgbWVkaWEgY29udGVudCBpbiBhIHJvYnVzdCBhbmQgaW52aXNpYmxlIHdheSBpbiBvcmRlciB0byBlbmNvZGUgYSB1bmlxdWUgaWRlbnRpZmllciwgZS5nLiwgYSB1bmlxdWUgc2Vzc2lvbiBJRC4gVGhlIGVtYmVkZGVkIHdhdGVybWFyayBwcm92aWRlcyBtZWFucyB0byBpZGVudGlmeSB3aGVyZSB0aGUgbWVkaWEgY29udGVudCwgdGhhdCBoYXMgYmVlbiByZWRpc3RyaWJ1dGVkIHdpdGhvdXQgYXV0aG9yaXphdGlvbiwgaXMgY29taW5nIGZyb20uIEluIG90aGVyIHdvcmRzLCB0aGUgd2F0ZXJtYXJrIGlzIHVzZWQgdG8gZm9yZW5zaWNhbGx5IHRyYWNlIHRoZSBvcmlnaW4gb2YgY29udGVudCBsZWFrYWdlLg0K4oCiVGhpcyB3b3JrIGlzIGNhcnJpZWQgb3V0IHVuZGVyIHRoZSBQQVMgYWdyZWVtZW50IGJldHdlZW4gRVRTSSBhbmQgREFTSC1JRg0K
   language:
   - en
   script:

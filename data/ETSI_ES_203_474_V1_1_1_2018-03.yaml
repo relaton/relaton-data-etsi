@@ -47,21 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The deliverable aims at defining interface and architecture for injecting
-    renewable energy and distributed power sources (generators such as gas fuel cell,
-    external DC microgrid, …) into an up to 400V power system as defined in ITU-T
-    L.architecture and compliant with ETSI EN 300 132-3-1.\r\n\r\nThe scope covers
-    different items: \r\n-General power architectures, with or without 48V and AC
-    distribution in sites \r\n-Which conditions to maintain up to 400V power system
-    stability, reliability, proper battery charge and management, lightning protection
-    coordination, EMC and transient limits\r\n-Specification of proper power sizing
-    \r\n-Interface between the DC power system and the external sources (renewable
-    energy, local fuel cells, distributed   power of a DC micro-grid)\r\n-Requirement
-    for control-monitoring-metering\r\n-Assessment of performances: AC grid energy
-    saving, reliability, flexibility,  environmental impact, …\r\n\r\nIt does not
-    include the detailed specification and sizing of renewable generators, fuel cells
-    and of distributed power sources.\r\n\r\n------ Joint activity with ITU-T SG5/WP3
-    in SQ19/5 with reference L.renewable -------"
+- content: !binary |-
+    VGhlIGRlbGl2ZXJhYmxlIGFpbXMgYXQgZGVmaW5pbmcgaW50ZXJmYWNlIGFuZCBhcmNoaXRlY3R1cmUgZm9yIGluamVjdGluZyByZW5ld2FibGUgZW5lcmd5IGFuZCBkaXN0cmlidXRlZCBwb3dlciBzb3VyY2VzIChnZW5lcmF0b3JzIHN1Y2ggYXMgZ2FzIGZ1ZWwgY2VsbCwgZXh0ZXJuYWwgREMgbWljcm9ncmlkLCDigKYpIGludG8gYW4gdXAgdG8gNDAwViBwb3dlciBzeXN0ZW0gYXMgZGVmaW5lZCBpbiBJVFUtVCBMLmFyY2hpdGVjdHVyZSBhbmQgY29tcGxpYW50IHdpdGggRVRTSSBFTiAzMDAgMTMyLTMtMS4NCg0KVGhlIHNjb3BlIGNvdmVycyBkaWZmZXJlbnQgaXRlbXM6IA0KLUdlbmVyYWwgcG93ZXIgYXJjaGl0ZWN0dXJlcywgd2l0aCBvciB3aXRob3V0IDQ4ViBhbmQgQUMgZGlzdHJpYnV0aW9uIGluIHNpdGVzIA0KLVdoaWNoIGNvbmRpdGlvbnMgdG8gbWFpbnRhaW4gdXAgdG8gNDAwViBwb3dlciBzeXN0ZW0gc3RhYmlsaXR5LCByZWxpYWJpbGl0eSwgcHJvcGVyIGJhdHRlcnkgY2hhcmdlIGFuZCBtYW5hZ2VtZW50LCBsaWdodG5pbmcgcHJvdGVjdGlvbiBjb29yZGluYXRpb24sIEVNQyBhbmQgdHJhbnNpZW50IGxpbWl0cw0KLVNwZWNpZmljYXRpb24gb2YgcHJvcGVyIHBvd2VyIHNpemluZyANCi1JbnRlcmZhY2UgYmV0d2VlbiB0aGUgREMgcG93ZXIgc3lzdGVtIGFuZCB0aGUgZXh0ZXJuYWwgc291cmNlcyAocmVuZXdhYmxlIGVuZXJneSwgbG9jYWwgZnVlbCBjZWxscywgZGlzdHJpYnV0ZWQgICBwb3dlciBvZiBhIERDIG1pY3JvLWdyaWQpDQotUmVxdWlyZW1lbnQgZm9yIGNvbnRyb2wtbW9uaXRvcmluZy1tZXRlcmluZw0KLUFzc2Vzc21lbnQgb2YgcGVyZm9ybWFuY2VzOiBBQyBncmlkIGVuZXJneSBzYXZpbmcsIHJlbGlhYmlsaXR5LCBmbGV4aWJpbGl0eSwgIGVudmlyb25tZW50YWwgaW1wYWN0LCDigKYNCg0KSXQgZG9lcyBub3QgaW5jbHVkZSB0aGUgZGV0YWlsZWQgc3BlY2lmaWNhdGlvbiBhbmQgc2l6aW5nIG9mIHJlbmV3YWJsZSBnZW5lcmF0b3JzLCBmdWVsIGNlbGxzIGFuZCBvZiBkaXN0cmlidXRlZCBwb3dlciBzb3VyY2VzLg0KDQotLS0tLS0gSm9pbnQgYWN0aXZpdHkgd2l0aCBJVFUtVCBTRzUvV1AzIGluIFNRMTkvNSB3aXRoIHJlZmVyZW5jZSBMLnJlbmV3YWJsZSAtLS0tLS0t
   language:
   - en
   script:

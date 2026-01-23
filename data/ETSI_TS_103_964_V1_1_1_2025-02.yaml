@@ -46,18 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "W3C “Verifiable Credentials” (VCs) is an open standard for digital credentials.
-    A verifiable credential is a tamper-evident credential with authorship that can
-    be cryptographically verified. \r\n\r\nThe W3C standard intentionally does not
-    specify a single verification (“proof”) method, but expects several methods to
-    mature independently and become standardized in time. To guarantee interoperability,
-    W3C maintains a registry of proof mechanisms (including several “experimental”
-    ones) known as Verifiable Credentials Extension Registry.\r\n\r\nThis work item
-    will define a new proof method via a challenge-response authentication protocol
-    based on Ciphertext Policy Attribute-Based Encryption (CP-ABE). In this proof
-    method, CP-ABE keys encode attributes, while the expressiveness of CP-ABE policies
-    enables their selective disclosure and/or proof of predicates over them. Relationship
-    with existing “Zero Knowledge Proof” methods will be highlighted.\r\n"
+- content: !binary |-
+    VzNDIOKAnFZlcmlmaWFibGUgQ3JlZGVudGlhbHPigJ0gKFZDcykgaXMgYW4gb3BlbiBzdGFuZGFyZCBmb3IgZGlnaXRhbCBjcmVkZW50aWFscy4gQSB2ZXJpZmlhYmxlIGNyZWRlbnRpYWwgaXMgYSB0YW1wZXItZXZpZGVudCBjcmVkZW50aWFsIHdpdGggYXV0aG9yc2hpcCB0aGF0IGNhbiBiZSBjcnlwdG9ncmFwaGljYWxseSB2ZXJpZmllZC4gDQoNClRoZSBXM0Mgc3RhbmRhcmQgaW50ZW50aW9uYWxseSBkb2VzIG5vdCBzcGVjaWZ5IGEgc2luZ2xlIHZlcmlmaWNhdGlvbiAo4oCccHJvb2bigJ0pIG1ldGhvZCwgYnV0IGV4cGVjdHMgc2V2ZXJhbCBtZXRob2RzIHRvIG1hdHVyZSBpbmRlcGVuZGVudGx5IGFuZCBiZWNvbWUgc3RhbmRhcmRpemVkIGluIHRpbWUuIFRvIGd1YXJhbnRlZSBpbnRlcm9wZXJhYmlsaXR5LCBXM0MgbWFpbnRhaW5zIGEgcmVnaXN0cnkgb2YgcHJvb2YgbWVjaGFuaXNtcyAoaW5jbHVkaW5nIHNldmVyYWwg4oCcZXhwZXJpbWVudGFs4oCdIG9uZXMpIGtub3duIGFzIFZlcmlmaWFibGUgQ3JlZGVudGlhbHMgRXh0ZW5zaW9uIFJlZ2lzdHJ5Lg0KDQpUaGlzIHdvcmsgaXRlbSB3aWxsIGRlZmluZSBhIG5ldyBwcm9vZiBtZXRob2QgdmlhIGEgY2hhbGxlbmdlLXJlc3BvbnNlIGF1dGhlbnRpY2F0aW9uIHByb3RvY29sIGJhc2VkIG9uIENpcGhlcnRleHQgUG9saWN5IEF0dHJpYnV0ZS1CYXNlZCBFbmNyeXB0aW9uIChDUC1BQkUpLiBJbiB0aGlzIHByb29mIG1ldGhvZCwgQ1AtQUJFIGtleXMgZW5jb2RlIGF0dHJpYnV0ZXMsIHdoaWxlIHRoZSBleHByZXNzaXZlbmVzcyBvZiBDUC1BQkUgcG9saWNpZXMgZW5hYmxlcyB0aGVpciBzZWxlY3RpdmUgZGlzY2xvc3VyZSBhbmQvb3IgcHJvb2Ygb2YgcHJlZGljYXRlcyBvdmVyIHRoZW0uIFJlbGF0aW9uc2hpcCB3aXRoIGV4aXN0aW5nIOKAnFplcm8gS25vd2xlZGdlIFByb29m4oCdIG1ldGhvZHMgd2lsbCBiZSBoaWdobGlnaHRlZC4NCg==
   language:
   - en
   script:

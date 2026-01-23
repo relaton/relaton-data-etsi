@@ -46,18 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Technical Report (TR) will focus on the characteristics, benefits and
-    limitations of processor power management features in deployment situations, taking
-    into account the work done in TGG.\r\n\r\nServer power management features will
-    also be available for system fans, memory, storage, Graphic Processing Units and
-    I/O components. Their combined implementation introduces greater complexity and
-    requires a higher level of integration with the server’s platform firmware and
-    operating system. The component power management is beyond the scope of this report.\r\n\r\nThis
-    TR will provide a brief overview of CPU P-states and C-states, test data detailing
-    the power demand reductions achieved by different power management implementations,
-    the measured active state energy efficiency improvements, and the performance
-    and exit latency impacts of server power management features. \r\n\r\nThe TR only
-    addresses the current state of these technologies"
+- content: !binary |-
+    VGVjaG5pY2FsIFJlcG9ydCAoVFIpIHdpbGwgZm9jdXMgb24gdGhlIGNoYXJhY3RlcmlzdGljcywgYmVuZWZpdHMgYW5kIGxpbWl0YXRpb25zIG9mIHByb2Nlc3NvciBwb3dlciBtYW5hZ2VtZW50IGZlYXR1cmVzIGluIGRlcGxveW1lbnQgc2l0dWF0aW9ucywgdGFraW5nIGludG8gYWNjb3VudCB0aGUgd29yayBkb25lIGluIFRHRy4NCg0KU2VydmVyIHBvd2VyIG1hbmFnZW1lbnQgZmVhdHVyZXMgd2lsbCBhbHNvIGJlIGF2YWlsYWJsZSBmb3Igc3lzdGVtIGZhbnMsIG1lbW9yeSwgc3RvcmFnZSwgR3JhcGhpYyBQcm9jZXNzaW5nIFVuaXRzIGFuZCBJL08gY29tcG9uZW50cy4gVGhlaXIgY29tYmluZWQgaW1wbGVtZW50YXRpb24gaW50cm9kdWNlcyBncmVhdGVyIGNvbXBsZXhpdHkgYW5kIHJlcXVpcmVzIGEgaGlnaGVyIGxldmVsIG9mIGludGVncmF0aW9uIHdpdGggdGhlIHNlcnZlcuKAmXMgcGxhdGZvcm0gZmlybXdhcmUgYW5kIG9wZXJhdGluZyBzeXN0ZW0uIFRoZSBjb21wb25lbnQgcG93ZXIgbWFuYWdlbWVudCBpcyBiZXlvbmQgdGhlIHNjb3BlIG9mIHRoaXMgcmVwb3J0Lg0KDQpUaGlzIFRSIHdpbGwgcHJvdmlkZSBhIGJyaWVmIG92ZXJ2aWV3IG9mIENQVSBQLXN0YXRlcyBhbmQgQy1zdGF0ZXMsIHRlc3QgZGF0YSBkZXRhaWxpbmcgdGhlIHBvd2VyIGRlbWFuZCByZWR1Y3Rpb25zIGFjaGlldmVkIGJ5IGRpZmZlcmVudCBwb3dlciBtYW5hZ2VtZW50IGltcGxlbWVudGF0aW9ucywgdGhlIG1lYXN1cmVkIGFjdGl2ZSBzdGF0ZSBlbmVyZ3kgZWZmaWNpZW5jeSBpbXByb3ZlbWVudHMsIGFuZCB0aGUgcGVyZm9ybWFuY2UgYW5kIGV4aXQgbGF0ZW5jeSBpbXBhY3RzIG9mIHNlcnZlciBwb3dlciBtYW5hZ2VtZW50IGZlYXR1cmVzLiANCg0KVGhlIFRSIG9ubHkgYWRkcmVzc2VzIHRoZSBjdXJyZW50IHN0YXRlIG9mIHRoZXNlIHRlY2hub2xvZ2llcw==
   language:
   - en
   script:

@@ -46,18 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The scope of this work item is to: \r\n 1) Address   - Requirements on
-    the hypervisor to enable use of a stand-alone (*) vswitch  \r\n - Support of VNF(C)
-    live migration. \r\n 2) Restructure/rewrite the existing text to clearly distinguish
-    between normative requirements to be fulfilled by the hypervisor domain and other
-    informative material (e.g. best practices)\r\n 3)  Update the state-of-the-art
-    (e;g. options for vswitch implementations) and identification of challenges, based
-    on industry progress and lessons learnt from the PoCs. \r\n4) Update the document
-    to align with the “vSwitch Benchmarking and Acceleration” deliverable \r\n\r\n
-    (*) In the above context, “stand-alone” refers to a vswitch whose lifecycle events
-    (restart, upgrade…) do not directly impact virtual machines and that can be provided
-    by software vendor independent from the hypervisor provider\r\n\r\nThe deliverable
-    will contain normative provisions.\r\n"
+- content: !binary |-
+    VGhlIHNjb3BlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvOiANCiAxKSBBZGRyZXNzICAgLSBSZXF1aXJlbWVudHMgb24gdGhlIGh5cGVydmlzb3IgdG8gZW5hYmxlIHVzZSBvZiBhIHN0YW5kLWFsb25lICgqKSB2c3dpdGNoICANCiAtIFN1cHBvcnQgb2YgVk5GKEMpIGxpdmUgbWlncmF0aW9uLiANCiAyKSBSZXN0cnVjdHVyZS9yZXdyaXRlIHRoZSBleGlzdGluZyB0ZXh0IHRvIGNsZWFybHkgZGlzdGluZ3Vpc2ggYmV0d2VlbiBub3JtYXRpdmUgcmVxdWlyZW1lbnRzIHRvIGJlIGZ1bGZpbGxlZCBieSB0aGUgaHlwZXJ2aXNvciBkb21haW4gYW5kIG90aGVyIGluZm9ybWF0aXZlIG1hdGVyaWFsIChlLmcuIGJlc3QgcHJhY3RpY2VzKQ0KIDMpICBVcGRhdGUgdGhlIHN0YXRlLW9mLXRoZS1hcnQgKGU7Zy4gb3B0aW9ucyBmb3IgdnN3aXRjaCBpbXBsZW1lbnRhdGlvbnMpIGFuZCBpZGVudGlmaWNhdGlvbiBvZiBjaGFsbGVuZ2VzLCBiYXNlZCBvbiBpbmR1c3RyeSBwcm9ncmVzcyBhbmQgbGVzc29ucyBsZWFybnQgZnJvbSB0aGUgUG9Dcy4gDQo0KSBVcGRhdGUgdGhlIGRvY3VtZW50IHRvIGFsaWduIHdpdGggdGhlIOKAnHZTd2l0Y2ggQmVuY2htYXJraW5nIGFuZCBBY2NlbGVyYXRpb27igJ0gZGVsaXZlcmFibGUgDQoNCiAoKikgSW4gdGhlIGFib3ZlIGNvbnRleHQsIOKAnHN0YW5kLWFsb25l4oCdIHJlZmVycyB0byBhIHZzd2l0Y2ggd2hvc2UgbGlmZWN5Y2xlIGV2ZW50cyAocmVzdGFydCwgdXBncmFkZeKApikgZG8gbm90IGRpcmVjdGx5IGltcGFjdCB2aXJ0dWFsIG1hY2hpbmVzIGFuZCB0aGF0IGNhbiBiZSBwcm92aWRlZCBieSBzb2Z0d2FyZSB2ZW5kb3IgaW5kZXBlbmRlbnQgZnJvbSB0aGUgaHlwZXJ2aXNvciBwcm92aWRlcg0KDQpUaGUgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIG5vcm1hdGl2ZSBwcm92aXNpb25zLg0K
   language:
   - en
   script:

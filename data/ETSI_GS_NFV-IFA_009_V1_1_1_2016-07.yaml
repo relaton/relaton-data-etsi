@@ -46,22 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The WI is an architecture study that shall: \r\n•\toutline clearly a set
-    of possible functional/architectural options\r\n•\tanalyse the impact of different
-    interactions between some functional blocks in the NFV architectural framework
-    (EM, VNF, OSS) and NFV-MANO functional blocks (NFVO, VNFM, VIM) on the functional
-    partitioning/distribution/consolidation of functionality amongst NFV-MANO functional
-    blocks\r\n•\tanalyse the scope of the VNFM and NFVO and clarify the difference
-    and impact, if any,  of separating VNFM from the NFVO versus having those functionalities
-    combined\r\n•\tanalyse the impact of centralized versus distributed VNFM functionality\r\n•\tanalyze
-    and outline functional/architectural impact of separating versus combining the
-    two broad functions of the NFVO (Network Service Orchestration and Resource Orchestration);
-    \r\n•\tanalyze and outline functional/architectural options of VNFM, NFVO, VIM
-    to support operations across administrative domains boundaries and identify the
-    necessary interfaces.\r\n•\tidentify for each architectural option views of usage
-    of the interfaces and functional blocks, and which management interfaces are significant\r\n•\tprovide
-    valuable insights for consideration by other normative work on NFV architecture
-    and interfaces\r\n The WI deliverable shall be informative.\r\n"
+- content: !binary |-
+    VGhlIFdJIGlzIGFuIGFyY2hpdGVjdHVyZSBzdHVkeSB0aGF0IHNoYWxsOiANCuKAoglvdXRsaW5lIGNsZWFybHkgYSBzZXQgb2YgcG9zc2libGUgZnVuY3Rpb25hbC9hcmNoaXRlY3R1cmFsIG9wdGlvbnMNCuKAoglhbmFseXNlIHRoZSBpbXBhY3Qgb2YgZGlmZmVyZW50IGludGVyYWN0aW9ucyBiZXR3ZWVuIHNvbWUgZnVuY3Rpb25hbCBibG9ja3MgaW4gdGhlIE5GViBhcmNoaXRlY3R1cmFsIGZyYW1ld29yayAoRU0sIFZORiwgT1NTKSBhbmQgTkZWLU1BTk8gZnVuY3Rpb25hbCBibG9ja3MgKE5GVk8sIFZORk0sIFZJTSkgb24gdGhlIGZ1bmN0aW9uYWwgcGFydGl0aW9uaW5nL2Rpc3RyaWJ1dGlvbi9jb25zb2xpZGF0aW9uIG9mIGZ1bmN0aW9uYWxpdHkgYW1vbmdzdCBORlYtTUFOTyBmdW5jdGlvbmFsIGJsb2Nrcw0K4oCiCWFuYWx5c2UgdGhlIHNjb3BlIG9mIHRoZSBWTkZNIGFuZCBORlZPIGFuZCBjbGFyaWZ5IHRoZSBkaWZmZXJlbmNlIGFuZCBpbXBhY3QsIGlmIGFueSwgIG9mIHNlcGFyYXRpbmcgVk5GTSBmcm9tIHRoZSBORlZPIHZlcnN1cyBoYXZpbmcgdGhvc2UgZnVuY3Rpb25hbGl0aWVzIGNvbWJpbmVkDQrigKIJYW5hbHlzZSB0aGUgaW1wYWN0IG9mIGNlbnRyYWxpemVkIHZlcnN1cyBkaXN0cmlidXRlZCBWTkZNIGZ1bmN0aW9uYWxpdHkNCuKAoglhbmFseXplIGFuZCBvdXRsaW5lIGZ1bmN0aW9uYWwvYXJjaGl0ZWN0dXJhbCBpbXBhY3Qgb2Ygc2VwYXJhdGluZyB2ZXJzdXMgY29tYmluaW5nIHRoZSB0d28gYnJvYWQgZnVuY3Rpb25zIG9mIHRoZSBORlZPIChOZXR3b3JrIFNlcnZpY2UgT3JjaGVzdHJhdGlvbiBhbmQgUmVzb3VyY2UgT3JjaGVzdHJhdGlvbik7IA0K4oCiCWFuYWx5emUgYW5kIG91dGxpbmUgZnVuY3Rpb25hbC9hcmNoaXRlY3R1cmFsIG9wdGlvbnMgb2YgVk5GTSwgTkZWTywgVklNIHRvIHN1cHBvcnQgb3BlcmF0aW9ucyBhY3Jvc3MgYWRtaW5pc3RyYXRpdmUgZG9tYWlucyBib3VuZGFyaWVzIGFuZCBpZGVudGlmeSB0aGUgbmVjZXNzYXJ5IGludGVyZmFjZXMuDQrigKIJaWRlbnRpZnkgZm9yIGVhY2ggYXJjaGl0ZWN0dXJhbCBvcHRpb24gdmlld3Mgb2YgdXNhZ2Ugb2YgdGhlIGludGVyZmFjZXMgYW5kIGZ1bmN0aW9uYWwgYmxvY2tzLCBhbmQgd2hpY2ggbWFuYWdlbWVudCBpbnRlcmZhY2VzIGFyZSBzaWduaWZpY2FudA0K4oCiCXByb3ZpZGUgdmFsdWFibGUgaW5zaWdodHMgZm9yIGNvbnNpZGVyYXRpb24gYnkgb3RoZXIgbm9ybWF0aXZlIHdvcmsgb24gTkZWIGFyY2hpdGVjdHVyZSBhbmQgaW50ZXJmYWNlcw0KIFRoZSBXSSBkZWxpdmVyYWJsZSBzaGFsbCBiZSBpbmZvcm1hdGl2ZS4NCg==
   language:
   - en
   script:

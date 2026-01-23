@@ -46,20 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The present document specifies Associated Signature Containers which bind
-    together into one single digital container based on ZIP either detached digital
-    signatures, time-assertions, with a number of data objects (e.g. documents, XML
-    structured data, spreadsheet, multimedia content) to which they apply.\r\nThe
-    present document specifies the ASiC building blocks and a baseline profile.\r\nThe
-    ASiC baseline profile supports the following signature, time assertion formats:\r\n•\tCAdES
-    baseline signatures;\r\n•\tXAdES baseline signatures;\r\n•\tRFC 3161 time-stamp
-    tokens; and \r\n•\tRFC 4998 or RFC 6283 evidence records.\r\nNOTE:\tNo restriction
-    is placed on time assertions eventually used within CAdES/XAdES.\r\nNew elements
-    are defined in the present document to support additional features such as time-stamping
-    and CAdES signing of multiple content and XAdES parallel signatures that can be
-    used in other contexts.\r\nThe present document does not address the identification
-    of the validation policy to be used for verifying a container that contains time-stamp
-    assertions.\r\n"
+- content: !binary |-
+    VGhlIHByZXNlbnQgZG9jdW1lbnQgc3BlY2lmaWVzIEFzc29jaWF0ZWQgU2lnbmF0dXJlIENvbnRhaW5lcnMgd2hpY2ggYmluZCB0b2dldGhlciBpbnRvIG9uZSBzaW5nbGUgZGlnaXRhbCBjb250YWluZXIgYmFzZWQgb24gWklQIGVpdGhlciBkZXRhY2hlZCBkaWdpdGFsIHNpZ25hdHVyZXMsIHRpbWUtYXNzZXJ0aW9ucywgd2l0aCBhIG51bWJlciBvZiBkYXRhIG9iamVjdHMgKGUuZy4gZG9jdW1lbnRzLCBYTUwgc3RydWN0dXJlZCBkYXRhLCBzcHJlYWRzaGVldCwgbXVsdGltZWRpYSBjb250ZW50KSB0byB3aGljaCB0aGV5IGFwcGx5Lg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgc3BlY2lmaWVzIHRoZSBBU2lDIGJ1aWxkaW5nIGJsb2NrcyBhbmQgYSBiYXNlbGluZSBwcm9maWxlLg0KVGhlIEFTaUMgYmFzZWxpbmUgcHJvZmlsZSBzdXBwb3J0cyB0aGUgZm9sbG93aW5nIHNpZ25hdHVyZSwgdGltZSBhc3NlcnRpb24gZm9ybWF0czoNCuKAoglDQWRFUyBiYXNlbGluZSBzaWduYXR1cmVzOw0K4oCiCVhBZEVTIGJhc2VsaW5lIHNpZ25hdHVyZXM7DQrigKIJUkZDIDMxNjEgdGltZS1zdGFtcCB0b2tlbnM7IGFuZCANCuKAoglSRkMgNDk5OCBvciBSRkMgNjI4MyBldmlkZW5jZSByZWNvcmRzLg0KTk9URToJTm8gcmVzdHJpY3Rpb24gaXMgcGxhY2VkIG9uIHRpbWUgYXNzZXJ0aW9ucyBldmVudHVhbGx5IHVzZWQgd2l0aGluIENBZEVTL1hBZEVTLg0KTmV3IGVsZW1lbnRzIGFyZSBkZWZpbmVkIGluIHRoZSBwcmVzZW50IGRvY3VtZW50IHRvIHN1cHBvcnQgYWRkaXRpb25hbCBmZWF0dXJlcyBzdWNoIGFzIHRpbWUtc3RhbXBpbmcgYW5kIENBZEVTIHNpZ25pbmcgb2YgbXVsdGlwbGUgY29udGVudCBhbmQgWEFkRVMgcGFyYWxsZWwgc2lnbmF0dXJlcyB0aGF0IGNhbiBiZSB1c2VkIGluIG90aGVyIGNvbnRleHRzLg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgZG9lcyBub3QgYWRkcmVzcyB0aGUgaWRlbnRpZmljYXRpb24gb2YgdGhlIHZhbGlkYXRpb24gcG9saWN5IHRvIGJlIHVzZWQgZm9yIHZlcmlmeWluZyBhIGNvbnRhaW5lciB0aGF0IGNvbnRhaW5zIHRpbWUtc3RhbXAgYXNzZXJ0aW9ucy4NCg==
   language:
   - en
   script:

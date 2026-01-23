@@ -46,26 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "•The main requirements for the work are documented in TR 102 535.  The
-    work item shall address results from DTR/HF-00061 and DEG/HF-00062 that could
-    not be included in EG 202 534 because they were beyond its scope.  In particular,
-    case studies with target audiences identified requests for at least 75 candidate
-    guidelines that could not be included in EG 202 534 because either there was no
-    base data available or they concerned real-time person-to-machine communication
-    rather than person-to-person communication.  Therefore work shall be performed
-    to collect base data (e.g. literature review and user tests) and include real-time
-    person-to-machine communication services (e.g. media quality for mobile TV streaming,
-    machine avatars).\r\nThe work includes special user groups.  For example, it is
-    expected to include guidelines from ongoing work on the optimisation of real-time
-    text communication for people who are hearing impaired.\r\nIn summary the work
-    shall include: continuing contact with intended guideline users within industry
-    for their requirements and feedback; identifying the set of guidelines that should
-    be developed; monitoring published research findings for inclusion as guidelines;
-    performing end-user studies to create guidelines; revising EG 202 534 as a new
-    Guide.\r\nThe guidelines shall be used to extend the web-based system initiated
-    by DEG/HF-0062 and designed to be appropriate for key industry representatives
-    (e.g. strategic planners, development engineers, customer support contacts, conference
-    meeting facilitators)."
+- content: !binary |-
+    4oCiVGhlIG1haW4gcmVxdWlyZW1lbnRzIGZvciB0aGUgd29yayBhcmUgZG9jdW1lbnRlZCBpbiBUUiAxMDIgNTM1LiAgVGhlIHdvcmsgaXRlbSBzaGFsbCBhZGRyZXNzIHJlc3VsdHMgZnJvbSBEVFIvSEYtMDAwNjEgYW5kIERFRy9IRi0wMDA2MiB0aGF0IGNvdWxkIG5vdCBiZSBpbmNsdWRlZCBpbiBFRyAyMDIgNTM0IGJlY2F1c2UgdGhleSB3ZXJlIGJleW9uZCBpdHMgc2NvcGUuICBJbiBwYXJ0aWN1bGFyLCBjYXNlIHN0dWRpZXMgd2l0aCB0YXJnZXQgYXVkaWVuY2VzIGlkZW50aWZpZWQgcmVxdWVzdHMgZm9yIGF0IGxlYXN0IDc1IGNhbmRpZGF0ZSBndWlkZWxpbmVzIHRoYXQgY291bGQgbm90IGJlIGluY2x1ZGVkIGluIEVHIDIwMiA1MzQgYmVjYXVzZSBlaXRoZXIgdGhlcmUgd2FzIG5vIGJhc2UgZGF0YSBhdmFpbGFibGUgb3IgdGhleSBjb25jZXJuZWQgcmVhbC10aW1lIHBlcnNvbi10by1tYWNoaW5lIGNvbW11bmljYXRpb24gcmF0aGVyIHRoYW4gcGVyc29uLXRvLXBlcnNvbiBjb21tdW5pY2F0aW9uLiAgVGhlcmVmb3JlIHdvcmsgc2hhbGwgYmUgcGVyZm9ybWVkIHRvIGNvbGxlY3QgYmFzZSBkYXRhIChlLmcuIGxpdGVyYXR1cmUgcmV2aWV3IGFuZCB1c2VyIHRlc3RzKSBhbmQgaW5jbHVkZSByZWFsLXRpbWUgcGVyc29uLXRvLW1hY2hpbmUgY29tbXVuaWNhdGlvbiBzZXJ2aWNlcyAoZS5nLiBtZWRpYSBxdWFsaXR5IGZvciBtb2JpbGUgVFYgc3RyZWFtaW5nLCBtYWNoaW5lIGF2YXRhcnMpLg0KVGhlIHdvcmsgaW5jbHVkZXMgc3BlY2lhbCB1c2VyIGdyb3Vwcy4gIEZvciBleGFtcGxlLCBpdCBpcyBleHBlY3RlZCB0byBpbmNsdWRlIGd1aWRlbGluZXMgZnJvbSBvbmdvaW5nIHdvcmsgb24gdGhlIG9wdGltaXNhdGlvbiBvZiByZWFsLXRpbWUgdGV4dCBjb21tdW5pY2F0aW9uIGZvciBwZW9wbGUgd2hvIGFyZSBoZWFyaW5nIGltcGFpcmVkLg0KSW4gc3VtbWFyeSB0aGUgd29yayBzaGFsbCBpbmNsdWRlOiBjb250aW51aW5nIGNvbnRhY3Qgd2l0aCBpbnRlbmRlZCBndWlkZWxpbmUgdXNlcnMgd2l0aGluIGluZHVzdHJ5IGZvciB0aGVpciByZXF1aXJlbWVudHMgYW5kIGZlZWRiYWNrOyBpZGVudGlmeWluZyB0aGUgc2V0IG9mIGd1aWRlbGluZXMgdGhhdCBzaG91bGQgYmUgZGV2ZWxvcGVkOyBtb25pdG9yaW5nIHB1Ymxpc2hlZCByZXNlYXJjaCBmaW5kaW5ncyBmb3IgaW5jbHVzaW9uIGFzIGd1aWRlbGluZXM7IHBlcmZvcm1pbmcgZW5kLXVzZXIgc3R1ZGllcyB0byBjcmVhdGUgZ3VpZGVsaW5lczsgcmV2aXNpbmcgRUcgMjAyIDUzNCBhcyBhIG5ldyBHdWlkZS4NClRoZSBndWlkZWxpbmVzIHNoYWxsIGJlIHVzZWQgdG8gZXh0ZW5kIHRoZSB3ZWItYmFzZWQgc3lzdGVtIGluaXRpYXRlZCBieSBERUcvSEYtMDA2MiBhbmQgZGVzaWduZWQgdG8gYmUgYXBwcm9wcmlhdGUgZm9yIGtleSBpbmR1c3RyeSByZXByZXNlbnRhdGl2ZXMgKGUuZy4gc3RyYXRlZ2ljIHBsYW5uZXJzLCBkZXZlbG9wbWVudCBlbmdpbmVlcnMsIGN1c3RvbWVyIHN1cHBvcnQgY29udGFjdHMsIGNvbmZlcmVuY2UgbWVldGluZyBmYWNpbGl0YXRvcnMpLg==
   language:
   - en
   script:

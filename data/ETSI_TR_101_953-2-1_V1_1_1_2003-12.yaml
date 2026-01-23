@@ -47,30 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The purpose of this work item is to produce a multi-part ETSI Technical
-    Report (TR)  containing test specifications for DSL splitters. The main objectives
-    in mind are: \r\n§to correlate the spitter parameters with respect to the performance
-    objectives of the DSL, POTS and ISDN services, to assist the on going standardisation
-    process (production of the  Multi-Part European Standard : “European Specific
-    DSL Splitter Requirements” (ES-Splitters)).\r\n§to specify unified and generic
-    testing methods for all splitters based on the requirements specified in the TR
-    101 728, TS 101 388 and TS 101 270 taking into account additional ITU-T DSL Recommendations
-    and possible other relevant Standards as from Cenelec.\r\n§to validate the testing
-    methods used to perform practical measurement in implementing executable test
-    suites on existing test platforms (in accredited labs)\r\n§to provide as an input
-    to TM6 and TC-AT the related test specifications possibly intended to be included
-    within the ES-Splitter.\r\n§To liaise with possible Bake-Off events to be organized
-    by the ETSI Bake-Off support team. The objective being to confirm splitter parameters
-    with respect to services (POTS, ISDN, DSL) performance objectives or to evaluate
-    the performance degradation when inserting splitters in local loops.\r\nTC-AT
-    will co-operate with TM6 as agreed during the last TM6#22 meeting, to complement
-    their activity on splitter testing methods in covering the Low-pass section of
-    the ADSL/POTS and VDSL/POTS splitters. Other items as distributed lowpass filters
-    may be added if requested.\r\nThe following items are included within the scope
-    of the concurrent TM6 work item: HPF and DC Block of the ADSL/POTS, ADSL/ISDN-BA,
-    HPF and DC Block of the VDSL/POTS, VDSL/ISDN-BA. Other splitter types may be added
-    if requested. \r\nPart 2.1  is the Specification of Testing methods for Low Pass
-    part of VDSL/POTS splitters."
+- content: !binary |-
+    VGhlIHB1cnBvc2Ugb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gcHJvZHVjZSBhIG11bHRpLXBhcnQgRVRTSSBUZWNobmljYWwgUmVwb3J0IChUUikgIGNvbnRhaW5pbmcgdGVzdCBzcGVjaWZpY2F0aW9ucyBmb3IgRFNMIHNwbGl0dGVycy4gVGhlIG1haW4gb2JqZWN0aXZlcyBpbiBtaW5kIGFyZTogDQrCp3RvIGNvcnJlbGF0ZSB0aGUgc3BpdHRlciBwYXJhbWV0ZXJzIHdpdGggcmVzcGVjdCB0byB0aGUgcGVyZm9ybWFuY2Ugb2JqZWN0aXZlcyBvZiB0aGUgRFNMLCBQT1RTIGFuZCBJU0ROIHNlcnZpY2VzLCB0byBhc3Npc3QgdGhlIG9uIGdvaW5nIHN0YW5kYXJkaXNhdGlvbiBwcm9jZXNzIChwcm9kdWN0aW9uIG9mIHRoZSAgTXVsdGktUGFydCBFdXJvcGVhbiBTdGFuZGFyZCA6IOKAnEV1cm9wZWFuIFNwZWNpZmljIERTTCBTcGxpdHRlciBSZXF1aXJlbWVudHPigJ0gKEVTLVNwbGl0dGVycykpLg0Kwqd0byBzcGVjaWZ5IHVuaWZpZWQgYW5kIGdlbmVyaWMgdGVzdGluZyBtZXRob2RzIGZvciBhbGwgc3BsaXR0ZXJzIGJhc2VkIG9uIHRoZSByZXF1aXJlbWVudHMgc3BlY2lmaWVkIGluIHRoZSBUUiAxMDEgNzI4LCBUUyAxMDEgMzg4IGFuZCBUUyAxMDEgMjcwIHRha2luZyBpbnRvIGFjY291bnQgYWRkaXRpb25hbCBJVFUtVCBEU0wgUmVjb21tZW5kYXRpb25zIGFuZCBwb3NzaWJsZSBvdGhlciByZWxldmFudCBTdGFuZGFyZHMgYXMgZnJvbSBDZW5lbGVjLg0Kwqd0byB2YWxpZGF0ZSB0aGUgdGVzdGluZyBtZXRob2RzIHVzZWQgdG8gcGVyZm9ybSBwcmFjdGljYWwgbWVhc3VyZW1lbnQgaW4gaW1wbGVtZW50aW5nIGV4ZWN1dGFibGUgdGVzdCBzdWl0ZXMgb24gZXhpc3RpbmcgdGVzdCBwbGF0Zm9ybXMgKGluIGFjY3JlZGl0ZWQgbGFicykNCsKndG8gcHJvdmlkZSBhcyBhbiBpbnB1dCB0byBUTTYgYW5kIFRDLUFUIHRoZSByZWxhdGVkIHRlc3Qgc3BlY2lmaWNhdGlvbnMgcG9zc2libHkgaW50ZW5kZWQgdG8gYmUgaW5jbHVkZWQgd2l0aGluIHRoZSBFUy1TcGxpdHRlci4NCsKnVG8gbGlhaXNlIHdpdGggcG9zc2libGUgQmFrZS1PZmYgZXZlbnRzIHRvIGJlIG9yZ2FuaXplZCBieSB0aGUgRVRTSSBCYWtlLU9mZiBzdXBwb3J0IHRlYW0uIFRoZSBvYmplY3RpdmUgYmVpbmcgdG8gY29uZmlybSBzcGxpdHRlciBwYXJhbWV0ZXJzIHdpdGggcmVzcGVjdCB0byBzZXJ2aWNlcyAoUE9UUywgSVNETiwgRFNMKSBwZXJmb3JtYW5jZSBvYmplY3RpdmVzIG9yIHRvIGV2YWx1YXRlIHRoZSBwZXJmb3JtYW5jZSBkZWdyYWRhdGlvbiB3aGVuIGluc2VydGluZyBzcGxpdHRlcnMgaW4gbG9jYWwgbG9vcHMuDQpUQy1BVCB3aWxsIGNvLW9wZXJhdGUgd2l0aCBUTTYgYXMgYWdyZWVkIGR1cmluZyB0aGUgbGFzdCBUTTYjMjIgbWVldGluZywgdG8gY29tcGxlbWVudCB0aGVpciBhY3Rpdml0eSBvbiBzcGxpdHRlciB0ZXN0aW5nIG1ldGhvZHMgaW4gY292ZXJpbmcgdGhlIExvdy1wYXNzIHNlY3Rpb24gb2YgdGhlIEFEU0wvUE9UUyBhbmQgVkRTTC9QT1RTIHNwbGl0dGVycy4gT3RoZXIgaXRlbXMgYXMgZGlzdHJpYnV0ZWQgbG93cGFzcyBmaWx0ZXJzIG1heSBiZSBhZGRlZCBpZiByZXF1ZXN0ZWQuDQpUaGUgZm9sbG93aW5nIGl0ZW1zIGFyZSBpbmNsdWRlZCB3aXRoaW4gdGhlIHNjb3BlIG9mIHRoZSBjb25jdXJyZW50IFRNNiB3b3JrIGl0ZW06IEhQRiBhbmQgREMgQmxvY2sgb2YgdGhlIEFEU0wvUE9UUywgQURTTC9JU0ROLUJBLCBIUEYgYW5kIERDIEJsb2NrIG9mIHRoZSBWRFNML1BPVFMsIFZEU0wvSVNETi1CQS4gT3RoZXIgc3BsaXR0ZXIgdHlwZXMgbWF5IGJlIGFkZGVkIGlmIHJlcXVlc3RlZC4gDQpQYXJ0IDIuMSAgaXMgdGhlIFNwZWNpZmljYXRpb24gb2YgVGVzdGluZyBtZXRob2RzIGZvciBMb3cgUGFzcyBwYXJ0IG9mIFZEU0wvUE9UUyBzcGxpdHRlcnMu
   language:
   - en
   script:

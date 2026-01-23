@@ -46,18 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: 'Many different VNFs include components – VNFCIs, whether VMs or Containers
-    – which contain sensitive data or algorithms.  These may need integrity and/or
-    confidentiality protection from a number of different entities, including NFVI
-    administrators.  Some elements of the Mangement and Orchestration domain also
-    require such protection.  Equally, NFVI hosts must be assured that they are protected
-    from malicious or compromised work loads.  This normative Work Item will describe
-    a system architecture for the execution of sensitive NFV components, covering
-    all of these use cases.  This system architecture will describe technical measures,
-    software interfaces and hardware and software techniques.  The expectation is
-    that for some use cases, sensitive and non-sensitive workloads may have to co-exist
-    on the same platform, and protection one from the other is considered in scope
-    of this WI. '
+- content: !binary |-
+    TWFueSBkaWZmZXJlbnQgVk5GcyBpbmNsdWRlIGNvbXBvbmVudHMg4oCTIFZORkNJcywgd2hldGhlciBWTXMgb3IgQ29udGFpbmVycyDigJMgd2hpY2ggY29udGFpbiBzZW5zaXRpdmUgZGF0YSBvciBhbGdvcml0aG1zLiAgVGhlc2UgbWF5IG5lZWQgaW50ZWdyaXR5IGFuZC9vciBjb25maWRlbnRpYWxpdHkgcHJvdGVjdGlvbiBmcm9tIGEgbnVtYmVyIG9mIGRpZmZlcmVudCBlbnRpdGllcywgaW5jbHVkaW5nIE5GVkkgYWRtaW5pc3RyYXRvcnMuICBTb21lIGVsZW1lbnRzIG9mIHRoZSBNYW5nZW1lbnQgYW5kIE9yY2hlc3RyYXRpb24gZG9tYWluIGFsc28gcmVxdWlyZSBzdWNoIHByb3RlY3Rpb24uICBFcXVhbGx5LCBORlZJIGhvc3RzIG11c3QgYmUgYXNzdXJlZCB0aGF0IHRoZXkgYXJlIHByb3RlY3RlZCBmcm9tIG1hbGljaW91cyBvciBjb21wcm9taXNlZCB3b3JrIGxvYWRzLiAgVGhpcyBub3JtYXRpdmUgV29yayBJdGVtIHdpbGwgZGVzY3JpYmUgYSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIGZvciB0aGUgZXhlY3V0aW9uIG9mIHNlbnNpdGl2ZSBORlYgY29tcG9uZW50cywgY292ZXJpbmcgYWxsIG9mIHRoZXNlIHVzZSBjYXNlcy4gIFRoaXMgc3lzdGVtIGFyY2hpdGVjdHVyZSB3aWxsIGRlc2NyaWJlIHRlY2huaWNhbCBtZWFzdXJlcywgc29mdHdhcmUgaW50ZXJmYWNlcyBhbmQgaGFyZHdhcmUgYW5kIHNvZnR3YXJlIHRlY2huaXF1ZXMuICBUaGUgZXhwZWN0YXRpb24gaXMgdGhhdCBmb3Igc29tZSB1c2UgY2FzZXMsIHNlbnNpdGl2ZSBhbmQgbm9uLXNlbnNpdGl2ZSB3b3JrbG9hZHMgbWF5IGhhdmUgdG8gY28tZXhpc3Qgb24gdGhlIHNhbWUgcGxhdGZvcm0sIGFuZCBwcm90ZWN0aW9uIG9uZSBmcm9tIHRoZSBvdGhlciBpcyBjb25zaWRlcmVkIGluIHNjb3BlIG9mIHRoaXMgV0kuIA==
   language:
   - en
   script:

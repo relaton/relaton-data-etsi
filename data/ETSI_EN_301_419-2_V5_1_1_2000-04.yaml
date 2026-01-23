@@ -48,37 +48,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This EN specifies the technical requirements to be met by terminal equipment
-    capable of connecting to a public telecommunications network and that support
-    the HSCSD feature. These requirements apply to terminals for Phase 2+ of the public
-    land mobile radio service, operating in the 900 MHz band with a channel separation
-    of 200 kHz, utilising constant envelope modulation and carrying traffic channels
-    according to the Time Division Multiple Access (TDMA) principle.\r\nThis EN specifies
-    the terminal equipment HSCSD requirements for the GSM 900 version of the Global
-    System for Mobile communications (GSM).\r\nFor each test purpose and its corresponding
-    conformance requirement, a reference is given to the test method in EN 300 607-1
-    (GSM 11.10-1) [2]. The requirements apply at the air interface and the Subscriber
-    Identity Module - Mobile Equipment interface for the access requirements, which
-    may be stimulated to perform the tests by additional equipment if necessary.\r\nThe
-    measurement uncertainty is described in EN 300 607-1 (GSM 11.10-1) [2].\r\nThis
-    EN covers the essential requirements of the Terminal Directive 91/263/EEC [1]
-    Articles 4d, 4e, 4f. \r\nThe Terminal Directive 91/263/EEC [1] Articles 4a and
-    4b are covered by other directives, and, therefore, not by this EN.\r\nIn this
-    EN, there are no Electromagnetic Compatibility technical requirements in terms
-    of the Terminal Directive 91/263/EEC [1], Article 4c.\r\nNOTE 1:Technical Requirements
-    for EMC performance and testing of the equipment are covered by the relevant standards
-    applicable to the EMC Directive 89/336/EEC, annex A.\r\nThis module specifies
-    the HSCSD Terminal equipment additional requirements. \r\nEN 300 607-1 (GSM 11.10-1) [2]
-    constitutes the conformance test suite for GSM. The verification of the conformance
-    requirements in this EN is based on the tests described in this reference. The
-    set of requirements in EN 300 607-1 (GSM 11.10-1) [2] and the set of requirements
-    in this EN need not be identical.\r\nAll the requirements in this EN are specific
-    to mobile stations supporting HSCSD.\r\nAn active accessory is covered by this
-    EN if it modifies the terminal performance in an aspect which affects conformance
-    to essential requirements.\r\nNOTE 2:Only active devices are subject to this EN.
-    Accessories may be tested with specific terminals, and either approved for use
-    with those terminals only, or may possibly be approved for use with a wider range
-    of terminals, depending on the nature and effect of the accessory.\r\n"
+- content: !binary |-
+    VGhpcyBFTiBzcGVjaWZpZXMgdGhlIHRlY2huaWNhbCByZXF1aXJlbWVudHMgdG8gYmUgbWV0IGJ5IHRlcm1pbmFsIGVxdWlwbWVudCBjYXBhYmxlIG9mIGNvbm5lY3RpbmcgdG8gYSBwdWJsaWMgdGVsZWNvbW11bmljYXRpb25zIG5ldHdvcmsgYW5kIHRoYXQgc3VwcG9ydCB0aGUgSFNDU0QgZmVhdHVyZS4gVGhlc2UgcmVxdWlyZW1lbnRzIGFwcGx5IHRvIHRlcm1pbmFscyBmb3IgUGhhc2UgMisgb2YgdGhlIHB1YmxpYyBsYW5kIG1vYmlsZSByYWRpbyBzZXJ2aWNlLCBvcGVyYXRpbmcgaW4gdGhlIDkwMCBNSHogYmFuZCB3aXRoIGEgY2hhbm5lbCBzZXBhcmF0aW9uIG9mIDIwMCBrSHosIHV0aWxpc2luZyBjb25zdGFudCBlbnZlbG9wZSBtb2R1bGF0aW9uIGFuZCBjYXJyeWluZyB0cmFmZmljIGNoYW5uZWxzIGFjY29yZGluZyB0byB0aGUgVGltZSBEaXZpc2lvbiBNdWx0aXBsZSBBY2Nlc3MgKFRETUEpIHByaW5jaXBsZS4NClRoaXMgRU4gc3BlY2lmaWVzIHRoZSB0ZXJtaW5hbCBlcXVpcG1lbnQgSFNDU0QgcmVxdWlyZW1lbnRzIGZvciB0aGUgR1NNwqA5MDAgdmVyc2lvbiBvZiB0aGUgR2xvYmFsIFN5c3RlbSBmb3IgTW9iaWxlIGNvbW11bmljYXRpb25zIChHU00pLg0KRm9yIGVhY2ggdGVzdCBwdXJwb3NlIGFuZCBpdHMgY29ycmVzcG9uZGluZyBjb25mb3JtYW5jZSByZXF1aXJlbWVudCwgYSByZWZlcmVuY2UgaXMgZ2l2ZW4gdG8gdGhlIHRlc3QgbWV0aG9kIGluIEVOIDMwMCA2MDctMSAoR1NNwqAxMS4xMC0xKcKgWzJdLiBUaGUgcmVxdWlyZW1lbnRzIGFwcGx5IGF0IHRoZSBhaXIgaW50ZXJmYWNlIGFuZCB0aGUgU3Vic2NyaWJlciBJZGVudGl0eSBNb2R1bGUgLSBNb2JpbGUgRXF1aXBtZW50IGludGVyZmFjZSBmb3IgdGhlIGFjY2VzcyByZXF1aXJlbWVudHMsIHdoaWNoIG1heSBiZSBzdGltdWxhdGVkIHRvIHBlcmZvcm0gdGhlIHRlc3RzIGJ5IGFkZGl0aW9uYWwgZXF1aXBtZW50IGlmIG5lY2Vzc2FyeS4NClRoZSBtZWFzdXJlbWVudCB1bmNlcnRhaW50eSBpcyBkZXNjcmliZWQgaW4gRU4gMzAwIDYwNy0xIChHU03CoDExLjEwLTEpwqBbMl0uDQpUaGlzIEVOIGNvdmVycyB0aGUgZXNzZW50aWFsIHJlcXVpcmVtZW50cyBvZiB0aGUgVGVybWluYWwgRGlyZWN0aXZlIDkxLzI2My9FRUPCoFsxXSBBcnRpY2xlcyA0ZCwgNGUsIDRmLiANClRoZSBUZXJtaW5hbCBEaXJlY3RpdmUgOTEvMjYzL0VFQ8KgWzFdIEFydGljbGVzIDRhIGFuZCA0YiBhcmUgY292ZXJlZCBieSBvdGhlciBkaXJlY3RpdmVzLCBhbmQsIHRoZXJlZm9yZSwgbm90IGJ5IHRoaXMgRU4uDQpJbiB0aGlzIEVOLCB0aGVyZSBhcmUgbm8gRWxlY3Ryb21hZ25ldGljIENvbXBhdGliaWxpdHkgdGVjaG5pY2FsIHJlcXVpcmVtZW50cyBpbiB0ZXJtcyBvZiB0aGUgVGVybWluYWwgRGlyZWN0aXZlIDkxLzI2My9FRUPCoFsxXSwgQXJ0aWNsZSA0Yy4NCk5PVEUgMTpUZWNobmljYWwgUmVxdWlyZW1lbnRzIGZvciBFTUMgcGVyZm9ybWFuY2UgYW5kIHRlc3Rpbmcgb2YgdGhlIGVxdWlwbWVudCBhcmUgY292ZXJlZCBieSB0aGUgcmVsZXZhbnQgc3RhbmRhcmRzIGFwcGxpY2FibGUgdG8gdGhlIEVNQyBEaXJlY3RpdmUgODkvMzM2L0VFQywgYW5uZXjCoEEuDQpUaGlzIG1vZHVsZSBzcGVjaWZpZXMgdGhlIEhTQ1NEIFRlcm1pbmFsIGVxdWlwbWVudCBhZGRpdGlvbmFsIHJlcXVpcmVtZW50cy4gDQpFTiAzMDAgNjA3LTEgKEdTTcKgMTEuMTAtMSnCoFsyXSBjb25zdGl0dXRlcyB0aGUgY29uZm9ybWFuY2UgdGVzdCBzdWl0ZSBmb3IgR1NNLiBUaGUgdmVyaWZpY2F0aW9uIG9mIHRoZSBjb25mb3JtYW5jZSByZXF1aXJlbWVudHMgaW4gdGhpcyBFTiBpcyBiYXNlZCBvbiB0aGUgdGVzdHMgZGVzY3JpYmVkIGluIHRoaXMgcmVmZXJlbmNlLiBUaGUgc2V0IG9mIHJlcXVpcmVtZW50cyBpbiBFTiAzMDAgNjA3LTEgKEdTTcKgMTEuMTAtMSnCoFsyXSBhbmQgdGhlIHNldCBvZiByZXF1aXJlbWVudHMgaW4gdGhpcyBFTiBuZWVkIG5vdCBiZSBpZGVudGljYWwuDQpBbGwgdGhlIHJlcXVpcmVtZW50cyBpbiB0aGlzIEVOIGFyZSBzcGVjaWZpYyB0byBtb2JpbGUgc3RhdGlvbnMgc3VwcG9ydGluZyBIU0NTRC4NCkFuIGFjdGl2ZSBhY2Nlc3NvcnkgaXMgY292ZXJlZCBieSB0aGlzIEVOIGlmIGl0IG1vZGlmaWVzIHRoZSB0ZXJtaW5hbCBwZXJmb3JtYW5jZSBpbiBhbiBhc3BlY3Qgd2hpY2ggYWZmZWN0cyBjb25mb3JtYW5jZSB0byBlc3NlbnRpYWwgcmVxdWlyZW1lbnRzLg0KTk9URSAyOk9ubHkgYWN0aXZlIGRldmljZXMgYXJlIHN1YmplY3QgdG8gdGhpcyBFTi4gQWNjZXNzb3JpZXMgbWF5IGJlIHRlc3RlZCB3aXRoIHNwZWNpZmljIHRlcm1pbmFscywgYW5kIGVpdGhlciBhcHByb3ZlZCBmb3IgdXNlIHdpdGggdGhvc2UgdGVybWluYWxzIG9ubHksIG9yIG1heSBwb3NzaWJseSBiZSBhcHByb3ZlZCBmb3IgdXNlIHdpdGggYSB3aWRlciByYW5nZSBvZiB0ZXJtaW5hbHMsIGRlcGVuZGluZyBvbiB0aGUgbmF0dXJlIGFuZCBlZmZlY3Qgb2YgdGhlIGFjY2Vzc29yeS4NCg==
   language:
   - en
   script:

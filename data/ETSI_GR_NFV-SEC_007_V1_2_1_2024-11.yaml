@@ -46,18 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: 'The present document discusses existing attestation technologies and practices,
-    as applicable to NFV systems, addressing: • The identification and definition
-    of levels of assurance • The assumed capabilities from the NFVI (e.g. TPM, HSM,
-    etc.) • Operational procedures • A gap analysis of current (established or newly
-    proposed) attestation technologies • Recommendations for follow-on PoCs to demonstrate
-    feasibility of the attestation procedures Given the current status of attestation
-    technologies and standards, the present document is applicable to hypervisor-based
-    NFV deployments only, with the exception of some of the perspectives analysed
-    in clause 8. The proposed work item for revision is to update SEC007 on the term
-    TPM with generic descriptions, including using NFV-SEC’s own term HBRT, or adding
-    equivalent hardware implementations, just like IETF draft-ietf-rats-tpm-based-network-device-attest-14
-    says in the abstract.'
+- content: !binary |-
+    VGhlIHByZXNlbnQgZG9jdW1lbnQgZGlzY3Vzc2VzIGV4aXN0aW5nIGF0dGVzdGF0aW9uIHRlY2hub2xvZ2llcyBhbmQgcHJhY3RpY2VzLCBhcyBhcHBsaWNhYmxlIHRvIE5GViBzeXN0ZW1zLCBhZGRyZXNzaW5nOiDigKIgVGhlIGlkZW50aWZpY2F0aW9uIGFuZCBkZWZpbml0aW9uIG9mIGxldmVscyBvZiBhc3N1cmFuY2Ug4oCiIFRoZSBhc3N1bWVkIGNhcGFiaWxpdGllcyBmcm9tIHRoZSBORlZJIChlLmcuIFRQTSwgSFNNLCBldGMuKSDigKIgT3BlcmF0aW9uYWwgcHJvY2VkdXJlcyDigKIgQSBnYXAgYW5hbHlzaXMgb2YgY3VycmVudCAoZXN0YWJsaXNoZWQgb3IgbmV3bHkgcHJvcG9zZWQpIGF0dGVzdGF0aW9uIHRlY2hub2xvZ2llcyDigKIgUmVjb21tZW5kYXRpb25zIGZvciBmb2xsb3ctb24gUG9DcyB0byBkZW1vbnN0cmF0ZSBmZWFzaWJpbGl0eSBvZiB0aGUgYXR0ZXN0YXRpb24gcHJvY2VkdXJlcyBHaXZlbiB0aGUgY3VycmVudCBzdGF0dXMgb2YgYXR0ZXN0YXRpb24gdGVjaG5vbG9naWVzIGFuZCBzdGFuZGFyZHMsIHRoZSBwcmVzZW50IGRvY3VtZW50IGlzIGFwcGxpY2FibGUgdG8gaHlwZXJ2aXNvci1iYXNlZCBORlYgZGVwbG95bWVudHMgb25seSwgd2l0aCB0aGUgZXhjZXB0aW9uIG9mIHNvbWUgb2YgdGhlIHBlcnNwZWN0aXZlcyBhbmFseXNlZCBpbiBjbGF1c2UgOC4gVGhlIHByb3Bvc2VkIHdvcmsgaXRlbSBmb3IgcmV2aXNpb24gaXMgdG8gdXBkYXRlIFNFQzAwNyBvbiB0aGUgdGVybSBUUE0gd2l0aCBnZW5lcmljIGRlc2NyaXB0aW9ucywgaW5jbHVkaW5nIHVzaW5nIE5GVi1TRUPigJlzIG93biB0ZXJtIEhCUlQsIG9yIGFkZGluZyBlcXVpdmFsZW50IGhhcmR3YXJlIGltcGxlbWVudGF0aW9ucywganVzdCBsaWtlIElFVEYgZHJhZnQtaWV0Zi1yYXRzLXRwbS1iYXNlZC1uZXR3b3JrLWRldmljZS1hdHRlc3QtMTQgc2F5cyBpbiB0aGUgYWJzdHJhY3Qu
   language:
   - en
   script:

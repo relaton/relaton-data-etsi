@@ -40,28 +40,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The provision of a solution for the “Seamless Transition Networks”\r\nwith
-    respect to the “Network Identification Table” in the case of\r\nSMATV and some
-    CATW networks was not covered by the ETS 300 468 (SI)\r\nEd 1. As a consequence
-    HISPASAT, RAI, DTI, SAT/Sagem, Sharp and the\r\nSpanish Administration proposed
-    revision EWP items on ETS 300 468 and\r\nETR 211.\r\nSpecification of Service
-    Information (SI) data which forms part of\r\nDVB/MPEG-2 bitstreams, in order that
-    the user can be provided with\r\ninformation to assist in selection of services
-    and/or events within\r\nthe bitstream, and so that the Integrated Receiver Decoder
-    (IRD) can\r\nautomatically configure itself for the selected service.\r\nSI is
-    specified in ISO/IEC 13818-1 as Programme Specific\r\nInformation (PSI). This
-    specification complements the PSI\r\nby providing data to aid automatic tuning
-    of IRDs, and addditional\r\ninformation intended for display to the user, mainly
-    in text form.\r\nThe manner of presentation of the information is not specified,\r\nand
-    IRD manufacturers have freedom to choose appropriate\r\npresentation methods.\r\nIt
-    is expected that Electronic Programme Guides (EPG) will be a\r\nfeature of Digital
-    TV transmissions. The definition of EPG is\r\noutside the scope of the SI specification,
-    but the data contained\r\nwithin the SI specified here could be used as basis
-    for an EPG.\r\nThe present specification describes Service Information (SI) for
-    use\r\nin broadcast MPEG-2 bitstreams. The MPEG-2 System layer specifies\r\nSI
-    which is referred to as Programme Specific Information (PSI).\r\nThe PSI data
-    provides information to enable automatic configuration\r\nof the receiver to demultiplex
-    and decode the various streams of\r\nprogramme within the multiplex.\r\n "
+- content: !binary |-
+    VGhlIHByb3Zpc2lvbiBvZiBhIHNvbHV0aW9uIGZvciB0aGUg4oCcU2VhbWxlc3MgVHJhbnNpdGlvbiBOZXR3b3Jrc+KAnQ0Kd2l0aCByZXNwZWN0IHRvIHRoZSDigJxOZXR3b3JrIElkZW50aWZpY2F0aW9uIFRhYmxl4oCdIGluIHRoZSBjYXNlIG9mDQpTTUFUViBhbmQgc29tZSBDQVRXIG5ldHdvcmtzIHdhcyBub3QgY292ZXJlZCBieSB0aGUgRVRTIDMwMCA0NjggKFNJKQ0KRWQgMS4gQXMgYSBjb25zZXF1ZW5jZSBISVNQQVNBVCwgUkFJLCBEVEksIFNBVC9TYWdlbSwgU2hhcnAgYW5kIHRoZQ0KU3BhbmlzaCBBZG1pbmlzdHJhdGlvbiBwcm9wb3NlZCByZXZpc2lvbiBFV1AgaXRlbXMgb24gRVRTIDMwMCA0NjggYW5kDQpFVFIgMjExLg0KU3BlY2lmaWNhdGlvbiBvZiBTZXJ2aWNlIEluZm9ybWF0aW9uIChTSSkgZGF0YSB3aGljaCBmb3JtcyBwYXJ0IG9mDQpEVkIvTVBFRy0yIGJpdHN0cmVhbXMsIGluIG9yZGVyIHRoYXQgdGhlIHVzZXIgY2FuIGJlIHByb3ZpZGVkIHdpdGgNCmluZm9ybWF0aW9uIHRvIGFzc2lzdCBpbiBzZWxlY3Rpb24gb2Ygc2VydmljZXMgYW5kL29yIGV2ZW50cyB3aXRoaW4NCnRoZSBiaXRzdHJlYW0sIGFuZCBzbyB0aGF0IHRoZSBJbnRlZ3JhdGVkIFJlY2VpdmVyIERlY29kZXIgKElSRCkgY2FuDQphdXRvbWF0aWNhbGx5IGNvbmZpZ3VyZSBpdHNlbGYgZm9yIHRoZSBzZWxlY3RlZCBzZXJ2aWNlLg0KU0kgaXMgc3BlY2lmaWVkIGluIElTTy9JRUMgMTM4MTgtMSBhcyBQcm9ncmFtbWUgU3BlY2lmaWMNCkluZm9ybWF0aW9uIChQU0kpLiBUaGlzIHNwZWNpZmljYXRpb24gY29tcGxlbWVudHMgdGhlIFBTSQ0KYnkgcHJvdmlkaW5nIGRhdGEgdG8gYWlkIGF1dG9tYXRpYyB0dW5pbmcgb2YgSVJEcywgYW5kIGFkZGRpdGlvbmFsDQppbmZvcm1hdGlvbiBpbnRlbmRlZCBmb3IgZGlzcGxheSB0byB0aGUgdXNlciwgbWFpbmx5IGluIHRleHQgZm9ybS4NClRoZSBtYW5uZXIgb2YgcHJlc2VudGF0aW9uIG9mIHRoZSBpbmZvcm1hdGlvbiBpcyBub3Qgc3BlY2lmaWVkLA0KYW5kIElSRCBtYW51ZmFjdHVyZXJzIGhhdmUgZnJlZWRvbSB0byBjaG9vc2UgYXBwcm9wcmlhdGUNCnByZXNlbnRhdGlvbiBtZXRob2RzLg0KSXQgaXMgZXhwZWN0ZWQgdGhhdCBFbGVjdHJvbmljIFByb2dyYW1tZSBHdWlkZXMgKEVQRykgd2lsbCBiZSBhDQpmZWF0dXJlIG9mIERpZ2l0YWwgVFYgdHJhbnNtaXNzaW9ucy4gVGhlIGRlZmluaXRpb24gb2YgRVBHIGlzDQpvdXRzaWRlIHRoZSBzY29wZSBvZiB0aGUgU0kgc3BlY2lmaWNhdGlvbiwgYnV0IHRoZSBkYXRhIGNvbnRhaW5lZA0Kd2l0aGluIHRoZSBTSSBzcGVjaWZpZWQgaGVyZSBjb3VsZCBiZSB1c2VkIGFzIGJhc2lzIGZvciBhbiBFUEcuDQpUaGUgcHJlc2VudCBzcGVjaWZpY2F0aW9uIGRlc2NyaWJlcyBTZXJ2aWNlIEluZm9ybWF0aW9uIChTSSkgZm9yIHVzZQ0KaW4gYnJvYWRjYXN0IE1QRUctMiBiaXRzdHJlYW1zLiBUaGUgTVBFRy0yIFN5c3RlbSBsYXllciBzcGVjaWZpZXMNClNJIHdoaWNoIGlzIHJlZmVycmVkIHRvIGFzIFByb2dyYW1tZSBTcGVjaWZpYyBJbmZvcm1hdGlvbiAoUFNJKS4NClRoZSBQU0kgZGF0YSBwcm92aWRlcyBpbmZvcm1hdGlvbiB0byBlbmFibGUgYXV0b21hdGljIGNvbmZpZ3VyYXRpb24NCm9mIHRoZSByZWNlaXZlciB0byBkZW11bHRpcGxleCBhbmQgZGVjb2RlIHRoZSB2YXJpb3VzIHN0cmVhbXMgb2YNCnByb2dyYW1tZSB3aXRoaW4gdGhlIG11bHRpcGxleC4NCiA=
   language:
   - en
   script:

@@ -47,25 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Peer-to-peer for content delivery for IPTV services: use cases, requirements,
-    architecture studies and other aspects.\r\nThe scope of this work item includes:\r\n·Use
-    cases and requirements\r\noTypes of peer-to-peer mechanisms\r\n§Delivery of stored/off-line
-    content\r\n§Delivery of streaming content\r\noApplication of peer-to-peer mechanisms\r\n§Deliver
-    content from IPTV Service Provider to Consumer\r\n§Share User-Generated Content
-    (UGC) between users via the IPTV solution\r\n§Acquire content from third-party
-    Content Providers by IPTV Service Provider.\r\n§Manage content within the IPTV
-    solution \r\n§Customer profiling based on traffic characteristics\r\n·Architecture
-    studies\r\noTopology analysis\r\noSuper-peer-based  solution architectures\r\noImpact
-    on TISPAN IPTV network architecture\r\noImpact on Customer Premises Network architecture\r\n·Other
-    aspects\r\noNetwork aspects, transport level\r\noSecurity aspects, risk analysis\r\noLegal
-    aspects\r\noCharging aspects\r\noTraffic management aspects\r\noIndexing aspects
-    (\"naming\")\r\noConcatenation of peer-to-peer (\"NNI\")\r\nOrganization:\r\nThe
-    Work Item meetings will take place as part of the joint WG1/2 meetings, as the
-    core of the work is use cases, requirements and architecture, focussed on the
-    TISPAN IPTV network architecture.\r\nOther WG's will be informed and involved
-    when theWG1/2 meeting decides this is appropriate.\r\nOutput:\r\nThe output of
-    this Work Item will be an informational document that may serve as input to future
-    IPTV and other NGN activities.\r\n"
+- content: !binary |-
+    UGVlci10by1wZWVyIGZvciBjb250ZW50IGRlbGl2ZXJ5IGZvciBJUFRWIHNlcnZpY2VzOiB1c2UgY2FzZXMsIHJlcXVpcmVtZW50cywgYXJjaGl0ZWN0dXJlIHN0dWRpZXMgYW5kIG90aGVyIGFzcGVjdHMuDQpUaGUgc2NvcGUgb2YgdGhpcyB3b3JrIGl0ZW0gaW5jbHVkZXM6DQrCt1VzZSBjYXNlcyBhbmQgcmVxdWlyZW1lbnRzDQpvVHlwZXMgb2YgcGVlci10by1wZWVyIG1lY2hhbmlzbXMNCsKnRGVsaXZlcnkgb2Ygc3RvcmVkL29mZi1saW5lIGNvbnRlbnQNCsKnRGVsaXZlcnkgb2Ygc3RyZWFtaW5nIGNvbnRlbnQNCm9BcHBsaWNhdGlvbiBvZiBwZWVyLXRvLXBlZXIgbWVjaGFuaXNtcw0KwqdEZWxpdmVyIGNvbnRlbnQgZnJvbSBJUFRWIFNlcnZpY2UgUHJvdmlkZXIgdG8gQ29uc3VtZXINCsKnU2hhcmUgVXNlci1HZW5lcmF0ZWQgQ29udGVudCAoVUdDKSBiZXR3ZWVuIHVzZXJzIHZpYSB0aGUgSVBUViBzb2x1dGlvbg0KwqdBY3F1aXJlIGNvbnRlbnQgZnJvbSB0aGlyZC1wYXJ0eSBDb250ZW50IFByb3ZpZGVycyBieSBJUFRWIFNlcnZpY2UgUHJvdmlkZXIuDQrCp01hbmFnZSBjb250ZW50IHdpdGhpbiB0aGUgSVBUViBzb2x1dGlvbiANCsKnQ3VzdG9tZXIgcHJvZmlsaW5nIGJhc2VkIG9uIHRyYWZmaWMgY2hhcmFjdGVyaXN0aWNzDQrCt0FyY2hpdGVjdHVyZSBzdHVkaWVzDQpvVG9wb2xvZ3kgYW5hbHlzaXMNCm9TdXBlci1wZWVyLWJhc2VkICBzb2x1dGlvbiBhcmNoaXRlY3R1cmVzDQpvSW1wYWN0IG9uIFRJU1BBTiBJUFRWIG5ldHdvcmsgYXJjaGl0ZWN0dXJlDQpvSW1wYWN0IG9uIEN1c3RvbWVyIFByZW1pc2VzIE5ldHdvcmsgYXJjaGl0ZWN0dXJlDQrCt090aGVyIGFzcGVjdHMNCm9OZXR3b3JrIGFzcGVjdHMsIHRyYW5zcG9ydCBsZXZlbA0Kb1NlY3VyaXR5IGFzcGVjdHMsIHJpc2sgYW5hbHlzaXMNCm9MZWdhbCBhc3BlY3RzDQpvQ2hhcmdpbmcgYXNwZWN0cw0Kb1RyYWZmaWMgbWFuYWdlbWVudCBhc3BlY3RzDQpvSW5kZXhpbmcgYXNwZWN0cyAoIm5hbWluZyIpDQpvQ29uY2F0ZW5hdGlvbiBvZiBwZWVyLXRvLXBlZXIgKCJOTkkiKQ0KT3JnYW5pemF0aW9uOg0KVGhlIFdvcmsgSXRlbSBtZWV0aW5ncyB3aWxsIHRha2UgcGxhY2UgYXMgcGFydCBvZiB0aGUgam9pbnQgV0cxLzIgbWVldGluZ3MsIGFzIHRoZSBjb3JlIG9mIHRoZSB3b3JrIGlzIHVzZSBjYXNlcywgcmVxdWlyZW1lbnRzIGFuZCBhcmNoaXRlY3R1cmUsIGZvY3Vzc2VkIG9uIHRoZSBUSVNQQU4gSVBUViBuZXR3b3JrIGFyY2hpdGVjdHVyZS4NCk90aGVyIFdHJ3Mgd2lsbCBiZSBpbmZvcm1lZCBhbmQgaW52b2x2ZWQgd2hlbiB0aGVXRzEvMiBtZWV0aW5nIGRlY2lkZXMgdGhpcyBpcyBhcHByb3ByaWF0ZS4NCk91dHB1dDoNClRoZSBvdXRwdXQgb2YgdGhpcyBXb3JrIEl0ZW0gd2lsbCBiZSBhbiBpbmZvcm1hdGlvbmFsIGRvY3VtZW50IHRoYXQgbWF5IHNlcnZlIGFzIGlucHV0IHRvIGZ1dHVyZSBJUFRWIGFuZCBvdGhlciBOR04gYWN0aXZpdGllcy4NCg==
   language:
   - en
   script:

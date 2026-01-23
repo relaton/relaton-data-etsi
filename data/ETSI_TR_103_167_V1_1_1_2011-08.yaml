@@ -46,25 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Threats against M2M functional architecture, Service layer and interfaces
-    need to be identified and analysed for impact and for likelihood. The need for
-    countermeasures needs to be determined. Results of the WI should be maintained
-    as informative text within a Technical Report.\r\n\r\nThe scope of threat analysis
-    will consider only the following two types of threat (with the following order
-    of priority): \r\n\r\n1.\tType 1 threats:  threats that are specific to M2M service
-    layer or interfaces for the service layer. \r\n2.\tType 2 threats:  threats that
-    may not be specific to M2M service layer but which have a significant impact upon
-    M2M functional requirements. \r\n\r\nFurthermore, the level of risk (i.e. combined
-    likelihood and impact) of identified threats will also be evaluated.  As a result
-    of that, there will be a prioritisation of threats and therefore of countermeasures
-    and security requirements. \r\n\r\nConcerning countermeasures identified in this
-    WI, the scope will include :\r\n•\tconsideration of merits and demerits (i.e.
-    pros and cons) of identified countermeasures;\r\n•\tevaluation of countermeasures
-    to determine (1) the need for a standardised solution/implementation, (2) availability
-    of existing standardised solutions (e.g. from other SDOs), (3) the need for a
-    new standardised solution (either from another SDO or from ETSI M2M).\r\nContent
-    in the new TR may lead to new requirements in future releases of TS 102 689 and
-    normative text in TS 102 690. "
+- content: !binary |-
+    VGhyZWF0cyBhZ2FpbnN0IE0yTSBmdW5jdGlvbmFsIGFyY2hpdGVjdHVyZSwgU2VydmljZSBsYXllciBhbmQgaW50ZXJmYWNlcyBuZWVkIHRvIGJlIGlkZW50aWZpZWQgYW5kIGFuYWx5c2VkIGZvciBpbXBhY3QgYW5kIGZvciBsaWtlbGlob29kLiBUaGUgbmVlZCBmb3IgY291bnRlcm1lYXN1cmVzIG5lZWRzIHRvIGJlIGRldGVybWluZWQuIFJlc3VsdHMgb2YgdGhlIFdJIHNob3VsZCBiZSBtYWludGFpbmVkIGFzIGluZm9ybWF0aXZlIHRleHQgd2l0aGluIGEgVGVjaG5pY2FsIFJlcG9ydC4NCg0KVGhlIHNjb3BlIG9mIHRocmVhdCBhbmFseXNpcyB3aWxsIGNvbnNpZGVyIG9ubHkgdGhlIGZvbGxvd2luZyB0d28gdHlwZXMgb2YgdGhyZWF0ICh3aXRoIHRoZSBmb2xsb3dpbmcgb3JkZXIgb2YgcHJpb3JpdHkpOiANCg0KMS4JVHlwZSAxIHRocmVhdHM6ICB0aHJlYXRzIHRoYXQgYXJlIHNwZWNpZmljIHRvIE0yTSBzZXJ2aWNlIGxheWVyIG9yIGludGVyZmFjZXMgZm9yIHRoZSBzZXJ2aWNlIGxheWVyLiANCjIuCVR5cGUgMiB0aHJlYXRzOiAgdGhyZWF0cyB0aGF0IG1heSBub3QgYmUgc3BlY2lmaWMgdG8gTTJNIHNlcnZpY2UgbGF5ZXIgYnV0IHdoaWNoIGhhdmUgYSBzaWduaWZpY2FudCBpbXBhY3QgdXBvbiBNMk0gZnVuY3Rpb25hbCByZXF1aXJlbWVudHMuIA0KDQpGdXJ0aGVybW9yZSwgdGhlIGxldmVsIG9mIHJpc2sgKGkuZS4gY29tYmluZWQgbGlrZWxpaG9vZCBhbmQgaW1wYWN0KSBvZiBpZGVudGlmaWVkIHRocmVhdHMgd2lsbCBhbHNvIGJlIGV2YWx1YXRlZC4gIEFzIGEgcmVzdWx0IG9mIHRoYXQsIHRoZXJlIHdpbGwgYmUgYSBwcmlvcml0aXNhdGlvbiBvZiB0aHJlYXRzIGFuZCB0aGVyZWZvcmUgb2YgY291bnRlcm1lYXN1cmVzIGFuZCBzZWN1cml0eSByZXF1aXJlbWVudHMuIA0KDQpDb25jZXJuaW5nIGNvdW50ZXJtZWFzdXJlcyBpZGVudGlmaWVkIGluIHRoaXMgV0ksIHRoZSBzY29wZSB3aWxsIGluY2x1ZGUgOg0K4oCiCWNvbnNpZGVyYXRpb24gb2YgbWVyaXRzIGFuZCBkZW1lcml0cyAoaS5lLiBwcm9zIGFuZCBjb25zKSBvZiBpZGVudGlmaWVkIGNvdW50ZXJtZWFzdXJlczsNCuKAoglldmFsdWF0aW9uIG9mIGNvdW50ZXJtZWFzdXJlcyB0byBkZXRlcm1pbmUgKDEpIHRoZSBuZWVkIGZvciBhIHN0YW5kYXJkaXNlZCBzb2x1dGlvbi9pbXBsZW1lbnRhdGlvbiwgKDIpIGF2YWlsYWJpbGl0eSBvZiBleGlzdGluZyBzdGFuZGFyZGlzZWQgc29sdXRpb25zIChlLmcuIGZyb20gb3RoZXIgU0RPcyksICgzKSB0aGUgbmVlZCBmb3IgYSBuZXcgc3RhbmRhcmRpc2VkIHNvbHV0aW9uIChlaXRoZXIgZnJvbSBhbm90aGVyIFNETyBvciBmcm9tIEVUU0kgTTJNKS4NCkNvbnRlbnQgaW4gdGhlIG5ldyBUUiBtYXkgbGVhZCB0byBuZXcgcmVxdWlyZW1lbnRzIGluIGZ1dHVyZSByZWxlYXNlcyBvZiBUUyAxMDIgNjg5IGFuZCBub3JtYXRpdmUgdGV4dCBpbiBUUyAxMDIgNjkwLiA=
   language:
   - en
   script:

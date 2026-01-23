@@ -47,19 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This revision of ETSI GS NFV-SOL020 continues the development of the specification
-    as part of the Release 5 and applies maintenance changes where applicable. This
-    edition will also add updates according to latest published versions of the reference
-    open source APIs and data model solutions related to daemon sets. The scope of
-    the former edition is summarized hereafter:\r\n\r\nThe work item will specify
-    the service interfaces to fulfill the functional requirement of the container
-    infrastructure service cluster management (CIS Cluster Management, or CCM in abbreviation)
-    as specified by ETSI GS NFV-IFA 036. It will analyze the NFV object model for
-    CIS cluster management and the managed objects of the referenced open-source solutions
-    (e.g. Kubernetes® cluster API) and provide a mapping between them. Based on the
-    analysis results, the referenced solutions will be profiled for specifying the
-    CIS cluster lifecycle, configuration, performance, fault and security management
-    service interfaces. The resulting deliverable will contain normative provisions."
+- content: !binary |-
+    VGhpcyByZXZpc2lvbiBvZiBFVFNJIEdTIE5GVi1TT0wwMjAgY29udGludWVzIHRoZSBkZXZlbG9wbWVudCBvZiB0aGUgc3BlY2lmaWNhdGlvbiBhcyBwYXJ0IG9mIHRoZSBSZWxlYXNlIDUgYW5kIGFwcGxpZXMgbWFpbnRlbmFuY2UgY2hhbmdlcyB3aGVyZSBhcHBsaWNhYmxlLiBUaGlzIGVkaXRpb24gd2lsbCBhbHNvIGFkZCB1cGRhdGVzIGFjY29yZGluZyB0byBsYXRlc3QgcHVibGlzaGVkIHZlcnNpb25zIG9mIHRoZSByZWZlcmVuY2Ugb3BlbiBzb3VyY2UgQVBJcyBhbmQgZGF0YSBtb2RlbCBzb2x1dGlvbnMgcmVsYXRlZCB0byBkYWVtb24gc2V0cy4gVGhlIHNjb3BlIG9mIHRoZSBmb3JtZXIgZWRpdGlvbiBpcyBzdW1tYXJpemVkIGhlcmVhZnRlcjoNCg0KVGhlIHdvcmsgaXRlbSB3aWxsIHNwZWNpZnkgdGhlIHNlcnZpY2UgaW50ZXJmYWNlcyB0byBmdWxmaWxsIHRoZSBmdW5jdGlvbmFsIHJlcXVpcmVtZW50IG9mIHRoZSBjb250YWluZXIgaW5mcmFzdHJ1Y3R1cmUgc2VydmljZSBjbHVzdGVyIG1hbmFnZW1lbnQgKENJUyBDbHVzdGVyIE1hbmFnZW1lbnQsIG9yIENDTSBpbiBhYmJyZXZpYXRpb24pIGFzIHNwZWNpZmllZCBieSBFVFNJIEdTIE5GVi1JRkEgMDM2LiBJdCB3aWxsIGFuYWx5emUgdGhlIE5GViBvYmplY3QgbW9kZWwgZm9yIENJUyBjbHVzdGVyIG1hbmFnZW1lbnQgYW5kIHRoZSBtYW5hZ2VkIG9iamVjdHMgb2YgdGhlIHJlZmVyZW5jZWQgb3Blbi1zb3VyY2Ugc29sdXRpb25zIChlLmcuIEt1YmVybmV0ZXPCriBjbHVzdGVyIEFQSSkgYW5kIHByb3ZpZGUgYSBtYXBwaW5nIGJldHdlZW4gdGhlbS4gQmFzZWQgb24gdGhlIGFuYWx5c2lzIHJlc3VsdHMsIHRoZSByZWZlcmVuY2VkIHNvbHV0aW9ucyB3aWxsIGJlIHByb2ZpbGVkIGZvciBzcGVjaWZ5aW5nIHRoZSBDSVMgY2x1c3RlciBsaWZlY3ljbGUsIGNvbmZpZ3VyYXRpb24sIHBlcmZvcm1hbmNlLCBmYXVsdCBhbmQgc2VjdXJpdHkgbWFuYWdlbWVudCBzZXJ2aWNlIGludGVyZmFjZXMuIFRoZSByZXN1bHRpbmcgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIG5vcm1hdGl2ZSBwcm92aXNpb25zLg==
   language:
   - en
   script:

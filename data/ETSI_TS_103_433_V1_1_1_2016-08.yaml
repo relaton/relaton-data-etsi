@@ -46,24 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Today High Efficiency Video Coding (HEVC) enables first Ultra HD broadcast
-    services (also referred as “4K” resolution) via existing DVB specifications. Recently
-    some High Dynamic Range (HDR) standards have been released by SMPTE (SMPTE ST
-    2084 and SMPTE ST 2086). However, they define an HDR signal that is not directly
-    compatible with Standard Dynamic Range (SDR) CE devices. Thus, these devices require
-    upstream external processing adapting the HDR signal to a supported video format
-    in order to render the video signal. Additionally, existing production and distribution
-    infrastructures as well as play out may not be compatible with the SMPTE HDR standards
-    with respect to carriage and signaling of the metadata in these standards.\r\nThe
-    goal of this proposed ETSI Work Item is to standardize an HDR system addressing
-    direct backwards compatibility i.e. a system leveraging SDR distribution networks
-    and services already in place and that enables high quality HDR rendering on HDR-enabled
-    CE devices including high quality SDR rendering on  SDR CE devices. Requirement
-    for the described solution is that it is single layer to ensure that bit rate
-    overhead for HDR and implementation complexity in CE devices will be low.\r\nAn
-    additional requirement is that the resulting standard should take into account
-    HDR technologies currently standardized in other bodies such as ITU-R, ITU-T,
-    SMPTE or ISO."
+- content: !binary |-
+    VG9kYXkgSGlnaCBFZmZpY2llbmN5IFZpZGVvIENvZGluZyAoSEVWQykgZW5hYmxlcyBmaXJzdCBVbHRyYSBIRCBicm9hZGNhc3Qgc2VydmljZXMgKGFsc28gcmVmZXJyZWQgYXMg4oCcNEvigJ0gcmVzb2x1dGlvbikgdmlhIGV4aXN0aW5nIERWQiBzcGVjaWZpY2F0aW9ucy4gUmVjZW50bHkgc29tZSBIaWdoIER5bmFtaWMgUmFuZ2UgKEhEUikgc3RhbmRhcmRzIGhhdmUgYmVlbiByZWxlYXNlZCBieSBTTVBURSAoU01QVEUgU1QgMjA4NCBhbmQgU01QVEUgU1QgMjA4NikuIEhvd2V2ZXIsIHRoZXkgZGVmaW5lIGFuIEhEUiBzaWduYWwgdGhhdCBpcyBub3QgZGlyZWN0bHkgY29tcGF0aWJsZSB3aXRoIFN0YW5kYXJkIER5bmFtaWMgUmFuZ2UgKFNEUikgQ0UgZGV2aWNlcy4gVGh1cywgdGhlc2UgZGV2aWNlcyByZXF1aXJlIHVwc3RyZWFtIGV4dGVybmFsIHByb2Nlc3NpbmcgYWRhcHRpbmcgdGhlIEhEUiBzaWduYWwgdG8gYSBzdXBwb3J0ZWQgdmlkZW8gZm9ybWF0IGluIG9yZGVyIHRvIHJlbmRlciB0aGUgdmlkZW8gc2lnbmFsLiBBZGRpdGlvbmFsbHksIGV4aXN0aW5nIHByb2R1Y3Rpb24gYW5kIGRpc3RyaWJ1dGlvbiBpbmZyYXN0cnVjdHVyZXMgYXMgd2VsbCBhcyBwbGF5IG91dCBtYXkgbm90IGJlIGNvbXBhdGlibGUgd2l0aCB0aGUgU01QVEUgSERSIHN0YW5kYXJkcyB3aXRoIHJlc3BlY3QgdG8gY2FycmlhZ2UgYW5kIHNpZ25hbGluZyBvZiB0aGUgbWV0YWRhdGEgaW4gdGhlc2Ugc3RhbmRhcmRzLg0KVGhlIGdvYWwgb2YgdGhpcyBwcm9wb3NlZCBFVFNJIFdvcmsgSXRlbSBpcyB0byBzdGFuZGFyZGl6ZSBhbiBIRFIgc3lzdGVtIGFkZHJlc3NpbmcgZGlyZWN0IGJhY2t3YXJkcyBjb21wYXRpYmlsaXR5IGkuZS4gYSBzeXN0ZW0gbGV2ZXJhZ2luZyBTRFIgZGlzdHJpYnV0aW9uIG5ldHdvcmtzIGFuZCBzZXJ2aWNlcyBhbHJlYWR5IGluIHBsYWNlIGFuZCB0aGF0IGVuYWJsZXMgaGlnaCBxdWFsaXR5IEhEUiByZW5kZXJpbmcgb24gSERSLWVuYWJsZWQgQ0UgZGV2aWNlcyBpbmNsdWRpbmcgaGlnaCBxdWFsaXR5IFNEUiByZW5kZXJpbmcgb24gIFNEUiBDRSBkZXZpY2VzLiBSZXF1aXJlbWVudCBmb3IgdGhlIGRlc2NyaWJlZCBzb2x1dGlvbiBpcyB0aGF0IGl0IGlzIHNpbmdsZSBsYXllciB0byBlbnN1cmUgdGhhdCBiaXQgcmF0ZSBvdmVyaGVhZCBmb3IgSERSIGFuZCBpbXBsZW1lbnRhdGlvbiBjb21wbGV4aXR5IGluIENFIGRldmljZXMgd2lsbCBiZSBsb3cuDQpBbiBhZGRpdGlvbmFsIHJlcXVpcmVtZW50IGlzIHRoYXQgdGhlIHJlc3VsdGluZyBzdGFuZGFyZCBzaG91bGQgdGFrZSBpbnRvIGFjY291bnQgSERSIHRlY2hub2xvZ2llcyBjdXJyZW50bHkgc3RhbmRhcmRpemVkIGluIG90aGVyIGJvZGllcyBzdWNoIGFzIElUVS1SLCBJVFUtVCwgU01QVEUgb3IgSVNPLg==
   language:
   - en
   script:

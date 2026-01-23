@@ -47,20 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This Telecommunication Standard (TS) describes the detailed mapping from
-    input blocks of 160 speech samples in 13-bit uniform PCM format to encoded blocks
-    of 95, 103, 118, 134, 148, 159, 204, and 244 bits and from encoded blocks of 95,
-    103, 118, 134, 148, 159, 204, and 244 bits to output blocks of 160 reconstructed
-    speech samples. The sampling rate is 8 000 samples/s leading to a bit rate for
-    the encoded bit stream of 4.75, 5.15, 5.90, 6.70, 7.40, 7.95, 10.2 or 12.2 kbit/s.
-    The coding scheme for the multi-rate coding modes is the so-called Algebraic Code
-    Excited Linear Prediction Coder, hereafter referred to as ACELP. The multi-rate
-    ACELP coder is referred to as MR-ACELP.\r\nIn the case of discrepancy between
-    the requirements described in this TS and the fixed point computational description
-    (ANSI-C code) of these requirements contained in [4], the description in [4] will
-    prevail. The ANSI-C code is not described in this TS, see [4] for a description
-    of the ANSI-C code.\r\nThe transcoding procedure specified in this TS is mandatory
-    for systems using the AMR speech codec. \r\n"
+- content: !binary |-
+    VGhpcyBUZWxlY29tbXVuaWNhdGlvbiBTdGFuZGFyZCAoVFMpIGRlc2NyaWJlcyB0aGUgZGV0YWlsZWQgbWFwcGluZyBmcm9tIGlucHV0IGJsb2NrcyBvZiAxNjAgc3BlZWNoIHNhbXBsZXMgaW4gMTMtYml0IHVuaWZvcm0gUENNIGZvcm1hdCB0byBlbmNvZGVkIGJsb2NrcyBvZiA5NSwgMTAzLCAxMTgsIDEzNCwgMTQ4LCAxNTksIDIwNCwgYW5kIDI0NMKgYml0cyBhbmQgZnJvbSBlbmNvZGVkIGJsb2NrcyBvZiA5NSwgMTAzLCAxMTgsIDEzNCwgMTQ4LCAxNTksIDIwNCwgYW5kIDI0NMKgYml0cyB0byBvdXRwdXQgYmxvY2tzIG9mIDE2MCByZWNvbnN0cnVjdGVkIHNwZWVjaCBzYW1wbGVzLiBUaGUgc2FtcGxpbmcgcmF0ZSBpcyA4wqAwMDDCoHNhbXBsZXMvcyBsZWFkaW5nIHRvIGEgYml0IHJhdGUgZm9yIHRoZSBlbmNvZGVkIGJpdCBzdHJlYW0gb2YgNC43NSwgNS4xNSwgNS45MCwgNi43MCwgNy40MCwgNy45NSwgMTAuMiBvciAxMi4ywqBrYml0L3MuIFRoZSBjb2Rpbmcgc2NoZW1lIGZvciB0aGUgbXVsdGktcmF0ZSBjb2RpbmcgbW9kZXMgaXMgdGhlIHNvLWNhbGxlZCBBbGdlYnJhaWMgQ29kZSBFeGNpdGVkIExpbmVhciBQcmVkaWN0aW9uIENvZGVyLCBoZXJlYWZ0ZXIgcmVmZXJyZWQgdG8gYXMgQUNFTFAuIFRoZSBtdWx0aS1yYXRlIEFDRUxQIGNvZGVyIGlzIHJlZmVycmVkIHRvIGFzIE1SLUFDRUxQLg0KSW4gdGhlIGNhc2Ugb2YgZGlzY3JlcGFuY3kgYmV0d2VlbiB0aGUgcmVxdWlyZW1lbnRzIGRlc2NyaWJlZCBpbiB0aGlzIFRTIGFuZCB0aGUgZml4ZWQgcG9pbnQgY29tcHV0YXRpb25hbCBkZXNjcmlwdGlvbiAoQU5TSS1DIGNvZGUpIG9mIHRoZXNlIHJlcXVpcmVtZW50cyBjb250YWluZWQgaW4gWzRdLCB0aGUgZGVzY3JpcHRpb24gaW4gWzRdIHdpbGwgcHJldmFpbC4gVGhlIEFOU0ktQyBjb2RlIGlzIG5vdCBkZXNjcmliZWQgaW4gdGhpcyBUUywgc2VlIFs0XSBmb3IgYSBkZXNjcmlwdGlvbiBvZiB0aGUgQU5TSS1DIGNvZGUuDQpUaGUgdHJhbnNjb2RpbmcgcHJvY2VkdXJlIHNwZWNpZmllZCBpbiB0aGlzIFRTIGlzIG1hbmRhdG9yeSBmb3Igc3lzdGVtcyB1c2luZyB0aGUgQU1SIHNwZWVjaCBjb2RlYy4gDQo=
   language:
   - en
   script:

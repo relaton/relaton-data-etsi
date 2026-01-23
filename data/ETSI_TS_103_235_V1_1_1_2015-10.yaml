@@ -47,26 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This Technical Specification defines the system architecture for the operation
-    of Licensed Shared Access, enabling operation of Mobile Broadband Systems under
-    Licensed Shared Access regime. The architecture builds on the scenarios and applications
-    described in ETSI TR 103 113 “Mobile Broadband Services in the 2 300 MHz – 2 400
-    MHz Frequency Band under Licensed Shared Access Regime”, and the system requirements
-    captured in ETSI TS 103 154 “System requirements for operation of Mobile Broadband
-    Systems in the 2 300 MHz–2 400 MHz band under Licensed Shared Access (LSA) regime”.\r\n\r\nThe
-    scope of the work will be to define the architecture of a system which enables
-    LSA following the requirements developed in TS 103 154. . The Technical Specification
-    will serve as an input for defining the Harmonized Standards and European Standards
-    that are part of the EC mandate for Reconfigurable Radio Systems (M/512). Therefore,
-    this work will be performed in a close liaison with the Joint Task Force ERM RRS
-    (JTFER) related to EC Mandate M/512.\r\n\r\nThe specification should include:\r\n\r\n
-    -Functional architecture \r\n- Identification of the different entities, reference
-    points, and mapping of functions to entities\r\n- Identification of interfaces
-    to be standardized\r\n - High level procedures and information flows enabling
-    coordination of spectrum resource usage between Incumbent(s) and Licensee(s)\r\n\r\nAs
-    part of the specification work, consideration will be given to the need for the
-    LSA System to interwork with different MFCN architectures (including both macro
-    and small cell deployments). "
+- content: !binary |-
+    VGhpcyBUZWNobmljYWwgU3BlY2lmaWNhdGlvbiBkZWZpbmVzIHRoZSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIGZvciB0aGUgb3BlcmF0aW9uIG9mIExpY2Vuc2VkIFNoYXJlZCBBY2Nlc3MsIGVuYWJsaW5nIG9wZXJhdGlvbiBvZiBNb2JpbGUgQnJvYWRiYW5kIFN5c3RlbXMgdW5kZXIgTGljZW5zZWQgU2hhcmVkIEFjY2VzcyByZWdpbWUuIFRoZSBhcmNoaXRlY3R1cmUgYnVpbGRzIG9uIHRoZSBzY2VuYXJpb3MgYW5kIGFwcGxpY2F0aW9ucyBkZXNjcmliZWQgaW4gRVRTSSBUUiAxMDMgMTEzIOKAnE1vYmlsZSBCcm9hZGJhbmQgU2VydmljZXMgaW4gdGhlIDIgMzAwIE1IeiDigJMgMiA0MDAgTUh6IEZyZXF1ZW5jeSBCYW5kIHVuZGVyIExpY2Vuc2VkIFNoYXJlZCBBY2Nlc3MgUmVnaW1l4oCdLCBhbmQgdGhlIHN5c3RlbSByZXF1aXJlbWVudHMgY2FwdHVyZWQgaW4gRVRTSSBUUyAxMDMgMTU0IOKAnFN5c3RlbSByZXF1aXJlbWVudHMgZm9yIG9wZXJhdGlvbiBvZiBNb2JpbGUgQnJvYWRiYW5kIFN5c3RlbXMgaW4gdGhlIDIgMzAwIE1IeuKAkzIgNDAwIE1IeiBiYW5kIHVuZGVyIExpY2Vuc2VkIFNoYXJlZCBBY2Nlc3MgKExTQSkgcmVnaW1l4oCdLg0KDQpUaGUgc2NvcGUgb2YgdGhlIHdvcmsgd2lsbCBiZSB0byBkZWZpbmUgdGhlIGFyY2hpdGVjdHVyZSBvZiBhIHN5c3RlbSB3aGljaCBlbmFibGVzIExTQSBmb2xsb3dpbmcgdGhlIHJlcXVpcmVtZW50cyBkZXZlbG9wZWQgaW4gVFMgMTAzIDE1NC4gLiBUaGUgVGVjaG5pY2FsIFNwZWNpZmljYXRpb24gd2lsbCBzZXJ2ZSBhcyBhbiBpbnB1dCBmb3IgZGVmaW5pbmcgdGhlIEhhcm1vbml6ZWQgU3RhbmRhcmRzIGFuZCBFdXJvcGVhbiBTdGFuZGFyZHMgdGhhdCBhcmUgcGFydCBvZiB0aGUgRUMgbWFuZGF0ZSBmb3IgUmVjb25maWd1cmFibGUgUmFkaW8gU3lzdGVtcyAoTS81MTIpLiBUaGVyZWZvcmUsIHRoaXMgd29yayB3aWxsIGJlIHBlcmZvcm1lZCBpbiBhIGNsb3NlIGxpYWlzb24gd2l0aCB0aGUgSm9pbnQgVGFzayBGb3JjZSBFUk0gUlJTIChKVEZFUikgcmVsYXRlZCB0byBFQyBNYW5kYXRlIE0vNTEyLg0KDQpUaGUgc3BlY2lmaWNhdGlvbiBzaG91bGQgaW5jbHVkZToNCg0KIC1GdW5jdGlvbmFsIGFyY2hpdGVjdHVyZSANCi0gSWRlbnRpZmljYXRpb24gb2YgdGhlIGRpZmZlcmVudCBlbnRpdGllcywgcmVmZXJlbmNlIHBvaW50cywgYW5kIG1hcHBpbmcgb2YgZnVuY3Rpb25zIHRvIGVudGl0aWVzDQotIElkZW50aWZpY2F0aW9uIG9mIGludGVyZmFjZXMgdG8gYmUgc3RhbmRhcmRpemVkDQogLSBIaWdoIGxldmVsIHByb2NlZHVyZXMgYW5kIGluZm9ybWF0aW9uIGZsb3dzIGVuYWJsaW5nIGNvb3JkaW5hdGlvbiBvZiBzcGVjdHJ1bSByZXNvdXJjZSB1c2FnZSBiZXR3ZWVuIEluY3VtYmVudChzKSBhbmQgTGljZW5zZWUocykNCg0KQXMgcGFydCBvZiB0aGUgc3BlY2lmaWNhdGlvbiB3b3JrLCBjb25zaWRlcmF0aW9uIHdpbGwgYmUgZ2l2ZW4gdG8gdGhlIG5lZWQgZm9yIHRoZSBMU0EgU3lzdGVtIHRvIGludGVyd29yayB3aXRoIGRpZmZlcmVudCBNRkNOIGFyY2hpdGVjdHVyZXMgKGluY2x1ZGluZyBib3RoIG1hY3JvIGFuZCBzbWFsbCBjZWxsIGRlcGxveW1lbnRzKS4g
   language:
   - en
   script:

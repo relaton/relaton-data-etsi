@@ -46,22 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "A sensor hub is a microcontroller unit/coprocessor/digital signal processor
-    that helps to integrate data from different sensors or other chips (WiFi, BlueTooth,
-    GPS, etc.) and process them.\r\nA sensor hub is a key components for the user
-    data management, pre-processing and presentation to the the device OS and, as
-    the processed data is related with personal information, its security requirements
-    need to be carefully defined.\r\nHow the sensor hub is materialized depends on
-    the architecture. It is sometimes a separate chip, and sometimes included on the
-    same chip as the SoC. Due to this there is the need to define common security
-    requirements to avoid misuse and leakage of personal data within sensor hubs.\r\nThe
-    scope of this work item is to identify the security threats and the related security
-    requirements to be fulfilled by a sensor hub in order to:\r\n•\tGuarantee the
-    security of data relevant to sensor hub (data storage);\r\n•\tGuarantee the secure
-    proper handling of the data within the sensor hub (data processing);\r\n•\tDetermine
-    which data can be transfer from the sensor hub and the Device applications and
-    which will be the security requirements of the SensorHub interface (data transfer
-    and use)\r\n"
+- content: !binary |-
+    QSBzZW5zb3IgaHViIGlzIGEgbWljcm9jb250cm9sbGVyIHVuaXQvY29wcm9jZXNzb3IvZGlnaXRhbCBzaWduYWwgcHJvY2Vzc29yIHRoYXQgaGVscHMgdG8gaW50ZWdyYXRlIGRhdGEgZnJvbSBkaWZmZXJlbnQgc2Vuc29ycyBvciBvdGhlciBjaGlwcyAoV2lGaSwgQmx1ZVRvb3RoLCBHUFMsIGV0Yy4pIGFuZCBwcm9jZXNzIHRoZW0uDQpBIHNlbnNvciBodWIgaXMgYSBrZXkgY29tcG9uZW50cyBmb3IgdGhlIHVzZXIgZGF0YSBtYW5hZ2VtZW50LCBwcmUtcHJvY2Vzc2luZyBhbmQgcHJlc2VudGF0aW9uIHRvIHRoZSB0aGUgZGV2aWNlIE9TIGFuZCwgYXMgdGhlIHByb2Nlc3NlZCBkYXRhIGlzIHJlbGF0ZWQgd2l0aCBwZXJzb25hbCBpbmZvcm1hdGlvbiwgaXRzIHNlY3VyaXR5IHJlcXVpcmVtZW50cyBuZWVkIHRvIGJlIGNhcmVmdWxseSBkZWZpbmVkLg0KSG93IHRoZSBzZW5zb3IgaHViIGlzIG1hdGVyaWFsaXplZCBkZXBlbmRzIG9uIHRoZSBhcmNoaXRlY3R1cmUuIEl0IGlzIHNvbWV0aW1lcyBhIHNlcGFyYXRlIGNoaXAsIGFuZCBzb21ldGltZXMgaW5jbHVkZWQgb24gdGhlIHNhbWUgY2hpcCBhcyB0aGUgU29DLiBEdWUgdG8gdGhpcyB0aGVyZSBpcyB0aGUgbmVlZCB0byBkZWZpbmUgY29tbW9uIHNlY3VyaXR5IHJlcXVpcmVtZW50cyB0byBhdm9pZCBtaXN1c2UgYW5kIGxlYWthZ2Ugb2YgcGVyc29uYWwgZGF0YSB3aXRoaW4gc2Vuc29yIGh1YnMuDQpUaGUgc2NvcGUgb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gaWRlbnRpZnkgdGhlIHNlY3VyaXR5IHRocmVhdHMgYW5kIHRoZSByZWxhdGVkIHNlY3VyaXR5IHJlcXVpcmVtZW50cyB0byBiZSBmdWxmaWxsZWQgYnkgYSBzZW5zb3IgaHViIGluIG9yZGVyIHRvOg0K4oCiCUd1YXJhbnRlZSB0aGUgc2VjdXJpdHkgb2YgZGF0YSByZWxldmFudCB0byBzZW5zb3IgaHViIChkYXRhIHN0b3JhZ2UpOw0K4oCiCUd1YXJhbnRlZSB0aGUgc2VjdXJlIHByb3BlciBoYW5kbGluZyBvZiB0aGUgZGF0YSB3aXRoaW4gdGhlIHNlbnNvciBodWIgKGRhdGEgcHJvY2Vzc2luZyk7DQrigKIJRGV0ZXJtaW5lIHdoaWNoIGRhdGEgY2FuIGJlIHRyYW5zZmVyIGZyb20gdGhlIHNlbnNvciBodWIgYW5kIHRoZSBEZXZpY2UgYXBwbGljYXRpb25zIGFuZCB3aGljaCB3aWxsIGJlIHRoZSBzZWN1cml0eSByZXF1aXJlbWVudHMgb2YgdGhlIFNlbnNvckh1YiBpbnRlcmZhY2UgKGRhdGEgdHJhbnNmZXIgYW5kIHVzZSkNCg==
   language:
   - en
   script:

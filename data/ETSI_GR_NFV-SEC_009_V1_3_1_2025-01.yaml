@@ -46,21 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: The present document addresses multi-layer administration use cases and
-    technical approaches, an issue identified in the Security Problem Statement, ETSI
-    GS NFV-SEC 001 [i.1]. Multi-layer administration seeks to provide methods, capabilities,
-    procedures and assurances - of various strengths based on requirements and available
-    technologies and techniques - that safeguard Virtual Machines or Containers running
-    on a virtualisation host ("hosted applications") -from interference (of various
-    types) by the host system or platform ("hosting service").  The scope of the present
-    document is generally the system comprising the hosting service, associated hardware
-    (including TPM, GPU, etc.), software and configuration, and the hosted application.
-    Some requirements and measures outside this context are also considered, but not
-    necessarily in equal depth. The proposed work item for revision is to update SEC009
-    on the term TPM with generic descriptions, including using NFV-SEC’s own term
-    HBRT, or adding equivalent hardware implementations, just like IETF draft-ietf-rats-tpm-based-network-device-attest-14
-    says in the abstract.In addition an update to clause 6.20 to include details on
-    virtual HSMs.
+- content: !binary |-
+    VGhlIHByZXNlbnQgZG9jdW1lbnQgYWRkcmVzc2VzIG11bHRpLWxheWVyIGFkbWluaXN0cmF0aW9uIHVzZSBjYXNlcyBhbmQgdGVjaG5pY2FsIGFwcHJvYWNoZXMsIGFuIGlzc3VlIGlkZW50aWZpZWQgaW4gdGhlIFNlY3VyaXR5IFByb2JsZW0gU3RhdGVtZW50LCBFVFNJIEdTIE5GVi1TRUMgMDAxIFtpLjFdLiBNdWx0aS1sYXllciBhZG1pbmlzdHJhdGlvbiBzZWVrcyB0byBwcm92aWRlIG1ldGhvZHMsIGNhcGFiaWxpdGllcywgcHJvY2VkdXJlcyBhbmQgYXNzdXJhbmNlcyAtIG9mIHZhcmlvdXMgc3RyZW5ndGhzIGJhc2VkIG9uIHJlcXVpcmVtZW50cyBhbmQgYXZhaWxhYmxlIHRlY2hub2xvZ2llcyBhbmQgdGVjaG5pcXVlcyAtIHRoYXQgc2FmZWd1YXJkIFZpcnR1YWwgTWFjaGluZXMgb3IgQ29udGFpbmVycyBydW5uaW5nIG9uIGEgdmlydHVhbGlzYXRpb24gaG9zdCAoImhvc3RlZCBhcHBsaWNhdGlvbnMiKSAtZnJvbSBpbnRlcmZlcmVuY2UgKG9mIHZhcmlvdXMgdHlwZXMpIGJ5IHRoZSBob3N0IHN5c3RlbSBvciBwbGF0Zm9ybSAoImhvc3Rpbmcgc2VydmljZSIpLiAgVGhlIHNjb3BlIG9mIHRoZSBwcmVzZW50IGRvY3VtZW50IGlzIGdlbmVyYWxseSB0aGUgc3lzdGVtIGNvbXByaXNpbmcgdGhlIGhvc3Rpbmcgc2VydmljZSwgYXNzb2NpYXRlZCBoYXJkd2FyZSAoaW5jbHVkaW5nIFRQTSwgR1BVLCBldGMuKSwgc29mdHdhcmUgYW5kIGNvbmZpZ3VyYXRpb24sIGFuZCB0aGUgaG9zdGVkIGFwcGxpY2F0aW9uLiBTb21lIHJlcXVpcmVtZW50cyBhbmQgbWVhc3VyZXMgb3V0c2lkZSB0aGlzIGNvbnRleHQgYXJlIGFsc28gY29uc2lkZXJlZCwgYnV0IG5vdCBuZWNlc3NhcmlseSBpbiBlcXVhbCBkZXB0aC4gVGhlIHByb3Bvc2VkIHdvcmsgaXRlbSBmb3IgcmV2aXNpb24gaXMgdG8gdXBkYXRlIFNFQzAwOSBvbiB0aGUgdGVybSBUUE0gd2l0aCBnZW5lcmljIGRlc2NyaXB0aW9ucywgaW5jbHVkaW5nIHVzaW5nIE5GVi1TRUPigJlzIG93biB0ZXJtIEhCUlQsIG9yIGFkZGluZyBlcXVpdmFsZW50IGhhcmR3YXJlIGltcGxlbWVudGF0aW9ucywganVzdCBsaWtlIElFVEYgZHJhZnQtaWV0Zi1yYXRzLXRwbS1iYXNlZC1uZXR3b3JrLWRldmljZS1hdHRlc3QtMTQgc2F5cyBpbiB0aGUgYWJzdHJhY3QuSW4gYWRkaXRpb24gYW4gdXBkYXRlIHRvIGNsYXVzZSA2LjIwIHRvIGluY2x1ZGUgZGV0YWlscyBvbiB2aXJ0dWFsIEhTTXMu
   language:
   - en
   script:

@@ -46,17 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: The present document is a study on how the location of sensitive VNFs (e.g.
-    VNFs handling data with Data Protection location handling restrictions, network
-    security functions and LI functions) can be attested. The present document considers
-    the use of trusted locstamp and timestamp information derived from Global Navigation
-    Satellite Systems (GNSS), such as Galileo. The present document also considers
-    other physical location binding solutions. The capabilities described also have
-    benefits for other less sensitive virtualised services which may need to verify
-    location of VNFs or data. The proposed work item for revision is to update SEC016
-    on the term TPM with generic descriptions, including using NFV-SEC’s own term
-    HBRT, or adding equivalent hardware implementations, just like IETF draft-ietf-rats-tpm-based-network-device-attest-14
-    says in the abstract.
+- content: !binary |-
+    VGhlIHByZXNlbnQgZG9jdW1lbnQgaXMgYSBzdHVkeSBvbiBob3cgdGhlIGxvY2F0aW9uIG9mIHNlbnNpdGl2ZSBWTkZzIChlLmcuIFZORnMgaGFuZGxpbmcgZGF0YSB3aXRoIERhdGEgUHJvdGVjdGlvbiBsb2NhdGlvbiBoYW5kbGluZyByZXN0cmljdGlvbnMsIG5ldHdvcmsgc2VjdXJpdHkgZnVuY3Rpb25zIGFuZCBMSSBmdW5jdGlvbnMpIGNhbiBiZSBhdHRlc3RlZC4gVGhlIHByZXNlbnQgZG9jdW1lbnQgY29uc2lkZXJzIHRoZSB1c2Ugb2YgdHJ1c3RlZCBsb2NzdGFtcCBhbmQgdGltZXN0YW1wIGluZm9ybWF0aW9uIGRlcml2ZWQgZnJvbSBHbG9iYWwgTmF2aWdhdGlvbiBTYXRlbGxpdGUgU3lzdGVtcyAoR05TUyksIHN1Y2ggYXMgR2FsaWxlby4gVGhlIHByZXNlbnQgZG9jdW1lbnQgYWxzbyBjb25zaWRlcnMgb3RoZXIgcGh5c2ljYWwgbG9jYXRpb24gYmluZGluZyBzb2x1dGlvbnMuIFRoZSBjYXBhYmlsaXRpZXMgZGVzY3JpYmVkIGFsc28gaGF2ZSBiZW5lZml0cyBmb3Igb3RoZXIgbGVzcyBzZW5zaXRpdmUgdmlydHVhbGlzZWQgc2VydmljZXMgd2hpY2ggbWF5IG5lZWQgdG8gdmVyaWZ5IGxvY2F0aW9uIG9mIFZORnMgb3IgZGF0YS4gVGhlIHByb3Bvc2VkIHdvcmsgaXRlbSBmb3IgcmV2aXNpb24gaXMgdG8gdXBkYXRlIFNFQzAxNiBvbiB0aGUgdGVybSBUUE0gd2l0aCBnZW5lcmljIGRlc2NyaXB0aW9ucywgaW5jbHVkaW5nIHVzaW5nIE5GVi1TRUPigJlzIG93biB0ZXJtIEhCUlQsIG9yIGFkZGluZyBlcXVpdmFsZW50IGhhcmR3YXJlIGltcGxlbWVudGF0aW9ucywganVzdCBsaWtlIElFVEYgZHJhZnQtaWV0Zi1yYXRzLXRwbS1iYXNlZC1uZXR3b3JrLWRldmljZS1hdHRlc3QtMTQgc2F5cyBpbiB0aGUgYWJzdHJhY3Qu
   language:
   - en
   script:

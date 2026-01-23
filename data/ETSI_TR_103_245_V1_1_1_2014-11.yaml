@@ -48,41 +48,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The work item will develop a System Reference Document (SRDoc) for wideband
-    SRDs with advanced spectrum sharing capability operating in the UHF 870-876 MHz
-    and 915-921 MHz frequency bands.\r\nThe objective of this work item is to seek
-    \ access to the 870-876 MHz and 915-921 MHz frequency bands for wideband SRD technologies,
-    which enable a wide range of IoT (Internet of Things) and M2M applications.\r\nThe
-    SRDoc will cover:\r\n•\tMarket information \r\n•\tTechnical characteristics and
-    parameters for wideband SRDs, where if required 802.11ah technology is considered
-    as an example for the deployment of wideband SRDs\r\n•\tRadio frequency spectrum
-    request and justifications for increasing the maximum transmission bandwidth limit
-    and relaxing the duty cycle limits (e.g. 1%)  for wideband SRDs where advanced
-    spectrum sharing techniques like LBT (CSMA), AFA are additionally employed\r\nBackground:\r\nThe
-    current regulatory rules being considered for SRD operations in the 870-876MHz
-    and 915-921MHz are based on previously defined SRD technical characteristics (e.g.
-    TR102 649-2). Presently, the maximum transmission bandwidth is limited to 600kHz.
-    \r\nA Liaison Statement from CEPT WG FM (78th Meeting in October 2013) to ETSI
-    TC ERM, suggested that a new SRDoc should be created:\r\n-\t“A new request has
-    been received during the public consultation of ECC Report 200 from the Wifi-alliance
-    and Qualcomm for UHF SRD applications (870-876/ 915-921 MHz) for air interfaces
-    with wider bandwidth (e.g. 1 MHz) and using a frequency channel selection mechanism
-    for accessing the spectrum. This request has been passed over to SRD/MG which
-    also received a presentation from Qualcomm in August 2013. This request was not
-    included in the original five ETSI System Reference Documents for the UHF SRD
-    activities and consequently, is not covered by the studies in ECC Report 200.
-    WGFM sees a benefit in a precise description of such a request, for transparency
-    reasons and in light of the five original System Reference Document requests,
-    that ERM considers the creation of an ETSI System Reference Document for the purpose
-    of addressing air interfaces as said above, which could then be studied in the
-    future.”\r\nAn example for wideband SRDs with advanced spectrum sharing capability
-    is the IEEE 802.11ah standard, which  is currently being developed. Many use cases
-    of this technology overlaps with those of SRDs, like home and house automation,
-    access control, machine-to-machine, telemetry and telecommand, etc. The addition
-    of wider bandwidth SRDs for use in the 870-876 MHz and 915-921 MHz bands across
-    CEPT countries will potentially enable many new Internet of Things (IoT) and similar
-    SRD-oriented applications through higher achievable data rates, natural IP support,
-    as well as many power and capacity efficient features."
+- content: !binary |-
+    VGhlIHdvcmsgaXRlbSB3aWxsIGRldmVsb3AgYSBTeXN0ZW0gUmVmZXJlbmNlIERvY3VtZW50IChTUkRvYykgZm9yIHdpZGViYW5kIFNSRHMgd2l0aCBhZHZhbmNlZCBzcGVjdHJ1bSBzaGFyaW5nIGNhcGFiaWxpdHkgb3BlcmF0aW5nIGluIHRoZSBVSEYgODcwLTg3NiBNSHogYW5kIDkxNS05MjEgTUh6IGZyZXF1ZW5jeSBiYW5kcy4NClRoZSBvYmplY3RpdmUgb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gc2VlayAgYWNjZXNzIHRvIHRoZSA4NzAtODc2IE1IeiBhbmQgOTE1LTkyMSBNSHogZnJlcXVlbmN5IGJhbmRzIGZvciB3aWRlYmFuZCBTUkQgdGVjaG5vbG9naWVzLCB3aGljaCBlbmFibGUgYSB3aWRlIHJhbmdlIG9mIElvVCAoSW50ZXJuZXQgb2YgVGhpbmdzKSBhbmQgTTJNIGFwcGxpY2F0aW9ucy4NClRoZSBTUkRvYyB3aWxsIGNvdmVyOg0K4oCiCU1hcmtldCBpbmZvcm1hdGlvbiANCuKAoglUZWNobmljYWwgY2hhcmFjdGVyaXN0aWNzIGFuZCBwYXJhbWV0ZXJzIGZvciB3aWRlYmFuZCBTUkRzLCB3aGVyZSBpZiByZXF1aXJlZCA4MDIuMTFhaCB0ZWNobm9sb2d5IGlzIGNvbnNpZGVyZWQgYXMgYW4gZXhhbXBsZSBmb3IgdGhlIGRlcGxveW1lbnQgb2Ygd2lkZWJhbmQgU1JEcw0K4oCiCVJhZGlvIGZyZXF1ZW5jeSBzcGVjdHJ1bSByZXF1ZXN0IGFuZCBqdXN0aWZpY2F0aW9ucyBmb3IgaW5jcmVhc2luZyB0aGUgbWF4aW11bSB0cmFuc21pc3Npb24gYmFuZHdpZHRoIGxpbWl0IGFuZCByZWxheGluZyB0aGUgZHV0eSBjeWNsZSBsaW1pdHMgKGUuZy4gMSUpICBmb3Igd2lkZWJhbmQgU1JEcyB3aGVyZSBhZHZhbmNlZCBzcGVjdHJ1bSBzaGFyaW5nIHRlY2huaXF1ZXMgbGlrZSBMQlQgKENTTUEpLCBBRkEgYXJlIGFkZGl0aW9uYWxseSBlbXBsb3llZA0KQmFja2dyb3VuZDoNClRoZSBjdXJyZW50IHJlZ3VsYXRvcnkgcnVsZXMgYmVpbmcgY29uc2lkZXJlZCBmb3IgU1JEIG9wZXJhdGlvbnMgaW4gdGhlIDg3MC04NzZNSHogYW5kIDkxNS05MjFNSHogYXJlIGJhc2VkIG9uIHByZXZpb3VzbHkgZGVmaW5lZCBTUkQgdGVjaG5pY2FsIGNoYXJhY3RlcmlzdGljcyAoZS5nLiBUUjEwMiA2NDktMikuIFByZXNlbnRseSwgdGhlIG1heGltdW0gdHJhbnNtaXNzaW9uIGJhbmR3aWR0aCBpcyBsaW1pdGVkIHRvIDYwMGtIei4gDQpBIExpYWlzb24gU3RhdGVtZW50IGZyb20gQ0VQVCBXRyBGTSAoNzh0aCBNZWV0aW5nIGluIE9jdG9iZXIgMjAxMykgdG8gRVRTSSBUQyBFUk0sIHN1Z2dlc3RlZCB0aGF0IGEgbmV3IFNSRG9jIHNob3VsZCBiZSBjcmVhdGVkOg0KLQnigJxBIG5ldyByZXF1ZXN0IGhhcyBiZWVuIHJlY2VpdmVkIGR1cmluZyB0aGUgcHVibGljIGNvbnN1bHRhdGlvbiBvZiBFQ0MgUmVwb3J0IDIwMCBmcm9tIHRoZSBXaWZpLWFsbGlhbmNlIGFuZCBRdWFsY29tbSBmb3IgVUhGIFNSRCBhcHBsaWNhdGlvbnMgKDg3MC04NzYvIDkxNS05MjEgTUh6KSBmb3IgYWlyIGludGVyZmFjZXMgd2l0aCB3aWRlciBiYW5kd2lkdGggKGUuZy4gMSBNSHopIGFuZCB1c2luZyBhIGZyZXF1ZW5jeSBjaGFubmVsIHNlbGVjdGlvbiBtZWNoYW5pc20gZm9yIGFjY2Vzc2luZyB0aGUgc3BlY3RydW0uIFRoaXMgcmVxdWVzdCBoYXMgYmVlbiBwYXNzZWQgb3ZlciB0byBTUkQvTUcgd2hpY2ggYWxzbyByZWNlaXZlZCBhIHByZXNlbnRhdGlvbiBmcm9tIFF1YWxjb21tIGluIEF1Z3VzdCAyMDEzLiBUaGlzIHJlcXVlc3Qgd2FzIG5vdCBpbmNsdWRlZCBpbiB0aGUgb3JpZ2luYWwgZml2ZSBFVFNJIFN5c3RlbSBSZWZlcmVuY2UgRG9jdW1lbnRzIGZvciB0aGUgVUhGIFNSRCBhY3Rpdml0aWVzIGFuZCBjb25zZXF1ZW50bHksIGlzIG5vdCBjb3ZlcmVkIGJ5IHRoZSBzdHVkaWVzIGluIEVDQyBSZXBvcnQgMjAwLiBXR0ZNIHNlZXMgYSBiZW5lZml0IGluIGEgcHJlY2lzZSBkZXNjcmlwdGlvbiBvZiBzdWNoIGEgcmVxdWVzdCwgZm9yIHRyYW5zcGFyZW5jeSByZWFzb25zIGFuZCBpbiBsaWdodCBvZiB0aGUgZml2ZSBvcmlnaW5hbCBTeXN0ZW0gUmVmZXJlbmNlIERvY3VtZW50IHJlcXVlc3RzLCB0aGF0IEVSTSBjb25zaWRlcnMgdGhlIGNyZWF0aW9uIG9mIGFuIEVUU0kgU3lzdGVtIFJlZmVyZW5jZSBEb2N1bWVudCBmb3IgdGhlIHB1cnBvc2Ugb2YgYWRkcmVzc2luZyBhaXIgaW50ZXJmYWNlcyBhcyBzYWlkIGFib3ZlLCB3aGljaCBjb3VsZCB0aGVuIGJlIHN0dWRpZWQgaW4gdGhlIGZ1dHVyZS7igJ0NCkFuIGV4YW1wbGUgZm9yIHdpZGViYW5kIFNSRHMgd2l0aCBhZHZhbmNlZCBzcGVjdHJ1bSBzaGFyaW5nIGNhcGFiaWxpdHkgaXMgdGhlIElFRUUgODAyLjExYWggc3RhbmRhcmQsIHdoaWNoICBpcyBjdXJyZW50bHkgYmVpbmcgZGV2ZWxvcGVkLiBNYW55IHVzZSBjYXNlcyBvZiB0aGlzIHRlY2hub2xvZ3kgb3ZlcmxhcHMgd2l0aCB0aG9zZSBvZiBTUkRzLCBsaWtlIGhvbWUgYW5kIGhvdXNlIGF1dG9tYXRpb24sIGFjY2VzcyBjb250cm9sLCBtYWNoaW5lLXRvLW1hY2hpbmUsIHRlbGVtZXRyeSBhbmQgdGVsZWNvbW1hbmQsIGV0Yy4gVGhlIGFkZGl0aW9uIG9mIHdpZGVyIGJhbmR3aWR0aCBTUkRzIGZvciB1c2UgaW4gdGhlIDg3MC04NzYgTUh6IGFuZCA5MTUtOTIxIE1IeiBiYW5kcyBhY3Jvc3MgQ0VQVCBjb3VudHJpZXMgd2lsbCBwb3RlbnRpYWxseSBlbmFibGUgbWFueSBuZXcgSW50ZXJuZXQgb2YgVGhpbmdzIChJb1QpIGFuZCBzaW1pbGFyIFNSRC1vcmllbnRlZCBhcHBsaWNhdGlvbnMgdGhyb3VnaCBoaWdoZXIgYWNoaWV2YWJsZSBkYXRhIHJhdGVzLCBuYXR1cmFsIElQIHN1cHBvcnQsIGFzIHdlbGwgYXMgbWFueSBwb3dlciBhbmQgY2FwYWNpdHkgZWZmaWNpZW50IGZlYXR1cmVzLg==
   language:
   - en
   script:

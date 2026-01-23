@@ -47,27 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-SOL 018 continues the development of the specification
-    as part of the NFV Release 5. This edition will extend the specification of protocol
-    and data models to support the Release 5 features. The scope of the former edition
-    is summarized hereafter:\r\n\r\nThe work item provides a mapping of the NFV object
-    model for OS container management and orchestration to managed objects of Kubernetes®
-    and Helm(TM) as specified by the CNCF® along with a specification of a mapping
-    between a common set of input parameters (e.g., derived from VNFD/NSD and/or NFV-MANO
-    RESTful APIs) and output parameters associated to the management and orchestration
-    of the referred managed objects.\r\nIt profiles the reference Kubernetes® API,
-    Helm(TM) documentation and Docker(TM) registry API as NFV protocol and data model
-    solution for OS container management and orchestration, OS container workload
-    based on an MCIOP, OS container image management, CIS instance management and
-    management of Managed CIS Cluster Objects (MCCO). \r\nThe latest published versions
-    of the reference Kubernetes® API, Helm(TM) documentation and Docker(TM) registry
-    API are profiled against the requirements on the functions and the management
-    service interfaces of the Container Infrastructure Service Management (CISM) and
-    Container Image Registry (CIR) functions as specified in ETSI GS NFV-IFA 040,
-    ETSI GS NFV-IFA 036 and ETSI GS NFV-IFA 010. \r\nThe work item includes guidelines
-    and rules on how the profiled and referenced solutions can be adopted in a way
-    that facilitates their integration with NFV-MANO framework solutions. The resulting
-    deliverable will contain normative provisions."
+- content: !binary |-
+    VGhpcyByZXZpc2lvbiBvZiBORlYtU09MIDAxOCBjb250aW51ZXMgdGhlIGRldmVsb3BtZW50IG9mIHRoZSBzcGVjaWZpY2F0aW9uIGFzIHBhcnQgb2YgdGhlIE5GViBSZWxlYXNlIDUuIFRoaXMgZWRpdGlvbiB3aWxsIGV4dGVuZCB0aGUgc3BlY2lmaWNhdGlvbiBvZiBwcm90b2NvbCBhbmQgZGF0YSBtb2RlbHMgdG8gc3VwcG9ydCB0aGUgUmVsZWFzZSA1IGZlYXR1cmVzLiBUaGUgc2NvcGUgb2YgdGhlIGZvcm1lciBlZGl0aW9uIGlzIHN1bW1hcml6ZWQgaGVyZWFmdGVyOg0KDQpUaGUgd29yayBpdGVtIHByb3ZpZGVzIGEgbWFwcGluZyBvZiB0aGUgTkZWIG9iamVjdCBtb2RlbCBmb3IgT1MgY29udGFpbmVyIG1hbmFnZW1lbnQgYW5kIG9yY2hlc3RyYXRpb24gdG8gbWFuYWdlZCBvYmplY3RzIG9mIEt1YmVybmV0ZXPCriBhbmQgSGVsbShUTSkgYXMgc3BlY2lmaWVkIGJ5IHRoZSBDTkNGwq4gYWxvbmcgd2l0aCBhIHNwZWNpZmljYXRpb24gb2YgYSBtYXBwaW5nIGJldHdlZW4gYSBjb21tb24gc2V0IG9mIGlucHV0IHBhcmFtZXRlcnMgKGUuZy4sIGRlcml2ZWQgZnJvbSBWTkZEL05TRCBhbmQvb3IgTkZWLU1BTk8gUkVTVGZ1bCBBUElzKSBhbmQgb3V0cHV0IHBhcmFtZXRlcnMgYXNzb2NpYXRlZCB0byB0aGUgbWFuYWdlbWVudCBhbmQgb3JjaGVzdHJhdGlvbiBvZiB0aGUgcmVmZXJyZWQgbWFuYWdlZCBvYmplY3RzLg0KSXQgcHJvZmlsZXMgdGhlIHJlZmVyZW5jZSBLdWJlcm5ldGVzwq4gQVBJLCBIZWxtKFRNKSBkb2N1bWVudGF0aW9uIGFuZCBEb2NrZXIoVE0pIHJlZ2lzdHJ5IEFQSSBhcyBORlYgcHJvdG9jb2wgYW5kIGRhdGEgbW9kZWwgc29sdXRpb24gZm9yIE9TIGNvbnRhaW5lciBtYW5hZ2VtZW50IGFuZCBvcmNoZXN0cmF0aW9uLCBPUyBjb250YWluZXIgd29ya2xvYWQgYmFzZWQgb24gYW4gTUNJT1AsIE9TIGNvbnRhaW5lciBpbWFnZSBtYW5hZ2VtZW50LCBDSVMgaW5zdGFuY2UgbWFuYWdlbWVudCBhbmQgbWFuYWdlbWVudCBvZiBNYW5hZ2VkIENJUyBDbHVzdGVyIE9iamVjdHMgKE1DQ08pLiANClRoZSBsYXRlc3QgcHVibGlzaGVkIHZlcnNpb25zIG9mIHRoZSByZWZlcmVuY2UgS3ViZXJuZXRlc8KuIEFQSSwgSGVsbShUTSkgZG9jdW1lbnRhdGlvbiBhbmQgRG9ja2VyKFRNKSByZWdpc3RyeSBBUEkgYXJlIHByb2ZpbGVkIGFnYWluc3QgdGhlIHJlcXVpcmVtZW50cyBvbiB0aGUgZnVuY3Rpb25zIGFuZCB0aGUgbWFuYWdlbWVudCBzZXJ2aWNlIGludGVyZmFjZXMgb2YgdGhlIENvbnRhaW5lciBJbmZyYXN0cnVjdHVyZSBTZXJ2aWNlIE1hbmFnZW1lbnQgKENJU00pIGFuZCBDb250YWluZXIgSW1hZ2UgUmVnaXN0cnkgKENJUikgZnVuY3Rpb25zIGFzIHNwZWNpZmllZCBpbiBFVFNJIEdTIE5GVi1JRkEgMDQwLCBFVFNJIEdTIE5GVi1JRkEgMDM2IGFuZCBFVFNJIEdTIE5GVi1JRkEgMDEwLiANClRoZSB3b3JrIGl0ZW0gaW5jbHVkZXMgZ3VpZGVsaW5lcyBhbmQgcnVsZXMgb24gaG93IHRoZSBwcm9maWxlZCBhbmQgcmVmZXJlbmNlZCBzb2x1dGlvbnMgY2FuIGJlIGFkb3B0ZWQgaW4gYSB3YXkgdGhhdCBmYWNpbGl0YXRlcyB0aGVpciBpbnRlZ3JhdGlvbiB3aXRoIE5GVi1NQU5PIGZyYW1ld29yayBzb2x1dGlvbnMuIFRoZSByZXN1bHRpbmcgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIG5vcm1hdGl2ZSBwcm92aXNpb25zLg==
   language:
   - en
   script:

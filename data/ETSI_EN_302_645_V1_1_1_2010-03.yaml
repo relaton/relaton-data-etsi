@@ -47,24 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Creation of the new Harmonized Standard for GNSS (GPS/Galileo) Repeaters
-    in line with the requirements identified in the draft ECC Report on GNSS Repeaters
-    created by ECC WGSE.\r\nSome available GNSS repeater equipment transmits in a
-    bandwidth ±10MHz centered on either 1227.6 MHz or 1575.45 MHz. It should be recognised
-    that equipment described as GNSS repeaters will in fact re-transmit any RNSS or
-    other signal in the transmit frequency band. \r\n\r\nThe standard should clearly
-    describe the reasons for standardisation, in this case compliance  with the R&TTE
-    directive but also the protection of the primary (navigation) service.\r\nTransmit
-    power and intended coverage area should be defined.\r\nThe standard should include
-    limits for spurious emissions.\r\nThe standard should include limits for distortion
-    of the repeated signal (linearity)\r\nThe standard should include receiver specification
-    of the integrated receiver including: \r\n- The noise produced by the receiver
-    degrading the retransmitted signal.\r\n- The sensitivity and susceptibility to
-    blocking\r\n\r\nThe standard should include design parameters to prevent that
-    the system introduces precision degradation in systems\r\nthat do not need the
-    support of a GPS repeater .\r\nThe standard should include provisions for an indication
-    in the retransmitted signal that the signal is not a satellite originated signal
-    but retransmitted. e.g  by introducing a nonexistent satellite name. \r\n"
+- content: !binary |-
+    Q3JlYXRpb24gb2YgdGhlIG5ldyBIYXJtb25pemVkIFN0YW5kYXJkIGZvciBHTlNTIChHUFMvR2FsaWxlbykgUmVwZWF0ZXJzIGluIGxpbmUgd2l0aCB0aGUgcmVxdWlyZW1lbnRzIGlkZW50aWZpZWQgaW4gdGhlIGRyYWZ0IEVDQyBSZXBvcnQgb24gR05TUyBSZXBlYXRlcnMgY3JlYXRlZCBieSBFQ0MgV0dTRS4NClNvbWUgYXZhaWxhYmxlIEdOU1MgcmVwZWF0ZXIgZXF1aXBtZW50IHRyYW5zbWl0cyBpbiBhIGJhbmR3aWR0aCDCsTEwTUh6IGNlbnRlcmVkIG9uIGVpdGhlciAxMjI3LjYgTUh6IG9yIDE1NzUuNDUgTUh6LiBJdCBzaG91bGQgYmUgcmVjb2duaXNlZCB0aGF0IGVxdWlwbWVudCBkZXNjcmliZWQgYXMgR05TUyByZXBlYXRlcnMgd2lsbCBpbiBmYWN0IHJlLXRyYW5zbWl0IGFueSBSTlNTIG9yIG90aGVyIHNpZ25hbCBpbiB0aGUgdHJhbnNtaXQgZnJlcXVlbmN5IGJhbmQuIA0KDQpUaGUgc3RhbmRhcmQgc2hvdWxkIGNsZWFybHkgZGVzY3JpYmUgdGhlIHJlYXNvbnMgZm9yIHN0YW5kYXJkaXNhdGlvbiwgaW4gdGhpcyBjYXNlIGNvbXBsaWFuY2UgIHdpdGggdGhlIFImVFRFIGRpcmVjdGl2ZSBidXQgYWxzbyB0aGUgcHJvdGVjdGlvbiBvZiB0aGUgcHJpbWFyeSAobmF2aWdhdGlvbikgc2VydmljZS4NClRyYW5zbWl0IHBvd2VyIGFuZCBpbnRlbmRlZCBjb3ZlcmFnZSBhcmVhIHNob3VsZCBiZSBkZWZpbmVkLg0KVGhlIHN0YW5kYXJkIHNob3VsZCBpbmNsdWRlIGxpbWl0cyBmb3Igc3B1cmlvdXMgZW1pc3Npb25zLg0KVGhlIHN0YW5kYXJkIHNob3VsZCBpbmNsdWRlIGxpbWl0cyBmb3IgZGlzdG9ydGlvbiBvZiB0aGUgcmVwZWF0ZWQgc2lnbmFsIChsaW5lYXJpdHkpDQpUaGUgc3RhbmRhcmQgc2hvdWxkIGluY2x1ZGUgcmVjZWl2ZXIgc3BlY2lmaWNhdGlvbiBvZiB0aGUgaW50ZWdyYXRlZCByZWNlaXZlciBpbmNsdWRpbmc6IA0KLSBUaGUgbm9pc2UgcHJvZHVjZWQgYnkgdGhlIHJlY2VpdmVyIGRlZ3JhZGluZyB0aGUgcmV0cmFuc21pdHRlZCBzaWduYWwuDQotIFRoZSBzZW5zaXRpdml0eSBhbmQgc3VzY2VwdGliaWxpdHkgdG8gYmxvY2tpbmcNCg0KVGhlIHN0YW5kYXJkIHNob3VsZCBpbmNsdWRlIGRlc2lnbiBwYXJhbWV0ZXJzIHRvIHByZXZlbnQgdGhhdCB0aGUgc3lzdGVtIGludHJvZHVjZXMgcHJlY2lzaW9uIGRlZ3JhZGF0aW9uIGluIHN5c3RlbXMNCnRoYXQgZG8gbm90IG5lZWQgdGhlIHN1cHBvcnQgb2YgYSBHUFMgcmVwZWF0ZXIgLg0KVGhlIHN0YW5kYXJkIHNob3VsZCBpbmNsdWRlIHByb3Zpc2lvbnMgZm9yIGFuIGluZGljYXRpb24gaW4gdGhlIHJldHJhbnNtaXR0ZWQgc2lnbmFsIHRoYXQgdGhlIHNpZ25hbCBpcyBub3QgYSBzYXRlbGxpdGUgb3JpZ2luYXRlZCBzaWduYWwgYnV0IHJldHJhbnNtaXR0ZWQuIGUuZyAgYnkgaW50cm9kdWNpbmcgYSBub25leGlzdGVudCBzYXRlbGxpdGUgbmFtZS4gDQo=
   language:
   - en
   script:

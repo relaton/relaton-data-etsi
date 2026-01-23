@@ -47,25 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This revision of ETSI GS NFV-SOL018 continues the development of the specification
-    as part of the Release 4 and applies maintenance changes where applicable. This
-    edition will also add updates according to latest published versions of the reference
-    open source APIs and data model solutions related to daemon sets. The scope of
-    the former edition is summarized hereafter:\r\n\r\nThe work item provides a mapping
-    of the NFV object model for OS container management and orchestration to managed
-    objects of Kubernetes® and Helm(TM) as specified by the CNCF® along with a specification
-    of a mapping between a common set of input parameters (e.g., derived from VNFD/NSD
-    and/or NFV-MANO RESTful APIs) and output parameters associated to the management
-    and orchestration of the referred managed objects.\r\nIt profiles the reference
-    Kubernetes® API, Helm(TM) documentation and Docker(TM) registry API as NFV protocol
-    and data model solution for OS container management and orchestration, OS container
-    workload based on an MCIOP, OS container image management, CIS instance management
-    and management of Managed CIS Cluster Objects (MCCO). \r\nThe latest published
-    versions of the reference Kubernetes® API, Helm(TM) documentation and Docker(TM)
-    registry API are profiled against the requirements on the functions and the management
-    service interfaces of the Container Infrastructure Service Management (CISM) and
-    Container Image Registry (CIR) functions as specified in ETSI GS NFV-IFA 040,
-    ETSI GS NFV-IFA 036 and ETSI GS NFV-IFA 010. \r\n"
+- content: !binary |-
+    VGhpcyByZXZpc2lvbiBvZiBFVFNJIEdTIE5GVi1TT0wwMTggY29udGludWVzIHRoZSBkZXZlbG9wbWVudCBvZiB0aGUgc3BlY2lmaWNhdGlvbiBhcyBwYXJ0IG9mIHRoZSBSZWxlYXNlIDQgYW5kIGFwcGxpZXMgbWFpbnRlbmFuY2UgY2hhbmdlcyB3aGVyZSBhcHBsaWNhYmxlLiBUaGlzIGVkaXRpb24gd2lsbCBhbHNvIGFkZCB1cGRhdGVzIGFjY29yZGluZyB0byBsYXRlc3QgcHVibGlzaGVkIHZlcnNpb25zIG9mIHRoZSByZWZlcmVuY2Ugb3BlbiBzb3VyY2UgQVBJcyBhbmQgZGF0YSBtb2RlbCBzb2x1dGlvbnMgcmVsYXRlZCB0byBkYWVtb24gc2V0cy4gVGhlIHNjb3BlIG9mIHRoZSBmb3JtZXIgZWRpdGlvbiBpcyBzdW1tYXJpemVkIGhlcmVhZnRlcjoNCg0KVGhlIHdvcmsgaXRlbSBwcm92aWRlcyBhIG1hcHBpbmcgb2YgdGhlIE5GViBvYmplY3QgbW9kZWwgZm9yIE9TIGNvbnRhaW5lciBtYW5hZ2VtZW50IGFuZCBvcmNoZXN0cmF0aW9uIHRvIG1hbmFnZWQgb2JqZWN0cyBvZiBLdWJlcm5ldGVzwq4gYW5kIEhlbG0oVE0pIGFzIHNwZWNpZmllZCBieSB0aGUgQ05DRsKuIGFsb25nIHdpdGggYSBzcGVjaWZpY2F0aW9uIG9mIGEgbWFwcGluZyBiZXR3ZWVuIGEgY29tbW9uIHNldCBvZiBpbnB1dCBwYXJhbWV0ZXJzIChlLmcuLCBkZXJpdmVkIGZyb20gVk5GRC9OU0QgYW5kL29yIE5GVi1NQU5PIFJFU1RmdWwgQVBJcykgYW5kIG91dHB1dCBwYXJhbWV0ZXJzIGFzc29jaWF0ZWQgdG8gdGhlIG1hbmFnZW1lbnQgYW5kIG9yY2hlc3RyYXRpb24gb2YgdGhlIHJlZmVycmVkIG1hbmFnZWQgb2JqZWN0cy4NCkl0IHByb2ZpbGVzIHRoZSByZWZlcmVuY2UgS3ViZXJuZXRlc8KuIEFQSSwgSGVsbShUTSkgZG9jdW1lbnRhdGlvbiBhbmQgRG9ja2VyKFRNKSByZWdpc3RyeSBBUEkgYXMgTkZWIHByb3RvY29sIGFuZCBkYXRhIG1vZGVsIHNvbHV0aW9uIGZvciBPUyBjb250YWluZXIgbWFuYWdlbWVudCBhbmQgb3JjaGVzdHJhdGlvbiwgT1MgY29udGFpbmVyIHdvcmtsb2FkIGJhc2VkIG9uIGFuIE1DSU9QLCBPUyBjb250YWluZXIgaW1hZ2UgbWFuYWdlbWVudCwgQ0lTIGluc3RhbmNlIG1hbmFnZW1lbnQgYW5kIG1hbmFnZW1lbnQgb2YgTWFuYWdlZCBDSVMgQ2x1c3RlciBPYmplY3RzIChNQ0NPKS4gDQpUaGUgbGF0ZXN0IHB1Ymxpc2hlZCB2ZXJzaW9ucyBvZiB0aGUgcmVmZXJlbmNlIEt1YmVybmV0ZXPCriBBUEksIEhlbG0oVE0pIGRvY3VtZW50YXRpb24gYW5kIERvY2tlcihUTSkgcmVnaXN0cnkgQVBJIGFyZSBwcm9maWxlZCBhZ2FpbnN0IHRoZSByZXF1aXJlbWVudHMgb24gdGhlIGZ1bmN0aW9ucyBhbmQgdGhlIG1hbmFnZW1lbnQgc2VydmljZSBpbnRlcmZhY2VzIG9mIHRoZSBDb250YWluZXIgSW5mcmFzdHJ1Y3R1cmUgU2VydmljZSBNYW5hZ2VtZW50IChDSVNNKSBhbmQgQ29udGFpbmVyIEltYWdlIFJlZ2lzdHJ5IChDSVIpIGZ1bmN0aW9ucyBhcyBzcGVjaWZpZWQgaW4gRVRTSSBHUyBORlYtSUZBIDA0MCwgRVRTSSBHUyBORlYtSUZBIDAzNiBhbmQgRVRTSSBHUyBORlYtSUZBIDAxMC4gDQo=
   language:
   - en
   script:

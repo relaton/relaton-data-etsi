@@ -47,37 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This EN specifies the technical requirements to be met by terminal equipment
-    capable of connecting to a public telecommunications network and that support
-    the ASCI feature. These requirements apply to terminals for Phase 2+ of the public
-    land mobile radio service, operating in the 900 MHz band with a channel separation
-    of 200 kHz, utilising constant envelope modulation and carrying traffic channels
-    according to the Time Division Multiple Access (TDMA) principle.\r\nThis EN specifies
-    the terminal equipment ASCI requirements for the GSM 900 version of the Global
-    System for Mobile communications (GSM).\r\nFor each test purpose and its corresponding
-    conformance requirement, a reference is given to the test method in EN 300 607-1
-    (GSM 11.10-1) [2]. The requirements apply at the air interface and the Subscriber
-    Identity Module - Mobile Equipment interface for the access requirements, which
-    may be stimulated to perform the tests by additional equipment if necessary.\r\nThe
-    measurement uncertainty is described in EN 300 607-1 (GSM 11.10-1) [2].\r\nThis
-    EN covers the essential requirements of the Terminal Directive 91/263/EEC [1]
-    Articles 4d, 4e, 4f. \r\nThe Terminal Directive 91/263/EEC [1] Articles 4a and
-    4b are covered by other directives, and, therefore, not by this EN.\r\nIn this
-    EN, there are no Electromagnetic Compatibility technical requirements in terms
-    of the Terminal Directive 91/263/EEC [1], Article 4c.\r\nNOTE 1:Technical Requirements
-    for EMC performance and testing of the equipment are covered by the relevant standards
-    applicable to the EMC Directive 89/336/EEC, annex A.\r\nThis module specifies
-    the ASCI Terminal equipment additional requirements. \r\nEN 300 607-1 (GSM 11.10-1) [2]
-    constitutes the conformance test suite for GSM. The verification of the conformance
-    requirements in this EN is based on the tests described in this reference. The
-    set of requirements in EN 300 607-1 (GSM 11.10-1) [2] and the set of requirements
-    in this EN need not be identical.\r\nAll the requirements in this EN are specific
-    to mobile stations supporting ASCI\r\nAn active accessory is covered by this EN
-    if it modifies the terminal performance in an aspect which affects conformance
-    to essential requirements.\r\nNOTE 2:Only active devices are subject to this EN.
-    Accessories may be tested with specific terminals, and either approved for use
-    with those terminals only, or may possibly be approved for use with a wider range
-    of terminals, depending on the nature and effect of the accessory.\r\n"
+- content: !binary |-
+    VGhpcyBFTiBzcGVjaWZpZXMgdGhlIHRlY2huaWNhbCByZXF1aXJlbWVudHMgdG8gYmUgbWV0IGJ5IHRlcm1pbmFsIGVxdWlwbWVudCBjYXBhYmxlIG9mIGNvbm5lY3RpbmcgdG8gYSBwdWJsaWMgdGVsZWNvbW11bmljYXRpb25zIG5ldHdvcmsgYW5kIHRoYXQgc3VwcG9ydCB0aGUgQVNDSSBmZWF0dXJlLiBUaGVzZSByZXF1aXJlbWVudHMgYXBwbHkgdG8gdGVybWluYWxzIGZvciBQaGFzZSAyKyBvZiB0aGUgcHVibGljIGxhbmQgbW9iaWxlIHJhZGlvIHNlcnZpY2UsIG9wZXJhdGluZyBpbiB0aGUgOTAwIE1IeiBiYW5kIHdpdGggYSBjaGFubmVsIHNlcGFyYXRpb24gb2YgMjAwIGtIeiwgdXRpbGlzaW5nIGNvbnN0YW50IGVudmVsb3BlIG1vZHVsYXRpb24gYW5kIGNhcnJ5aW5nIHRyYWZmaWMgY2hhbm5lbHMgYWNjb3JkaW5nIHRvIHRoZSBUaW1lIERpdmlzaW9uIE11bHRpcGxlIEFjY2VzcyAoVERNQSkgcHJpbmNpcGxlLg0KVGhpcyBFTiBzcGVjaWZpZXMgdGhlIHRlcm1pbmFsIGVxdWlwbWVudCBBU0NJIHJlcXVpcmVtZW50cyBmb3IgdGhlIEdTTcKgOTAwIHZlcnNpb24gb2YgdGhlIEdsb2JhbCBTeXN0ZW0gZm9yIE1vYmlsZSBjb21tdW5pY2F0aW9ucyAoR1NNKS4NCkZvciBlYWNoIHRlc3QgcHVycG9zZSBhbmQgaXRzIGNvcnJlc3BvbmRpbmcgY29uZm9ybWFuY2UgcmVxdWlyZW1lbnQsIGEgcmVmZXJlbmNlIGlzIGdpdmVuIHRvIHRoZSB0ZXN0IG1ldGhvZCBpbiBFTiAzMDAgNjA3LTEgKEdTTcKgMTEuMTAtMSnCoFsyXS4gVGhlIHJlcXVpcmVtZW50cyBhcHBseSBhdCB0aGUgYWlyIGludGVyZmFjZSBhbmQgdGhlIFN1YnNjcmliZXIgSWRlbnRpdHkgTW9kdWxlIC0gTW9iaWxlIEVxdWlwbWVudCBpbnRlcmZhY2UgZm9yIHRoZSBhY2Nlc3MgcmVxdWlyZW1lbnRzLCB3aGljaCBtYXkgYmUgc3RpbXVsYXRlZCB0byBwZXJmb3JtIHRoZSB0ZXN0cyBieSBhZGRpdGlvbmFsIGVxdWlwbWVudCBpZiBuZWNlc3NhcnkuDQpUaGUgbWVhc3VyZW1lbnQgdW5jZXJ0YWludHkgaXMgZGVzY3JpYmVkIGluIEVOIDMwMCA2MDctMSAoR1NNwqAxMS4xMC0xKcKgWzJdLg0KVGhpcyBFTiBjb3ZlcnMgdGhlIGVzc2VudGlhbCByZXF1aXJlbWVudHMgb2YgdGhlIFRlcm1pbmFsIERpcmVjdGl2ZSA5MS8yNjMvRUVDwqBbMV0gQXJ0aWNsZXMgNGQsIDRlLCA0Zi4gDQpUaGUgVGVybWluYWwgRGlyZWN0aXZlIDkxLzI2My9FRUPCoFsxXSBBcnRpY2xlcyA0YSBhbmQgNGIgYXJlIGNvdmVyZWQgYnkgb3RoZXIgZGlyZWN0aXZlcywgYW5kLCB0aGVyZWZvcmUsIG5vdCBieSB0aGlzIEVOLg0KSW4gdGhpcyBFTiwgdGhlcmUgYXJlIG5vIEVsZWN0cm9tYWduZXRpYyBDb21wYXRpYmlsaXR5IHRlY2huaWNhbCByZXF1aXJlbWVudHMgaW4gdGVybXMgb2YgdGhlIFRlcm1pbmFsIERpcmVjdGl2ZSA5MS8yNjMvRUVDwqBbMV0sIEFydGljbGUgNGMuDQpOT1RFIDE6VGVjaG5pY2FsIFJlcXVpcmVtZW50cyBmb3IgRU1DIHBlcmZvcm1hbmNlIGFuZCB0ZXN0aW5nIG9mIHRoZSBlcXVpcG1lbnQgYXJlIGNvdmVyZWQgYnkgdGhlIHJlbGV2YW50IHN0YW5kYXJkcyBhcHBsaWNhYmxlIHRvIHRoZSBFTUMgRGlyZWN0aXZlIDg5LzMzNi9FRUMsIGFubmV4wqBBLg0KVGhpcyBtb2R1bGUgc3BlY2lmaWVzIHRoZSBBU0NJIFRlcm1pbmFsIGVxdWlwbWVudCBhZGRpdGlvbmFsIHJlcXVpcmVtZW50cy4gDQpFTiAzMDAgNjA3LTEgKEdTTcKgMTEuMTAtMSnCoFsyXSBjb25zdGl0dXRlcyB0aGUgY29uZm9ybWFuY2UgdGVzdCBzdWl0ZSBmb3IgR1NNLiBUaGUgdmVyaWZpY2F0aW9uIG9mIHRoZSBjb25mb3JtYW5jZSByZXF1aXJlbWVudHMgaW4gdGhpcyBFTiBpcyBiYXNlZCBvbiB0aGUgdGVzdHMgZGVzY3JpYmVkIGluIHRoaXMgcmVmZXJlbmNlLiBUaGUgc2V0IG9mIHJlcXVpcmVtZW50cyBpbiBFTiAzMDAgNjA3LTEgKEdTTcKgMTEuMTAtMSnCoFsyXSBhbmQgdGhlIHNldCBvZiByZXF1aXJlbWVudHMgaW4gdGhpcyBFTiBuZWVkIG5vdCBiZSBpZGVudGljYWwuDQpBbGwgdGhlIHJlcXVpcmVtZW50cyBpbiB0aGlzIEVOIGFyZSBzcGVjaWZpYyB0byBtb2JpbGUgc3RhdGlvbnMgc3VwcG9ydGluZyBBU0NJDQpBbiBhY3RpdmUgYWNjZXNzb3J5IGlzIGNvdmVyZWQgYnkgdGhpcyBFTiBpZiBpdCBtb2RpZmllcyB0aGUgdGVybWluYWwgcGVyZm9ybWFuY2UgaW4gYW4gYXNwZWN0IHdoaWNoIGFmZmVjdHMgY29uZm9ybWFuY2UgdG8gZXNzZW50aWFsIHJlcXVpcmVtZW50cy4NCk5PVEUgMjpPbmx5IGFjdGl2ZSBkZXZpY2VzIGFyZSBzdWJqZWN0IHRvIHRoaXMgRU4uIEFjY2Vzc29yaWVzIG1heSBiZSB0ZXN0ZWQgd2l0aCBzcGVjaWZpYyB0ZXJtaW5hbHMsIGFuZCBlaXRoZXIgYXBwcm92ZWQgZm9yIHVzZSB3aXRoIHRob3NlIHRlcm1pbmFscyBvbmx5LCBvciBtYXkgcG9zc2libHkgYmUgYXBwcm92ZWQgZm9yIHVzZSB3aXRoIGEgd2lkZXIgcmFuZ2Ugb2YgdGVybWluYWxzLCBkZXBlbmRpbmcgb24gdGhlIG5hdHVyZSBhbmQgZWZmZWN0IG9mIHRoZSBhY2Nlc3NvcnkuDQo=
   language:
   - en
   script:

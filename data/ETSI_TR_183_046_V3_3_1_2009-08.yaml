@@ -47,14 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "To clarify the mapping of SDP information elements in the NGN and IMS
-    between call/session control protocols with SDP usage and the gateway control
-    protocol H.248. A number of items are not yet explicitly addressed by ETS TR 183
-    046 V2.0.0, like e.g.:\r\n1.SDP blocks with “special use IPv4 addresses” (RFC
-    3330)\r\n2.3GPP scope of “0.0.0.0” address usage (<https://datatracker.ietf.org/liaison/449/>
-    )\r\n3.SDP blocks with “special use IPv6 addresses” (RFC 5156)\r\n4.SDP blocks
-    with two “c=” lines for signalling- and media-path IP interfaces\r\n5.Revised
-    SDP Offer/Answer model\r\n6.             SDP for T.38 call to V.152 call interworking"
+- content: !binary |-
+    VG8gY2xhcmlmeSB0aGUgbWFwcGluZyBvZiBTRFAgaW5mb3JtYXRpb24gZWxlbWVudHMgaW4gdGhlIE5HTiBhbmQgSU1TIGJldHdlZW4gY2FsbC9zZXNzaW9uIGNvbnRyb2wgcHJvdG9jb2xzIHdpdGggU0RQIHVzYWdlIGFuZCB0aGUgZ2F0ZXdheSBjb250cm9sIHByb3RvY29sIEguMjQ4LiBBIG51bWJlciBvZiBpdGVtcyBhcmUgbm90IHlldCBleHBsaWNpdGx5IGFkZHJlc3NlZCBieSBFVFMgVFIgMTgzIDA0NiBWMi4wLjAsIGxpa2UgZS5nLjoNCjEuU0RQIGJsb2NrcyB3aXRoIOKAnHNwZWNpYWwgdXNlIElQdjQgYWRkcmVzc2Vz4oCdIChSRkMgMzMzMCkNCjIuM0dQUCBzY29wZSBvZiDigJwwLjAuMC4w4oCdIGFkZHJlc3MgdXNhZ2UgKDxodHRwczovL2RhdGF0cmFja2VyLmlldGYub3JnL2xpYWlzb24vNDQ5Lz4gKQ0KMy5TRFAgYmxvY2tzIHdpdGgg4oCcc3BlY2lhbCB1c2UgSVB2NiBhZGRyZXNzZXPigJ0gKFJGQyA1MTU2KQ0KNC5TRFAgYmxvY2tzIHdpdGggdHdvIOKAnGM94oCdIGxpbmVzIGZvciBzaWduYWxsaW5nLSBhbmQgbWVkaWEtcGF0aCBJUCBpbnRlcmZhY2VzDQo1LlJldmlzZWQgU0RQIE9mZmVyL0Fuc3dlciBtb2RlbA0KNi4gICAgICAgICAgICAgU0RQIGZvciBULjM4IGNhbGwgdG8gVi4xNTIgY2FsbCBpbnRlcndvcmtpbmc=
   language:
   - en
   script:

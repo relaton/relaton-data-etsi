@@ -45,33 +45,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Scope of work to be undertaken:  \r\nThe primary goal of this task is
-    to correct TS 119 612 v1.1.1 from inconsistencies that have been discovered in
-    Annex B with regards to the specifications provided in the main parts of the document.
-    These inconsistencies were reflected in the resulting XSD file identified in Annex
-    C (with hash values). One typo was also discovered in Annex G.4 were a reference
-    to a section was not correct (“see clause 6.4.3” instead of “see clause 5.5.3”).\r\n\r\nThe
-    amendment of  CD 2009/767/EC have been adopted last 14th of October and has been
-    published in the OJEU as CD 2013/662/EU (it refers to TS 119 612 v1.1.1).\r\nIt
-    is not possible for the EC to change such a publication and they would really
-    prefer not to amend it to point to another version of TS 119 612. A new update
-    of the CD is anyway foreseen when the Regulation will be adopted but this is not
-    before end of next year at the soonest. In the meantime MS will have to implement
-    the CD on the basis of 119 612 v1.1.1.\r\n\r\nThe solution that the EC agreed
-    consists in the delivery of the new/correct XSD file to the MS by the Commission
-    (done) and the publication by ETSI of a new version of TS 119 612 without changing
-    any core specification requirement but with reference to the correct XSD.\r\n
-    \r\nIt was decided at ESI#42 meeting to:\r\n - remove from Annex B any XML schema
-    definition as this is source for inconsistencies and is redundant with the files
-    provided through Annec C. Annex B will then be limited to the necessary requirements
-    and specifications not related to XML schema.\r\n - annex C will remain with the
-    xml schema attached.\r\n - As the update is technical, the next published version
-    is 1.2.1. use v1.1.2 for the draft).\r\n\r\nIndicative planning: \r\nWI is expected
-    to start no later than 01/01/2014. The TS 119 612 v1.2.1 will be for comments
-    for 2 weeks followed by an approval for 2 weeks if no major comments are made.
-    Alternatively, a final draft for TC approval would be due no later than 24/01/2014
-    so that approval could be given at ESI#42 meeting (3-5/02/2014). \r\nPublication
-    as a TS would be expected by end February 2014. \r\nThis planning is indicative."
+- content: !binary |-
+    U2NvcGUgb2Ygd29yayB0byBiZSB1bmRlcnRha2VuOiAgDQpUaGUgcHJpbWFyeSBnb2FsIG9mIHRoaXMgdGFzayBpcyB0byBjb3JyZWN0IFRTIDExOSA2MTIgdjEuMS4xIGZyb20gaW5jb25zaXN0ZW5jaWVzIHRoYXQgaGF2ZSBiZWVuIGRpc2NvdmVyZWQgaW4gQW5uZXggQiB3aXRoIHJlZ2FyZHMgdG8gdGhlIHNwZWNpZmljYXRpb25zIHByb3ZpZGVkIGluIHRoZSBtYWluIHBhcnRzIG9mIHRoZSBkb2N1bWVudC4gVGhlc2UgaW5jb25zaXN0ZW5jaWVzIHdlcmUgcmVmbGVjdGVkIGluIHRoZSByZXN1bHRpbmcgWFNEIGZpbGUgaWRlbnRpZmllZCBpbiBBbm5leCBDICh3aXRoIGhhc2ggdmFsdWVzKS4gT25lIHR5cG8gd2FzIGFsc28gZGlzY292ZXJlZCBpbiBBbm5leCBHLjQgd2VyZSBhIHJlZmVyZW5jZSB0byBhIHNlY3Rpb24gd2FzIG5vdCBjb3JyZWN0ICjigJxzZWUgY2xhdXNlIDYuNC4z4oCdIGluc3RlYWQgb2Yg4oCcc2VlIGNsYXVzZSA1LjUuM+KAnSkuDQoNClRoZSBhbWVuZG1lbnQgb2YgIENEIDIwMDkvNzY3L0VDIGhhdmUgYmVlbiBhZG9wdGVkIGxhc3QgMTR0aCBvZiBPY3RvYmVyIGFuZCBoYXMgYmVlbiBwdWJsaXNoZWQgaW4gdGhlIE9KRVUgYXMgQ0QgMjAxMy82NjIvRVUgKGl0IHJlZmVycyB0byBUUyAxMTkgNjEyIHYxLjEuMSkuDQpJdCBpcyBub3QgcG9zc2libGUgZm9yIHRoZSBFQyB0byBjaGFuZ2Ugc3VjaCBhIHB1YmxpY2F0aW9uIGFuZCB0aGV5IHdvdWxkIHJlYWxseSBwcmVmZXIgbm90IHRvIGFtZW5kIGl0IHRvIHBvaW50IHRvIGFub3RoZXIgdmVyc2lvbiBvZiBUUyAxMTkgNjEyLiBBIG5ldyB1cGRhdGUgb2YgdGhlIENEIGlzIGFueXdheSBmb3Jlc2VlbiB3aGVuIHRoZSBSZWd1bGF0aW9uIHdpbGwgYmUgYWRvcHRlZCBidXQgdGhpcyBpcyBub3QgYmVmb3JlIGVuZCBvZiBuZXh0IHllYXIgYXQgdGhlIHNvb25lc3QuIEluIHRoZSBtZWFudGltZSBNUyB3aWxsIGhhdmUgdG8gaW1wbGVtZW50IHRoZSBDRCBvbiB0aGUgYmFzaXMgb2YgMTE5IDYxMiB2MS4xLjEuDQoNClRoZSBzb2x1dGlvbiB0aGF0IHRoZSBFQyBhZ3JlZWQgY29uc2lzdHMgaW4gdGhlIGRlbGl2ZXJ5IG9mIHRoZSBuZXcvY29ycmVjdCBYU0QgZmlsZSB0byB0aGUgTVMgYnkgdGhlIENvbW1pc3Npb24gKGRvbmUpIGFuZCB0aGUgcHVibGljYXRpb24gYnkgRVRTSSBvZiBhIG5ldyB2ZXJzaW9uIG9mIFRTIDExOSA2MTIgd2l0aG91dCBjaGFuZ2luZyBhbnkgY29yZSBzcGVjaWZpY2F0aW9uIHJlcXVpcmVtZW50IGJ1dCB3aXRoIHJlZmVyZW5jZSB0byB0aGUgY29ycmVjdCBYU0QuDQogDQpJdCB3YXMgZGVjaWRlZCBhdCBFU0kjNDIgbWVldGluZyB0bzoNCiAtIHJlbW92ZSBmcm9tIEFubmV4IEIgYW55IFhNTCBzY2hlbWEgZGVmaW5pdGlvbiBhcyB0aGlzIGlzIHNvdXJjZSBmb3IgaW5jb25zaXN0ZW5jaWVzIGFuZCBpcyByZWR1bmRhbnQgd2l0aCB0aGUgZmlsZXMgcHJvdmlkZWQgdGhyb3VnaCBBbm5lYyBDLiBBbm5leCBCIHdpbGwgdGhlbiBiZSBsaW1pdGVkIHRvIHRoZSBuZWNlc3NhcnkgcmVxdWlyZW1lbnRzIGFuZCBzcGVjaWZpY2F0aW9ucyBub3QgcmVsYXRlZCB0byBYTUwgc2NoZW1hLg0KIC0gYW5uZXggQyB3aWxsIHJlbWFpbiB3aXRoIHRoZSB4bWwgc2NoZW1hIGF0dGFjaGVkLg0KIC0gQXMgdGhlIHVwZGF0ZSBpcyB0ZWNobmljYWwsIHRoZSBuZXh0IHB1Ymxpc2hlZCB2ZXJzaW9uIGlzIDEuMi4xLiB1c2UgdjEuMS4yIGZvciB0aGUgZHJhZnQpLg0KDQpJbmRpY2F0aXZlIHBsYW5uaW5nOiANCldJIGlzIGV4cGVjdGVkIHRvIHN0YXJ0IG5vIGxhdGVyIHRoYW4gMDEvMDEvMjAxNC4gVGhlIFRTIDExOSA2MTIgdjEuMi4xIHdpbGwgYmUgZm9yIGNvbW1lbnRzIGZvciAyIHdlZWtzIGZvbGxvd2VkIGJ5IGFuIGFwcHJvdmFsIGZvciAyIHdlZWtzIGlmIG5vIG1ham9yIGNvbW1lbnRzIGFyZSBtYWRlLiBBbHRlcm5hdGl2ZWx5LCBhIGZpbmFsIGRyYWZ0IGZvciBUQyBhcHByb3ZhbCB3b3VsZCBiZSBkdWUgbm8gbGF0ZXIgdGhhbiAyNC8wMS8yMDE0IHNvIHRoYXQgYXBwcm92YWwgY291bGQgYmUgZ2l2ZW4gYXQgRVNJIzQyIG1lZXRpbmcgKDMtNS8wMi8yMDE0KS4gDQpQdWJsaWNhdGlvbiBhcyBhIFRTIHdvdWxkIGJlIGV4cGVjdGVkIGJ5IGVuZCBGZWJydWFyeSAyMDE0LiANClRoaXMgcGxhbm5pbmcgaXMgaW5kaWNhdGl2ZS4=
   language:
   - en
   script:

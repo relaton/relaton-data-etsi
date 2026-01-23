@@ -46,24 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This work item is intended to provide an overview of the impact of quantum
-    computing on the security proofs of several cryptographic protocols. It discusses
-    which security proofs are invalidated, or otherwise affected, in the presence
-    of a large-scale quantum-capable attacker, and discusses for each affected system
-    whether \r\na)\tan alternative proof has been found that does provide security
-    against quantum attacks, but possibly with a reduced security level, \r\nb)\tno
-    alternative proof has been found, but security is expected to still hold,\r\nc)\tthe
-    cryptographic system is expected to be broken by quantum attacks, in a way which
-    is not captured by the classical security proof, although no concrete quantum
-    attack exists yet, or\r\nd)\ta concrete quantum attack that breaks security, in
-    a way which is not captured by the classical proof, is available.\r\nFurthermore,
-    the practical impact of these considerations is presented.\r\nExamples of cryptographic
-    security proofs that are affected by quantum computing are proofs written with
-    the Random-Oracle methodology (thus impacting the popular Fiat-Shamir and Fujisaki-Okamoto
-    transforms), the rewinding technique for zero-knowledge proof systems, and the
-    binding property of commitment schemes.\r\nA starting point for this work item
-    is provided by the e-print paper “Post-Quantum Cryptography: Computational-Hardness
-    Assumptions and Beyond” (https://eprint.iacr.org/2021/571)"
+- content: !binary |-
+    VGhpcyB3b3JrIGl0ZW0gaXMgaW50ZW5kZWQgdG8gcHJvdmlkZSBhbiBvdmVydmlldyBvZiB0aGUgaW1wYWN0IG9mIHF1YW50dW0gY29tcHV0aW5nIG9uIHRoZSBzZWN1cml0eSBwcm9vZnMgb2Ygc2V2ZXJhbCBjcnlwdG9ncmFwaGljIHByb3RvY29scy4gSXQgZGlzY3Vzc2VzIHdoaWNoIHNlY3VyaXR5IHByb29mcyBhcmUgaW52YWxpZGF0ZWQsIG9yIG90aGVyd2lzZSBhZmZlY3RlZCwgaW4gdGhlIHByZXNlbmNlIG9mIGEgbGFyZ2Utc2NhbGUgcXVhbnR1bS1jYXBhYmxlIGF0dGFja2VyLCBhbmQgZGlzY3Vzc2VzIGZvciBlYWNoIGFmZmVjdGVkIHN5c3RlbSB3aGV0aGVyIA0KYSkJYW4gYWx0ZXJuYXRpdmUgcHJvb2YgaGFzIGJlZW4gZm91bmQgdGhhdCBkb2VzIHByb3ZpZGUgc2VjdXJpdHkgYWdhaW5zdCBxdWFudHVtIGF0dGFja3MsIGJ1dCBwb3NzaWJseSB3aXRoIGEgcmVkdWNlZCBzZWN1cml0eSBsZXZlbCwgDQpiKQlubyBhbHRlcm5hdGl2ZSBwcm9vZiBoYXMgYmVlbiBmb3VuZCwgYnV0IHNlY3VyaXR5IGlzIGV4cGVjdGVkIHRvIHN0aWxsIGhvbGQsDQpjKQl0aGUgY3J5cHRvZ3JhcGhpYyBzeXN0ZW0gaXMgZXhwZWN0ZWQgdG8gYmUgYnJva2VuIGJ5IHF1YW50dW0gYXR0YWNrcywgaW4gYSB3YXkgd2hpY2ggaXMgbm90IGNhcHR1cmVkIGJ5IHRoZSBjbGFzc2ljYWwgc2VjdXJpdHkgcHJvb2YsIGFsdGhvdWdoIG5vIGNvbmNyZXRlIHF1YW50dW0gYXR0YWNrIGV4aXN0cyB5ZXQsIG9yDQpkKQlhIGNvbmNyZXRlIHF1YW50dW0gYXR0YWNrIHRoYXQgYnJlYWtzIHNlY3VyaXR5LCBpbiBhIHdheSB3aGljaCBpcyBub3QgY2FwdHVyZWQgYnkgdGhlIGNsYXNzaWNhbCBwcm9vZiwgaXMgYXZhaWxhYmxlLg0KRnVydGhlcm1vcmUsIHRoZSBwcmFjdGljYWwgaW1wYWN0IG9mIHRoZXNlIGNvbnNpZGVyYXRpb25zIGlzIHByZXNlbnRlZC4NCkV4YW1wbGVzIG9mIGNyeXB0b2dyYXBoaWMgc2VjdXJpdHkgcHJvb2ZzIHRoYXQgYXJlIGFmZmVjdGVkIGJ5IHF1YW50dW0gY29tcHV0aW5nIGFyZSBwcm9vZnMgd3JpdHRlbiB3aXRoIHRoZSBSYW5kb20tT3JhY2xlIG1ldGhvZG9sb2d5ICh0aHVzIGltcGFjdGluZyB0aGUgcG9wdWxhciBGaWF0LVNoYW1pciBhbmQgRnVqaXNha2ktT2thbW90byB0cmFuc2Zvcm1zKSwgdGhlIHJld2luZGluZyB0ZWNobmlxdWUgZm9yIHplcm8ta25vd2xlZGdlIHByb29mIHN5c3RlbXMsIGFuZCB0aGUgYmluZGluZyBwcm9wZXJ0eSBvZiBjb21taXRtZW50IHNjaGVtZXMuDQpBIHN0YXJ0aW5nIHBvaW50IGZvciB0aGlzIHdvcmsgaXRlbSBpcyBwcm92aWRlZCBieSB0aGUgZS1wcmludCBwYXBlciDigJxQb3N0LVF1YW50dW0gQ3J5cHRvZ3JhcGh5OiBDb21wdXRhdGlvbmFsLUhhcmRuZXNzIEFzc3VtcHRpb25zIGFuZCBCZXlvbmTigJ0gKGh0dHBzOi8vZXByaW50LmlhY3Iub3JnLzIwMjEvNTcxKQ==
   language:
   - en
   script:

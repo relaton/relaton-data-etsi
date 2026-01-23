@@ -46,17 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This work item provides a framework to configure oneM2M AEs and CSEs in
-    the Field Domain by the oneM2M SP. \r\nThe configuration information may include:\r\n·The
-    availability of protocol bindings\r\n·The URI of registrar CSE that  receives
-    Registration requests.\r\n·The URI of registrar CSE that receives non-Registration
-    requests.\r\n·The address of target resource to use a oneM2M Service. [e.g. reconfigurable
-    to add/delete service during operation]\r\n·The credential data that is required
-    for accessing the resource. [e.g. reconfigurable to grant/revoke authorization]\r\nAs
-    the result of consideration in stage 2 work, it is needed to develop a Technical
-    Specification to solve existing problem in Release-1 specifications which only
-    supports pre-provitioning for configuring the filed-domain devices. \r\nThe security
-    aspects for remote provisioning should be discussed in WG4.\r\n"
+- content: !binary |-
+    VGhpcyB3b3JrIGl0ZW0gcHJvdmlkZXMgYSBmcmFtZXdvcmsgdG8gY29uZmlndXJlIG9uZU0yTSBBRXMgYW5kIENTRXMgaW4gdGhlIEZpZWxkIERvbWFpbiBieSB0aGUgb25lTTJNIFNQLiANClRoZSBjb25maWd1cmF0aW9uIGluZm9ybWF0aW9uIG1heSBpbmNsdWRlOg0KwrdUaGUgYXZhaWxhYmlsaXR5IG9mIHByb3RvY29sIGJpbmRpbmdzDQrCt1RoZSBVUkkgb2YgcmVnaXN0cmFyIENTRSB0aGF0ICByZWNlaXZlcyBSZWdpc3RyYXRpb24gcmVxdWVzdHMuDQrCt1RoZSBVUkkgb2YgcmVnaXN0cmFyIENTRSB0aGF0IHJlY2VpdmVzIG5vbi1SZWdpc3RyYXRpb24gcmVxdWVzdHMuDQrCt1RoZSBhZGRyZXNzIG9mIHRhcmdldCByZXNvdXJjZSB0byB1c2UgYSBvbmVNMk0gU2VydmljZS4gW2UuZy4gcmVjb25maWd1cmFibGUgdG8gYWRkL2RlbGV0ZSBzZXJ2aWNlIGR1cmluZyBvcGVyYXRpb25dDQrCt1RoZSBjcmVkZW50aWFsIGRhdGEgdGhhdCBpcyByZXF1aXJlZCBmb3IgYWNjZXNzaW5nIHRoZSByZXNvdXJjZS4gW2UuZy4gcmVjb25maWd1cmFibGUgdG8gZ3JhbnQvcmV2b2tlIGF1dGhvcml6YXRpb25dDQpBcyB0aGUgcmVzdWx0IG9mIGNvbnNpZGVyYXRpb24gaW4gc3RhZ2UgMiB3b3JrLCBpdCBpcyBuZWVkZWQgdG8gZGV2ZWxvcCBhIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9uIHRvIHNvbHZlIGV4aXN0aW5nIHByb2JsZW0gaW4gUmVsZWFzZS0xIHNwZWNpZmljYXRpb25zIHdoaWNoIG9ubHkgc3VwcG9ydHMgcHJlLXByb3ZpdGlvbmluZyBmb3IgY29uZmlndXJpbmcgdGhlIGZpbGVkLWRvbWFpbiBkZXZpY2VzLiANClRoZSBzZWN1cml0eSBhc3BlY3RzIGZvciByZW1vdGUgcHJvdmlzaW9uaW5nIHNob3VsZCBiZSBkaXNjdXNzZWQgaW4gV0c0Lg0K
   language:
   - en
   script:

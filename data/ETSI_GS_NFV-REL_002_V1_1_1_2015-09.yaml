@@ -46,35 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This WI proposes a study of how one designs processing components to achieve
-    scalabiity, efficiency, and reliability in NFV environments. To meet the low-latency
-    and high-availability requirements, this will require new techniques and abstractions
-    for managing shared processing state. The hope is to identify application-independent
-    techniques that can be applied generally, rather than have each VNF use its own
-    idiosyncratic method for meeting these goals.   \r\n\r\nAlthough an individual
-    VNF could manage its own scale and replication, it is envisioned that an end-to-end
-    service composed of many disparate VNFs would require a a single coherent manager,
-    such as an orchestrator that would manage the scale and capacity of the VNFs.
-    \  \r\n\r\nTo illustrate our intentions, consider how one might achieve scalable
-    reliability when there is no state shared between flows and the failure of a small
-    number of flows is acceptable. Today’s IT/Cloud Data Centers exhibit very high
-    availability levels by limiting the amount of unique state in a single element
-    and creating a virtual network function from a number of small replicated components
-    whose functional capacity  can be scaled in and out by adjusting the running number
-    of components. Reliability and availability for these type of VNFs is provided
-    by a number of small replicated components. When an individual component fails,
-    little state is lost and the overall VNF experiences minimal change in functional
-    capacity. Capacity failures can be recovered by instantiating additional components.
-    Adjustments to load balancing across the active instances may be required.  \r\n\r\nWe
-    offer this as an initial example of how scalable reliability might be achieved.
-    We anticipate the resulting document will consider a wide variety of use cases,
-    involving differing levels of shared state and different reliability requirements,
-    and these will each require their own application-independent way of how to manage
-    state, react to failures, and respond to increased load.  \r\n\r\nAccordingly,
-    the deliverable from this proposed WID is an Informative Report. The intent is
-    to provide guidance on Best Practices for scale out system architectures for the
-    management of reliability.  \r\n\r\nExternal dependencies of this work item are:
-    - MANO VNFD - SWA Design Patterns and Trusted Computing - REL Documents.\r\n"
+- content: !binary |-
+    VGhpcyBXSSBwcm9wb3NlcyBhIHN0dWR5IG9mIGhvdyBvbmUgZGVzaWducyBwcm9jZXNzaW5nIGNvbXBvbmVudHMgdG8gYWNoaWV2ZSBzY2FsYWJpaXR5LCBlZmZpY2llbmN5LCBhbmQgcmVsaWFiaWxpdHkgaW4gTkZWIGVudmlyb25tZW50cy4gVG8gbWVldCB0aGUgbG93LWxhdGVuY3kgYW5kIGhpZ2gtYXZhaWxhYmlsaXR5IHJlcXVpcmVtZW50cywgdGhpcyB3aWxsIHJlcXVpcmUgbmV3IHRlY2huaXF1ZXMgYW5kIGFic3RyYWN0aW9ucyBmb3IgbWFuYWdpbmcgc2hhcmVkIHByb2Nlc3Npbmcgc3RhdGUuIFRoZSBob3BlIGlzIHRvIGlkZW50aWZ5IGFwcGxpY2F0aW9uLWluZGVwZW5kZW50IHRlY2huaXF1ZXMgdGhhdCBjYW4gYmUgYXBwbGllZCBnZW5lcmFsbHksIHJhdGhlciB0aGFuIGhhdmUgZWFjaCBWTkYgdXNlIGl0cyBvd24gaWRpb3N5bmNyYXRpYyBtZXRob2QgZm9yIG1lZXRpbmcgdGhlc2UgZ29hbHMuICAgDQoNCkFsdGhvdWdoIGFuIGluZGl2aWR1YWwgVk5GIGNvdWxkIG1hbmFnZSBpdHMgb3duIHNjYWxlIGFuZCByZXBsaWNhdGlvbiwgaXQgaXMgZW52aXNpb25lZCB0aGF0IGFuIGVuZC10by1lbmQgc2VydmljZSBjb21wb3NlZCBvZiBtYW55IGRpc3BhcmF0ZSBWTkZzIHdvdWxkIHJlcXVpcmUgYSBhIHNpbmdsZSBjb2hlcmVudCBtYW5hZ2VyLCBzdWNoIGFzIGFuIG9yY2hlc3RyYXRvciB0aGF0IHdvdWxkIG1hbmFnZSB0aGUgc2NhbGUgYW5kIGNhcGFjaXR5IG9mIHRoZSBWTkZzLiAgIA0KDQpUbyBpbGx1c3RyYXRlIG91ciBpbnRlbnRpb25zLCBjb25zaWRlciBob3cgb25lIG1pZ2h0IGFjaGlldmUgc2NhbGFibGUgcmVsaWFiaWxpdHkgd2hlbiB0aGVyZSBpcyBubyBzdGF0ZSBzaGFyZWQgYmV0d2VlbiBmbG93cyBhbmQgdGhlIGZhaWx1cmUgb2YgYSBzbWFsbCBudW1iZXIgb2YgZmxvd3MgaXMgYWNjZXB0YWJsZS4gVG9kYXnigJlzIElUL0Nsb3VkIERhdGEgQ2VudGVycyBleGhpYml0IHZlcnkgaGlnaCBhdmFpbGFiaWxpdHkgbGV2ZWxzIGJ5IGxpbWl0aW5nIHRoZSBhbW91bnQgb2YgdW5pcXVlIHN0YXRlIGluIGEgc2luZ2xlIGVsZW1lbnQgYW5kIGNyZWF0aW5nIGEgdmlydHVhbCBuZXR3b3JrIGZ1bmN0aW9uIGZyb20gYSBudW1iZXIgb2Ygc21hbGwgcmVwbGljYXRlZCBjb21wb25lbnRzIHdob3NlIGZ1bmN0aW9uYWwgY2FwYWNpdHkgIGNhbiBiZSBzY2FsZWQgaW4gYW5kIG91dCBieSBhZGp1c3RpbmcgdGhlIHJ1bm5pbmcgbnVtYmVyIG9mIGNvbXBvbmVudHMuIFJlbGlhYmlsaXR5IGFuZCBhdmFpbGFiaWxpdHkgZm9yIHRoZXNlIHR5cGUgb2YgVk5GcyBpcyBwcm92aWRlZCBieSBhIG51bWJlciBvZiBzbWFsbCByZXBsaWNhdGVkIGNvbXBvbmVudHMuIFdoZW4gYW4gaW5kaXZpZHVhbCBjb21wb25lbnQgZmFpbHMsIGxpdHRsZSBzdGF0ZSBpcyBsb3N0IGFuZCB0aGUgb3ZlcmFsbCBWTkYgZXhwZXJpZW5jZXMgbWluaW1hbCBjaGFuZ2UgaW4gZnVuY3Rpb25hbCBjYXBhY2l0eS4gQ2FwYWNpdHkgZmFpbHVyZXMgY2FuIGJlIHJlY292ZXJlZCBieSBpbnN0YW50aWF0aW5nIGFkZGl0aW9uYWwgY29tcG9uZW50cy4gQWRqdXN0bWVudHMgdG8gbG9hZCBiYWxhbmNpbmcgYWNyb3NzIHRoZSBhY3RpdmUgaW5zdGFuY2VzIG1heSBiZSByZXF1aXJlZC4gIA0KDQpXZSBvZmZlciB0aGlzIGFzIGFuIGluaXRpYWwgZXhhbXBsZSBvZiBob3cgc2NhbGFibGUgcmVsaWFiaWxpdHkgbWlnaHQgYmUgYWNoaWV2ZWQuIFdlIGFudGljaXBhdGUgdGhlIHJlc3VsdGluZyBkb2N1bWVudCB3aWxsIGNvbnNpZGVyIGEgd2lkZSB2YXJpZXR5IG9mIHVzZSBjYXNlcywgaW52b2x2aW5nIGRpZmZlcmluZyBsZXZlbHMgb2Ygc2hhcmVkIHN0YXRlIGFuZCBkaWZmZXJlbnQgcmVsaWFiaWxpdHkgcmVxdWlyZW1lbnRzLCBhbmQgdGhlc2Ugd2lsbCBlYWNoIHJlcXVpcmUgdGhlaXIgb3duIGFwcGxpY2F0aW9uLWluZGVwZW5kZW50IHdheSBvZiBob3cgdG8gbWFuYWdlIHN0YXRlLCByZWFjdCB0byBmYWlsdXJlcywgYW5kIHJlc3BvbmQgdG8gaW5jcmVhc2VkIGxvYWQuICANCg0KQWNjb3JkaW5nbHksIHRoZSBkZWxpdmVyYWJsZSBmcm9tIHRoaXMgcHJvcG9zZWQgV0lEIGlzIGFuIEluZm9ybWF0aXZlIFJlcG9ydC4gVGhlIGludGVudCBpcyB0byBwcm92aWRlIGd1aWRhbmNlIG9uIEJlc3QgUHJhY3RpY2VzIGZvciBzY2FsZSBvdXQgc3lzdGVtIGFyY2hpdGVjdHVyZXMgZm9yIHRoZSBtYW5hZ2VtZW50IG9mIHJlbGlhYmlsaXR5LiAgDQoNCkV4dGVybmFsIGRlcGVuZGVuY2llcyBvZiB0aGlzIHdvcmsgaXRlbSBhcmU6IC0gTUFOTyBWTkZEIC0gU1dBIERlc2lnbiBQYXR0ZXJucyBhbmQgVHJ1c3RlZCBDb21wdXRpbmcgLSBSRUwgRG9jdW1lbnRzLg0K
   language:
   - en
   script:

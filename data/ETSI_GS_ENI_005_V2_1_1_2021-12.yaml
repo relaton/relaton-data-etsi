@@ -45,31 +45,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The purpose of this work item is to draft a GS to revise and enhance the
-    specification of the software functional architecture of ENI. This work uses as
-    its foundation the Functional Blocks and Reference Points defined in the first
-    release of GS ENI 005. \r\nThis work item is organised around three efforts. The
-    first is to further specify the functional blocks of the ENI System Architecture;
-    the second is to define how model-driven principles are used to define key concepts
-    used by ENI functional blocks; the third is to expand and detail interaction with
-    other SDO Systems.\r\nThis work includes: \r\n- specification of External Reference
-    Points,\r\n- specification of APIs for each External Reference Point,\r\n- specification
-    of Interfaces for each API,\r\n- specification of formal semantics,\r\n- specification
-    of cognition processes,\r\n- specification of how closed control loops are realised
-    using functional blocks and appropriate AI mechanisms,\r\n- specification of model-driven
-    principles and procedures that show how the (single) information model is created
-    and maintained,\r\n- specification of model-driven principles and procedures that
-    show how (multiple) data models are derived from the (single) information model,\r\n-
-    definition of how  functional blocks are able to work collaboratively to implement
-    desired functionality,\r\n- definition of how context, situation-awareness, cognition,
-    and policy are built using model-driven principles and procedures,\r\n- definition
-    of how knowledge is represented, managed, and processed,\r\n- definition of more
-    detailed interaction with various Assisted Systems in particular reference standard
-    \ architectures as  NFV MANO , MEF LSO, BBF CloudCO, ZSM,3GPP5G, etc.\r\nSoftware
-    architecture, in terms of functional blocks, and related interactions will be
-    addressed to the extent needed for the implementation of the ENI functionalities.\r\nFurther
-    enhancements that will be provided by Release 2 that may be found in §9 of GS
-    ENI 005 v1.1.1.\r\n"
+- content: !binary |-
+    VGhlIHB1cnBvc2Ugb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gZHJhZnQgYSBHUyB0byByZXZpc2UgYW5kIGVuaGFuY2UgdGhlIHNwZWNpZmljYXRpb24gb2YgdGhlIHNvZnR3YXJlIGZ1bmN0aW9uYWwgYXJjaGl0ZWN0dXJlIG9mIEVOSS4gVGhpcyB3b3JrIHVzZXMgYXMgaXRzIGZvdW5kYXRpb24gdGhlIEZ1bmN0aW9uYWwgQmxvY2tzIGFuZCBSZWZlcmVuY2UgUG9pbnRzIGRlZmluZWQgaW4gdGhlIGZpcnN0IHJlbGVhc2Ugb2YgR1MgRU5JIDAwNS4gDQpUaGlzIHdvcmsgaXRlbSBpcyBvcmdhbmlzZWQgYXJvdW5kIHRocmVlIGVmZm9ydHMuIFRoZSBmaXJzdCBpcyB0byBmdXJ0aGVyIHNwZWNpZnkgdGhlIGZ1bmN0aW9uYWwgYmxvY2tzIG9mIHRoZSBFTkkgU3lzdGVtIEFyY2hpdGVjdHVyZTsgdGhlIHNlY29uZCBpcyB0byBkZWZpbmUgaG93IG1vZGVsLWRyaXZlbiBwcmluY2lwbGVzIGFyZSB1c2VkIHRvIGRlZmluZSBrZXkgY29uY2VwdHMgdXNlZCBieSBFTkkgZnVuY3Rpb25hbCBibG9ja3M7IHRoZSB0aGlyZCBpcyB0byBleHBhbmQgYW5kIGRldGFpbCBpbnRlcmFjdGlvbiB3aXRoIG90aGVyIFNETyBTeXN0ZW1zLg0KVGhpcyB3b3JrIGluY2x1ZGVzOiANCi0gc3BlY2lmaWNhdGlvbiBvZiBFeHRlcm5hbCBSZWZlcmVuY2UgUG9pbnRzLA0KLSBzcGVjaWZpY2F0aW9uIG9mIEFQSXMgZm9yIGVhY2ggRXh0ZXJuYWwgUmVmZXJlbmNlIFBvaW50LA0KLSBzcGVjaWZpY2F0aW9uIG9mIEludGVyZmFjZXMgZm9yIGVhY2ggQVBJLA0KLSBzcGVjaWZpY2F0aW9uIG9mIGZvcm1hbCBzZW1hbnRpY3MsDQotIHNwZWNpZmljYXRpb24gb2YgY29nbml0aW9uIHByb2Nlc3NlcywNCi0gc3BlY2lmaWNhdGlvbiBvZiBob3cgY2xvc2VkIGNvbnRyb2wgbG9vcHMgYXJlIHJlYWxpc2VkIHVzaW5nIGZ1bmN0aW9uYWwgYmxvY2tzIGFuZCBhcHByb3ByaWF0ZSBBSSBtZWNoYW5pc21zLA0KLSBzcGVjaWZpY2F0aW9uIG9mIG1vZGVsLWRyaXZlbiBwcmluY2lwbGVzIGFuZCBwcm9jZWR1cmVzIHRoYXQgc2hvdyBob3cgdGhlIChzaW5nbGUpIGluZm9ybWF0aW9uIG1vZGVsIGlzIGNyZWF0ZWQgYW5kIG1haW50YWluZWQsDQotIHNwZWNpZmljYXRpb24gb2YgbW9kZWwtZHJpdmVuIHByaW5jaXBsZXMgYW5kIHByb2NlZHVyZXMgdGhhdCBzaG93IGhvdyAobXVsdGlwbGUpIGRhdGEgbW9kZWxzIGFyZSBkZXJpdmVkIGZyb20gdGhlIChzaW5nbGUpIGluZm9ybWF0aW9uIG1vZGVsLA0KLSBkZWZpbml0aW9uIG9mIGhvdyAgZnVuY3Rpb25hbCBibG9ja3MgYXJlIGFibGUgdG8gd29yayBjb2xsYWJvcmF0aXZlbHkgdG8gaW1wbGVtZW50IGRlc2lyZWQgZnVuY3Rpb25hbGl0eSwNCi0gZGVmaW5pdGlvbiBvZiBob3cgY29udGV4dCwgc2l0dWF0aW9uLWF3YXJlbmVzcywgY29nbml0aW9uLCBhbmQgcG9saWN5IGFyZSBidWlsdCB1c2luZyBtb2RlbC1kcml2ZW4gcHJpbmNpcGxlcyBhbmQgcHJvY2VkdXJlcywNCi0gZGVmaW5pdGlvbiBvZiBob3cga25vd2xlZGdlIGlzIHJlcHJlc2VudGVkLCBtYW5hZ2VkLCBhbmQgcHJvY2Vzc2VkLA0KLSBkZWZpbml0aW9uIG9mIG1vcmUgZGV0YWlsZWQgaW50ZXJhY3Rpb24gd2l0aCB2YXJpb3VzIEFzc2lzdGVkIFN5c3RlbXMgaW4gcGFydGljdWxhciByZWZlcmVuY2Ugc3RhbmRhcmQgIGFyY2hpdGVjdHVyZXMgYXMgIE5GViBNQU5PICwgTUVGIExTTywgQkJGIENsb3VkQ08sIFpTTSwzR1BQNUcsIGV0Yy4NClNvZnR3YXJlIGFyY2hpdGVjdHVyZSwgaW4gdGVybXMgb2YgZnVuY3Rpb25hbCBibG9ja3MsIGFuZCByZWxhdGVkIGludGVyYWN0aW9ucyB3aWxsIGJlIGFkZHJlc3NlZCB0byB0aGUgZXh0ZW50IG5lZWRlZCBmb3IgdGhlIGltcGxlbWVudGF0aW9uIG9mIHRoZSBFTkkgZnVuY3Rpb25hbGl0aWVzLg0KRnVydGhlciBlbmhhbmNlbWVudHMgdGhhdCB3aWxsIGJlIHByb3ZpZGVkIGJ5IFJlbGVhc2UgMiB0aGF0IG1heSBiZSBmb3VuZCBpbiDCpzkgb2YgR1MgRU5JIDAwNSB2MS4xLjEuDQo=
   language:
   - en
   script:

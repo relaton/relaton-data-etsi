@@ -46,32 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Industrial domain is expectd to be able to improve efficiency and flexibility
-    by utilizing ICT technology: collecting data from devices in multiple factories,
-    analyzing them, and applying the analysis results to decisions. So, it is desirable
-    to utilize oneM2M standardized technology in the industrial domain.  To better
-    understand the special requirements to support the operations of the industrial
-    environment, it is desirable to conduct studies on various functionalities that
-    are keen to support this purpose so as to identify necessary technical works to
-    enhance the future oneM2M specifications.  This work item is intended to study
-    such functionalities and the results of that study will be presented in a Technical
-    Report.\r\nOnce the study has concluded, the work item may need to be enhanced
-    to include normative work in future releases of oneM2M specifications.\r\nInitially,
-    the targeted functionalities to be studied include:\r\n(1) Balancing of availability/processing
-    of data: \r\nThis functionality will provide basis to select an optimized solution
-    dealing with data collection complexity and the processing means between an “intra
-    factory” and an “inter factories” environments. \r\n\r\n(2) Data processing model
-    between real-time operating environments through a remote server: \r\nMany devices
-    in a factory work autonomously and communicate with each other (e.g. over high
-    speed industry buses) in a real-time fashion. However, a remote server (e.g. a
-    server in the Cloud) can be used to support analytical work off-line in an inter-factories
-    environment. The present work item will study how a remote server service can
-    be provided to support these devices in factories.\r\n\r\n(3)Reliability of data
-    transmission/aggregation.\r\nIn factory applications, the quality of the manufacturing
-    process is highly depending on the accuracy of the data, which can be greatly
-    affected with the reliability of the communications among devices and the server.
-    So, means of monitoring the data flow and integrity is needed in order to keep
-    the manufacturing work effectively.\r\n"
+- content: !binary |-
+    SW5kdXN0cmlhbCBkb21haW4gaXMgZXhwZWN0ZCB0byBiZSBhYmxlIHRvIGltcHJvdmUgZWZmaWNpZW5jeSBhbmQgZmxleGliaWxpdHkgYnkgdXRpbGl6aW5nIElDVCB0ZWNobm9sb2d5OiBjb2xsZWN0aW5nIGRhdGEgZnJvbSBkZXZpY2VzIGluIG11bHRpcGxlIGZhY3RvcmllcywgYW5hbHl6aW5nIHRoZW0sIGFuZCBhcHBseWluZyB0aGUgYW5hbHlzaXMgcmVzdWx0cyB0byBkZWNpc2lvbnMuIFNvLCBpdCBpcyBkZXNpcmFibGUgdG8gdXRpbGl6ZSBvbmVNMk0gc3RhbmRhcmRpemVkIHRlY2hub2xvZ3kgaW4gdGhlIGluZHVzdHJpYWwgZG9tYWluLiAgVG8gYmV0dGVyIHVuZGVyc3RhbmQgdGhlIHNwZWNpYWwgcmVxdWlyZW1lbnRzIHRvIHN1cHBvcnQgdGhlIG9wZXJhdGlvbnMgb2YgdGhlIGluZHVzdHJpYWwgZW52aXJvbm1lbnQsIGl0IGlzIGRlc2lyYWJsZSB0byBjb25kdWN0IHN0dWRpZXMgb24gdmFyaW91cyBmdW5jdGlvbmFsaXRpZXMgdGhhdCBhcmUga2VlbiB0byBzdXBwb3J0IHRoaXMgcHVycG9zZSBzbyBhcyB0byBpZGVudGlmeSBuZWNlc3NhcnkgdGVjaG5pY2FsIHdvcmtzIHRvIGVuaGFuY2UgdGhlIGZ1dHVyZSBvbmVNMk0gc3BlY2lmaWNhdGlvbnMuICBUaGlzIHdvcmsgaXRlbSBpcyBpbnRlbmRlZCB0byBzdHVkeSBzdWNoIGZ1bmN0aW9uYWxpdGllcyBhbmQgdGhlIHJlc3VsdHMgb2YgdGhhdCBzdHVkeSB3aWxsIGJlIHByZXNlbnRlZCBpbiBhIFRlY2huaWNhbCBSZXBvcnQuDQpPbmNlIHRoZSBzdHVkeSBoYXMgY29uY2x1ZGVkLCB0aGUgd29yayBpdGVtIG1heSBuZWVkIHRvIGJlIGVuaGFuY2VkIHRvIGluY2x1ZGUgbm9ybWF0aXZlIHdvcmsgaW4gZnV0dXJlIHJlbGVhc2VzIG9mIG9uZU0yTSBzcGVjaWZpY2F0aW9ucy4NCkluaXRpYWxseSwgdGhlIHRhcmdldGVkIGZ1bmN0aW9uYWxpdGllcyB0byBiZSBzdHVkaWVkIGluY2x1ZGU6DQooMSkgQmFsYW5jaW5nIG9mIGF2YWlsYWJpbGl0eS9wcm9jZXNzaW5nIG9mIGRhdGE6IA0KVGhpcyBmdW5jdGlvbmFsaXR5IHdpbGwgcHJvdmlkZSBiYXNpcyB0byBzZWxlY3QgYW4gb3B0aW1pemVkIHNvbHV0aW9uIGRlYWxpbmcgd2l0aCBkYXRhIGNvbGxlY3Rpb24gY29tcGxleGl0eSBhbmQgdGhlIHByb2Nlc3NpbmcgbWVhbnMgYmV0d2VlbiBhbiDigJxpbnRyYSBmYWN0b3J54oCdIGFuZCBhbiDigJxpbnRlciBmYWN0b3JpZXPigJ0gZW52aXJvbm1lbnRzLiANCg0KKDIpIERhdGEgcHJvY2Vzc2luZyBtb2RlbCBiZXR3ZWVuIHJlYWwtdGltZSBvcGVyYXRpbmcgZW52aXJvbm1lbnRzIHRocm91Z2ggYSByZW1vdGUgc2VydmVyOiANCk1hbnkgZGV2aWNlcyBpbiBhIGZhY3Rvcnkgd29yayBhdXRvbm9tb3VzbHkgYW5kIGNvbW11bmljYXRlIHdpdGggZWFjaCBvdGhlciAoZS5nLiBvdmVyIGhpZ2ggc3BlZWQgaW5kdXN0cnkgYnVzZXMpIGluIGEgcmVhbC10aW1lIGZhc2hpb24uIEhvd2V2ZXIsIGEgcmVtb3RlIHNlcnZlciAoZS5nLiBhIHNlcnZlciBpbiB0aGUgQ2xvdWQpIGNhbiBiZSB1c2VkIHRvIHN1cHBvcnQgYW5hbHl0aWNhbCB3b3JrIG9mZi1saW5lIGluIGFuIGludGVyLWZhY3RvcmllcyBlbnZpcm9ubWVudC4gVGhlIHByZXNlbnQgd29yayBpdGVtIHdpbGwgc3R1ZHkgaG93IGEgcmVtb3RlIHNlcnZlciBzZXJ2aWNlIGNhbiBiZSBwcm92aWRlZCB0byBzdXBwb3J0IHRoZXNlIGRldmljZXMgaW4gZmFjdG9yaWVzLg0KDQooMylSZWxpYWJpbGl0eSBvZiBkYXRhIHRyYW5zbWlzc2lvbi9hZ2dyZWdhdGlvbi4NCkluIGZhY3RvcnkgYXBwbGljYXRpb25zLCB0aGUgcXVhbGl0eSBvZiB0aGUgbWFudWZhY3R1cmluZyBwcm9jZXNzIGlzIGhpZ2hseSBkZXBlbmRpbmcgb24gdGhlIGFjY3VyYWN5IG9mIHRoZSBkYXRhLCB3aGljaCBjYW4gYmUgZ3JlYXRseSBhZmZlY3RlZCB3aXRoIHRoZSByZWxpYWJpbGl0eSBvZiB0aGUgY29tbXVuaWNhdGlvbnMgYW1vbmcgZGV2aWNlcyBhbmQgdGhlIHNlcnZlci4gU28sIG1lYW5zIG9mIG1vbml0b3JpbmcgdGhlIGRhdGEgZmxvdyBhbmQgaW50ZWdyaXR5IGlzIG5lZWRlZCBpbiBvcmRlciB0byBrZWVwIHRoZSBtYW51ZmFjdHVyaW5nIHdvcmsgZWZmZWN0aXZlbHkuDQo=
   language:
   - en
   script:

@@ -47,29 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "The minimum repertoire and assignment of graphic (letter, digit and special)
-    characters to standard 12-key telephone keypads on ICT devices with telephony
-    functionality is specified in ES 202 130. \r\nIt applies to public or private,
-    fixed or mobile network terminals, without an alphanumeric keyboard but providing
-    a 12-key keypad in hardware form (e.g. as push button keys) or software form (e.g.
-    as soft keys on a visual display). The ES also applies to network-based services
-    accessed through such terminal devices.\r\nES 202 130 complements ETS 300 640
-    by additionally including European language-specific letters (Latin, Greek and
-    Cyrillic scripts) and other common characters (e.g. the Euro sign and punctuation
-    marks). It specifies solutions for both language-independent and language-specific
-    keypad assignments, mapped to the 12-key telephone keypad and provides common
-    and language-specific information on character repertoires and ordering. \r\nES
-    202 130 is fully applicable to the languages of the European Union (EU) member
-    states as of 2004 (also covering the official languages of the European Union
-    as of June 2004) and the official languages of the EFTA countries and Russian.\r\nThe
-    present work item will update ES 202 130 to additionally cover European minority
-    languages and major non European languages used in Europe. In addition, languages
-    not fully addressed by ES 202 130 will be covered:\r\n• Belarusian, Macedonian
-    (the official language of the Former Yugoslavian Republic of Macedonia), Serbian
-    and Ukrainian (covered by the language-independent Cyrillic-script repertoire);\r\n•
-    Albanian (covered by the repertoire specified for e.g. English);\r\n• Moldavian
-    (covered by the repertoire specified for Romanian) and\r\n• Croatian (covered
-    by the language-independent Latin-script repertoire)."
+- content: !binary |-
+    VGhlIG1pbmltdW0gcmVwZXJ0b2lyZSBhbmQgYXNzaWdubWVudCBvZiBncmFwaGljIChsZXR0ZXIsIGRpZ2l0IGFuZCBzcGVjaWFsKSBjaGFyYWN0ZXJzIHRvIHN0YW5kYXJkIDEyLWtleSB0ZWxlcGhvbmUga2V5cGFkcyBvbiBJQ1QgZGV2aWNlcyB3aXRoIHRlbGVwaG9ueSBmdW5jdGlvbmFsaXR5IGlzIHNwZWNpZmllZCBpbiBFUyAyMDIgMTMwLiANCkl0IGFwcGxpZXMgdG8gcHVibGljIG9yIHByaXZhdGUsIGZpeGVkIG9yIG1vYmlsZSBuZXR3b3JrIHRlcm1pbmFscywgd2l0aG91dCBhbiBhbHBoYW51bWVyaWMga2V5Ym9hcmQgYnV0IHByb3ZpZGluZyBhIDEyLWtleSBrZXlwYWQgaW4gaGFyZHdhcmUgZm9ybSAoZS5nLiBhcyBwdXNoIGJ1dHRvbiBrZXlzKSBvciBzb2Z0d2FyZSBmb3JtIChlLmcuIGFzIHNvZnQga2V5cyBvbiBhIHZpc3VhbCBkaXNwbGF5KS4gVGhlIEVTIGFsc28gYXBwbGllcyB0byBuZXR3b3JrLWJhc2VkIHNlcnZpY2VzIGFjY2Vzc2VkIHRocm91Z2ggc3VjaCB0ZXJtaW5hbCBkZXZpY2VzLg0KRVMgMjAyIDEzMCBjb21wbGVtZW50cyBFVFMgMzAwIDY0MCBieSBhZGRpdGlvbmFsbHkgaW5jbHVkaW5nIEV1cm9wZWFuIGxhbmd1YWdlLXNwZWNpZmljIGxldHRlcnMgKExhdGluLCBHcmVlayBhbmQgQ3lyaWxsaWMgc2NyaXB0cykgYW5kIG90aGVyIGNvbW1vbiBjaGFyYWN0ZXJzIChlLmcuIHRoZSBFdXJvIHNpZ24gYW5kIHB1bmN0dWF0aW9uIG1hcmtzKS4gSXQgc3BlY2lmaWVzIHNvbHV0aW9ucyBmb3IgYm90aCBsYW5ndWFnZS1pbmRlcGVuZGVudCBhbmQgbGFuZ3VhZ2Utc3BlY2lmaWMga2V5cGFkIGFzc2lnbm1lbnRzLCBtYXBwZWQgdG8gdGhlIDEyLWtleSB0ZWxlcGhvbmUga2V5cGFkIGFuZCBwcm92aWRlcyBjb21tb24gYW5kIGxhbmd1YWdlLXNwZWNpZmljIGluZm9ybWF0aW9uIG9uIGNoYXJhY3RlciByZXBlcnRvaXJlcyBhbmQgb3JkZXJpbmcuIA0KRVMgMjAyIDEzMCBpcyBmdWxseSBhcHBsaWNhYmxlIHRvIHRoZSBsYW5ndWFnZXMgb2YgdGhlIEV1cm9wZWFuIFVuaW9uIChFVSkgbWVtYmVyIHN0YXRlcyBhcyBvZiAyMDA0IChhbHNvIGNvdmVyaW5nIHRoZSBvZmZpY2lhbCBsYW5ndWFnZXMgb2YgdGhlIEV1cm9wZWFuIFVuaW9uIGFzIG9mIEp1bmUgMjAwNCkgYW5kIHRoZSBvZmZpY2lhbCBsYW5ndWFnZXMgb2YgdGhlIEVGVEEgY291bnRyaWVzIGFuZCBSdXNzaWFuLg0KVGhlIHByZXNlbnQgd29yayBpdGVtIHdpbGwgdXBkYXRlIEVTIDIwMiAxMzAgdG8gYWRkaXRpb25hbGx5IGNvdmVyIEV1cm9wZWFuIG1pbm9yaXR5IGxhbmd1YWdlcyBhbmQgbWFqb3Igbm9uIEV1cm9wZWFuIGxhbmd1YWdlcyB1c2VkIGluIEV1cm9wZS4gSW4gYWRkaXRpb24sIGxhbmd1YWdlcyBub3QgZnVsbHkgYWRkcmVzc2VkIGJ5IEVTIDIwMiAxMzAgd2lsbCBiZSBjb3ZlcmVkOg0K4oCiIEJlbGFydXNpYW4sIE1hY2Vkb25pYW4gKHRoZSBvZmZpY2lhbCBsYW5ndWFnZSBvZiB0aGUgRm9ybWVyIFl1Z29zbGF2aWFuIFJlcHVibGljIG9mIE1hY2Vkb25pYSksIFNlcmJpYW4gYW5kIFVrcmFpbmlhbiAoY292ZXJlZCBieSB0aGUgbGFuZ3VhZ2UtaW5kZXBlbmRlbnQgQ3lyaWxsaWMtc2NyaXB0IHJlcGVydG9pcmUpOw0K4oCiIEFsYmFuaWFuIChjb3ZlcmVkIGJ5IHRoZSByZXBlcnRvaXJlIHNwZWNpZmllZCBmb3IgZS5nLiBFbmdsaXNoKTsNCuKAoiBNb2xkYXZpYW4gKGNvdmVyZWQgYnkgdGhlIHJlcGVydG9pcmUgc3BlY2lmaWVkIGZvciBSb21hbmlhbikgYW5kDQrigKIgQ3JvYXRpYW4gKGNvdmVyZWQgYnkgdGhlIGxhbmd1YWdlLWluZGVwZW5kZW50IExhdGluLXNjcmlwdCByZXBlcnRvaXJlKS4=
   language:
   - en
   script:

@@ -47,16 +47,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This revision will fully review the document, and includes “up-to-date”
-    protocols instead of outdated ones (e.g. xml -> RESTful HTTP-based/YAML/JSON payload
-    (or NetConf/YANG) etc.) \r\nThis revision will consider the impact on the structure
-    of the remaining parts (2 to 11).\r\n\r\nThe WI should follow a two-stage approach:\r\na.\tprotocol-independent
-    information modeling\r\nb.\tprotocol-specific data modeling e.g. in YAML/JSON\r\n\r\nBeside
-    the existing PEE concept (see Part 12) an extended PEE concept will be introduced
-    to integrate all data originated by infrastructure equipment (see Part 2 -11),
-    which are not described by or part of the PEE concept. This will be done mainly
-    together with the modernization of the “hierarchic rule” and of the description
-    of “standard elements of any equipment, system or subsystem”.\r\n"
+- content: !binary |-
+    VGhpcyByZXZpc2lvbiB3aWxsIGZ1bGx5IHJldmlldyB0aGUgZG9jdW1lbnQsIGFuZCBpbmNsdWRlcyDigJx1cC10by1kYXRl4oCdIHByb3RvY29scyBpbnN0ZWFkIG9mIG91dGRhdGVkIG9uZXMgKGUuZy4geG1sIC0+IFJFU1RmdWwgSFRUUC1iYXNlZC9ZQU1ML0pTT04gcGF5bG9hZCAob3IgTmV0Q29uZi9ZQU5HKSBldGMuKSANClRoaXMgcmV2aXNpb24gd2lsbCBjb25zaWRlciB0aGUgaW1wYWN0IG9uIHRoZSBzdHJ1Y3R1cmUgb2YgdGhlIHJlbWFpbmluZyBwYXJ0cyAoMiB0byAxMSkuDQoNClRoZSBXSSBzaG91bGQgZm9sbG93IGEgdHdvLXN0YWdlIGFwcHJvYWNoOg0KYS4JcHJvdG9jb2wtaW5kZXBlbmRlbnQgaW5mb3JtYXRpb24gbW9kZWxpbmcNCmIuCXByb3RvY29sLXNwZWNpZmljIGRhdGEgbW9kZWxpbmcgZS5nLiBpbiBZQU1ML0pTT04NCg0KQmVzaWRlIHRoZSBleGlzdGluZyBQRUUgY29uY2VwdCAoc2VlIFBhcnQgMTIpIGFuIGV4dGVuZGVkIFBFRSBjb25jZXB0IHdpbGwgYmUgaW50cm9kdWNlZCB0byBpbnRlZ3JhdGUgYWxsIGRhdGEgb3JpZ2luYXRlZCBieSBpbmZyYXN0cnVjdHVyZSBlcXVpcG1lbnQgKHNlZSBQYXJ0IDIgLTExKSwgd2hpY2ggYXJlIG5vdCBkZXNjcmliZWQgYnkgb3IgcGFydCBvZiB0aGUgUEVFIGNvbmNlcHQuIFRoaXMgd2lsbCBiZSBkb25lIG1haW5seSB0b2dldGhlciB3aXRoIHRoZSBtb2Rlcm5pemF0aW9uIG9mIHRoZSDigJxoaWVyYXJjaGljIHJ1bGXigJ0gYW5kIG9mIHRoZSBkZXNjcmlwdGlvbiBvZiDigJxzdGFuZGFyZCBlbGVtZW50cyBvZiBhbnkgZXF1aXBtZW50LCBzeXN0ZW0gb3Igc3Vic3lzdGVt4oCdLg0K
   language:
   - en
   script:

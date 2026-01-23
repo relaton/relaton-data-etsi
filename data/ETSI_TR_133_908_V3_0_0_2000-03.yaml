@@ -48,27 +48,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "Description of the work undertaken by SAGE Task Force for the design of
-    the standard 3GPP Confidentiality and Integrity Algorithms (SAGE TF 3GPP), and
-    to formally approve the release of these algorithms to 3GPP.\r\nWith regard to
-    the design of the algorithms, the scope of the present document is confined to
-    a description of the design criteria, the design methodology and an outline of
-    the content and structure of the specification and test data documents.\r\nThe
-    standard 3GPP Confidentiality and Integrity Algorithms are based on a Block Cipher
-    named KASUMI. The algorithms specification and associated test data are documented
-    in the Specification of the 3GPP Confidentiality and Integrity Algorithms which
-    consists of the following four documents:\r\n-Specification of the 3GPP Confidentiality
-    and Integrity Algorithms; Document 1: f8 and f9 specifications (TS 35.201).\r\n-Specification
-    of the 3GPP Confidentiality and Integrity Algorithms; Document 2: KASUMI algorithm
-    specification (TS 35.202).\r\n-Specification of the 3GPP Confidentiality and Integrity
-    Algorithms; Document 3: Implementors' test data (TS 35.203).\r\n-Specification
-    of the 3GPP Confidentiality and Integrity Algorithms; Document 4: Design conformance
-    test data (TS 35.204).\r\nWith regard to the evaluation of the algorithm, the
-    scope of this report is restricted to a description of the evaluation criteria,
-    the method of evaluation and the main conclusions from the evaluation that led
-    to the Task Force approving the specification. A detailed summary of conclusions
-    of the evaluation is provided in a public evaluation report [3] produced by the
-    Task Force.\r\n"
+- content: !binary |-
+    RGVzY3JpcHRpb24gb2YgdGhlIHdvcmsgdW5kZXJ0YWtlbiBieSBTQUdFIFRhc2sgRm9yY2UgZm9yIHRoZSBkZXNpZ24gb2YgdGhlIHN0YW5kYXJkIDNHUFAgQ29uZmlkZW50aWFsaXR5IGFuZCBJbnRlZ3JpdHkgQWxnb3JpdGhtcyAoU0FHRSBURiAzR1BQKSwgYW5kIHRvIGZvcm1hbGx5IGFwcHJvdmUgdGhlIHJlbGVhc2Ugb2YgdGhlc2UgYWxnb3JpdGhtcyB0byAzR1BQLg0KV2l0aCByZWdhcmQgdG8gdGhlIGRlc2lnbiBvZiB0aGUgYWxnb3JpdGhtcywgdGhlIHNjb3BlIG9mIHRoZSBwcmVzZW50IGRvY3VtZW50IGlzIGNvbmZpbmVkIHRvIGEgZGVzY3JpcHRpb24gb2YgdGhlIGRlc2lnbiBjcml0ZXJpYSwgdGhlIGRlc2lnbiBtZXRob2RvbG9neSBhbmQgYW4gb3V0bGluZSBvZiB0aGUgY29udGVudCBhbmQgc3RydWN0dXJlIG9mIHRoZSBzcGVjaWZpY2F0aW9uIGFuZCB0ZXN0IGRhdGEgZG9jdW1lbnRzLg0KVGhlIHN0YW5kYXJkIDNHUFAgQ29uZmlkZW50aWFsaXR5IGFuZCBJbnRlZ3JpdHkgQWxnb3JpdGhtcyBhcmUgYmFzZWQgb24gYSBCbG9jayBDaXBoZXIgbmFtZWQgS0FTVU1JLiBUaGUgYWxnb3JpdGhtcyBzcGVjaWZpY2F0aW9uIGFuZCBhc3NvY2lhdGVkIHRlc3QgZGF0YSBhcmUgZG9jdW1lbnRlZCBpbiB0aGUgU3BlY2lmaWNhdGlvbiBvZiB0aGUgM0dQUCBDb25maWRlbnRpYWxpdHkgYW5kIEludGVncml0eSBBbGdvcml0aG1zIHdoaWNoIGNvbnNpc3RzIG9mIHRoZSBmb2xsb3dpbmcgZm91ciBkb2N1bWVudHM6DQotU3BlY2lmaWNhdGlvbiBvZiB0aGUgM0dQUCBDb25maWRlbnRpYWxpdHkgYW5kIEludGVncml0eSBBbGdvcml0aG1zOyBEb2N1bWVudCAxOiBmOCBhbmQgZjkgc3BlY2lmaWNhdGlvbnMgKFRTwqAzNS4yMDEpLg0KLVNwZWNpZmljYXRpb24gb2YgdGhlIDNHUFAgQ29uZmlkZW50aWFsaXR5IGFuZCBJbnRlZ3JpdHkgQWxnb3JpdGhtczsgRG9jdW1lbnQgMjogS0FTVU1JIGFsZ29yaXRobSBzcGVjaWZpY2F0aW9uIChUU8KgMzUuMjAyKS4NCi1TcGVjaWZpY2F0aW9uIG9mIHRoZSAzR1BQIENvbmZpZGVudGlhbGl0eSBhbmQgSW50ZWdyaXR5IEFsZ29yaXRobXM7IERvY3VtZW50IDM6IEltcGxlbWVudG9ycycgdGVzdCBkYXRhIChUU8KgMzUuMjAzKS4NCi1TcGVjaWZpY2F0aW9uIG9mIHRoZSAzR1BQIENvbmZpZGVudGlhbGl0eSBhbmQgSW50ZWdyaXR5IEFsZ29yaXRobXM7IERvY3VtZW50IDQ6IERlc2lnbiBjb25mb3JtYW5jZSB0ZXN0IGRhdGEgKFRTwqAzNS4yMDQpLg0KV2l0aCByZWdhcmQgdG8gdGhlIGV2YWx1YXRpb24gb2YgdGhlIGFsZ29yaXRobSwgdGhlIHNjb3BlIG9mIHRoaXMgcmVwb3J0IGlzIHJlc3RyaWN0ZWQgdG8gYSBkZXNjcmlwdGlvbiBvZiB0aGUgZXZhbHVhdGlvbiBjcml0ZXJpYSwgdGhlIG1ldGhvZCBvZiBldmFsdWF0aW9uIGFuZCB0aGUgbWFpbiBjb25jbHVzaW9ucyBmcm9tIHRoZSBldmFsdWF0aW9uIHRoYXQgbGVkIHRvIHRoZSBUYXNrIEZvcmNlIGFwcHJvdmluZyB0aGUgc3BlY2lmaWNhdGlvbi4gQSBkZXRhaWxlZCBzdW1tYXJ5IG9mIGNvbmNsdXNpb25zIG9mIHRoZSBldmFsdWF0aW9uIGlzIHByb3ZpZGVkIGluIGEgcHVibGljIGV2YWx1YXRpb24gcmVwb3J0IFszXSBwcm9kdWNlZCBieSB0aGUgVGFzayBGb3JjZS4NCg==
   language:
   - en
   script:

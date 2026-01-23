@@ -45,23 +45,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "NFV virtualised networks are required to be able to support Lawful Interception
-    (LI). In order for virtual functions to support LI, the NFV virtualisation layer
-    must provide a set of capabilities, interfaces, functions and components which
-    can be utilised by the virtualised applications (VNFs) to provide Lawful Interception.
-    This report will identify potential top to bottom (Virtualised Application through
-    NFV layer through hardware platform) LI architectures and identify within the
-    scope of ETSI NFV, capabilities, interfaces, functions and components required
-    to support these architectures.\r\n\r\nThe main objectives of this work item are
-    to\r\n•\tidentify  and define 1 or more NFV reference LI architectures, including
-    administration functions, virtual points of interception, mediation functions
-    and other LI functions.\r\n•\tIdentify potential NFV solutions which provide the
-    capabilities, interfaces, functions and components to meet the identified LI architectures.
-    \ \r\n•\tDocument deployment scenarios examples for each of the identified reference
-    LI architectures\r\n\r\nThis work will build on applicable work already undertaken
-    in NFV SEC 004 & 009.\r\n\r\nThis work may include collaboration with other work
-    groups, e.g. IFA WG.\r\n\r\nThis Report is expected to form the basis from which
-    a future normative NFV LI architecture can be developed.\r\n"
+- content: !binary |-
+    TkZWIHZpcnR1YWxpc2VkIG5ldHdvcmtzIGFyZSByZXF1aXJlZCB0byBiZSBhYmxlIHRvIHN1cHBvcnQgTGF3ZnVsIEludGVyY2VwdGlvbiAoTEkpLiBJbiBvcmRlciBmb3IgdmlydHVhbCBmdW5jdGlvbnMgdG8gc3VwcG9ydCBMSSwgdGhlIE5GViB2aXJ0dWFsaXNhdGlvbiBsYXllciBtdXN0IHByb3ZpZGUgYSBzZXQgb2YgY2FwYWJpbGl0aWVzLCBpbnRlcmZhY2VzLCBmdW5jdGlvbnMgYW5kIGNvbXBvbmVudHMgd2hpY2ggY2FuIGJlIHV0aWxpc2VkIGJ5IHRoZSB2aXJ0dWFsaXNlZCBhcHBsaWNhdGlvbnMgKFZORnMpIHRvIHByb3ZpZGUgTGF3ZnVsIEludGVyY2VwdGlvbi4gVGhpcyByZXBvcnQgd2lsbCBpZGVudGlmeSBwb3RlbnRpYWwgdG9wIHRvIGJvdHRvbSAoVmlydHVhbGlzZWQgQXBwbGljYXRpb24gdGhyb3VnaCBORlYgbGF5ZXIgdGhyb3VnaCBoYXJkd2FyZSBwbGF0Zm9ybSkgTEkgYXJjaGl0ZWN0dXJlcyBhbmQgaWRlbnRpZnkgd2l0aGluIHRoZSBzY29wZSBvZiBFVFNJIE5GViwgY2FwYWJpbGl0aWVzLCBpbnRlcmZhY2VzLCBmdW5jdGlvbnMgYW5kIGNvbXBvbmVudHMgcmVxdWlyZWQgdG8gc3VwcG9ydCB0aGVzZSBhcmNoaXRlY3R1cmVzLg0KDQpUaGUgbWFpbiBvYmplY3RpdmVzIG9mIHRoaXMgd29yayBpdGVtIGFyZSB0bw0K4oCiCWlkZW50aWZ5ICBhbmQgZGVmaW5lIDEgb3IgbW9yZSBORlYgcmVmZXJlbmNlIExJIGFyY2hpdGVjdHVyZXMsIGluY2x1ZGluZyBhZG1pbmlzdHJhdGlvbiBmdW5jdGlvbnMsIHZpcnR1YWwgcG9pbnRzIG9mIGludGVyY2VwdGlvbiwgbWVkaWF0aW9uIGZ1bmN0aW9ucyBhbmQgb3RoZXIgTEkgZnVuY3Rpb25zLg0K4oCiCUlkZW50aWZ5IHBvdGVudGlhbCBORlYgc29sdXRpb25zIHdoaWNoIHByb3ZpZGUgdGhlIGNhcGFiaWxpdGllcywgaW50ZXJmYWNlcywgZnVuY3Rpb25zIGFuZCBjb21wb25lbnRzIHRvIG1lZXQgdGhlIGlkZW50aWZpZWQgTEkgYXJjaGl0ZWN0dXJlcy4gIA0K4oCiCURvY3VtZW50IGRlcGxveW1lbnQgc2NlbmFyaW9zIGV4YW1wbGVzIGZvciBlYWNoIG9mIHRoZSBpZGVudGlmaWVkIHJlZmVyZW5jZSBMSSBhcmNoaXRlY3R1cmVzDQoNClRoaXMgd29yayB3aWxsIGJ1aWxkIG9uIGFwcGxpY2FibGUgd29yayBhbHJlYWR5IHVuZGVydGFrZW4gaW4gTkZWIFNFQyAwMDQgJiAwMDkuDQoNClRoaXMgd29yayBtYXkgaW5jbHVkZSBjb2xsYWJvcmF0aW9uIHdpdGggb3RoZXIgd29yayBncm91cHMsIGUuZy4gSUZBIFdHLg0KDQpUaGlzIFJlcG9ydCBpcyBleHBlY3RlZCB0byBmb3JtIHRoZSBiYXNpcyBmcm9tIHdoaWNoIGEgZnV0dXJlIG5vcm1hdGl2ZSBORlYgTEkgYXJjaGl0ZWN0dXJlIGNhbiBiZSBkZXZlbG9wZWQuDQo=
   language:
   - en
   script:

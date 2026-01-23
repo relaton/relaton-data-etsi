@@ -46,24 +46,8 @@ language:
 script:
 - Latn
 abstract:
-- content: "This WI will  develop a report to study the internal architectural structure/physical
-    components of an NFVI Nodeand provide a set of guidelines to support an NFV environment.
-    The goai is to facilitate the availability of these components in a multi-vendor
-    environment. The scope is limited to the “Hardware Resources” portion of Figure
-    2 of the Infrastructure Overview GS INF001 V1.1.1. These Resources include the
-    Compute, Storage, and Network hardware. Accordingly, this document will study:
-    \r\n\r\n- Applicable Architectural Principles (e.g., Open Compute Project)\r\n-
-    Physical Hardware Components\r\n- Node Construction (e.g., COTS Products, Rack
-    Designs, Processors, Heating/Cooling Issues)\r\n- Interconnection Methods\r\n-
-    “Building” NFVI Node Configurations with generic set of components (e.g., Transport,
-    Access, Customer Prem, Provider Edge, etc.)\r\n- Support Various Use Cases specified
-    in GS INF001 (e.g., Cloud Computing Services, Cloud Deployment Models, etc.)\r\n-
-    Scaling Issues (Minimum configuration to support specified function, Stacking
-    components to meet various node “size” requirements)\r\n\r\nThe proposed GS intends
-    to cover these topics at an acceptable level of detail. It is expected that this
-    study may highlight the need for additional requirements for individual components
-    such as processors. Such requirements can then be pursued either in the ISG or
-    in other SDO’s as applicable.\r\n"
+- content: !binary |-
+    VGhpcyBXSSB3aWxsICBkZXZlbG9wIGEgcmVwb3J0IHRvIHN0dWR5IHRoZSBpbnRlcm5hbCBhcmNoaXRlY3R1cmFsIHN0cnVjdHVyZS9waHlzaWNhbCBjb21wb25lbnRzIG9mIGFuIE5GVkkgTm9kZWFuZCBwcm92aWRlIGEgc2V0IG9mIGd1aWRlbGluZXMgdG8gc3VwcG9ydCBhbiBORlYgZW52aXJvbm1lbnQuIFRoZSBnb2FpIGlzIHRvIGZhY2lsaXRhdGUgdGhlIGF2YWlsYWJpbGl0eSBvZiB0aGVzZSBjb21wb25lbnRzIGluIGEgbXVsdGktdmVuZG9yIGVudmlyb25tZW50LiBUaGUgc2NvcGUgaXMgbGltaXRlZCB0byB0aGUg4oCcSGFyZHdhcmUgUmVzb3VyY2Vz4oCdIHBvcnRpb24gb2YgRmlndXJlIDIgb2YgdGhlIEluZnJhc3RydWN0dXJlIE92ZXJ2aWV3IEdTIElORjAwMSBWMS4xLjEuIFRoZXNlIFJlc291cmNlcyBpbmNsdWRlIHRoZSBDb21wdXRlLCBTdG9yYWdlLCBhbmQgTmV0d29yayBoYXJkd2FyZS4gQWNjb3JkaW5nbHksIHRoaXMgZG9jdW1lbnQgd2lsbCBzdHVkeTogDQoNCi0gQXBwbGljYWJsZSBBcmNoaXRlY3R1cmFsIFByaW5jaXBsZXMgKGUuZy4sIE9wZW4gQ29tcHV0ZSBQcm9qZWN0KQ0KLSBQaHlzaWNhbCBIYXJkd2FyZSBDb21wb25lbnRzDQotIE5vZGUgQ29uc3RydWN0aW9uIChlLmcuLCBDT1RTIFByb2R1Y3RzLCBSYWNrIERlc2lnbnMsIFByb2Nlc3NvcnMsIEhlYXRpbmcvQ29vbGluZyBJc3N1ZXMpDQotIEludGVyY29ubmVjdGlvbiBNZXRob2RzDQotIOKAnEJ1aWxkaW5n4oCdIE5GVkkgTm9kZSBDb25maWd1cmF0aW9ucyB3aXRoIGdlbmVyaWMgc2V0IG9mIGNvbXBvbmVudHMgKGUuZy4sIFRyYW5zcG9ydCwgQWNjZXNzLCBDdXN0b21lciBQcmVtLCBQcm92aWRlciBFZGdlLCBldGMuKQ0KLSBTdXBwb3J0IFZhcmlvdXMgVXNlIENhc2VzIHNwZWNpZmllZCBpbiBHUyBJTkYwMDEgKGUuZy4sIENsb3VkIENvbXB1dGluZyBTZXJ2aWNlcywgQ2xvdWQgRGVwbG95bWVudCBNb2RlbHMsIGV0Yy4pDQotIFNjYWxpbmcgSXNzdWVzIChNaW5pbXVtIGNvbmZpZ3VyYXRpb24gdG8gc3VwcG9ydCBzcGVjaWZpZWQgZnVuY3Rpb24sIFN0YWNraW5nIGNvbXBvbmVudHMgdG8gbWVldCB2YXJpb3VzIG5vZGUg4oCcc2l6ZeKAnSByZXF1aXJlbWVudHMpDQoNClRoZSBwcm9wb3NlZCBHUyBpbnRlbmRzIHRvIGNvdmVyIHRoZXNlIHRvcGljcyBhdCBhbiBhY2NlcHRhYmxlIGxldmVsIG9mIGRldGFpbC4gSXQgaXMgZXhwZWN0ZWQgdGhhdCB0aGlzIHN0dWR5IG1heSBoaWdobGlnaHQgdGhlIG5lZWQgZm9yIGFkZGl0aW9uYWwgcmVxdWlyZW1lbnRzIGZvciBpbmRpdmlkdWFsIGNvbXBvbmVudHMgc3VjaCBhcyBwcm9jZXNzb3JzLiBTdWNoIHJlcXVpcmVtZW50cyBjYW4gdGhlbiBiZSBwdXJzdWVkIGVpdGhlciBpbiB0aGUgSVNHIG9yIGluIG90aGVyIFNET+KAmXMgYXMgYXBwbGljYWJsZS4NCg==
   language:
   - en
   script:
