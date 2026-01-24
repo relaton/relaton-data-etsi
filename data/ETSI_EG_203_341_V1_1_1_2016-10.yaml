@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203341V1.1.12016-10
+id: ETSIEG203341V111201610
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Approaches for Testing
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Approaches for Testing
     Adaptive Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44530
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203341/01.01.01_60/eg_203341v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 341 V1.1.1 (2016-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44530
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203341/01.01.01_60/eg_203341v010101p.pdf
+docidentifier:
+- content: ETSI EG 203 341 V1.1.1 (2016-10)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 341 V1.1.1 (2016-10)
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The characteristics of 'adaptive networks' such as virtualization, self-organization,
+- language: en
+  script: Latn
+  content: "The characteristics of 'adaptive networks' such as virtualization, self-organization,
     self-configuration, self-optimization, self-healing and self-learning offer huge
     advantages in future networks. While technologies such as Network Functions Virtualization
     (NFV), Self-Organizing Networks (SON), Mobile Edge Computing (MEC) and Autonomic
@@ -55,19 +64,21 @@ abstract:
     to dynamic traffic conditions, applications, service demands as well as to changes
     in the eco-system environment.\r\nThis work item will develop a methodology (guide)
     that will extend current experience and testing approaches\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: INTEROPERABILITY
-- content: METHODOLOGY
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: METHODOLOGY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: ETSI Guide

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300899-1V1.1.21998-09
+id: ETSIEN3008991V112199809
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Interworking
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Interworking
     between ISDN User Part (ISUP) version 2 and Digital Subscriber Signalling System
     No. one (DSS1); Part 1: Protocol specification [ITU-T Recommendation Q.699, modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2738
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300800_300899/30089901/01.01.02_60/en_30089901v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 899-1 V1.1.2 (1998-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2738
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300800_300899/30089901/01.01.02_60/en_30089901v010102p.pdf
+docidentifier:
+- content: ETSI EN 300 899-1 V1.1.2 (1998-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 899-1 V1.1.2 (1998-09)
 date:
 - type: published
-  value: 1998-09
+  at: 1998-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1998-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Interworking between ISUP v2 and DSS1 for basic call and supplementary\r\nservices\r\nCo-ordination
+- language: en
+  script: Latn
+  content: "Interworking between ISUP v2 and DSS1 for basic call and supplementary\r\nservices\r\nCo-ordination
     with SPS5 and ITU-T SG11 activity is required\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ENDORSEMENT
-- content: INTERWORKING
-- content: ISDN
-- content: ISUP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Signalling
+    content: European Standard

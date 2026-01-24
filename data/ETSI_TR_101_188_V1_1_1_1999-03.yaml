@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101188V1.1.11999-03
+id: ETSITR101188V111199903
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Network Termination Point (NTP)
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Network Termination Point (NTP)
     analogue interface; Specification of physical and electrical characteristics at
     a 2-wire analogue presented NTP for short to medium length loop applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7086
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101188/01.01.01_60/tr_101188v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 188 V1.1.1 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7086
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101188/01.01.01_60/tr_101188v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 188 V1.1.1 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 188 V1.1.1 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The objective of this report is to lay down harmonized specifications for
+- language: en
+  script: Latn
+  content: The objective of this report is to lay down harmonized specifications for
     a Network Termination Point of supporting voice and non-voice terminals, particularly
     suitable for use by new network operators operating in several European countries.
     These specifications take due account of the harmonized terminal equipment specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ACCESS
-- content: ANALOGUE
-- content: ONP
-- content: PSTN
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: ONP
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Report

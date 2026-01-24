@@ -1,77 +1,100 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101593V1.1.12012-09
+id: ETSITR101593V111201209
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Global Navigation Satellite
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Global Navigation Satellite
     System (GNSS) based location systems; Minimum performance and features
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34117
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101593/01.01.01_60/tr_101593v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 593 V1.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34117
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101593/01.01.01_60/tr_101593v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 593 V1.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 593 V1.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Analyse the various classes of GNSS receiver (as defined in rec. ITU-R
+- language: en
+  script: Latn
+  content: Analyse the various classes of GNSS receiver (as defined in rec. ITU-R
     M1477_NEW see document 4/98 from ITU-R SG4) versus the potential addressed market.
     Identify the expected range of performances for each class of receiver taking
     into account typical design and implementation information. Analyse the susceptibility
     of each class of receivers towards several types of interferences potentially
     encountered. Conclude with recommendation for one or more associated Technical
     Specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GNSS
-- content: LOCATION
-- content: MSS
-- content: NAVIGATION
-- content: PERFORMANCE
-- content: RECEIVER
-- content: SATELLITE
-- content: SYSTEM
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: GNSS
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: NAVIGATION
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

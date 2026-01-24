@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202363V1.1.12005-01
+id: ETSIES202363V111200501
+schema_version: v1.4.1
 title:
-- content: Open Service Access (OSA); Application Programming Interface (API); Implementation
+- language: en
+  script: Latn
+  content: Open Service Access (OSA); Application Programming Interface (API); Implementation
     Conformance Statement (ICS) proforma specification; (Parlay 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19578
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/202363/01.01.01_60/es_202363v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 363 V1.1.1 (2005-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19578
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/202363/01.01.01_60/es_202363v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 363 V1.1.1 (2005-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 363 V1.1.1 (2005-01)
 date:
 - type: published
-  value: 2005-01
+  at: 2005-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Produce ICS proforma for ETSI OSA Edition 2, as published in ES 202 915.
+- language: en
+  script: Latn
+  content: Produce ICS proforma for ETSI OSA Edition 2, as published in ES 202 915.
     ICS Proforma to follow approach adopted in producing ICS for ES 201 915.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: ICS
-- content: OSA
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: ICS
+  - language: en
+    script: Latn
+    content: OSA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Testing
+    content: ETSI Standard

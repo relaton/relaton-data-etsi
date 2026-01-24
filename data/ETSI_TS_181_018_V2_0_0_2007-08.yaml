@@ -1,65 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS181018V2.0.02007-08
+id: ETSITS181018V200200708
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Requirements for QoS in a NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25051
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181018/02.00.00_60/ts_181018v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 181 018 V2.0.0 (2007-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25051
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181018/02.00.00_60/ts_181018v020000p.pdf
+docidentifier:
+- content: ETSI TS 181 018 V2.0.0 (2007-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 181 018 V2.0.0 (2007-08)
 date:
 - type: published
-  value: 2007-08
+  at: 2007-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2007-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGdvYWxzIG9mIHRoaXMgd29yayBpdGVtIGFyZToNCsK3SWRlbnRpZnkgdGhlIGNhcGFiaWxpdGllcyAoZS5nLiBRb1MgcmVwb3J0aW5nLCBSZXNvdXJjZSBtb25pdG9yaW5nLCDigKYpIHRoYXQgYSBOR04gc2hhbGwgcHJvdmlkZSBpbiBvcmRlciB0byBndWFyYW50ZWUgYW4gYWRlcXVhdGUgUW9TIHRvIHRoZSBtZWRpYSBmbG93cw0KwrdEZWZpbmUgdGhlIHNwZWNpZmljIHJlcXVpcmVtZW50cyBmb3IgdGhlIE5HTiBlbnZpcm9ubWVudCByZWxhdGVkIHRvIHRoZSBpZGVudGlmaWVkIGNhcGFiaWxpdGllcw0KSWRlbnRpZnkgYW5kIGRlc2NyaWJlIHRoZSBzY2VuYXJpb3Mgd2hlcmUgdGhlIGlkZW50aWZpZWQgY2FwYWJpbGl0aWVzIGFyZSBpbnZvbHZlZCBmb3IgcHJvdmlkaW5nIFFvUyB0byB0aGUgbWVkaWEgZmxvd3M=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The goals of this work item are:\r\nIdentify the capabilities (e.g. QoS
+    reporting, Resource monitoring, ) that a NGN shall provide in order to guarantee
+    an adequate QoS to the media flows\r\nDefine the specific requirements for the
+    NGN environment related to the identified capabilities\r\nIdentify and describe
+    the scenarios where the identified capabilities are involved for providing QoS
+    to the media flows"
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: QoS
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: QoS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Specification

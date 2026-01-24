@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA036V5.3.12025-08
+id: ETSIGSNFVIFA036V531202508
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
     Requirements for service interfaces and object model for container cluster management
     and orchestration specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74286
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/036/05.03.01_60/gs_NFV-IFA036v050301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 036 V5.3.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74286
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/036/05.03.01_60/gs_NFV-IFA036v050301p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 036 V5.3.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 036 V5.3.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 036 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 036 continues the development of the specification
     as part of the NFV Release 5. This edition will add requirements to support the
     Release 5 features. The scope of the former edition is summarized hereafter:\r\n\r\nThe
     work item specifies requirements on Container Infrastructure Service (CIS) cluster
@@ -56,22 +65,30 @@ abstract:
     configuration management, performance management, fault management and security
     management of the CIS clusters and to service interfaces to be offered for the
     management of CIS instances and of capabilities of the cluster.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Container
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: orchestration
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: Container
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

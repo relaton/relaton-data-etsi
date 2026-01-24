@@ -1,64 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRQKD007V1.2.12026-01
+id: ETSIGRQKD007V121202601
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Vocabulary
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58892
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/QKD/001_099/007/01.02.01_60/gr_QKD007v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR QKD 007 V1.2.1 (2026-01)
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Vocabulary
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58892
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/QKD/001_099/007/01.02.01_60/gr_QKD007v010201p.pdf
+docidentifier:
+- content: ETSI GR QKD 007 V1.2.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR QKD 007 V1.2.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgY29sbGVjdHMgdG9nZXRoZXIgZGVmaW5pdGlvbnMgYW5kIGFiYnJldmlhdGlvbnMgdXNlZCBpbiByZWxhdGlvbiB0byBRdWFudHVtIEtleSBEaXN0cmlidXRpb24gKFFLRCkgYW5kIEVUU0kgSVNHLVFLRCBkb2N1bWVudHMuICBRS0QgaW50cm9kdWNlcyBuZXcgY29uY2VwdHMgYW5kIHRlY2hub2xvZ2llcyB0byB0aGUgZmllbGQgb2YgdGVsZWNvbW11bmljYXRpb25zIGFuZCBjb25zaWRlcmFibGUgcmVsYXRlZCB2b2NhYnVsYXJ5LiAgIE1hbnkgdGVybXMgZGVyaXZlIGZyb20gdGhlIHdpZGVyIGZpZWxkcyBvZiBxdWFudHVtIHBoeXNpY3MgYW5kIGNsYXNzaWNhbCBjcnlwdG9ncmFwaHkgYnV0IGluIHNvbWUgY2FzZXMgdGVybXMgYXNzdW1lIGEgbW9kaWZpZWQgb3IgbW9yZSBzcGVjaWZpYyBtZWFuaW5nIHdoZW4gYXBwbGllZCB0byBRS0QuDQpUaGlzIHJldmlzaW9uIHVwZGF0ZXMgdGVybXMgYW5kIGFiYnJldmlhdGlvbnMuDQpUaGUgbWFpbiBvYmplY3RpdmVzIG9mIHRoZSBwcmVzZW50IGRvY3VtZW50IGFyZToNCuKAonRvIGltcHJvdmUgdGhlIGNvbnNpc3RlbmN5IHdpdGggd2hpY2ggdGVybWlub2xvZ3kgYW5kIGFiYnJldmlhdGlvbnMgYXJlIHVzZWQgd2l0aGluIElTRy1RS0QgZG9jdW1lbnRzOw0K4oCidG8gcHJvdmlkZSBhIHJlZmVyZW5jZSBkb2N1bWVudCB0byByZWR1Y2UgY29uZnVzaW9uIGJ5IHJlYWRlcnMgd2hvIG1heSBub3QgYmUgZmFtaWxpYXIgd2l0aCBRS0QuDQpNb3N0IGRlZmluaXRpb25zIGFuZCBhYmJyZXZpYXRpb25zIGNvbWUgZnJvbSBJU0ctUUtEIEdyb3VwIFNwZWNpZmljYXRpb25zIGFuZCBHcm91cCBSZXBvcnRzIG9yIGFyZSBleHBlY3RlZCB0byBiZSB1c2VkIGluIHB1Ymxpc2hlZCBkb2N1bWVudHMuICBUaGUgdGVybXMgaW5jbHVkZWQgaGF2ZSBiZWVuIHNlbGVjdGVkIHRvIGZvY3VzIHRoZSBwcmVzZW50IGRvY3VtZW50IG9uIHRob3NlIHRoYXQgYXJlIGV4cGVjdGVkIHRvIGJlIG9mIHdpZGVzcHJlYWQgdXNlIG9yIHdoZXJlIGNvbnNpc3RlbmN5IGlzIGZlbHQgdG8gYmUgcGFydGljdWxhcmx5IGltcG9ydGFudCwgZS5nLiBkdWUgdG8gYSBzcGVjaWZpYyByaXNrIG9mIGNvbmZ1c2lvbi4gIFRlcm1zIGludHJvZHVjZWQgaW4gYSBzaW5nbGUgSVNHLVFLRCBkb2N1bWVudCBmb3IgYSBzcGVjaWZpYyBwdXJwb3NlIHRoYXQgaXMgbG9jYWwgdG8gdGhhdCBkb2N1bWVudCBhcmUgZXhjbHVkZWQgdW5sZXNzIG9mIHBhcnRpY3VsYXIgaW1wb3J0YW5jZS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document collects together definitions and abbreviations used
+    in relation to Quantum Key Distribution (QKD) and ETSI ISG-QKD documents.  QKD
+    introduces new concepts and technologies to the field of telecommunications and
+    considerable related vocabulary.   Many terms derive from the wider fields of
+    quantum physics and classical cryptography but in some cases terms assume a modified
+    or more specific meaning when applied to QKD.\r\nThis revision updates terms and
+    abbreviations.\r\nThe main objectives of the present document are:\r\nto improve
+    the consistency with which terminology and abbreviations are used within ISG-QKD
+    documents;\r\nto provide a reference document to reduce confusion by readers who
+    may not be familiar with QKD.\r\nMost definitions and abbreviations come from
+    ISG-QKD Group Specifications and Group Reports or are expected to be used in published
+    documents.  The terms included have been selected to focus the present document
+    on those that are expected to be of widespread use or where consistency is felt
+    to be particularly important, e.g. due to a specific risk of confusion.  Terms
+    introduced in a single ISG-QKD document for a specific purpose that is local to
+    that document are excluded unless of particular importance."
+status:
+  stage: Published
 keyword:
-- content: Quantum Key Distribution
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI031V4.1.12024-05
+id: ETSIGRENI031V411202405
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Construction and application
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Construction and application
     of fault maintenance network knowledge graphs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64276
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/031/04.01.01_60/gr_ENI031v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 031 V4.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64276
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/031/04.01.01_60/gr_ENI031v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 031 V4.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 031 V4.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this work item is to describe use cases and a construction
+- language: en
+  script: Latn
+  content: "The purpose of this work item is to describe use cases and a construction
     method of fault maintenance knowledge graphs. \r\nThis GR also defines the data
     requirements, defines a schema design and describes the knowledge application
     interface fault maintenance knowledge graphs. \r\nIn addition to the main target
@@ -56,19 +65,21 @@ abstract:
     self-repair are also envisaged.\r\nThis GR will encompass research and investigation
     activities that will address wireless networks at the first stage. Subsequent
     efforts may extend the work into access networks.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ALGORITHM
-- content: wireless ad-hoc network
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: wireless ad-hoc network
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

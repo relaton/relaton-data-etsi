@@ -1,64 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300842ed.11998-04
+id: ETSIETS300842ed1199804
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); ATM Adaptation
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); ATM Adaptation
     Layer (AAL); Sublayers: Service Specific Co-ordination Function (SSCF) to provide
     the Connection-Oriented Network Service (CONS) [ITU-T Recommendation I.365.2 (1995)]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3282
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300842/01_60/ets_300842e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 842 ed.1 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3282
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300842/01_60/ets_300842e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 842 ed.1 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 842 ed.1 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Development of an ETS for the SSCF required on top of the protocol\r\nspecified
+- language: en
+  script: Latn
+  content: "Development of an ETS for the SSCF required on top of the protocol\r\nspecified
     in Q.2110 (SSCOP) tp provide the layer service specified in\r\nX.213 (CONS) on
     the basis of the corresponding results in ITU-T, SG\r\n13, Q 6.\r\nIn fact this
     ETS is an endorsement of the ITU-T I.365.3 (1995).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AAL
-- content: ATM
-- content: B-ISDN
-- content: ENDORSEMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: AAL
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Broadband Networks
+    content: European Telecommunication Standard

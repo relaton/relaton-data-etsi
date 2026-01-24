@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201736V1.1.12000-09
+id: ETSIES201736V111200009
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Network Independent Protocols for Interactive
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Network Independent Protocols for Interactive
     Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8631
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201700_201799/201736/01.01.01_60/es_201736v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 736 V1.1.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8631
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201700_201799/201736/01.01.01_60/es_201736v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 736 V1.1.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 736 V1.1.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specifies the protocol stacks to be used for the different types
+- language: en
+  script: Latn
+  content: "This specifies the protocol stacks to be used for the different types
     of services that are defined, as local interactive, one-way interactive and two-way
     interactive service.  It also defines a protocol PSSC (Personal DAB Service Session
     Control) which allows the set up of personal DAB service sessions and functionalities
     like handover between DAB cells, etc.  It also defines the message format to be
     used and allows for further future extensions.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
-- content: INTERACTION
-- content: NETWORK
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

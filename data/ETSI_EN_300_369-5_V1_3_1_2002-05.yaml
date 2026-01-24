@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300369-5V1.3.12002-05
+id: ETSIEN3003695V131200205
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Explicit Call Transfer (ECT) supplementary service;
     Part 5: Test Suite Structure and Test Purposes (TSS&TP) specification for the
     network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11026
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30036905/01.03.01_60/en_30036905v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 369-5 V1.3.1 (2002-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11026
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30036905/01.03.01_60/en_30036905v010301p.pdf
+docidentifier:
+- content: ETSI EN 300 369-5 V1.3.1 (2002-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 369-5 V1.3.1 (2002-05)
 date:
 - type: published
-  value: 2002-05
+  at: 2002-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Upgrade of Test Specification.\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Upgrade of Test Specification.\r\n \r\n"
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ECT
-- content: ISDN
-- content: NETWORK
-- content: SUPPLEMENTARY SERVICE
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ECT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

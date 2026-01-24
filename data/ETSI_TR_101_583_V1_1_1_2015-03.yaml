@@ -1,65 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101583V1.1.12015-03
+id: ETSITR101583V111201503
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Security Testing; Basic Terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38804
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101583/01.01.01_60/tr_101583v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 583 V1.1.1 (2015-03)
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Security Testing; Basic Terminology
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38804
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101583/01.01.01_60/tr_101583v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 583 V1.1.1 (2015-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 583 V1.1.1 (2015-03)
 date:
 - type: published
-  value: 2015-03
+  at: 2015-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUZWNobmljYWwgU3BlY2lmaWNhdGlvbiBkZWZpbmVzIHRlcm1pbm9sb2d5IGFuZCBhbiBvbnRvbG9neSB3aGljaCwgdG9nZXRoZXIsIHByb3ZpZGUgdGhlIGJhc2lzIGZvciBhIGNvbW1vbiB1bmRlcnN0YW5kaW5nIG9mIHNlY3VyaXR5IHRlc3RpbmcgdGVjaG5pcXVlcyB3aGljaCBjYW4gYmUgdG8gYmUgdXNlZCBpbiB0ZXN0aW5nIGNvbW11bmljYXRpb24gcHJvZHVjdHMgYW5kIHN5c3RlbXMuIFRoZSB0ZXJtaW5vbG9neSBhbmQgb250b2xvZ3kgaGF2ZSBiZWVuIGRlcml2ZWQgZnJvbSBjdXJyZW50IHN0YW5kYXJkcyBhbmQgYmVzdCBwcmFjdGljZXMgc3BlY2lmaWVkIGJ5IGEgYnJvYWQgcmFuZ2Ugb2Ygc3RhbmRhcmRzIG9yZ2FuaXphdGlvbnMgYW5kIGluZHVzdHJ5IGJvZGllcyBhbmQgb2ZmZXJzIGd1aWRhbmNlIHRvIHByYWN0aXRpb25lcnMgb24gdGVzdGluZyBhbmQgYXNzZXNzbWVudCBvZiBzZWN1cml0eSwgcm9idXN0bmVzcyBhbmQgcmVzaWxpZW5jZSB0aHJvdWdob3V0IHRoZSBwcm9kdWN0IGFuZCBzeXN0ZW1zIGRldmVsb3BtZW50IGxpZmVjeWNsZS4gVGhpcyBkb2N1bWVudCBzcGVjaWZpZXMgdGVybXMgYW5kIG1ldGhvZHMgZm9yIHRoZSBmb2xsb3dpbmcgc2VjdXJpdHkgdGVzdGluZyBhcHByb2FjaGVzOg0KDQrigKJWZXJpZmljYXRpb24gb2Ygc2VjdXJpdHkgZnVuY3Rpb25zOw0K4oCiTG9hZCBhbmQgcGVyZm9ybWFuY2UgdGVzdGluZzsNCuKAolJlc2lsaWVuY2UgYW5kIHJvYnVzdG5lc3MgdGVzdGluZyAoZnV6emluZykuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Technical Specification defines terminology and an ontology which,
+    together, provide the basis for a common understanding of security testing techniques
+    which can be to be used in testing communication products and systems. The terminology
+    and ontology have been derived from current standards and best practices specified
+    by a broad range of standards organizations and industry bodies and offers guidance
+    to practitioners on testing and assessment of security, robustness and resilience
+    throughout the product and systems development lifecycle. This document specifies
+    terms and methods for the following security testing approaches:\r\n\r\nVerification
+    of security functions;\r\nLoad and performance testing;\r\nResilience and robustness
+    testing (fuzzing).\r\n"
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

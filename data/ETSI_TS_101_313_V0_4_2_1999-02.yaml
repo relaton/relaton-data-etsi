@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101313V0.4.21999-02
+id: ETSITS101313V042199902
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Network architecture and reference configurations; Phase II: Scenario 1 + Scenario
     2'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5871
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101313/00.04.02_60/ts_101313v000402p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 313 V0.4.2 (1999-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5871
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101313/00.04.02_60/ts_101313v000402p.pdf
+docidentifier:
+- content: ETSI TS 101 313 V0.4.2 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 313 V0.4.2 (1999-02)
 date:
 - type: published
-  value: 1999-02
+  at: 1999-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture models and interfaces
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 0.4.2
-revdate: 1999-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document defines the reference configuration, network architectur\r\ne
+- language: en
+  script: Latn
+  content: "This document defines the reference configuration, network architectur\r\ne
     and interfaces for phase 2.\r\n The content of this documents is based on the
     DTR/TIPHON-1002\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ARCHITECTURE
-- content: CONFIGURATION
-- content: INTERNET
-- content: NETWORK
-- content: PROTOCOL
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Architecture models and interfaces
+    content: Technical Specification

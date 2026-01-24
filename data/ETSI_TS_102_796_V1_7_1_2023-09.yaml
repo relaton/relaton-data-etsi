@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102796V1.7.12023-09
+id: ETSITS102796V171202309
+schema_version: v1.4.1
 title:
-- content: Hybrid Broadcast Broadband TV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68486
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102796/01.07.01_60/ts_102796v010701p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 796 V1.7.1 (2023-09)
+- language: en
+  script: Latn
+  content: Hybrid Broadcast Broadband TV
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68486
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102796/01.07.01_60/ts_102796v010701p.pdf
+docidentifier:
+- content: ETSI TS 102 796 V1.7.1 (2023-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 796 V1.7.1 (2023-09)
 date:
 - type: published
-  value: 2023-09
+  at: 2023-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.1
-revdate: 2023-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update TS 102 796 1.6.1 to 1) remove or deprecate unused features, 2) update
+- language: en
+  script: Latn
+  content: Update TS 102 796 1.6.1 to 1) remove or deprecate unused features, 2) update
     web and OTT standards, 3) support integration with i) DVB-I (TS 103 770), ii)
     any voice assistant supported by the terminal device or iii) any accessibility
     features supported by the terminal device and 4) fix bugs found since the completion
     of V1.6.1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DVB
-- content: HTML
-- content: INTERNET
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: HTML
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

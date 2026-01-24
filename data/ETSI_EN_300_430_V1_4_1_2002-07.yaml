@@ -1,73 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300430V1.4.12002-07
+id: ETSIEN300430V141200207
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; Parameters for radio systems
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; Parameters for radio systems
     for the transmission of STM-1 digital signals operating in the 18 GHz frequency
     band with channel spacing of 55 MHz and 27,5 MHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15488
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300430/01.04.01_60/en_300430v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 430 V1.4.1 (2002-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15488
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300430/01.04.01_60/en_300430v010401p.pdf
+docidentifier:
+- content: ETSI EN 300 430 V1.4.1 (2002-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 430 V1.4.1 (2002-07)
 date:
 - type: published
-  value: 2002-07
+  at: 2002-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Point-to-Point Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2002-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A) Update 5b spectrum masks in frequency bands up to 38 GHz.  This will
+- language: en
+  script: Latn
+  content: "A) Update 5b spectrum masks in frequency bands up to 38 GHz.  This will
     allow systems with software frequency tuning, and higher output power, without
     interfering with existing links.\r\n\r\nB) Add new design goal for 5a systems
     with respect to receiver sensitivity parameters for frequency bands 18-38GHz."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ARCHITECTURE
-- content: DRRS
-- content: PDH
-- content: POINT-TO-POINT
-- content: SDH
-- content: STM
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: PDH
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: STM
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Point-to-Point Systems
+    content: European Standard

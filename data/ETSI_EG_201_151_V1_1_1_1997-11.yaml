@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201151V1.1.11997-11
+id: ETSIEG201151V111199711
+schema_version: v1.4.1
 title:
-- content: Universal Personal Telecommunication (UPT); UPT phase 2; Subscriptions,
+- language: en
+  script: Latn
+  content: Universal Personal Telecommunication (UPT); UPT phase 2; Subscriptions,
     service profiles and information model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3808
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201151/01.01.01_60/eg_201151v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 151 V1.1.1 (1997-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3808
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201151/01.01.01_60/eg_201151v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 151 V1.1.1 (1997-11)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 151 V1.1.1 (1997-11)
 date:
 - type: published
-  value: 1997-11
+  at: 1997-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TCR-TR is related to UPT pahse 2 services and defines delta\r\nrequirements
+- language: en
+  script: Latn
+  content: "This TCR-TR is related to UPT pahse 2 services and defines delta\r\nrequirements
     as compared to UPT phase 1; it describes the UPT\r\nsubscriptions and the service
     profile, its structure, the information\r\ncontained, the access rughts on it
     and the operation allowed. This\r\ninformation model is split into entities.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: PROFILE
-- content: SERVICE
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: ETSI Guide

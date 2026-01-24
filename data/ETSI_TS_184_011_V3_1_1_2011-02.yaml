@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS184011V3.1.12011-02
+id: ETSITS184011V311201102
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Requirements and usage of E.164 numbers in NGN and NGCN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29361
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/184000_184099/184011/03.01.01_60/ts_184011v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 184 011 V3.1.1 (2011-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29361
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/184000_184099/184011/03.01.01_60/ts_184011v030101p.pdf
+docidentifier:
+- content: ETSI TS 184 011 V3.1.1 (2011-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 184 011 V3.1.1 (2011-02)
 date:
 - type: published
-  value: 2011-02
+  at: 2011-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Numbering Addressing and routing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2011-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The main objective of the new WI is to provide an alignment of definitions,
+- language: en
+  script: Latn
+  content: The main objective of the new WI is to provide an alignment of definitions,
     based on draft ITU-T Rec. E.101, and provide requirements and related solutions
     for Types of Number as Identifier in NGN.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: enum
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: enum
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Numbering Addressing and routing
+    content: Technical Specification

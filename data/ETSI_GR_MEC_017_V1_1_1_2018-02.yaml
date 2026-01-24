@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC017V1.1.12018-02
+id: ETSIGRMEC017V111201802
+schema_version: v1.4.1
 title:
-- content: Mobile Edge Computing (MEC); Deployment of Mobile Edge Computing in an
+- language: en
+  script: Latn
+  content: Mobile Edge Computing (MEC); Deployment of Mobile Edge Computing in an
     NFV environment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49447
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/017/01.01.01_60/gr_MEC017v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 017 V1.1.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49447
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/017/01.01.01_60/gr_MEC017v010101p.pdf
+docidentifier:
+- content: ETSI GR MEC 017 V1.1.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 017 V1.1.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item focuses on defining solutions that allow deployment of
+- language: en
+  script: Latn
+  content: "This work item focuses on defining solutions that allow deployment of
     MEC in an NFV environment.\r\n\r\nThe work will be a study with the intent to
     describe such solutions, document their architectural impacts, and conclude on
     the necessary normative work to enable one or more selected solutions, including
@@ -56,18 +65,18 @@ abstract:
     applicable, ETSI ISG MEC will initiate collaboration with ETSI ISG NFV and potentially
     other SDOs, to perform the required modifications to their respective specifications.\r\n\r\nThe
     document produced will be an informative GS."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MEC
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

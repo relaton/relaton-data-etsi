@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300714ed.11997-05
+id: ETSIETS300714ed1199705
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Application Programming Interface (API) for the
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Application Programming Interface (API) for the
     manipulation of Multimedia and Hypermedia information objects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1920
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300714/01_60/ets_300714e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 714 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1920
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300714/01_60/ets_300714e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 714 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 714 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminals & Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify an API above the Multimedia & Hypermedia Information (MHI)\r\nobjects
+- language: en
+  script: Latn
+  content: "To specify an API above the Multimedia & Hypermedia Information (MHI)\r\nobjects
     allowing their manipulation (eg by scripts):\r\n- activating/deactivating MHI
     object presentations (inc windowing &\r\n- requesting/getting back user interaction;
     (rendition);\r\n- uniform access to (logically stored or remote) MHI objects.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MHEG
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MHEG
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Multimedia Terminals & Applications
+    content: European Telecommunication Standard

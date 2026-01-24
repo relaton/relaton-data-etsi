@@ -1,62 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR023ed.11998-03
+id: ETSITBR023ed1199803
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Terrestrial
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Terrestrial
     Flight Telecommunications System (TFTS); Technical requirements for TFTS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2842
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/023/01_60/tbr_023e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 023 ed.1 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2842
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/023/01_60/tbr_023e01p.pdf
+docidentifier:
+- content: ETSI TBR 023 ed.1 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 023 ed.1 (1998-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Aeronautical Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGVjaG5pY2FsIHJlcXVpcmVtZW50cyB0byBiZSBwcm92aWRlZCBieSB0ZXJtaW5hbCBlcXVpcG1lbnQgb2YgdGhlDQpURlRTIGNhcGFibGUgb2YsIGFuZCBpbnRlbmRlZCBmb3IsIGNvbm5lY3Rpb24gdG8gYSBwdWJsaWMNCnRlbGVjb21tdW5pY2F0aW9uIG5ldHdvcmsuIFRGVFMgd2lsbCBvcGVyYXRlIGluIHRoZSBmcmVxdWVuY3kNCmJhbmQgMTY3MC0xNjc1IE1IeiAoZ3JvdW5kIHRvIGFpcikgYW5kIDE4MDAtMTgwNSBNSHoNCihhaXIgdG8gZ3JvdW5kKS4gVGhlIG1vZHVsYXRpb24gdGVjaG5pcXVlIGlzIMK2LzQgRFFQU0suDQpUaGUgc3lzdGVtIGlzIGNlbGx1bGFyIGluIG5hdHVyZSBhbmQgdGhlIGF2YWlsYWJsZXNwZWN0cnVtIHdpbGwNCnN1cHBvcnQgdXAgdG8gMTY0IHJhZGlvIGNoYW5uZWxzd2hpY2ggbWF5IGJlIHJldXNlZCBiZXR3ZWVuIGNlbGxzLg0KRWFjaCByYWRpbyBjaGFubmVsIHdpbGwgc3VwcG9ydCBmb3VyIHZvaWNlIHRlbGVwaG9uZSBjaXJjdWl0cw0Kb3BlcmF0aW5nIHdpdGggYSA5LDYga2JpdC9zIHZvaWNlIGNvZGluZyBhbG9nb3JpdGhtLg0KVGhlIG9iamVjdGl2ZSBvZiB0aGlzIFRCUiBpcyB0byBkZWZpbmUgdGhlIG1pbmltdW0gcmVxdWlyZW1lbnRzICBmb3INCmNvbmZvcm1hbmNlIHRlc3Rpbmcgb2YgVEZUUyBBaXJjcmFmdCBTdGF0aW9uIChBUykuIFRoaXMgc2hhbGwgaW5jbHVkZQ0KdGVzdGluZyBvZiB0aGUgcmFkaW8gaW50ZXJmYWNlIGluIHRlcm1zIG9mIFJGIHBhcmFtZXRlcnMgYW5kIGJhc2ljDQppbnRlcndvcmtpbmcgdGVzdHMuIFRoZSBpbnRlcndvcmtpbmcgdGVzdHMgaW5jbHVkZSBhIHNldCBvZiB0ZXN0cyBvdmVyDQp0aGUgQ1RVL0FUIGludGVyZmFjZSB3aGljaCBjb25mb3JtIHRvIEFSSU5DIDc0NiBBdHRhY2htZW50IDExDQpjaGFyYWN0ZXJpc3RpY3MuIEZvciBub24tQVJJTkMgNzQ2IGFpcmNyYWZ0IHRoZSBUQlIgaW5jbHVkZXMNCmludGVyd29ya2luZyB0ZXN0cyBiYXNlZCBvbiB0aGUgQVQgcGx1cyB0aGUgdGVybWluYWwgZXF1aXBtZW50DQpjb25maWd1cmF0aW9uLg0KVGhpcyBUQlIgY292ZXJzIHRoZSBlc3NlbnRpYWwgcmVxdWlyZW1lbnRzIG9mIHRoZSBUVEUgRGlyZWN0aXZlDQo5MS8yNjMvRUVDIEFydGljbGVzIDRjLCA0ZCwgNGUgYW5kIDRmLg0KQXJ0aWNsZXMgNGEgYW5kIDRiIGFyZSBzdWJqZWN0IHRvIHByb29mIG9mIGNvbmZvcm1pdHkgb3V0c2lkZSBvZiB0aGUNCnNjb3BlIG9mIHRoaXMgVEJSIGFuZCwgdGhlcmVmb3JlLCBhcmUgbm90IGNvdmVyZWQgYnkgdGhpcyBUQlIuDQpUZWxlcGhvbnkgZm9yIFRGVFMgaXMgbm90IGEganVzdGlmaWVkIGNhc2UgYW5kIHRoZXJmb3JlLCB0aGVyZSBhcmUgbm8NCnJlcXVpcmVtZW50cyBvbiB2b2ljZSBxdWFsaXR5IGluIHJlbGF0aW9uIHRvIEFydGljbGUgNGcgb2YgdGhlIFRURQ0KRGlyZWN0aXZlLg0KQ2VydGFpbiBhc3BlY3RzIG9mIEVNQyBwZXJmb3JtYW5jZSBhcmUgdGhlIHN1YmplY3Qgb2Ygbm9ybWFsIGFpcmNyYWZ0DQplcWlwbWVudCBjZXJ0aWZpY2F0aW9uIGFuZCBhcmUgc3BlY2lmaWVkIGluIEV1cm9jYWUgRUQxNEMNCihSVENBLURPMTYwQykuIFRoZSBhcHBsaWNhYmxlIHRlc3QgY2F0ZWdvcmllcyBhcmUgc3BlY2lmaWVkIGluIEFSSU5DDQpDaGFyYWN0ZXJpc3RpY3MgNzUyLg0KSXQgc2hvdWxkIGJlIHJlY29nbml6ZWQgdGhhdCBURlRTIG1vYmlsZSBzdGF0aW9ucyBhcmUgYWlyYm9ybmUNCmVxdWlwbWVudCBhbmQgdGhhdCB0aGV5IGFyZSBhbHNvIHN1YmplY3QgIHRvIGEgc2VwYXJhdGUgY2VydGlmaWNhdGlvbg0KcHJvY2VzcyBmb3IgYWlyY3JhZnQuDQogKERJL1JFUy0wNS0wMS80IChJLUVUUyAzMDAgIC4uLikgY29uc3RpdHV0ZXMgdGhlIGZ1bGwgY29uZm9ybWFuY2UNCnRlc3RzIGZvciBURlRTLiBUaGUgc2V0IG9mIHJlcXVpcmVtZW50cyBpbiBJLUVUUyAzMDAgIGFuZCB0aGlzIFRCUg0KYXJlIG5vdCBuZWNlc3NhcmlseSBpZGVudGljYWwuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Technical requirements to be provided by terminal equipment of the\r\nTFTS
+    capable of, and intended for, connection to a public\r\ntelecommunication network.
+    TFTS will operate in the frequency\r\nband 1670-1675 MHz (ground to air) and 1800-1805
+    MHz\r\n(air to ground). The modulation technique is /4 DQPSK.\r\nThe system is
+    cellular in nature and the availablespectrum will\r\nsupport up to 164 radio channelswhich
+    may be reused between cells.\r\nEach radio channel will support four voice telephone
+    circuits\r\noperating with a 9,6 kbit/s voice coding alogorithm.\r\nThe objective
+    of this TBR is to define the minimum requirements  for\r\nconformance testing
+    of TFTS Aircraft Station (AS). This shall include\r\ntesting of the radio interface
+    in terms of RF parameters and basic\r\ninterworking tests. The interworking tests
+    include a set of tests over\r\nthe CTU/AT interface which conform to ARINC 746
+    Attachment 11\r\ncharacteristics. For non-ARINC 746 aircraft the TBR includes\r\ninterworking
+    tests based on the AT plus the terminal equipment\r\nconfiguration.\r\nThis TBR
+    covers the essential requirements of the TTE Directive\r\n91/263/EEC Articles
+    4c, 4d, 4e and 4f.\r\nArticles 4a and 4b are subject to proof of conformity outside
+    of the\r\nscope of this TBR and, therefore, are not covered by this TBR.\r\nTelephony
+    for TFTS is not a justified case and therfore, there are no\r\nrequirements on
+    voice quality in relation to Article 4g of the TTE\r\nDirective.\r\nCertain aspects
+    of EMC performance are the subject of normal aircraft\r\neqipment certification
+    and are specified in Eurocae ED14C\r\n(RTCA-DO160C). The applicable test categories
+    are specified in ARINC\r\nCharacteristics 752.\r\nIt should be recognized that
+    TFTS mobile stations are airborne\r\nequipment and that they are also subject
+    \ to a separate certification\r\nprocess for aircraft.\r\n (DI/RES-05-01/4 (I-ETS
+    300  ...) constitutes the full conformance\r\ntests for TFTS. The set of requirements
+    in I-ETS 300  and this TBR\r\nare not necessarily identical.\r\n"
+status:
+  stage: Historical
 keyword:
-- content: RADIO
-- content: REGULATION
-- content: TERMINAL
-- content: TESTING
-- content: TFTS
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TFTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Aeronautical Radio
+    content: Technical Basis for Regulation

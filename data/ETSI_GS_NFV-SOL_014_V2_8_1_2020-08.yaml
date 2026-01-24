@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SOL014V2.8.12020-08
+id: ETSIGSNFVSOL014V281202008
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 2; Protocols and Data Models;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 2; Protocols and Data Models;
     YAML data model specification for descriptor-based virtualised resource management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56922
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/014/02.08.01_60/gs_NFV-SOL014v020801p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SOL 014 V2.8.1 (2020-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56922
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/014/02.08.01_60/gs_NFV-SOL014v020801p.pdf
+docidentifier:
+- content: ETSI GS NFV-SOL 014 V2.8.1 (2020-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SOL 014 V2.8.1 (2020-08)
 date:
 - type: published
-  value: 2020-08
+  at: 2020-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.8.1
-revdate: 2020-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work item will specify a set of YAML-based data models for descriptor-based
+- language: en
+  script: Latn
+  content: The work item will specify a set of YAML-based data models for descriptor-based
     virtualised resource management fulfilling the requirements specified in ETSI
     GS NFV-IFA 005/006 concerning the input and output information exchanged over
     the whole set of virtualised resource management interfaces (i.e., lifecycle,
@@ -55,19 +64,21 @@ abstract:
     the information exchanged over the interfaces and that is also needed for the
     virtualised resource descriptors. The resulting deliverable will contain normative
     provisions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: Model
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: Model
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Solutions
+    content: Group Specification

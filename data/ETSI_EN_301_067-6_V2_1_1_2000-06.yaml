@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301067-6V2.1.12000-06
+id: ETSIEN3010676V211200006
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; Connection characteristics; Negotiation
     during call/connection establishment phase; Part 6: Abstract Test Suite (ATS)
     and partial Protocol Implementation eXtra Information for Testing (PIXIT) proforma
     specification for the network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9066
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106706/02.01.01_60/en_30106706v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 067-6 V2.1.1 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9066
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106706/02.01.01_60/en_30106706v020101p.pdf
+docidentifier:
+- content: ETSI EN 301 067-6 V2.1.1 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 067-6 V2.1.1 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Align edition 1 of the standard to the TSS&TP (part 5) and correct other
+- language: en
+  script: Latn
+  content: "Align edition 1 of the standard to the TSS&TP (part 5) and correct other
     possible errors based on contributions\r\n\r\nDevelop part 6 (ATSS & PIXIT for
     the network) of EN 301 067\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: ATS
-- content: B-ISDN
-- content: BROADBAND
-- content: DSS2
-- content: NETWORK
-- content: PIXIT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PIXIT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Conformance testing
+    content: European Standard

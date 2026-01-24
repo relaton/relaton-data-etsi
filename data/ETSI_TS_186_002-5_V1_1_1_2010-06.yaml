@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186002-5V1.1.12010-06
+id: ETSITS1860025V111201006
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Interworking between Session Initiation Protocol (SIP) and
     Bearer Independent Call Control Protocol (BICC) or ISDN UserPart (ISUP); Part
     5: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information
     for Testing (PIXIT) for Profile C'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34097
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600205/01.01.01_60/ts_18600205v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 002-5 V1.1.1 (2010-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34097
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600205/01.01.01_60/ts_18600205v010101p.pdf
+docidentifier:
+- content: ETSI TS 186 002-5 V1.1.1 (2010-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 002-5 V1.1.1 (2010-06)
 date:
 - type: published
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update of document following validation of ATS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update of document following validation of ATS
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: BICC
-- content: INTERWORKING
-- content: ISUP
-- content: PIXIT
-- content: SIP
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: BICC
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Testing
+    content: Technical Specification

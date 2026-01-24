@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202339V1.1.12004-09
+id: ETSIEG202339V111200409
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Definition of requirements on the functional architecture
     for supporting Emergency and Priority user services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19675
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202300_202399/202339/01.01.01_60/eg_202339v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 339 V1.1.1 (2004-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19675
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202300_202399/202339/01.01.01_60/eg_202339v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 339 V1.1.1 (2004-09)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 339 V1.1.1 (2004-09)
 date:
 - type: published
-  value: 2004-09
+  at: 2004-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document defines requirements and recommendations on the Functional
+- language: en
+  script: Latn
+  content: "This document defines requirements and recommendations on the Functional
     Architecture. It initially, focuses on the Signalling requirements for enhancement
     of the inter-network and international inter-connection of networks to allow the
     co-operation to achieve the support of Emergency services, e.g. IEPS. \r\nTwo
@@ -56,19 +65,21 @@ abstract:
     and Initialising of these services needs definition based on external end user
     requirements.\r\nThese capabilities are defined from benchmark scenarios, a number
     of which are included. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: EMERGENCY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Guide

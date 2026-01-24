@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103010V1.1.12007-03
+id: ETSITR103010V111200703
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Synchronization
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Synchronization
     in IP Networks - Methods and User Perception
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21414
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103010/01.01.01_60/tr_103010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 010 V1.1.1 (2007-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21414
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103010/01.01.01_60/tr_103010v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 010 V1.1.1 (2007-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 010 V1.1.1 (2007-03)
 date:
 - type: published
-  value: 2007-03
+  at: 2007-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Processing, Transmission and Quality Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of the document is to examine whether accuracies achievable
+- language: en
+  script: Latn
+  content: "The purpose of the document is to examine whether accuracies achievable
     by currently available synchronization methods in IP networks are adequate to
     ensure end user's quality of experience for a particular multimedia service. This
     document will discuss the issues related to inter-stream synchronization when
     all the concerned media are offered using:\r\n? IP networks from end-to-end;\r\n?
     A combination of TDM and IP networks."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MULTIMEDIA
-- content: QUALITY
-- content: SPEECH
-- content: SYNCHRONIZATION
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech Processing, Transmission and Quality Aspects
+    content: Technical Report

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSISR003186V2.1.12016-04
+id: ETSISR003186V211201604
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI) Testing interoperability
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI) Testing interoperability
     and conformity activities to be run during the implementation and promotion of
     the framework of digital signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49470
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/003100_003199/003186/02.01.01_60/sr_003186v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 003 186 V2.1.1 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49470
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/003100_003199/003186/02.01.01_60/sr_003186v020101p.pdf
+docidentifier:
+- content: ETSI SR 003 186 V2.1.1 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI SR 003 186 V2.1.1 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Special Report will provide full details on the activities related
+- language: en
+  script: Latn
+  content: "This Special Report will provide full details on the activities related
     to testing compliance and interoperability that will be performed in parallel
     with the building up and promotion of the Rationalised Framework. \r\nThis activity
     will firstly identify the critical ENs (which are in preparation) of the Rationalised
@@ -61,22 +70,30 @@ abstract:
     in these events.\r\nFinally, this task will also define the scheduling of conformity
     testing tools development and deployment. The task will also define when and how
     these tools have to be made available to the community. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: INTEROPERABILITY
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

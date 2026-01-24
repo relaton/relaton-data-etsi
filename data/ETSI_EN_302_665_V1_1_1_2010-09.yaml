@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302665V1.1.12010-09
+id: ETSIEN302665V111201009
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Communications Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28554
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302600_302699/302665/01.01.01_60/en_302665v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 665 V1.1.1 (2010-09)
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Communications Architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28554
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302600_302699/302665/01.01.01_60/en_302665v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 665 V1.1.1 (2010-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 665 V1.1.1 (2010-09)
 date:
 - type: published
-  value: 2010-09
+  at: 2010-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of ITS Communications Architecture for Europe including the
+- language: en
+  script: Latn
+  content: "Definition of ITS Communications Architecture for Europe including the
     following views:\r\nScenario description;\r\nFunctional View and Information View;\r\nOSI
     reference model view including Application View, Security View, Network&Transport
     View, Interface View, Management view;\r\nEngineering view to support Implementation
     Guidelines for Interoperability;\r\nEnterprise/Organizational/Operational view."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: INTERWORKING
-- content: ITS
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: European Standard

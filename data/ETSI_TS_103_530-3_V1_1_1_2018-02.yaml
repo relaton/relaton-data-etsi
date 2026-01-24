@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103530-3V1.1.12018-02
+id: ETSITS1035303V111201802
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); NAS Conformance Testing
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); NAS Conformance Testing
     for the S1-MME interface; (3GPPTM Release 13); Part 3: Abstract Test Suite (ATS)
     and partial Protocol Implementation eXtra Information for Testing (PIXIT) pro
     forma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50000
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10353003/01.01.01_60/ts_10353003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 530-3 V1.1.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50000
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10353003/01.01.01_60/ts_10353003v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 530-3 V1.1.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 530-3 V1.1.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Recently major efforts have been made by VoLTE component providers to
+- language: en
+  script: Latn
+  content: "Recently major efforts have been made by VoLTE component providers to
     inter-connect complete networks, i.e. connecting the single components that comprise
     a VoLTE network of different operators to allow seamless roaming for end customers
     and complete and reliable functionality for network providers. The S1-MME interface
@@ -67,19 +76,21 @@ abstract:
     potential follow-up project provide ETSI with the possibility to validate the
     outputs of this STF against their network components (i.e. eNodeB and MME). See
     also list of supporting organisations.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: CONFORMANCE
-- content: PIXIT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: PIXIT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

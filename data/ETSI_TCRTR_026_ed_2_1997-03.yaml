@@ -1,58 +1,66 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR026ed.21997-03
+id: ETSITCRTR026ed2199703
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Multimedia Project Plan
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4721
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/026/02_60/tcrtr_026e02p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 026 ed.2 (1997-03)
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Multimedia Project Plan
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4721
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/026/02_60/tcrtr_026e02p.pdf
+docidentifier:
+- content: ETSI TCRTR 026 ed.2 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 026 ed.2 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Management Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of the Multimedia project plan describing the boundaries of\r\nwhat
+- language: en
+  script: Latn
+  content: "Revision of the Multimedia project plan describing the boundaries of\r\nwhat
     is inside and outside the project, identifying standardization\r\ngaps and proposing
     new activities affecting several TCs and STCs\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Multimedia Management Group
+    content: Technical Committee Reference Technical Report

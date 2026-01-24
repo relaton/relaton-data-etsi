@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102716-1V1.1.12009-07
+id: ETSITR1027161V111200907
+schema_version: v1.4.1
 title:
-- content: 'Speech and multimediaTransmission Quality (STQ); Guidelines, objectives
+- language: en
+  script: Latn
+  content: 'Speech and multimediaTransmission Quality (STQ); Guidelines, objectives
     and results of speech quality analysis in the context of interworking Plugtests
     for multiplay services Part 1: Guidelines and objectives'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28523
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/10271601/01.01.01_60/tr_10271601v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 716-1 V1.1.1 (2009-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28523
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/10271601/01.01.01_60/tr_10271601v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 716-1 V1.1.1 (2009-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 716-1 V1.1.1 (2009-07)
 date:
 - type: published
-  value: 2009-07
+  at: 2009-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI is the first of a multi-part document. It describes the guidelines
+- language: en
+  script: Latn
+  content: "This WI is the first of a multi-part document. It describes the guidelines
     and the objectives in order to implement and perform the speech Quality  tests
     done during a plugtest for multiplay services.\r\n The other part will provide
     the results from the anonymous reports of the different plugtests\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: QUALITY
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

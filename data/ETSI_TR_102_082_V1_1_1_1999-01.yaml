@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102082V1.1.11999-01
+id: ETSITR102082V111199901
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Guidance on
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Guidance on
     writing specifications and tests for non-linear and time variant telephony terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5819
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102082/01.01.01_60/tr_102082v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 082 V1.1.1 (1999-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5819
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102082/01.01.01_60/tr_102082v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 082 V1.1.1 (1999-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 082 V1.1.1 (1999-01)
 date:
 - type: published
-  value: 1999-01
+  at: 1999-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Processing, Transmission and Quality Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The aim is to give principle descriptions for speech transmission characteristics
+- language: en
+  script: Latn
+  content: The aim is to give principle descriptions for speech transmission characteristics
     and form a basis, making users of this report able, to devise specific suitable
     objectively test methods for characterizing speech transmission performance. The
     emphasis will be on non-linear and/or time variant handset telephony terminals.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QUALITY
-- content: SIGNAL PROCESSING
-- content: SPEECH
-- content: TELEPHONY
-- content: TESTING
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SIGNAL PROCESSING
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech Processing, Transmission and Quality Aspects
+    content: Technical Report

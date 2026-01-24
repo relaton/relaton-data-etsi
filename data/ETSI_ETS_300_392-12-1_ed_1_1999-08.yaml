@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300392-12-1ed.11999-08
+id: ETSIETS300392121ed1199908
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
     services stage 3; Sub-part 1: Call Identification (CI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2400
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003921201/01_60/ets_3003921201e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 392-12-1 ed.1 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2400
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003921201/01_60/ets_3003921201e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 392-12-1 ed.1 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 392-12-1 ed.1 (1999-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the Stage 3 requirements for TETRA SS Call Identification\r\n
+- language: en
+  script: Latn
+  content: "To define the Stage 3 requirements for TETRA SS Call Identification\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: CLIP
-- content: CLIR
-- content: COLP
-- content: COLR
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: CLIR
+  - language: en
+    script: Latn
+    content: COLP
+  - language: en
+    script: Latn
+    content: COLR
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: European Telecommunication Standard

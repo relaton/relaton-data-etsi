@@ -1,64 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102745V1.1.12009-10
+id: ETSITR102745V111200910
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); User Requirements for Public Safety
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28802
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102745/01.01.01_60/tr_102745v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 745 V1.1.1 (2009-10)
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); User Requirements for Public Safety
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28802
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102745/01.01.01_60/tr_102745v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 745 V1.1.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 745 V1.1.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: PS - Public Safety
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByb3Bvc2FsIGlzIHRvIGludmVzdGlnYXRlIHRoZSBhcHBsaWNhdGlvbiBvZiBSUlMgaW4gdGhlIFB1YmxpYyBTYWZldHkgYW5kIERlZmVuc2UgZG9tYWluLCB3aGljaCBpbmNsdWRlcyB0aGUgc2V0IG9mIFB1YmxpYyBTYWZldHkgb3JnYW5pemF0aW9ucyBhbmQgcmVsYXRlZCBhcHBsaWNhdGlvbnMgYW5kIHRlY2hub2xvZ2llcy4gVGhlIHNjb3BlIG9mIHRoZSB3b3JrIGlzIHRoZSBmb2xsb3dpbmc6DQrCt0lkZW50aWZpY2F0aW9uIGFuZCBkZWZpbml0aW9uIG9mIHBvc3NpYmxlIHJlcXVpcmVtZW50cyBmb3IgUlJTIGluIFB1YmxpYyBTYWZldHkgYW5kIERlZmVuc2UgZG9tYWluLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The proposal is to investigate the application of RRS in the Public Safety
+    and Defense domain, which includes the set of Public Safety organizations and
+    related applications and technologies. The scope of the work is the following:\r\nIdentification
+    and definition of possible requirements for RRS in Public Safety and Defense domain."
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: PS - Public Safety
+    content: Technical Report

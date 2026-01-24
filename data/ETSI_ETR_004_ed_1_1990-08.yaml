@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR004ed.11990-08
+id: ETSIETR004ed1199008
+schema_version: v1.4.1
 title:
-- content: Business Telecommunications (BT); Overall transmission plan aspects of
+- language: en
+  script: Latn
+  content: Business Telecommunications (BT); Overall transmission plan aspects of
     a private branch network for voice connections with access to the public network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=229
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/004/01_60/etr_004e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 004 ed.1 (1990-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=229
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/004/01_60/etr_004e01p.pdf
+docidentifier:
+- content: ETSI ETR 004 ed.1 (1990-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 004 ed.1 (1990-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ",,"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ",,"
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: ISDN
-- content: PISN
-- content: PSTN
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: ETSI Technical Report

@@ -1,70 +1,115 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303405V1.1.12017-05
+id: ETSIEN303405V111201705
+schema_version: v1.4.1
 title:
-- content: Land Mobile Service; Analogue and Digital PMR446 Equipment; Harmonised
+- language: en
+  script: Latn
+  content: Land Mobile Service; Analogue and Digital PMR446 Equipment; Harmonised
     Standard covering the essential requirements of article 3.2 of Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47876
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303405/01.01.01_60/en_303405v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 405 V1.1.1 (2017-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47876
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303405/01.01.01_60/en_303405v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 405 V1.1.1 (2017-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 405 V1.1.1 (2017-05)
 date:
 - type: published
-  value: 2017-05
+  at: 2017-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Mobile Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    QW5hbG9ndWUgYW5kIERpZ2l0YWwgUE1SNDQ2IEVxdWlwbWVudC4NCg0KSW4gcGFydGljdWxhciwgdGhlIGZvbGxvd2luZyBpc3N1ZXMgc2hvdWxkIGJlIHRha2VuIGludG8gYWNjb3VudCwgYXMgYXBwcm9wcmlhdGUsIGluIHRoZSByZXZpZXcgb2YgdGhlIGFwcGxpY2FibGUgc3RhbmRhcmQocyk6DQrigKIJUE1SIDQ0NiBlcXVpcG1lbnQgaXMgaGFuZCBwb3J0YWJsZSAobm8gYmFzZSBzdGF0aW9uIG9yIHJlcGVhdGVyIHVzZSksIGZvciBzaG9ydCByYW5nZSBwZWVyIHRvIHBlZXIgbW9kZSwgYW5kIHVzZXMgaW50ZWdyYWwgYW50ZW5uYXMgb25seTsNCuKAoglUaGUgYmFuZCA0NDYuMC00NDYuMiBNSHogaXMgZGVzaWduYXRlZCBmb3IgdGhlIHVzZSBvZiBhbmFsb2d1ZSBQTVIgNDQ2IHdpdGggYSBjaGFubmVsIHBsYW4gYmFzZWQgb24gMTIuNSBrSHogc3BhY2luZyB3aGVyZSB0aGUgbG93ZXN0IGNhcnJpZXIgZnJlcXVlbmN5IGlzIDQ0Ni4wMDYyNSBNSHo7DQrigKIJVGhlIGJhbmQgNDQ2LjEtNDQ2LjIgTUh6IGlzIGRlc2lnbmF0ZWQgZm9yIHRoZSB1c2Ugb2YgZGlnaXRhbCBQTVIgNDQ2IHdpdGggYSBjaGFubmVsIHBsYW4gYmFzZWQgb24gNi4yNSBrSHogYW5kIDEyLjUga0h6IHNwYWNpbmcgd2hlcmUgdGhlIGxvd2VzdCBjYXJyaWVyIGZyZXF1ZW5jaWVzIGFyZSA0NDYuMTAzMTI1IE1IeiBhbmQgNDQ2LjEwNjI1IE1IeiByZXNwZWN0aXZlbHk7DQrigKIJVGhlIGJhbmQgNDQ2LjAtNDQ2LjIgTUh6IGlzIGRlc2lnbmF0ZWQgZm9yIHRoZSB1c2Ugb2YgZGlnaXRhbCBQTVIgNDQ2IHdpdGggYSBjaGFubmVsIHBsYW4gYmFzZWQgb24gNi4yNSBrSHogYW5kIDEyLjUga0h6IHNwYWNpbmcgd2hlcmUgdGhlIGxvd2VzdCBjYXJyaWVyIGZyZXF1ZW5jaWVzIGFyZSA0NDYuMDAzMTI1IE1IeiBhbmQgNDQ2LjAwNjI1IE1IeiByZXNwZWN0aXZlbHkgYXMgb2YgMSBKYW51YXJ5IDIwMTg7DQrigKIJQW5hbG9ndWUgUE1SNDQ2IGVxdWlwbWVudCBvcGVyYXRpbmcgaW4gdGhlIGZyZXF1ZW5jeSByYW5nZSA0NDYuMS00NDYuMiBNSHogc2hvdWxkIHVzZSBtb3JlIHJvYnVzdCByZWNlaXZlcnMgYXMgc3BlY2lmaWVkIGluIEVUU0kgVFMgMTAzIDIzNiBvciBlcXVpdmFsZW50IHRlY2huaWNhbCBzcGVjaWZpY2F0aW9uczsNCuKAoglBbmFsb2d1ZSBQTVI0NDYgZXF1aXBtZW50IG9wZXJhdGluZyBpbiB0aGUgZnJlcXVlbmN5IHJhbmdlIDQ0Ni4wLTQ0Ni4xIE1IeiBzaG91bGQgdXNlIG1vcmUgcm9idXN0IHJlY2VpdmVycyBhcyBzcGVjaWZpZWQgaW4gRVRTSSBUUyAxMDMgMjM2IG9yIGVxdWl2YWxlbnQgdGVjaG5pY2FsIHNwZWNpZmljYXRpb25zIHdoZW4gcGxhY2VkIG9uIHRoZSBtYXJrZXQgYXMgb2YgMSBKYW51YXJ5IDIwMTc7DQrigKIJVGhlIGVmZmVjdGl2ZSByYWRpYXRlZCBwb3dlciBzaGFsbCBub3QgZXhjZWVkIDUwMCBtVzsNCuKAoglBbGwgUE1SIDQ0NiByYWRpbyBlcXVpcG1lbnQgc2hhbGwgaGF2ZSByZWNlcHRpb24gY2FwYWJpbGl0eTsNCuKAoglQTVIgNDQ2IHJhZGlvIGVxdWlwbWVudCBoYXZpbmcgUHVzaC1Uby1UYWxrIChQVFQpIGZ1bmN0aW9uYWxpdHkgY2FwYWJsZSBvZiBiZWluZyBsYXRjaGVkIOKAmG9u4oCZIHNoYWxsIGFwcGx5IGEgMTgwIHNlY29uZHMgbWF4aW11bSB0cmFuc21pdHRlciB0aW1lLW91dDsNCuKAoglQTVIgNDQ2IHJhZGlvIGVxdWlwbWVudCBoYXZpbmcgbm8gUHVzaC1Uby1UYWxrIChQVFQpIGZ1bmN0aW9uYWxpdHkgc2hhbGwgYXBwbHkgYSAxODAgc2Vjb25kcyBtYXhpbXVtIHRyYW5zbWl0dGVyIHRpbWUtb3V0IGFuZCBWT1ggKFZvaWNlIGFjdGl2YXRpb24gZXhjaGFuZ2UpIGNvbnRyb2w7DQrigKIJVGhlIGZvbGxvd2luZyBkZWZpbml0aW9ucyBhcHBseToNCm8JIEludGVncmFsIGFudGVubmE6IGFudGVubmEgZGVzaWduZWQgYXMgYSBmaXhlZCBwYXJ0IG9mIHRoZSBlcXVpcG1lbnQgKHdpdGhvdXQgdGhlIHVzZSBvZiBhbiBleHRlcm5hbCBjb25uZWN0b3IpIHdoaWNoIGNhbm5vdCBiZSBkaXNjb25uZWN0ZWQgZnJvbSB0aGUgZXF1aXBtZW50IGJ5IGEgdXNlciB3aXRoIHRoZSBpbnRlbnQgdG8gY29ubmVjdCBhbm90aGVyIGFudGVubmE7DQpvCUhhbmQgcG9ydGFibGUgc3RhdGlvbjogZXF1aXBtZW50IGZpdHRlZCB3aXRoIGFuIGludGVncmFsIGFudGVubmEsIG5vcm1hbGx5IHVzZWQgb24gYSBzdGFuZC1hbG9uZSBiYXNpcywgdG8gYmUgY2FycmllZCBvbiBhIHBlcnNvbiBvciBoZWxkIGluIHRoZSBoYW5kLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Analogue and Digital PMR446 Equipment.\r\n\r\nIn particular, the following
+    issues should be taken into account, as appropriate, in the review of the applicable
+    standard(s):\r\n\tPMR 446 equipment is hand portable (no base station or repeater
+    use), for short range peer to peer mode, and uses integral antennas only;\r\n\tThe
+    band 446.0-446.2 MHz is designated for the use of analogue PMR 446 with a channel
+    plan based on 12.5 kHz spacing where the lowest carrier frequency is 446.00625
+    MHz;\r\n\tThe band 446.1-446.2 MHz is designated for the use of digital PMR 446
+    with a channel plan based on 6.25 kHz and 12.5 kHz spacing where the lowest carrier
+    frequencies are 446.103125 MHz and 446.10625 MHz respectively;\r\n\tThe band 446.0-446.2
+    MHz is designated for the use of digital PMR 446 with a channel plan based on
+    6.25 kHz and 12.5 kHz spacing where the lowest carrier frequencies are 446.003125
+    MHz and 446.00625 MHz respectively as of 1 January 2018;\r\n\tAnalogue PMR446
+    equipment operating in the frequency range 446.1-446.2 MHz should use more robust
+    receivers as specified in ETSI TS 103 236 or equivalent technical specifications;\r\n\tAnalogue
+    PMR446 equipment operating in the frequency range 446.0-446.1 MHz should use more
+    robust receivers as specified in ETSI TS 103 236 or equivalent technical specifications
+    when placed on the market as of 1 January 2017;\r\n\tThe effective radiated power
+    shall not exceed 500 mW;\r\n\tAll PMR 446 radio equipment shall have reception
+    capability;\r\n\tPMR 446 radio equipment having Push-To-Talk (PTT) functionality
+    capable of being latched on shall apply a 180 seconds maximum transmitter time-out;\r\n\tPMR
+    446 radio equipment having no Push-To-Talk (PTT) functionality shall apply a 180
+    seconds maximum transmitter time-out and VOX (Voice activation exchange) control;\r\n\tThe
+    following definitions apply:\r\no\t Integral antenna: antenna designed as a fixed
+    part of the equipment (without the use of an external connector) which cannot
+    be disconnected from the equipment by a user with the intent to connect another
+    antenna;\r\no\tHand portable station: equipment fitted with an integral antenna,
+    normally used on a stand-alone basis, to be carried on a person or held in the
+    hand.\r\n"
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: Harmonised standard
-- content: MOBILE
-- content: PMR
-- content: RADIO
-- content: REGULATION
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Digital Mobile Radio
+    content: European Standard

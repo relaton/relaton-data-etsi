@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104025V1.1.12024-07
+id: ETSITS104025V111202407
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Service discovery and delivery protocols
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Service discovery and delivery protocols
     for a DVB Home Broadcast system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69507
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104025/01.01.01_60/ts_104025v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 025 V1.1.1 (2024-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69507
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104025/01.01.01_60/ts_104025v010101p.pdf
+docidentifier:
+- content: ETSI TS 104 025 V1.1.1 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 025 V1.1.1 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This WI will define the interfaces through which a DVB-HB Local Server
+- language: en
+  script: Latn
+  content: This WI will define the interfaces through which a DVB-HB Local Server
     can redistribute broadcast signals and associated metadata to DVB-HB Clients.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: DVB-I
-- content: IP
-- content: LAN
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: DVB-I
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

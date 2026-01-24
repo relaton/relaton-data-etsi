@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100532V6.0.01999-03
+id: ETSITS100532V600199903
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Dual Tone Multi-Frequency signalling (DTMF) via the GSM system (GSM 03.14 version
     6.0.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7443
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100532/06.00.00_60/ts_100532v060000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 532 V6.0.0 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7443
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100532/06.00.00_60/ts_100532v060000p.pdf
+docidentifier:
+- content: ETSI TS 100 532 V6.0.0 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 532 V6.0.0 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.0
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Upgrade from Phase 2+ to Release 1997
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Upgrade from Phase 2+ to Release 1997
+status:
+  stage: Published
 keyword:
-- content: DTMF
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DTMF
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

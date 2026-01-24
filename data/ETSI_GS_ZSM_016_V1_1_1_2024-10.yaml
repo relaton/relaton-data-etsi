@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM016V1.1.12024-10
+id: ETSIGSZSM016V111202410
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Intent-driven Closed Loops
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67503
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/016/01.01.01_60/gs_ZSM016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 016 V1.1.1 (2024-10)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Intent-driven Closed Loops
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67503
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/016/01.01.01_60/gs_ZSM016v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 016 V1.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 016 V1.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The work item will specify capabilities to support the combination of
+- language: en
+  script: Latn
+  content: 'The work item will specify capabilities to support the combination of
     closed-loop automation with intents originating from ZSM consumers (via northbound
     interface), focusing on intent-driven governance and coordination of closed loops.
     The scope of this work includes use cases, additional requirements related to
@@ -55,18 +64,18 @@ abstract:
     v1.1.1 topics related to the handling of intent and non-intent interactions will
     be considered as needed. Related work in ETSI, other SDOs and open-source projects
     will be considered and used where applicable. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: closed loop control
-- content: intent management
+- taxon:
+  - language: en
+    script: Latn
+    content: closed loop control
+  - language: en
+    script: Latn
+    content: intent management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

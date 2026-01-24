@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101329-2V1.1.12000-07
+id: ETSITS1013292V111200007
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization over Networks (TIPHON);
     End to End Quality of Service in TIPHON Systems; Part 2: Definition of Quality
     of Service (QoS) Classes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8832
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/10132902/01.01.01_60/ts_10132902v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 329-2 V1.1.1 (2000-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8832
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/10132902/01.01.01_60/ts_10132902v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 329-2 V1.1.1 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 329-2 V1.1.1 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quality of service aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Define classes of Quality of Service for TIPHON compliant systems.\r\nDefine
+- language: en
+  script: Latn
+  content: "Define classes of Quality of Service for TIPHON compliant systems.\r\nDefine
     classes or types of IP terminal to be used with TIPHON systems.\r\nProvide guidelines
     on the relationship between Terminal type, network performance and end-to-end
     TIPHON Quality of Service.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: E-Model
-- content: INTERNET
-- content: IP
-- content: QUALITY
-- content: SERVICE
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: E-Model
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Quality of service aspects
+    content: Technical Specification

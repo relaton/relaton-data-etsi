@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300629ed.21996-11
+id: ETSIETS300629ed2199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Subscriber
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Subscriber
     data management; Stage 2 (GSM 03.16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4448
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300629/02_60/ets_300629e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 629 ed.2 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4448
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300629/02_60/ets_300629e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 629 ed.2 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 629 ed.2 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This second edition European Telecommunication Standard (ETS) gives th\r\ne
+- language: en
+  script: Latn
+  content: "This second edition European Telecommunication Standard (ETS) gives th\r\ne
     stage 2 description of the subscriber data management handling betwe\r\nen the
     Home Location Register (HLR) and the Visitor Location Register\r\n(VLR).\r\nA
     number of procedures require updating of subscriber information from\r\nHLR to
@@ -50,24 +60,36 @@ abstract:
     are described in this ETS. Public Land Mobile Network (PLMN) spec\r\nific and
     Unstructured Supplementary Service Data (USSD) subscriber dat\r\na are out of
     scope of this ETS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MANAGEMENT
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: STAGE 2
-- content: SUBSCRIBER
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 2
+  - language: en
+    script: Latn
+    content: SUBSCRIBER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

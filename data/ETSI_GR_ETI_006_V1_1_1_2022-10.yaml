@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRETI006V1.1.12022-10
+id: ETSIGRETI006V111202210
+schema_version: v1.4.1
 title:
-- content: Encrypted Traffic Integration (ETI); Implementation of the EU Council Resolution
+- language: en
+  script: Latn
+  content: Encrypted Traffic Integration (ETI); Implementation of the EU Council Resolution
     on Encryption
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64380
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ETI/001_099/006/01.01.01_60/gr_ETI006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ETI 006 V1.1.1 (2022-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64380
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ETI/001_099/006/01.01.01_60/gr_ETI006v010101p.pdf
+docidentifier:
+- content: ETSI GR ETI 006 V1.1.1 (2022-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR ETI 006 V1.1.1 (2022-10)
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Encrypted Traffic Integration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This published Group Report provides guidance to support implementation
+- language: en
+  script: Latn
+  content: This published Group Report provides guidance to support implementation
     of the EU "Council Resolution on Encryption Security through encryption and security
     despite encryption," adopted 14 Dec 2020.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: encryption
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: encryption
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Encrypted Traffic Integration
+    content: Group Report

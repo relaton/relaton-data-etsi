@@ -1,75 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102565V1.1.12007-02
+id: ETSITR102565V111200702
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems (FRS); Point-to-point systems; Requirements and bit
+- language: en
+  script: Latn
+  content: Fixed Radio Systems (FRS); Point-to-point systems; Requirements and bit
     rates of PtP Fixed Radio Systems with packet data interfaces, effects of flexible
     system parameters, use of mixed interfaces and implications on IP/ATM networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15491
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102565/01.01.01_60/tr_102565v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 565 V1.1.1 (2007-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15491
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102565/01.01.01_60/tr_102565v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 565 V1.1.1 (2007-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 565 V1.1.1 (2007-02)
 date:
 - type: published
-  value: 2007-02
+  at: 2007-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Point-to-Point Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical report would:\r\n- clarify the standardization aspects for P-P
+- language: en
+  script: Latn
+  content: "Technical report would:\r\n- clarify the standardization aspects for P-P
     Fixed Radio Systems mainly designed for packet data transmission and which may
     apply flexible operation modes (e.g. modulation/coding combinations) applicable
     to existiing RF-channel plans recommended by CEPT of ITU.\r\n- additionally possibilities
     for multiple or mixed network interfaces and\r\n- implications on IP/ATM networks
     would be clarified."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: DFRS
-- content: FWA
-- content: IP
-- content: PDH
-- content: POINT-TO-POINT
-- content: SDH
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PDH
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: SDH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TM Point-to-Point Systems
+    content: Technical Report

@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119412-1V1.4.12020-07
+id: ETSITS1194121V141202007
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
     Part 1: Overview and common data structures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59590
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941201/01.04.01_60/ts_11941201v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 412-1 V1.4.1 (2020-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59590
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941201/01.04.01_60/ts_11941201v010401p.pdf
+docidentifier:
+- content: ETSI TS 119 412-1 V1.4.1 (2020-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 412-1 V1.4.1 (2020-07)
 date:
 - type: published
-  value: 2020-07
+  at: 2020-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2020-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: enhancements to include at least eID representation in X.509 cert
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: enhancements to include at least eID representation in X.509 cert
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

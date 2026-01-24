@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302625V1.1.12009-07
+id: ETSIEN302625V111200907
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24758
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302600_302699/302625/01.01.01_60/en_302625v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 625 V1.1.1 (2009-07)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24758
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302600_302699/302625/01.01.01_60/en_302625v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 625 V1.1.1 (2009-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 625 V1.1.1 (2009-07)
 date:
 - type: published
-  value: 2009-07
+  at: 2009-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Mobile Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document applies to equipment that is described in ETSI TR 102 485
+- language: en
+  script: Latn
+  content: The document applies to equipment that is described in ETSI TR 102 485
     (Broadband Disaster Relief).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: EMERGENCY
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Digital Mobile Radio
+    content: European Standard

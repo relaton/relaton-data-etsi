@@ -1,63 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300630ed.11997-03
+id: ETSIETS300630ed1199703
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
     Low capacity point-to-point DRRS operating in the 1,4 GHz frequency band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=841
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300630/01_60/ets_300630e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 630 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=841
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300630/01_60/ets_300630e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 630 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 630 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Standardisation of digital systems with bit rate up to 4 x 2/8 Mbit/s\r\nsuitable
+- language: en
+  script: Latn
+  content: "Standardisation of digital systems with bit rate up to 4 x 2/8 Mbit/s\r\nsuitable
     for use on long and partially obstructed paths, for use in\r\nthe bands around
     1,5 GHz.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DRRS
-- content: POINT-TO-POINT
-- content: RADIO
-- content: RELAY
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RELAY
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Telecommunication Standard

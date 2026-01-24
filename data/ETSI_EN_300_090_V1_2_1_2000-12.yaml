@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300090V1.2.12000-12
+id: ETSIEN300090V121200012
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Calling Line Identification
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Calling Line Identification
     Restriction (CLIR) supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10180
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300001_300099/300090/01.02.01_60/en_300090v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 090 V1.2.1 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10180
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300001_300099/300090/01.02.01_60/en_300090v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 090 V1.2.1 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 090 V1.2.1 (2000-12)
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ISDN/PSTN and IN services and mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2000-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This deliverable specifies the enhancements of the CLIR serviuce description
+- language: en
+  script: Latn
+  content: This deliverable specifies the enhancements of the CLIR serviuce description
     to handle the new CLI indicator "presentation restricted by network" for support
     of e.g. Anonymous Call Rejection (ACR). This is the version 2 of 300 090.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIR
-- content: ISDN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIR
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ISDN/PSTN and IN services and mobility
+    content: European Standard

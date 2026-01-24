@@ -1,66 +1,104 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101584V2.1.12013-12
+id: ETSITR101584V211201312
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); Study on Semantic support for
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); Study on Semantic support for
     M2M Data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38829
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101584/02.01.01_60/tr_101584v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 584 V2.1.1 (2013-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38829
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101584/02.01.01_60/tr_101584v020101p.pdf
+docidentifier:
+- content: ETSI TR 101 584 V2.1.1 (2013-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 584 V2.1.1 (2013-12)
 date:
 - type: published
-  value: 2013-12
+  at: 2013-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2013-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBzdHVkeSBpcyBtb3RpdmF0ZWQgYnkgdGhlIGZhY3QgdGhhdCB3aXRoaW4gdGhlIEVUU0kgTTJNIFN5c3RlbSBzZW1hbnRpYyBpbmZvcm1hdGlvbiBuZWVkcyB0byBiZSBhdmFpbGFibGUgb24gTTJNIGRhdGEgdGhhdCBhcmUgdHJhbnNmZXJyZWQgd2l0aGluIHRoZSBNMk0gc3lzdGVtLiBUaHJvdWdoIHN1Y2ggc2VtYW50aWMgaW5mb3JtYXRpb24gTTJNIGRhdGEgY2FuIGJlIGRpc2NvdmVyZWQgYnkgYXBwbGljYXRpb25zIHRoYXQgZG8gbm90IGhhdmUgcHJpb3Iga25vd2xlZGdlIG9uIHRoZW0uIFRoZSBjYXBhYmlsaXR5IG9mIHRoZSBFVFNJIE0yTSBTeXN0ZW0gdG8gZW5hYmxlIGFwcGxpY2F0aW9ucyB0byBkaXNjb3ZlciwgaW50ZXJwcmV0IGFuZCB1c2UgTTJNIGRhdGEgZnJvbSBkaWZmZXJlbnQgc291cmNlcyBpcyBjb25zaWRlcmVkIGVzc2VudGlhbCBmb3IgY3JlYXRpbmcgaGlnaC1sZXZlbCBNMk0gc2VydmljZXMgYW5kIHRvIGRldmVsb3Agb3BlbiBtYXJrZXRzIGZvciBNMk0gZGF0YS4gDQrigKIgSW4gdGhpcyBzdHVkeSBwcmUtbm9ybWF0aXZlIHdvcmsgd2lsbCBiZSBjb25kdWN0ZWQgaW4gb3JkZXIgdG8gZmFjaWxpdGF0ZSBub3JtYXRpdmUgc3BlY2lmaWNhdGlvbiB3b3JrIGluIEVUU0kgTTJNIFJlbC4tMiBvciBsYXRlci4gDQog4oCiIFRoZSBzdHVkeSB3aWxsIGFuYWx5c2UgYmVuZWZpdCwgZmVhc2liaWxpdHkgYW5kIHBvdGVudGlhbCByZXF1aXJlbWVudHMgZm9yIHRoZSBzdXBwb3J0IG9mIHNlbWFudGljIGluZm9ybWF0aW9uIG9uIGFwcGxpY2F0aW9uIHJlbGF0ZWQgTTJNIFJlc291cmNlcyBpbiB0aGUgTTJNIHN5c3RlbS4gVGhlIEVUU0kgTTJNIHN5c3RlbSB3b3VsZCwgaG93ZXZlciwgb25seSBwcm92aWRlIGEgbWVhbnMgdG8gY3JlYXRlIGFuZCBoYW5kbGUgc3VjaCBzZW1hbnRpYyBpbmZvcm1hdGlvbiBpbiB0aGUgRVRTSSBNMk0gc3lzdGVtOyBFVFNJIE0yTSBzaGFsbCBjb250aW51ZSB0byBzdGF5IGluZGVwZW5kZW50IG9mIOKAmHZlcnRpY2Fs4oCZIG1hcmtldHMgd2hvIGluIGdlbmVyYWwgd291bGQgZGVmaW5lIHRoZSBzZW1hbnRpY3Mgb2YgTTJNIGRhdGEgcmVsYXRlZCB0byB0aGVpciBmaWVsZCBvZiBleHBlcnRpc2UuICAgDQrigKIgVGhlIHN0dWR5IHdpbGwgY3JlYXRlIHVzZSBjYXNlcyB0aGF0IGlsbHVzdHJhdGUgcHJvdmlzaW9uaW5nIGFuZCB1c2FnZSBvZiBzdWNoIHNlbWFudGljIGluZm9ybWF0aW9uIGFuZCB0aGF0IGRlbW9uc3RyYXRlIHRoZSBiZW5lZml0IGZvciB0aGUgTTJNIGVjb3N5c3RlbS4gIA0K4oCiIEl0IHdpbGwgaW52ZXN0aWdhdGUgb24gdGhlIGtpbmQgYW5kIGFtb3VudCBvZiBzZW1hbnRpYyBpbmZvcm1hdGlvbiB0aGF0IHdvdWxkIGJlY29tZSBhdmFpbGFibGUgaW4gdGhlIE0yTSBzeXN0ZW0sIGtlZXBpbmcgaW4gbWluZCBhIHRyYWRlLW9mZiBiZXR3ZWVuIGNvbXBsZXhpdHkgYW5kIHVzYWJpbGl0eS4gDQrigKIgSXQgd2lsbCBpbnZlc3RpZ2F0ZSBkaXNjb3ZlcnkgbWVjaGFuaXNtcyBmb3Igc2VtYW50aWMgaW5mb3JtYXRpb24gaW4gdGhlIEVUU0kgTTJNIFN5c3RlbS4gVGhpcyBzaG91bGQgdGFrZSBpbnRvIGFjY291bnQgaG93IGV4aXN0aW5nIHNvbHV0aW9ucyBmcm9tIG90aGVyIHN0YW5kYXJkcyBvciByZXNlYXJjaCBjb3VsZCBiZSB1c2VkIHdpdGhpbiB0aGUgRVRTSSBNMk0gYXJjaGl0ZWN0dXJlLg0K4oCiIEl0IHdpbGwgY29uc2lkZXIgb24gaXNzdWVzIG9mIG93bmVyc2hpcC9yZXNwb25zaWJpbGl0eSBmb3IgYXBwbGljYXRpb24gcmVsYXRlZCBNMk0gUmVzb3VyY2VzIGluIHRoZSBjYXNlIHRoYXQgdGhlIE0yTSBzeXN0ZW0gY2FuIHByb3ZpZGUgc2VtYW50aWMgaW5mb3JtYXRpb24gb24gdGhlbS4gVGhpcyBuZWVkcyB0byB0YWtlIGludG8gYWNjb3VudCB0aGUgbmVlZCBmb3Igc3VwcG9ydCBvZiBkaWZmZXJlbnQgbGV2ZWxzIG9mIGRhdGEgcHJpdmFjeSBhbmQgY29uZmlkZW50aWFsaXR5LiANClRoaXMgd29yayBpdGVtIHdpbGwgcmVsYXRlIHRvIFdJIDAwMTQgKFRSIDEwMiA5NjYgLSBJbnRlcndvcmtpbmcgYmV0d2VlbiB0aGUgTTJNIEFyY2hpdGVjdHVyZSBhbmQgTTJNIEFyZWEgTmV0d29yayB0ZWNobm9sb2dpZXMpLCBhcyBhIGZ1cnRoZXIgc3RlcCBpbiB0aGUgYWJzdHJhY3Rpb24gb2YgTEFOIHRlY2hub2xvZ2llcyBhbmQgZGV2aWNlcyAuIA0KRXhpc3RpbmcgcmVsZXZhbnQgc3RhbmRhcmRzIG5lZWQgdG8gYmUgdGFrZW4gaW50byBhY2NvdW50LiBJdCBpcyBhbHNvIGV4cGVjdGVkIHRoYXQgdGhlIHN0dWR5IGNhbiBiZW5lZml0IGZyb20gaW5wdXRzIG9mIHJlbGF0ZWQgcmVzZWFyY2ggcHJvamVjdHMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This study is motivated by the fact that within the ETSI M2M System semantic
+    information needs to be available on M2M data that are transferred within the
+    M2M system. Through such semantic information M2M data can be discovered by applications
+    that do not have prior knowledge on them. The capability of the ETSI M2M System
+    to enable applications to discover, interpret and use M2M data from different
+    sources is considered essential for creating high-level M2M services and to develop
+    open markets for M2M data. \r\n In this study pre-normative work will be conducted
+    in order to facilitate normative specification work in ETSI M2M Rel.-2 or later.
+    \r\n  The study will analyse benefit, feasibility and potential requirements for
+    the support of semantic information on application related M2M Resources in the
+    M2M system. The ETSI M2M system would, however, only provide a means to create
+    and handle such semantic information in the ETSI M2M system; ETSI M2M shall continue
+    to stay independent of vertical markets who in general would define the semantics
+    of M2M data related to their field of expertise.   \r\n The study will create
+    use cases that illustrate provisioning and usage of such semantic information
+    and that demonstrate the benefit for the M2M ecosystem.  \r\n It will investigate
+    on the kind and amount of semantic information that would become available in
+    the M2M system, keeping in mind a trade-off between complexity and usability.
+    \r\n It will investigate discovery mechanisms for semantic information in the
+    ETSI M2M System. This should take into account how existing solutions from other
+    standards or research could be used within the ETSI M2M architecture.\r\n It will
+    consider on issues of ownership/responsibility for application related M2M Resources
+    in the case that the M2M system can provide semantic information on them. This
+    needs to take into account the need for support of different levels of data privacy
+    and confidentiality. \r\nThis work item will relate to WI 0014 (TR 102 966 - Interworking
+    between the M2M Architecture and M2M Area Network technologies), as a further
+    step in the abstraction of LAN technologies and devices . \r\nExisting relevant
+    standards need to be taken into account. It is also expected that the study can
+    benefit from inputs of related research projects."
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: M2M
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

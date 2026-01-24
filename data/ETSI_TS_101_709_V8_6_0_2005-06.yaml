@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101709V8.6.02005-06
+id: ETSITS101709V860200506
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Link adaptation
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Link adaptation
     (3GPP TS 05.09 version 8.6.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23344
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101709/08.06.00_60/ts_101709v080600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 709 V8.6.0 (2005-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23344
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101709/08.06.00_60/ts_101709v080600p.pdf
+docidentifier:
+- content: ETSI TS 101 709 V8.6.0 (2005-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 709 V8.6.0 (2005-06)
 date:
 - type: published
-  value: 2005-06
+  at: 2005-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.6.0
-revdate: 2005-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: GP-25
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: GP-25
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio aspects
+    content: Technical Specification

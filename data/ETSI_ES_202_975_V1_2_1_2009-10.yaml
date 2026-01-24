@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202975V1.2.12009-10
+id: ETSIES202975V121200910
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Harmonized relay services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21042
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202900_202999/202975/01.02.01_60/es_202975v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 975 V1.2.1 (2009-10)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Harmonized relay services
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21042
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202900_202999/202975/01.02.01_60/es_202975v010201p.pdf
+docidentifier:
+- content: ETSI ES 202 975 V1.2.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 975 V1.2.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document will set minimum standards for the provision of relay services
+- language: en
+  script: Latn
+  content: "The document will set minimum standards for the provision of relay services
     for text telephony in Europe.\r\nThe requirements will be based on the guidance
     contained in ETSI TR 101 806."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RELAY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: RELAY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

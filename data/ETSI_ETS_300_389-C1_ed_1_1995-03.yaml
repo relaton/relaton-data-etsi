@@ -1,60 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300389/C1ed.11995-03
+id: ETSIETS300389C1ed1199503
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Circuit-mode multiple-rate
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Circuit-mode multiple-rate
     unrestricted 8 kHz structured bearer service category; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4197
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300389/01_60/ets_300389e01p_c1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 389/C1 ed.1 (1995-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4197
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300389/01_60/ets_300389e01p_c1p.pdf
+docidentifier:
+- content: ETSI ETS 300 389/C1 ed.1 (1995-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 389/C1 ed.1 (1995-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Interfaces, Services and Charging
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Corrigendum to:\r\n- correct Figure A.2;\r\n- correct Figure A.3.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Corrigendum to:\r\n- correct Figure A.2;\r\n- correct Figure A.3.\r\n"
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: MULTICHANNEL
-- content: RATE
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: RATE
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: User Interfaces, Services and Charging
+    content: European Telecommunication Standard

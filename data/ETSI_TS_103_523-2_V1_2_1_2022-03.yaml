@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103523-2V1.2.12022-03
+id: ETSITS1035232V121202203
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Middlebox Security Protocol; Part 2: Transport layer MSP, profile
+- language: en
+  script: Latn
+  content: 'CYBER; Middlebox Security Protocol; Part 2: Transport layer MSP, profile
     for fine grained access control'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63031
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352302/01.02.01_60/ts_10352302v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 523-2 V1.2.1 (2022-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63031
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352302/01.02.01_60/ts_10352302v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 523-2 V1.2.1 (2022-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 523-2 V1.2.1 (2022-03)
 date:
 - type: published
-  value: 2022-03
+  at: 2022-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2022-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Fix multiplexing of TLMSP sessions Simplification of sequence number handling
+- language: en
+  script: Latn
+  content: Fix multiplexing of TLMSP sessions Simplification of sequence number handling
     and other issues found from implementation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

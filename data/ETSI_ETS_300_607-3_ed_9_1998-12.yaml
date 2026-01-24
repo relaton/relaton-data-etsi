@@ -1,67 +1,106 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300607-3ed.91998-12
+id: ETSIETS3006073ed9199812
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2) (GSM); Mobile Station
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2) (GSM); Mobile Station
     (MS) conformance specification; Part 3: Layer 3 (L3) Abstract Test Suite (ATS)
     (GSM 11.10-3 version 4.23.1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6980
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30060703/09_60/ets_30060703e09p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 607-3 ed.9 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6980
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30060703/09_60/ets_30060703e09p.pdf
+docidentifier:
+- content: ETSI ETS 300 607-3 ed.9 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 607-3 ed.9 (1998-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U1VCSkVDVCANClRlc3QgQ2FzZSAyMC4xNSBUVENOIGltcGxlbWVudGF0aW9uIGVycm9yIHJlZ2FyZGluZyBDYXJyaWVyIDIgTFUgdGltaW5nDQpDcmVhdGlvbiBvZiBhIER1YWwgQmFuZCBBVFMgaW5jbHVkaW5nIDI2LjYsIDI2LjExIGFuZCAyMC4yMCBzZXJpZXMgdGVzdHMgZm9yIGluY2x1c2lvbiBpbiBHU00gMTEuMTAtMw0KVGhlIHRlc3Qgc3RlcCBBZGp1c3RfZ3NtYW5kZGNzX3Bvd2VybHZsIHBlcmZvcm1zIGFzc2lnbm1lbnQgdG8gYSBwYXJhbWV0ZXINClRlc3QgQ2FzZSAyMC4xIFRUQ04gaW1wbGVtZW50YXRpb24gZXJyb3IgcmVnYXJkaW5nIENhcnJpZXIgMiBSQU0gdmFsdWUNCkNsYXNzbWFyayBVcGRhdGVzIEluLU9yZGVyIFRvIEFsbG93IER1YWwtQmFuZCBNUyBPbiBDdXJyZW50IEFUU+KAmXMNCk1vZGlmaWNhdGlvbnMgdG8gVFRDTiBmb3IgMjYuNi44LjQgdG8gYWxpZ24gaXQgd2l0aCBHU00gMTEuMTAtMQ0KVGVzdCBDYXNlIDIwLjEwIFRUQ04gaW1wbGVtZW50YXRpb24gZXJyb3IgcmVnYXJkaW5nIENhcnJpZXIgMiBSQUNIIHRpbWluZw0KVGVzdCBjYXNlcyBUQ18yNl82XzVfOSBoYXMgYSBUVENOIGltcGxlbWVudGF0aW9uIGVycm9yIHdpdGggbGF5ZXIgMSBkZWFjdGl2YXRpb24gb24gY2VsbCBCDQpUZXN0IHN0ZXBzIENoZWNraG9hY2NfVGltaW5nIGFuZCBDaGVja2hvYWNjX1B3ciBoYXZlIFRUQ04gaW1wbGVtZW50YXRpb24gZXJyb3JzIHdoaWNoIGNhdXNlIGluY29ycmVjdCBoYW5kbGluZyBvZiBuZWdhdGl2ZSBudW1iZXJzDQpJbXBsZW1lbnRhdGlvbiBlcnJvcnMgSW4gVGVzdCBDYXNlIDI2LjYuNC4xDQpUVENOIEFkZGl0aW9ucyB0byBHU00gQVRTcyByZXF1aXJlZCBmb3IgZnV0dXJlIDggdHJhbnNjZWl2ZXIgdGVzdHMNCkluY29ycmVjdCBmcmVxdWVuY3kgaG9wcGluZyBwYXJhbWV0ZXJzIHVzZWQgaW4gMjYuNi4xMyBzZXJpZXMgZnJlcXVlbmN5IGhvcHBpbmcgY2hlY2tzDQpUVENOIEVycm9ycyBpbiBEQ1MgZnJlcXVlbmN5IGxpc3RzIGZvciBUQyAyNi42LjYuMQ0KVGVzdCBDYXNlIDI2LjcuMy4yIGluY29ycmVjdCBmYWlsdXJlIHdoZW4gTVMgYXR0ZW1wdHMgTFUNCkNlbGwgU2VsZWN0aW9uIEFUUyAtIFN5c3RlbSBJbmZvcm1hdGlvbiBtZXNzYWdlIGltcGxlbWVudGF0aW9uIGVycm9ycw0KVGVzdCBjYXNlcyBUQ18yNl82XzVfNV8xLCBUQ18yNl82XzVfNV8yLCBUQ18yNl82XzVfNiwgVENfMjZfNl81XzcsIFRDXzI2XzZfNV84IGFuZCBUQ18yNl82XzVfOSBoYXZlIFRUQ04gaW1wbGVtZW50YXRpb24gZXJyb3JzIGluIGNlbGwgQiBwb3dlciBsZXZlbHMNCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT \r\nTest Case 20.15 TTCN implementation error regarding Carrier
+    2 LU timing\r\nCreation of a Dual Band ATS including 26.6, 26.11 and 20.20 series
+    tests for inclusion in GSM 11.10-3\r\nThe test step Adjust_gsmanddcs_powerlvl
+    performs assignment to a parameter\r\nTest Case 20.1 TTCN implementation error
+    regarding Carrier 2 RAM value\r\nClassmark Updates In-Order To Allow Dual-Band
+    MS On Current ATSs\r\nModifications to TTCN for 26.6.8.4 to align it with GSM
+    11.10-1\r\nTest Case 20.10 TTCN implementation error regarding Carrier 2 RACH
+    timing\r\nTest cases TC_26_6_5_9 has a TTCN implementation error with layer 1
+    deactivation on cell B\r\nTest steps Checkhoacc_Timing and Checkhoacc_Pwr have
+    TTCN implementation errors which cause incorrect handling of negative numbers\r\nImplementation
+    errors In Test Case 26.6.4.1\r\nTTCN Additions to GSM ATSs required for future
+    8 transceiver tests\r\nIncorrect frequency hopping parameters used in 26.6.13
+    series frequency hopping checks\r\nTTCN Errors in DCS frequency lists for TC 26.6.6.1\r\nTest
+    Case 26.7.3.2 incorrect failure when MS attempts LU\r\nCell Selection ATS - System
+    Information message implementation errors\r\nTest cases TC_26_6_5_5_1, TC_26_6_5_5_2,
+    TC_26_6_5_6, TC_26_6_5_7, TC_26_6_5_8 and TC_26_6_5_9 have TTCN implementation
+    errors in cell B power levels\r\n"
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: GSM
-- content: GSM_PHASE2
-- content: LAYER 3
-- content: MS
-- content: PLMN
-- content: RADIO
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: European Telecommunication Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-EVE005V1.1.12015-12
+id: ETSIGSNFVEVE005V111201512
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Ecosystem; Report on SDN Usage
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Ecosystem; Report on SDN Usage
     in NFV Architectural Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44516
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/005/01.01.01_60/gs_NFV-EVE005v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-EVE 005 V1.1.1 (2015-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44516
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/005/01.01.01_60/gs_NFV-EVE005v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-EVE 005 V1.1.1 (2015-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-EVE 005 V1.1.1 (2015-12)
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Software-Defined Networking (SDN) is mentioned in different ETSI NFV GSs
+- language: en
+  script: Latn
+  content: "Software-Defined Networking (SDN) is mentioned in different ETSI NFV GSs
     (e.g. SWA001 Annex A). A number of POCs also combine NFV with SDN. The deliverable
     for this Work Item (WI) will identify use cases, clarify the different usages
     of SDN within the context of the NFV architecture framework, including SDN Controller
@@ -60,18 +69,18 @@ abstract:
     projects such as IETF, OPNFV, ONF, OpenStack, OpenDaylight and others as appropriate.
     The deliverable will contain informative material only but  will also make recommendations
     as to whether normative work should be initiated as a follow-up activity.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: SDN
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Specification

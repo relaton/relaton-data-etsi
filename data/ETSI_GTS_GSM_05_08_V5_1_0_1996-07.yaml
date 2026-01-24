@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM05.08V5.1.01996-07
+id: ETSIGTSGSM0508V510199607
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Radio subsystem
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Radio subsystem
     link control (GSM 05.08)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4727
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/05/0508/05.01.00_60/gsmts_0508v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 05.08 V5.1.0 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4727
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/05/0508/05.01.00_60/gsmts_0508v050100p.pdf
+docidentifier:
+- content: ETSI GTS GSM 05.08 V5.1.0 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 05.08 V5.1.0 (1996-07)
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 1996-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the Radio\r\nsub-system
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the Radio\r\nsub-system
     link control implemented in the Mobile Station (MS), Base\r\nStation System (BSS)
     and Mobile Switching Centre (MSC) of the GSM and\r\nDCS 1800 systems.\r\nUnless
     otherwise specified, references to GSM also include DCS 1800.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Radio
+    content: GSM Technical Specification

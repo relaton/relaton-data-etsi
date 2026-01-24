@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300729ed.22000-04
+id: ETSIETS300729ed2200004
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Discontinuous Transmission
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Discontinuous Transmission
     (DTX) for Enhanced Full Rate (EFR) speech traffic channels (GSM 06.81 version
     5.2.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9153
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300729/02_60/ets_300729e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 729 ed.2 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9153
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300729/02_60/ets_300729e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 729 ed.2 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 729 ed.2 (2000-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This draft European Telecommunication Standard (ETS)  gives a\r\ndescription
+- language: en
+  script: Latn
+  content: "This draft European Telecommunication Standard (ETS)  gives a\r\ndescription
     of the general baseband operation of enhanced full rate\r\nspeech traffic channels
     in the transmitter and in the receiver of GSM\r\nMobile Stations and Base Station
     Systems during Discontinuous\r\nTransmission (DTX).\r\n For clarity, the description
@@ -57,21 +67,27 @@ abstract:
     specification are\r\nmandatory for implementation in the GSM MSs. The receiver
     requirements\r\nare mandatory for implementation in all GSM BSSs, the transmitter\r\nrequirements
     only for those where downlink DTX will be used.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

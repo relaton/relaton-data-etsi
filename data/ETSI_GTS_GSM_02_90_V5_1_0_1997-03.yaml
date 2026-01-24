@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM02.90V5.1.01997-03
+id: ETSIGTSGSM0290V510199703
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Unstructured Supplementary
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Unstructured Supplementary
     Service Data (USSD); Stage 1 (GSM 02.90)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5535
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/02/0290/05.01.00_60/gsmts_0290v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 02.90 V5.1.0 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5535
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/02/0290/05.01.00_60/gsmts_0290v050100p.pdf
+docidentifier:
+- content: ETSI GTS GSM 02.90 V5.1.0 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 02.90 V5.1.0 (1997-03)
 date:
 - type: published
-  value: 1997-03
+  at: 1997-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 1997-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
     defines the stage 1 description of Unstructured Supplementary Ser\r\nvice Data
     (USSD) for use in one or a number of GSM Public Land Mobile\r\nNetworks (PLMNs).\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Services & Facilities
+    content: GSM Technical Specification

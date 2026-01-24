@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301559-1V1.1.22012-06
+id: ETSIEN3015591V112201206
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Low Power Active Medical Implants (LP-AMI) operating in the
     frequency range 2 483,5 MHz to 2 500 MHz; Part 1: Technical characteristics and
     test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35224
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301500_301599/30155901/01.01.02_60/en_30155901v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 559-1 V1.1.2 (2012-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35224
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301500_301599/30155901/01.01.02_60/en_30155901v010102p.pdf
+docidentifier:
+- content: ETSI EN 301 559-1 V1.1.2 (2012-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 559-1 V1.1.2 (2012-06)
 date:
 - type: published
-  value: 2012-06
+  at: 2012-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Wireless Medical Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2012-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Equipment covered by Harmonized Standard EN 30X XXX is specialized medical
+- language: en
+  script: Latn
+  content: Equipment covered by Harmonized Standard EN 30X XXX is specialized medical
     equipment that comprises a system consisting of implanted, body worn and other
     external devices that form a medical communications system.  Due to the application
     of these devices in the medical field it is proposed to develop a specific product
     standard for ensuring that the radio links are tested to appropriate levels.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: HEALTH
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Wireless Medical Devices
+    content: European Standard

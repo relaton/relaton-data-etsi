@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103389V2.0.02014-08
+id: ETSITS103389V200201408
+schema_version: v1.4.1
 title:
-- content: Railway Telecommunications (RT); Global System for Mobile communications
+- language: en
+  script: Latn
+  content: Railway Telecommunications (RT); Global System for Mobile communications
     (GSM); Usage of Session Initiation Protocol (SIP) on the Network Switching Subsystem
     (NSS) to Fixed Terminal Subsystem (FTS) interface for GSM Operation on Railways
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37756
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103389/02.00.00_60/ts_103389v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 389 V2.0.0 (2014-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37756
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103389/02.00.00_60/ts_103389v020000p.pdf
+docidentifier:
+- content: ETSI TS 103 389 V2.0.0 (2014-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 389 V2.0.0 (2014-08)
 date:
 - type: published
-  value: 2014-08
+  at: 2014-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2014-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI covers the standardization of an IP based VRS interface, to be
+- language: en
+  script: Latn
+  content: "This WI covers the standardization of an IP based VRS interface, to be
     used for a railway telecommunications system evolving to packet (IP) switched
     technologies.\r\nThe definition of VRS is out of scope of this activity, however
     specification of the content of the messages exchanged on the newly defined interface
     will cope with any future IP based VRS implementation.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM-R
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Specification

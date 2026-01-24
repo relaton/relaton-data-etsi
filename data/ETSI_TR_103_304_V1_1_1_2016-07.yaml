@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103304V1.1.12016-07
+id: ETSITR103304V111201607
+schema_version: v1.4.1
 title:
-- content: CYBER; Personally Identifiable Information (PII) Protection in mobile and
+- language: en
+  script: Latn
+  content: CYBER; Personally Identifiable Information (PII) Protection in mobile and
     cloud services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45884
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103304/01.01.01_60/tr_103304v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 304 V1.1.1 (2016-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45884
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103304/01.01.01_60/tr_103304v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 304 V1.1.1 (2016-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 304 V1.1.1 (2016-07)
 date:
 - type: published
-  value: 2016-07
+  at: 2016-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document proposes a number of scenarios focusing on today's
+- language: en
+  script: Latn
+  content: "The present document proposes a number of scenarios focusing on today's
     ICT and develops an analysis of possible risks, threats and vulnerabilities in
     mobile and cloud based services. It also presents technical challenges and needs
     derived from regulatory aspects (lawful interceptions). The intent is to consolidate
     a general framework, in line with regulation and international standards, where
     technical solutions for PII protection can be plugged into.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: access control
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

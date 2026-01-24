@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSINS008V1.1.12012-05
+id: ETSIGSINS008V111201205
+schema_version: v1.4.1
 title:
-- content: Identity and access management for Networks and Services (INS); Distributed
+- language: en
+  script: Latn
+  content: Identity and access management for Networks and Services (INS); Distributed
     access control enforcement framework; Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35273
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/INS/001_099/008/01.01.01_60/gs_INS008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS INS 008 V1.1.1 (2012-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35273
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/INS/001_099/008/01.01.01_60/gs_INS008v010101p.pdf
+docidentifier:
+- content: ETSI GS INS 008 V1.1.1 (2012-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS INS 008 V1.1.1 (2012-05)
 date:
 - type: published
-  value: 2012-05
+  at: 2012-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Identity and access management for Networks and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based on the requirements presented in WI 2 and WI5 this work item should
+- language: en
+  script: Latn
+  content: "Based on the requirements presented in WI 2 and WI5 this work item should
     create a generic architecture for distributed access control and enforcement.
     It includes the identification of the necessary identities as well as a general
     description of their interface and related interactions.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CONTROL
-- content: ID
-- content: privacy
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Identity and access management for Networks and Services
+    content: Group Specification

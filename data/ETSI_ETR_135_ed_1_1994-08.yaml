@@ -1,60 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR135ed.11994-08
+id: ETSIETR135ed1199408
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Network aspects and applications for
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Network aspects and applications for
     a 4 (and n x 4) kbit/s data link in a 2 048 kbit/s frame
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=304
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/135/01_60/etr_135e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 135 ed.1 (1994-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=304
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/135/01_60/etr_135e01p.pdf
+docidentifier:
+- content: ETSI ETR 135 ed.1 (1994-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 135 ed.1 (1994-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Describes the various applications and network scenarios in which the\r\ndata
+- language: en
+  script: Latn
+  content: "Describes the various applications and network scenarios in which the\r\ndata
     link can be used to convey management information\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LAYER 2
-- content: MPX
-- content: MULTICHANNEL
+- taxon:
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: MPX
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: ETSI Technical Report

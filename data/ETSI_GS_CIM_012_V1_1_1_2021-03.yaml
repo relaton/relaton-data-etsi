@@ -1,65 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM012V1.1.12021-03
+id: ETSIGSCIM012V111202103
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); NGSI-LD Test Suite Structure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58944
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/012/01.01.01_60/gs_CIM012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 012 V1.1.1 (2021-03)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); NGSI-LD Test Suite Structure
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58944
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/012/01.01.01_60/gs_CIM012v010101p.pdf
+docidentifier:
+- content: ETSI GS CIM 012 V1.1.1 (2021-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 012 V1.1.1 (2021-03)
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkZWxpdmVyYWJsZSBkZWZpbmVzIHRoZSBvcmdhbml6YXRpb24gb3IgZ3JvdXBpbmcgb2YgdGVzdCBjYXNlcyBiYXNlZCBvbiB0aGUgZnVuY3Rpb25hbGl0eSB0byBiZSB0ZXN0ZWQgKGUuZy4gcmVnaXN0cmF0aW9uLCBzdWJzY3JpcHRpb24sIHF1ZXJ5LCBldGMuKSBhbmQgLSBtb3N0IGltcG9ydGFudGx5IC0gc2VsZWN0cyBtaW5pbWFsIHN1YnNldHMgKOKAnG5hcnJvd2VyIHNjb3Bl4oCdKSBvZiBmdW5jdGlvbmFsaXR5IHRvIHBlcm1pdCB0ZXN0aW5nIG9mIHRoZSBtYWluIGZlYXR1cmVzIG9mIGFuIG9wZXJhdGluZyBOR1NJLUxEIHN5c3RlbS4g
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'This deliverable defines the organization or grouping of test cases based
+    on the functionality to be tested (e.g. registration, subscription, query, etc.)
+    and - most importantly - selects minimal subsets (narrower scope) of functionality
+    to permit testing of the main features of an operating NGSI-LD system. '
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

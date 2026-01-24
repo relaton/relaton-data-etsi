@@ -1,76 +1,99 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103673V1.2.12024-01
+id: ETSITS103673V121202401
+schema_version: v1.4.1
 title:
-- content: SmartM2M; SAREF Development Framework and Workflow, Streamlining the Development
+- language: en
+  script: Latn
+  content: SmartM2M; SAREF Development Framework and Workflow, Streamlining the Development
     of SAREF and its Extensions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63054
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103673/01.02.01_60/ts_103673v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 673 V1.2.1 (2024-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63054
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103673/01.02.01_60/ts_103673v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 673 V1.2.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 673 V1.2.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A revision of TS 103 673 (DTS/SmartM2M-103673) with additional clauses
+- language: en
+  script: Latn
+  content: "A revision of TS 103 673 (DTS/SmartM2M-103673) with additional clauses
     that specify the development workflow of SAREF project versions instantiating
     the SAREF reference ontology patterns.\r\nRevision of the SAREF pipeline software
     to support the SAREF ontology patterns.\r\nRevision of the SAREF public portal
     to document patterns, and to enable the browsing of SAREF terms by looking for
     pattern instantiations."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: IoT
-- content: M2M
-- content: oneM2M
-- content: ontology
-- content: Open Source Software
-- content: SAREF
-- content: Semantic
-- content: software
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: Open Source Software
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: software
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

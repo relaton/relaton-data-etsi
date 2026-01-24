@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201693V1.1.31999-10
+id: ETSIEG201693V113199910
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Signalling System No.7; Master
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Signalling System No.7; Master
     list of codepoints
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6608
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201600_201699/201693/01.01.03_60/eg_201693v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 693 V1.1.3 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6608
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201600_201699/201693/01.01.03_60/eg_201693v010103p.pdf
+docidentifier:
+- content: ETSI EG 201 693 V1.1.3 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 693 V1.1.3 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce a master list of codepoints used in SS7 (MTP, SCCP, TC as\r\ndefined
+- language: en
+  script: Latn
+  content: "To produce a master list of codepoints used in SS7 (MTP, SCCP, TC as\r\ndefined
     in ITU-T and containing ETSI extensions and modifications . \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: MTP
-- content: PROTOCOL
-- content: SCCP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MTP
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SCCP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Network Signalling
+    content: ETSI Guide

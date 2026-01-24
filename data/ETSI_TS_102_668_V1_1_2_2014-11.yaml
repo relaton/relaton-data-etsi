@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102668V1.1.22014-11
+id: ETSITS102668V112201411
+schema_version: v1.4.1
 title:
-- content: Digital Radio Mondiale (DRM); DRM-TMC (Traffic Message Channel)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46007
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102668/01.01.02_60/ts_102668v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 668 V1.1.2 (2014-11)
+- language: en
+  script: Latn
+  content: Digital Radio Mondiale (DRM); DRM-TMC (Traffic Message Channel)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46007
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102668/01.01.02_60/ts_102668v010102p.pdf
+docidentifier:
+- content: ETSI TS 102 668 V1.1.2 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 668 V1.1.2 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial update to fix few typos.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Editorial update to fix few typos.
+status:
+  stage: Published
 keyword:
-- content: DRM
-- content: TRAFFIC
+- taxon:
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: TRAFFIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

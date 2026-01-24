@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103617V1.1.12018-09
+id: ETSITR103617V111201809
+schema_version: v1.4.1
 title:
-- content: Quantum-Safe Virtual Private Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51414
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103617/01.01.01_60/tr_103617v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 617 V1.1.1 (2018-09)
+- language: en
+  script: Latn
+  content: Quantum-Safe Virtual Private Networks
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51414
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103617/01.01.01_60/tr_103617v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 617 V1.1.1 (2018-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 617 V1.1.1 (2018-09)
 date:
 - type: published
-  value: 2018-09
+  at: 2018-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To provide a review and recommendations on the impacts of integrating quantum
+- language: en
+  script: Latn
+  content: To provide a review and recommendations on the impacts of integrating quantum
     safe algorithms into VPN technologies.  We will focus on VPN technologies commonly
     used and emerging VPN protocols.  We will include a discussion of the use of hybrid
     schemes to allow efficient and practical use of traditional cryptography with
     quantum safe cryptography.  Recommendations will include protocol changes, algorithm
     formats, efficiency and implementation considerations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: quantum cryptography
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Report

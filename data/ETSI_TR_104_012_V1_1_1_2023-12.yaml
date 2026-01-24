@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104012V1.1.12023-12
+id: ETSITR104012V111202312
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Feasibility study of the usage of software
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Feasibility study of the usage of software
     reconfiguration for Radio Equipment Directive and Proposal for Cyber Resilience
     Act
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68014
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104012/01.01.01_60/tr_104012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 012 V1.1.1 (2023-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68014
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104012/01.01.01_60/tr_104012v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 012 V1.1.1 (2023-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 012 V1.1.1 (2023-12)
 date:
 - type: published
-  value: 2023-12
+  at: 2023-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RRS System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ETSI TC RRS deliverables in the field of software reconfiguration will
+- language: en
+  script: Latn
+  content: ETSI TC RRS deliverables in the field of software reconfiguration will
     be assessed for suitability and possible usage in support of the implementation
     of the Radio Equipment Directive, the Cyber Resilience Act and other regulations
     under preparation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CRA
-- content: RADIO
-- content: RED
-- content: RRS
-- content: Software Reconfiguration
+- taxon:
+  - language: en
+    script: Latn
+    content: CRA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RED
+  - language: en
+    script: Latn
+    content: RRS
+  - language: en
+    script: Latn
+    content: Software Reconfiguration
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RRS System Aspects & Cognitive functionalities
+    content: Technical Report

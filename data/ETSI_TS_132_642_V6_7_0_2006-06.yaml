@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132642V6.7.02006-06
+id: ETSITS132642V670200606
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
     Configuration Management (CM); UTRAN network resources Integration Reference Point
     (IRP): Network Resource Model (NRM) (3GPP TS 32.642 version 6.7.0 Release 6)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24873
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132642/06.07.00_60/ts_132642v060700p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 642 V6.7.0 (2006-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24873
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132642/06.07.00_60/ts_132642v060700p.pdf
+docidentifier:
+- content: ETSI TS 132 642 V6.7.0 (2006-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 642 V6.7.0 (2006-06)
 date:
 - type: published
-  value: 2006-06
+  at: 2006-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.7.0
-revdate: 2006-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-32
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-32
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

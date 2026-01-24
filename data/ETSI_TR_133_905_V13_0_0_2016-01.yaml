@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR133905V13.0.02016-01
+id: ETSITR133905V1300201601
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; Recommendations for Trusted Open Platforms
     (3GPP TR 33.905 version 13.0.0 Release 13)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49179
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133905/13.00.00_60/tr_133905v130000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 133 905 V13.0.0 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49179
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133905/13.00.00_60/tr_133905v130000p.pdf
+docidentifier:
+- content: ETSI TR 133 905 V13.0.0 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 133 905 V13.0.0 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 13.0.0
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-70
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-70
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: SECURITY
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

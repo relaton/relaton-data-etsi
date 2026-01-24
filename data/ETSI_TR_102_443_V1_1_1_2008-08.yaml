@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102443V1.1.12008-08
+id: ETSITR102443V111200808
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
     Evaluation of the OFDM as a Satellite Radio Interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20995
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102443/01.01.01_60/tr_102443v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 443 V1.1.1 (2008-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20995
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102443/01.01.01_60/tr_102443v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 443 V1.1.1 (2008-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 443 V1.1.1 (2008-08)
 date:
 - type: published
-  value: 2008-08
+  at: 2008-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on Mobile Satellite Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Evaluation of the possibility to use the OFDM for S-UMTS W-CDMA improvement,
+- language: en
+  script: Latn
+  content: Evaluation of the possibility to use the OFDM for S-UMTS W-CDMA improvement,
     according to satellite system and design constraints.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SATELLITE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SES WG on Mobile Satellite Systems
+    content: Technical Report

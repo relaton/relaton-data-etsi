@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES200674-1V2.4.12013-05
+id: ETSIES2006741V241201305
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Road Transport and Traffic Telematics
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Road Transport and Traffic Telematics
     (RTTT); Dedicated Short Range Communications (DSRC); Part 1: Technical characteristics
     and test methods for High Data Rate (HDR) data transmission equipment operating
     in the 5,8 GHz Industrial, Scientific and Medical (ISM) band'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41278
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/200600_200699/20067401/02.04.01_60/es_20067401v020401p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 200 674-1 V2.4.1 (2013-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41278
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/200600_200699/20067401/02.04.01_60/es_20067401v020401p.pdf
+docidentifier:
+- content: ETSI ES 200 674-1 V2.4.1 (2013-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 200 674-1 V2.4.1 (2013-05)
 date:
 - type: published
-  value: 2013-05
+  at: 2013-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.4.1
-revdate: 2013-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Correct minor editorial and technical inconsistencies found in the standard
+- language: en
+  script: Latn
+  content: Correct minor editorial and technical inconsistencies found in the standard
     after STF 422 test specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSRC
-- content: ITS
-- content: PROTOCOL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DSRC
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: ETSI Standard

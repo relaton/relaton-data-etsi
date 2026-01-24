@@ -1,62 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300599ed.92000-12
+id: ETSIETS300599ed9200012
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Mobile Application
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Mobile Application
     Part (MAP) specification (GSM 09.02 version 4.19.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11081
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300599/09_60/ets_300599e09p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 599 ed.9 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11081
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300599/09_60/ets_300599e09p.pdf
+docidentifier:
+- content: ETSI ETS 300 599 ed.9 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 599 ed.9 (2000-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/GTP/BCH/SS
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "CRs from TSG#8\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "CRs from TSG#8\r\n"
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: GSM
-- content: GSM_PHASE2
-- content: ISDN
-- content: MAP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MAP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: MAP/GTP/BCH/SS
+    content: European Telecommunication Standard

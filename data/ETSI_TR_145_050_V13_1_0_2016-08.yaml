@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR145050V13.1.02016-08
+id: ETSITR145050V1310201608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
     for Radio Frequency (RF) requirements (3GPP TR 45.050 version 13.1.0 Release 13)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50149
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/145000_145099/145050/13.01.00_60/tr_145050v130100p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 145 050 V13.1.0 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50149
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/145000_145099/145050/13.01.00_60/tr_145050v130100p.pdf
+docidentifier:
+- content: ETSI TR 145 050 V13.1.0 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 145 050 V13.1.0 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 13.1.0
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: GERAN#70
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: GERAN#70
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio aspects
+    content: Technical Report

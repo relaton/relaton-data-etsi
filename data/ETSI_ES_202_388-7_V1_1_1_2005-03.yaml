@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202388-7V1.1.12005-03
+id: ETSIES2023887V111200503
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Application Programming Interface (API); Test
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Application Programming Interface (API); Test
     Suite Structure and Test Purposes (TSS&TP); Part 7: Terminal Capabilities SCF
     (Parlay 4)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19592
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/20238807/01.01.01_60/es_20238807v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 388-7 V1.1.1 (2005-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19592
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/20238807/01.01.01_60/es_20238807v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 388-7 V1.1.1 (2005-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 388-7 V1.1.1 (2005-03)
 date:
 - type: published
-  value: 2005-03
+  at: 2005-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Produce test specification for ETSI OSA Edition 2, as published in ES 202
+- language: en
+  script: Latn
+  content: Produce test specification for ETSI OSA Edition 2, as published in ES 202
     915. Part structure to follow part structure of ES 202 915 where possible. Test
     specification to follow approach adopted in producing test specifications for
     ES 201 915.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: OSA
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Testing
+    content: ETSI Standard

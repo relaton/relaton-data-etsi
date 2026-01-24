@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101567V1.1.12016-01
+id: ETSITR101567V111201601
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Cloud/Virtual Services for Lawful Interception
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Cloud/Virtual Services for Lawful Interception
     (LI) and Retained Data (RD)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37698
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101567/01.01.01_60/tr_101567v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 567 V1.1.1 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37698
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101567/01.01.01_60/tr_101567v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 567 V1.1.1 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 567 V1.1.1 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide an ETSI Report on requests for handover and delivery of real-time
+- language: en
+  script: Latn
+  content: "To provide an ETSI Report on requests for handover and delivery of real-time
     information associated with cloud/virtual services.  The Report will identify
     Lawful Interception (LI) and Retained Data (RD) needs and requirements in the
     converged cloud/virtual service environment, the challenges and obstacles of complying
@@ -60,21 +69,27 @@ abstract:
     while allowing business to utilise the advantages and innovations of Cloud Services.\r\nIt
     is proposed that this work occur cooperatively with relevant cloud security technical
     bodies (e.g. ITU-T FG CLOUD). \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: Lawful Interception
-- content: Retained Data
-- content: SECURITY
-- content: virtual services
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: Retained Data
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: virtual services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

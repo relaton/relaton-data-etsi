@@ -1,69 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103267V2.1.12020-02
+id: ETSITS103267V211202002
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Smart Applications; Communication Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57502
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103267/02.01.01_60/ts_103267v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 267 V2.1.1 (2020-02)
+- language: en
+  script: Latn
+  content: SmartM2M; Smart Applications; Communication Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57502
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103267/02.01.01_60/ts_103267v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 267 V2.1.1 (2020-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 267 V2.1.1 (2020-02)
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2020-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Alignment of the  SAREF communication framework to oneM2M latest developments.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Alignment of the  SAREF communication framework to oneM2M latest developments.
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: data sharing
-- content: IoT
-- content: M2M
-- content: Model
-- content: ontology
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: data sharing
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Model
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

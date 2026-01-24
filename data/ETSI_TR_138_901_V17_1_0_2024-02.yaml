@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR138901V17.1.02024-02
+id: ETSITR138901V1710202402
+schema_version: v1.4.1
 title:
-- content: 5G; Study on channel model for frequencies from 0.5 to 100 GHz (3GPP TR
+- language: en
+  script: Latn
+  content: 5G; Study on channel model for frequencies from 0.5 to 100 GHz (3GPP TR
     38.901 version 17.1.0 Release 17)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69925
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/138900_138999/138901/17.01.00_60/tr_138901v170100p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 138 901 V17.1.0 (2024-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69925
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/138900_138999/138901/17.01.00_60/tr_138901v170100p.pdf
+docidentifier:
+- content: ETSI TR 138 901 V17.1.0 (2024-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 138 901 V17.1.0 (2024-02)
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 1 specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.1.0
-revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#102
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#102
+status:
+  stage: Published
 keyword:
-- content: 5G
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio layer 1 specification
+    content: Technical Report

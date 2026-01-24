@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302093-1V1.1.12000-06
+id: ETSIEN3020931V111200006
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; Point-to-point multiconnection bearer
     control specification in a separated call and bearer environment; Part 1: Protocol
     specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5064
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209301/01.01.01_60/en_30209301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 093-1 V1.1.1 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5064
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209301/01.01.01_60/en_30209301v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 093-1 V1.1.1 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 093-1 V1.1.1 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband ISDN, Layer 3
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Procedures for establishing, maintaining and clearing of point-to-poin\r\nt
+- language: en
+  script: Latn
+  content: "Procedures for establishing, maintaining and clearing of point-to-poin\r\nt
     bearer connections within an already established multiconnection cal\r\nl in the
     context of separation of call control and bearer connection c\r\nontrol, applicable
     at the public B-ISDN UNI (TB and coincident SB and\r\nTB reference points)\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: B-ISDN
-- content: DSS2
-- content: LAYER 3
-- content: PROTOCOL
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Broadband ISDN, Layer 3
+    content: European Standard

@@ -1,59 +1,69 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR281ed.11996-03
+id: ETSIETR281ed1199603
+schema_version: v1.4.1
 title:
-- content: Business TeleCommunications (BTC); Background information on the production
+- language: en
+  script: Latn
+  content: Business TeleCommunications (BTC); Background information on the production
     of the standards defining the Open Network Provision (ONP) minimum set of leased
     lines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2205
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/281/01_60/etr_281e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 281 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2205
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/281/01_60/etr_281e01p.pdf
+docidentifier:
+- content: ETSI ETR 281 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 281 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: LEASED LINE
-- content: ONP
+- taxon:
+  - language: en
+    script: Latn
+    content: LEASED LINE
+  - language: en
+    script: Latn
+    content: ONP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: ETSI Technical Report

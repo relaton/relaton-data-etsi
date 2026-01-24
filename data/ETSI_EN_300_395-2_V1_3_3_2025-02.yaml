@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300395-2V1.3.32025-02
+id: ETSIEN3003952V133202502
+schema_version: v1.4.1
 title:
-- content: 'TETRA and Critical Communications Evolution (TCCE); Speech codec for full-rate
+- language: en
+  script: Latn
+  content: 'TETRA and Critical Communications Evolution (TCCE); Speech codec for full-rate
     traffic channel; Part 2: TETRA codec'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69502
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039502/01.03.03_60/en_30039502v010303p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 395-2 V1.3.3 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69502
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039502/01.03.03_60/en_30039502v010303p.pdf
+docidentifier:
+- content: ETSI EN 300 395-2 V1.3.3 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 395-2 V1.3.3 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TETRA and Critical Communications Evolution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.3
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The annex containing  word version of c-code example needs updating to
+- language: en
+  script: Latn
+  content: The annex containing  word version of c-code example needs updating to
     a readable version of MSWord and changes in EN300 395-2 relating to Annex E1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TETRA and Critical Communications Evolution
+    content: European Standard

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102710-1V5.2.12016-02
+id: ETSITS1027101V521201602
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Interworking between
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Interworking between
     the IP Multimedia (IM) Core Network (CN) subsystem and Circuit Switched (CS) networks;
     Conformance Test Specification; (3GPPTM Release 10); Part 1: Protocol Implementation
     Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43847
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271001/05.02.01_60/ts_10271001v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 710-1 V5.2.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43847
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271001/05.02.01_60/ts_10271001v050201p.pdf
+docidentifier:
+- content: ETSI TS 102 710-1 V5.2.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 710-1 V5.2.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Additional PICS issues based on the update to 3GPP release 10
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Additional PICS issues based on the update to 3GPP release 10
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: ISUP
-- content: PICS
-- content: SIP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132604V4.2.02001-12
+id: ETSITS132604V420200112
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Telecommunication Management;
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Telecommunication Management;
     Configuration Management; Basic configuration management IRP CMIP solution set
     (3GPP TS 32.604 version 4.2.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15297
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132604/04.02.00_60/ts_132604v040200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 604 V4.2.0 (2001-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15297
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132604/04.02.00_60/ts_132604v040200p.pdf
+docidentifier:
+- content: ETSI TS 132 604 V4.2.0 (2001-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 604 V4.2.0 (2001-12)
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.2.0
-revdate: 2001-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: TSG#14
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: TSG#14
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

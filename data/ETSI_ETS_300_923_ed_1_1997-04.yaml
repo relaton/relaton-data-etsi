@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300923ed.11997-04
+id: ETSIETS300923ed1199704
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Description of Charge Advice
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Description of Charge Advice
     Information (CAI) (GSM 02.24 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4960
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300923/01_60/ets_300923e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 923 ed.1 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4960
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300923/01_60/ets_300923e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 923 ed.1 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 923 ed.1 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The charging supplementary service is described in GSM 02.86 [2] and t\r\nhe
+- language: en
+  script: Latn
+  content: "The charging supplementary service is described in GSM 02.86 [2] and t\r\nhe
     relevant charging principles are given in the relevant GSM MoU Asso\r\nciation
     documents. These services are designed to supply to a mobile u\r\nser sufficient
     information to allow a real time estimate to be made of\r\nthe bill which will
@@ -53,23 +63,33 @@ abstract:
     ETS gives an overall view of\r\nhow this supplementary service shall operate both
     in the PLMN and with\r\nin the MS. Text given in this ETS is required to define
     functionality\r\nand is not intended to constrain implementation.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AOC
-- content: CHARGING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: AOC
+  - language: en
+    script: Latn
+    content: CHARGING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

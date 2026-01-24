@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103410-4V2.1.12024-10
+id: ETSITS1034104V211202410
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; Extension to SAREF; Part 4: Smart Cities Domain'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63060
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 410-4 V2.1.1 (2024-10)
+- language: en
+  script: Latn
+  content: 'SmartM2M; Extension to SAREF; Part 4: Smart Cities Domain'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63060
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10341004/02.01.01_60/ts_10341004v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 410-4 V2.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 410-4 V2.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Major revision of SAREF4CITY ontology extension, using updated reference
+- language: en
+  script: Latn
+  content: Major revision of SAREF4CITY ontology extension, using updated reference
     ontology patterns [specified in RTS/SmartM2M-103548v121] to solve the harmonization
     needs [identified in DTR/SmartM2M-103781], with updated development framework
     and tools [defined in RTS/SmartM2M-103673v121].
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
-- content: smart city
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: smart city
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

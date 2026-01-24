@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300681ed.11997-06
+id: ETSIETS300681ed1199706
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Optical Distribution Network (ODN)
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Optical Distribution Network (ODN)
     for Optical Access Network (OAN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1262
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300681/01_60/ets_300681e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 681 ed.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1262
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300681/01_60/ets_300681e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 681 ed.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 681 ed.1 (1997-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This draft European Telecommunication Standard (ETS) defines the\r\nOptical
+- language: en
+  script: Latn
+  content: "This draft European Telecommunication Standard (ETS) defines the\r\nOptical
     Distribution Network (ODN) which is that part of the Optical\r\nAccess Network
     (OAN) between the Optical Network Unit (ONU) and the\r\nOptical Line Terminal
     (OLT).\r\n This ETS primarily addresses the optical aspects related to the\r\ntransmission
@@ -49,24 +59,36 @@ abstract:
     corresponding\r\nto distributive services, which may have impact on the definition
     of\r\nthis type of ODN (e.g. the use of Optical Amplification) are also\r\ntaken
     into account, even if further studies are required in some\r\ncases.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: AMPLIFICATION
-- content: ARCHITECTURE
-- content: NETWORK
-- content: OAN
-- content: OPTICAL
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: AMPLIFICATION
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: OAN
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Core networks, fibres and cables
+    content: European Telecommunication Standard

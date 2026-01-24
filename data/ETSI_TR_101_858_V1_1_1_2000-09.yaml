@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101858V1.1.12000-09
+id: ETSITR101858V111200009
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Number portability and its implications for TIPHON networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8873
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101858/01.01.01_60/tr_101858v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 858 V1.1.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8873
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101858/01.01.01_60/tr_101858v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 858 V1.1.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 858 V1.1.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Naming and address translation issues
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The technical report gives an introduction to number portability and an
+- language: en
+  script: Latn
+  content: "The technical report gives an introduction to number portability and an
     overview of the current way in which number portability is being implemented in
     various countries.  The objective of the report is to inform the designers of
     TIPHON equipment and the implementers of TIPHON networks about the requirements
@@ -59,21 +68,27 @@ abstract:
     only to the extent necessary to outline the context for the technical solutions.\r\nThe
     report gives most emphasis to number portability in fixed networks.\r\nThe report
     is complimentary to other deliverables on number portability produced by ETSI.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: NETWORK
-- content: PORTABILITY
-- content: UPT
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PORTABILITY
+  - language: en
+    script: Latn
+    content: UPT
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Naming and address translation issues
+    content: Technical Report

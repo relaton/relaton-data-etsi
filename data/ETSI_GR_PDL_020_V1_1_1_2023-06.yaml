@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL020V1.1.12023-06
+id: ETSIGRPDL020V111202306
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Wireless Consensus Network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66755
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/020/01.01.01_60/gr_PDL020v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 020 V1.1.1 (2023-06)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Wireless Consensus Network
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66755
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/020/01.01.01_60/gr_PDL020v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 020 V1.1.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 020 V1.1.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document describes of wireless consensus network architecture. Ways
+- language: en
+  script: Latn
+  content: This document describes of wireless consensus network architecture. Ways
     to construct wireless consensus networks (MAC/PHY; Decent./Cent. Comm.). Protocols
     of wireless consensus networks. Use case of wireless consensus network. Performance
     metrics of consensus mechanisms. Timelines of objectives.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: network management
-- content: PDL
-- content: Wireless
-- content: wireless ad-hoc network
+- taxon:
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: PDL
+  - language: en
+    script: Latn
+    content: Wireless
+  - language: en
+    script: Latn
+    content: wireless ad-hoc network
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

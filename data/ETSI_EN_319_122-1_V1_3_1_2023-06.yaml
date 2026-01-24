@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319122-1V1.3.12023-06
+id: ETSIEN3191221V131202306
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
     Part 1: Building blocks and CAdES baseline signatures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64294
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319100_319199/31912201/01.03.01_60/en_31912201v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 122-1 V1.3.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64294
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319100_319199/31912201/01.03.01_60/en_31912201v010301p.pdf
+docidentifier:
+- content: ETSI EN 319 122-1 V1.3.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 122-1 V1.3.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Several small points:\r\n1) if not disruptive, update the references to
+- language: en
+  script: Latn
+  content: "Several small points:\r\n1) if not disruptive, update the references to
     external standards\r\n2) reference TS 119 511 instead of the old preservation
     document\r\n3) clarify when cms-algorithm-protection attribute is usefule\r\n4)
     reference TS 119 122-3 in the foreword"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: CAdES
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

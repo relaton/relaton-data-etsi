@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR238ed.11995-10
+id: ETSIETR238ed1199510
+schema_version: v1.4.1
 title:
-- content: ETSI/CENELEC standardization programme for the development of Harmonized
+- language: en
+  script: Latn
+  content: ETSI/CENELEC standardization programme for the development of Harmonized
     Standards related to Electro-Magnetic Compatibility (EMC) in the field of telecommunications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3382
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/238/01_60/etr_238e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 238 ed.1 (1995-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3382
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/238/01_60/etr_238e01p.pdf
+docidentifier:
+- content: ETSI ETR 238 ed.1 (1995-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 238 ed.1 (1995-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio Equipment & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR specifies the standardization programme to be executed by\r\nETSI
+- language: en
+  script: Latn
+  content: "This ETR specifies the standardization programme to be executed by\r\nETSI
     and CENELEC with the objective of developing harmonized EMC\r\nstandards for telecommunications
     equipment/installations/networks,\r\nsatellite earth station equipment and radiocommunications
     equipment.\r\nThis ETR has been produced in response to, and to satisfy, the mandate\r\nBC-T-319
@@ -58,18 +68,18 @@ abstract:
     will consist of:\r\n- new standards;\r\n- re-issue of already existing standards,
     amended where necessary to\r\ncover the essential requirements of the Directives
     related to EMC;\r\n- a combination of the two above.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Radio Equipment & Systems
+    content: ETSI Technical Report

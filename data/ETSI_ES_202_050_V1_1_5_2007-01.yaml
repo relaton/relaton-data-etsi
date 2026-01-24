@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202050V1.1.52007-01
+id: ETSIES202050V115200701
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
     speech recognition; Advanced front-end feature extraction algorithm; Compression
     algorithms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25817
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/202050/01.01.05_60/es_202050v010105p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 050 V1.1.5 (2007-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25817
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/202050/01.01.05_60/es_202050v010105p.pdf
+docidentifier:
+- content: ETSI ES 202 050 V1.1.5 (2007-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 050 V1.1.5 (2007-01)
 date:
 - type: published
-  value: 2007-01
+  at: 2007-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Aurora Project
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.5
-revdate: 2007-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The Mel Cepstrum algorithm proposed as ES 201 108 is known to perform well
+- language: en
+  script: Latn
+  content: The Mel Cepstrum algorithm proposed as ES 201 108 is known to perform well
     in quiet environments, but there are other alrotithms that perform better in cars,
     airports, etc. This document will recommend an eventual alternative for the original
     ES.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: STQ Aurora Project
+    content: ETSI Standard

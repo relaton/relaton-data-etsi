@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103151V1.1.12013-09
+id: ETSITR103151V111201309
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Tests on
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Tests on
     the immunity of Wind Profiler Radar to transmissions from RFID, ALDs and GSM
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42388
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103151/01.01.01_60/tr_103151v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 151 V1.1.1 (2013-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42388
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103151/01.01.01_60/tr_103151v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 151 V1.1.1 (2013-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 151 V1.1.1 (2013-09)
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The TR will report on tests undertaken at the Met Office site in Camborne
+- language: en
+  script: Latn
+  content: The TR will report on tests undertaken at the Met Office site in Camborne
     UK to investigate possible interference between Wind Profiler Radar and transmissions
     by RFID, ALDs and GSM in the proposed new sub-band 915 MHz to 918 MHz .
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: RFID
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Report

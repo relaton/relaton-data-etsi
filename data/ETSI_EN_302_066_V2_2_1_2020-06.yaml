@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302066V2.2.12020-06
+id: ETSIEN302066V221202006
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD); Ground- and Wall- Probing Radio determination
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD); Ground- and Wall- Probing Radio determination
     (GPR/WPR) devices; Harmonised Standard for access to radio spectrum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/302066/02.02.01_60/en_302066v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 066 V2.2.1 (2020-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/302066/02.02.01_60/en_302066v020201p.pdf
+docidentifier:
+- content: ETSI EN 302 066 V2.2.1 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 066 V2.2.1 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update the Interferer Signal Handling requirement (adding limit) and editorial
+- language: en
+  script: Latn
+  content: "Update the Interferer Signal Handling requirement (adding limit) and editorial
     amendments based on adding this new limit (clause 3).\r\nAmending title to reflect
     radio determination possibilities of such device."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: SRD
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: European Standard

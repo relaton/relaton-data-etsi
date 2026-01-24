@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103325V1.2.12022-07
+id: ETSITS103325V121202207
+schema_version: v1.4.1
 title:
-- content: Smart Body Area Network (SmartBAN); Low Complexity Medium Access Control
+- language: en
+  script: Latn
+  content: Smart Body Area Network (SmartBAN); Low Complexity Medium Access Control
     (MAC) for SmartBAN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50077
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103325/01.02.01_60/ts_103325v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 325 V1.2.1 (2022-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50077
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103325/01.02.01_60/ts_103325v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 325 V1.2.1 (2022-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 325 V1.2.1 (2022-07)
 date:
 - type: published
-  value: 2022-07
+  at: 2022-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Body Area Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2022-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The WI is focused on relay capability in the MAC (two-hop capability).
+- language: en
+  script: Latn
+  content: "The WI is focused on relay capability in the MAC (two-hop capability).
     The two main focus areas / scope of the NWI are: \r\n1) relay node functionality
     enabling a two hop communication within a SmartBAN and \r\n2) hub to hub communication.
     \r\n\r\nThe possible use of different radios/ frequency bands is considered for
     the hop."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HEALTH
-- content: INTERFACE
-- content: INTEROPERABILITY
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart Body Area Network
+    content: Technical Specification

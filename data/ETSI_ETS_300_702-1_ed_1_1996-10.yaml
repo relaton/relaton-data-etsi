@@ -1,63 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300702-1ed.11996-10
+id: ETSIETS3007021ed1199610
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Global System for
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Global System for
     Mobile communications (GSM); DECT/GSM Interworking Profile (IWP); Part 1: Profile
     Test Specification (PTS) summary'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30070201/01_60/ets_30070201e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 702-1 ed.1 (1996-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30070201/01_60/ets_30070201e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 702-1 ed.1 (1996-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 702-1 ed.1 (1996-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Profile Test Specification (PTS) for testing if an equipment\r\ncomplies
+- language: en
+  script: Latn
+  content: "Profile Test Specification (PTS) for testing if an equipment\r\ncomplies
     with the DECT/GSM interworking profile. The DECT/GSM PTS\r\nis based on the GAP
     test spec and the DECT CI testing spec TCL\r\n(DE/RES-03026-01 to 9) and includes
     Profile Specific Test\r\nSpecification (PSTS).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: GSM
-- content: PTS
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: PTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: DECT
+    content: European Telecommunication Standard

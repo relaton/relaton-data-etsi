@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101699V1.1.11999-11
+id: ETSITS101699V111199911
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Extensions to the Common Interface Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8181
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101699/01.01.01_60/ts_101699v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 699 V1.1.1 (1999-11)
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Extensions to the Common Interface Specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8181
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101699/01.01.01_60/ts_101699v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 699 V1.1.1 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 699 V1.1.1 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specifications presents a set of extensions to the comand interface
+- language: en
+  script: Latn
+  content: "This specifications presents a set of extensions to the comand interface
     protocols of the common interface standardised in EN 50221.  these provide facilities
     to allow a diverse range of functions to be delivered to receivers throught modules
     attacehd to the common interface.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

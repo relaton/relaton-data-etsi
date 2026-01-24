@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300287-2ed.11996-11
+id: ETSIETS3002872ed1199611
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Transaction
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Transaction
     Capabilities (TC) version 2; Part 2: Protocol Implementation Conformance Statement
     (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2113
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/30028702/01_60/ets_30028702e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 287-2 ed.1 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2113
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/30028702/01_60/ets_30028702e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 287-2 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 287-2 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Protocol Implementation Conformance Statement Proforma for TC\r\nimplementations
+- language: en
+  script: Latn
+  content: "Protocol Implementation Conformance Statement Proforma for TC\r\nimplementations
     of ETS 300 287\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: PICS
-- content: SS7
-- content: TCAP
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TCAP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: European Telecommunication Standard

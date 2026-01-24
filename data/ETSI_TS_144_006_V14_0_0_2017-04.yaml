@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS144006V14.0.02017-04
+id: ETSITS144006V1400201704
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Station
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Station
     - Base Station System (MS - BSS) interface; Data Link (DL) layer specification
     (3GPP TS 44.006 version 14.0.0 Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52092
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/144000_144099/144006/14.00.00_60/ts_144006v140000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 144 006 V14.0.0 (2017-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52092
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/144000_144099/144006/14.00.00_60/ts_144006v140000p.pdf
+docidentifier:
+- content: ETSI TS 144 006 V14.0.0 (2017-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 144 006 V14.0.0 (2017-04)
 date:
 - type: published
-  value: 2017-04
+  at: 2017-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Legacy RAN radio and protocol
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.0.0
-revdate: 2017-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#75
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#75
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Legacy RAN radio and protocol
+    content: Technical Specification

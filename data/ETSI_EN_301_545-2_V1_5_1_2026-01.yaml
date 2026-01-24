@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301545-2V1.5.12026-01
+id: ETSIEN3015452V151202601
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Second Generation DVB Interactive Satellite
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Second Generation DVB Interactive Satellite
     System (DVB-RCS2); Part 2: Lower Layers for Satellite standard'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75493
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301500_301599/30154502/01.05.01_20/en_30154502v010501a.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 545-2 V1.5.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75493
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301500_301599/30154502/01.05.01_20/en_30154502v010501a.pdf
+docidentifier:
+- content: ETSI EN 301 545-2 V1.5.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 545-2 V1.5.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This WI will add support for NGSO constellations. The operational bandwidth
+- language: en
+  script: Latn
+  content: This WI will add support for NGSO constellations. The operational bandwidth
     of the return link was extended and lower roll-off waveforms were introduced.  Major
     amendments included the addition of DVB-S2X waveforms on the return link, either
     within the TDMA grid or over a continuous carrier, replacing the former continuous
     carrier waveform, which was deprecated.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: EN approval
 keyword:
-- content: DVB
-- content: INTERACTION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

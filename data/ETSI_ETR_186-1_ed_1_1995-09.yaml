@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR186-1ed.11995-09
+id: ETSIETR1861ed1199509
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Interaction between IN Application Protocol
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Interaction between IN Application Protocol
     (INAP) and Integrated Services Digital Network (ISDN) signalling protocols; Part
     1: Switching signalling requirements for IN Capability Set 1 (CS1) service support
     in a Narrowband ISDN (N-ISDN) environment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1105
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/18601/01_60/etr_18601e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 186-1 ed.1 (1995-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1105
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/18601/01_60/etr_18601e01p.pdf
+docidentifier:
+- content: ETSI ETR 186-1 ed.1 (1995-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 186-1 ed.1 (1995-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the signalling requirements for interaction between IN\r\nCS1
+- language: en
+  script: Latn
+  content: "Definition of the signalling requirements for interaction between IN\r\nCS1
     services and ISUP/DSS1 switched based services in an N-ISDN\r\nenvironment\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS1
-- content: IN
-- content: INAP
-- content: INTERACTION
-- content: ISDN
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: IN protocols
+    content: ETSI Technical Report

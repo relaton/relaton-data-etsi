@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS124173V7.9.02009-06
+id: ETSITS124173V790200906
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; IMS Multimedia
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; IMS Multimedia
     telephony service and supplementary services; Stage 3 (3GPP TS 24.173 version
     7.9.0 Release 7)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31200
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/124100_124199/124173/07.09.00_60/ts_124173v070900p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 124 173 V7.9.0 (2009-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31200
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124100_124199/124173/07.09.00_60/ts_124173v070900p.pdf
+docidentifier:
+- content: ETSI TS 124 173 V7.9.0 (2009-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 124 173 V7.9.0 (2009-06)
 date:
 - type: published
-  value: 2009-06
+  at: 2009-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM [lu] (formely CN1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.9.0
-revdate: 2009-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-44
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-44
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MM/CC/SM [lu] (formely CN1)
+    content: Technical Specification

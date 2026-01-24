@@ -1,63 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125401V4.6.02002-12
+id: ETSITS125401V460200212
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); UTRAN Overall Description
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); UTRAN Overall Description
     (3GPP TS 25.401 version 4.6.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17988
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125400_125499/125401/04.06.00_60/ts_125401v040600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 401 V4.6.0 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17988
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125400_125499/125401/04.06.00_60/ts_125401v040600p.pdf
+docidentifier:
+- content: ETSI TS 125 401 V4.6.0 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 401 V4.6.0 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.6.0
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-18
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-18
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

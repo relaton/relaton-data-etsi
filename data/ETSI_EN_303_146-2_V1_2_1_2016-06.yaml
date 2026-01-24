@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303146-2V1.2.12016-06
+id: ETSIEN3031462V121201606
+schema_version: v1.4.1
 title:
-- content: 'Reconfigurable Radio Systems (RRS); Mobile Device (MD) information models
+- language: en
+  script: Latn
+  content: 'Reconfigurable Radio Systems (RRS); Mobile Device (MD) information models
     and protocols; Part 2: Reconfigurable Radio Frequency Interface (RRFI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47212
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303100_303199/30314602/01.02.01_60/en_30314602v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 146-2 V1.2.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47212
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303100_303199/30314602/01.02.01_60/en_30314602v010201p.pdf
+docidentifier:
+- content: ETSI EN 303 146-2 V1.2.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 146-2 V1.2.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: REA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Specification will define the Reconfigurable Radio Frequency
+- language: en
+  script: Latn
+  content: This Technical Specification will define the Reconfigurable Radio Frequency
     Interface (RRFI) supporting reconfiguration of the radio front-ends in mobile
     devices. The work will be based on the Radio Reconfiguration related Architecture
     for Mobile Devices.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: MOBILE
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: REA - Reconfigurable Radio Equipment Architecture
+    content: European Standard

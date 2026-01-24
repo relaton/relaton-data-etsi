@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101088V1.1.11997-08
+id: ETSITR101088V111199708
+schema_version: v1.4.1
 title:
-- content: 'Network Aspects (NA); Cordless Terminal Mobility (CTM): Numbering and
+- language: en
+  script: Latn
+  content: 'Network Aspects (NA); Cordless Terminal Mobility (CTM): Numbering and
     Identifying'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3632
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101088/01.01.01_60/tr_101088v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 088 V1.1.1 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3632
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101088/01.01.01_60/tr_101088v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 088 V1.1.1 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 088 V1.1.1 (1997-08)
 date:
 - type: published
-  value: 1997-08
+  at: 1997-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Determination of numbering and routing procedures for CTM.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Determination of numbering and routing procedures for CTM.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: CTM
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: Technical Report

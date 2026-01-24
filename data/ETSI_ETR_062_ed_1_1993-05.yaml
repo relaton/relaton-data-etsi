@@ -1,61 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR062ed.11993-05
+id: ETSIETR062ed1199305
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Baseline document on the integration of Intelligent
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Baseline document on the integration of Intelligent
     Network (IN) and Telecommunication Management Network (TMN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=922
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/062/01_60/etr_062e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 062 ed.1 (1993-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=922
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/062/01_60/etr_062e01p.pdf
+docidentifier:
+- content: ETSI ETR 062 ed.1 (1993-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 062 ed.1 (1993-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provision of an analysis of the managment related aspects of IN.\r\nFurthermore
+- language: en
+  script: Latn
+  content: "Provision of an analysis of the managment related aspects of IN.\r\nFurthermore
     it describes how TMN & IN concepts relate to each other &\r\nprovides a way to
     integrate the architecture & modelling concepts of\r\nboth areas. It is based
     on the current status of work in ETSI NA6 &\r\nCCITT SG XI.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: ETSI Technical Report

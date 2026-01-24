@@ -1,66 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103688V1.1.12022-05
+id: ETSITR103688V111202205
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Study on receiver requirements in
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Study on receiver requirements in
     ETSI EN 302 571
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58232
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103688/01.01.01_60/tr_103688v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 688 V1.1.1 (2022-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58232
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103688/01.01.01_60/tr_103688v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 688 V1.1.1 (2022-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 688 V1.1.1 (2022-05)
 date:
 - type: published
-  value: 2022-05
+  at: 2022-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gcmV2aWV3IHJlcXVpcmVtZW50cyBvbiB0aGUgcmVjZWl2ZXIgc2Vuc2l0aXZpdHksIGFkamFjZW50IGNoYW5uZWwgcmVqZWN0aW9uIGFuZCB0aGUgYWx0ZXJuYXRlIGFkamFjZW50IGNoYW5uZWwgcmVqZWN0aW9uIChyZWZlcnJlZCB0byBhcyDigJxyZWNlaXZlciByZXF1aXJlbWVudHPigJ0gaW4gdGhlIGZvbGxvd2luZykgaW4gRU4gMzAyIDU3MSB3aXRoIHRoZSBhaW0NCuKAoglUbyBpZGVudGlmeSB0ZWNobmljYWwgb3Igb3BlcmF0aW9uYWwgbmVlZHMgZm9yIHRpZ2h0ZW5pbmcgY3VycmVudCBsaW1pdHMgZm9yIHJlY2VpdmVyIHJlcXVpcmVtZW50cyBpbiBFTiAzMDIgNTcxLCBhbmQgaWYgeWVzLCB0byB3aGljaCBleHRlbnQuDQrigKIJVG8gYXNzZXNzIHRoZSBmZWFzaWJpbGl0eSBvZiBkZWZpbmluZyBzdWNoIHJlY2VpdmVyIHJlcXVpcmVtZW50cyBhbmQgYXNzb2NpYXRlZCB0ZXN0cyBmb3IgZGVtb25zdHJhdGluZyBjb21wbGlhbmNlIGluIGEgdGVjaG5vbG9neSBuZXV0cmFsIG1hbm5lci4gDQrigKIJSWYgbm90IGZlYXNpYmxlLCB0byBzcGVjaWZ5IGFsdGVybmF0aXZlIHJlY2VpdmVyIHJlcXVpcmVtZW50cyBhbmQgYXNzb2NpYXRlZCB0ZXN0cyBmb3IgZGVtb25zdHJhdGluZyBjb21wbGlhbmNlLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To review requirements on the receiver sensitivity, adjacent channel rejection
+    and the alternate adjacent channel rejection (referred to as receiver requirements
+    in the following) in EN 302 571 with the aim\r\n\tTo identify technical or operational
+    needs for tightening current limits for receiver requirements in EN 302 571, and
+    if yes, to which extent.\r\n\tTo assess the feasibility of defining such receiver
+    requirements and associated tests for demonstrating compliance in a technology
+    neutral manner. \r\n\tIf not feasible, to specify alternative receiver requirements
+    and associated tests for demonstrating compliance."
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: radio parameters
-- content: RECEIVER
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: radio parameters
+  - language: en
+    script: Latn
+    content: RECEIVER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: Technical Report

@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS128312V18.8.02025-07
+id: ETSITS128312V1880202507
+schema_version: v1.4.1
 title:
-- content: LTE; 5G; Management and orchestration; Intent driven management services
+- language: en
+  script: Latn
+  content: LTE; 5G; Management and orchestration; Intent driven management services
     for mobile networks (3GPP TS 28.312 version 18.8.0 Release 18)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75109
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/128300_128399/128312/18.08.00_60/ts_128312v180800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 128 312 V18.8.0 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75109
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/128300_128399/128312/18.08.00_60/ts_128312v180800p.pdf
+docidentifier:
+- content: ETSI TS 128 312 V18.8.0 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 128 312 V18.8.0 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 18.8.0
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#108
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#108
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

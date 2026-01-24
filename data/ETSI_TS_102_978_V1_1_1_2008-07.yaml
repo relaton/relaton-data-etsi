@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102978V1.1.12008-07
+id: ETSITS102978V111200807
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); IPDC Services; Transport specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27741
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102978/01.01.01_60/ts_102978v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 978 V1.1.1 (2008-07)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); IPDC Services; Transport specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27741
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102978/01.01.01_60/ts_102978v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 978 V1.1.1 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 978 V1.1.1 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies the transport of IPDC services using the
+- language: en
+  script: Latn
+  content: The present document specifies the transport of IPDC services using the
     MSC stream mode of DAB (EN 300 401 [10]) including additional error protection
     (TS 102 427 [11]). The present document specifies the mechanism for the multiplexing
     of multimedia services using MPEG-2 TS[14]. For efficiency, some appropriate restrictions
@@ -54,21 +63,27 @@ abstract:
     time slicing for power-efficient transmission of IPDC Services in DAB systems.
     Therefore audio and video can be transmitted at variable bit-rates. The methods
     for sub-channel synchronization and data arrangement are specified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DAB
-- content: DATA
-- content: DIGITAL
-- content: RADIO
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

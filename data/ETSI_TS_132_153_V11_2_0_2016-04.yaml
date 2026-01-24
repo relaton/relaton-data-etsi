@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132153V11.2.02016-04
+id: ETSITS132153V1120201604
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); LTE; Telecommunication management; Integration
     Reference Point (IRP) technology specific templates, rules and guidelines (3GPP
     TS 32.153 version 11.2.0 Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49707
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132100_132199/132153/11.02.00_60/ts_132153v110200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 153 V11.2.0 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49707
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132100_132199/132153/11.02.00_60/ts_132153v110200p.pdf
+docidentifier:
+- content: ETSI TS 132 153 V11.2.0 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 153 V11.2.0 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.2.0
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#71
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#71
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

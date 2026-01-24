@@ -1,70 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301271V1.2.12001-07
+id: ETSIEN301271V121200107
+schema_version: v1.4.1
 title:
-- content: Telecommunications Management Network (TMN); Management interfaces associated
+- language: en
+  script: Latn
+  content: Telecommunications Management Network (TMN); Management interfaces associated
     with the VB5.1 reference point;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9285
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301271/01.02.01_60/en_301271v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 271 V1.2.1 (2001-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9285
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301271/01.02.01_60/en_301271v010201p.pdf
+docidentifier:
+- content: ETSI EN 301 271 V1.2.1 (2001-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 271 V1.2.1 (2001-07)
 date:
 - type: published
-  value: 2001-07
+  at: 2001-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Switching Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of EN 301 271 to align with ITU SG4 Q21 and ITU Q832.1.\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Revision of EN 301 271 to align with ITU SG4 Q21 and ITU Q832.1.\r\n \r\n"
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: OAM
-- content: PERFORMANCE
-- content: Q3 INTERFACE
-- content: TMN
-- content: V5 INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: OAM
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: V5 INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Access Switching Management
+    content: European Standard

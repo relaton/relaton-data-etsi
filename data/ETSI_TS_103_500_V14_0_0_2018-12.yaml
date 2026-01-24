@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103500V14.0.02018-12
+id: ETSITS103500V1400201812
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Embedded UICC; Profile Package (Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51318
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103500/14.00.00_60/ts_103500v140000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 500 V14.0.0 (2018-12)
+- language: en
+  script: Latn
+  content: Smart Cards; Embedded UICC; Profile Package (Release 14)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51318
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103500/14.00.00_60/ts_103500v140000p.pdf
+docidentifier:
+- content: ETSI TS 103 500 V14.0.0 (2018-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 500 V14.0.0 (2018-12)
 date:
 - type: published
-  value: 2018-12
+  at: 2018-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.0.0
-revdate: 2018-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work item will create a specification that references the SIMalliance
+- language: en
+  script: Latn
+  content: "The work item will create a specification that references the SIMalliance
     Interoperable Profile Package format, with a view to allow\r\n\r\nIPR issue"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: MFF
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: MFF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET-TEC
+    content: Technical Specification

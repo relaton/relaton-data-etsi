@@ -1,66 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102563V2.1.12017-01
+id: ETSITS102563V211201701
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); DAB+ audio coding (MPEG HE-AACv2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50627
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102563/02.01.01_60/ts_102563v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 563 V2.1.1 (2017-01)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); DAB+ audio coding (MPEG HE-AACv2)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50627
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102563/02.01.01_60/ts_102563v020101p.pdf
+docidentifier:
+- content: ETSI TS 102 563 V2.1.1 (2017-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 563 V2.1.1 (2017-01)
 date:
 - type: published
-  value: 2017-01
+  at: 2017-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2017-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Minor revisions to reflect changes to EN 300 401
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Minor revisions to reflect changes to EN 300 401
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: CODING
-- content: DAB
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

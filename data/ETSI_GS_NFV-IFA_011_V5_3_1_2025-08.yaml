@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA011V5.3.12025-08
+id: ETSIGSNFVIFA011V531202508
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74277
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/011/05.03.01_60/gs_NFV-IFA011v050301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 011 V5.3.1 (2025-08)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74277
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/011/05.03.01_60/gs_NFV-IFA011v050301p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 011 V5.3.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 011 V5.3.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 011 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 011 continues the development of the specification
     as part of the NFV Release 5. This edition will add requirements to support the
     Release 5 features. The scope of the former edition is summarized hereafter:\r\n\r\nNFV-IFA
     011 provides requirements for the structure and format of a VNF Package to describe
     the VNF properties and associated resource requirements in an interoperable template.
     The focus is on VNF packaging, meta-model descriptors (e.g. VNFD) and package
     integrity and security considerations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: orchestration
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

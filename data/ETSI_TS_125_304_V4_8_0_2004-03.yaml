@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125304V4.8.02004-03
+id: ETSITS125304V480200403
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
     procedures in idle mode and procedures for cell reselection in connected mode
     (3GPP TS 25.304 version 4.8.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20446
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125304/04.08.00_60/ts_125304v040800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 304 V4.8.0 (2004-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20446
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125304/04.08.00_60/ts_125304v040800p.pdf
+docidentifier:
+- content: ETSI TS 125 304 V4.8.0 (2004-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 304 V4.8.0 (2004-03)
 date:
 - type: published
-  value: 2004-03
+  at: 2004-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.8.0
-revdate: 2004-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-23
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-23
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

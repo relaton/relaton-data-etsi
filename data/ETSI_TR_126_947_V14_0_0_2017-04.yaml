@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR126947V14.0.02017-04
+id: ETSITR126947V1400201704
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; Multimedia Broadcast/Multicast
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; Multimedia Broadcast/Multicast
     Service (MBMS); Selection and characterisation of application layer Forward Error
     Correction (FEC) (3GPP TR 26.947 version 14.0.0 Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51960
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/126900_126999/126947/14.00.00_60/tr_126947v140000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 126 947 V14.0.0 (2017-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51960
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/126900_126999/126947/14.00.00_60/tr_126947v140000p.pdf
+docidentifier:
+- content: ETSI TR 126 947 V14.0.0 (2017-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 126 947 V14.0.0 (2017-04)
 date:
 - type: published
-  value: 2017-04
+  at: 2017-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.0.0
-revdate: 2017-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#75
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#75
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Codec
+    content: Technical Report

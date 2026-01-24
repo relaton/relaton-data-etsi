@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA051V5.1.12023-10
+id: ETSIGRNFVIFA051V511202310
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Architectural framework;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Architectural framework;
     Report on VNF management gap analysis with open source projects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66856
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/051/05.01.01_60/gr_NFV-IFA051v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 051 V5.1.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66856
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/051/05.01.01_60/gr_NFV-IFA051v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 051 V5.1.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 051 V5.1.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item aims to analyze the gaps on VNF management between ETSI
+- language: en
+  script: Latn
+  content: "This work item aims to analyze the gaps on VNF management between ETSI
     NFV specifications and the related open source projects, such as but not limited
     to ONAP, OSM and Openstack Tacker, the work includes:\r\n-\tAnalysis of differences
     between VNFD model and the model used in the open source porject, such as but
@@ -56,19 +65,21 @@ abstract:
     based on the above analysis. \r\nRecommendations on the normative work related
     for improving the VNFD information model and VNF LCM interface operations according
     to the analysis output will might be delivered."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: gap analysis
-- content: open source
-- content: VNF
+- taxon:
+  - language: en
+    script: Latn
+    content: gap analysis
+  - language: en
+    script: Latn
+    content: open source
+  - language: en
+    script: Latn
+    content: VNF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

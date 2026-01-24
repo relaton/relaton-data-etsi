@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126142V12.0.02014-10
+id: ETSITS126142V1200201410
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; Dynamic and Interactive
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; Dynamic and Interactive
     Multimedia Scenes (DIMS) (3GPP TS 26.142 version 12.0.0 Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45065
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126100_126199/126142/12.00.00_60/ts_126142v120000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 142 V12.0.0 (2014-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45065
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126100_126199/126142/12.00.00_60/ts_126142v120000p.pdf
+docidentifier:
+- content: ETSI TS 126 142 V12.0.0 (2014-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 142 V12.0.0 (2014-10)
 date:
 - type: published
-  value: 2014-10
+  at: 2014-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.0.0
-revdate: 2014-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-65
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-65
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

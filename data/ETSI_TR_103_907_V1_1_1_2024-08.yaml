@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103907V1.1.12024-08
+id: ETSITR103907V111202408
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Test methods for insert
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Test methods for insert
     type headsets enabled with structure-borne speech capture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67387
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103907/01.01.01_60/tr_103907v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 907 V1.1.1 (2024-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67387
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103907/01.01.01_60/tr_103907v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 907 V1.1.1 (2024-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 907 V1.1.1 (2024-08)
 date:
 - type: published
-  value: 2024-08
+  at: 2024-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document collects test setups and test methods for headsets
+- language: en
+  script: Latn
+  content: The present document collects test setups and test methods for headsets
     which use human structure-borne voice as an additional input signal to the airborne
     transmitted voice of the near end talker. The work includes test setup description
     and validation procedures and tests focusing on the time variant behaviour of
     signal processing used in headsets.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: bone conduction
-- content: headset
-- content: sound
-- content: SPEECH
-- content: structure-borne
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: bone conduction
+  - language: en
+    script: Latn
+    content: headset
+  - language: en
+    script: Latn
+    content: sound
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: structure-borne
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

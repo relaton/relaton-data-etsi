@@ -1,74 +1,99 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103222-4V1.2.12025-02
+id: ETSITS1032224V121202502
+schema_version: v1.4.1
 title:
-- content: 'Speech and multimedia Transmission Quality (STQ); Reference benchmarking,
+- language: en
+  script: Latn
+  content: 'Speech and multimedia Transmission Quality (STQ); Reference benchmarking,
     background traffic profiles and KPIs; Part 4: Reference benchmarking for IPTV,
     Web TV and RCS-e Video Share'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73696
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10322204/01.02.01_60/ts_10322204v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 222-4 V1.2.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73696
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10322204/01.02.01_60/ts_10322204v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 222-4 V1.2.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 222-4 V1.2.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision will aim to repair the structure of the multipart document with
+- language: en
+  script: Latn
+  content: Revision will aim to repair the structure of the multipart document with
     respect to the recent revision of TS 103 222-3 and resolve other issues if any.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: CST
-- content: EPC
-- content: IMS
-- content: KPI
-- content: QoS
-- content: SPEECH
-- content: Vo5G
-- content: VoLTE
-- content: VoNR
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: CST
+  - language: en
+    script: Latn
+    content: EPC
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: KPI
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: Vo5G
+  - language: en
+    script: Latn
+    content: VoLTE
+  - language: en
+    script: Latn
+    content: VoNR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

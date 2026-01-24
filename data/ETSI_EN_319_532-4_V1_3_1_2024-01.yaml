@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319532-4V1.3.12024-01
+id: ETSIEN3195324V131202401
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Registered Electronic
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Registered Electronic
     Mail (REM) Services; Part 4: Interoperability profiles'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66847
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319500_319599/31953204/01.03.01_60/en_31953204v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 532-4 V1.3.1 (2024-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66847
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319500_319599/31953204/01.03.01_60/en_31953204v010301p.pdf
+docidentifier:
+- content: ETSI EN 319 532-4 V1.3.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 532-4 V1.3.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The goal of this Work Item is to review EN 319 532-4 v1.2.1 for harmonising
+- language: en
+  script: Latn
+  content: The goal of this Work Item is to review EN 319 532-4 v1.2.1 for harmonising
     its contents to the rest of the framework of ERDS and REM standards. More specifically,
     harmonization of the specification of the semantics and the syntax of RelayEvidenceInfoERDS
     Evidence extension  and the new Reason Codes identified during the production
     of REM Baseline, shall be considered and dealt with.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-delivery services
-- content: registered e-delivery services
-- content: registered electronic mail
+- taxon:
+  - language: en
+    script: Latn
+    content: e-delivery services
+  - language: en
+    script: Latn
+    content: registered e-delivery services
+  - language: en
+    script: Latn
+    content: registered electronic mail
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: European Standard

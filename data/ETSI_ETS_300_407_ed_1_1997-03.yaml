@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300407ed.11997-03
+id: ETSIETS300407ed1199703
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
     Parameters for DRRS for the transmission of digital signals and analogue video
     signals operating around 55 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=834
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300407/01_60/ets_300407e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 407 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=834
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300407/01_60/ets_300407e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 407 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 407 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Not defined.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Not defined.
+status:
+  stage: Historical
 keyword:
-- content: ANALOGUE
-- content: DIGITAL
-- content: DRRS
-- content: RADIO
-- content: TRANSMISSION
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Telecommunication Standard

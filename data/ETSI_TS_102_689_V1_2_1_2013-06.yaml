@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102689V1.2.12013-06
+id: ETSITS102689V121201306
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); M2M service requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37695
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102689/01.02.01_60/ts_102689v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 689 V1.2.1 (2013-06)
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); M2M service requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37695
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102689/01.02.01_60/ts_102689v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 689 V1.2.1 (2013-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 689 V1.2.1 (2013-06)
 date:
 - type: published
-  value: 2013-06
+  at: 2013-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This working item will describe the end to end system requirements in terms
+- language: en
+  script: Latn
+  content: This working item will describe the end to end system requirements in terms
     of capabilities for supporting M2M communication services.  Use cases for M2M
     services will be documented in informative annexes to help deriving relevant capabilities.
     Specific M2M service definition is outside the scope of this document although
     some aspects may need to be analysed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: Requirements
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

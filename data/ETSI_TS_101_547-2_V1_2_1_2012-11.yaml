@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101547-2V1.2.12012-11
+id: ETSITS1015472V121201211
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Plano-stereoscopic 3DTV; Part 2: Frame
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Plano-stereoscopic 3DTV; Part 2: Frame
     Compatible Plano-stereoscopic 3DTV'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39897
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10154702/01.02.01_60/ts_10154702v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 547-2 V1.2.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39897
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10154702/01.02.01_60/ts_10154702v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 547-2 V1.2.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 547-2 V1.2.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The already exisiting 3DTV spec TS 101 547 will be changed into a multipart
+- language: en
+  script: Latn
+  content: "The already exisiting 3DTV spec TS 101 547 will be changed into a multipart
     document and a new part, Phase 2 A will be added.\r\nPart 2 is a revision of TS
     101 547 v1.1.1 and will be published as TS 101 547-2 v1.2.1."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3DTV
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: 3DTV
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

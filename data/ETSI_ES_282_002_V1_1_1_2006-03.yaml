@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIES282002V1.1.12006-03
+id: ETSIES282002V111200603
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); PSTN/ISDN Emulation Sub-system (PES); Functional architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20622
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/282000_282099/282002/01.01.01_60/es_282002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 282 002 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20622
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/282000_282099/282002/01.01.01_60/es_282002v010101p.pdf
+docidentifier:
+- content: ETSI ES 282 002 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 282 002 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'NGN Release 1: Describe the functional architecture for PSTN/ISDN Emulation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'NGN Release 1: Describe the functional architecture for PSTN/ISDN Emulation'
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Standard

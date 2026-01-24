@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300323-4ed.11994-04
+id: ETSIETS3003234ed1199404
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Public Access Profile
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Public Access Profile
     (PAP) test specification; Part 4: PT PIXIT proforma'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1913
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30032304/01_60/ets_30032304e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 323-4 ed.1 (1994-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1913
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30032304/01_60/ets_30032304e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 323-4 ed.1 (1994-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 323-4 ed.1 (1994-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based upon the Public Access Profile (ETS 300 175-9) & ISO 9646, to\r\ndevelop
+- language: en
+  script: Latn
+  content: "Based upon the Public Access Profile (ETS 300 175-9) & ISO 9646, to\r\ndevelop
     a PT & FT abstract test suite. This shall include both the\r\ntests required for
     TBR 11 & those required for voluntary conformance\r\ntesting, in total, all of
     the PAP features. The tests shall use the\r\nRemote Single Layer Embedded test
     method.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: MOBILE
-- content: PAP
-- content: PIXIT
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PAP
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: DECT
+    content: European Telecommunication Standard

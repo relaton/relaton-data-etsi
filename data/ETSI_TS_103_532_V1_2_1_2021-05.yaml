@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103532V1.2.12021-05
+id: ETSITS103532V121202105
+schema_version: v1.4.1
 title:
-- content: CYBER; Attribute Based Encryption for Attribute Based Access Control
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62733
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103532/01.02.01_60/ts_103532v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 532 V1.2.1 (2021-05)
+- language: en
+  script: Latn
+  content: CYBER; Attribute Based Encryption for Attribute Based Access Control
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62733
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103532/01.02.01_60/ts_103532v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 532 V1.2.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 532 V1.2.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Maintenance WI to correct message encryption in clause 4.5.4 CCA-secure
+- language: en
+  script: Latn
+  content: Maintenance WI to correct message encryption in clause 4.5.4 CCA-secure
     CP-ABE
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: access control
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

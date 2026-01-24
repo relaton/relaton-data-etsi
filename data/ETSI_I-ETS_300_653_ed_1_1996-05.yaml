@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300653ed.11996-05
+id: ETSIIETS300653ed1199605
+schema_version: v1.4.1
 title:
-- content: Telecommunications Management Network (TMN); Generic managed object class
+- language: en
+  script: Latn
+  content: Telecommunications Management Network (TMN); Generic managed object class
     library for the network level view
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2160
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300653/01_60/iets_300653e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 653 ed.1 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2160
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300653/01_60/iets_300653e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 653 ed.1 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 653 ed.1 (1996-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide a generic information model for use at TMN interfaces\r\nand
+- language: en
+  script: Latn
+  content: "To provide a generic information model for use at TMN interfaces\r\nand
     for specialisation for technology specific network models\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: NETWORK
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: Interim European Telecommunication Standard

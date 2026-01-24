@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103149V1.2.12019-07
+id: ETSITR103149V121201907
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); DECT operating in the 1 900 MHz - 1
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); DECT operating in the 1 900 MHz - 1
     920 MHz band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54083
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103149/01.02.01_60/tr_103149v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 149 V1.2.1 (2019-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54083
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103149/01.02.01_60/tr_103149v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 149 V1.2.1 (2019-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 149 V1.2.1 (2019-07)
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2019-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item revises the System Reference document (SRdoc) ETSI TR 103
+- language: en
+  script: Latn
+  content: 'This work item revises the System Reference document (SRdoc) ETSI TR 103
     149 v.1.1.1 with updated information on DECT and DECT ULE. Further, the revision
     will inform about the running activities at ETSI towards DECT evolution and DECT-2020
     targeting to serve new application domains like Wireless Automation, Industry
     4.0 and Creative and Culture Industry including PMSE. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

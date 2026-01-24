@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE012V3.1.12017-12
+id: ETSIGRNFVEVE012V311201712
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Evolution and Ecosystem;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Evolution and Ecosystem;
     Report on Network Slicing Support with ETSI NFV Architecture Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51391
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/012/03.01.01_60/gr_NFV-EVE012v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 012 V3.1.1 (2017-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51391
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/012/03.01.01_60/gr_NFV-EVE012v030101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 012 V3.1.1 (2017-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 012 V3.1.1 (2017-12)
 date:
 - type: published
-  value: 2017-12
+  at: 2017-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2017-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will analyze Use Cases related to Network Slicing as defined
+- language: en
+  script: Latn
+  content: This Work Item will analyze Use Cases related to Network Slicing as defined
     in SDOs and industry fora. Furthermore, the WID will document how these use cases
     could be mapped to current NFV concepts and supported by the ETSI NFV architecture
     framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: NFV
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

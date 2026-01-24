@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102314-6V1.1.22004-12
+id: ETSITR1023146V112200412
+schema_version: v1.4.1
 title:
-- content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 6: Control strings
+- language: en
+  script: Latn
+  content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 6: Control strings
     (service codes) for MMS functions and MMS supplementary services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21477
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10231406/01.01.02_60/tr_10231406v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 314-6 V1.1.2 (2004-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21477
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10231406/01.01.02_60/tr_10231406v010102p.pdf
+docidentifier:
+- content: ETSI TR 102 314-6 V1.1.2 (2004-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 314-6 V1.1.2 (2004-12)
 date:
 - type: published
-  value: 2004-12
+  at: 2004-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2004-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document defines the control strings (service codes) for MMS functions
+- language: en
+  script: Latn
+  content: "This document defines the control strings (service codes) for MMS functions
     and MMS supplementary services as defined in the service description of the Multimedia
     Messaging Service (MMS). \r\nThese MMS control strings can be used between a Multimedia
     Messaging Terminal Equipment (MM-TE) and a Multimedia Messaging Service Centre
     (MM-SC) to control both the MMS functions and the optional MMS supplementary services.\r\nThese
     MMS control strings can be used via PSTN/ISDN accesses."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MMS
-- content: PSTN
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MMS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: AT Features
+    content: Technical Report

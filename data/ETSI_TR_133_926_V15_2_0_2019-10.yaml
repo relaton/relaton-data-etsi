@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR133926V15.2.02019-10
+id: ETSITR133926V1520201910
+schema_version: v1.4.1
 title:
-- content: LTE; Security Assurance Specification (SCAS) threats and critical assets
+- language: en
+  script: Latn
+  content: LTE; Security Assurance Specification (SCAS) threats and critical assets
     in 3GPP network product classes (3GPP TR 33.926 version 15.2.0 Release 15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58587
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133926/15.02.00_60/tr_133926v150200p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 133 926 V15.2.0 (2019-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58587
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133926/15.02.00_60/tr_133926v150200p.pdf
+docidentifier:
+- content: ETSI TR 133 926 V15.2.0 (2019-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 133 926 V15.2.0 (2019-10)
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.2.0
-revdate: 2019-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#85
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#85
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

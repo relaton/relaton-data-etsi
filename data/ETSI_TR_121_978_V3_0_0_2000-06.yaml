@@ -1,66 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR121978V3.0.02000-06
+id: ETSITR121978V300200006
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Feasibility Technical
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Feasibility Technical
     Report - CAMEL Control of VoIP Services (3G TR 21.978 version 3.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11297
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121978/03.00.00_60/tr_121978v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 121 978 V3.0.0 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11297
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121978/03.00.00_60/tr_121978v030000p.pdf
+docidentifier:
+- content: ETSI TR 121 978 V3.0.0 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 121 978 V3.0.0 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CAMEL
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To study the feasibility of a core network CAMEL server controlling voice
+- language: en
+  script: Latn
+  content: "To study the feasibility of a core network CAMEL server controlling voice
     services carried by VoIP within a GPRS PDP Context using:\r\n1)An architecture
     based on ITU-T, H.323 family of recommendations.\r\n2)An architecture based on
     IETF SIP specifications. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: CAMEL
+    content: Technical Report

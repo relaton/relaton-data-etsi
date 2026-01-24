@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT028V1.1.12023-04
+id: ETSIGRmWT028V111202304
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    TmV3IEtQSeKAmXMgZm9yIHBsYW5uaW5nIG1pY3Jvd2F2ZSBhbmQgbWlsbGltZXRlciB3YXZlIGJhY2toYXVsIG5ldHdvcms=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62014
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/028/01.01.01_60/gr_mWT028v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 028 V1.1.1 (2023-04)
+- language: en
+  script: Latn
+  content: New KPIs for planning microwave and millimeter wave backhaul network
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62014
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/028/01.01.01_60/gr_mWT028v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 028 V1.1.1 (2023-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 028 V1.1.1 (2023-04)
 date:
 - type: published
-  value: 2023-04
+  at: 2023-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimetre Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SWRlbnRpZnkgbmV3IEtQSeKAmXMgdGFraW5nIGludG8gYWNjb3VudCB0aGUgZXZvbHV0aW9uIG9mIHdpcmVsZXNzIGJhY2toYXVsOg0KLSBtb3JlIGNoYWxsZW5naW5nIHJlcXVpcmVtZW50cyBjb21pbmcgZnJvbSA1RyBkZXBsb3ltZW50DQotIG5ldyB0ZWNobm9sb2dpZXMgYWltaW5nIGF0IG1vcmUgZWZmaWNpZW50IGludGVyZmVyZW5jZSBtaXRpZ2F0aW9uIGFuZCBjYW5jZWxsYXRpb24NCi0gaW5jcmVhc2Ugb2YgdXNlIG9mIHNwZWN0cnVtIGluIHRoZSBtaWxsaW1ldHJlLXdhdmUgcmFuZ2UsIHN0YW5kLWFsb25lIGFuZCBhZ2dyZWdhdGVkIChCQ0EpDQotIGRpZmZlcmVudCB0eXBvbG9neSBhbmQgbWl4IG9mIHNlcnZpY2VzIHRyYW5zcG9ydGVkDQpBbmFseXNpcyBvZiBhcHBsaWNhYmlsaXR5IG9mIHRoZSBuZXcgS1BJ4oCZcw0KSXNvbGF0ZWQgbGlua3MgYW5kIENoYWlucw0KSHVicyANCk1vcmUgZ2VuZXJhbCBnZW9ncmFwaGljIGFyZWFzIChpLmUuIGNsdXN0ZXJzIG9mIGh1YnMpDQpBbmFseXNpcyBvZiB0aGUgaW1wYWN0cyBvZiB0aGUgbmV3IEtQSeKAmXMgb246DQpOZXR3b3JrIHBsYW5uaW5nDQpFcXVpcG1lbnQgc3RhbmRhcmRzDQpTcGVjdHJ1bSByZWd1bGF0aW9ucyBhbmQgbGljZW5zaW5nDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Identify new KPIs taking into account the evolution of wireless backhaul:\r\n-
+    more challenging requirements coming from 5G deployment\r\n- new technologies
+    aiming at more efficient interference mitigation and cancellation\r\n- increase
+    of use of spectrum in the millimetre-wave range, stand-alone and aggregated (BCA)\r\n-
+    different typology and mix of services transported\r\nAnalysis of applicability
+    of the new KPIs\r\nIsolated links and Chains\r\nHubs \r\nMore general geographic
+    areas (i.e. clusters of hubs)\r\nAnalysis of the impacts of the new KPIs on:\r\nNetwork
+    planning\r\nEquipment standards\r\nSpectrum regulations and licensing\r\n"
+status:
+  stage: Published
 keyword:
-- content: backhaul
-- content: microwave
-- content: Millimetre wave
+- taxon:
+  - language: en
+    script: Latn
+    content: backhaul
+  - language: en
+    script: Latn
+    content: microwave
+  - language: en
+    script: Latn
+    content: Millimetre wave
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimetre Wave Transmission
+    content: Group Report

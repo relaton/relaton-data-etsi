@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102683V1.1.12009-09
+id: ETSITR102683V111200909
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Cognitive Pilot Channel (CPC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28810
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102683/01.01.01_60/tr_102683v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 683 V1.1.1 (2009-09)
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Cognitive Pilot Channel (CPC)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28810
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102683/01.01.01_60/tr_102683v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 683 V1.1.1 (2009-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 683 V1.1.1 (2009-09)
 date:
 - type: published
-  value: 2009-09
+  at: 2009-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: FA&CPC - Functional Architecture and Cognitive Pilot Channel
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The scope of this study item is proposed to cover cognitive pilot channel
+- language: en
+  script: Latn
+  content: The scope of this study item is proposed to cover cognitive pilot channel
     to support and facilitate end-to-end connectivity in a heterogeneous radio access
     environment where technologies are used in a flexible and dynamic manner in their
     spectrum allocation context
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: CONFIGURATION
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: FA&CPC - Functional Architecture and Cognitive Pilot Channel
+    content: Technical Report

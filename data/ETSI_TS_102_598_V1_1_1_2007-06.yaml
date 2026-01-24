@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102598V1.1.12007-06
+id: ETSITS102598V111200706
+schema_version: v1.4.1
 title:
-- content: 'Methods for Testing and Specification (MTS); Internet Protocol Testing
+- language: en
+  script: Latn
+  content: 'Methods for Testing and Specification (MTS); Internet Protocol Testing
     (IPT): IPv6 Mobility; Interoperability Test Suite'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24370
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102598/01.01.01_60/ts_102598v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 598 V1.1.1 (2007-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24370
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102598/01.01.01_60/ts_102598v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 598 V1.1.1 (2007-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 598 V1.1.1 (2007-06)
 date:
 - type: published
-  value: 2007-06
+  at: 2007-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IP Testing Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Development of interoperability test purposes and corresponding test descriptions
+- language: en
+  script: Latn
+  content: Development of interoperability test purposes and corresponding test descriptions
     for Mobile IPv6 as derived from the Requirements Catalogue.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IP
-- content: IPv6
-- content: MOBILITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IP Testing Group
+    content: Technical Specification

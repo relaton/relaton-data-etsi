@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202951V1.1.12011-07
+id: ETSIES202951V111201107
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Model-Based Testing (MBT);
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Model-Based Testing (MBT);
     Requirements for Modelling Notations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33492
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202900_202999/202951/01.01.01_60/es_202951v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 951 V1.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33492
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202900_202999/202951/01.01.01_60/es_202951v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 951 V1.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 951 V1.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document shall identify and collect all relevant concepts that model
+- language: en
+  script: Latn
+  content: This document shall identify and collect all relevant concepts that model
     specifications developed primarily for testing should include. Its intent is to
     enable MBT tools to automatically generate test specifications suitable for standardization
     from such models, i.e., test specifications in a format similar to the one written
     by hand today. Concepts are to be specified independent of a specific modelling
     language. Mappings of concepts to concrete modelling languages may be provided
     in future versions in the Annex of the document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Standard

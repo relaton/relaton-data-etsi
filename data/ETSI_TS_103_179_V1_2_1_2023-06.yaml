@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103179V1.2.12023-06
+id: ETSITS103179V121202306
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Return Link Encapsulation (RLE)
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Return Link Encapsulation (RLE)
     protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63515
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103179/01.02.01_60/ts_103179v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 179 V1.2.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63515
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103179/01.02.01_60/ts_103179v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 179 V1.2.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 179 V1.2.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Correction of figure 5.2 Addressed Link PDU Format and possible other improvements/corrections.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Correction of figure 5.2 Addressed Link PDU Format and possible other improvements/corrections.
+status:
+  stage: Published
 keyword:
-- content: MSS
-- content: PROTOCOL
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Specification

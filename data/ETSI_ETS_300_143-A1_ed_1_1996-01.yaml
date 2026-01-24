@@ -1,64 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300143/A1ed.11996-01
+id: ETSIETS300143A1ed1199601
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Audiovisual services; Inband
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Audiovisual services; Inband
     signalling procedures for audiovisual terminals using digital channels up to 2
     048 kbit/s
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2513
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300143/01_60/ets_300143e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 143/A1 ed.1 (1996-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2513
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300143/01_60/ets_300143e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 143/A1 ed.1 (1996-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 143/A1 ed.1 (1996-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To include requirements on A-law/u-law implementation in ETS 300 143\r\n
+- language: en
+  script: Latn
+  content: "To include requirements on A-law/u-law implementation in ETS 300 143\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: INBAND
-- content: ISDN
-- content: SIGNALLING
-- content: TERMINAL
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: INBAND
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SIGNALLING
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: European Telecommunication Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE019V5.1.12023-10
+id: ETSIGRNFVEVE019V511202310
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Architectural Framework;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Architectural Framework;
     Report on VNF generic OAM functions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66222
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/019/05.01.01_60/gr_NFV-EVE019v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 019 V5.1.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66222
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/019/05.01.01_60/gr_NFV-EVE019v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 019 V5.1.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 019 V5.1.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item will revise the published GR NFV-EVE019 to further investigate
+- language: en
+  script: Latn
+  content: "This work item will revise the published GR NFV-EVE019 to further investigate
     \ in Release 5 aspects of VNF generic OAM relevant to:\r\na) the way automation
     can be incorporated within the set (or framework) of VNF  generic OAM functions.\r\nb)
     the mechanisms that can simplify the management of VNF network connectivity on
@@ -55,23 +64,33 @@ abstract:
     use cases and will also delineate a set of possible design options and potential
     solutions, and the impact on the NFV framework and the specified VNF generic OAM
     functions. Both container and VM-based environments will be considered. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: automation
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: OAM
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: OAM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

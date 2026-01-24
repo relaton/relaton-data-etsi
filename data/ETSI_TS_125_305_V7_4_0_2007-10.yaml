@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125305V7.4.02007-10
+id: ETSITS125305V740200710
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
     positioning in Universal Terrestrial Radio Access Network (UTRAN); Stage 2 (3GPP
     TS 25.305 version 7.4.0 Release 7)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125305/07.04.00_60/ts_125305v070400p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 305 V7.4.0 (2007-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125305/07.04.00_60/ts_125305v070400p.pdf
+docidentifier:
+- content: ETSI TS 125 305 V7.4.0 (2007-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 305 V7.4.0 (2007-10)
 date:
 - type: published
-  value: 2007-10
+  at: 2007-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.4.0
-revdate: 2007-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-37
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-37
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

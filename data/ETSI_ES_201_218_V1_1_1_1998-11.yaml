@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201218V1.1.11998-11
+id: ETSIES201218V111199811
+schema_version: v1.4.1
 title:
-- content: Multimedia Terminals and Applications (MTA); Application Programming Interface
+- language: en
+  script: Latn
+  content: Multimedia Terminals and Applications (MTA); Application Programming Interface
     (API) for DAVIC Service Information (SI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4930
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201200_201299/201218/01.01.01_60/es_201218v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 218 V1.1.1 (1998-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4930
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201200_201299/201218/01.01.01_60/es_201218v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 218 V1.1.1 (1998-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 218 V1.1.1 (1998-11)
 date:
 - type: published
-  value: 1998-11
+  at: 1998-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminal Application Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify an API for DAVIC Service Information. This allows applications
+- language: en
+  script: Latn
+  content: "To specify an API for DAVIC Service Information. This allows applications
     running on a set Top Unit (STU) to access DAVIC SI in a standardized way. Three
     kinds of applications will benefit from this API:\r\n- MHEG5 applications\r\n-
     Virtual Machine (Java) applications\r\n- directly executable (private) applications\r\n-
     This API is needed to implement Electronic Program Guide (EPG) application that
     is not built in the STU but can be dynamically downloaded\r\nSupported by Austrian
     PTT, TeleDanmark, FT and KPN"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MULTIMEDIA
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Multimedia Terminal Application Architecture
+    content: ETSI Standard

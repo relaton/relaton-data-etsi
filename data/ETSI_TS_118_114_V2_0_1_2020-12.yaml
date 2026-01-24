@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118114V2.0.12020-12
+id: ETSITS118114V201202012
+schema_version: v1.4.1
 title:
-- content: oneM2M; LWM2M Interworking (oneM2M TS-0014 version 2.0.1 Release 2A)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53411
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118114/02.00.01_60/ts_118114v020001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 114 V2.0.1 (2020-12)
+- language: en
+  script: Latn
+  content: oneM2M; LWM2M Interworking (oneM2M TS-0014 version 2.0.1 Release 2A)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53411
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118114/02.00.01_60/ts_118114v020001p.pdf
+docidentifier:
+- content: ETSI TS 118 114 V2.0.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 114 V2.0.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: a work item to produce an interworking specification between oneM2M IN/MN
+- language: en
+  script: Latn
+  content: a work item to produce an interworking specification between oneM2M IN/MN
     CSEs and LWM2M Servers and Clients based on the TS-0001 Annex F architecture.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

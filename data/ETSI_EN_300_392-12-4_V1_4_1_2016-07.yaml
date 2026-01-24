@@ -1,70 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300392-12-4V1.4.12016-07
+id: ETSIEN300392124V141201607
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
     services stage 3; Sub-part 4: Call Forwarding (CF)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42975
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/3003921204/01.04.01_60/en_3003921204v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 392-12-4 V1.4.1 (2016-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42975
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/3003921204/01.04.01_60/en_3003921204v010401p.pdf
+docidentifier:
+- content: ETSI EN 300 392-12-4 V1.4.1 (2016-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 392-12-4 V1.4.1 (2016-07)
 date:
 - type: published
-  value: 2016-07
+  at: 2016-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2016-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SW5jbHVzaW9uIG9mIGFwcHJvdmVkIGNoYW5nZSByZXF1ZXN0cyB0byBTUyBDYWxsIEZvcndhcmRpbmcgc3RhbmRhcmQgRU4gMzAwIDM5Mi0xMi00LiBUaGUgbWFpbiBpc3N1ZSBpcyB1cGRhdGluZyBvZiB0aGUgU1MtQ0Ygd2l0aCBuZXcgZnVuY3Rpb25hbGl0eSAoYWRkaW5nIG9mIGEgcGFyYW1ldGVyaXplIGNvbW1hbmQpIGFzIHJlcXVpcmVkIGluIHRoZSBUQ0NBIHNlcnZpY2Ugb3ZlcnZpZXcg4oCcU0JTU00gUGhhc2UgMWHigJ0u
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Inclusion of approved change requests to SS Call Forwarding standard EN
+    300 392-12-4. The main issue is updating of the SS-CF with new functionality (adding
+    of a parameterize command) as required in the TCCA service overview SBSSM Phase
+    1a.
+status:
+  stage: Published
 keyword:
-- content: CF
-- content: LATE ENTRY
-- content: RADIO
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: LATE ENTRY
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: European Standard

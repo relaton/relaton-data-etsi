@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102292V1.2.12015-07
+id: ETSITS102292V121201507
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM) services and architectures; Functional architecture for IP interworking
     with BSM networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44512
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102292/01.02.01_60/ts_102292v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 292 V1.2.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44512
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102292/01.02.01_60/ts_102292v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 292 V1.2.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 292 V1.2.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Further development of the TS providing a definition of a suite of functions,
+- language: en
+  script: Latn
+  content: Further development of the TS providing a definition of a suite of functions,
     functional architecture and interfaces to be included at the IP layer of BSM terminals,
     at both the user and network sides, to provide a complete set of addressing and
     routing functions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: BROADBAND
-- content: INTERWORKING
-- content: IP
-- content: SATELLITE
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Specification

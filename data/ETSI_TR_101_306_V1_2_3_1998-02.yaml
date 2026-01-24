@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101306V1.2.31998-02
+id: ETSITR101306V123199802
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Requirements for service interoperability; Scenario 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5866
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101306/01.02.03_60/tr_101306v010203p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 306 V1.2.3 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5866
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101306/01.02.03_60/tr_101306v010203p.pdf
+docidentifier:
+- content: ETSI TR 101 306 V1.2.3 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 306 V1.2.3 (1998-02)
 date:
 - type: published
-  value: 1998-02
+  at: 1998-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Requirements, charging and security matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.3
-revdate: 1998-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document identifies and defines required service mechanisms to en\r\nsure
+- language: en
+  script: Latn
+  content: "This document identifies and defines required service mechanisms to en\r\nsure
     service interoperability for TIPHON which are applicable to phase\r\nI. It includes,
     but not limited to, technical aspects of accounting a\r\nnd security.\r\n The
     approved delivery from this work item should be needed as a common\r\nbase line
     for TIPHON and should be used during the whole project life\r\ncycle regarding
     phase 1."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: INTERNET
-- content: NETWORK
-- content: PROTOCOL
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Requirements, charging and security matters
+    content: Technical Report

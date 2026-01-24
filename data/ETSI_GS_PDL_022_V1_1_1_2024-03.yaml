@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSPDL022V1.1.12024-03
+id: ETSIGSPDL022V111202403
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledgers (PDL); PDL in Wholesale Supply Chain Management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67660
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/022/01.01.01_60/gs_PDL022v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS PDL 022 V1.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledgers (PDL); PDL in Wholesale Supply Chain Management
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67660
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/022/01.01.01_60/gs_PDL022v010101p.pdf
+docidentifier:
+- content: ETSI GS PDL 022 V1.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS PDL 022 V1.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI will \r\n1.Discuss the use of PDL in a multi-domain/multi-entity
+- language: en
+  script: Latn
+  content: "This WI will \r\n1.Discuss the use of PDL in a multi-domain/multi-entity
     (provider/issuer) wholesale supply chain for services with emphasys on the ICT
     sector.\r\n2.Discuss the life cycle of an ICT service from inception throuhg quote,
     order, delivery, quality management, change management, settlement.\r\n3.Discuss
     the different use-cases of services with relation to the mix of manual and automated
     tasks.\r\n4.The GS will include flow diagrams and sequence diagrams.\r\n5.Study
     potential impact on PDL and RA."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: Distributed Ledger
-- content: ICT
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: Distributed Ledger
+  - language: en
+    script: Latn
+    content: ICT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Specification

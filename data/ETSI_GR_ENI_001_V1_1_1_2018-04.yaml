@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI001V1.1.12018-04
+id: ETSIGRENI001V111201804
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); ENI use cases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52850
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/001/01.01.01_60/gr_ENI001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 001 V1.1.1 (2018-04)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); ENI use cases
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52850
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/001/01.01.01_60/gr_ENI001v010101p.pdf
+docidentifier:
+- content: ETSI GR ENI 001 V1.1.1 (2018-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 001 V1.1.1 (2018-04)
 date:
 - type: published
-  value: 2018-04
+  at: 2018-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The WI will identify and describe use cases and scenarios that are enabled
+- language: en
+  script: Latn
+  content: 'The WI will identify and describe use cases and scenarios that are enabled
     with enhanced experience, through the use of network intelligence. The use cases
     and scenarios will detail where the intelligence can be applied in the fixed network,
     mobile network, or both. The report will give the baseline on how the studies
     in ENI will substantially benefit the operators and other stakeholders.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: MANAGEMENT
-- content: NETWORK
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

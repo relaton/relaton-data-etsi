@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129120V4.0.02002-08
+id: ETSITS129120V400200208
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Mobile Application Part
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Mobile Application Part
     (MAP) specification for Gateway Location Register (GLR); Stage 3 (3GPP TS 29.120
     version 4.0.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16228
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129120/04.00.00_60/ts_129120v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 120 V4.0.0 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16228
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129120/04.00.00_60/ts_129120v040000p.pdf
+docidentifier:
+- content: ETSI TS 129 120 V4.0.0 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 120 V4.0.0 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/GTP/BCH/SS
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NP-09
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: NP-09
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/GTP/BCH/SS
+    content: Technical Specification

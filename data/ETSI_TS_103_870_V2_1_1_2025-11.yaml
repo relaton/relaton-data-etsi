@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103870V2.1.12025-11
+id: ETSITS103870V211202511
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Test Mode (TM) for operational devices
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Test Mode (TM) for operational devices
     in the field; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64270
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103870/02.01.01_60/ts_103870v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 870 V2.1.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64270
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103870/02.01.01_60/ts_103870v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 870 V2.1.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 870 V2.1.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of a test environment for verification of specific radio requirements
+- language: en
+  script: Latn
+  content: Definition of a test environment for verification of specific radio requirements
     as well as functional requirements of an ITS-S in a non-shielded environment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: H.F.
-- content: ITS
-- content: SECURITY
-- content: TESTING
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: H.F.
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

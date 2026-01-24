@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103000-4-1V1.1.12003-06
+id: ETSITR10300041V111200306
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Analogue Access to Public Network; Advisory
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Analogue Access to Public Network; Advisory
     Notes to Standards harmonizing terminal interface; Part 4: Information arising
     from CEC decisions; Sub-part 1: General loop steady state requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18742
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/1030000401/01.01.01_60/tr_1030000401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 000-4-1 V1.1.1 (2003-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18742
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/1030000401/01.01.01_60/tr_1030000401v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 000-4-1 V1.1.1 (2003-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 000-4-1 V1.1.1 (2003-06)
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Information about change in the DC characteristics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Information about change in the DC characteristics
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ANALOGUE
-- content: INTERFACE
-- content: POTS
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: AT Analogue
+    content: Technical Report

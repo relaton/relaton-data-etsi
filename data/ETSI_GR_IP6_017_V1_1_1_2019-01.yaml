@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIP6017V1.1.12019-01
+id: ETSIGRIP6017V111201901
+schema_version: v1.4.1
 title:
-- content: 6TiSCH Interoperability Test Specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47555
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/017/01.01.01_60/gr_IP6017v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IP6 017 V1.1.1 (2019-01)
+- language: en
+  script: Latn
+  content: 6TiSCH Interoperability Test Specifications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47555
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/017/01.01.01_60/gr_IP6017v010101p.pdf
+docidentifier:
+- content: ETSI GR IP6 017 V1.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR IP6 017 V1.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 integration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Group Specification will provide interoperability Test Descriptions
+- language: en
+  script: Latn
+  content: This Group Specification will provide interoperability Test Descriptions
     for 6TiSCH technology. In this context, the focus will be on testing the IEEE802.15.4e
     and TSCH-MAC protocol, the RPL routing protocol, and the 6LoWPAN adaptation layer,
     according to draft-ietf-6tisch-minimal. The purpose of the interoperability testing
     is to prove end-to-end functionality between 6TiSCH implementations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 6TiSCH
-- content: IPv6
+- taxon:
+  - language: en
+    script: Latn
+    content: 6TiSCH
+  - language: en
+    script: Latn
+    content: IPv6
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 integration
+    content: Group Report

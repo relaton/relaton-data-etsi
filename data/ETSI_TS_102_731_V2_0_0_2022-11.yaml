@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102731V2.0.02022-11
+id: ETSITS102731V200202211
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Security Services and Architecture;
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Security Services and Architecture;
     Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102731/02.00.00_60/ts_102731v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 731 V2.0.0 (2022-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102731/02.00.00_60/ts_102731v020000p.pdf
+docidentifier:
+- content: ETSI TS 102 731 V2.0.0 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 731 V2.0.0 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Baseline Release 2 version of TS 102 731, previously published as TS 102
+- language: en
+  script: Latn
+  content: Baseline Release 2 version of TS 102 731, previously published as TS 102
     731 V1.1.1 (Release 1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Intelligent Transport Systems
+    content: Technical Specification

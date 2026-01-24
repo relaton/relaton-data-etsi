@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101977V1.1.12001-07
+id: ETSITR101977V111200107
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Study of the suitability of the GSM
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Study of the suitability of the GSM
     Adaptive Multi-Rate (AMR) speech codec for use in TETRA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13987
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101977/01.01.01_60/tr_101977v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 977 V1.1.1 (2001-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13987
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101977/01.01.01_60/tr_101977v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 977 V1.1.1 (2001-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 977 V1.1.1 (2001-07)
 date:
 - type: published
-  value: 2001-07
+  at: 2001-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Voice coding
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: An objective evaluation of Adaptive Multi Rate Codec on a TETRA simulator.
+- language: en
+  script: Latn
+  content: An objective evaluation of Adaptive Multi Rate Codec on a TETRA simulator.
     Requirements for the evaluation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: RADIO
-- content: TETRA
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Voice coding
+    content: Technical Report

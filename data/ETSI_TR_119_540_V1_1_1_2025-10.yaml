@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119540V1.1.12025-10
+id: ETSITR119540V111202510
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Trust Infrastructures (ESI); Standardization
+- language: en
+  script: Latn
+  content: Electronic Signatures and Trust Infrastructures (ESI); Standardization
     requirements for Smart Contracts based on Electronic Ledgers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69787
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119500_119599/119540/01.01.01_60/tr_119540v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 540 V1.1.1 (2025-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69787
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119500_119599/119540/01.01.01_60/tr_119540v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 540 V1.1.1 (2025-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 540 V1.1.1 (2025-10)
 date:
 - type: published
-  value: 2025-10
+  at: 2025-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This TR scopes standardisation requirements for smart contracts based on
+- language: en
+  script: Latn
+  content: This TR scopes standardisation requirements for smart contracts based on
     electronic ledgers.  It builds on existing and planned standardisation and publicly
     available specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: digital identity
-- content: ELECTRONIC SIGNATURE
-- content: INTERNET
-- content: SECURITY
-- content: smart contract
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: digital identity
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: smart contract
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Report

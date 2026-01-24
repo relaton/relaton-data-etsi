@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103138V1.6.12023-03
+id: ETSITR103138V161202303
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Speech samples and their
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Speech samples and their
     use for QoS testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66526
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103138/01.06.01_60/tr_103138v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 138 V1.6.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66526
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103138/01.06.01_60/tr_103138v010601p.pdf
+docidentifier:
+- content: ETSI TR 103 138 V1.6.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 138 V1.6.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document introduces and explains the use and application of
+- language: en
+  script: Latn
+  content: "The present document introduces and explains the use and application of
     speech samples to determine the objective listening quality (LQO) in different
     scenarios such as fix net to mobile and wideband and narrowband speech.\r\nThis
     revision is to reflect latest technologies and standards in voice transmission
@@ -55,19 +64,21 @@ abstract:
     prediction\r\n- Revised ITU-T P.863 'POLQA' ed. 3\r\n- Consideration of fullband
     audio analysis\r\n- Signal filtering for >14kHz signals and fullband\r\n- Consideration
     of VoIP, VoNR and evtl. OTT VoIP\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QoS
-- content: QUALITY
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300292ed.11995-01
+id: ETSIIETS300292ed1199501
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Functional specification of call routeing information
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Functional specification of call routeing information
     management on the Operations System/Network Element (OS/NE) interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=767
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300292/01_60/iets_300292e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 292 ed.1 (1995-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=767
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300292/01_60/iets_300292e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 292 ed.1 (1995-01)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 292 ed.1 (1995-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Production of an information model which covers the management aspects\r\nof
+- language: en
+  script: Latn
+  content: "Production of an information model which covers the management aspects\r\nof
     the routeing & digit analysis functions in the exchange. The scope\r\nis further
     limited to NE aspects onlyy & circuit switched networks\r\nonly. Traffic management
     controls do not for part of this model.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: MANAGEMENT
-- content: Q3 INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: Interim European Telecommunication Standard

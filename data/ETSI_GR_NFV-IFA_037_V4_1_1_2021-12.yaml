@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA037V4.1.12021-12
+id: ETSIGRNFVIFA037V411202112
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 4; Architectural Framework;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Architectural Framework;
     Report on further NFV support for 5G
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58461
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/037/04.01.01_60/gr_NFV-IFA037v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 037 V4.1.1 (2021-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58461
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/037/04.01.01_60/gr_NFV-IFA037v040101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 037 V4.1.1 (2021-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 037 V4.1.1 (2021-12)
 date:
 - type: published
-  value: 2021-12
+  at: 2021-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2021-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will investigate the impacts on NFV to support deployments
+- language: en
+  script: Latn
+  content: This work item will investigate the impacts on NFV to support deployments
     of 5G networks. It will assess the 5G network capabilities and features, and determine
     how NFV can provide a better support to facilitate the implementation and deployment
     of such networks by enhancing and/or profiling NFV capabilities/features. The
@@ -54,20 +63,24 @@ abstract:
     the NFV architectural framework and its functionality can be utilized and further
     enhanced to address the 5G network use cases. The resulting deliverable will be
     informative.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: ARCHITECTURE
-- content: MANAGEMENT
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

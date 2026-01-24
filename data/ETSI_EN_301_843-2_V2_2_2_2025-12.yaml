@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301843-2V2.2.22025-12
+id: ETSIEN3018432V222202512
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66904
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/30184302/02.02.02_20/en_30184302v020202ev.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 843-2 V2.2.2 (2025-12)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66904
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/30184302/02.02.02_20/en_30184302v020202ev.pdf
+docidentifier:
+- content: ETSI EN 301 843-2 V2.2.2 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 843-2 V2.2.2 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.2
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Alignment with the agreed text in EN 301 489 series
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Alignment with the agreed text in EN 301 489 series
+status:
+  stage: EN approval
 keyword:
-- content: EMC
-- content: Harmonised standard
-- content: MARITIME
-- content: RADIO
-- content: REGULATION
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

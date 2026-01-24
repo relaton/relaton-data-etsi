@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102644-1V1.1.12008-12
+id: ETSITR1026441V111200812
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); RFID Plugtests
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); RFID Plugtests
     to investigate the interoperability of tags manufactured by different vendors;
     Part 1: RFID Plugtests report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28892
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10264401/01.01.01_60/tr_10264401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 644-1 V1.1.1 (2008-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28892
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10264401/01.01.01_60/tr_10264401v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 644-1 V1.1.1 (2008-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 644-1 V1.1.1 (2008-12)
 date:
 - type: published
-  value: 2008-12
+  at: 2008-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document describes an RFID Plugtest that was performed at the
+- language: en
+  script: Latn
+  content: The present document describes an RFID Plugtest that was performed at the
     MGI centre in Neuss and at the VanDerLande premises in Veghel during the period
     11th  - 15th  June 2008. The purpose of the tests was to investigate if there
     were any problems of interoperability when multiple tags manufactured by different
     vendors were simultaneously present in the same interrogation field.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Report

@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103832V2.1.12023-06
+id: ETSITR103832V211202306
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
     of Applications; Study on ITS Support for Pre-Crash based Applications; Release
     2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63171
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103832/02.01.01_60/tr_103832v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 832 V2.1.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63171
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103832/02.01.01_60/tr_103832v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 832 V2.1.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 832 V2.1.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U3R1ZHkgYW5kIGRldmVsb3BtZW50IG9mIHRoZSByZXF1aXJlZCAocG90ZW50aWFsKSBJVFMgc3VwcG9ydC9lbmhhbmNlbWVudHMgZm9yIFByZS1DcmFzaCBiYXNlZCBhcHBsaWNhdGlvbnMgaW5jbHVkaW5nOg0K4oCiCURlZmluaXRpb24gYW5kIGRlc2NyaXB0aW9uIG9mIHRoZSByZWxldmFudCBQcmUtQ3Jhc2ggdXNlIGNhc2VzIA0K4oCiCURlZmluaXRpb24gb2YgdGhlIFByZS1DcmFzaCBwb3RlbnRpYWwgUmVxdWlyZW1lbnRzIA0K4oCiCURldmVsb3BtZW50IGFuZCBldmFsdWF0aW9uIG9mIHN1cHBvcnRpbmcvcmVxdWlyZWQgSVRTIGVuaGFuY2VtZW50czogDQpvCVVzYWdlIGFuZCBleHRlbnNpb25zIG9mIGV4aXN0aW5nIG1lc3NhZ2VzIHR5cGVzIG9yIHNlcnZpY2VzIHN1Y2ggYXMgZS5nLiBERU5NLg0KRmluYWwgZ29hbCBvZiB0aGlzIHdvcmsgd2lsbCBiZSB0byBwcm92aWRlIHRleHQgYW5kIEFTTi4xIGNvZGUgcHJvcG9zYWxzIGZvciB0aGUgaW1wbGVtZW50YXRpb24gb2YgdGhlIHJlcXVpcmVkIGVuaGFuY2VtZW50cyBmb3IgUHJlLUNyYXNoIGZ1bmN0aW9ucyBmb3IgcmVsZXZhbnQgc3BlY2lmaWNhdGlvbnMgKHN1Y2ggYXMpIGUuZy4NCi0JQXBwbGljYXRpb25zIGFuZCBmYWNpbGl0aWVzIGxheWVyIGNvbW1vbiBkYXRhIGRpY3Rpb25hcnkNCi0JU3BlY2lmaWNhdGlvbnMgb2YgRGVjZW50cmFsaXplZCBFbnZpcm9ubWVudGFsIE5vdGlmaWNhdGlvbiBCYXNpYyBTZXJ2aWNl
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Study and development of the required (potential) ITS support/enhancements
+    for Pre-Crash based applications including:\r\n\tDefinition and description of
+    the relevant Pre-Crash use cases \r\n\tDefinition of the Pre-Crash potential Requirements
+    \r\n\tDevelopment and evaluation of supporting/required ITS enhancements: \r\no\tUsage
+    and extensions of existing messages types or services such as e.g. DENM.\r\nFinal
+    goal of this work will be to provide text and ASN.1 code proposals for the implementation
+    of the required enhancements for Pre-Crash functions for relevant specifications
+    (such as) e.g.\r\n-\tApplications and facilities layer common data dictionary\r\n-\tSpecifications
+    of Decentralized Environmental Notification Basic Service"
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Report

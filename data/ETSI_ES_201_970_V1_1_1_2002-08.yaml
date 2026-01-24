@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201970V1.1.12002-08
+id: ETSIES201970V111200208
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Public Switched Telephone Network (PSTN); Harmonized
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Public Switched Telephone Network (PSTN); Harmonized
     specification of physical and electrical characteristics at a 2-wire analogue
     presented Network Termination Point (NTP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14053
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201900_201999/201970/01.01.01_60/es_201970v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 970 V1.1.1 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14053
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201900_201999/201970/01.01.01_60/es_201970v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 970 V1.1.1 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 970 V1.1.1 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Create a standard based on EG 201 188 experience where a new common NTP
+- language: en
+  script: Latn
+  content: Create a standard based on EG 201 188 experience where a new common NTP
     interface is standardised. This should provide line equipment manufacturers, especially
     those using new technologies, with enough technical details to ensure an appropriate
     inter-working with the most common existing European terminals supporting the
     most successful service provided by PSTN.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Analogue
+    content: ETSI Standard

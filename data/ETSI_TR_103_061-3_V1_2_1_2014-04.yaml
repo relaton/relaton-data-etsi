@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103061-3V1.2.12014-04
+id: ETSITR1030613V121201404
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Testing; Part 3: Conformance test
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Testing; Part 3: Conformance test
     specifications for Geographical addressing and forwarding for point-to-point and
     point-to-multipoint communications; GeoNetworking validation report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42426
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/10306103/01.02.01_60/tr_10306103v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 061-3 V1.2.1 (2014-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42426
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/10306103/01.02.01_60/tr_10306103v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 061-3 V1.2.1 (2014-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 061-3 V1.2.1 (2014-04)
 date:
 - type: published
-  value: 2014-04
+  at: 2014-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transport and Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2014-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The ETSI Technical Report (TR) will provide the statistics of executed
+- language: en
+  script: Latn
+  content: The ETSI Technical Report (TR) will provide the statistics of executed
     and validated tests which the prototype test system run against real equipment.
     Furthermore it will provide  a section on the validation of the test specifications
     and base specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: OTE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: OTE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Transport and Network
+    content: Technical Report

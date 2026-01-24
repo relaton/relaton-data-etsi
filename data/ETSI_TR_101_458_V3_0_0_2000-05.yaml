@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101458V3.0.02000-05
+id: ETSITR101458V300200005
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Future direction of
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Future direction of
     standards work on UMTS/IMT-2000
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8806
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101458/03.00.00_60/tr_101458v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 458 V3.0.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8806
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101458/03.00.00_60/tr_101458v030000p.pdf
+docidentifier:
+- content: ETSI TR 101 458 V3.0.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 458 V3.0.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Universal Mobile Telecommunications Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Version 3.0.0 of this TR is the result of the consultation with the other
+- language: en
+  script: Latn
+  content: "Version 3.0.0 of this TR is the result of the consultation with the other
     ETSI TBs and outside ETSI.\r\n________\r\nStandardisation work beyond the Initial
     Phase of UMTS (the initial phase of UMTS is covered by the Third Generation Partnership
     Project - 3GPP) will initially focus on \"Services\" and Systems Architecture\".
@@ -71,17 +80,15 @@ abstract:
     for UMTS Phases 2/3 that will not be provided in the Initial Phase of UMTS in
     3GPP?\r\n _______________ \r\nSupporting organisations (BT, Alcatel, France Telecom,
     DTI, Nortel, Motorola, ...)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Universal Mobile Telecommunications Systems
+    content: Technical Report

@@ -1,65 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300778-2ed.11998-01
+id: ETSIETS3007782ed1199801
+schema_version: v1.4.1
 title:
-- content: 'Public Switched Telephone Network (PSTN); Protocol over the local loop
+- language: en
+  script: Latn
+  content: 'Public Switched Telephone Network (PSTN); Protocol over the local loop
     for display and related services; Terminal Equipment requirements; Part 2: On-line
     data transmission'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4160
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077802/01_60/ets_30077802e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 778-2 ed.1 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4160
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077802/01_60/ets_30077802e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 778-2 ed.1 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 778-2 ed.1 (1998-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the access requirements for TE intended to receive data\r\nprovided
+- language: en
+  script: Latn
+  content: "Definition of the access requirements for TE intended to receive data\r\nprovided
     by a caller display service based on the protocols defined\r\nin DE/SPS-03034-2.
     \ The requirements are intended to ensure\r\ncorrect reception of data by a TE
     when connected to the PSTN caller\r\ndisplay services as defined in DE/SPS-03034-2.\r\nNew
     Work Item supported by BT, Deutsche Telekom, Ericsson, France\r\nTelecom, Mercury
     Communications and Nortel.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIP
-- content: PSTN
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: European Telecommunication Standard

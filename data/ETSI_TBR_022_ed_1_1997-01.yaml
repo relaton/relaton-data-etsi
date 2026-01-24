@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR022ed.11997-01
+id: ETSITBR022ed1199701
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); Attachment requirements for terminal
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); Attachment requirements for terminal
     equipment for Digital Enhanced Cordless Telecommunications (DECT) Generic Access
     Profile (GAP) applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2841
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/022/01_60/tbr_022e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 022 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2841
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/022/01_60/tbr_022e01p.pdf
+docidentifier:
+- content: ETSI TBR 022 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 022 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical charcteristics which shall be provided by terminal equipment\r\nwhich
+- language: en
+  script: Latn
+  content: "Technical charcteristics which shall be provided by terminal equipment\r\nwhich
     is capable of connection to a public telecommunications network\r\n(1) and which
     uses DECT cordless communications. These requirements\r\nshall apply to DECT equipment
     providing any telephony application.\r\nThe cordless transmission of such terminal
@@ -64,19 +74,21 @@ abstract:
     in due course, the scope statement may need amending to\r\nreflect this point.\r\nNote
     2: It is expected that this document will be based on the radio\r\nand protocol
     provisions of ETS 300 175\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DECT
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: DECT
+    content: Technical Basis for Regulation

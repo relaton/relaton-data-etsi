@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119412-2V2.0.162015-07
+id: ETSITS1194122V2016201507
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
     Part 2: Certificate profile for certificates issued to natural persons'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47095
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941202/02.00.16_60/ts_11941202v020016p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 412-2 V2.0.16 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47095
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941202/02.00.16_60/ts_11941202v020016p.pdf
+docidentifier:
+- content: ETSI TS 119 412-2 V2.0.16 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 412-2 V2.0.16 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.16
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies requirements on the content of certificates
+- language: en
+  script: Latn
+  content: "The present document specifies requirements on the content of certificates
     issued to natural persons.This profile builds on RFC 5280 for generic profiling
     of X.509 | ISO/IEC 9594-8.  \r\nThis profile supports the requirements of EU qualified
     certificates as specified in the Regulation (EU) No 910/2014 [i.8] as well as
@@ -64,21 +73,27 @@ abstract:
     are adequately defined by the respective application or protocol. It is therefore
     outside the scope of the present document to specify such application or protocol
     specific certificate content.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: PROFILE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300019-1-7V2.1.42003-04
+id: ETSIEN30001917V214200304
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); Environmental conditions and environmental
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); Environmental conditions and environmental
     tests for telecommunications equipment; Part 1-7: Classification of environmental
     conditions; Portable and non-stationary use'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18727
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300001_300099/3000190107/02.01.04_60/en_3000190107v020104p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 019-1-7 V2.1.4 (2003-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18727
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300001_300099/3000190107/02.01.04_60/en_3000190107v020104p.pdf
+docidentifier:
+- content: ETSI EN 300 019-1-7 V2.1.4 (2003-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 019-1-7 V2.1.4 (2003-04)
 date:
 - type: published
-  value: 2003-04
+  at: 2003-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Environmental Conditions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.4
-revdate: 2003-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document defines classes of environmental conditions and their
+- language: en
+  script: Latn
+  content: The present document defines classes of environmental conditions and their
     severities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENVIRONMENT
-- content: EQUIPMENT PRACTICE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: EQUIPMENT PRACTICE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Environmental Conditions
+    content: European Standard

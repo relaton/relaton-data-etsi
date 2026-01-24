@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103170V1.1.12012-11
+id: ETSITR103170V111201211
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37761
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103170/01.01.01_60/tr_103170v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 170 V1.1.1 (2012-11)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37761
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103170/01.01.01_60/tr_103170v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 170 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 170 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Total Conversation, as defined in ITU-T F.703, is a combination of three
+- language: en
+  script: Latn
+  content: "Total Conversation, as defined in ITU-T F.703, is a combination of three
     media in a conversational call: video, real-time text and audio. Total conversation
     services and terminals are deployed in the Internet in a number of countries in
     Europe, and adopted by people with disabilities who, for example, need video for
@@ -62,24 +71,36 @@ abstract:
     of present ongoing standardisation work (e.g. 3GPP) and appropriate liaisons with
     relevant groups (e.g. EGEA) will be organised as required during the progress
     of this Work Item."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: Call Centre
-- content: DISABILITY
-- content: EMERGENCY
-- content: IP
-- content: LOCATION
-- content: Real-time text
-- content: Total conversation
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: Call Centre
+  - language: en
+    script: Latn
+    content: DISABILITY
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: Real-time text
+  - language: en
+    script: Latn
+    content: Total conversation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

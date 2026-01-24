@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRARF001V1.1.12019-04
+id: ETSIGRARF001V111201904
+schema_version: v1.4.1
 title:
-- content: Augmented Reality Framework (ARF); AR standards landscape
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54068
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/001/01.01.01_60/gr_ARF001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ARF 001 V1.1.1 (2019-04)
+- language: en
+  script: Latn
+  content: Augmented Reality Framework (ARF); AR standards landscape
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54068
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/001/01.01.01_60/gr_ARF001v010101p.pdf
+docidentifier:
+- content: ETSI GR ARF 001 V1.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR ARF 001 V1.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The report will identify the role of existing standards relevant to augmented
+- language: en
+  script: Latn
+  content: 'The report will identify the role of existing standards relevant to augmented
     reality  and document any interoperability gaps. This activity will analyse the
     standardization work done around augmented reality in various standards setting
     organizations. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Augmented Reality
-- content: INTEROPERABILITY
-- content: Platforms
+- taxon:
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: Platforms
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Report

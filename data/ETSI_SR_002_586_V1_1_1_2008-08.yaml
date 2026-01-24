@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSISR002586V1.1.12008-08
+id: ETSISR002586V111200808
+schema_version: v1.4.1
 title:
-- content: Electronic Communications Networks and Services Consequence on the NGN
+- language: en
+  script: Latn
+  content: Electronic Communications Networks and Services Consequence on the NGN
     standardization activity from the EU ECN&S regulatory view point
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25007
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/002500_002599/002586/01.01.01_60/sr_002586v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 002 586 V1.1.1 (2008-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25007
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/002500_002599/002586/01.01.01_60/sr_002586v010101p.pdf
+docidentifier:
+- content: ETSI SR 002 586 V1.1.1 (2008-08)
   type: ETSI
   primary: true
 docnumber: ETSI SR 002 586 V1.1.1 (2008-08)
 date:
 - type: published
-  value: 2008-08
+  at: 2008-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Communications Networks & Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provide an overall technical framework description to assist understanding
+- language: en
+  script: Latn
+  content: "Provide an overall technical framework description to assist understanding
     the role of individual elements in NGN standardisation, \r\nIdentify the relevant
     interfaces (interfaces between fixed/ mobile networks and services; between the
     \"private\" user domain / public domain) e.g.: architectural basic interfaces
@@ -57,21 +66,27 @@ abstract:
     view point covering public interest issues (Quality of service issues to users,
     etc.) and increasing of competition,\r\nIdentify areas where standardisation is
     needed to achieve public interest objectives and to increase competition."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: INTERWORKING
-- content: NETWORK
-- content: REGULATION
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Communications Networks & Services
+    content: Special Report

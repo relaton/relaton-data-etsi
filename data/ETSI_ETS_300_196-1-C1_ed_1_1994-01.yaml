@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300196-1/C1ed.11994-01
+id: ETSIETS3001961C1ed1199401
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Generic functional protocol
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Generic functional protocol
     for the support of supplementary services; Digital Subscriber Signalling System
     No. one (DSS1) protocol; Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4192
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/30019601/01_60/ets_30019601e01p_c1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 196-1/C1 ed.1 (1994-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4192
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/30019601/01_60/ets_30019601e01p_c1p.pdf
+docidentifier:
+- content: ETSI ETS 300 196-1/C1 ed.1 (1994-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 196-1/C1 ed.1 (1994-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Protocols & Switching
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Corringendum to:\r\n- correct NOTE 2 in Subclause 8.2.2.4;\r\n- correct
+- language: en
+  script: Latn
+  content: "Corringendum to:\r\n- correct NOTE 2 in Subclause 8.2.2.4;\r\n- correct
     text in Subclause 8.3.1.1.1.;\r\n- correct capitalization of ASN.1 operator in
     Table D.8;\r\n- correct capitalization of ASN.1 operator in Annex G.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: DSS1
-- content: FUNCTIONAL
-- content: GENERIC
-- content: ISDN
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Protocols & Switching
+    content: European Telecommunication Standard

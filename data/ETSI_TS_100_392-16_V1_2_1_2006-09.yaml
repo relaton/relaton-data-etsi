@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-16V1.2.12006-09
+id: ETSITS10039216V121200609
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 16: Network
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 16: Network
     Performance Metrics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23853
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039216/01.02.01_60/ts_10039216v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-16 V1.2.1 (2006-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23853
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039216/01.02.01_60/ts_10039216v010201p.pdf
+docidentifier:
+- content: ETSI TS 100 392-16 V1.2.1 (2006-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-16 V1.2.1 (2006-09)
 date:
 - type: published
-  value: 2006-09
+  at: 2006-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2006-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In order to achieve consistent audio performance in TETRA networks using
+- language: en
+  script: Latn
+  content: "In order to achieve consistent audio performance in TETRA networks using
     different terminals and other audio sources, certain values, e.g. nominal sending
     level for speech, need to be specified so that different equipment gives the same
     transmission performance. Both semi-duplex and full-duplex communications should
     be covered.\r\n\r\nStandardisation of test methods for audio performance parameters.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: PERFORMANCE
-- content: RADIO
-- content: SPEECH
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

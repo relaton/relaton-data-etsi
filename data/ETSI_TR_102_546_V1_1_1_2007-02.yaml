@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102546V1.1.12007-02
+id: ETSITR102546V111200702
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Technical
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Technical
     characteristics for Professional Wireless Microphone Systems (PWMS); System Reference
     Document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25113
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102546/01.01.01_60/tr_102546v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 546 V1.1.1 (2007-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25113
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102546/01.01.01_60/tr_102546v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 546 V1.1.1 (2007-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 546 V1.1.1 (2007-02)
 date:
 - type: published
-  value: 2007-02
+  at: 2007-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Identify the spectrum requirements for Professional Wireless Microphone
+- language: en
+  script: Latn
+  content: "Identify the spectrum requirements for Professional Wireless Microphone
     Systems. These are systems  for professional audio production and are, as a rule,
     high quality wireless audio transmission systems, including, but not limited to,
     wireless microphones, back-channel equipment (in-ear monitoring), wireless equipment
@@ -55,18 +64,18 @@ abstract:
     and their teams), and audio link test, correction and optimization equipment.\r\nThe
     professional nature of the intended system users differentiates these systems
     from 'consumer' systems."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

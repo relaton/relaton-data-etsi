@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101952-1-1V1.2.12004-12
+id: ETSITS10195211V121200412
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17099
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/1019520101/01.02.01_60/ts_1019520101v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 952-1-1 V1.2.1 (2004-12)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17099
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/1019520101/01.02.01_60/ts_1019520101v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 952-1-1 V1.2.1 (2004-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 952-1-1 V1.2.1 (2004-12)
 date:
 - type: published
-  value: 2004-12
+  at: 2004-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce a revision of sub-part 1-1 of TS 101 952, both improving the
+- language: en
+  script: Latn
+  content: "To produce a revision of sub-part 1-1 of TS 101 952, both improving the
     existing requirements on the low pass part of ADSL over POTS splitters, and also
     to include the relevant requirements for the low pass part of VDSL over POTS splitters.
     Distributed filters are not within the scope of this work item.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: POTS
-- content: Splitter
-- content: VDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: VDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: AT Analogue
+    content: Technical Specification

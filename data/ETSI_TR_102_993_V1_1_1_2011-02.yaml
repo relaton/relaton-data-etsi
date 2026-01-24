@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102993V1.1.12011-02
+id: ETSITR102993V111201102
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Upper Layer FEC for DVB Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33487
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102993/01.01.01_60/tr_102993v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 993 V1.1.1 (2011-02)
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Upper Layer FEC for DVB Systems
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33487
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102993/01.01.01_60/tr_102993v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 993 V1.1.1 (2011-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 993 V1.1.1 (2011-02)
 date:
 - type: published
-  value: 2011-02
+  at: 2011-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Investigate FEC schemes relevant for DVB specifications and provide guidance
+- language: en
+  script: Latn
+  content: Investigate FEC schemes relevant for DVB specifications and provide guidance
     on the selection of FEC schemes above the physical layer.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: application layer
-- content: DVB
-- content: FEC
-- content: upper layer
+- taxon:
+  - language: en
+    script: Latn
+    content: application layer
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: FEC
+  - language: en
+    script: Latn
+    content: upper layer
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

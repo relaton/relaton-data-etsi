@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300724ed.11997-03
+id: ETSIETS300724ed1199703
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; ANSI-C code for the GSM Enhanced
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; ANSI-C code for the GSM Enhanced
     Full Rate (EFR) speech codec (GSM 06.53)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4131
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300724/01_60/ets_300724e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 724 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4131
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300724/01_60/ets_300724e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 724 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 724 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) contains an electronic\r\ncopy
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) contains an electronic\r\ncopy
     of the ANSI-C code for the GSM enhanced full rate codec. The\r\nANSI-C code is
     necessary for a bit exact implementation of the\r\nenhanced full rate speech transcoder
     (GSM EFR 06.60), Voice Activity\r\nDetection (GSM EFR 06.82), comfort noise (GSM
     EFR 06.62),\r\nDiscontinuous Transmission (GSM EFR 06.81) and example solutions
     for\r\nsubstituting and muting of lost frames (GSM EFR 06.61).\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

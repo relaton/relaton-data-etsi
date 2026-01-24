@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300732ed.11997-01
+id: ETSIETS300732ed1199701
+schema_version: v1.4.1
 title:
-- content: Television systems; Enhanced 625-line PAL/SECAM television; Ghost Cancellation
+- language: en
+  script: Latn
+  content: Television systems; Enhanced 625-line PAL/SECAM television; Ghost Cancellation
     Reference (GCR) signals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3538
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300732/01_60/ets_300732e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 732 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3538
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300732/01_60/ets_300732e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 732 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 732 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification for the transmission of a Ghosting Cancellation\r\nReference
+- language: en
+  script: Latn
+  content: "Specification for the transmission of a Ghosting Cancellation\r\nReference
     (GCR) signal which may be used by special receivers to\r\nremove or reduce ghosting
     on the received picture.\r\nUse of the Line 318 GCR signal as defined in ITU-R
     BT.1124 for\r\napplication in Europe.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: BROADCASTING
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Telecommunication Standard

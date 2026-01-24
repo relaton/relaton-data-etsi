@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102004-1V1.1.12001-10
+id: ETSITS1020041V111200110
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications Management Network (TMN); Management of broadband Access
+- language: en
+  script: Latn
+  content: 'Telecommunications Management Network (TMN); Management of broadband Access
     Networks (ANs); Asymmetrical Digital Subscriber Line (ADSL) Network Element Management;
     Part 1: CMIP Model'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3584
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10200401/01.01.01_60/ts_10200401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 004-1 V1.1.1 (2001-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3584
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10200401/01.01.01_60/ts_10200401v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 004-1 V1.1.1 (2001-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 004-1 V1.1.1 (2001-10)
 date:
 - type: published
-  value: 2001-10
+  at: 2001-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunications Management Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To cover the production of Q type interfaces for the operation and\r\nmaintenance
+- language: en
+  script: Latn
+  content: "To cover the production of Q type interfaces for the operation and\r\nmaintenance
     of access networks not covered by DE/TM 2209.\r\nIt shall provide guidelines for
     the integration of different\r\nmanagement information models or managed objects
     of different\r\ntechnologies and applications used within the access networks.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: MANAGEMENT
-- content: OAM
-- content: OAN
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: OAM
+  - language: en
+    script: Latn
+    content: OAN
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecommunications Management Network
+    content: Technical Specification

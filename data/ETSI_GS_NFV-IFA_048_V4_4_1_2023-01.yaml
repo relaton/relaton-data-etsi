@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA048V4.4.12023-01
+id: ETSIGSNFVIFA048V441202301
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
     Policy Information Model Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64279
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/048/04.04.01_60/gs_NFV-IFA048v040401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 048 V4.4.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64279
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/048/04.04.01_60/gs_NFV-IFA048v040401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 048 V4.4.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 048 V4.4.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.4.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will specify the structure and content of the NFV-MANO policy
+- language: en
+  script: Latn
+  content: This work item will specify the structure and content of the NFV-MANO policy
     information model. This work item will leverage the outcomes of the studies in
     ETSI GR NFV-IFA023, GR NFV-IFA042, and align, where applicable, with the existing
     information and data models related to policy management interfaces such as the
     ones specified in ETSI GS NFV-IFA 013 and ETSI GS NFV-SOL 012. Specific types
     of policies will be modeled in an extensible manner as well. The resulting deliverable
     will contain normative provisions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: policy management
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: policy management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

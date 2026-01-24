@@ -1,65 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300811ed.11998-02
+id: ETSIIETS300811ed1199802
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Transmission Convergence
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Transmission Convergence
     (TC) and Physical Media Dependent (PMD) sublayers for the SB reference point at
     a bit-rate of 25,6 Mbit/s over twisted pair cable
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3950
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300811/01_60/iets_300811e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 811 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3950
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300811/01_60/iets_300811e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 811 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 811 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This I-ETS will define a physical layer for the 25.6 Mbit/s interface\r\nat
+- language: en
+  script: Latn
+  content: "This I-ETS will define a physical layer for the 25.6 Mbit/s interface\r\nat
     the Sb reference point only, composed of a TC sub-layer and a PMD\r\nsub-layer
     supporting twisted pair cable at 32 Mbaud.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ATM
-- content: B-ISDN
-- content: INTERFACE
-- content: TRANSMISSION
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: Interim European Telecommunication Standard

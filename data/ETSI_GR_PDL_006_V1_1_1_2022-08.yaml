@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL006V1.1.12022-08
+id: ETSIGRPDL006V111202208
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Inter-Ledger interoperability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59251
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/006/01.01.01_60/gr_PDL006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 006 V1.1.1 (2022-08)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Inter-Ledger interoperability
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59251
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/006/01.01.01_60/gr_PDL006v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 006 V1.1.1 (2022-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 006 V1.1.1 (2022-08)
 date:
 - type: published
-  value: 2022-08
+  at: 2022-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document will describe the key elements of interoperability to exchange
+- language: en
+  script: Latn
+  content: This document will describe the key elements of interoperability to exchange
     information between different ledgers and to mutually use the information that
     has been exchanged.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: INTEROPERABILITY
-- content: SECURITY
-- content: trust
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

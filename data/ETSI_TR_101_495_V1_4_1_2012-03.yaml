@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101495V1.4.12012-03
+id: ETSITR101495V141201203
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Guide to DAB standards; Guidelines and
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Guide to DAB standards; Guidelines and
     Bibliography
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28508
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101495/01.04.01_60/tr_101495v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 495 V1.4.1 (2012-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28508
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101495/01.04.01_60/tr_101495v010401p.pdf
+docidentifier:
+- content: ETSI TR 101 495 V1.4.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 495 V1.4.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The revisions concern updating due to new and revised DAB specifications\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The revisions concern updating due to new and revised DAB specifications\r\n"
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

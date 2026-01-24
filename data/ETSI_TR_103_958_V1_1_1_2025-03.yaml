@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103958V1.1.12025-03
+id: ETSITR103958V111202503
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Study Implementation of the Resilience of Critical
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Study Implementation of the Resilience of Critical
     Entities Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67972
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103958/01.01.01_60/tr_103958v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 958 V1.1.1 (2025-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67972
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103958/01.01.01_60/tr_103958v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 958 V1.1.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 958 V1.1.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Preparation of studies and gaps aimed at implementation guidance for relevant
+- language: en
+  script: Latn
+  content: Preparation of studies and gaps aimed at implementation guidance for relevant
     provisions of the EU Critical Entities Resilience (CER) Directive, especially
     related to transportation, eHealth, space systems, and encryption.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: resilience
-- content: risk management
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: resilience
+  - language: en
+    script: Latn
+    content: risk management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

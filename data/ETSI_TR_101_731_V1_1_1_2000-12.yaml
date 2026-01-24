@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101731V1.1.12000-12
+id: ETSITR101731V111200012
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Digital access to the public telecommunications
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Digital access to the public telecommunications
     network; Publication of interface specification under Directive 1999/5/EC;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8152
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101731/01.01.01_60/tr_101731v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 731 V1.1.1 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8152
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101731/01.01.01_60/tr_101731v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 731 V1.1.1 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 731 V1.1.1 (2000-12)
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document will provide guidance for indicating the minimum set of
+- language: en
+  script: Latn
+  content: "This document will provide guidance for indicating the minimum set of
     parameters needed to describe a digital interface to the public telecommunications
     network and that public network operators are required to publish in order to
     \ meet their obligations under article 4.2 of Directive 99/5/EC.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DIGITAL
-- content: INTERFACE
-- content: NETWORK
-- content: PUBLIC
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PUBLIC
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital
+    content: Technical Report

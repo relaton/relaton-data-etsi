@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103376V1.1.12016-10
+id: ETSITR103376V111201610
+schema_version: v1.4.1
 title:
-- content: SmartM2M; IoT LSP use cases and standards gaps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47077
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103376/01.01.01_60/tr_103376v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 376 V1.1.1 (2016-10)
+- language: en
+  script: Latn
+  content: SmartM2M; IoT LSP use cases and standards gaps
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47077
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103376/01.01.01_60/tr_103376v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 376 V1.1.1 (2016-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 376 V1.1.1 (2016-10)
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope is:\r\nStarting from the use case families selected for the
+- language: en
+  script: Latn
+  content: "The scope is:\r\nStarting from the use case families selected for the
     IoT Large Scale Pilots (LSPs)\r\nthis technical report aim is:\r\n- to provide
     the collection of all missing functionalities that have been identified in standards
     bodies (SDOs) to offer solutions addressing the use case requirements.\r\n- to
@@ -55,18 +64,18 @@ abstract:
     potential gaps. Particular attention will be paid on horizontal application layer
     standardisation and to assure an interworking framework among different vertical
     industrial segments.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

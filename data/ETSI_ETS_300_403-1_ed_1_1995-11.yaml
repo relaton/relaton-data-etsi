@@ -1,69 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300403-1ed.11995-11
+id: ETSIETS3004031ed1199511
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Signalling network layer for circuit-mode basic
     call control; Part 1: Protocol specification [ITU-T Recommendation Q.931 (1993),
     modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1127
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040301/01_60/ets_30040301e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 403-1 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1127
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040301/01_60/ets_30040301e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 403-1 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 403-1 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Future enhancements of ISDN D-Channel signalling procedures for\r\ncontrol
+- language: en
+  script: Latn
+  content: "Future enhancements of ISDN D-Channel signalling procedures for\r\ncontrol
     of circuit switched connections applicable at the ISDN\r\nuser-network interface,
     including multirate bearer services.\r\n(Application of Q.930 and Q.931)\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: CCS
-- content: DSS1
-- content: ENDORSEMENT
-- content: ISDN
-- content: LAYER 3
-- content: PROTOCOL
-- content: SSIG
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SSIG
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

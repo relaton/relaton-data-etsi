@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102591-2V1.1.12010-02
+id: ETSITS1025912V111201002
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); IP Datacast: Content Delivery Protocols
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); IP Datacast: Content Delivery Protocols
     (CDP) Implementation Guidelines; Part 2: IP Datacast over DVB-SH'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31921
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/10259102/01.01.01_60/ts_10259102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 591-2 V1.1.1 (2010-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31921
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/10259102/01.01.01_60/ts_10259102v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 591-2 V1.1.1 (2010-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 591-2 V1.1.1 (2010-02)
 date:
 - type: published
-  value: 2010-02
+  at: 2010-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document provides necessary adaptations of the Content Delivery Protocols
+- language: en
+  script: Latn
+  content: "The document provides necessary adaptations of the Content Delivery Protocols
     specified  for IP Datacast over DVB-H for the usage in DVB-SH. In particular,
     the document provides specification as well as usage and implementation guidelines
     on the use of content delivery protocols (CDP) and different reliability control
     techniques in IP Datacast over DVB-SH system for the whole delivery chain from
     the network to the terminal in a DVB-SH system. \r\nThis document is part 2 of
     a multipart document. Part 1 covers CDP for DVB-H."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203997V1.1.12024-05
+id: ETSIES203997V111202405
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Requirements and use cases of liquid cooling
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Requirements and use cases of liquid cooling
     and high energy efficiency solutions for 5G BBU in C-RAN mode
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63081
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203900_203999/203997/01.01.01_60/es_203997v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 997 V1.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63081
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203900_203999/203997/01.01.01_60/es_203997v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 997 V1.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 997 V1.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Environmental Conditions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ES will provide requirements for liquid cooling and high energy efficiency
+- language: en
+  script: Latn
+  content: "This ES will provide requirements for liquid cooling and high energy efficiency
     solutions for 5G BBU in C-RAN, including: requirements of spray liquid cooling
     technology, key indicators of spray liquid, safety requirements of spray liquid
     cooling system, working procedure and energy efficiency measure method, and use
     cases of cooling solutions.\r\nThis WI will be proposed to ITU to be a TA deliverable\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: RAN
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: RAN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Environmental Conditions
+    content: ETSI Standard

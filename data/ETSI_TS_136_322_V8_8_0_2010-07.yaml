@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS136322V8.8.02010-07
+id: ETSITS136322V880201007
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); Radio Link Control
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); Radio Link Control
     (RLC) protocol specification (3GPP TS 36.322 version 8.8.0 Release 8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34557
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/136300_136399/136322/08.08.00_60/ts_136322v080800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 136 322 V8.8.0 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34557
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/136300_136399/136322/08.08.00_60/ts_136322v080800p.pdf
+docidentifier:
+- content: ETSI TS 136 322 V8.8.0 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 136 322 V8.8.0 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.8.0
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-48
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-48
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

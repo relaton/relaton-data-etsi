@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301091-1V1.3.32006-11
+id: ETSIEN3010911V133200611
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices; Road Transport and Traffic Telematics (RTTT); Radar equipment operating
     in the 76 GHz to 77 GHz range; Part 1: Technical characteristics and test methods
     for radar equipment operating in the 76 GHz to 77 GHz range'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24271
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30109101/01.03.03_60/en_30109101v010303p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 091-1 V1.3.3 (2006-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24271
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30109101/01.03.03_60/en_30109101v010303p.pdf
+docidentifier:
+- content: ETSI EN 301 091-1 V1.3.3 (2006-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 091-1 V1.3.3 (2006-11)
 date:
 - type: published
-  value: 2006-11
+  at: 2006-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Ultra Wide Band Automotive Radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.3
-revdate: 2006-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update current EN 301 091 part 1 for technical errors/ details
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update current EN 301 091 part 1 for technical errors/ details
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: RADIO
-- content: RTTT
-- content: SHORT RANGE
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RTTT
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Ultra Wide Band Automotive Radar
+    content: European Standard

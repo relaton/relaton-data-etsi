@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102182V1.5.12020-07
+id: ETSITS102182V151202007
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Requirements for communications from
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Requirements for communications from
     authorities/organizations to individuals, groups or the general public during
     emergencies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57466
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102182/01.05.01_60/ts_102182v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 182 V1.5.1 (2020-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57466
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102182/01.05.01_60/ts_102182v010501p.pdf
+docidentifier:
+- content: ETSI TS 102 182 V1.5.1 (2020-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 182 V1.5.1 (2020-07)
 date:
 - type: published
-  value: 2020-07
+  at: 2020-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2020-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: General update to remove obsolete information and add new information,
+- language: en
+  script: Latn
+  content: General update to remove obsolete information and add new information,
     including taking suggestions from STF-555 (TR 103 582) into account.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADMINISTRATION
-- content: EMERGENCY
+- taxon:
+  - language: en
+    script: Latn
+    content: ADMINISTRATION
+  - language: en
+    script: Latn
+    content: EMERGENCY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Specification

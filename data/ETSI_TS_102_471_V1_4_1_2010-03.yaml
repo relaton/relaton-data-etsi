@@ -1,72 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102471V1.4.12010-03
+id: ETSITS102471V141201003
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); IP Datacast over DVB-H: Electronic Service
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); IP Datacast over DVB-H: Electronic Service
     Guide (ESG)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33352
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102471/01.04.01_60/ts_102471v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 471 V1.4.1 (2010-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33352
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102471/01.04.01_60/ts_102471v010401p.pdf
+docidentifier:
+- content: ETSI TS 102 471 V1.4.1 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 471 V1.4.1 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides updates to the datamodel, the representation
+- language: en
+  script: Latn
+  content: The present document provides updates to the datamodel, the representation
     format, the encapsulation and the transport of the Electronic Service Guide of
     DVB-H.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: IP
-- content: MOBILE
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC003V2.2.12020-12
+id: ETSIGSMEC003V221202012
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Framework and Reference Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57686
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/003/02.02.01_60/gs_MEC003v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC 003 V2.2.1 (2020-12)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Framework and Reference Architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57686
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/003/02.02.01_60/gs_MEC003v020201p.pdf
+docidentifier:
+- content: ETSI GS MEC 003 V2.2.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC 003 V2.2.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item addresses the necessary changes to correct errors and omissions
+- language: en
+  script: Latn
+  content: This Work Item addresses the necessary changes to correct errors and omissions
     within the specification as well modifications to align the MEC architecture with
     the other MEC specifications that are part of this MEC release.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MEC
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MEC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Specification

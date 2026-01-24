@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203069V1.2.12011-09
+id: ETSIES203069V121201109
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM); Remote management
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM); Remote management
     of CPE over broadband networks; CPE WAN Management Protocol (CWMP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37103
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203000_203099/203069/01.02.01_60/es_203069v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 069 V1.2.1 (2011-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37103
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203000_203099/203069/01.02.01_60/es_203069v010201p.pdf
+docidentifier:
+- content: ETSI ES 203 069 V1.2.1 (2011-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 069 V1.2.1 (2011-09)
 date:
 - type: published
-  value: 2011-09
+  at: 2011-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Infrastructure, Physical Networks & Communication Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2011-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define a ETSI Standard (ES) for remote management of CPE WAN interfaces
+- language: en
+  script: Latn
+  content: "To define a ETSI Standard (ES) for remote management of CPE WAN interfaces
     over broadband networks.\r\n\r\nThis ES shall comprise a set of normative references
     to the suite of individual specifications comprising the Broadband Forum (BBF)
     CPE WAN Management Protocol (CWMP) and Data models.\r\n\r\nTo liaise and collaborate
@@ -55,19 +64,21 @@ abstract:
     065 (Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Customer Network Gateway Configuration Function; e3 Interface
     based upon CWMP) V2.0.0.  \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: xDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: xDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Infrastructure, Physical Networks & Communication Systems
+    content: ETSI Standard

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103122V1.1.12012-11
+id: ETSITR103122V111201211
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); QoS of connections from
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); QoS of connections from
     current technologies to LTE for delay sensitive applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37739
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103122/01.01.01_60/tr_103122v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 122 V1.1.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37739
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103122/01.01.01_60/tr_103122v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 122 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 122 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Address LTE related QoS problems for delay sensitive applications and determine
+- language: en
+  script: Latn
+  content: Address LTE related QoS problems for delay sensitive applications and determine
     possible shortcomings of the standards and possible shortcomings of implementations.
     Propose possible solutions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: LTE
-- content: QoS
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: QoS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

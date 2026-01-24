@@ -1,63 +1,67 @@
 ---
-schema-version: v1.2.9
-id: ETSISR001262V1.8.12003-12
+id: ETSISR001262V181200312
+schema_version: v1.4.1
 title:
-- content: ETSI drafting rules
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19767
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/001200_001299/001262/01.08.01_60/sr_001262v010801p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 001 262 V1.8.1 (2003-12)
+- language: en
+  script: Latn
+  content: ETSI drafting rules
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19767
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/001200_001299/001262/01.08.01_60/sr_001262v010801p.pdf
+docidentifier:
+- content: ETSI SR 001 262 V1.8.1 (2003-12)
   type: ETSI
   primary: true
 docnumber: ETSI SR 001 262 V1.8.1 (2003-12)
 date:
 - type: published
-  value: 2003-12
+  at: 2003-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Board
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.8.1
-revdate: 2003-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This SR specifies the rules for the structure and drafting of documents
+- language: en
+  script: Latn
+  content: This SR specifies the rules for the structure and drafting of documents
     intended to become an ETSI deliverable. These rules complement the ETSI Technical
     Working Procedures and are intended to ensure that such documents are drafted
     in as uniform a manner as is practicable, irrespective of the technical content.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Board
+    content: Special Report

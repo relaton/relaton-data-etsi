@@ -1,67 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102946V1.1.12014-07
+id: ETSITS102946V111201407
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); System requirements for Operation in
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); System requirements for Operation in
     UHF TV Band White Spaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35696
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102946/01.01.01_60/ts_102946v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 946 V1.1.1 (2014-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35696
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102946/01.01.01_60/ts_102946v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 946 V1.1.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 946 V1.1.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUZWNobmljYWwgU3BlY2lmaWNhdGlvbiBkZWZpbmVzIHN5c3RlbSByZXF1aXJlbWVudHMgZm9yIG9wZXJhdGlvbiBpbiBVSEYgVFYgYmFuZCB3aGl0ZSBzcGFjZXMuIFRoZSByZXF1aXJlbWVudHMgYXJlIHN0ZW1taW5nIG1vc3RseSBmcm9tIHRoZSB1c2UgY2FzZXMgZGVzY3JpYmVkIGluIFRlY2huaWNhbCBSZXBvcnQgMTAyIDkwNyDigJxVc2UgY2FzZXMgZm9yIE9wZXJhdGlvbiBpbiBXaGl0ZSBTcGFjZSBGcmVxdWVuY3kgQmFuZHPigJ0uICBUaGUgc2NvcGUgb2YgdGhlIHdvcmsgaW4gdGhpcyBUUyBpcyB0byBkZWZpbmUgc3lzdGVtIGxldmVsIHJlcXVpcmVtZW50cyByZWxhdGVkIHRvIG9wZXJhdGlvbiBvZiBzZWNvbmRhcnkgY29nbml0aXZlIHJhZGlvIHN5c3RlbXMgYW5kIGRldmljZXMgb3BlcmF0aW5nIG9uIFVIRiBUViBiYW5kIHdoaXRlIHNwYWNlcy4gQXQgbWluaW11bSB0aGlzIFRTIHNoYWxsIGRlZmluZSByZXF1aXJlbWVudHMgYmFzZWQgb24gd2hpY2ggdGhlIGNvZXhpc3RlbmNlIHN5c3RlbSBhcmNoaXRlY3R1cmUsIFRTIDEwMiA5MDgg4oCcQ29leGlzdGVuY2UgQXJjaGl0ZWN0dXJlIGZvciBDb2duaXRpdmUgUmFkaW8gTmV0d29ya3Mgb24gVUhGIFdTIEZyZXF1ZW5jeSBCYW5kc+KAnSwgY2FuIGJlIHNwZWNpZmllZC4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This Technical Specification defines system requirements for operation
+    in UHF TV band white spaces. The requirements are stemming mostly from the use
+    cases described in Technical Report 102 907 Use cases for Operation in White Space
+    Frequency Bands.  The scope of the work in this TS is to define system level requirements
+    related to operation of secondary cognitive radio systems and devices operating
+    on UHF TV band white spaces. At minimum this TS shall define requirements based
+    on which the coexistence system architecture, TS 102 908 Coexistence Architecture
+    for Cognitive Radio Networks on UHF WS Frequency Bands, can be specified.
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: CRS
-- content: PERFORMANCE
-- content: white space
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: white space
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

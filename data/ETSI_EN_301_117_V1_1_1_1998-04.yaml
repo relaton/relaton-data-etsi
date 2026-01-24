@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301117V1.1.11998-04
+id: ETSIEN301117V111199804
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); ATM Adaptation
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); ATM Adaptation
     Layer (AAL); Sublayers: Service Specific Co-ordination Function (SSCF) to provide
     the Connection-Oriented Transport Service (COTS) [ITU-T Recommendation I.365.3
     (1995)]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6122
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/301117/01.01.01_60/en_301117v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 117 V1.1.1 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6122
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/301117/01.01.01_60/en_301117v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 117 V1.1.1 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 117 V1.1.1 (1998-04)
 date:
 - type: published
-  value: 1998-04
+  at: 1998-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interworking and Interconnection and GII/Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Reference document: ITU-T Recommendation I.365.3.\r\nThe purpose of this
+- language: en
+  script: Latn
+  content: "Reference document: ITU-T Recommendation I.365.3.\r\nThe purpose of this
     standard is to endorse the Reference document as a part of the ETSI production.\r\nDevelopment
     of an EN for the SSCF required on top of the protocol specified in Q.2110 (SSCOP)
     to provide the layer service specified in X.213 (CONS) on the basis of the corresponding
     results in ITU-T SG13 Q6."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AAL
-- content: ATM
-- content: B-ISDN
-- content: ENDORSEMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: AAL
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Architecture, Interworking and Interconnection and GII/Internet
+    content: European Standard

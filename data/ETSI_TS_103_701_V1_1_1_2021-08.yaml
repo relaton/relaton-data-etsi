@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103701V1.1.12021-08
+id: ETSITS103701V111202108
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Cyber Security for Consumer Internet of Things: Conformance Assessment
+- language: en
+  script: Latn
+  content: 'CYBER; Cyber Security for Consumer Internet of Things: Conformance Assessment
     of Baseline Requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58434
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103701/01.01.01_60/ts_103701v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 701 V1.1.1 (2021-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58434
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103701/01.01.01_60/ts_103701v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 701 V1.1.1 (2021-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 701 V1.1.1 (2021-08)
 date:
 - type: published
-  value: 2021-08
+  at: 2021-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The proposed document is to specify test scenarios for assessing  consumer
+- language: en
+  script: Latn
+  content: The proposed document is to specify test scenarios for assessing  consumer
     IoT products against the provisions of EN 303 645/TS 103 645. It is to set out
     mandatory and recommended assessments, as well as guidance and examples to support
     their implementation.  The document is intended to be used by testing labs and
@@ -56,19 +65,21 @@ abstract:
     proposed document also does not set out detailed testing protocols.  However,
     the proposed document is intended  as input to a future EU common cybersecurity
     certification scheme as proposed in the Cybersecurity Act.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

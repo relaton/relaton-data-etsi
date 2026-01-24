@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301707V7.4.12000-11
+id: ETSIEN301707V741200011
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Discontinuous
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Discontinuous
     Transmission (DTX) for Adaptive Multi-Rate (AMR) speech traffic channels (GSM
     06.93 version 7.4.1 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11080
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301700_301799/301707/07.04.01_60/en_301707v070401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 707 V7.4.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11080
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301700_301799/301707/07.04.01_60/en_301707v070401p.pdf
+docidentifier:
+- content: ETSI EN 301 707 V7.4.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 707 V7.4.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.4.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CR SA#8
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CR SA#8
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Codec
+    content: European Standard

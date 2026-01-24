@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102450V1.1.12006-02
+id: ETSITR102450V111200602
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Telecommunication Equipment Life Cycle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21133
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102450/01.01.01_60/tr_102450v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 450 V1.1.1 (2006-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21133
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102450/01.01.01_60/tr_102450v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 450 V1.1.1 (2006-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 450 V1.1.1 (2006-02)
 date:
 - type: published
-  value: 2006-02
+  at: 2006-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Network Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Describe the life cycle as it relates to telecom equipment, including all
+- language: en
+  script: Latn
+  content: Describe the life cycle as it relates to telecom equipment, including all
     relevant participants (e.g., manufacturers, service providers, resellers), all
     relevant equipment statuses, processes, and events.  Include hardware, firmware,
     software and MIB contents.  The goal of this work is to facilitate definitions
     of equipment management (e.g., MIB, identifiers, RFID, NGOSS) by providing a model
     of the equipment life cycle.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ID
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Network Management
+    content: Technical Report

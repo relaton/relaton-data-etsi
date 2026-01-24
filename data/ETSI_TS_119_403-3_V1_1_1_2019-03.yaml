@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119403-3V1.1.12019-03
+id: ETSITS1194033V111201903
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
     Conformity Assessment; Part 3: Additional requirements for conformity assessment
     bodies assessing EU qualified trust service providers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54389
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11940303/01.01.01_60/ts_11940303v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 403-3 V1.1.1 (2019-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54389
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11940303/01.01.01_60/ts_11940303v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 403-3 V1.1.1 (2019-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 403-3 V1.1.1 (2019-03)
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 1.) Define specific requirements for the application of EN 319 403 to conformity
+- language: en
+  script: Latn
+  content: 1.) Define specific requirements for the application of EN 319 403 to conformity
     assessments (audits) of QTSP and the QTS they provide against the eIDAS Regulation
     requirements assuming the use of ETSI policy requirement standards but not precluding
     use of other specifications.  2.) Define requirements for audit reports, including
     specifications on content and table of content.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

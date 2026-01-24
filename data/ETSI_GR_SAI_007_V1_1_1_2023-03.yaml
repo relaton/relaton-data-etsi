@@ -1,69 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRSAI007V1.1.12023-03
+id: ETSIGRSAI007V111202303
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence (SAI); Explicability and transparency
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Explicability and transparency
     of AI processing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63078
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/007/01.01.01_60/gr_SAI007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR SAI 007 V1.1.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63078
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/007/01.01.01_60/gr_SAI007v010101p.pdf
+docidentifier:
+- content: ETSI GR SAI 007 V1.1.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR SAI 007 V1.1.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The intent of this work item is to extend from the published work of SAI
+- language: en
+  script: Latn
+  content: The intent of this work item is to extend from the published work of SAI
     to address the issues of design of AI platforms (data, algorithms, frameworks)
     that are able to give assurance of explainability and transparency of decisions.
     This is intended in part to also consider the impact of issues arising from regulation
     of AI to address ethics and misuse and to allow independent determination of bias
     (a light touch). The report will address both intrinsic and post-hoc analysis
     of AI systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Securing Artificial Intelligence
+    content: Group Report

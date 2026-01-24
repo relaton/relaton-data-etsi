@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-2V3.10.12023-03
+id: ETSITS1003922V3101202303
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
     Interface (AI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67532
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039202/03.10.01_60/ts_10039202v031001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-2 V3.10.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67532
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039202/03.10.01_60/ts_10039202v031001p.pdf
+docidentifier:
+- content: ETSI TS 100 392-2 V3.10.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-2 V3.10.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.10.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Due to modification of IV validity behaviour in TS 100 392-7 v4.1.1, see
+- language: en
+  script: Latn
+  content: Due to modification of IV validity behaviour in TS 100 392-7 v4.1.1, see
     clause 6.3.2.0a, a need to adjust the text in TS 100 392-2 v3.9.2 has been identified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: RADIO
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

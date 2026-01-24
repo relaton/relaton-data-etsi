@@ -1,75 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301473V1.4.12013-03
+id: ETSIEN301473V141201303
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Aircraft Earth Stations (AES)
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Aircraft Earth Stations (AES)
     operating below 3 GHz under the Aeronautical Mobile Satellite Service (AMSS)/Mobile
     Satellite Service (MSS) and/or the Aeronautical Mobile Satellite on Route Service
     (AMS(R)S)/Mobile Satellite Service (MSS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37757
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301473/01.04.01_60/en_301473v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 473 V1.4.1 (2013-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37757
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301473/01.04.01_60/en_301473v010401p.pdf
+docidentifier:
+- content: ETSI EN 301 473 V1.4.1 (2013-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 473 V1.4.1 (2013-03)
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2013-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Following the WRC-03 decision to allocate to MSS the bands 1518-1525 MHz
+- language: en
+  script: Latn
+  content: Following the WRC-03 decision to allocate to MSS the bands 1518-1525 MHz
     (downlink) and 1668-1675 MHz (uplink) and the conclusions of WRC-07, this work
     item is to propose the necessary changes for AESs that can operate in the additional
     1668 MHz to 1675 MHz frequency band made available by the WRC-03/07 decisions.  Additional
     revisions to the standard are also proposed to align this standard with the recent
     changes to inband emissions in EN 301 681.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AERONAUTICAL
-- content: AMSS
-- content: EARTH STATION
-- content: MOBILE
-- content: MSS
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: AERONAUTICAL
+  - language: en
+    script: Latn
+    content: AMSS
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: European Standard

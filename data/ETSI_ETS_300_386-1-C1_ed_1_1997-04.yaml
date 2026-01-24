@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300386-1/C1ed.11997-04
+id: ETSIETS3003861C1ed1199704
+schema_version: v1.4.1
 title:
-- content: 'Equipment Engineering (EE); Telecommunication network equipment; Electro-Magnetic
+- language: en
+  script: Latn
+  content: 'Equipment Engineering (EE); Telecommunication network equipment; Electro-Magnetic
     Compatibility (EMC) requirements; Part 1: Product family overview, compliance
     criteria and test levels'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5548
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30038601/01_60/ets_30038601e01p_c1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 386-1/C1 ed.1 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5548
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30038601/01_60/ets_30038601e01p_c1p.pdf
+docidentifier:
+- content: ETSI ETS 300 386-1/C1 ed.1 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 386-1/C1 ed.1 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Corrigendum to remove \"public\" from title (was formerly \"...Public
+- language: en
+  script: Latn
+  content: "Corrigendum to remove \"public\" from title (was formerly \"...Public
     tel\r\necommunication network equipment...\"), in accordance with title of par\r\nt
     2.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: NETWORK
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Electromagnetic Compatibility
+    content: European Telecommunication Standard

@@ -1,75 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103108V1.1.12013-07
+id: ETSITR103108V111201307
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc); Broadband Direct-Air-to-Ground Communications System
     operating in the 5,855 GHz to 5,875 GHz band using 3G technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39518
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103108/01.01.01_60/tr_103108v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 108 V1.1.1 (2013-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39518
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103108/01.01.01_60/tr_103108v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 108 V1.1.1 (2013-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 108 V1.1.1 (2013-07)
 date:
 - type: published
-  value: 2013-07
+  at: 2013-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop a  System Reference Document in accordance with ETSI Guide EG201
+- language: en
+  script: Latn
+  content: To develop a  System Reference Document in accordance with ETSI Guide EG201
     788 for a Broadband Direct Air-to-Ground Communications system employing 3G TDD
     technology. The Document will include the necessary information to support the
     co-operation under the MoU between ETSI and the Electronic Communications Committee
     (ECC) of the European Conference of Postal and Telecommunications Administrations
     (CEPT).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3G
-- content: AERONAUTICAL
-- content: BROADBAND
-- content: MOBILE
-- content: NETWORK
-- content: SRDOC
-- content: TERRESTRIAL
+- taxon:
+  - language: en
+    script: Latn
+    content: 3G
+  - language: en
+    script: Latn
+    content: AERONAUTICAL
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TERRESTRIAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

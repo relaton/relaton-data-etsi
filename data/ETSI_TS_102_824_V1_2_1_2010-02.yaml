@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102824V1.2.12010-02
+id: ETSITS102824V121201002
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Remote Management and Firmware Update
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Remote Management and Firmware Update
     System for DVB IPTV Services (Phase 2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31875
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102824/01.02.01_60/ts_102824v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 824 V1.2.1 (2010-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31875
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102824/01.02.01_60/ts_102824v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 824 V1.2.1 (2010-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 824 V1.2.1 (2010-02)
 date:
 - type: published
-  value: 2010-02
+  at: 2010-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2010-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This specification covers the  Remote Management and Firmware Upgrade System
+- language: en
+  script: Latn
+  content: This specification covers the  Remote Management and Firmware Upgrade System
     for the DVB IPTV specification. In addition to Part 1 new elements such as e.g.
     data model extension objects to support the DVB Content Delivey System specific
     functionality have been added.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: IP
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: IP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

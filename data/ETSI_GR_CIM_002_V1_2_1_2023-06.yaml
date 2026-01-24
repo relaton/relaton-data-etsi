@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM002V1.2.12023-06
+id: ETSIGRCIM002V121202306
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); Use Cases (UC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56428
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/002/01.02.01_60/gr_CIM002v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 002 V1.2.1 (2023-06)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); Use Cases (UC)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56428
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/002/01.02.01_60/gr_CIM002v010201p.pdf
+docidentifier:
+- content: ETSI GR CIM 002 V1.2.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 002 V1.2.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this Group Report is to extend the use cases in v1.1.1
+- language: en
+  script: Latn
+  content: "The purpose of this Group Report is to extend the use cases in v1.1.1
     to cover areas such as SmartFood, SmartAgri, SmartIndustry, Multi-modal transport,
     etc, from a cross-domain viewpoint.\r\nWhere possible, material shall be collected
     (by reference) from prior art and existing standards and specifications in this
@@ -53,26 +62,42 @@ abstract:
     set of use cases is not required, just a set to define the problem space involving
     context management and interworking. Identifying relevant ontologies may be a
     useful byproduct but is not a major goal of this work."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Agriculture
-- content: API
-- content: Digital Twins
-- content: INFORMATION MODEL
-- content: INTEROPERABILITY
-- content: IoT
-- content: Manufacturing
-- content: smart city
-- content: TRANSPORT
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: Agriculture
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: Digital Twins
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: Manufacturing
+  - language: en
+    script: Latn
+    content: smart city
+  - language: en
+    script: Latn
+    content: TRANSPORT
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

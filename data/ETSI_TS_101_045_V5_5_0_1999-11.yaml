@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101045V5.5.01999-11
+id: ETSITS101045V550199911
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Optimal Routeing (SOR); Technical realisation (GSM 03.79 version 5.5.0 Release
     1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9135
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101045/05.05.00_60/ts_101045v050500p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 045 V5.5.0 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9135
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101045/05.05.00_60/ts_101045v050500p.pdf
+docidentifier:
+- content: ETSI TS 101 045 V5.5.0 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 045 V5.5.0 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.5.0
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nConcentration of description of core call handling functions
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nConcentration of description of core call handling functions
     in 03.18, Changes to ease the documentation of new services\r\nSUBJECT\r\nOptionality
     of support for OR of basic mobile-to-mobile calls\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

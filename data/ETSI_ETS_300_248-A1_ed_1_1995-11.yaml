@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300248/A1ed.11995-11
+id: ETSIETS300248A1ed1199511
+schema_version: v1.4.1
 title:
-- content: Business TeleCommunications (BTC); Open Network Provision (ONP) technical
+- language: en
+  script: Latn
+  content: Business TeleCommunications (BTC); Open Network Provision (ONP) technical
     requirements; 2 048 kbit/s digital unstructured leased line (D2048U); Terminal
     equipment interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2785
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300248/01_60/ets_300248e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 248/A1 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2785
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300248/01_60/ets_300248e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 248/A1 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 248/A1 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This amendment recommends to use the ISDN basic rate connector instead\r\nof
+- language: en
+  script: Latn
+  content: "This amendment recommends to use the ISDN basic rate connector instead\r\nof
     the previous connector developed for primary rate ISDN which has\r\nsome tolerance
     problems.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DIGITAL
-- content: LEASED LINE
-- content: ONP
-- content: REGULATION
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: LEASED LINE
+  - language: en
+    script: Latn
+    content: ONP
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: European Telecommunication Standard

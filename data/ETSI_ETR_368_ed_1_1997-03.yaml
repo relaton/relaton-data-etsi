@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR368ed.11997-03
+id: ETSIETR368ed1199703
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); General architecture for Programmable Communication
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); General architecture for Programmable Communication
     Interfaces (PCIs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3819
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/368/01_60/etr_368e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 368 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3819
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/368/01_60/etr_368e01p.pdf
+docidentifier:
+- content: ETSI ETR 368 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 368 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of terminology, PCI user facility & service access facility\r\ntaxonomies
+- language: en
+  script: Latn
+  content: "Definition of terminology, PCI user facility & service access facility\r\ntaxonomies
     of PCI, interworking, portability principles, integration\r\naspects, testing\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PCI
-- content: TAXONOMY
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: PCI
+  - language: en
+    script: Latn
+    content: TAXONOMY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: ETSI Technical Report

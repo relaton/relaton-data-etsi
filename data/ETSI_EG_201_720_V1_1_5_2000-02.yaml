@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201720V1.1.52000-02
+id: ETSIEG201720V115200002
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Network Functional Model
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Network Functional Model
     for IMT2000 networks [ITU-T Recommendation Q.1711]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7247
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201720/01.01.05_60/eg_201720v010105p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 720 V1.1.5 (2000-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7247
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201720/01.01.05_60/eg_201720v010105p.pdf
+docidentifier:
+- content: ETSI EG 201 720 V1.1.5 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 720 V1.1.5 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: UMTS task force
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.5
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document ensure an ETSI's correct understanding of the ITU-T Recommendation.\r\n\r\nReference
+- language: en
+  script: Latn
+  content: "This document ensure an ETSI's correct understanding of the ITU-T Recommendation.\r\n\r\nReference
     document: IMT 2000 and Q.1711.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ENDORSEMENT
-- content: MOBILE
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: UMTS task force
+    content: ETSI Guide

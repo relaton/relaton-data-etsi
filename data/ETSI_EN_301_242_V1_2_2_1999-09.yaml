@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301242V1.2.21999-09
+id: ETSIEN301242V122199909
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
     Mobile communications (GSM); DECT/GSM integration based on dual-mode terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6426
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301242/01.02.02_60/en_301242v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 242 V1.2.2 (1999-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6426
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301242/01.02.02_60/en_301242v010202p.pdf
+docidentifier:
+- content: ETSI EN 301 242 V1.2.2 (1999-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 242 V1.2.2 (1999-09)
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: GSM interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1999-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To secify radio and network aspects related to dual-mode terminals.\r\nThis
+- language: en
+  script: Latn
+  content: "To secify radio and network aspects related to dual-mode terminals.\r\nThis
     EN will, in conjuction with other standards and TBRs, form the basis for the second
     edition of TBR 39 (converted to Harmonized EN 301 439 v1.2.x), i.e. basic dual-mode
     terminals that only consist of a DECT art and a GSM part and that may automatically
@@ -58,20 +67,24 @@ abstract:
     P-GSM, E-GSM, R-GSM, DCS1800 or dual band GSM/DCS.\r\n\r\nReference documents:
     ETSs 300 175/176/444/824/434-1; EN 301 242; TR 101 072; DTR/DECT-010060, TBRs
     6, 10, 22, 39 Ed 1\r\nGSM 02, 03, 04, 06 and 08 series; ETS 300 607; TBRs 19,20,31,32\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: GSM
-- content: RADIO
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: GSM interworking
+    content: European Standard

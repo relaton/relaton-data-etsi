@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM11.11V5.3.01996-07
+id: ETSIGTSGSM1111V530199607
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Specification
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Specification
     of the Subscriber Identity Module - Mobile Equipment (SIM - ME) interface (GSM
     11.11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4498
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/11/1111/05.03.00_60/gsmts_1111v050300p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 11.11 V5.3.0 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4498
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/11/1111/05.03.00_60/gsmts_1111v050300p.pdf
+docidentifier:
+- content: ETSI GTS GSM 11.11 V5.3.0 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 11.11 V5.3.0 (1996-07)
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IC Card Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.0
-revdate: 1996-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) defines the interface\r\nbetween
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) defines the interface\r\nbetween
     the Subscriber Identity Module (SIM) and the Mobile Equipment\r\n(ME) for use
     during the network operation phase of GSM as well as\r\nthose aspects of the internal
     organisation of the SIM which are\r\nrelated to the network operation phase. This
@@ -69,23 +78,33 @@ abstract:
     for GSM Phase 2. While all\r\nattempts have been made to maintain phase compatibility,
     any issues\r\nthat specifically relate to Phase 1 should be referenced from within\r\nthe
     relevant Phase 1 specification.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: IC Card Aspects
+    content: GSM Technical Specification

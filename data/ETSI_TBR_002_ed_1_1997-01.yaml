@@ -1,65 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR002ed.11997-01
+id: ETSITBR002ed1199701
+schema_version: v1.4.1
 title:
-- content: Digital Terminals and Access (DTA); Attachment requirements for Data Terminal
+- language: en
+  script: Latn
+  content: Digital Terminals and Access (DTA); Attachment requirements for Data Terminal
     Equipment (DTE) to connect to Packet Switched Public Data Networks (PSPDNs) for
     CCITT Recommendation X.25 interfaces at data signalling rates up to 1 920 kbit/s
     utilizing interfaces derived from CCITT Recommendations X.21 and X.21 bis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1431
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/002/01_60/tbr_002e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 002 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1431
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/002/01_60/tbr_002e01p.pdf
+docidentifier:
+- content: ETSI TBR 002 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 002 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical characteristics of packet mode terminal equipment capable of\r\nconnection
+- language: en
+  script: Latn
+  content: "Technical characteristics of packet mode terminal equipment capable of\r\nconnection
     to a dedicated interface of a packet switched public data\r\nnetwork using CCITT
     Recommendation X.25, making use of LAPB and LAPB\r\nextended\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PDN
-- content: REGULATION
-- content: TERMINAL
-- content: TESTING
-- content: X.25
+- taxon:
+  - language: en
+    script: Latn
+    content: PDN
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: X.25
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Digital Terminals & Access
+    content: Technical Basis for Regulation

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL009V1.1.12021-09
+id: ETSIGRPDL009V111202109
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Federated Data Management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61975
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/009/01.01.01_60/gr_PDL009v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 009 V1.1.1 (2021-09)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Federated Data Management
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61975
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/009/01.01.01_60/gr_PDL009v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 009 V1.1.1 (2021-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 009 V1.1.1 (2021-09)
 date:
 - type: published
-  value: 2021-09
+  at: 2021-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document will describe use case scenarios, functional architecture,
+- language: en
+  script: Latn
+  content: This document will describe use case scenarios, functional architecture,
     key functional components mechanisms of leveraging PDL for federated data management
     (e.g., PDL for federated learning, the integration of PDL and the whole data pipeline).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: authentication
-- content: data preservation
-- content: data sharing
-- content: privacy
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: data preservation
+  - language: en
+    script: Latn
+    content: data sharing
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

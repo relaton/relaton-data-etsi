@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSISI006V1.1.12019-02
+id: ETSIGSISI006V111201902
+schema_version: v1.4.1
 title:
-- content: Information Security Indicators (ISI); An ISI-driven Measurement and Event
+- language: en
+  script: Latn
+  content: Information Security Indicators (ISI); An ISI-driven Measurement and Event
     Management Architecture (IMA) and CSlang - A common ISI Semantics Specification
     Language
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50919
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/006/01.01.01_60/gs_ISI006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ISI 006 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50919
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/006/01.01.01_60/gs_ISI006v010101p.pdf
+docidentifier:
+- content: ETSI GS ISI 006 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS ISI 006 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Information Security Indicators
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on designing a cybersecurity language to model threat
+- language: en
+  script: Latn
+  content: This work item focuses on designing a cybersecurity language to model threat
     intelligence information and enable detection tools interoperability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber-defence
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Information Security Indicators
+    content: Group Specification

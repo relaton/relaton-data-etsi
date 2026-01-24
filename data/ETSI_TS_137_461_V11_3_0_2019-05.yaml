@@ -1,65 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS137461V11.3.02019-05
+id: ETSITS137461V1130201905
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); LTE; 5G; Iuant interface:
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); LTE; 5G; Iuant interface:
     Layer 1 (3GPP TS 37.461 version 11.3.0 Release 11)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57949
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/137400_137499/137461/11.03.00_60/ts_137461v110300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 137 461 V11.3.0 (2019-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57949
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/137400_137499/137461/11.03.00_60/ts_137461v110300p.pdf
+docidentifier:
+- content: ETSI TS 137 461 V11.3.0 (2019-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 137 461 V11.3.0 (2019-05)
 date:
 - type: published
-  value: 2019-05
+  at: 2019-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.3.0
-revdate: 2019-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#83
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#83
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

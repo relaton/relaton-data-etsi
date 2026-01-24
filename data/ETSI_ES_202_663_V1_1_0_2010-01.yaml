@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202663V1.1.02010-01
+id: ETSIES202663V110201001
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); European profile standard for the
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); European profile standard for the
     physical and medium access control layer of Intelligent Transport Systems operating
     in the 5 GHz frequency band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28574
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202600_202699/202663/01.01.00_60/es_202663v010100p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 663 V1.1.0 (2010-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28574
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202600_202699/202663/01.01.00_60/es_202663v010100p.pdf
+docidentifier:
+- content: ETSI ES 202 663 V1.1.0 (2010-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 663 V1.1.0 (2010-01)
 date:
 - type: published
-  value: 2010-01
+  at: 2010-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media and Medium related
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.0
-revdate: 2010-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This European profile standard will be based on IEEE 802.11 and further
+- language: en
+  script: Latn
+  content: This European profile standard will be based on IEEE 802.11 and further
     requirements stated in work items for the physical and MAC layer at ETSI. This
     profile standard will be the base standard for developing 5 GHz ITS conformance
     declaration and test standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: LAYER 1
-- content: LAYER 2
-- content: MAC
-- content: PROFILE
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: PROFILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Media and Medium related
+    content: ETSI Standard

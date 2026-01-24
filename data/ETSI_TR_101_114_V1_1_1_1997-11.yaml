@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101114V1.1.11997-11
+id: ETSITR101114V111199711
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Analysis of the use of ASN.1
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Analysis of the use of ASN.1
     94 with TTCN and SDL in ETSI deliverables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5377
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101114/01.01.01_60/tr_101114v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 114 V1.1.1 (1997-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5377
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101114/01.01.01_60/tr_101114v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 114 V1.1.1 (1997-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 114 V1.1.1 (1997-11)
 date:
 - type: published
-  value: 1997-11
+  at: 1997-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SW5mbHVlbmNlIGFuZCBjby1vcGVyYXRlIHdpdGggRVdPUyAod2hvIG9wZW5lZCByZWNlbnRseSBhDQpXSSBvbiB0aGUgc3ViamVjdCkgaW4gc3R1ZHlpbmcgd2hldGhlciBhbmQgaG93IHRoZSBmZWF0dXJlcyBvZiBBU04uMSDigJkNCjk0IGFwcGx5IHRvIHRoZSBzcGVjaWZpY2F0aW9uIG9mIGZ1dHVyZSB0ZWxlY29tbXVuaWNhdGlvbnMgc3RhbmRhcmRzLg0KVGhpcyBhcHBsaWVzIHRvIGJvdGggdGhlIGJhc2UgYW5kIHRoZSB0ZXN0aW5nIHNwZWNpZmljYXRpb25zLg0KICA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Influence and co-operate with EWOS (who opened recently a\r\nWI on the
+    subject) in studying whether and how the features of ASN.1 \r\n94 apply to the
+    specification of future telecommunications standards.\r\nThis applies to both
+    the base and the testing specifications.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: SDL
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

@@ -1,76 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300356-22V1.1.12003-07
+id: ETSIEN30035622V111200307
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7 (SS7);
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7 (SS7);
     ISDN User Part (ISUP) version 4 for the international interface; Part 22: International
     Emergency Preference Scheme (IEPS) service [ITU-T Amendments (2002) to Q.761 -
     Q.764 (1999) modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15504
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035622/01.01.01_60/en_30035622v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 356-22 V1.1.1 (2003-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15504
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035622/01.01.01_60/en_30035622v010101p.pdf
+docidentifier:
+- content: ETSI EN 300 356-22 V1.1.1 (2003-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 356-22 V1.1.1 (2003-07)
 date:
 - type: published
-  value: 2003-07
+  at: 2003-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SPAN Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document defines an enhancement of the ISUP protocol, the latter
+- language: en
+  script: Latn
+  content: "This document defines an enhancement of the ISUP protocol, the latter
     contained in ETS 300 356.\r\nThe objective is to allow a prioritized call setup
     in case of an emergency situation, facilitating the organization of relief action.\r\nIt
     focuses on marking the calls of emergency relief personnel in the international
     signalling network.\r\nThus, the document provides a solution for supporting IEPS
     according to E.106 on the international connection section.\r\nCooperation with
     SPAN 14 takes place , where appropriate. Work in ITU-T SG 11 will be observed.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: ENDORSEMENT
-- content: ISDN
-- content: ISUP
-- content: SERVICE
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: SPAN Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

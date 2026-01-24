@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300118ed.21996-05
+id: ETSIETS300118ed2199605
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Category II specification for
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Category II specification for
     1 200 bits per second half duplex and 1 200/75 bits per second asymmetrical duplex
     modems standardized for use on the PSTN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2521
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300118/02_60/ets_300118e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 118 ed.2 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2521
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300118/02_60/ets_300118e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 118 ed.2 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 118 ed.2 (1996-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: General Terminal  Access Requirements
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical characteristics required for end-to-end\r\ninterworking over
+- language: en
+  script: Latn
+  content: "Technical characteristics required for end-to-end\r\ninterworking over
     the PSTN for 1200 bit/s half\r\nduplex and 1200/75 bit/s asymmetrical duplex modems\r\nstandardised
     for use on the PSTN in accordance with\r\nITU.T Rec V.23\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MODEM
-- content: PSTN
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: General Terminal  Access Requirements
+    content: European Telecommunication Standard

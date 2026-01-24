@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102281V3.1.12019-01
+id: ETSITS102281V311201901
+schema_version: v1.4.1
 title:
-- content: Rail Telecommunications (RT); Global System for Mobile communications (GSM);
+- language: en
+  script: Latn
+  content: Rail Telecommunications (RT); Global System for Mobile communications (GSM);
     Detailed requirements for GSM operation on Railways
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50046
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102281/03.01.01_60/ts_102281v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 281 V3.1.1 (2019-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50046
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102281/03.01.01_60/ts_102281v030101p.pdf
+docidentifier:
+- content: ETSI TS 102 281 V3.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 281 V3.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of the specification in order to add a section related to optional
+- language: en
+  script: Latn
+  content: Revision of the specification in order to add a section related to optional
     features in railway operation which, if selected, have to be implemented in a
     mandatory way.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM-R
-- content: railways
-- content: R-GSM
-- content: UIC
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: railways
+  - language: en
+    script: Latn
+    content: R-GSM
+  - language: en
+    script: Latn
+    content: UIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Specification

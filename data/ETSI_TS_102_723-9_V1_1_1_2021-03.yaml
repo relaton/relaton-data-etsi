@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102723-9V1.1.12021-03
+id: ETSITS1027239V111202103
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); OSI cross-layer topics; Part 9: Interface
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); OSI cross-layer topics; Part 9: Interface
     between security entity and facilities layer'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57412
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272309/01.01.01_60/ts_10272309v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 723-9 V1.1.1 (2021-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57412
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272309/01.01.01_60/ts_10272309v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 723-9 V1.1.1 (2021-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 723-9 V1.1.1 (2021-03)
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies Interface(s) between the ITS security entity and the ITS facilities
+- language: en
+  script: Latn
+  content: "Specifies Interface(s) between the ITS security entity and the ITS facilities
     layer including interface services and service primitives which are extensible
     in order to achieve general applicability. Specifies related procedures and common
     parameters. \r\nSecurity services to be specified in this TS include at least:
@@ -56,21 +65,27 @@ abstract:
     Note: This is an alternative way of implementing encryption/decryption and/or
     authorizing/authorization-validation services.\r\nDevelopment is with consultation
     of TC ITS WG1.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADAPTION
-- content: ADDRESSING
-- content: INTERFACE
-- content: ITS
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ADAPTION
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

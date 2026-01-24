@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101031V1.1.11997-07
+id: ETSITR101031V111199707
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); HIgh PErformance Radio Local Area Network
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); HIgh PErformance Radio Local Area Network
     (HIPERLAN); Requirements and architectures for Wireless ATM Access and Interconnection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3505
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101031/01.01.01_60/tr_101031v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 031 V1.1.1 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3505
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101031/01.01.01_60/tr_101031v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 031 V1.1.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 031 V1.1.1 (1997-07)
 date:
 - type: published
-  value: 1997-07
+  at: 1997-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RES 10 migrated WIs
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A TR that takes into account new applications of\r\nHIPERLANs as well
+- language: en
+  script: Latn
+  content: "A TR that takes into account new applications of\r\nHIPERLANs as well
     as the use of the 17 GHz band\r\nTo address the possible use of HIPERLAN for Aircraft
     Management\r\n(Gatelink) applications\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ATM
-- content: HIPERLAN
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: HIPERLAN
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RES 10 migrated WIs
+    content: Technical Report

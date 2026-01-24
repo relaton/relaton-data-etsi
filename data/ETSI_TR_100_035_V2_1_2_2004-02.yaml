@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR100035V2.1.22004-02
+id: ETSITR100035V212200402
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Environmental engineering; Guidance and
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Environmental engineering; Guidance and
     terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20285
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/100001_100099/100035/02.01.02_60/tr_100035v020102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 100 035 V2.1.2 (2004-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20285
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/100001_100099/100035/02.01.02_60/tr_100035v020102p.pdf
+docidentifier:
+- content: ETSI TR 100 035 V2.1.2 (2004-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 100 035 V2.1.2 (2004-02)
 date:
 - type: published
-  value: 2004-02
+  at: 2004-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Environmental Conditions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.2
-revdate: 2004-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Classification of environmental conditions for telecommunications\r\nequipments.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Classification of environmental conditions for telecommunications\r\nequipments.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: ENVIRONMENT
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EE Environmental Conditions
+    content: Technical Report

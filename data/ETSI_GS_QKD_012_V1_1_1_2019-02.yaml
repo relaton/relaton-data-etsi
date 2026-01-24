@@ -1,65 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD012V1.1.12019-02
+id: ETSIGSQKD012V111201902
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Device and Communication Channel Parameters
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Device and Communication Channel Parameters
     for QKD Deployment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43812
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/012/01.01.01_60/gs_QKD012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 012 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43812
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/012/01.01.01_60/gs_QKD012v010101p.pdf
+docidentifier:
+- content: ETSI GS QKD 012 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 012 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXSSB3aWxsIHByb3ZpZGUgYSBzdGFuZGFyZGl6ZWQgZGVzY3JpcHRpb24gb2YgdGhlIGltcG9ydGFudCBjaGFyYWN0ZXJpc3RpY3Mgb2YgUUtEIGRldmljZXMgYW5kIG9mIHRoZSByZXF1aXJlZCBjb21tdW5pY2F0aW9uIGNoYW5uZWxzIGluIHRoZSBjb250ZXh0IG9mIFFLRCBkZXBsb3ltZW50IG9uIGEgcG9pbnQtdG8tcG9pbnQgbGluay4gIA0KVGhlIGdvYWwgd2lsbCBiZSB0byBwcm92aWRlIGEgY29tcHJlaGVuc2l2ZSBzZXQgb2YgaW5mb3JtYXRpb24gd2l0aCBzZXZlcmFsIG9iamVjdGl2ZXM6DQo+IEZhY2lsaXRhdGUgUUtEIGZpZWxkIGltcGxlbWVudGF0aW9ucyAgDQo+IEZvcm11bGF0ZSB0aGUgcmVxdWlyZW1lbnRzIG9uIFFLRCBkZXZpY2VzIGFuZCBjb21tdW5pY2F0aW9uIGNoYW5uZWxzIGluIHRoZSBjb250ZXh0IG9mIFFLRCBkZXBsb3ltZW50IA0KPiBIaWdoLWxldmVsIGNvbXBhcmlzb24gb2YgaGV0ZXJvZ2VuZW91cyBRS0QgdGVjaG5vbG9naWVzDQpUaGUgV0kgZG9jdW1lbnQgd2lsbCB0YWNrbGUgdGhlIGZvbGxvd2luZyBpdGVtczoNCj4gQ2hhcmFjdGVyaXphdGlvbiBvZiBRS0QgQ29tbXVuaWNhdGlvbiBTeXN0ZW1zIFBlcmZvcm1hbmNlIGFuZCDigJxGb290cHJpbnTigJ0NCiAgLSBDb21tdW5pY2F0aW9ucyBpbnRlcmZhY2VzLCBjaGFubmVsIGFsbG9jYXRpb24NCiAgLSBRdWFudHVtIGNoYW5uZWwgcGFyYW1ldGVycyAob3B0aWNhbCBwYXJhbWV0ZXJzLCByYXRlKSANCiAgLSBDbGFzc2ljYWwgY2hhbm5lbCBwYXJhbWV0ZXJzIChvcHRpY2FsIHBhcmFtZXRlcnMsIHJhdGUpIA0KICAtIFBlcmZvcm1hbmNlIChzZWN1cml0eSBkZWZpbml0aW9uLCBzZWN1cml0eSBwYXJhbWV0ZXJzLCBrZXkgcmF0ZSwga2V5IGxhdGVuY3ksIHJhdyBrZXkpDQogIC0gTGFzZXIgc2FmZXR5LCBzaXplIG9mIGRldmljZSwgcG93ZXIgcmVxdWlyZW1lbnRzLCByYWNrLWFiaWxpdHkNCj4gQ2hhcmFjdGVyaXphdGlvbiBvZiB0aGUgUUtELWJhc2VkIHJlcXVpcmVtZW50cyBvbiB0aGUgcGFyYW1ldGVycyBvZiB0aGUgdHJhbnNtaXNzaW9uIGxpbmsNCiAgLSBRdWFudHVtIGNoYW5uZWwgcmVxdWlyZW1lbnRzOiAgYXR0ZW51YXRpb24gdnMuIHdhdmVsZW5ndGgsIHRvbGVyYWJsZSBkaXNwZXJzaW9uDQogIC0gQ2xhc3NpY2FsIGNoYW5uZWwgOiByYXRlIHJlcXVpcmVtZW50cywgbGF0ZW5jeSByZXF1aXJlbWVudHMsIHN0YWJpbGl0eSByZXF1aXJlbWVudHMNCiAgLSBUb2xlcmFuY2UgdG8gZXh0ZXJuYWwgbm9pc2Ugc291cmNlcw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This WI will provide a standardized description of the important characteristics
+    of QKD devices and of the required communication channels in the context of QKD
+    deployment on a point-to-point link.  \r\nThe goal will be to provide a comprehensive
+    set of information with several objectives:\r\n> Facilitate QKD field implementations
+    \ \r\n> Formulate the requirements on QKD devices and communication channels in
+    the context of QKD deployment \r\n> High-level comparison of heterogeneous QKD
+    technologies\r\nThe WI document will tackle the following items:\r\n> Characterization
+    of QKD Communication Systems Performance and Footprint\r\n  - Communications interfaces,
+    channel allocation\r\n  - Quantum channel parameters (optical parameters, rate)
+    \r\n  - Classical channel parameters (optical parameters, rate) \r\n  - Performance
+    (security definition, security parameters, key rate, key latency, raw key)\r\n
+    \ - Laser safety, size of device, power requirements, rack-ability\r\n> Characterization
+    of the QKD-based requirements on the parameters of the transmission link\r\n  -
+    Quantum channel requirements:  attenuation vs. wavelength, tolerable dispersion\r\n
+    \ - Classical channel : rate requirements, latency requirements, stability requirements\r\n
+    \ - Tolerance to external noise sources"
+status:
+  stage: Published
 keyword:
-- content: quantum cryptography
-- content: Quantum Key Distribution
+- taxon:
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

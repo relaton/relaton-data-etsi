@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300947ed.11997-05
+id: ETSIETS300947ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); enhanced Multi-Level
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); enhanced Multi-Level
     Precedence and Pre-emption service (eMLPP); Stage 3 (GSM 04.67 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3844
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300947/01_60/ets_300947e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 947 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3844
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300947/01_60/ets_300947e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 947 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 947 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
     used at the radio interface (Reference point Um as defined in GSM 04\r\n.02) for
     normal operation, invocation, registration and interrogation\r\nof the enhanced
     Multi Level Precedence and Pre emption Service (eMLPP)\r\nsupplementary service.
@@ -55,22 +65,30 @@ abstract:
     and 03.9x series.\r\nGSM 03.67 is related specially to eMLPP.\r\nThe procedures
     for Call Control, Mobility Management and Radio Resourc\r\ne management at the
     layer 3 radio interface are defined in GSM 04.07 a\r\nnd GSM 04.08.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: SERVICE
-- content: STAGE 3
-- content: UIC
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: UIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

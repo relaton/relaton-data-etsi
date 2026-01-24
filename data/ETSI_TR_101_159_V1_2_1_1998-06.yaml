@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101159V1.2.11998-06
+id: ETSITR101159V121199806
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Implementing DECT
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Implementing DECT
     in an arbitrary spectrum allocation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6637
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101159/01.02.01_60/tr_101159v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 159 V1.2.1 (1998-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6637
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101159/01.02.01_60/tr_101159v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 159 V1.2.1 (1998-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 159 V1.2.1 (1998-06)
 date:
 - type: published
-  value: 1998-06
+  at: 1998-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio and speech experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1998-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document is a guide how to implement and test DECT systems operating
+- language: en
+  script: Latn
+  content: "This document is a guide how to implement and test DECT systems operating
     at frequencies outside the frequency-bands described in ETS 300 175-2 and TBR
     6. The need to have this arises if DECT equipment is to be adapted to national
     requirements of countries which do not allow to use the basic 1 880 to 1 900 MHz
     DECT frequency band.\r\nThis revision adds a new Annex A and deletes Annexes B
     and C."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio and speech experts
+    content: Technical Report

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186010-1V3.1.12015-10
+id: ETSITS1860101V311201510
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Conference (CONF) using
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Conference (CONF) using
     IP Multimedia (IM) Core Network (CN) subsystem; Conformance test specification
     (3GPPTM Release 10); Part 1: Protocol Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47057
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601001/03.01.01_60/ts_18601001v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 010-1 V3.1.1 (2015-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47057
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601001/03.01.01_60/ts_18601001v030101p.pdf
+docidentifier:
+- content: ETSI TS 186 010-1 V3.1.1 (2015-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 010-1 V3.1.1 (2015-10)
 date:
 - type: published
-  value: 2015-10
+  at: 2015-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2015-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Conferencing using the IMS - Protocol implementation conformance statement
+- language: en
+  script: Latn
+  content: Conferencing using the IMS - Protocol implementation conformance statement
     (PICS) Update regarding 3GPP Release 10
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONF
-- content: IMS
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONF
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

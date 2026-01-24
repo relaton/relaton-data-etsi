@@ -1,75 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101994-2V1.1.22008-03
+id: ETSITR1019942V112200803
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Technical characteristics for SRD equipment using Ultra Wide
     Band technology (UWB); Part 2: Ground- and Wall- Probing Radar applications; System
     Reference Document'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28191
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/10199402/01.01.02_60/tr_10199402v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 994-2 V1.1.2 (2008-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28191
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/10199402/01.01.02_60/tr_10199402v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 994-2 V1.1.2 (2008-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 994-2 V1.1.2 (2008-03)
 date:
 - type: published
-  value: 2008-03
+  at: 2008-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2008-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Draft a Systems Reference Document in a TR format for technical information
+- language: en
+  script: Latn
+  content: "Draft a Systems Reference Document in a TR format for technical information
     and to coordinate a UWB compatibility study with ECC toward to a susequent development
     of ETSI deliverables i.e. candidate Harmonised Standard (ENs).\r\nThe System Reference
     Document is produced in two parts: part 1 to cover data communications applications;
     part 2 to cover imaging applications"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: RADIO
-- content: SHORT RANGE
-- content: SPREAD SPECTRUM
-- content: SRDOC
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SPREAD SPECTRUM
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

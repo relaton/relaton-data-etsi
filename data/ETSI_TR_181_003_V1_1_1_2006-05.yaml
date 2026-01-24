@@ -1,66 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR181003V1.1.12006-05
+id: ETSITR181003V111200605
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Services Capabilities, Requirements and strategic direction
     for NGN services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21143
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/181000_181099/181003/01.01.01_60/tr_181003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 181 003 V1.1.1 (2006-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21143
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/181000_181099/181003/01.01.01_60/tr_181003v010101p.pdf
+docidentifier:
+- content: ETSI TR 181 003 V1.1.1 (2006-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 181 003 V1.1.1 (2006-05)
 date:
 - type: published
-  value: 2006-05
+  at: 2006-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGFpbSBvZiB0aGlzIHdvcmsgd2lsbCBiZSB0byBwcm9kdWNlIGFuIGFuYWx5c2lzIG9mIHRoZSBjdXJyZW50IHdvcmsgYW5kIHN0cmF0ZWdpYyBkaXJlY3Rpb24gb2YgcmVsZXZhbnQgRm9ydW0gYW5kIHN0YW5kYXJkcyBib2RpZXMgKDNHUFAsIElUVS1ULCBJRVRGIOKApikgaW4gcmVsYXRpb24gdG8gc2VydmljZXMgYW5kIG5ldHdvcmsgcmVxdWlyZW1lbnRzIHRvIHN1cHBvcnQgRVRTSSBUSVNQQU4u
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The aim of this work will be to produce an analysis of the current work
+    and strategic direction of relevant Forum and standards bodies (3GPP, ITU-T, IETF
+    ) in relation to services and network requirements to support ETSI TISPAN.
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Report

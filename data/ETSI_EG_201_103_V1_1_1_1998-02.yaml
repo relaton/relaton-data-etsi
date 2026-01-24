@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201103V1.1.11998-02
+id: ETSIEG201103V111199802
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Human factors issues in Multimedia Information Retrieval
+- language: en
+  script: Latn
+  content: Human Factors (HF); Human factors issues in Multimedia Information Retrieval
     Services (MIRS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3579
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201103/01.01.01_60/eg_201103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 103 V1.1.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3579
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201103/01.01.01_60/eg_201103v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 103 V1.1.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 103 V1.1.1 (1998-02)
 date:
 - type: published
-  value: 1998-02
+  at: 1998-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Study of issues in MIRS to ensure the achievement of an adequate level\r\nof
+- language: en
+  script: Latn
+  content: "Study of issues in MIRS to ensure the achievement of an adequate level\r\nof
     usability.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: MMI
-- content: MULTIMEDIA
-- content: RETRIEVAL
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: RETRIEVAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

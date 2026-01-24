@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103823V1.1.22021-10
+id: ETSITR103823V112202110
+schema_version: v1.4.1
 title:
-- content: CYBER; Quantum-Safe Public-Key Encryption and Key Encapsulation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63793
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103823/01.01.02_60/tr_103823v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 823 V1.1.2 (2021-10)
+- language: en
+  script: Latn
+  content: CYBER; Quantum-Safe Public-Key Encryption and Key Encapsulation
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63793
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103823/01.01.02_60/tr_103823v010102p.pdf
+docidentifier:
+- content: ETSI TR 103 823 V1.1.2 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 823 V1.1.2 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This technical report will provide a snapshot of the technical descriptions
+- language: en
+  script: Latn
+  content: "This technical report will provide a snapshot of the technical descriptions
     of the Key Encapsulation Mechanisms (KEMs) selected by NIST for the third round
     of their post-quantum standardisation process.\r\n\r\nBecause specifications and
     performance figures are likely to change, the scope of the report will be limited
@@ -58,18 +67,18 @@ abstract:
     TR 103 616, which will present a similar snapshot of the technical details of
     the signature algorithms selected by NIST for the third round of their post-quantum
     standardisation process."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: Cybersecurity
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: Cybersecurity
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Report

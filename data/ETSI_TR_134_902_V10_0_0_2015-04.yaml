@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR134902V10.0.02015-04
+id: ETSITR134902V1000201504
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Derivation of test tolerances for multi-cell
     Radio Resource Management (RRM) conformance tests (3GPP TR 34.902 version 10.0.0
     Release 10)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47040
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/134900_134999/134902/10.00.00_60/tr_134902v100000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 134 902 V10.0.0 (2015-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47040
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/134900_134999/134902/10.00.00_60/tr_134902v100000p.pdf
+docidentifier:
+- content: ETSI TR 134 902 V10.0.0 (2015-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 134 902 V10.0.0 (2015-04)
 date:
 - type: published
-  value: 2015-04
+  at: 2015-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 10.0.0
-revdate: 2015-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-67
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-67
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Report

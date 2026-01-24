@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR045ed.11992-09
+id: ETSIETR045ed1199209
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); General Configuration and basic functions for the
+- language: en
+  script: Latn
+  content: Network Aspects (NA); General Configuration and basic functions for the
     interconnection of Private Telecommunications Networks with the public ISDN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=601
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/045/01_60/etr_045e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 045 ed.1 (1992-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=601
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/045/01_60/etr_045e01p.pdf
+docidentifier:
+- content: ETSI ETR 045 ed.1 (1992-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 045 ed.1 (1992-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: ISDN
-- content: PISN
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PISN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: ETSI Technical Report

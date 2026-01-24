@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202314-4V1.1.22005-03
+id: ETSIES2023144V112200503
+schema_version: v1.4.1
 title:
-- content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 4: PSTN/ISDN;
+- language: en
+  script: Latn
+  content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 4: PSTN/ISDN;
     Multimedia Message communication between a fixed network Multimedia Messaging
     Terminal Equipment and a Multimedia Messaging Service Centre'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21476
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/20231404/01.01.02_60/es_20231404v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 314-4 V1.1.2 (2005-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21476
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/20231404/01.01.02_60/es_20231404v010102p.pdf
+docidentifier:
+- content: ETSI ES 202 314-4 V1.1.2 (2005-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 314-4 V1.1.2 (2005-03)
 date:
 - type: published
-  value: 2005-03
+  at: 2005-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2005-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: " The scope of this Work Item is to describe the MMS communication between
+- language: en
+  script: Latn
+  content: " The scope of this Work Item is to describe the MMS communication between
     a fixed net Multimedia Message Service Terminal Equipment and a Multimedia Message
     Service Centre using in-band signalling.\r\nNOTE: The creation of this W.I. reflects
     the observation that MMS for fixed networks is a new service and not just an \"additional
     feature\" for SMS in the fixed networks as described in the  existing W.I. DES/AT-030013
     \"Short Message Service (SMS) for PSTN/ISDN; Additional Functionalities\".  \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MMS
-- content: PSTN
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MMS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Features
+    content: ETSI Standard

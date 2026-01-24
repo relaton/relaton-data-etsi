@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102226V12.0.02015-02
+id: ETSITS102226V1200201502
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Remote APDU structure for UICC based applications (Release
+- language: en
+  script: Latn
+  content: Smart Cards; Remote APDU structure for UICC based applications (Release
     12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46636
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102226/12.00.00_60/ts_102226v120000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 226 V12.0.0 (2015-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46636
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102226/12.00.00_60/ts_102226v120000p.pdf
+docidentifier:
+- content: ETSI TS 102 226 V12.0.0 (2015-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 226 V12.0.0 (2015-02)
 date:
 - type: published
-  value: 2015-02
+  at: 2015-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.0.0
-revdate: 2015-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Implementation of CRs after SCP #66'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Implementation of CRs after SCP #66'
+status:
+  stage: Published
 keyword:
-- content: PROTOCOL
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

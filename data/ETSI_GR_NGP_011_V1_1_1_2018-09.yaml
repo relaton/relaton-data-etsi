@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP011V1.1.12018-09
+id: ETSIGRNGP011V111201809
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocol (NGP); E2E Network Slicing Reference Framework
+- language: en
+  script: Latn
+  content: Next Generation Protocol (NGP); E2E Network Slicing Reference Framework
     and Information Model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52940
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/011/01.01.01_60/gr_NGP011v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 011 V1.1.1 (2018-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52940
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/011/01.01.01_60/gr_NGP011v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 011 V1.1.1 (2018-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 011 V1.1.1 (2018-09)
 date:
 - type: published
-  value: 2018-09
+  at: 2018-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on describing an end-to-end network slicing (NS)
+- language: en
+  script: Latn
+  content: This work item focuses on describing an end-to-end network slicing (NS)
     Information model.  The NS WI shall expose function elements, cross-domain interfaces
     for control and management planes, independent of a specific discipline.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

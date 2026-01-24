@@ -1,64 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102606V1.1.12007-10
+id: ETSITS102606V111200710
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Generic Stream Encapsulation (GSE) Protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26364
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102606/01.01.01_60/ts_102606v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 606 V1.1.1 (2007-10)
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Generic Stream Encapsulation (GSE) Protocol
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26364
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102606/01.01.01_60/ts_102606v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 606 V1.1.1 (2007-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 606 V1.1.1 (2007-10)
 date:
 - type: published
-  value: 2007-10
+  at: 2007-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkb2N1bWVudCBpbmNsdWRlcyB0aGUgZGVmaW5pdGlvbiBvZiB0aGUgR2VuZXJpYyBTdHJlYW0gRW5jYXBzdWxhdGlvbiAoR1NFKSBwcm90b2NvbCwgd2hpY2ggYWxsb3dzIGZvciBlZmZpY2llbnQgZW5jYXBzdWxhdGlvbiBvZiBJUCBhbmQgb3RoZXIgbmV0d29yayBsYXllciBwYWNrZXRzIG92ZXIgYSDigJxnZW5lcmlj4oCdIHBoeXNpY2FsIGxheWVyLiBTdWNoIGEg4oCcZ2VuZXJpY+KAnSBwaHlzaWNhbCBsYXllciBpcyBpbnRlbmRlZCBhcyBhIHRyYW5zcG9ydCBtb2RlIHRoYXQgY2FycmllcyBhIHNlcXVlbmNlIG9mIGRhdGEgYml0cyBvciBkYXRhIHBhY2tldHMsIHBvc3NpYmx5IG9yZ2FuaXplZCBpbiBmcmFtZXMsIGJ1dCB3aXRoIG5vIHNwZWNpZmljIHRpbWluZyBjb25zdHJhaW50cy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This document includes the definition of the Generic Stream Encapsulation
+    (GSE) protocol, which allows for efficient encapsulation of IP and other network
+    layer packets over a generic physical layer. Such a generic physical layer is
+    intended as a transport mode that carries a sequence of data bits or data packets,
+    possibly organized in frames, but with no specific timing constraints.
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

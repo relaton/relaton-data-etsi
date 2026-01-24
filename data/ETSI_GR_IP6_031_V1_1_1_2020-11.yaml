@@ -1,66 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIP6031V1.1.12020-11
+id: ETSIGRIP6031V111202011
+schema_version: v1.4.1
 title:
-- content: IPv6 Security, Cybersecurity, Blockchain
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59248
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/031/01.01.01_60/gr_IP6031v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IP6 031 V1.1.1 (2020-11)
+- language: en
+  script: Latn
+  content: IPv6 Security, Cybersecurity, Blockchain
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59248
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/031/01.01.01_60/gr_IP6031v010101p.pdf
+docidentifier:
+- content: ETSI GR IP6 031 V1.1.1 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR IP6 031 V1.1.1 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 integration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Outline of deployment of IPv6 security, Cybersecurity, Blockchain an DatablockMatrix
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Outline of deployment of IPv6 security, Cybersecurity, Blockchain an DatablockMatrix
+status:
+  stage: Published
 keyword:
-- content: blockchain
-- content: Cybersecurity
-- content: INTERNET
-- content: IPv6
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 integration
+    content: Group Report

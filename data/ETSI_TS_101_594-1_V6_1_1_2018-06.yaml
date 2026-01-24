@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101594-1V6.1.12018-06
+id: ETSITS1015941V611201806
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q29yZSBOZXR3b3JrIGFuZCBJbnRlcm9wZXJhYmlsaXR5IFRlc3RpbmcgKElOVCk7IEV4cGxpY2l0IENvbW11bmljYXRpb24gVHJhbnNmZXIgKEVDVCkgdXNpbmcgSVAgTXVsdGltZWRpYSAoSU0pIENvcmUgTmV0d29yayAoQ04pIHN1YnN5c3RlbTsgQ29uZm9ybWFuY2UgVGVzdCBTcGVjaWZpY2F0aW9uICgzR1BQ4oSiIFJlbGVhc2UgMTIpOyBQYXJ0IDE6IFByb3RvY29sIEltcGxlbWVudGF0aW9uIENvbmZvcm1hbmNlIFN0YXRlbWVudCAoUElDUyk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53024
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10159401/06.01.01_60/ts_10159401v060101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 594-1 V6.1.1 (2018-06)
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Explicit Communication
+    Transfer (ECT) using IP Multimedia (IM) Core Network (CN) subsystem; Conformance
+    Test Specification (3GPP Release 12); Part 1: Protocol Implementation Conformance
+    Statement (PICS)'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53024
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10159401/06.01.01_60/ts_10159401v060101p.pdf
+docidentifier:
+- content: ETSI TS 101 594-1 V6.1.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 594-1 V6.1.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.1.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The PICS ensures the conformance of the SUT to ETSI TS 124 629 (3GPP Release
+- language: en
+  script: Latn
+  content: "The PICS ensures the conformance of the SUT to ETSI TS 124 629 (3GPP Release
     12)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: ECT
-- content: IMS
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: ECT
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

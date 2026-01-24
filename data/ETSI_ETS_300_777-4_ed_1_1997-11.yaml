@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300777-4ed.11997-11
+id: ETSIETS3007774ed1199711
+schema_version: v1.4.1
 title:
-- content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
+- language: en
+  script: Latn
+  content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
     retrieval services; Part 4: Videotex Enhanced Man Machine Interface (VEMMI) enhancements
     to support broadband multimedia information retrieval services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4207
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077704/01_60/ets_30077704e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 777-4 ed.1 (1997-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4207
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077704/01_60/ets_30077704e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 777-4 ed.1 (1997-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 777-4 ed.1 (1997-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminal Application Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS will specify enhancements to the VEMMI standard for use in\r\nBroadband
+- language: en
+  script: Latn
+  content: "This ETS will specify enhancements to the VEMMI standard for use in\r\nBroadband
     Multimedia Information Retrieval Services (BMIRS).  The\r\nstandard introduces
     the concepts that are needed to handle real-time\r\ninformation (level a and b
     description) and specifies the coded\r\nrepresentation of these concepts as well
@@ -54,21 +64,27 @@ abstract:
     hereafter.  The standard describes how these components can\r\nbe integrated to
     form a multimedia information platform.\r\nTechnologies: MPEG-2, DSM-CC, VEMMI,
     and possibly interworking with\r\nInternet\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MMI
-- content: MULTIMEDIA
-- content: TERMINAL
-- content: VEMMI
-- content: VIDEOTEX
+- taxon:
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VEMMI
+  - language: en
+    script: Latn
+    content: VIDEOTEX
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Multimedia Terminal Application Architecture
+    content: European Telecommunication Standard

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100590V6.5.02000-06
+id: ETSITS100590V650200006
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile-services
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile-services
     Switching Centre - Base Station System (MSC - BSS) interface; Layer 3 specification
     (GSM 08.08 version 6.5.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10366
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100590/06.05.00_60/ts_100590v060500p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 590 V6.5.0 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10366
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100590/06.05.00_60/ts_100590v060500p.pdf
+docidentifier:
+- content: ETSI TS 100 590 V6.5.0 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 590 V6.5.0 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.5.0
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Version 6.5.0: Inclusion of CRs approved at SMG #31bis\r\nA196 Moving
+- language: en
+  script: Latn
+  content: "Version 6.5.0: Inclusion of CRs approved at SMG #31bis\r\nA196 Moving
     NOTIFICATION RESPONSE from MM to GSM RR"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio
+    content: Technical Specification

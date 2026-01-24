@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202301V1.1.12004-05
+id: ETSIEG202301V111200405
+schema_version: v1.4.1
 title:
-- content: Universal Communications Identifier (UCI); Using UCI to enhance communications
+- language: en
+  script: Latn
+  content: Universal Communications Identifier (UCI); Using UCI to enhance communications
     for disabled, young and elderly people
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15617
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202300_202399/202301/01.01.01_60/eg_202301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 301 V1.1.1 (2004-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15617
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202300_202399/202301/01.01.01_60/eg_202301v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 301 V1.1.1 (2004-05)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 301 V1.1.1 (2004-05)
 date:
 - type: published
-  value: 2004-05
+  at: 2004-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Based on the taxonomy and requirements in the Technical Report DTR/HF-00047,
+- language: en
+  script: Latn
+  content: Based on the taxonomy and requirements in the Technical Report DTR/HF-00047,
     this guide will describe requirements for elements in the additional information
     field of a UCI and for PUA functionality that will enhance the communication experience
     related to young, elderly and disabled people.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AGEING
-- content: children
-- content: DISABILITY
-- content: HF
-- content: MMI
-- content: UCI
+- taxon:
+  - language: en
+    script: Latn
+    content: AGEING
+  - language: en
+    script: Latn
+    content: children
+  - language: en
+    script: Latn
+    content: DISABILITY
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: UCI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

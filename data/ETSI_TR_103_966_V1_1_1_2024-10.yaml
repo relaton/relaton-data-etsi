@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103966V1.1.12024-10
+id: ETSITR103966V111202410
+schema_version: v1.4.1
 title:
-- content: CYBER Security (CYBER); Quantum-Safe Cryptography (QSC); Deployment Considerations
+- language: en
+  script: Latn
+  content: CYBER Security (CYBER); Quantum-Safe Cryptography (QSC); Deployment Considerations
     for Hybrid Schemes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64284
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103966/01.01.01_60/tr_103966v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 966 V1.1.1 (2024-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64284
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103966/01.01.01_60/tr_103966v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 966 V1.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 966 V1.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item will explore issues around combining classical and post-quantum
+- language: en
+  script: Latn
+  content: 'This work item will explore issues around combining classical and post-quantum
     algorithms to construct hybrid cryptographic schemes.  Specifically, this technical
     report will: examine some of the reasons for proposing and adopting hybrid schemes,
     both for key establishment and digital signatures; clarify some of the terminology
@@ -55,19 +64,21 @@ abstract:
     algorithm and parameter combinations; explore some potential deployment and migration
     issues; and identify situations where hybrid schemes will need to be deprecated
     in favour of purely post-quantum algorithms.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: HYBRID
-- content: Quantum Safe Cryptography
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: HYBRID
+  - language: en
+    script: Latn
+    content: Quantum Safe Cryptography
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Report

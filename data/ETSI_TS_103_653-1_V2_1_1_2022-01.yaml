@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103653-1V2.1.12022-01
+id: ETSITS1036531V211202201
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q29yZSBOZXR3b3JrIGFuZCBJbnRlcm9wZXJhYmlsaXR5IFRlc3RpbmcgKElOVCk7IFZvTFRFL1ZpTFRFIGludGVyb3BlcmFiaWxpdHkgdGVzdCBkZXNjcmlwdGlvbiBvdmVyIDRHL2Vhcmx5IDVHIGluIHBoeXNpY2FsL3ZpcnR1YWwgZW52aXJvbm1lbnRzOyAoM0dQUOKEoiBSZWxlYXNlIDE1KTsgUGFydCAxOiBUZXN0IFB1cnBvc2VzIChUUCkgYW5kIFByb3RvY29sIEltcGxlbWVudGF0aW9uIENvbmZvcm1hbmNlIFN0YXRlbWVudCAoUElDUykgZm9yIFZvTFRFL1ZpTFRFIGludGVyb3BlcmFiaWxpdHk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59524
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365301/02.01.01_60/ts_10365301v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 653-1 V2.1.1 (2022-01)
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); VoLTE/ViLTE interoperability
+    test description over 4G/early 5G in physical/virtual environments; (3GPP Release
+    15); Part 1: Test Purposes (TP) and Protocol Implementation Conformance Statement
+    (PICS) for VoLTE/ViLTE interoperability'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59524
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365301/02.01.01_60/ts_10365301v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 653-1 V2.1.1 (2022-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 653-1 V2.1.1 (2022-01)
 date:
 - type: published
-  value: 2022-01
+  at: 2022-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2022-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'VoLTE/ViLTE interoperability test descriptions cover the test scenarios
+- language: en
+  script: Latn
+  content: 'VoLTE/ViLTE interoperability test descriptions cover the test scenarios
     within single-network configuration over 4G/early 5G in physical/virtual environments,
     as well as interconnect and roaming test scenarios within multiple-network configurations.
     Test descriptions provide monitoring points and test specifications in prose details
     with focus on different interworking and interoperability interfaces using SIP,
     Diameter protocols and checks of ENUM Transactions. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: PICS
-- content: ViLTE
-- content: VoLTE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: ViLTE
+  - language: en
+    script: Latn
+    content: VoLTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

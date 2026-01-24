@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301234V1.2.11999-02
+id: ETSIEN301234V121199902
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Multimedia Object Transfer (MOT) protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6597
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301234/01.02.01_60/en_301234v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 234 V1.2.1 (1999-02)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Multimedia Object Transfer (MOT) protocol
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6597
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301234/01.02.01_60/en_301234v010201p.pdf
+docidentifier:
+- content: ETSI EN 301 234 V1.2.1 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 234 V1.2.1 (1999-02)
 date:
 - type: published
-  value: 1999-02
+  at: 1999-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1999-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce edition 2 simply by the addition of a directory object to provide
+- language: en
+  script: Latn
+  content: "To produce edition 2 simply by the addition of a directory object to provide
     effective file management. The amendment will be backwards compatible with the
     existing standard. The group working with the MOT updates within Eureka 147 will
     be refered to as Task Force Directory Object, in short TF DO.\r\nRapporteur: Richard
     Rebhan, Teracom, Sweden\r\nSupporting organisations: Eureka 147 members."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
-- content: MULTIMEDIA
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

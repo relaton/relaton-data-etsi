@@ -1,67 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103220V1.1.12014-03
+id: ETSITS103220V111201403
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
     for Superwideband handheld (handset and handsfree) terminals from a QoS perspective
     as perceived by the user
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43336
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103220/01.01.01_60/ts_103220v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 220 V1.1.1 (2014-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43336
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103220/01.01.01_60/ts_103220v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 220 V1.1.1 (2014-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 220 V1.1.1 (2014-03)
 date:
 - type: published
-  value: 2014-03
+  at: 2014-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9uIHByb3ZpZGVzIHNwZWVjaCB0cmFuc21pc3Npb24gcGVyZm9ybWFuY2UgcmVxdWlyZW1lbnRzIGFuZCBtZWFzdXJlbWVudCBtZXRob2RzIGZvciBoYW5kc2V0IGFuZCBoYW5kc2ZyZWUgZnVuY3Rpb25zIG9mIHN1cGVyd2lkZWJhbmQgaGFuZGhlbGQgdGVybWluYWxzIChpbmNsdWRpbmcgUERBcykuIFRoZSBwcmVzZW50IGRvY3VtZW50IHByb3ZpZGVzIHJlcXVpcmVtZW50cyBpbiBvcmRlciB0byBvcHRpbWl6ZSB0aGUgZW5kIHRvIGVuZCBxdWFsaXR5IHBlcmNlaXZlZCBieSB1c2Vycy4gDQpTdGFuZGFyZGl6ZWQgc3VwZXJ3aWRlYmFuZCBjb2RlcnMgYXJlIG5vdyBhdmFpbGFibGUsIHNvbWUgYmVpbmcgYWxzbyBjb21wYXRpYmxlIHdpdGggd2lkZWJhbmQgY29kZXJzLg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgY29uc2lkZXJzIG9ubHkgY29udmVyc2F0aW9uYWwgc2VydmljZXMgKHRoYXQgbWF5IGJlIG1peGVkIHdpdGggb3RoZXIgc2VydmljZXMpIGFuZCBkb2VzIG5vdCBjb3ZlciB0aGUgc3RyZWFtaW5nLW9ubHkgc2VydmljZXMuDQpTdWNoIGFwcGxpY2F0aW9ucyBpbmNsdWRlOg0K4oCiCVNwZWVjaCBjb21tdW5pY2F0aW9uIGZvciBoYW5kc2V0IGFuZCBoYW5kc2ZyZWUgZnVuY3Rpb25zLiBBIHNwZWNpYWwgY2FyZSBpcyB0YWtlbiB0byBlbnN1cmUgdGhhdCB0aGUgcXVhbGl0eSBvZmZlcmVkIGJvdGggYnkgaGFuZHNldCBhbmQgaGFuZHNmcmVlIGZ1bmN0aW9ucyBpcyBlcXVpdmFsZW50IGFuZCB0aGF0IHRoZSBxdWFsaXR5IGluIHNlbmQgZGlyZWN0aW9uIGlzIHNpbWlsYXIgdG8gc3VwZXJ3aWRlYmFuZCB0ZXJtaW5hbHMgZnVsZmlsbGluZyBUUyAxMDIgOTI0IG9yIFRTIDEwMiA5MjUuDQrigKIJV2lkZWJhbmQgQmFuZHdpZHRoIGV4dGVuc2lvbiB3aGljaCBtYXkgYWxsb3cgdXNhZ2UgZm9yIHNvbWUgbWl4ZWQgY29udGVudCBhcHBsaWNhdGlvbnMuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The Technical Specification provides speech transmission performance requirements
+    and measurement methods for handset and handsfree functions of superwideband handheld
+    terminals (including PDAs). The present document provides requirements in order
+    to optimize the end to end quality perceived by users. \r\nStandardized superwideband
+    coders are now available, some being also compatible with wideband coders.\r\nThe
+    present document considers only conversational services (that may be mixed with
+    other services) and does not cover the streaming-only services.\r\nSuch applications
+    include:\r\n\tSpeech communication for handset and handsfree functions. A special
+    care is taken to ensure that the quality offered both by handset and handsfree
+    functions is equivalent and that the quality in send direction is similar to superwideband
+    terminals fulfilling TS 102 924 or TS 102 925.\r\n\tWideband Bandwidth extension
+    which may allow usage for some mixed content applications.\r\n"
+status:
+  stage: Published
 keyword:
-- content: QoS
-- content: SPEECH
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

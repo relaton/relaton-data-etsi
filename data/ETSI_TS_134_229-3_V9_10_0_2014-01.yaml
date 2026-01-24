@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS134229-3V9.10.02014-01
+id: ETSITS1342293V9100201401
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); LTE; Internet Protocol
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); LTE; Internet Protocol
     (IP) multimedia call control protocol based on Session Initiation Protocol (SIP)
     and Session Description Protocol (SDP); User Equipment (UE) conformance specification;
     Part 3: Abstract test suite (ATS) (3GPP TS 34.229-3 version 9.10.0 Release 9)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43648
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/134200_134299/13422903/09.10.00_60/ts_13422903v091000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 134 229-3 V9.10.0 (2014-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43648
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/134200_134299/13422903/09.10.00_60/ts_13422903v091000p.pdf
+docidentifier:
+- content: ETSI TS 134 229-3 V9.10.0 (2014-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 134 229-3 V9.10.0 (2014-01)
 date:
 - type: published
-  value: 2014-01
+  at: 2014-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.10.0
-revdate: 2014-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-62
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-62
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Specification

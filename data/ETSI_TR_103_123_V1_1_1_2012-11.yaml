@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103123V1.1.12012-11
+id: ETSITR103123V111201211
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Guidance for Auditors
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Guidance for Auditors
     and CSPs on ETSI TS 102 042 for Issuing Publicly-Trusted TLS/SSL Certificates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38245
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103123/01.01.01_60/tr_103123v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 123 V1.1.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38245
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103123/01.01.01_60/tr_103123v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 123 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 123 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Guidance on TS 102 042 for CAB Forum Baseline Certificates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Guidance on TS 102 042 for CAB Forum Baseline Certificates
+status:
+  stage: Historical
 keyword:
-- content: e-commerce
-- content: Public key
-- content: SECURITY
-- content: SSL/TLS certificates
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: Public key
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SSL/TLS certificates
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

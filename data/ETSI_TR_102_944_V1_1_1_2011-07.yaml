@@ -1,65 +1,100 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102944V1.1.12011-07
+id: ETSITR102944V111201107
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Use Cases for Baseband Interfaces for
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Use Cases for Baseband Interfaces for
     Unified Radio Applications of Mobile Device
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35685
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102944/01.01.01_60/tr_102944v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 944 V1.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35685
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102944/01.01.01_60/tr_102944v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 944 V1.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 944 V1.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RREA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUUiB3aWxsIG91dGxpbmUgY29tcG9uZW50IGxldmVsIFVzZSBDYXNlcyByZWxhdGVkIHRvIHRoZSBzdGFuZGFyZGl6YXRpb24gb2YgaW50ZXJmYWNlIG9wZXJhdGlvbnMgZm9yIHVuaWZpZWQgYmFzZWJhbmQgc2lnbmFsIHByb2Nlc3NpbmcgcmFkaW8gYXBwbGljYXRpb25zIGZvciBNb2JpbGUgRGV2aWNlcyAoTUQpLiBUaGVzZSBVc2UgQ2FzZXMgd2lsbCBzcGVjaWZ5IHRoZSBpbnRlcm9wZXJhdGlvbiBhbW9uZyB0aGUgbW9iaWxlIGRldmljZeKAmXMgYmFzZWJhbmQgc2lnbmFsIHByb2Nlc3NpbmcgbW9kdWxlcy4gIFRoZSBiYXNlYmFuZCBzaWduYWwgcHJvY2Vzc2luZyBvZiB1bmlmaWVkIHJhZGlvIGFwcGxpY2F0aW9ucyBpbmNsdWRlcyBtdWx0aS1hbnRlbm5hIHNpZ25hbCBwcm9jZXNzaW5nIGFzIHdlbGwgYXMgbW9kZW0gb3BlcmF0aW9uIGFuZCBzeW5jaHJvbml6YXRpb24uIFRoZSBVc2UgQ2FzZXMgdG8gYmUgZGV2ZWxvcGVkIGluIHRoaXMgd29yayB3aWxsIG91dGxpbmUgYSB2YXJpZXR5IG9mIHdpcmVsZXNzIG5ldHdvcmsgY29uZmlndXJhdGlvbnMgYW5kIHByb3ZpZGUgdGhlIGJhc2ViYW5kIGNvbnRyb2wsIG1vbml0b3JpbmcgcGFyYW1ldGVycyBhbmQgc2lnbmFsIGZsb3dzIHRoYXQgbmVlZCB0byBiZSBzdXBwb3J0ZWQgYnkgdGhlIHN0YW5kYXJkaXplZCBiYXNlYmFuZCBpbnRlcmZhY2VzLiBUaGlzIHdvcmsgd2lsbCBhbHNvIG91dGxpbmUgVXNlIENhc2VzIGluY2x1ZGluZyBhIHZhcmlldHkgb2YgY29uZmlndXJhdGlvbnMgb2YgcmFkaW8gYXBwbGljYXRpb24gYmFzZWJhbmQgYmxvY2tzIHdoaWNoIGFyZSBpbnRlcmNvbm5lY3RlZCBieSB0aGUgc3RhbmRhcmRpemVkIGludGVyZmFjZXMuICBUaGUgVXNlIENhc2VzIHRvIGJlIG91dGxpbmVkIHdpbGwgaW5jbHVkZSBjb25maWd1cmF0aW9ucyBvZiB2YXJpb3VzIG11bHRpLWFudGVubmEgdGVjaG5vbG9naWVzIHN1Y2ggYXMgTUlNTywgQmVhbS1mb3JtaW5nLCBEaXJlY3Rpb24gRmluZGluZywgZXRjLCB3aGljaCBjb3VsZCBhZG9wdCB2YXJpb3VzIGtpbmRzIG9mIGFsZ29yaXRobXMuIEluIHN1Y2ggVXNlIENhc2VzLCB0aGUgbXVsdGktYW50ZW5uYSB0ZWNobm9sb2d5IGlzIGFwcGxpY2FibGUgdG8gYSB2YXJpZXR5IG9mIHJhZGlvIHdhdmVmb3Jtcy4gSW4gYSBtdWx0aS1yYWRpbyBzeXN0ZW0sIHN0YW5kYXJkaXplZCBiYXNlYmFuZCBpbnRlcmZhY2VzIGFtb25nIHRoZSByYWRpbyBjb21wb25lbnRzIGluIHRoZSB1bmlmaWVkIHJhZGlvIGFwcGxpY2F0aW9ucyBvZiBNRCBjb3VsZCBlbmFibGUgbW9uaXRvcmluZyBhbmQgY29udHJvbCBvZiB0aGUgcmFkaW8gbGluayBzdGF0ZSBieSBtYW5hZ2VtZW50IHN5c3RlbSBjb21wb25lbnRzIHRoYXQgYXJlIGluZGVwZW5kZW50IG9mIHRoZSBpbmRpdmlkdWFsIHJhZGlvIGxpbmsgdGVjaG5vbG9neS4gU3VjaCBtYW5hZ2VtZW50LCBmb3IgZXhhbXBsZSwgbWF5IGxlYWQgdG8gbW9yZSBvcHRpbWFsIGxpbmsgb3BlcmF0aW9uIGJ5IGNvbW11bmljYXRpbmcgY29udHJvbCBwYXJhbWV0ZXJzIGFuZCBtb25pdG9yaW5nIGluZm9ybWF0aW9uIHdpdGggdGhlIHVwcGVyIGNvbnRyb2wgbGF5ZXIgcmVnYXJkbGVzcyBvZiByYWRpbyBhcHBsaWNhdGlvbnMuICBTdGFuZGFyZGl6ZWQgaW50ZXJmYWNlcyBtYXkgYWxzbyBlbmFibGUgYSByZWNvbmZpZ3VyYWJsZSByYWRpbyBtb2RlbSB0byBiZSBjb21iaW5lZCB3aXRoIGEgdmFyaWV0eSBvZiBtdWx0aS1hbnRlbm5hIGNvbmZpZ3VyYXRpb25zLCB3aGljaCBpcyBlc3NlbnRpYWwgZm9yIGVuaGFuY2luZyBib3RoIGNvbW11bmljYXRpb24gY2FwYWNpdHkgYW5kIHF1YWxpdHkgb2Ygc2VydmljZS4gVGh1cywgdGhlIFVzZSBDYXNlcyB3aWxsIGluY2x1ZGUgdGhlIHRyYW5zcG9ydGF0aW9uIG9mIHBhcmFtZXRlcnMgdmlhIHRoZSDigJxNdWx0aXJhZGlvIEludGVyZmFjZSBmb3IgU29mdHdhcmUgRGVmaW5lZCBSYWRpb+KAnS4gVGhlIFVzZSBDYXNlcyB0aGF0IHdpbGwgYmUgb3V0bGluZWQgaW4gdGhpcyB3b3JrIHdpbGwgYmUgY29uc2lkZXJlZCBmb3IgU3lzdGVtIFJlcXVpcmVtZW50cyBhbmQgU3lzdGVtIEFyY2hpdGVjdHVyZSBzcGVjaWZpY2F0aW9ucyB0byBiZSBkZXZlbG9wZWQgaW4gRVRTSSBSUlMgZm9yIGludGVybmFsIGFuZCBleHRlcm5hbCBzaWduYWwgZmxvd3MgYWNyb3NzIHN0YW5kYXJkaXplZCBiYXNlYmFuZCBpbnRlcmZhY2VzIHdpdGhpbiBhIHVuaWZpZWQgcmFkaW8gYXBwbGljYXRpb24gZm9yIE1ELg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This TR will outline component level Use Cases related to the standardization
+    of interface operations for unified baseband signal processing radio applications
+    for Mobile Devices (MD). These Use Cases will specify the interoperation among
+    the mobile devices baseband signal processing modules.  The baseband signal processing
+    of unified radio applications includes multi-antenna signal processing as well
+    as modem operation and synchronization. The Use Cases to be developed in this
+    work will outline a variety of wireless network configurations and provide the
+    baseband control, monitoring parameters and signal flows that need to be supported
+    by the standardized baseband interfaces. This work will also outline Use Cases
+    including a variety of configurations of radio application baseband blocks which
+    are interconnected by the standardized interfaces.  The Use Cases to be outlined
+    will include configurations of various multi-antenna technologies such as MIMO,
+    Beam-forming, Direction Finding, etc, which could adopt various kinds of algorithms.
+    In such Use Cases, the multi-antenna technology is applicable to a variety of
+    radio waveforms. In a multi-radio system, standardized baseband interfaces among
+    the radio components in the unified radio applications of MD could enable monitoring
+    and control of the radio link state by management system components that are independent
+    of the individual radio link technology. Such management, for example, may lead
+    to more optimal link operation by communicating control parameters and monitoring
+    information with the upper control layer regardless of radio applications.  Standardized
+    interfaces may also enable a reconfigurable radio modem to be combined with a
+    variety of multi-antenna configurations, which is essential for enhancing both
+    communication capacity and quality of service. Thus, the Use Cases will include
+    the transportation of parameters via the Multiradio Interface for Software Defined
+    Radio. The Use Cases that will be outlined in this work will be considered for
+    System Requirements and System Architecture specifications to be developed in
+    ETSI RRS for internal and external signal flows across standardized baseband interfaces
+    within a unified radio application for MD.
+status:
+  stage: Published
 keyword:
-- content: CRS
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RREA - Reconfigurable Radio Equipment Architecture
+    content: Technical Report

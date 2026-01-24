@@ -1,64 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300194ed.11995-11
+id: ETSIETS300194ed1199511
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); The interconnection of Very
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); The interconnection of Very
     Small Aperture Terminal (VSAT) systems to Packet Switched Public Data Networks
     (PSPDNs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2389
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300194/01_60/ets_300194e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 194 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2389
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300194/01_60/ets_300194e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 194 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 194 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RF and IF Equipment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS will specify the requirements that VSAT systems must meet to\r\nbe
+- language: en
+  script: Latn
+  content: "This ETS will specify the requirements that VSAT systems must meet to\r\nbe
     allowed to be interconnected to Packet Switched Public Networks\r\n(PSPDNs)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: INTERFACE
-- content: PSPDN
-- content: RADIO
-- content: SATELLITE
-- content: VSAT
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PSPDN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: VSAT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: RF and IF Equipment
+    content: European Telecommunication Standard

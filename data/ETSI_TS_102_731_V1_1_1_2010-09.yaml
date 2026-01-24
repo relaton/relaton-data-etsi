@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102731V1.1.12010-09
+id: ETSITS102731V111201009
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Security Services and Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28154
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102731/01.01.01_60/ts_102731v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 731 V1.1.1 (2010-09)
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Security Services and Architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28154
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102731/01.01.01_60/ts_102731v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 731 V1.1.1 (2010-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 731 V1.1.1 (2010-09)
 date:
 - type: published
-  value: 2010-09
+  at: 2010-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document will specify mechanisms and protocols for secure and privacy-preserving
+- language: en
+  script: Latn
+  content: "The document will specify mechanisms and protocols for secure and privacy-preserving
     communication in vehicular environments, including vehicle-to-vehicle and vehicle-to
     infrastructure communication. It will provide credential and identity management,
     privacy \r\nand anonymity, integrity protection, authentication and authorization.
@@ -54,18 +63,18 @@ abstract:
     invalidating credentials to \r\ncounterfeit attacks on security and reliability
     of communication. Further methods to prevent malicious tracking of identity and
     location will be provided."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

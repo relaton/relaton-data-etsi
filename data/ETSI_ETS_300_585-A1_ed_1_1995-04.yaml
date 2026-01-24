@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300585/A1ed.11995-04
+id: ETSIETS300585A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Use of Data
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Use of Data
     Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE) interface
     for Short Message Service (SMS) and Cell Broadcast Service (CBS) (GSM 07.05)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3172
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300585/01_60/ets_300585e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 585/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3172
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300585/01_60/ets_300585e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 585/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 585/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON 1:\r\nGSM 07.05 defines the length of the SC address in table 5.6
+- language: en
+  script: Latn
+  content: "REASON 1:\r\nGSM 07.05 defines the length of the SC address in table 5.6
     and 5.8 as\r\nbeing 1-13 octets long. This is not correct since the SC address\r\nlength
     is coded as the RP-Destination address specified in GSM 04.11.\r\nThese addresses
     can only be up to 12 octets long.\r\n CONSEQUENCES OF NON-ACCEPTANCE 1:\r\nImplementors
@@ -54,28 +64,48 @@ abstract:
     command. right after GET\r\nFIRST MESSAGE command. GET NEXT MESSAGE command may
     give a wrong\r\nresponse in a situation where a session is started with a GET
     MESSAGE\r\ncommand.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: CBS
-- content: CELL
-- content: DCE
-- content: DTE
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERFACE
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CBS
+  - language: en
+    script: Latn
+    content: CELL
+  - language: en
+    script: Latn
+    content: DCE
+  - language: en
+    script: Latn
+    content: DTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

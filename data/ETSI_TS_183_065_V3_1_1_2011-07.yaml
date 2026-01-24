@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183065V3.1.12011-07
+id: ETSITS183065V311201107
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Network (TISPAN); Customer Network Gateway Configuration Function; e3 Interface
     based upon CWMP [Endorsement of ETSI ES 203 069 (V1.2.1)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35792
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183065/03.01.01_60/ts_183065v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 065 V3.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35792
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183065/03.01.01_60/ts_183065v030101p.pdf
+docidentifier:
+- content: ETSI TS 183 065 V3.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 065 V3.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Make a release 3 version of the endorsement specification that references
+- language: en
+  script: Latn
+  content: "Make a release 3 version of the endorsement specification that references
     the latest version of the latest document.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: GATEWAY
-- content: MANAGEMENT
-- content: NETWORK
-- content: REMOTE
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: GATEWAY
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: REMOTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

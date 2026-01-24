@@ -1,67 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCDM001V1.1.12021-01
+id: ETSIGRCDM001V111202101
+schema_version: v1.4.1
 title:
-- content: Common Information Sharing Environment Service and Data Model (CDM); Use
+- language: en
+  script: Latn
+  content: Common Information Sharing Environment Service and Data Model (CDM); Use
     Cases definition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58288
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CDM/001_099/001/01.01.01_60/gr_CDM001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CDM 001 V1.1.1 (2021-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58288
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CDM/001_099/001/01.01.01_60/gr_CDM001v010101p.pdf
+docidentifier:
+- content: ETSI GR CDM 001 V1.1.1 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR CDM 001 V1.1.1 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: european Common information sharing environment service and Data
+          Model
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To define the use cases for the European Common Information sharing environment  service
+- language: en
+  script: Latn
+  content: To define the use cases for the European Common Information sharing environment  service
     and Data Model.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data sharing
-- content: MARITIME
-- content: SAFETY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: data sharing
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: european Common information sharing environment service and Data Model
+    content: Group Report

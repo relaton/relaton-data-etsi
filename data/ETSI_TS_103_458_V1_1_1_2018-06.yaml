@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103458V1.1.12018-06
+id: ETSITS103458V111201806
+schema_version: v1.4.1
 title:
-- content: CYBER; Application of Attribute Based Encryption (ABE) for PII and personal
+- language: en
+  script: Latn
+  content: CYBER; Application of Attribute Based Encryption (ABE) for PII and personal
     data protection on IoT devices, WLAN, cloud and mobile services - High level requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50110
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103458/01.01.01_60/ts_103458v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 458 V1.1.1 (2018-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50110
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103458/01.01.01_60/ts_103458v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 458 V1.1.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 458 V1.1.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI specifies an application of ABE to implement ABAC for specific
+- language: en
+  script: Latn
+  content: "This WI specifies an application of ABE to implement ABAC for specific
     environments where access to data has to be given to multiple parties and under
     different conditions.\r\nThe work item will describe the ABE encryption and decryption
     mechanisms, the boundary conditions relating to the underlying cryptography, the
@@ -63,20 +72,24 @@ abstract:
     access mechanisms are actioned either in the network or on the device. The objective
     is to retain flexibility w.r.t. reuse of the work by other standardisation bodies,
     e.g. oneM2M."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: access control
-- content: CONFIDENTIALITY
-- content: PORTABILITY
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: PORTABILITY
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

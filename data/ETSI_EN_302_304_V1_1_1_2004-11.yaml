@@ -1,72 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302304V1.1.12004-11
+id: ETSIEN302304V111200411
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Transmission System for Handheld Terminals
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Transmission System for Handheld Terminals
     (DVB-H)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19898
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302300_302399/302304/01.01.01_60/en_302304v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 304 V1.1.1 (2004-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19898
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302300_302399/302304/01.01.01_60/en_302304v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 304 V1.1.1 (2004-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 304 V1.1.1 (2004-11)
 date:
 - type: published
-  value: 2004-11
+  at: 2004-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    IEJhc2VkIG9uIERWQi1UIEVOIDMwMCA3NDQsIHdpdGggdGhlIGhvbGxvd2luZyBhZGRpdGlvbnMgZm9yIGhhbmQtaGVsZCB0ZXJtaW5hbHM6DQrigKJUaW1lIFNsaWNpbmcgZm9yIHJlZHVjaW5nIHRoZSBhdmVyYWdlIHBvd2VyIGNvbnN1bXB0aW9uIG9mIHRoZSB0ZXJtaW5hbCBhbmQgZW5hYmxpbmcgc21vb3RoIGhhbmQtb3Zlci4NCuKAok1QRS1GRUMgZm9yIGltcHJvdmluZyBDL04tcGVyZm9ybWFuY2UgYW5kIERvcHBsZXIgcGVyZm9ybWFuY2UgaW4gTW9iaWxlIGNoYW5uZWxzIGFuZCBpbXByb3ZpbmcgdG9sZXJhbmNlIHRvIGltcHVsc2UgaW50ZXJmZXJlbmNlLg0K4oCiRXh0ZW5kZWQgVFBTLWJpdCBzaWduYWxsaW5nIHRvIGFsbG93IGVub3VnaCBpbmZvcm1hdGlvbiBvZiB0aGUgc2VydmljZSBjYXJyaWVkIGluIGEgcm9idXN0IHdheSB0byBlbmhhbmNlIGFuZCBzcGVlZCB1cCBzZXJ2aWNlIGRpc2NvdmVyeSBhbmQgdG8gY29uc2VydmUgdGhlIGZyZWUgVFBTLWJpdHMuDQrigKI0ay1tb2RlIGZvciBpbXByb3Zpbmcgc2luZ2xlIGFudGVubmEgcmVjZXB0aW9uIGluIG1lZGl1bSB0byBsYXJnZSBTRk5zIGFuZCBhZGRpbmcgZmxleGliaWxpdHkgdG8gdGhlIG5ldHdvcmsgZGVzaWduLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: " Based on DVB-T EN 300 744, with the hollowing additions for hand-held
+    terminals:\r\nTime Slicing for reducing the average power consumption of the terminal
+    and enabling smooth hand-over.\r\nMPE-FEC for improving C/N-performance and Doppler
+    performance in Mobile channels and improving tolerance to impulse interference.\r\nExtended
+    TPS-bit signalling to allow enough information of the service carried in a robust
+    way to enhance and speed up service discovery and to conserve the free TPS-bits.\r\n4k-mode
+    for improving single antenna reception in medium to large SFNs and adding flexibility
+    to the network design."
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: MOBILE
-- content: TERMINAL
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

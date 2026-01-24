@@ -1,67 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300355ed.11994-06
+id: ETSIETS300355ed1199406
+schema_version: v1.4.1
 title:
-- content: Television systems; Specification of the D-MAC/Packet system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2096
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300355/01_60/ets_300355e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 355 ed.1 (1994-06)
+- language: en
+  script: Latn
+  content: Television systems; Specification of the D-MAC/Packet system
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2096
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300355/01_60/ets_300355e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 355 ed.1 (1994-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 355 ed.1 (1994-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The D-MAC packet system is suitable for satellite broadcasting with\r\nfrequency
+- language: en
+  script: Latn
+  content: "The D-MAC packet system is suitable for satellite broadcasting with\r\nfrequency
     modulation and for cable distribution with vestigal side-\r\nband amplitude modulation,
     with full transparency.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AM
-- content: ANALOGUE
-- content: BROADCASTING
-- content: DIGITAL
-- content: MAC
-- content: PACKET MODE
-- content: RADIO
-- content: TDM
-- content: TV
-- content: VSB
+- taxon:
+  - language: en
+    script: Latn
+    content: AM
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TDM
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VSB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Telecommunication Standard

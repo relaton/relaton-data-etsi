@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103510V1.1.12019-10
+id: ETSITR103510V111201910
+schema_version: v1.4.1
 title:
-- content: SmartM2M; SAREF extension investigation; Requirements for Wearables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51405
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103510/01.01.01_60/tr_103510v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 510 V1.1.1 (2019-10)
+- language: en
+  script: Latn
+  content: SmartM2M; SAREF extension investigation; Requirements for Wearables
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51405
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103510/01.01.01_60/tr_103510v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 510 V1.1.1 (2019-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 510 V1.1.1 (2019-10)
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Determine the requirements for an initial semantic model for Wearables
+- language: en
+  script: Latn
+  content: "Determine the requirements for an initial semantic model for Wearables
     based on a limited set of use cases and from available existing data models.\r\nThis
     work is expected to be developed in close collaboration with AIOTI and the H2020
     Large Scale Pilots, with ETSI (in particular TC SmartBAN), and oneM2M activities.
     \r\nFurther extensions are envisaged in the future to cover entirely the Wearables
     domain."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
-- content: Wearable
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: Wearable
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

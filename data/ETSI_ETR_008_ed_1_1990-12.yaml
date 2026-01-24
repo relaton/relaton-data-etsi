@@ -1,58 +1,68 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR008ed.11990-12
+id: ETSIETR008ed1199012
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); The method for the characterisation of the machine-machine
+- language: en
+  script: Latn
+  content: Network Aspects (NA); The method for the characterisation of the machine-machine
     interfaces utilised by a Telecommunication Management Network (TMN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=232
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/008/01_60/etr_008e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 008 ed.1 (1990-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=232
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/008/01_60/etr_008e01p.pdf
+docidentifier:
+- content: ETSI ETR 008 ed.1 (1990-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 008 ed.1 (1990-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: MMI
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: ETSI Technical Report

@@ -1,64 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM006V1.2.12022-02
+id: ETSIGSZSM006V121202202
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Proof of Concept Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63927
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/006/01.02.01_60/gs_ZSM006v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 006 V1.2.1 (2022-02)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Proof of Concept Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63927
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/006/01.02.01_60/gs_ZSM006v010201p.pdf
+docidentifier:
+- content: ETSI GS ZSM 006 V1.2.1 (2022-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 006 V1.2.1 (2022-02)
 date:
 - type: published
-  value: 2022-02
+  at: 2022-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2022-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBuZXcgZWRpdGlvbiBvZiB0aGUgUG9DIGZyYW1ld29yayAodjEuMi4xKSB3aWxsIHVwZGF0ZSB0aGUgUG9DIGFjY2VwdGFuY2UgY3JpdGVyaWEgdG8gbWFrZSBpdCBlYXNpZXIgZm9yIGEgUG9DIHRlYW0gdG8gYmUgZm9ybWVkLCBhbmQgdGh1cyBpbmNyZWFzZSBQb0Mgc3VibWlzc2lvbnMuDQoNClRoZSBQb0MgZnJhbWV3b3JrIGRlZmluZXMgYSBmcmFtZXdvcmsgdG8gYmUgdXNlZCBieSBFVFNJIElTRyBaU00gdG8gY29vcmRpbmF0ZSBhbmQgcHJvbW90ZSBtdWx0aSBzdGFrZWhvbGRlciBQcm9vZnMgb2YgQ29uY2VwdCAoUG9DKSBwcm9qZWN0cyBpbGx1c3RyYXRpbmcga2V5IGFzcGVjdHMgb2YgWlNNLiANClRoZSBtYWluIG9iamVjdGl2ZXMgb2YgdGhlIFpTTSBQb0MgZnJhbWV3b3JrIGFyZToNCuKAoiB0byBlbnN1cmUgdGhlIFBvQyBwcm9qZWN0cyBhcmUgc2NvcGVkIGFyb3VuZCByZWxldmFudCB0b3BpY3MgZm9yIElTRyBaU00gdGhhdCByZXF1aXJlIGZyb20tdGhlLWZpZWxkIGlucHV0Ow0K4oCiIHRvIGVuc3VyZSB0aGF0IHRoZSBQb0MgcmVzdWx0cywgbGVzc29ucyBsZWFybnQgYW5kIGlkZW50aWZpZWQgZ2FwcyBhcmUgZmVlZGJhY2sgdG8gSVNHIFpTTTsNCuKAoiB0byBidWlsZCBjb25maWRlbmNlIG9uIHRoZSB2aWFiaWxpdHkgb2YgWlNNOw0K4oCiIHRvIGVuY291cmFnZSB0aGUgZGV2ZWxvcG1lbnQgb2YgYSBkaXZlcnNlIGFuZCBvcGVuIGVjb3N5c3RlbSBieSBmb3N0ZXJpbmcgdGhlIGludGVncmF0aW9uIG9mIGNvbXBvbmVudHMgZnJvbSBkaWZmZXJlbnQgcGxheWVyczsNCuKAoiB0byBzdXBwb3J0IHN0YW5kYXJkaXphdGlvbiBhbmQgaW5kdXN0cnkgcHJvbW90aW9uIGFjdGl2aXRpZXMgb2YgSVNHIFpTTS4NClRoZSBmcmFtZXdvcmsgZGVzY3JpYmVzOg0K4oCiIFRoZSBkaWZmZXJlbnQgcm9sZXMgYW5kIHJlc3BvbnNpYmlsaXRpZXMgaW4gdGhlIFBvQyBhY3Rpdml0eSBwcm9jZXNzLg0K4oCiIFRoZSBQb0MgYWN0aXZpdHkgcHJvY2Vzcy4NCuKAoiBUaGUgYWNjZXB0YW5jZSBjcml0ZXJpYSBmb3IgUG9DIHByb3Bvc2FscyBhbmQgcmVwb3J0cy4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This new edition of the PoC framework (v1.2.1) will update the PoC acceptance
+    criteria to make it easier for a PoC team to be formed, and thus increase PoC
+    submissions.\r\n\r\nThe PoC framework defines a framework to be used by ETSI ISG
+    ZSM to coordinate and promote multi stakeholder Proofs of Concept (PoC) projects
+    illustrating key aspects of ZSM. \r\nThe main objectives of the ZSM PoC framework
+    are:\r\n to ensure the PoC projects are scoped around relevant topics for ISG
+    ZSM that require from-the-field input;\r\n to ensure that the PoC results, lessons
+    learnt and identified gaps are feedback to ISG ZSM;\r\n to build confidence on
+    the viability of ZSM;\r\n to encourage the development of a diverse and open ecosystem
+    by fostering the integration of components from different players;\r\n to support
+    standardization and industry promotion activities of ISG ZSM.\r\nThe framework
+    describes:\r\n The different roles and responsibilities in the PoC activity process.\r\n
+    The PoC activity process.\r\n The acceptance criteria for PoC proposals and reports.\r\n"
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: Proof of Concept
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: Proof of Concept
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

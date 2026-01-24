@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102932-1V1.1.12011-11
+id: ETSITS1029321V111201111
+schema_version: v1.4.1
 title:
-- content: 'Railway Telecommunications; ER-GSM frequencies; Part 1: ER-GSM additional
+- language: en
+  script: Latn
+  content: 'Railway Telecommunications; ER-GSM frequencies; Part 1: ER-GSM additional
     radio aspects'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31475
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/10293201/01.01.01_60/ts_10293201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 932-1 V1.1.1 (2011-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31475
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/10293201/01.01.01_60/ts_10293201v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 932-1 V1.1.1 (2011-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 932-1 V1.1.1 (2011-11)
 date:
 - type: published
-  value: 2011-11
+  at: 2011-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Extended-GSM-R
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U3BlY2lmaWVzIHRoZSBFUi1HU00gZnJlcXVlbmNpZXMuIFRoZSBzcGVjaWZpY2F0aW9uIHdpbGwgYmUgYmFzZWQgb246DQotIDNHUFAgVFMgNTEuMDIxOyAgRVRTSSBUUyAxMDEgMDg3ICAiRGlnaXRhbCBjZWxsdWxhciB0ZWxlY29tbXVuaWNhdGlvbnMgc3lzdGVtIChQaGFzZSAyICYgUGhhc2UgMispOyBCYXNlIFN0YXRpb24gU3lzdGVtIChCU1MpIGVxdWlwbWVudCBzcGVjaWZpY2F0aW9uOyBSYWRpbyBhc3BlY3RzIOKAnDsNCi0gM0dQUCBUUyA1MS4wMTAtMTsgRVRTSSBUUyAxNTEgMDEwLTEgIkRpZ2l0YWwgY2VsbHVsYXIgdGVsZWNvbW11bmljYXRpb25zIHN5c3RlbSAoUGhhc2UgMispOyBNb2JpbGUgU3RhdGlvbiAoTVMpIGNvbmZvcm1hbmNlIHNwZWNpZmljYXRpb247IFBhcnQgMTogQ29uZm9ybWFuY2Ugc3BlY2lmaWNhdGlvbuKAnTsNCi0gM0dQUCBUUyA0NS4wMDU7IEVUU0kgVFMgMTAwOTEwIOKAnERpZ2l0YWwgY2VsbHVsYXIgdGVsZWNvbW11bmljYXRpb25zIHN5c3RlbSAoUGhhc2UgMispO1JhZGlvIFRyYW5zbWlzc2lvbiBhbmQgUmVjZXB0aW9u4oCdDQpUaGUgc3BlY2lmaWNhdGlvbiB3aWxsIGlkZW50aWZ5IGFzIGFuIGV4dGVuc2lvbiB0aGUgYWRkaXRpb25hbCBFLUdTTS1SIGZyZXF1ZW5jaWVzIGFzIGluIHRoZSBhbWVuZGVkIENFUFQgRUNDL0RFQyAoMDQpMDYgYW5kICgwMikwNQ==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Specifies the ER-GSM frequencies. The specification will be based on:\r\n-
+    3GPP TS 51.021;  ETSI TS 101 087  \"Digital cellular telecommunications system
+    (Phase 2 & Phase 2+); Base Station System (BSS) equipment specification; Radio
+    aspects ;\r\n- 3GPP TS 51.010-1; ETSI TS 151 010-1 \"Digital cellular telecommunications
+    system (Phase 2+); Mobile Station (MS) conformance specification; Part 1: Conformance
+    specification;\r\n- 3GPP TS 45.005; ETSI TS 100910 Digital cellular telecommunications
+    system (Phase 2+);Radio Transmission and Reception\r\nThe specification will identify
+    as an extension the additional E-GSM-R frequencies as in the amended CEPT ECC/DEC
+    (04)06 and (02)05"
+status:
+  stage: Published
 keyword:
-- content: ER-GSM
-- content: GSM-R
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ER-GSM
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Extended-GSM-R
+    content: Technical Specification

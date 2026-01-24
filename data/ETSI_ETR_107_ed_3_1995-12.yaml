@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR107ed.31995-12
+id: ETSIETR107ed3199512
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Example
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Example
     protocol stacks for interconnecting Cell Broadcast Centre (CBC) and Base Station
     Controller (BSC) (GSM 03.49)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3938
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/107/03_60/etr_107e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 107 ed.3 (1995-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3938
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/107/03_60/etr_107e03p.pdf
+docidentifier:
+- content: ETSI ETR 107 ed.3 (1995-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 107 ed.3 (1995-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "No mandatory protocol between the Cell Broadcast Centre (CBC) and the\r\nBase\r\nStation
+- language: en
+  script: Latn
+  content: "No mandatory protocol between the Cell Broadcast Centre (CBC) and the\r\nBase\r\nStation
     Controller (BSC) is specified by GSM; this is a matter of\r\nagreement\r\nbetween
     CBC and PLMN operators.\r\n This report specifies three alternative approaches
     to the\r\nspecification of\r\nprotocol stacks of communication protocols for the
@@ -54,20 +64,24 @@ abstract:
     functionality, completeness and advantages/disadvantages of\r\nimplementation
     is intentionally omitted.\r\n This will be an update of ETR 107 (i.e. Edition
     2)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Data Services
+    content: ETSI Technical Report

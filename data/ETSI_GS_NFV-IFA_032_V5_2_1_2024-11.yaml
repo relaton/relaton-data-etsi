@@ -1,74 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA032V5.2.12024-11
+id: ETSIGSNFVIFA032V521202411
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
     Interface and Information Model Specification for Multi-Site Connectivity Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72248
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/032/05.02.01_60/gs_NFV-IFA032v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 032 V5.2.1 (2024-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72248
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/032/05.02.01_60/gs_NFV-IFA032v050201p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 032 V5.2.1 (2024-11)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 032 V5.2.1 (2024-11)
 date:
 - type: published
-  value: 2024-11
+  at: 2024-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 2024-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 032 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 032 continues the development of the specification
     as part of the NFV Release 5. This edition will add requirements to support the
     Release 5 features. The scope of the former edition is summarized hereafter:\r\n\r\nNFV-IFA
     032 specifies the interfaces for management of multi-site connectivity services.
     The services are produced by a WAN Infrastructure Manager (WIM). The present document
     also describes the operations and the information elements that are exchanged
     over these interfaces."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: MANO
-- content: NETWORK
-- content: NFV
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

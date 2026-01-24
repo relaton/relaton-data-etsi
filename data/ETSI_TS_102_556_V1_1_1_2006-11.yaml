@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102556V1.1.12006-11
+id: ETSITS102556V111200611
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Protection Profile
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19717
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102556/01.01.01_60/ts_102556v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 556 V1.1.1 (2006-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19717
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102556/01.01.01_60/ts_102556v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 556 V1.1.1 (2006-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 556 V1.1.1 (2006-11)
 date:
 - type: published
-  value: 2006-11
+  at: 2006-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of protection profiles (as defined by Common Criteria) in TISPAN.  Overall
+- language: en
+  script: Latn
+  content: Definition of protection profiles (as defined by Common Criteria) in TISPAN.  Overall
     work program as defined by 33wgTD042r3.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: H.248
-- content: IMS
-- content: INTERNET
-- content: PROFILE
-- content: PROTECTION
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: H.248
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: PROTECTION
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

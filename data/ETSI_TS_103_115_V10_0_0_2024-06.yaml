@@ -1,66 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103115V10.0.02024-06
+id: ETSITS103115V1000202406
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    U21hcnQgQ2FyZHM7IFRlc3Qgc3BlY2lmaWNhdGlvbiBmb3IgVUlDQyBBcHBsaWNhdGlvbiBQcm9ncmFtbWluZyBJbnRlcmZhY2UgZm9yIEphdmEgQ2FyZOKEoiBmb3IgQ29udGFjdGxlc3MgQXBwbGljYXRpb25zOyBUZXN0IEVudmlyb25tZW50IGFuZCBBbm5leGVzIChSZWxlYXNlIDEwKQ==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71861
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103115/10.00.00_60/ts_103115v100000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 115 V10.0.0 (2024-06)
+- language: en
+  script: Latn
+  content: Smart Cards; Test specification for UICC Application Programming Interface
+    for Java Card for Contactless Applications; Test Environment and Annexes (Release
+    10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71861
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103115/10.00.00_60/ts_103115v100000p.pdf
+docidentifier:
+- content: ETSI TS 103 115 V10.0.0 (2024-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 115 V10.0.0 (2024-06)
 date:
 - type: published
-  value: 2024-06
+  at: 2024-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 10.0.0
-revdate: 2024-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Implementation of CRs accepted at SCP #68, #69, #71, #73, #74.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Implementation of CRs accepted at SCP #68, #69, #71, #73, #74.'
+status:
+  stage: Published
 keyword:
-- content: API
-- content: NFC
-- content: SMART CARD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: NFC
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET TEST
+    content: Technical Specification

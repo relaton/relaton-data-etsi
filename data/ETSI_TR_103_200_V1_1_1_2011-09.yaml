@@ -1,67 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103200V1.1.12011-09
+id: ETSITR103200V111201109
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); ePassport Readers Interoperability
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); ePassport Readers Interoperability
     Support; Framework for Developing Conformance Test Specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31033
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103200/01.01.01_60/tr_103200v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 200 V1.1.1 (2011-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31033
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103200/01.01.01_60/tr_103200v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 200 V1.1.1 (2011-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 200 V1.1.1 (2011-09)
 date:
 - type: published
-  value: 2011-09
+  at: 2011-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gd2lsbCBkZXZlbG9wIGEgZnJhbWV3b3JrIGZvciBkZXZlbG9waW5nIGNvbmZvcm1hbmNlIHRlc3Qgc3BlY2lmaWNhdGlvbiBmb3IgZS1JZGVudGlmaWNhdGlvbg0KIFRoaXMgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIDoNCsK3QW4gZXh0ZW5kZWQgc2VsZWN0aW9uIG9mIHRlc3QgcHVycG9zZXMgDQrCt1RoZSBBYnN0cmFjdCBUZXN0IFN1aXRlIG9mIHRoZSBzYW1wbGUgdGVzdCBjYXNlcyANCsK3QSByZXBvcnQgb24gdGhlIHZhbGlkYXRpb24gb2YgdGhlIHByb3RvdHlwZS4NCsK3VGhlIGxhYiBwcm9jZWR1cmUgZm9yIHN0YW5kYXJkaXplZCB0ZXN0IHJlcG9ydGluZy4NCg0KVGhlIHRlY2huaWNhbCBzY29wZSB3aWxsIGNvdmVyLCBidXQgbm90IG5lY2Vzc2FyaWx5IGJlIHJlc3RyaWN0ZWQgdG86DQotSVNPL0lFQyA3ODE2LTQ6IElkZW50aWZpY2F0aW9uIGNhcmRzIC0gSW50ZWdyYXRlZCBjaXJjdWl0IGNhcmRzOiBPcmdhbml6YXRpb24sIHNlY3VyaXR5IGFuZCBjb21tYW5kcyBmb3IgaW50ZXJjaGFuZ2UNCi1CU0kgVGVjaG5pY2FsIEd1aWRlbGluZSBUUi0wMzExMCAxLjEgOiBBZHZhbmNlZCBTZWN1cml0eSBNZWNoYW5pc21zIGZvciBNYWNoaW5lIFJlYWRhYmxlIFRyYXZlbCBEb2N1bWVudHMgLSBFeHRlbmRlZCBBY2Nlc3MgQ29udHJvbCAoRUFDKQ0KQlNJIFRSLTAzMTA1LTUgMS4xIDogZVBhc3Nwb3J0IENvbmZvcm1pdHkgVGVzdGluZyAtIFRlc3QgcGxhbiBmb3IgSUNBTyBjb21wbGlhbnQgaW5zcGVjdGlvbiBzeXN0ZW1zIHdpdGggRUFDDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This work item will develop a framework for developing conformance test
+    specification for e-Identification\r\n This deliverable will contain :\r\nAn extended
+    selection of test purposes \r\nThe Abstract Test Suite of the sample test cases
+    \r\nA report on the validation of the prototype.\r\nThe lab procedure for standardized
+    test reporting.\r\n\r\nThe technical scope will cover, but not necessarily be
+    restricted to:\r\n-ISO/IEC 7816-4: Identification cards - Integrated circuit cards:
+    Organization, security and commands for interchange\r\n-BSI Technical Guideline
+    TR-03110 1.1 : Advanced Security Mechanisms for Machine Readable Travel Documents
+    - Extended Access Control (EAC)\r\nBSI TR-03105-5 1.1 : ePassport Conformity Testing
+    - Test plan for ICAO compliant inspection systems with EAC\r\n"
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: INTEROPERABILITY
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

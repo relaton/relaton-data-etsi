@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103565-1V1.2.12018-12
+id: ETSITR1035651V121201812
+schema_version: v1.4.1
 title:
-- content: 'TETRA and Critical Communications Evolution (TCCE); Interworking between
+- language: en
+  script: Latn
+  content: 'TETRA and Critical Communications Evolution (TCCE); Interworking between
     TETRA and 3GPP mission critical services Part 1: General considerations for interworking'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54525
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10356501/01.02.01_60/tr_10356501v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 565-1 V1.2.1 (2018-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54525
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10356501/01.02.01_60/tr_10356501v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 565-1 V1.2.1 (2018-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 565-1 V1.2.1 (2018-12)
 date:
 - type: published
-  value: 2018-12
+  at: 2018-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE High Speed Data
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of the technical report to make this part 1 on TR 103 565.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of the technical report to make this part 1 on TR 103 565.
+status:
+  stage: Published
 keyword:
-- content: mission critical communication
-- content: RADIO
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: mission critical communication
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE High Speed Data
+    content: Technical Report

@@ -1,60 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR151ed.11995-02
+id: ETSIETR151ed1199502
+schema_version: v1.4.1
 title:
-- content: Equipment Engineering (EE); ElectroMagnetic Compatibility (EMC) testing
+- language: en
+  script: Latn
+  content: Equipment Engineering (EE); ElectroMagnetic Compatibility (EMC) testing
     of telecommunication equipment above 1 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2315
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/151/01_60/etr_151e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 151 ed.1 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2315
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/151/01_60/etr_151e01p.pdf
+docidentifier:
+- content: ETSI ETR 151 ed.1 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 151 ed.1 (1995-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To examine the EMC threats and protection requirements for\r\ntelecommunications
+- language: en
+  script: Latn
+  content: "To examine the EMC threats and protection requirements for\r\ntelecommunications
     network equipment for frequencies above 1 GHz. To\r\nprepare a report after examination
     of relevant standards and technical\r\nreports.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: EQUIPMENT PRACTICE
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: EQUIPMENT PRACTICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Electromagnetic Compatibility
+    content: ETSI Technical Report

@@ -1,68 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103998V1.1.12024-01
+id: ETSITS103998V111202401
+schema_version: v1.4.1
 title:
-- content: 'Publicly Available Specification (PAS); DASH-IF: Content Steering for
+- language: en
+  script: Latn
+  content: 'Publicly Available Specification (PAS); DASH-IF: Content Steering for
     DASH'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67988
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103998/01.01.01_60/ts_103998v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 998 V1.1.1 (2024-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67988
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103998/01.01.01_60/ts_103998v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 998 V1.1.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 998 V1.1.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    4oCiQ29udGVudCBkaXN0cmlidXRvcnMgb2Z0ZW4gdXNlIG11bHRpcGxlIENvbnRlbnQgRGVsaXZlcnkgTmV0d29ya3MgKENETnMpIHRvIGRpc3RyaWJ1dGUgdGhlaXIgY29udGVudCB0byB0aGUgZW5kLXVzZXJzLiBUaGV5IG1heSB1cGxvYWQgYSBjb3B5IG9mIHRoZWlyIGNhdGFsb2d1ZSB0byBlYWNoIENETiwgb3IgbW9yZSBjb21tb25seSBoYXZlIGFsbCBDRE5zIHB1bGwgdGhlIGNvbnRlbnQgZnJvbSBhIGNvbW1vbiBvcmlnaW4uIEFsdGVybmF0ZSBVUkxzIGFyZSBnZW5lcmF0ZWQsIG9uZSBmb3IgZWFjaCBDRE4sIHRoYXQgcG9pbnQgYXQgaWRlbnRpY2FsIGNvbnRlbnQuIERBU0ggcGxheWVycyBtYXkgYWNjZXNzIGFsdGVybmF0ZSBVUkxzIGluIHRoZSBldmVudCBvZiBkZWxpdmVyeSBwcm9ibGVtcy4gQ29udGVudCBzdGVlcmluZyBkZXNjcmliZXMgYSBkZXRlcm1pbmlzdGljIGNhcGFiaWxpdHkgZm9yIGEgY29udGVudCBkaXN0cmlidXRvciB0byBzd2l0Y2ggdGhlIGNvbnRlbnQgc291cmNlIHRoYXQgYSBwbGF5ZXIgdXNlcyBlaXRoZXIgYXQgc3RhcnQtdXAgb3IgbWlkc3RyZWFtLCBieSBtZWFucyBvZiBhIHJlbW90ZSBzdGVlcmluZyBzZXJ2aWNlLg0K4oCiVGhpcyB3b3JrIGlzIGNhcnJpZWQgb3V0IHVuZGVyIHRoZSBQQVMgYWdyZWVtZW50IGJldHdlZW4gRVRTSSBhbmQgREFTSC1JRg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Content distributors often use multiple Content Delivery Networks (CDNs)
+    to distribute their content to the end-users. They may upload a copy of their
+    catalogue to each CDN, or more commonly have all CDNs pull the content from a
+    common origin. Alternate URLs are generated, one for each CDN, that point at identical
+    content. DASH players may access alternate URLs in the event of delivery problems.
+    Content steering describes a deterministic capability for a content distributor
+    to switch the content source that a player uses either at start-up or midstream,
+    by means of a remote steering service.\r\nThis work is carried out under the PAS
+    agreement between ETSI and DASH-IF"
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: CDN
-- content: DASH
-- content: INTERNET
-- content: PAS
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CDN
+  - language: en
+    script: Latn
+    content: DASH
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: PAS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

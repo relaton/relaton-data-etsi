@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103021-1V1.2.12004-05
+id: ETSITS1030211V121200405
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Harmonized basic attachment requirements for
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Harmonized basic attachment requirements for
     Terminals for connection to analogue interfaces of the Telephone Networks; Update
     of the technical contents of TBR 021, EN 301 437, TBR 015, TBR 017; Part 1: General
     aspects'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19855
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103000_103099/10302101/01.02.01_60/ts_10302101v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 021-1 V1.2.1 (2004-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19855
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103000_103099/10302101/01.02.01_60/ts_10302101v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 021-1 V1.2.1 (2004-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 021-1 V1.2.1 (2004-05)
 date:
 - type: published
-  value: 2004-05
+  at: 2004-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "addition of Zrhf impedance in the Annex\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "addition of Zrhf impedance in the Annex\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: POTS
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: AT Analogue
+    content: Technical Specification

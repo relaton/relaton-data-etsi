@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101646V4.6.12002-11
+id: ETSITR101646V461200211
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2 and Phase 2+); Recommended
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2 and Phase 2+); Recommended
     infrastructure measures to overcome specific Mobile Station (MS) faults (3GPP
     TR 09.94 version 4.6.1 GSM Phase 2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18185
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101646/04.06.01_60/tr_101646v040601p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 646 V4.6.1 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18185
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101646/04.06.01_60/tr_101646v040601p.pdf
+docidentifier:
+- content: ETSI TR 101 646 V4.6.1 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 646 V4.6.1 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.6.1
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "edito post NP-18\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "edito post NP-18\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MM/CC/SM (lu)
+    content: Technical Report

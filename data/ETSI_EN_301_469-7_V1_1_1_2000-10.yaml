@@ -1,70 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301469-7V1.1.12000-10
+id: ETSIEN3014697V111200010
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
     Service (DPRS) Test Case Library (TCL); Part 7: Test Suite Structure (TSS) and
     Test Purposes (TP) - Network (NWK) layer'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6939
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30146907/01.01.01_60/en_30146907v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 469-7 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6939
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30146907/01.01.01_60/en_30146907v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 469-7 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 469-7 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkcmFmdCBFdXJvcGVhbiBOb3JtIChFTikgY29udGFpbnMgdGhlIFRlc3QgU3VpdGUgU3RydWN0dXJlIChUU1MpIGFuZCBUZXN0IFB1cnBvc2VzIChUUCkgdG8gdGVzdCB0aGUgRGlnaXRhbCBFbmhhbmNlZCBDb3JkbGVzcyBUZWxlY29tbXVuaWNhdGlvbnMgKERFQ1QpIERFQ1QgUGFja2V0IFJhZGlvIFNlcnZpY2UgKERQUlMpIE1lZGl1bSBBY2Nlc3MgQ29udHJvbCAoTUFDKSBsYXllci4NClRoZSBvYmplY3RpdmUgb2YgdGhpcyB0ZXN0IHNwZWNpZmljYXRpb24gaXMgdG8gcHJvdmlkZSBhIGJhc2lzIGZvciBjb25mb3JtYW5jZSB0ZXN0cyBmb3IgREVDVCBlcXVpcG1lbnQgZ2l2aW5nIGEgaGlnaCBwcm9iYWJpbGl0eSBvZiBhaXIgaW50ZXJmYWNlIGludGVyLW9wZXJhYmlsaXR5IGJldHdlZW4gZGlmZmVyZW50IG1hbnVmYWN0dXJlcidzIERFQ1QgZXF1aXBtZW50Lg0KVGhlIElTTyBzdGFuZGFyZCBmb3IgdGhlIG1ldGhvZG9sb2d5IG9mIGNvbmZvcm1hbmNlIHRlc3RpbmcgKElTTy9JRUMgOTY0Ni0xwqBhbmQgSVNPL0lFQ8KgOTY0Ni0yKSBhcyB3ZWxsIGFzIHRoZSBFVFNJIHJ1bGVzIGZvciBjb25mb3JtYW5jZSB0ZXN0aW5nIChFVFPCoDMwMMKgNDA2KSBhcmUgdXNlZCBhcyBhIGJhc2lzIGZvciB0aGUgdGVzdCBtZXRob2RvbG9neS4NClJlZmVyZW5jZSBkb2N1bWVudHMgYW5kIHdvcms6DQpFVFMgMzAwIDE3NTsgRVRTIDMwMCA0MzU7IEVUUyAzMDAgNjUxOyBFVFMgMzAwIDY5OTsgRVRTIDMwMCA3MDE7IEVUUyAzMDAgNDk3OyBFTiAzMDEgNjQ5Lg0KDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This draft European Norm (EN) contains the Test Suite Structure (TSS)
+    and Test Purposes (TP) to test the Digital Enhanced Cordless Telecommunications
+    (DECT) DECT Packet Radio Service (DPRS) Medium Access Control (MAC) layer.\r\nThe
+    objective of this test specification is to provide a basis for conformance tests
+    for DECT equipment giving a high probability of air interface inter-operability
+    between different manufacturer's DECT equipment.\r\nThe ISO standard for the methodology
+    of conformance testing (ISO/IEC 9646-1and ISO/IEC9646-2) as well as the ETSI rules
+    for conformance testing (ETS300406) are used as a basis for the test methodology.\r\nReference
+    documents and work:\r\nETS 300 175; ETS 300 435; ETS 300 651; ETS 300 699; ETS
+    300 701; ETS 300 497; EN 301 649.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: DECT
-- content: DPRS
-- content: NETWORK
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: DPRS
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Testing aspects
+    content: European Standard

@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104409V1.1.12025-06
+id: ETSITR104409V111202506
+schema_version: v1.4.1
 title:
-- content: Data Solutions (DATA); Data Act (art. 33) requirement and references analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73458
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104400_104499/104409/01.01.01_60/tr_104409v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 409 V1.1.1 (2025-06)
+- language: en
+  script: Latn
+  content: Data Solutions (DATA); Data Act (art. 33) requirement and references analysis
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73458
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104400_104499/104409/01.01.01_60/tr_104409v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 409 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 409 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Analise the requirement contained in the EU Data Act with particular reference
+- language: en
+  script: Latn
+  content: Analise the requirement contained in the EU Data Act with particular reference
     to art. 33, and in the draft and final standardization requests, including their
     references (e.g. the DSSC blueprint architecture. All of this with reference to
     the existing ETSI applicable specifications and standards (e.g. OneM2M, Saref,
     NGSI-LD, etc).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: data interoperability
-- content: oneM2M
-- content: SAREF
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: data interoperability
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: SAREF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Data Solutions
+    content: Technical Report

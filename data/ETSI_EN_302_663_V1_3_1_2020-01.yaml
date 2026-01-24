@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302663V1.3.12020-01
+id: ETSIEN302663V131202001
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); ITS-G5 Access layer specification
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); ITS-G5 Access layer specification
     for Intelligent Transport Systems operating in the 5 GHz frequency band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56807
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302600_302699/302663/01.03.01_60/en_302663v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 663 V1.3.1 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56807
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302600_302699/302663/01.03.01_60/en_302663v010301p.pdf
+docidentifier:
+- content: ETSI EN 302 663 V1.3.1 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 663 V1.3.1 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media and Medium related
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision on the standard in order to address the following:\r\n- title
+- language: en
+  script: Latn
+  content: "Revision on the standard in order to address the following:\r\n- title
     update\r\n-clarifications and references updates\r\n-spotted errors"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: LAYER 1
-- content: LAYER 2
-- content: MAC
-- content: PROFILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Media and Medium related
+    content: European Standard

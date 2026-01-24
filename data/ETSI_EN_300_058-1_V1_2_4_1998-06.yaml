@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300058-1V1.2.41998-06
+id: ETSIEN3000581V124199806
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Call Waiting (CW) supplementary
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Call Waiting (CW) supplementary
     service; Digital Subscriber Signalling System No. one (DSS1) protocol; Part 1:
     Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5633
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300001_300099/30005801/01.02.04_60/en_30005801v010204p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 058-1 V1.2.4 (1998-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5633
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300001_300099/30005801/01.02.04_60/en_30005801v010204p.pdf
+docidentifier:
+- content: ETSI EN 300 058-1 V1.2.4 (1998-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 058-1 V1.2.4 (1998-06)
 date:
 - type: published
-  value: 1998-06
+  at: 1998-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Supplementary Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.4
-revdate: 1998-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update references from ETS 300 102-1 and associated I-ETSs to ETS 300\r\n403.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Update references from ETS 300 102-1 and associated I-ETSs to ETS 300\r\n403.\r\n "
+status:
+  stage: Published
 keyword:
-- content: CW
-- content: DSS1
-- content: ISDN
-- content: PROTOCOL
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CW
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Supplementary Services
+    content: European Standard

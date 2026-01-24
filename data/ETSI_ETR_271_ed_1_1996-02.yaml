@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR271ed.11996-02
+id: ETSIETR271ed1199602
+schema_version: v1.4.1
 title:
-- content: Special Mobile Group (SMG); Universal Mobile Telecommunications System
+- language: en
+  script: Latn
+  content: Special Mobile Group (SMG); Universal Mobile Telecommunications System
     (UMTS); Objectives and overview (UMTS 01.01)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2815
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/271/01_60/etr_271e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 271 ed.1 (1996-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2815
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/271/01_60/etr_271e01p.pdf
+docidentifier:
+- content: ETSI ETR 271 ed.1 (1996-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 271 ed.1 (1996-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Universal Mobile Telecommunications System
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) gives the overall objectives and\r\noverview
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) gives the overall objectives and\r\noverview
     for the Universal Mobile Telecommunications System (UMTS).\r\nThe report presents
     the system objectives, highlighting those\r\nobjectives which distinguish the
     UMTS from existing systems, as well\r\nas listing the complete set of objectives
@@ -49,17 +59,15 @@ abstract:
     of services, user environments and functionality to\r\nbe provided by the system,
     followed by a description of the\r\nrelationship to other third generation standards
     and an outline of the\r\nUMTS documentation.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Universal Mobile Telecommunications System
+    content: ETSI Technical Report

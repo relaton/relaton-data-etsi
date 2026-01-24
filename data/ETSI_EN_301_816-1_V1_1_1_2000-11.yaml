@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301816-1V1.1.12000-11
+id: ETSIEN3018161V111200011
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); AAL Type 2 Signalling
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); AAL Type 2 Signalling
     protocol; Capability Set 1; Part 1: Protocol specification [ITU-T Recommendation
     Q.2630.1 (1999), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8001
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/30181601/01.01.01_60/en_30181601v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 816-1 V1.1.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8001
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/30181601/01.01.01_60/en_30181601v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 816-1 V1.1.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 816-1 V1.1.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: B-ISDN, layer 3
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Endorsement of ITU-T Recommendations Q.2630.1(AAL2 signalling), Q.2150.1
+- language: en
+  script: Latn
+  content: "Endorsement of ITU-T Recommendations Q.2630.1(AAL2 signalling), Q.2150.1
     (SAAL NNI convergence function) , Q.2150.2 (SAAL UNI convergence function).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AAL
-- content: B-ISDN
-- content: CS1
-- content: ENDORSEMENT
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: AAL
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: B-ISDN, layer 3
+    content: European Standard

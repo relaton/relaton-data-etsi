@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101030V1.1.11997-07
+id: ETSITR101030V111199707
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); Radio Local Loop (RLL) Co-ordination
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); Radio Local Loop (RLL) Co-ordination
     Group; Survey of ETSI activities and recommendations for the ETSI work programme
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5253
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101030/01.01.01_60/tr_101030v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 030 V1.1.1 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5253
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101030/01.01.01_60/tr_101030v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 030 V1.1.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 030 V1.1.1 (1997-07)
 date:
 - type: published
-  value: 1997-07
+  at: 1997-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In liaison with relevant ETSI committees and activities, including\r\nEPIISG,
+- language: en
+  script: Latn
+  content: "In liaison with relevant ETSI committees and activities, including\r\nEPIISG,
     NA, RES, RPM, SMG, SPS and TM, the group shall study and\r\nreport on the current
     activities within ETSI relating to RLL,\r\nincluding reference models and terminology.
     Liaison with other\r\norganisations, including but not limited to CENELEC, CEPT,
@@ -59,20 +68,24 @@ abstract:
     committees to carry out the work;\r\n-  target time scales for the work;\r\n-
     \ proposal for joint action between ETSI and ERC on\r\nspectrum-regulation matters
     in line with the ETSI-ERC MoU; and\r\n-  recommandations for future RLL work.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ACCESS
-- content: RADIO
-- content: RLL
-- content: WLL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RLL
+  - language: en
+    script: Latn
+    content: WLL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

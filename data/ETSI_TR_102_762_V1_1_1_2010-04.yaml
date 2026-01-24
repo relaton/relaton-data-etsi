@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102762V1.1.12010-04
+id: ETSITR102762V111201004
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Intelligent Transport Systems (ITS); ICT in cars
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26350
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102762/01.01.01_60/tr_102762v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 762 V1.1.1 (2010-04)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Intelligent Transport Systems (ITS); ICT in cars
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26350
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102762/01.01.01_60/tr_102762v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 762 V1.1.1 (2010-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 762 V1.1.1 (2010-04)
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The use of ICT in private motor vehicles is increasing such as the use
+- language: en
+  script: Latn
+  content: "The use of ICT in private motor vehicles is increasing such as the use
     of mobile phones, location based services offering intelligent road maps, cars
     alerting automatically when accidents occurs, passengers being offered the possibility
     to work or being entertained.  \r\nThis guide will provide recommendations and
@@ -54,18 +63,18 @@ abstract:
     communication services. This work will focus specifically on the driver's needs
     and preferences related to ICT usage while driving.\r\nNot within the scope: Issues
     related to professional use of vehicles such as managing transport of goods."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: SAFETY
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: SAFETY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

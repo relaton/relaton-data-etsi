@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103679V1.1.12019-05
+id: ETSITR103679V111201905
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Explore the challenges of developing product
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Explore the challenges of developing product
     group-specific Product Environmental Footprint Category Rules (PEFCRs) for smartphones
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52141
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103679/01.01.01_60/tr_103679v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 679 V1.1.1 (2019-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52141
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103679/01.01.01_60/tr_103679v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 679 V1.1.1 (2019-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 679 V1.1.1 (2019-05)
 date:
 - type: published
-  value: 2019-05
+  at: 2019-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile ICT devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: '1) Search to identify if Product Category Rules (PCR) and Life Cycle Assessment
+- language: en
+  script: Latn
+  content: '1) Search to identify if Product Category Rules (PCR) and Life Cycle Assessment
     (LCA) models for the smart phone product category have been developed. 2) Explore
     existing PCRs and LCAs for gaps compared to the PEF Guide requirements. 3) Explore
     the challenges associated with: setting the the scope, defining the unit of analysis,
@@ -55,18 +64,18 @@ abstract:
     performance, interpretation, reporting, disclosure, communication, and verification,
     4) Explore the challenges with PEF Screening (impact assessment, interpretation
     and conclusion, report).'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LCA
-- content: smartphone
+- taxon:
+  - language: en
+    script: Latn
+    content: LCA
+  - language: en
+    script: Latn
+    content: smartphone
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile ICT devices
+    content: Technical Report

@@ -1,70 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102688-1V1.1.12010-03
+id: ETSITR1026881V111201003
+schema_version: v1.4.1
 title:
-- content: 'Media Content Distribution (MCD); MCD framework; Part 1: Overview of interest
+- language: en
+  script: Latn
+  content: 'Media Content Distribution (MCD); MCD framework; Part 1: Overview of interest
     areas'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30466
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10268801/01.01.01_60/tr_10268801v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 688-1 V1.1.1 (2010-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30466
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10268801/01.01.01_60/tr_10268801v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 688-1 V1.1.1 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 688-1 V1.1.1 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media Content Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    TUNEIGFuYWx5c2lzIGFuZCByb2FkbWFwOiBtYXBwaW5nIG9mIGV4aXN0aW5nIGFuZCBldm9sdmluZyBNZWRpYSBDb250ZW50IERpc3RyaWJ1dGlvbiBpbXBsZW1lbnRhdGlvbnMgYW5kIOKAnGJlc3QgcHJhY3RpY2Vz4oCdIGZvciBzZXJ2aWNlIGludGVyb3BlcmFiaWxpdHkgYW5kIGNvbXBvbmVudHMgdGhhdCBjYW4gZnVydGhlciBjb252ZXJnZS4NCkNvbnNpZGVyYXRpb24gb2Ygd29yayBieSBvdGhlciBTRE9zIGFuZCBleHRlcm5hbCBib2RpZXMuDQpDb2xsZWN0aW9uIGFuZCBwcmlvcml0aXphdGlvbiBvZiB1c2UgY2FzZXMuDQpEZXNjcmlwdGlvbiBvZiB2YWx1ZSBjaGFpbiBhbmQgYWN0b3JzLg0KSWRlbnRpZmljYXRpb24gb2YgaXNzdWVzIGFuZCBnYXBzIHdpdGhpbiBleGlzdGluZyBhY3Rpdml0aWVzIGFuZCBpbXBsZW1lbnRhdGlvbnMuDQpQcm9wb3NlIHdvcmsgYXJlYXMgYW5kIGFjdGl2aXRpZXMgd2l0aGluIFRDIE1DRCBmb3IgZGlzdHJpYnV0aW9uIGFuZCBkZWxpdmVyeSBvZiBjb250ZW50IGFuZCBpbnRlcmFjdGl2ZSBtZWRpYSBvdmVyIGhldGVyb2dlbmVvdXMgbmV0d29yayB0b3BvbG9naWVzIGFuZCBpbXBsZW1lbnRhdGlvbnMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "MCD analysis and roadmap: mapping of existing and evolving Media Content
+    Distribution implementations and best practices for service interoperability and
+    components that can further converge.\r\nConsideration of work by other SDOs and
+    external bodies.\r\nCollection and prioritization of use cases.\r\nDescription
+    of value chain and actors.\r\nIdentification of issues and gaps within existing
+    activities and implementations.\r\nPropose work areas and activities within TC
+    MCD for distribution and delivery of content and interactive media over heterogeneous
+    network topologies and implementations."
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: Content
-- content: IP
-- content: MULTIMEDIA
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: Content
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Media Content Distribution
+    content: Technical Report

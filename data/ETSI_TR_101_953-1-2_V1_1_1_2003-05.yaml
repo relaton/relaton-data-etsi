@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101953-1-2V1.1.12003-05
+id: ETSITR10195312V111200305
+schema_version: v1.4.1
 title:
-- content: 'Access network xDSL transmission filters; Part 1: ADSL splitters for European
+- language: en
+  script: Latn
+  content: 'Access network xDSL transmission filters; Part 1: ADSL splitters for European
     deployment; Sub-part 2: Testing methods for High Pass part of ADSL/POTS splitters.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14081
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530102/01.01.01_60/tr_1019530102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 953-1-2 V1.1.1 (2003-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14081
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530102/01.01.01_60/tr_1019530102v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 953-1-2 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 953-1-2 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this Work Item is to produce an ETSI Technical Report (TR)
+- language: en
+  script: Latn
+  content: "The purpose of this Work Item is to produce an ETSI Technical Report (TR)
     document containing test specifications for DSL splitters. The main objectives
     are:\r\n* to correlate the splitter parameters with respect to the performance
     objectives of DSL, \r\n  POTS and ISDN servicesto assist the on going standardisation
@@ -66,21 +75,27 @@ abstract:
     all DSL splitter specifications including the low-pass section of POTS splitters.\r\nThe
     following splitters are included within the scope of the present work item: ADSL/POT(with
     ot without HPF), ADSL/ISDN-BA, VDSL/POTS (with or without HPF), VDSL/ISDN-BA."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: POTS
-- content: Splitter
-- content: TESTING
-- content: xDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: xDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TM Access Networks
+    content: Technical Report

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102639-3V1.1.12009-04
+id: ETSITS1026393V111200904
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals, Transmission and Multiplexing (ATTM); Third Generation
+- language: en
+  script: Latn
+  content: 'Access and Terminals, Transmission and Multiplexing (ATTM); Third Generation
     Transmission Systems for Interactive Cable Television Services - IP Cable Modems;
     Part 3: Downstream Interface [ITU-T Recommendation J.210 (11/2006), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29347
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10263903/01.01.01_60/ts_10263903v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 639-3 V1.1.1 (2009-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29347
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10263903/01.01.01_60/ts_10263903v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 639-3 V1.1.1 (2009-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 639-3 V1.1.1 (2009-04)
 date:
 - type: published
-  value: 2009-04
+  at: 2009-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Infrastructure, Physical Networks & Communication Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "his ETSI Standard is part of a series that define the third generation
+- language: en
+  script: Latn
+  content: "his ETSI Standard is part of a series that define the third generation
     of  interface specifications for high-speed data-over-cable systems in Europe.
     This document may be based on, but not limited to, ITU-T SG9 J.222 Recommendation.
     The scope of this work item will include definition of PHY (physical), Security
@@ -58,22 +67,30 @@ abstract:
     488] and second generation [ES 202 488].\r\nThis particular part describes the
     downstream interface specifications for the third generation of high-speed Data-Over-Cable
     Systems."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: ENDORSEMENT
-- content: MAC
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Infrastructure, Physical Networks & Communication Systems
+    content: Technical Specification

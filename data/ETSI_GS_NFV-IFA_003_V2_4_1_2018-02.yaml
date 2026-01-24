@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA003V2.4.12018-02
+id: ETSIGSNFVIFA003V241201802
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 2; Acceleration Technologies;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 2; Acceleration Technologies;
     vSwitch Benchmarking and Acceleration Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53503
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/003/02.04.01_60/gs_NFV-IFA003v020401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 003 V2.4.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53503
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/003/02.04.01_60/gs_NFV-IFA003v020401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 003 V2.4.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 003 V2.4.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.4.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 003 conducts NFV Release 2 maintenance: it corrects
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 003 conducts NFV Release 2 maintenance: it corrects
     errors, ambiguities, misalignments, and applies editorial modifications (i.e.
     Corrections of category F and D as described in ETSI TWPs Annex L). This edition
     does not add or modify features, nor does it extend the scope of the former Release
@@ -60,23 +69,33 @@ abstract:
     match-action based policies/flows applied to traffic going to/from the VMs. IFA
     003 also provides deployment scenarios with applicability to multiple vendor implementations
     and recommendations for follow-on proof of concept activities."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Acceleration
-- content: Benchmarking
-- content: NFV
-- content: PERFORMANCE
-- content: Requirements
-- content: SWITCHING
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: Acceleration
+  - language: en
+    script: Latn
+    content: Benchmarking
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: SWITCHING
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

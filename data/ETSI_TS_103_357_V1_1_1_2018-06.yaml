@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103357V1.1.12018-06
+id: ETSITS103357V111201806
+schema_version: v1.4.1
 title:
-- content: Short Range Devices; Low Throughput Networks (LTN); Protocols for radio
+- language: en
+  script: Latn
+  content: Short Range Devices; Low Throughput Networks (LTN); Protocols for radio
     interface A
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45958
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103357/01.01.01_60/ts_103357v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 357 V1.1.1 (2018-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45958
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103357/01.01.01_60/ts_103357v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 357 V1.1.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 357 V1.1.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The output of this WI will be a TS which defines protocols over the air
+- language: en
+  script: Latn
+  content: The output of this WI will be a TS which defines protocols over the air
     interfaces as defined in ETSI TS LTN 103 358. The scope may be adjusted through
     additional inputs to the WI.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: LTN
-- content: OSSS
-- content: PROTOCOL
-- content: RADIO
-- content: SRD
-- content: UNB
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LTN
+  - language: en
+    script: Latn
+    content: OSSS
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UNB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: Technical Specification

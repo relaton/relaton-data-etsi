@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186017-2V5.1.12012-09
+id: ETSITS1860172V511201209
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Anonymous Communication Rejection (ACR) and
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Anonymous Communication Rejection (ACR) and
     Communication Barring (CB) using IP Multimedia (IM) Core Network (CN) subsystem;
     Conformance Test Specification; Part 2: Test Suite Structure and Test Purposes
     (TSS&TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38378
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601702/05.01.01_60/ts_18601702v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 017-2 V5.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38378
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601702/05.01.01_60/ts_18601702v050101p.pdf
+docidentifier:
+- content: ETSI TS 186 017-2 V5.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 017-2 V5.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The test Purposes shall verfy the conformance to the protocol specification
+- language: en
+  script: Latn
+  content: "The test Purposes shall verfy the conformance to the protocol specification
     ETSI TS 124 611\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CB
-- content: IMS
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: CB
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

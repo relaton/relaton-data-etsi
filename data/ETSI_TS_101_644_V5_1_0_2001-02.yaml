@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101644V5.1.02001-02
+id: ETSITS101644V510200102
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Interworking
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Interworking
     between Phase 1 infrastructure and Phase 2 Mobile Stations (MS) (GSM 09.90 version
     5.1.0 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5753
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101644/05.01.00_60/ts_101644v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 644 V5.1.0 (2001-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5753
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101644/05.01.00_60/ts_101644v050100p.pdf
+docidentifier:
+- content: ETSI TS 101 644 V5.1.0 (2001-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 644 V5.1.0 (2001-02)
 date:
 - type: published
-  value: 2001-02
+  at: 2001-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 2001-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The Scope of this GTS is to clarify how interworking can\r\nbe obtained
+- language: en
+  script: Latn
+  content: "The Scope of this GTS is to clarify how interworking can\r\nbe obtained
     between phase 2 mobile stations and phase 1\r\ninfrastructure.  The objective
     is to obtain this without changing the\r\nconsolidated set of phase 1 specifications.
     This Technical Report\r\nspecifies the necessary amendments to the phase 1 infrastructure
@@ -57,23 +66,33 @@ abstract:
     \ with regard to phase 1 implementation,\r\nwhich should be performed to the different
     interfaces in phase 1\r\ninfrastructure before phase 2 mobiles are offered service.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MM/CC/SM (lu)
+    content: Technical Specification

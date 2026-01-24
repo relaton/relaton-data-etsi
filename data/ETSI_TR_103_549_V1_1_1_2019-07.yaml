@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103549V1.1.12019-07
+id: ETSITR103549V111201907
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Guidelines for consolidating SAREF with new reference ontology
+- language: en
+  script: Latn
+  content: SmartM2M; Guidelines for consolidating SAREF with new reference ontology
     patterns, based on the experience from the ITEA SEAS project
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53167
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103549/01.01.01_60/tr_103549v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 549 V1.1.1 (2019-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53167
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103549/01.01.01_60/tr_103549v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 549 V1.1.1 (2019-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 549 V1.1.1 (2019-07)
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of the present document is to provide guidelines for consolidating
+- language: en
+  script: Latn
+  content: "The scope of the present document is to provide guidelines for consolidating
     the SAREF ontology with new reference ontology patterns, using the experience
     of the EUREKA ITEA 12004 SEAS (Smart Energy Aware Systems) project, and to use
     cases for Smart Energy, Smart Building, and Industry of the Future/Industry 4.0
@@ -56,30 +65,54 @@ abstract:
     devices/processes/systems, measurements, environment, actors/players and their
     relations, as well as flexibility/trading/business related aspects.\r\nThese guidelines
     will result in a new set of requirements to update SAREF and its extensions."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: Energy Management
-- content: EV
-- content: Industry
-- content: intelligent homes &amp; buildings
-- content: INTEROPERABILITY
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: renewable
-- content: SAREF
-- content: Semantic
-- content: Smart Grid
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: Energy Management
+  - language: en
+    script: Latn
+    content: EV
+  - language: en
+    script: Latn
+    content: Industry
+  - language: en
+    script: Latn
+    content: intelligent homes &amp; buildings
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: renewable
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: Smart Grid
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

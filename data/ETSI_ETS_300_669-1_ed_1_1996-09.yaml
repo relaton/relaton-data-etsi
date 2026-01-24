@@ -1,65 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300669-1ed.11996-09
+id: ETSIETS3006691ed1199609
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; Supplementary service interactions;
     Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2724
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30066901/01_60/ets_30066901e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 669-1 ed.1 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2724
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30066901/01_60/ets_30066901e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 669-1 ed.1 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 669-1 ed.1 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "B-ISDN UNI layer 3 signalling protocol for supplementary services, B-I\r\nSDN
+- language: en
+  script: Latn
+  content: "B-ISDN UNI layer 3 signalling protocol for supplementary services, B-I\r\nSDN
     CS1\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: CCS
-- content: DSS2
-- content: INTERACTION
-- content: ISDN
-- content: PROTOCOL
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

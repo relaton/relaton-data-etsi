@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-3-10V1.1.12018-05
+id: ETSITS100392310V111201805
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 3: Interworking
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 3: Interworking
     at the Inter-System Interface (ISI); Sub-part 10: General design, PSS1 over E.1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47634
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003920310/01.01.01_60/ts_1003920310v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-3-10 V1.1.1 (2018-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47634
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003920310/01.01.01_60/ts_1003920310v010101p.pdf
+docidentifier:
+- content: ETSI TS 100 392-3-10 V1.1.1 (2018-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-3-10 V1.1.1 (2018-05)
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'QSIG/E.1. transport layer specific information from EN 300 392-3-1 -2,
+- language: en
+  script: Latn
+  content: 'QSIG/E.1. transport layer specific information from EN 300 392-3-1 -2,
     -3, -4, -5 and -8 '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: MOBILITY
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

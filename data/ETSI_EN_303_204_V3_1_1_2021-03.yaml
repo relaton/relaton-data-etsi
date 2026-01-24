@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303204V3.1.12021-03
+id: ETSIEN303204V311202103
+schema_version: v1.4.1
 title:
-- content: Fixed Short Range Devices (SRD) in data networks; Radio equipment to be
+- language: en
+  script: Latn
+  content: Fixed Short Range Devices (SRD) in data networks; Radio equipment to be
     used in the 870 MHz to 876 MHz frequency range with power levels ranging up to
     500 mW e.r.p.; Harmonised Standard for access to the radio spectrum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56355
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303200_303299/303204/03.01.01_60/en_303204v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 204 V3.1.1 (2021-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56355
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303200_303299/303204/03.01.01_60/en_303204v030101p.pdf
+docidentifier:
+- content: ETSI EN 303 204 V3.1.1 (2021-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 204 V3.1.1 (2021-03)
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2021-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1)\tUpdate Title to align with EC / CEPT terminology for networked SRD\r\n2)\tRevise
+- language: en
+  script: Latn
+  content: "1)\tUpdate Title to align with EC / CEPT terminology for networked SRD\r\n2)\tRevise
     Introduction adding brief explanation of EC Decision on 870/915 MHz and introduction
     of data network concepts and usage restrictions\r\n3)\tUpdate Scope with core
     harmonised frequency range at 874-874.4 MHz\r\n4)\tAdd reference to new EC Decision
@@ -67,20 +76,24 @@ abstract:
     and dependencies\r\n14)\tEditorial changes to align terminology with EC/CEPT terminology
     for networked SRD and data networks\r\n15)\tEditorial changes to improve clarity
     of existing clauses as necessary\r\n16)\tUpdate Annex F Change History\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

@@ -1,59 +1,68 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300167ed.11993-08
+id: ETSIETS300167ed1199308
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Functional characteristics of 2 048
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Functional characteristics of 2 048
     kbit/s interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=297
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300167/01_60/ets_300167e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 167 ed.1 (1993-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=297
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300167/01_60/ets_300167e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 167 ed.1 (1993-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 167 ed.1 (1993-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Equivalent to the parts of G.704 and G.706 relevant to 2 Mbit/s\r\ninterfaces.
+- language: en
+  script: Latn
+  content: "Equivalent to the parts of G.704 and G.706 relevant to 2 Mbit/s\r\ninterfaces.
     Frame structure of 2 Mbit/s signals (basic frame & octet\r\nstructured frames)including
     frame alignment (&CRC procedures) & use of\r\nbits in time slot 0.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Telecommunication Standard

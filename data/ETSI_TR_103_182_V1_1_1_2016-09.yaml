@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103182V1.1.12016-09
+id: ETSITR103182V111201609
+schema_version: v1.4.1
 title:
-- content: Integrated broadband cable telecommunication networks (CABLE); Characteristics
+- language: en
+  script: Latn
+  content: Integrated broadband cable telecommunication networks (CABLE); Characteristics
     of Evolving Electromagnetic Environment with ECN800 parameters and Cable Network
     Equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41912
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103182/01.01.01_60/tr_103182v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 182 V1.1.1 (2016-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41912
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103182/01.01.01_60/tr_103182v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 182 V1.1.1 (2016-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 182 V1.1.1 (2016-09)
 date:
 - type: published
-  value: 2016-09
+  at: 2016-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: HFC Distribution, Installation, Operational Best Practices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGVzY3JpcHRpb24gb2YgdGhlIGN1cnJlbnQgYW5kIGV2b2x2aW5nIEVNIGVudmlyb25tZW50IGZvbGxvd2luZyBpbnRyb2R1Y3Rpb24gb2YgbmV3IHJhZGlvIHNlcnZpY2VzIGluIHRoZSBkaWdpdGFsIGRpdmlkZW5kIFVIRiBmcmVxdWVuY3kgYmFuZCA3OTAg4oCTIDg2MiBNSHogYWdhaW5zdCB0aGUgY3VycmVudCBhbmQgZXZvbHZpbmcgY2FibGUgbmV0d29yayBlcXVpcG1lbnQgcGFyYW1ldGVycyBkZWZpbmVkIGJ5IGFkb3B0ZWQgRXVyb3BlYW4gTm9ybXM=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Description of the current and evolving EM environment following introduction
+    of new radio services in the digital dividend UHF frequency band 790  862 MHz
+    against the current and evolving cable network equipment parameters defined by
+    adopted European Norms
+status:
+  stage: Published
 keyword:
-- content: CABLE
-- content: ENVIRONMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: HFC Distribution, Installation, Operational Best Practices
+    content: Technical Report

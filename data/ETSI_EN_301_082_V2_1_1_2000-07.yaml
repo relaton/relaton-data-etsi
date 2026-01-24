@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301082V2.1.12000-07
+id: ETSIEN301082V211200007
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Outgoing Call Barring-Fixed
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Outgoing Call Barring-Fixed
     (OCB-F) supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7256
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/301082/02.01.01_60/en_301082v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 082 V2.1.1 (2000-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7256
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/301082/02.01.01_60/en_301082v020101p.pdf
+docidentifier:
+- content: ETSI EN 301 082 V2.1.1 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 082 V2.1.1 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering/Addressing, Routeing and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To amend the service description of outgoing call barring fixed to remove
+- language: en
+  script: Latn
+  content: "To amend the service description of outgoing call barring fixed to remove
     ambiguities and inconsistencies which may result in inconsistent implementations
     (definition of barring program, relationship with activation period, clarify conflict
     situations, correct interactions with call diversion).\r\n\r\nReference document:
     EN 301 082."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Numbering/Addressing, Routeing and Services
+    content: European Standard

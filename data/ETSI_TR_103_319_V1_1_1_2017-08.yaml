@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103319V1.1.12017-08
+id: ETSITR103319V111201708
+schema_version: v1.4.1
 title:
-- content: Broadband Radio Access Networks (BRAN); 5 GHz high performance RLAN; Mitigation
+- language: en
+  script: Latn
+  content: Broadband Radio Access Networks (BRAN); 5 GHz high performance RLAN; Mitigation
     techniques to enable sharing between RLANs and Road Tolling and Intelligent Transport
     Systems in the 5 725 MHz to 5 925 MHz band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46067
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103319/01.01.01_60/tr_103319v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 319 V1.1.1 (2017-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46067
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103319/01.01.01_60/tr_103319v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 319 V1.1.1 (2017-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 319 V1.1.1 (2017-08)
 date:
 - type: published
-  value: 2017-08
+  at: 2017-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Radio Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To develop a Technical report that describes new mitigation techniques
+- language: en
+  script: Latn
+  content: "To develop a Technical report that describes new mitigation techniques
     to enable spectrum sharing with Road Tolling and Intelligent Transport Systems
     as outlined in the CEPT and ITU-R studies. In addition, the report will study
     the feasibility of RLANs implementing these new mitigation techniques. \r\nThe
     report should at least include an analysis of the following mitigation technique:\r\n(1)
     Enhanced Protocol recognition/Detect and avoid mitigation techniques\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: ITS
-- content: LAN
-- content: RADIO
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Broadband Radio Access Networks
+    content: Technical Report

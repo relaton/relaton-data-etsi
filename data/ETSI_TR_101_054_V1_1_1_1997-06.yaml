@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101054V1.1.11997-06
+id: ETSITR101054V111199706
+schema_version: v1.4.1
 title:
-- content: Security Algorithms Group of Experts (SAGE); Rules for the management of
+- language: en
+  script: Latn
+  content: Security Algorithms Group of Experts (SAGE); Rules for the management of
     the HIPERLAN Standard Encryption Algorithm (HSEA)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3881
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101054/01.01.01_60/tr_101054v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 054 V1.1.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3881
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101054/01.01.01_60/tr_101054v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 054 V1.1.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 054 V1.1.1 (1997-06)
 date:
 - type: published
-  value: 1997-06
+  at: 1997-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security Algorithms Group of Experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Design of a standard air interface encryption algorithm for HIPERLAN\r\n(MI
+- language: en
+  script: Latn
+  content: "Design of a standard air interface encryption algorithm for HIPERLAN\r\n(MI
     work item SAGE-00012-2; Confidential document for the Custodian)\r\nand production
     of a TC-TR describing the rules for management of this\r\nalgorithm (SAGE-00012-1).\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: HIPERLAN
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: HIPERLAN
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security Algorithms Group of Experts
+    content: Technical Report

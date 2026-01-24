@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103426V1.1.12016-11
+id: ETSITS103426V111201611
+schema_version: v1.4.1
 title:
-- content: Publicly Available Specification (PAS); Smart Machine-to-Machine communications
+- language: en
+  script: Latn
+  content: Publicly Available Specification (PAS); Smart Machine-to-Machine communications
     (SmartM2M) Home Gateway Initiative RD048-HG Requirements For HGI Open Platform
     2.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49524
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103426/01.01.01_60/ts_103426v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 426 V1.1.1 (2016-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49524
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103426/01.01.01_60/ts_103426v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 426 V1.1.1 (2016-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 426 V1.1.1 (2016-11)
 date:
 - type: published
-  value: 2016-11
+  at: 2016-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Requirements regarding modular software deployments on\r\nthe home gateway.
+- language: en
+  script: Latn
+  content: "Requirements regarding modular software deployments on\r\nthe home gateway.
     Under the Open Platform 2.0\r\nrequirements, modular software applications must
     run in a\r\ndedicated virtual execution environment to avoid conflicts\r\nand
     interferences with the natively installed software. This\r\ndocument reflects
     generic requirements valid for any\r\nmodular execution platform, as well as technology-specific\r\nrequirements
     for OSGi technology"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GATEWAY
-- content: Home Gateway
-- content: intelligent homes &amp; buildings
-- content: PAS
+- taxon:
+  - language: en
+    script: Latn
+    content: GATEWAY
+  - language: en
+    script: Latn
+    content: Home Gateway
+  - language: en
+    script: Latn
+    content: intelligent homes &amp; buildings
+  - language: en
+    script: Latn
+    content: PAS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

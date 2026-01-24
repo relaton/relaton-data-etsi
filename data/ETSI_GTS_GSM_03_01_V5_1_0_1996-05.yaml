@@ -1,75 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM03.01V5.1.01996-05
+id: ETSIGTSGSM0301V510199605
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Network functions
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Network functions
     (GSM 03.01)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4471
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/03/0301/05.01.00_60/gsmts_0301v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 03.01 V5.1.0 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4471
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/03/0301/05.01.00_60/gsmts_0301v050100p.pdf
+docidentifier:
+- content: ETSI GTS GSM 03.01 V5.1.0 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 03.01 V5.1.0 (1996-05)
 date:
 - type: published
-  value: 1996-05
+  at: 1996-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 1996-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Specification defines network functions which are\r\nnecessary
+- language: en
+  script: Latn
+  content: "This Technical Specification defines network functions which are\r\nnecessary
     to support services and facilities provided by PLMNs. A\r\nsummary of the network
     functions is given in Table 1, where also an\r\nindication is given whether the
     network must support  the function.\r\nThe table also indicates whether or not
     a function requires\r\ninternetworking signalling between PLMNs (i.e. use of Mobile\r\nApplication
     Part, Technical Specification GSM 09.02).\r\nAll functions require signalling
     on the radio path as specified in\r\nTechnical Specification GSM 04.08.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: ID
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300579ed.61996-11
+id: ETSIETS300579ed6199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Radio subsystem
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Radio subsystem
     synchronization (GSM 05.10)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4441
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300579/06_60/ets_300579e06p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 579 ed.6 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4441
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300579/06_60/ets_300579e06p.pdf
+docidentifier:
+- content: ETSI ETS 300 579 ed.6 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 579 ed.6 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunications Standard (ETS) defines the\r\nrequirements
+- language: en
+  script: Latn
+  content: "This European Telecommunications Standard (ETS) defines the\r\nrequirements
     for synchronization on the GSM radio sub-system.\r\n(However, it does not define
     the synchronization algorithms to be used\r\nin the Base Station (BS) and Mobile
     Station (MS). These are up to the\r\nmanufacturer to specify.)\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SYNCHRONIZATION
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

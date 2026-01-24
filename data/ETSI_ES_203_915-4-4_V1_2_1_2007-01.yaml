@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203915-4-4V1.2.12007-01
+id: ETSIES20391544V121200701
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Application Programming Interface (API); Part
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Application Programming Interface (API); Part
     4: Call Control; Sub-part 4: Multi-Media Call Control SCF (Parlay 5)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22412
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203900_203999/2039150404/01.02.01_60/es_2039150404v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 915-4-4 V1.2.1 (2007-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22412
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203900_203999/2039150404/01.02.01_60/es_2039150404v010201p.pdf
+docidentifier:
+- content: ETSI ES 203 915-4-4 V1.2.1 (2007-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 915-4-4 V1.2.1 (2007-01)
 date:
 - type: published
-  value: 2007-01
+  at: 2007-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2007-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update of ES 203 915-4-04 to -15 to become Parlay 5.1.\r\n\r\nOnly those
+- language: en
+  script: Latn
+  content: "Update of ES 203 915-4-04 to -15 to become Parlay 5.1.\r\n\r\nOnly those
     parts requiring modification will be updated (most parts require maintenance fixes).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IDL
-- content: OSA
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IDL
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Services
+    content: ETSI Standard

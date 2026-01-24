@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300485ed.11996-01
+id: ETSIETS300485ed1199601
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Definition and usage of cause
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Definition and usage of cause
     and location in Digital Subscriber Signalling System No. one (DSS1) and Signalling
     System No.7 ISDN User Part (ISUP) [ITU-T Recommendation Q.850 (1993), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2697
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300485/01_60/ets_300485e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 485 ed.1 (1996-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2697
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300485/01_60/ets_300485e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 485 ed.1 (1996-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 485 ed.1 (1996-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Use of cause and location in DSS1 and ISUP\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Use of cause and location in DSS1 and ISUP\r\n  "
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ENDORSEMENT
-- content: ISDN
-- content: ISUP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

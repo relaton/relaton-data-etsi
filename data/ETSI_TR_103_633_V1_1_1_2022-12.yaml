@@ -1,77 +1,100 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103633V1.1.12022-12
+id: ETSITR103633V111202212
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Low Complexity Communication
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Low Complexity Communication
     Codec Plus (LC3plus); Performance characterization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54785
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103633/01.01.01_60/tr_103633v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 633 V1.1.1 (2022-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54785
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103633/01.01.01_60/tr_103633v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 633 V1.1.1 (2022-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 633 V1.1.1 (2022-12)
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Enhanced Cordless Telecommunications (DECT)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This TR will characterize the performance of LC3plus codec. It will provide
+- language: en
+  script: Latn
+  content: This TR will characterize the performance of LC3plus codec. It will provide
     subjective or objective speech and audio quality test results for relevant modes
     of LC3plus in the range of narrowband to fullband, bitrates between 16 and 320
     kbps and for 2.5, 5 and 10 ms codec frame size at clean and distorted channels.
     Performance for transcoding and tandem coding scenarios relevant for DECT, VoIP
     and other applications will be investigated.The work will be coordinated betweeen
     ETSI DECT and ETSI STQ.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: CODEC
-- content: DECT
-- content: Full-Band
-- content: LC3plus
-- content: QUALITY
-- content: Superwideband
-- content: VOICE
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: Full-Band
+  - language: en
+    script: Latn
+    content: LC3plus
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: Superwideband
+  - language: en
+    script: Latn
+    content: VOICE
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital Enhanced Cordless Telecommunications (DECT)
+    content: Technical Report

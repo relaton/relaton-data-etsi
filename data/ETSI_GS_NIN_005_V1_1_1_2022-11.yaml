@@ -1,79 +1,114 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNIN005V1.1.12022-11
+id: ETSIGSNIN005V111202211
+schema_version: v1.4.1
 title:
-- content: Non-IP Networking (NIN); Signalling messages and protocols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63520
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NIN/001_099/005/01.01.01_60/gs_NIN005v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NIN 005 V1.1.1 (2022-11)
+- language: en
+  script: Latn
+  content: Non-IP Networking (NIN); Signalling messages and protocols
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63520
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NIN/001_099/005/01.01.01_60/gs_NIN005v010101p.pdf
+docidentifier:
+- content: ETSI GS NIN 005 V1.1.1 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI GS NIN 005 V1.1.1 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Non-IP Networking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The present document will specify procedures and packet formats for network
+- language: en
+  script: Latn
+  content: 'The present document will specify procedures and packet formats for network
     functions including: setting packet flows up, modifying and re-routing them, and
     clearing them down; exchanging information on timing and synchronisation; and
     conveying user messages that are not part of a flow.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: Core Network
-- content: Fixed networks
-- content: Flexilink
-- content: LAYER 3
-- content: network management
-- content: Next Generation Protocol
-- content: QoS
-- content: routing support
-- content: SDN
-- content: Self-organizing
-- content: SIGNALLING
-- content: Slicing
-- content: SYNCHRONIZATION
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: Core Network
+  - language: en
+    script: Latn
+    content: Fixed networks
+  - language: en
+    script: Latn
+    content: Flexilink
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: routing support
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: Self-organizing
+  - language: en
+    script: Latn
+    content: SIGNALLING
+  - language: en
+    script: Latn
+    content: Slicing
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Non-IP Networking
+    content: Group Specification

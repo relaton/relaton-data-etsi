@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201780V1.1.12000-08
+id: ETSIEG201780V111200008
+schema_version: v1.4.1
 title:
-- content: Universal Short Message Service (uSMS); IN architecture and functionality
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8374
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201780/01.01.01_60/eg_201780v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 780 V1.1.1 (2000-08)
+- language: en
+  script: Latn
+  content: Universal Short Message Service (uSMS); IN architecture and functionality
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8374
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201780/01.01.01_60/eg_201780v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 780 V1.1.1 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 780 V1.1.1 (2000-08)
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: UMTS task force
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To develop functional architectures and information flows relating to
+- language: en
+  script: Latn
+  content: "To develop functional architectures and information flows relating to
     the delivert of the universal short message service.  To identify required enhancements
     to existing signalling protocols. Candidate networks are ISDN and private networks.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: IN
-- content: ISDN
-- content: SMS
-- content: STAGE 2
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SMS
+  - language: en
+    script: Latn
+    content: STAGE 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: UMTS task force
+    content: ETSI Guide

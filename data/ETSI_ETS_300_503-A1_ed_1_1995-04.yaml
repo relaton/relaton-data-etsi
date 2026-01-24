@@ -1,69 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300503/A1ed.11995-04
+id: ETSIETS300503A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); General
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); General
     on supplementary services (GSM 02.04)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3165
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300503/01_60/ets_300503e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 503/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3165
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300503/01_60/ets_300503e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 503/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 503/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON:\r\nThe CLIR interrogation result informs the user only if the
+- language: en
+  script: Latn
+  content: "REASON:\r\nThe CLIR interrogation result informs the user only if the
     service is\r\nprovided to her. With the introduction of the second temporary mode,\r\nthis
     information is no longer sufficient. The user can no longer\r\nderive from the
     provisioning of the service whether her number is\r\nshown to the called user
     or not.\r\nCONSEQUENCE OF NON-ACCEPTANCE:\r\nThe user gets only information about
     the provisioning of the service,\r\nbut no information whether the number will
     be shown to the called user\r\nor not.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SERVICE
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

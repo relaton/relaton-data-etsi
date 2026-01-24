@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101633V6.0.01999-04
+id: ETSITR101633V600199904
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Videotex (GSM 03.43 version 6.0.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7449
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101633/06.00.00_60/tr_101633v060000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 633 V6.0.0 (1999-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7449
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101633/06.00.00_60/tr_101633v060000p.pdf
+docidentifier:
+- content: ETSI TR 101 633 V6.0.0 (1999-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 633 V6.0.0 (1999-04)
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.0
-revdate: 1999-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Upgrade from Phase 2+ to Release 1997
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Upgrade from Phase 2+ to Release 1997
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Data Services
+    content: Technical Report

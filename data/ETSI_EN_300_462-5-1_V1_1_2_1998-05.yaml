@@ -1,67 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300462-5-1V1.1.21998-05
+id: ETSIEN30046251V112199805
+schema_version: v1.4.1
 title:
-- content: 'Transmission and Multiplexing (TM); Generic requirements for synchronization
+- language: en
+  script: Latn
+  content: 'Transmission and Multiplexing (TM); Generic requirements for synchronization
     networks; Part 5-1: Timing characteristics of slave clocks suitable for operation
     in Synchronous Digital Hierarchy (SDH) equipment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6741
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/3004620501/01.01.02_60/en_3004620501v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 462-5-1 V1.1.2 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6741
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/3004620501/01.01.02_60/en_3004620501v010102p.pdf
+docidentifier:
+- content: ETSI EN 300 462-5-1 V1.1.2 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 462-5-1 V1.1.2 (1998-05)
 date:
 - type: published
-  value: 1998-05
+  at: 1998-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1998-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Stadardises SDH timing distribution architectures, synchronisation\r\nnetwork
+- language: en
+  script: Latn
+  content: "Stadardises SDH timing distribution architectures, synchronisation\r\nnetwork
     level jitter and wander requirements, slave clock timing\r\nspecifications and
     primary reference clock specifications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SYNCHRONIZATION
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Standard

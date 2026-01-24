@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300123ed.11991-04
+id: ETSIETS300123ed1199104
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Attachment requirements for Data Terminal Equipment
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Attachment requirements for Data Terminal Equipment
     (DTE) to connect to Packet Switched Public Data Networks (PSPDN) using CCITT Recommendation
     X.25 (1984) interface; Requirements applicable to DTEs subscribing to Link Access
     Procedure Balanced (LAPB) extended (modulo 128) operation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=371
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300123/01_60/ets_300123e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 123 ed.1 (1991-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=371
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300123/01_60/ets_300123e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 123 ed.1 (1991-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 123 ed.1 (1991-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: General Terminal  Access Requirements
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Attachment to X 25 interfaces: annexes\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Attachment to X 25 interfaces: annexes\r\n"
+status:
+  stage: Published
 keyword:
-- content: LAPB
-- content: PSPDN
-- content: REGULATION
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: LAPB
+  - language: en
+    script: Latn
+    content: PSPDN
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: General Terminal  Access Requirements
+    content: European Telecommunication Standard

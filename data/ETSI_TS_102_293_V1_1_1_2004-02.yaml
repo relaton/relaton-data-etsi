@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102293V1.1.12004-02
+id: ETSITS102293V111200402
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM) services and architectures; IP Interworking over satellite; Multicast group
     management; IGMP adaptation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17714
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102293/01.01.01_60/ts_102293v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 293 V1.1.1 (2004-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17714
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102293/01.01.01_60/ts_102293v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 293 V1.1.1 (2004-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 293 V1.1.1 (2004-02)
 date:
 - type: published
-  value: 2004-02
+  at: 2004-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Based on the BSM generic architectures this Work Item will define the specific
+- language: en
+  script: Latn
+  content: Based on the BSM generic architectures this Work Item will define the specific
     adapatation required by the Internet Group Management Protocol, version 2, IGMPv2,
     in order to optimise its use in satellite networks. The Specification will also
     describe the requirements for other required functions, such as an IGMP proxy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: INTERWORKING
-- content: IP
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Specification

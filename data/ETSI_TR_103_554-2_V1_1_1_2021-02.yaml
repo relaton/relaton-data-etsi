@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103554-2V1.1.12021-02
+id: ETSITR1035542V111202102
+schema_version: v1.4.1
 title:
-- content: 'Rail Telecommunications (RT); Next Generation Communication System; Radio
+- language: en
+  script: Latn
+  content: 'Rail Telecommunications (RT); Next Generation Communication System; Radio
     performance simulations and evaluations in rail environment; Part 2: New Radio
     (NR)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57257
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10355402/01.01.01_60/tr_10355402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 554-2 V1.1.1 (2021-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57257
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10355402/01.01.01_60/tr_10355402v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 554-2 V1.1.1 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 554-2 V1.1.1 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose is to:\r\n-define main simulation parameters relevant to rail
+- language: en
+  script: Latn
+  content: "The purpose is to:\r\n-define main simulation parameters relevant to rail
     environment relating to NR radio performance in 900 MHz FDD and 1900 MHz TDD \r\n-collect
     and analyse the simulation results. \r\n-Identify limitations under rail specific
     conditions   "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FRMCS
-- content: RADIO
-- content: railways
-- content: Simulation
+- taxon:
+  - language: en
+    script: Latn
+    content: FRMCS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: railways
+  - language: en
+    script: Latn
+    content: Simulation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Report

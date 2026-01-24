@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104072V2.1.12025-07
+id: ETSITS104072V211202507
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Facilities Layer; Parking Information
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Facilities Layer; Parking Information
     Service; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70079
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104072/02.01.01_60/ts_104072v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 072 V2.1.1 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70079
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104072/02.01.01_60/ts_104072v020101p.pdf
+docidentifier:
+- content: ETSI TS 104 072 V2.1.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 072 V2.1.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To specify a facility layer service for providing parking information from
+- language: en
+  script: Latn
+  content: To specify a facility layer service for providing parking information from
     vehicular ITS-Stations. The proposed service complements the existing Parking
     Availability Service specification (TS 103 916) by including parking spot occupancy
     information and intent/reservation information.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Specification

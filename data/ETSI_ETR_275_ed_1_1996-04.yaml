@@ -1,66 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR275ed.11996-04
+id: ETSIETR275ed1199604
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Considerations on transmission delay
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Considerations on transmission delay
     and transmission delay values for components on connections supporting speech
     communication over evolving digital networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2492
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/275/01_60/etr_275e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 275 ed.1 (1996-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2492
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/275/01_60/etr_275e01p.pdf
+docidentifier:
+- content: ETSI ETR 275 ed.1 (1996-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 275 ed.1 (1996-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To identify and apportion the transmission signal delay accross public\r\nswitched
+- language: en
+  script: Latn
+  content: "To identify and apportion the transmission signal delay accross public\r\nswitched
     networks from user-network interface to user-network\r\nnetwork interface. This
     will enable guidlines to be established\r\nfor planning complex digital transport
     systems in the access and core\r\nnetworks to be identified, without the additional
     for echo\r\ncancellation devices.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: PERFORMANCE
-- content: QUALITY
-- content: SPEECH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: ETSI Technical Report

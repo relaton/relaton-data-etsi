@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202060-2V1.1.12003-05
+id: ETSIES2020602V111200305
+schema_version: v1.4.1
 title:
-- content: 'Short Message Service (SMS) for fixed networks; Network Based Solution
+- language: en
+  script: Latn
+  content: 'Short Message Service (SMS) for fixed networks; Network Based Solution
     (NBS); Part 2: Architecture and functional entities'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16176
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/20206002/01.01.01_60/es_20206002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 060-2 V1.1.1 (2003-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16176
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/20206002/01.01.01_60/es_20206002v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 060-2 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 060-2 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of this standard is to describe the information flows according
+- language: en
+  script: Latn
+  content: The purpose of this standard is to describe the information flows according
     to the different network scenarios.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: DSS1
-- content: FUNCTIONAL
-- content: ISDN
-- content: PROTOCOL
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: ETSI Standard

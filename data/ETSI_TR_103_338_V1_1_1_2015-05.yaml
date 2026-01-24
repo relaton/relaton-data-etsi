@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103338V1.1.12015-05
+id: ETSITR103338V111201505
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Satellite Emergency Communications
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Satellite Emergency Communications
     (SatEC); Multiple Alert Message Encapsulation over Satellite (MAMES) deployment
     guidelines;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41310
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103338/01.01.01_60/tr_103338v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 338 V1.1.1 (2015-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41310
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103338/01.01.01_60/tr_103338v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 338 V1.1.1 (2015-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 338 V1.1.1 (2015-05)
 date:
 - type: published
-  value: 2015-05
+  at: 2015-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item aims at defining implementation examples and deployment
+- language: en
+  script: Latn
+  content: This work item aims at defining implementation examples and deployment
     guidelines for MAMES encapsulation developed in WI DTS/SES-00310.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Emergency Communications
+    content: Technical Report

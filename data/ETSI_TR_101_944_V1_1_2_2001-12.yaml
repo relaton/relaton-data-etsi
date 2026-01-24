@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101944V1.1.22001-12
+id: ETSITR101944V112200112
+schema_version: v1.4.1
 title:
-- content: Telecommunications security; Lawful Interception (LI); Issues on IP Interception
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14582
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101944/01.01.02_60/tr_101944v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 944 V1.1.2 (2001-12)
+- language: en
+  script: Latn
+  content: Telecommunications security; Lawful Interception (LI); Issues on IP Interception
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14582
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101944/01.01.02_60/tr_101944v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 944 V1.1.2 (2001-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 944 V1.1.2 (2001-12)
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2001-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of TR 101 944 to remove reference to TR 101 876
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of TR 101 944 to remove reference to TR 101 876
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300527ed.21996-09
+id: ETSIETS300527ed2199609
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Handover procedures
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Handover procedures
     (GSM 03.09)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4228
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300527/02_60/ets_300527e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 527 ed.2 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4228
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300527/02_60/ets_300527e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 527 ed.2 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 527 ed.2 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) contains a detailed\r\ndescription
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) contains a detailed\r\ndescription
     of the handover procedures to be used in GSM PLMNs.  The\r\npurpose of the handover
     procedures, as described in this\r\nspecification,  are to ensure that the connection
     to the MS is\r\nmaintained as it moves from one BSS area to another.\r\nThis specification
@@ -76,21 +86,27 @@ abstract:
     and GSM 08 series or the services\r\nspecified in the GSM 09 series of technical
     specifications.  The\r\nprimitive names are only intended to be indicative of
     their use in\r\nthis document.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: HANDOVER
-- content: MOBILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

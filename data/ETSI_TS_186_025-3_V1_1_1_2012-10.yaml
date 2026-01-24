@@ -1,67 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186025-3V1.1.12012-10
+id: ETSITS1860253V111201210
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); IMS/PES Performance Benchmark; Part 3: Traffic
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); IMS/PES Performance Benchmark; Part 3: Traffic
     Sets and Traffic Profiles'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39299
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18602503/01.01.01_60/ts_18602503v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 025-3 V1.1.1 (2012-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39299
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18602503/01.01.01_60/ts_18602503v010101p.pdf
+docidentifier:
+- content: ETSI TS 186 025-3 V1.1.1 (2012-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 025-3 V1.1.1 (2012-10)
 date:
 - type: published
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U2NvcGUgb2Ygd29yayB0byBiZSB1bmRlcnRha2VuOiBUaGlzIHdvcmsgaXRlbSB3aWxsIGV4dGVuZCB0aGUgRVRTSSBUUyAxODYwMDggSU1TL05HTiBQZXJmb3JtYW5jZSBCZW5jaG1hcmsgdG8gZm9jdXMgb24gUEVTIHdpdGg6IA0KwrdmdXJ0aGVyIHRlc3Qgc2NlbmFyaW9zIGZvciBpbnRlcmNvbm5lY3Rpb24gb2YgSU1TIGNvcmUgdG8gbm9uLUlNUyBuZXR3b3JrcyANCm5ldHdvcmsgcXVhbGl0eSBwYXJhbWV0ZXJz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken: This work item will extend the ETSI TS
+    186008 IMS/NGN Performance Benchmark to focus on PES with: \r\nfurther test scenarios
+    for interconnection of IMS core to non-IMS networks \r\nnetwork quality parameters"
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: ISDN
-- content: PERFORMANCE
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

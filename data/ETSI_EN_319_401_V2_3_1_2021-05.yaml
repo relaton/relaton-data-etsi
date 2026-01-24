@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319401V2.3.12021-05
+id: ETSIEN319401V231202105
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); General Policy Requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); General Policy Requirements
     for Trust Service Providers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59276
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 401 V2.3.1 (2021-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59276
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319400_319499/319401/02.03.01_60/en_319401v020301p.pdf
+docidentifier:
+- content: ETSI EN 319 401 V2.3.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 401 V2.3.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.3.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "(i)\taddress the problems with interpreting EN 319 401\r\n(ii)\talign
+- language: en
+  script: Latn
+  content: "(i)\taddress the problems with interpreting EN 319 401\r\n(ii)\talign
     with changes to EN 319 411-1\r\n(iii)\tensure consistency of concepts with draft
     EN 319 403-1 and EN 319 411-x, EN 319 412-x\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: Provider
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: Provider
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRF5G002V1.1.12021-02
+id: ETSIGRF5G002V111202102
+schema_version: v1.4.1
 title:
-- content: 'Fifth Generation Fixed Network (F5G); F5G Use Cases Release #1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59242
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/F5G/001_099/002/01.01.01_60/gr_F5G002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR F5G 002 V1.1.1 (2021-02)
+- language: en
+  script: Latn
+  content: 'Fifth Generation Fixed Network (F5G); F5G Use Cases Release #1'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59242
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/F5G/001_099/002/01.01.01_60/gr_F5G002v010101p.pdf
+docidentifier:
+- content: ETSI GR F5G 002 V1.1.1 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR F5G 002 V1.1.1 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 5th Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will study use cases of the 5th generation fixed network.
+- language: en
+  script: Latn
+  content: This Work Item will study use cases of the 5th generation fixed network.
     The use cases include services to consumers and enterprises. The use cases will
     be used as input for gap analysis and technology landscape activities to extract
     technical requirements. The use cases will be selected based on their impact in
     terms of new technical requirements identified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Customer Premises Networks
-- content: F5G
-- content: Fixed networks
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: Customer Premises Networks
+  - language: en
+    script: Latn
+    content: F5G
+  - language: en
+    script: Latn
+    content: Fixed networks
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: 5th Generation Fixed Network
+    content: Group Report

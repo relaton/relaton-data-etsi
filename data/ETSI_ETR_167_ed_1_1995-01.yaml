@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR167ed.11995-01
+id: ETSIETR167ed1199501
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User instructions for public telecommunications services;
+- language: en
+  script: Latn
+  content: Human Factors (HF); User instructions for public telecommunications services;
     Design guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1384
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/167/01_60/etr_167e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 167 ed.1 (1995-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1384
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/167/01_60/etr_167e01p.pdf
+docidentifier:
+- content: ETSI ETR 167 ed.1 (1995-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 167 ed.1 (1995-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunication Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide guidelines in the provisioning of user instructions for\r\npublic
+- language: en
+  script: Latn
+  content: "To provide guidelines in the provisioning of user instructions for\r\npublic
     terminals\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MMI
-- content: SERVICE
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Telecommunication Services
+    content: ETSI Technical Report

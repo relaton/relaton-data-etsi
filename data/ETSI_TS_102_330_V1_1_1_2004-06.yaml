@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102330V1.1.12004-06
+id: ETSITS102330V111200406
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Portable Service Format (PSF) for Interactive
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Portable Service Format (PSF) for Interactive
     Home Devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20281
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102330/01.01.01_60/ts_102330v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 330 V1.1.1 (2004-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20281
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102330/01.01.01_60/ts_102330v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 330 V1.1.1 (2004-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 330 V1.1.1 (2004-06)
 date:
 - type: published
-  value: 2004-06
+  at: 2004-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Working Group on Home Networking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Produce a Technical Specification that defines the authoring of declarative
+- language: en
+  script: Latn
+  content: "Produce a Technical Specification that defines the authoring of declarative
     data content intended to be combined primarily with video and/or audio services,
     and distributed to data-capable in home receivers. \r\nThis document supports
     the functional component described by 08N25, overview of NGN@Home project to define
     components of end-to-end architecture for delivery of services within the home."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: IP
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: IP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: AT Working Group on Home Networking
+    content: Technical Specification

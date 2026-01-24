@@ -1,75 +1,108 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSARF004-4V1.1.12023-01
+id: ETSIGSARF0044V111202301
+schema_version: v1.4.1
 title:
-- content: 'Augmented Reality Framework (ARF); Interoperability Requirements for AR
+- language: en
+  script: Latn
+  content: 'Augmented Reality Framework (ARF); Interoperability Requirements for AR
     components, systems and services; Part 4: World Analysis, World Storage and Scene
     Management functions'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64323
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ARF/001_099/00404/01.01.01_60/gs_ARF00404v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ARF 004-4 V1.1.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64323
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ARF/001_099/00404/01.01.01_60/gs_ARF00404v010101p.pdf
+docidentifier:
+- content: ETSI GS ARF 004-4 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS ARF 004-4 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXSSB3aWxsIGJ1aWxkIHVwb24gaW5kdXN0cmlhbCB1c2UgY2FzZXMgaWRlbnRpZmllZCBpbiBHUiBBUkYgMDAyIGFuZCBkZXZlbG9wIHJlcXVpcmVtZW50cyBmb3IgdGhlIGludGVyb3BlcmFiaWxpdHkgb2YgQVIgY29tcG9uZW50cywgc3lzdGVtcywgYW5kIHNlcnZpY2VzLiBUaGlzIGRlbGl2ZXJhYmxlIGlzIHBhcnQgNCBvZiBhIG11bHRpcGFydCBkb2N1bWVudCBjb3ZlcmluZyB0aGUgaW50ZXJvcGVyYWJpbGl0eSByZXF1aXJlbWVudHMgZGV2ZWxvcGVkIGZvciBzb21lIG9mIHRoZSByZWZlcmVuY2UgcG9pbnRzIHNwZWNpZmllZCBpbiB0aGUgQVJGIHJlZmVyZW5jZSBhcmNoaXRlY3R1cmUgR1MgQVJGIDAwMy4gUGFydCA0IHJlbGF0ZXMgdG8gdGhlIHNwZWNpZmljYXRpb24gb2YgdGhlIGhpZ2ggbGV2ZWwgUmVmZXJlbmNlIFBvaW50IHJlcXVpcmVtZW50cyBiZXR3ZWVuIHRoZSBXb3JsZCBBbmFseXNpcyBhbmQgV29ybGQgU3RvcmFnZSAoQVIxMCDigJwzRCBNYXDigJ0gYW5kIEFSMTEg4oCcUmVsb2NhbGl6YXRpb24gSW5mb3JtYXRpb27igJ0pIGFuZCBiZXR3ZWVuIHRoZSBXb3JsZCBBbmFseXNpcyBhbmQgdGhlIFNjZW5lIE1hbmFnZW1lbnQgKEFSOCDigJxQb3Nl4oCdKS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This WI will build upon industrial use cases identified in GR ARF 002 and
+    develop requirements for the interoperability of AR components, systems, and services.
+    This deliverable is part 4 of a multipart document covering the interoperability
+    requirements developed for some of the reference points specified in the ARF reference
+    architecture GS ARF 003. Part 4 relates to the specification of the high level
+    Reference Point requirements between the World Analysis and World Storage (AR10
+    3D Map and AR11 Relocalization Information) and between the World Analysis and
+    the Scene Management (AR8 Pose).
+status:
+  stage: Published
 keyword:
-- content: API
-- content: AR Cloud
-- content: ARCHITECTURE
-- content: Augmented Reality
-- content: Context capturing and analysis
-- content: data sharing
-- content: Framework
-- content: INTEROPERABILITY
-- content: Model
-- content: Real World capture
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: AR Cloud
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: Context capturing and analysis
+  - language: en
+    script: Latn
+    content: data sharing
+  - language: en
+    script: Latn
+    content: Framework
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: Model
+  - language: en
+    script: Latn
+    content: Real World capture
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Specification

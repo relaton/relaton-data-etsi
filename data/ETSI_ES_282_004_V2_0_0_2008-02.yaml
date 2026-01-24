@@ -1,66 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIES282004V2.0.02008-02
+id: ETSIES282004V200200802
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Functional Architecture; Network Attachment Sub-System
     (NASS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25226
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/282000_282099/282004/02.00.00_60/es_282004v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 282 004 V2.0.0 (2008-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25226
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/282000_282099/282004/02.00.00_60/es_282004v020000p.pdf
+docidentifier:
+- content: ETSI ES 282 004 V2.0.0 (2008-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 282 004 V2.0.0 (2008-02)
 date:
 - type: published
-  value: 2008-02
+  at: 2008-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2008-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    wrdOQVNTIGVuaGFuY2VtZW50cyByZXF1aXJlZCB0byBzdXBwb3J0IE5HTiByZWxlYXNlIDIgY2FwYWJpbGl0aWVzIG9yIHN1Yi1zeXN0ZW0gcmVxdWlyZW1lbnRzDQrCt05BU1MgZW5oYW5jZW1lbnRzIHRvICBOQVNTIFIxIGZ1bmN0aW9uYWxpdHksIGUuZy4NCm9GYWlsdXJlIHJlY292ZXJ5IG9mIE5BU1MgY29tcG9uZW50cyANCihlLmcuIENMRiBmYWlsdXJlIHJlY292ZXJ5KQ0Kb0ltcHJvdmVtZW50cyByZXF1aXJlZCB3aXRoIHJlZ2FyZCB0byB0aGUgc3VwcG9ydCBvZiBhdXRoZW50aWNhdGlvbiBwcm9jZWR1cmVzIHdoZW4gbm8gUFBQIHNlc3Npb24gaXMgc2V0dXAuIA0Kb0VuaGFuY2VtZW50cyB0byBub21hZGlzbSBhbmQgbW9iaWxpdHkgc3VwcG9ydA0KRnVydGhlciB0aGUgZGVzY3JpcHRpb24gcmVmZXJlbmNlIHBvaW50cyBhbmQgZnVuY3Rpb25zIHdoaWNoIGhhdmUgbm90IGJlZW4gZnVsbHkgc3BlY2lmaWVkIGluIHJlbGVhc2UgMSAoaS5lLiByZWZlcmVuY2UgcG9pbnRzIGExLCBhMywgZTMsIOKApiku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "NASS enhancements required to support NGN release 2 capabilities or sub-system
+    requirements\r\nNASS enhancements to  NASS R1 functionality, e.g.\r\noFailure
+    recovery of NASS components \r\n(e.g. CLF failure recovery)\r\noImprovements required
+    with regard to the support of authentication procedures when no PPP session is
+    setup. \r\noEnhancements to nomadism and mobility support\r\nFurther the description
+    reference points and functions which have not been fully specified in release
+    1 (i.e. reference points a1, a3, e3, )."
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Standard

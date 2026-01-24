@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102267V14.0.02019-02
+id: ETSITS102267V1400201902
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Connection Oriented Service API for the Java Card(TM) platform
+- language: en
+  script: Latn
+  content: Smart Cards; Connection Oriented Service API for the Java Card(TM) platform
     (Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57405
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102267/14.00.00_60/ts_102267v140000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 267 V14.0.0 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57405
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102267/14.00.00_60/ts_102267v140000p.pdf
+docidentifier:
+- content: ETSI TS 102 267 V14.0.0 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 267 V14.0.0 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.0.0
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Implementation of\r\nCRs after SCP#86\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Implementation of\r\nCRs after SCP#86\r\n"
+status:
+  stage: Published
 keyword:
-- content: API
-- content: PROTOCOL
-- content: SMART CARD
-- content: TESTING
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

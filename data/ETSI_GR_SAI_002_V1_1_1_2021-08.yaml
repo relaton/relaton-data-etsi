@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRSAI002V1.1.12021-08
+id: ETSIGRSAI002V111202108
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence (SAI); Data Supply Chain Security
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58857
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/002/01.01.01_60/gr_SAI002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR SAI 002 V1.1.1 (2021-08)
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Data Supply Chain Security
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58857
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/002/01.01.01_60/gr_SAI002v010101p.pdf
+docidentifier:
+- content: ETSI GR SAI 002 V1.1.1 (2021-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR SAI 002 V1.1.1 (2021-08)
 date:
 - type: published
-  value: 2021-08
+  at: 2021-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Data is a critical component in the development of AI systems. This includes
+- language: en
+  script: Latn
+  content: "Data is a critical component in the development of AI systems. This includes
     raw data as well as information and feedback from other systems and humans in
     the loop, all of which can be used to change the function of the system by training
     and retraining the AI.\r\nHowever, access to suitable data is often limited causing
@@ -58,18 +67,18 @@ abstract:
     analysis on this information to scope possible requirements for standards for
     ensuring traceability and integrity in the data, associated attributes, information
     and feedback, as well as the confidentiality of these."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Securing Artificial Intelligence
+    content: Group Report

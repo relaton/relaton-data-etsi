@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM09.02V5.3.01996-08
+id: ETSIGTSGSM0902V530199608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Application
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Application
     Part (MAP) specification (GSM 09.02)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4494
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/09/0902/05.03.00_60/gsmts_0902v050300p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 09.02 V5.3.0 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4494
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/09/0902/05.03.00_60/gsmts_0902v050300p.pdf
+docidentifier:
+- content: ETSI GTS GSM 09.02 V5.3.0 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 09.02 V5.3.0 (1996-08)
 date:
 - type: published
-  value: 1996-08
+  at: 1996-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.0
-revdate: 1996-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "It will be necessary to transfer between entities of a Public Land\r\nMobile
+- language: en
+  script: Latn
+  content: "It will be necessary to transfer between entities of a Public Land\r\nMobile
     Network (PLMN) information specific to the PLMN in order to\r\ndeal with the specific
     behaviour of roaming mobile stations. The\r\nSignalling System No. 7 specified
     by CCITT is used to transfer this\r\ninformation.\r\nThis ETS describes the requirements
     for the signalling system and the\r\nprocedures needed at the application level
     in order to fulfil these\r\nsignalling needs.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: ISDN
-- content: MAP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MAP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

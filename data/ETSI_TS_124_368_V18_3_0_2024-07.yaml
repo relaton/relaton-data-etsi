@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS124368V18.3.02024-07
+id: ETSITS124368V1830202407
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Non-Access
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Non-Access
     Stratum (NAS) configuration Management Object (MO) (3GPP TS 24.368 version 18.3.0
     Release 18)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72462
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/124300_124399/124368/18.03.00_60/ts_124368v180300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 124 368 V18.3.0 (2024-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72462
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124300_124399/124368/18.03.00_60/ts_124368v180300p.pdf
+docidentifier:
+- content: ETSI TS 124 368 V18.3.0 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 124 368 V18.3.0 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM [lu] (formely CN1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 18.3.0
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CT#104
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CT#104
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MM/CC/SM [lu] (formely CN1)
+    content: Technical Specification

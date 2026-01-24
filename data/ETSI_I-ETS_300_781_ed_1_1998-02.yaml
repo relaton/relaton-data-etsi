@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300781ed.11998-02
+id: ETSIIETS300781ed1199802
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Functional and system parameters; Passive
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Functional and system parameters; Passive
     optical components; M x N fibre branching devices functional specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2478
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300781/01_60/iets_300781e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 781 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2478
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300781/01_60/iets_300781e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 781 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 781 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Interim European telecommunications Standard (I-ETS) applies to\r\nbalanced
+- language: en
+  script: Latn
+  content: "This Interim European telecommunications Standard (I-ETS) applies to\r\nbalanced
     fibre branching devices to be used in single mode optical\r\ntransmission networks.
     Unbalanced fibre branching devices should also\r\nsatisfy similar mechanical and
     environmental requirements. The scope\r\nis to establish minimum uniform requirements
@@ -55,21 +65,27 @@ abstract:
     accordance with EN 181 000\r\nunless otherwise specified.\r\nA fibre branching
     device is : \" A passive optical component which\r\nsplits the incoming signal
     (M) to a number of outputs (N).\"\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: COUPLING
-- content: FIBRE
-- content: OPTICAL
-- content: PON
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: COUPLING
+  - language: en
+    script: Latn
+    content: FIBRE
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: PON
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: TM Core networks, fibres and cables
+    content: Interim European Telecommunication Standard

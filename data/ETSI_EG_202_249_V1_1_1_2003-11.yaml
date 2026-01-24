@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202249V1.1.12003-11
+id: ETSIEG202249V111200311
+schema_version: v1.4.1
 title:
-- content: Universal Communications Identifier (UCI); Guidelines on the usability
+- language: en
+  script: Latn
+  content: Universal Communications Identifier (UCI); Guidelines on the usability
     of UCI based systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14107
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202200_202299/202249/01.01.01_60/eg_202249v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 249 V1.1.1 (2003-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14107
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202200_202299/202249/01.01.01_60/eg_202249v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 249 V1.1.1 (2003-11)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 249 V1.1.1 (2003-11)
 date:
 - type: published
-  value: 2003-11
+  at: 2003-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The definition of guidelines for maximizing the usability of Universal
+- language: en
+  script: Latn
+  content: The definition of guidelines for maximizing the usability of Universal
     Communication Identification based services and suggesttions of how these issues
     could be the subject of standards and recommendations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ID
-- content: UCI
+- taxon:
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: UCI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

@@ -1,67 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103652-2V1.1.12020-01
+id: ETSITS1036522V111202001
+schema_version: v1.4.1
 title:
-- content: 'Reconfigurable Radio Systems (RRS); evolved Licensed Shared Access (eLSA);
+- language: en
+  script: Latn
+  content: 'Reconfigurable Radio Systems (RRS); evolved Licensed Shared Access (eLSA);
     Part 2: System architecture and high-level procedures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56888
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365202/01.01.01_60/ts_10365202v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 652-2 V1.1.1 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56888
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365202/01.01.01_60/ts_10365202v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 652-2 V1.1.1 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 652-2 V1.1.1 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGV2ZWxvcCBhIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9uIGRlZmluaW5nIHRoZSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIGZvciB0aGUgb3BlcmF0aW9uIG9mIGFuIEV2b2x2ZWQgTGljZW5zZWQgU2hhcmVkIEFjY2VzcyBTeXN0ZW0sIGVuYWJsaW5nIHRoZSBwcm92aXNpb24gb2Ygc3BlY3RydW0gYWNjZXNzIHRvIGxvY2FsIGhpZ2gtcXVhbGl0eSB3aXJlbGVzcyBuZXR3b3JrcyBpbiBsaWNlbnNlZCBiYW5kcy4gVGhlIGFyY2hpdGVjdHVyZSBidWlsZHMgb24gdGhlIGZlYXNpYmlsaXR5IHN0dWR5IGRlc2NyaWJlZCBpbiBFVFNJIFRSIDEwMyA1ODggKDIwMTgpICJSZWNvbmZpZ3VyYWJsZSBSYWRpbyBTeXN0ZW1zIChSUlMpOyBGZWFzaWJpbGl0eSBzdHVkeSBvbiB0ZW1wb3Jhcnkgc3BlY3RydW0gYWNjZXNzIGZvciBsb2NhbCBoaWdoLXF1YWxpdHkgd2lyZWxlc3MgbmV0d29ya3MiLCBhbmQgdGhlIHN5c3RlbSByZXF1aXJlbWVudHMgY2FwdHVyZWQgaW4gRVRTSSBUUyAxMDMgNjUyICDigJxTeXN0ZW0gUmVxdWlyZW1lbnRzIGZvciBzcGVjdHJ1bSBhY2Nlc3MgZm9yIGxvY2FsIGhpZ2gtcXVhbGl0eSB3aXJlbGVzcyBuZXR3b3Jrc+KAnSAoRFRTL1JSUy0wMTUwKS4gVGhlIHNjb3BlIG9mIHRoZSB3b3JrIHdpbGwgYmUgdG8gZGVmaW5lIHRoZSBldm9sdmVkIExTQSBhcmNoaXRlY3R1cmUgc3VjaCBhcyB0byBhY2NvbW1vZGF0ZSBhbmQgZW5hYmxlIHNwZWN0cnVtIGFjY2VzcyBmb3IgbWFueSBsb2NhbCBoaWdoLXF1YWxpdHkgd2lyZWxlc3MgbmV0d29ya3MgaW4gZGVkaWNhdGVkIGxpY2Vuc2VkIGFuZCBsZWFzaW5nIHNjZW5hcmlvcyBiYXNlZCBvbiB0aGUgcmVxdWlyZW1lbnRzIGRldmVsb3BlZCBpbiBUUyAxMDMgNjUyLTEuIA0KVGhlIHNwZWNpZmljYXRpb24gd2lsbCBpbmNsdWRlOiAgIC0gZnVuY3Rpb25hbCBhcmNoaXRlY3R1cmUgICAtIElkZW50aWZpY2F0aW9uIG9mIHRoZSBkaWZmZXJlbnQgZW50aXRpZXMsIHJlZmVyZW5jZSBwb2ludHMsIGFuZCBtYXBwaW5nIG9mIGZ1bmN0aW9ucyB0byBlbnRpdGllcyAgIC0gSWRlbnRpZmljYXRpb24gb2YgaW50ZXJmYWNlcyB0byBiZSBzdGFuZGFyZGl6ZWQgICAtIEhpZ2ggbGV2ZWwgcHJvY2VkdXJlcyBhbmQgaW5mb3JtYXRpb24gZmxvd3MgZW5hYmxpbmcgYXNzaWdubWVudCBhbmQgaGFuZGxpbmcgb2Ygc3BlY3RydW0gZm9yIHRoZSBkaWZmZXJlbnQgc2NlbmFyaW9zLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Develop a Technical Specification defining the system architecture for
+    the operation of an Evolved Licensed Shared Access System, enabling the provision
+    of spectrum access to local high-quality wireless networks in licensed bands.
+    The architecture builds on the feasibility study described in ETSI TR 103 588
+    (2018) \"Reconfigurable Radio Systems (RRS); Feasibility study on temporary spectrum
+    access for local high-quality wireless networks\", and the system requirements
+    captured in ETSI TS 103 652  System Requirements for spectrum access for local
+    high-quality wireless networks (DTS/RRS-0150). The scope of the work will be to
+    define the evolved LSA architecture such as to accommodate and enable spectrum
+    access for many local high-quality wireless networks in dedicated licensed and
+    leasing scenarios based on the requirements developed in TS 103 652-1. \r\nThe
+    specification will include:   - functional architecture   - Identification of
+    the different entities, reference points, and mapping of functions to entities
+    \  - Identification of interfaces to be standardized   - High level procedures
+    and information flows enabling assignment and handling of spectrum for the different
+    scenarios."
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: LSA spectrum resource
-- content: NETWORK
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: LSA spectrum resource
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

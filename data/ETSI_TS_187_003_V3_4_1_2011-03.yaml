@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187003V3.4.12011-03
+id: ETSITS187003V341201103
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Security; Security Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29252
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187003/03.04.01_60/ts_187003v030401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 003 V3.4.1 (2011-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29252
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187003/03.04.01_60/ts_187003v030401p.pdf
+docidentifier:
+- content: ETSI TS 187 003 V3.4.1 (2011-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 003 V3.4.1 (2011-03)
 date:
 - type: published
-  value: 2011-03
+  at: 2011-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.4.1
-revdate: 2011-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item aims to define a stage 2, NGN release 3 security architecture\r\nThis
+- language: en
+  script: Latn
+  content: "This work item aims to define a stage 2, NGN release 3 security architecture\r\nThis
     Work Item shall set forth the specific security architecture for NGN Release 3
     using the Release 2 document as a baseline with additions to support the Release
     3 functionality as described in the Release 3 definition. ."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

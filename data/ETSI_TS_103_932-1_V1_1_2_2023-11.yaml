@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103932-1V1.1.22023-11
+id: ETSITS1039321V112202311
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Consumer Mobile Devices Base PP-Configuration; Part 1: CMD and
+- language: en
+  script: Latn
+  content: 'CYBER; Consumer Mobile Devices Base PP-Configuration; Part 1: CMD and
     Biometric Verification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69551
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10393201/01.01.02_60/ts_10393201v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 932-1 V1.1.2 (2023-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69551
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10393201/01.01.02_60/ts_10393201v010102p.pdf
+docidentifier:
+- content: ETSI TS 103 932-1 V1.1.2 (2023-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 932-1 V1.1.2 (2023-11)
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2023-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this WI is to initiate work on updates to TS 103 732. TS
+- language: en
+  script: Latn
+  content: "The purpose of this WI is to initiate work on updates to TS 103 732. TS
     103 732 is turned into a multi-part document accompanied by another multi-part
     TS for the PP configuration.\r\nThis part 1 is the PP-Configuration for the combination
     of the Consumer Mobile Device PP and the Biometric Authentication PP-Module. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: MOBILE
-- content: privacy
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

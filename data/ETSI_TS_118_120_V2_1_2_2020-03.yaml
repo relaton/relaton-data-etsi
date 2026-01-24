@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118120V2.1.22020-03
+id: ETSITS118120V212202003
+schema_version: v1.4.1
 title:
-- content: oneM2M; WebSocket Protocol Binding (oneM2M TS-0020 version 2.1.2 Release
+- language: en
+  script: Latn
+  content: oneM2M; WebSocket Protocol Binding (oneM2M TS-0020 version 2.1.2 Release
     2A)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53412
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118120/02.01.02_60/ts_118120v020102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 120 V2.1.2 (2020-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53412
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118120/02.01.02_60/ts_118120v020102p.pdf
+docidentifier:
+- content: ETSI TS 118 120 V2.1.2 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 120 V2.1.2 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.2
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Developping WebSocket protocol binding
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Developping WebSocket protocol binding
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

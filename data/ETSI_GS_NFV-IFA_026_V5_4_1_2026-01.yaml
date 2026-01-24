@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA026V5.4.12026-01
+id: ETSIGSNFVIFA026V541202601
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
     Architecture enhancement for Security Management Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75490
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/026/05.04.01_60/gs_NFV-IFA026v050401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 026 V5.4.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75490
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/026/05.04.01_60/gs_NFV-IFA026v050401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 026 V5.4.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 026 V5.4.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.4.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document defines the requirements to:\r\n1)\tinterface the
+- language: en
+  script: Latn
+  content: "The present document defines the requirements to:\r\n1)\tinterface the
     Security Control to NFV-MANO as described in ETSI GS NFV-SEC 013 [1];\r\n2)\tsupport
     management of virtualised lawful interception functionality as described in ETSI
     GR NFV SEC 011 [i.8], ETSI TS 133 127 [i.19] and ETSI TS 102 232-1 [i.20]);\r\n3)\tinterface
@@ -54,22 +63,30 @@ abstract:
     the extensions to the NFV-MANO architecture related to security management and
     monitoring. Multiple trust domains are considered as well as the handling of NFV-MANO
     certificates is clarified. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: orchestration
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

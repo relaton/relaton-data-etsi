@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103118V1.1.12015-08
+id: ETSITR103118V111201508
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); Smart Energy Infrastructures security;
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); Smart Energy Infrastructures security;
     Review of existing security measures and convergence investigations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39876
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103118/01.01.01_60/tr_103118v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 118 V1.1.1 (2015-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39876
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103118/01.01.01_60/tr_103118v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 118 V1.1.1 (2015-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 118 V1.1.1 (2015-08)
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Review of security methods provided by deployed standards used in the
+- language: en
+  script: Latn
+  content: 'Review of security methods provided by deployed standards used in the
     Smart Energy industry (e.g. IEC 62351, IEC 62443...) or mandated by regulation
     (e.g. Requirements from the German BSI for Smart Meter Gateways and Secure Element)
     as well as gaps identified by the Smart Grid Information Security group for the
@@ -56,20 +65,24 @@ abstract:
     shared with other ETSI groups (for potential actions falling outside the scope
     of TC M2M), new work item(s) proposals, or CRs within the scope of ETSI TC M2M,
     as applicable. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: privacy
-- content: SECURITY
-- content: Smart Grid
-- content: smart meter
+- taxon:
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Smart Grid
+  - language: en
+    script: Latn
+    content: smart meter
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

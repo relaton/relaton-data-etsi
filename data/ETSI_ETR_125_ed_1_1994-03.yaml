@@ -1,57 +1,65 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR125ed.11994-03
+id: ETSIETR125ed1199403
+schema_version: v1.4.1
 title:
-- content: Introduction to OSI Directory functional standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1434
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/125/01_60/etr_125e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 125 ed.1 (1994-03)
+- language: en
+  script: Latn
+  content: Introduction to OSI Directory functional standards
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1434
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/125/01_60/etr_125e01p.pdf
+docidentifier:
+- content: ETSI ETR 125 ed.1 (1994-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 125 ed.1 (1994-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Directory Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Description and overview of various functional standards on X.500\r\nbased
+- language: en
+  script: Latn
+  content: "Description and overview of various functional standards on X.500\r\nbased
     directories\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIRECTORY
+- taxon:
+  - language: en
+    script: Latn
+    content: DIRECTORY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Directory Systems
+    content: ETSI Technical Report

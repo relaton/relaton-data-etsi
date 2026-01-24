@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA055V5.3.12025-08
+id: ETSIGSNFVIFA055V531202508
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
     Specification of non-functional requirements of reliability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72208
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/055/05.03.01_60/gs_NFV-IFA055v050301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 055 V5.3.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72208
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/055/05.03.01_60/gs_NFV-IFA055v050301p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 055 V5.3.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 055 V5.3.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will specify the non-functional requirements of reliability
+- language: en
+  script: Latn
+  content: This work item will specify the non-functional requirements of reliability
     for NFV-based services. In some use cases, the NFV MANO functions may lead to
     reliability issues. For example, the NFV MANO functions bring several challenges
     as lack of failure detection and performance monitor, the consistency of long
@@ -55,19 +64,21 @@ abstract:
     alarm and processing requirements, the requirements for meeting the reliability
     expectation, the requirements for recovery and redundancy. The resulting deliverable
     will contain normative provisions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: AVAILABILITY
-- content: RELIABILITY
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: AVAILABILITY
+  - language: en
+    script: Latn
+    content: RELIABILITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

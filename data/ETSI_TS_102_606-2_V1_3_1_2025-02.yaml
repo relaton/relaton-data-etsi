@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102606-2V1.3.12025-02
+id: ETSITS1026062V131202502
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Generic Stream Encapsulation (GSE);
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Generic Stream Encapsulation (GSE);
     Part 2: Logical Link Control (LLC)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72197
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10260602/01.03.01_60/ts_10260602v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 606-2 V1.3.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72197
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10260602/01.03.01_60/ts_10260602v010301p.pdf
+docidentifier:
+- content: ETSI TS 102 606-2 V1.3.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 606-2 V1.3.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Compared to V1.2.1, this new version adds the support of Bean Hopping and
+- language: en
+  script: Latn
+  content: Compared to V1.2.1, this new version adds the support of Bean Hopping and
     Non-Geostationary satellite Systems (NGSO).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

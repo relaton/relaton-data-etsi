@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319401V3.2.12026-01
+id: ETSIEN319401V321202601
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Trust Infrastructures (ESI); General Policy Requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Trust Infrastructures (ESI); General Policy Requirements
     for Trust Service Providers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74317
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319400_319499/319401/03.02.01_60/en_319401v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 401 V3.2.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74317
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319400_319499/319401/03.02.01_60/en_319401v030201p.pdf
+docidentifier:
+- content: ETSI EN 319 401 V3.2.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 401 V3.2.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision EN 319 401 to take into account NIS2 implementing regulation,
+- language: en
+  script: Latn
+  content: Revision EN 319 401 to take into account NIS2 implementing regulation,
     changes stemming from other ESI standards that might impact it, and information
     on potential application to DORA.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: ELECTRONIC SIGNATURE
-- content: Provider
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: Provider
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: European Standard

@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319412-5V1.1.12013-01
+id: ETSIEN3194125V111201301
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Profiles for Trust Service
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Profiles for Trust Service
     Providers issuing certificates; Part 5: Extension for Qualified Certificate profile'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34223
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/01.01.01_60/en_31941205v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 412-5 V1.1.1 (2013-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34223
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319400_319499/31941205/01.01.01_60/en_31941205v010101p.pdf
+docidentifier:
+- content: ETSI EN 319 412-5 V1.1.1 (2013-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 412-5 V1.1.1 (2013-01)
 date:
 - type: published
-  value: 2013-01
+  at: 2013-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UmV2aXNpb25zIHRvIHVwZGF0ZSB0aGUgcXVhbGlmaWVkIGNlcnRpZmljYXRlIHByb2ZpbGUgc3RhbmRhcmRzIEVUU0kgVFMgMTAxIDg2MiB0byBhZGRyZXNzIHVwZGF0ZXMgaW4gcmVmZXJlbmNlZCBzdGFuZGFyZHMgYXMgd2VsbCBhcyBjb25jZXJucyBpZGVudGlmaWVkIGluIHRoZSBDcm9iaWVzIHJlcG9ydC4gSXQgaW5jbHVkZXM6DQrCt0dlbmVyYWwgb3ZlcnZpZXcsIGluY2x1ZGluZyByZWZlcmVuY2UgdXBkYXRlcw0KwrdVcGRhdGVkIHJlcXVpcmVtZW50cyBvbiBpbmRpY2F0aW9uIHRoYXQgYSBjZXJ0aWZpY2F0ZSBpcyBpc3N1ZWQgYXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgKFFDKQ0KwrdVcGRhdGVkIHJlcXVpcmVtZW50cyBvbiBpbmRpY2F0aW9uIHRoYXQgYSBjZXJ0aWZpY2F0ZSBpcyBhc3NvY2lhdGVkIHdpdGggYSBwcml2YXRlIGtleSB0aGF0IGlzIG9wZXJhdGVkIHdpdGhpbiBhIFNlY3VyZSBTaWduYXR1cmUgQ3JlYXRpb24gRGV2aWNlIChTU0NEKQ0KwrdGdXJ0aGVyIGNlcnRpZmljYXRlIHByb2ZpbGUgcmVxdWlyZW1lbnRzIGZvciBxdWFsaWZpZWQgY2VydGlmaWNhdGVzIGlzc3VlZCB0byBuYXR1cmFsIHBlcnNvbnMgaW4gYWNjb3JkYW5jZSB3aXRoIGlucHV0IHRvIHRoZSByYXRpb25hbGl6ZWQgZnJhbWV3b3JrLg0KSW52ZXN0aWdhdGluZyBtZXRob2RzIGZvciBpZGVudGlmaWNhdGlvbiBvZiBhIHN1YmplY3QgYXMgYSBsZWdhbCBvciBwaHlzaWNhbCBlbnRpdHkgYXMgd2VsbCBhcyBvdGhlciBpZGVudGl0eSBleHByZXNzaW9uIGFzcGVjdHMuDQpNaWdyYXRpb24gdG8gRU4gc3RhdHVz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Revisions to update the qualified certificate profile standards ETSI TS
+    101 862 to address updates in referenced standards as well as concerns identified
+    in the Crobies report. It includes:\r\nGeneral overview, including reference updates\r\nUpdated
+    requirements on indication that a certificate is issued as a qualified certificate
+    (QC)\r\nUpdated requirements on indication that a certificate is associated with
+    a private key that is operated within a Secure Signature Creation Device (SSCD)\r\nFurther
+    certificate profile requirements for qualified certificates issued to natural
+    persons in accordance with input to the rationalized framework.\r\nInvestigating
+    methods for identification of a subject as a legal or physical entity as well
+    as other identity expression aspects.\r\nMigration to EN status"
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

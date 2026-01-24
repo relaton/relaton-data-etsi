@@ -1,72 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES282010V1.1.12006-06
+id: ETSIES282010V111200606
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Charging [Endorsement of 3GPP TS 32.240 v6.3.0, 3GPP TS 32.260
     v6.3.0, 3GPP TS 32.297 v6.1.0, 3GPP TS 32.298 v6.1.0 and 3GPP TS 32.299 v6.4.0
     modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23519
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/282000_282099/282010/01.01.01_60/es_282010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 282 010 V1.1.1 (2006-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23519
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/282000_282099/282010/01.01.01_60/es_282010v010101p.pdf
+docidentifier:
+- content: ETSI ES 282 010 V1.1.1 (2006-06)
   type: ETSI
   primary: true
 docnumber: ETSI ES 282 010 V1.1.1 (2006-06)
 date:
 - type: published
-  value: 2006-06
+  at: 2006-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This  WI deals with charging and starts with a gap analysis of the 3GPP
+- language: en
+  script: Latn
+  content: "This  WI deals with charging and starts with a gap analysis of the 3GPP
     charging architecture document ( TS 32.240) in order to  identify NGN entities
     that need to generate raw charging data.. This analysis  may lead to an endorsement
     of 32.240 and later endorsement of TS 32 260, TS 32 298, TS 32 299. The work will
     identify subjects of impact to TISPAN and identify first priority subjects to
     deal with in the scope of R1 \r\nA review of TS 22 115 will also be done as part
     of the process and any results will be communicated with WG1."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CHARGING
-- content: ENDORSEMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARGING
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Standard

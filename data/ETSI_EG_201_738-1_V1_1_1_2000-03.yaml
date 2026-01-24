@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201738-1V1.1.12000-03
+id: ETSIEG2017381V111200003
+schema_version: v1.4.1
 title:
-- content: 'Network integration testing between ISDN, PLMN and PSTN; Part 1: Test
+- language: en
+  script: Latn
+  content: 'Network integration testing between ISDN, PLMN and PSTN; Part 1: Test
     Suite Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5072
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/20173801/01.01.01_60/eg_20173801v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 738-1 V1.1.1 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5072
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/20173801/01.01.01_60/eg_20173801v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 738-1 V1.1.1 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 738-1 V1.1.1 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies the TSS&TP for the end-to-end testing of the\r\ninterworking
+- language: en
+  script: Latn
+  content: "Specifies the TSS&TP for the end-to-end testing of the\r\ninterworking
     between the ISDN and GSM services. End-to-end\r\ntesting\tcovers all the testing
     activities necessary to verify\r\nthe correct behaviour of the interconnected
     network from the\r\npoint of view of access interfaces, network side. Both bearer\r\nservices
     (and associated teleservices) and supplementary\r\nservices are checked for interworking
     capability and compatibility.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ISDN
-- content: PLMN
-- content: PSTN
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Conformance testing
+    content: ETSI Guide

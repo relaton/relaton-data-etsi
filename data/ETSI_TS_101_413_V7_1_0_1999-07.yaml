@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101413V7.1.01999-07
+id: ETSITS101413V710199907
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Subscriber
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Subscriber
     Identity Module Application Programming Interface (SIM API); Service description;
     Stage 1 (GSM 02.19 version 7.1.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6477
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101413/07.01.00_60/ts_101413v070100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 413 V7.1.0 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6477
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101413/07.01.00_60/ts_101413v070100p.pdf
+docidentifier:
+- content: ETSI TS 101 413 V7.1.0 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 413 V7.1.0 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IC Card Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.0
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Specification defines the stage one description of
+- language: en
+  script: Latn
+  content: "This ETSI Technical Specification defines the stage one description of
     the SIM API. Stage one is an overall service description, primarily from the point
     of view of the SIM-ME Interface, and does not deal with the implementation details
     of the API.\r\nThis TS includes information applicable to network operators, service
@@ -60,20 +69,24 @@ abstract:
     this TS. This additional functionality may be on a network-wide basis, nation-wide
     basis or particular to a group of users. Such additional functionality shall not
     compromise conformance to the core requirements of the service.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: STAGE 1
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: STAGE 1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IC Card Aspects
+    content: Technical Specification

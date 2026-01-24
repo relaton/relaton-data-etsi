@@ -1,65 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300498-2ed.11998-04
+id: ETSIETS3004982ed1199804
+schema_version: v1.4.1
 title:
-- content: 'Open Document Architecture (ODA); ODA communication services; Part 2:
+- language: en
+  script: Latn
+  content: 'Open Document Architecture (ODA); ODA communication services; Part 2:
     Joint synchronous editing, joint document presentation/viewing'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1933
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30049802/01_60/ets_30049802e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 498-2 ed.1 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1933
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30049802/01_60/ets_30049802e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 498-2 ed.1 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 498-2 ed.1 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Co-operative Document Handling & File Transfer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define ODA communication services\r\n- for joint synchronous editing
+- language: en
+  script: Latn
+  content: "To define ODA communication services\r\n- for joint synchronous editing
     using one or more document servers;\r\n- for joint document presentation/viewing
     where only one user can\r\npresent the document to the other, or more than one
     user can present\r\nthe document to the other users, but at a given time only
     one user\r\npresents the other s view.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONF
-- content: GENERIC
-- content: MULTIPOINT
-- content: ODA
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CONF
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: ODA
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Co-operative Document Handling & File Transfer
+    content: European Telecommunication Standard

@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR080ed.21996-11
+id: ETSIETR080ed2199611
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Integrated Services Digital Network
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Integrated Services Digital Network
     (ISDN) basic rate access; Digital transmission system on metallic local lines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4581
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/080/02_60/etr_080e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 080 ed.2 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4581
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/080/02_60/etr_080e02p.pdf
+docidentifier:
+- content: ETSI ETR 080 ed.2 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 080 ed.2 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) covers the characteristics and parame\r\nters
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) covers the characteristics and parame\r\nters
     of a digital transmission system at the network side of the NT1 t\r\no form part
     of the access digital section for the Integrated Services\r\nDigital Network (ISDN)
     basic rate access using echo cancellation metho\r\nd.\r\nIt is based on CCITT
@@ -48,23 +58,33 @@ abstract:
     sequence independent,\r\n transmission of two B-channels and one D-channel as
     defined in CCITT R\r\necommendation I.412 [2] and the supplementary functions
     of the access\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BASIC
-- content: CODING
-- content: ISDN
-- content: LOCAL LOOP
-- content: RATE
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LOCAL LOOP
+  - language: en
+    script: Latn
+    content: RATE
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Access Networks
+    content: ETSI Technical Report

@@ -1,63 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300145ed.21996-01
+id: ETSIETS300145ed2199601
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Audiovisual services; Videotelephone
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Audiovisual services; Videotelephone
     systems and terminal equipment operating on one or two 64 kbit/s channels
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2515
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300145/02_60/ets_300145e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 145 ed.2 (1996-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2515
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300145/02_60/ets_300145e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 145 ed.2 (1996-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 145 ed.2 (1996-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To prepare new version of ETS 300 145 to take into account the latest\r\nresults
+- language: en
+  script: Latn
+  content: "To prepare new version of ETS 300 145 to take into account the latest\r\nresults
     on D-channel aspects and to make reference to procedures for\r\nsupplementary
     services\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MULTICHANNEL
-- content: TELEPHONY
-- content: TERMINAL
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: European Telecommunication Standard

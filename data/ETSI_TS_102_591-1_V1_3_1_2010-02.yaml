@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102591-1V1.3.12010-02
+id: ETSITS1025911V131201002
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); IP Datacast: Content Delivery Protocols
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); IP Datacast: Content Delivery Protocols
     (CDP) Implementation Guidelines; Part 1: IP Datacast over DVB-H'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31920
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/10259101/01.03.01_60/ts_10259101v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 591-1 V1.3.1 (2010-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31920
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/10259101/01.03.01_60/ts_10259101v010301p.pdf
+docidentifier:
+- content: ETSI TS 102 591-1 V1.3.1 (2010-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 591-1 V1.3.1 (2010-02)
 date:
 - type: published
-  value: 2010-02
+  at: 2010-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2010-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The present document gives implementation guidelines on the use of content
+- language: en
+  script: Latn
+  content: 'The present document gives implementation guidelines on the use of content
     delivery protocols and different reliability control techniques in IP Datacast
     over DVB-H system for the whole delivery chain from the network to the terminal.
     In particular it shall guide implementers of basic use cases for IP Datacast over
     DVB-H to make best use of the specification IP Datacast over DVB-H: Content Delivery
     Protocols. Furthermore this document is now part 1 of a multipart document. Part
     2 covers DVB-SH.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: DVB
-- content: DVB-H
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: DVB-H
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

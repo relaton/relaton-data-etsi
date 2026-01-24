@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD002V1.1.12010-06
+id: ETSIGSQKD002V111201006
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Use Cases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29096
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/qkd/001_099/002/01.01.01_60/gs_qkd002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 002 V1.1.1 (2010-06)
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Use Cases
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29096
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/qkd/001_099/002/01.01.01_60/gs_qkd002v010101p.pdf
+docidentifier:
+- content: ETSI GS QKD 002 V1.1.1 (2010-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 002 V1.1.1 (2010-06)
 date:
 - type: published
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "There are different groups of prospective users of quantum key distribution
+- language: en
+  script: Latn
+  content: "There are different groups of prospective users of quantum key distribution
     (QKD) systems, having different security requirements and other functional requirements
     on these systems. \r\nSecurity requirements (for example regarding cryptographic
     strength or specific audit capabilities) are in most cases imposed by organisational
@@ -56,19 +65,21 @@ abstract:
     and other functional requirements for different user groups and different fields
     of application. The catalogue shall serve as a basis for implementation independent
     specifications of QKD systems."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: quantum cryptography
-- content: Quantum Key Distribution
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

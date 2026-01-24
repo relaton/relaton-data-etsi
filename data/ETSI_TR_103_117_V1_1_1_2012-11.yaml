@@ -1,68 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103117V1.1.12012-11
+id: ETSITR103117V111201211
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Principles for Mobile Network level energy
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Principles for Mobile Network level energy
     efficiency
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38228
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103117/01.01.01_60/tr_103117v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 117 V1.1.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38228
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103117/01.01.01_60/tr_103117v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 117 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 117 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    4oCiCU1haW4gRm9jdXMgaXMgcmFkaW8gYWNjZXNzIG5ldHdvcmtzDQrigKIJUG9zc2liaWxpdGllcyBhbmQgY29tcGxleGl0aWVzIG9uIG5ldHdvcmsgbGV2ZWwgRUUgDQpvCVZlcmlmeSBjb21wbGV4aXRpZXMgb2YgbmV0d29yayBtZWFzdXJlbWVudCBpbiBsaXZlIG5ldHdvcmsgDQpvCVZlcmlmeSBjb21wbGV4aXRpZXMgb2YgbmV0d29yayBtZWFzdXJlbWVudCBpbiBsYWIgDQrigKIJU2hhcmVhYmxlIGRhdGEgY29uc2lkZXJpbmcgY29uZmlkZW50aWFsaXR5DQrigKIJTW9kZWxzIGFuZCBzaW11bGF0aW9ucyBmb3IgbmV0d29yayBsZXZlbCBFRQ0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "\tMain Focus is radio access networks\r\n\tPossibilities and complexities
+    on network level EE \r\no\tVerify complexities of network measurement in live
+    network \r\no\tVerify complexities of network measurement in lab \r\n\tShareable
+    data considering confidentiality\r\n\tModels and simulations for network level
+    EE\r\n"
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: Energy Efficiency
-- content: LTE
-- content: RADIO
-- content: WCDMA
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: WCDMA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: Technical Report

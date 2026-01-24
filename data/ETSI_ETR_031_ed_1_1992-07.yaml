@@ -1,58 +1,68 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR031ed.11992-07
+id: ETSIETR031ed1199207
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Network aspects of ISDN to ISDN and ISDN internal
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Network aspects of ISDN to ISDN and ISDN internal
     interworking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=586
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/031/01_60/etr_031e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 031 ed.1 (1992-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=586
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/031/01_60/etr_031e01p.pdf
+docidentifier:
+- content: ETSI ETR 031 ed.1 (1992-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 031 ed.1 (1992-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: ETSI Technical Report

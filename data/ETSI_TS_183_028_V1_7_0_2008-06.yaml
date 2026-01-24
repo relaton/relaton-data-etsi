@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183028V1.7.02008-06
+id: ETSITS183028V170200806
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Common Basic Communication procedures; Protocol specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28483
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183028/01.07.00_60/ts_183028v010700p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 028 V1.7.0 (2008-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28483
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183028/01.07.00_60/ts_183028v010700p.pdf
+docidentifier:
+- content: ETSI TS 183 028 V1.7.0 (2008-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 028 V1.7.0 (2008-06)
 date:
 - type: published
-  value: 2008-06
+  at: 2008-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.0
-revdate: 2008-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: As part of the transfer of common IMS material to 3GPP, replace contents
+- language: en
+  script: Latn
+  content: As part of the transfer of common IMS material to 3GPP, replace contents
     of this specification by an undated  reference to the identical 3GPP technical
     specification 24.428 release 7. There is no technical change to the specification
     as a result of this work item, although future essential changes to the 3GPP specification
     can result in technical modification.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: PROCEDURE
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: PROCEDURE
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

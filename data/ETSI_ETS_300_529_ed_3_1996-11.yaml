@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300529ed.31996-11
+id: ETSIETS300529ed3199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Technical realization
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Technical realization
     of supplementary services (GSM 03.11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4446
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300529/03_60/ets_300529e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 529 ed.3 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4446
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300529/03_60/ets_300529e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 529 ed.3 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 529 ed.3 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS describes the general aspects on how supplementary services\r\nin
+- language: en
+  script: Latn
+  content: "This ETS describes the general aspects on how supplementary services\r\nin
     the GSM system are realized from a technical point of view.\r\nDescription of
     technical realization for specific supplementary\r\nservices can be found in GSM
     03.8x and 03.9x-series technical\r\nspecifications.\r\nAll supplementary services
@@ -56,23 +66,33 @@ abstract:
     of\r\nsupplementary services do not distinguish between subscriber, user and\r\ncustomer,
     since all three do not fully cover the textual needs.\r\nGenerally the term \"subscriber\"
     is used, even if this person is not\r\nhaving the subscription.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GENERIC
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

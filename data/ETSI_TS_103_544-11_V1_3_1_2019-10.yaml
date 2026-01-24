@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103544-11V1.3.12019-10
+id: ETSITS10354411V131201910
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    UHVibGljbHkgQXZhaWxhYmxlIFNwZWNpZmljYXRpb24gKFBBUyk7IEludGVsbGlnZW50IFRyYW5zcG9ydCBTeXN0ZW1zIChJVFMpOyBNaXJyb3JMaW5rwq47IFBhcnQgMTE6IFVQblAgTm90aWZpY2F0aW9uIFNlcnZlciBTZXJ2aWNl
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58398
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10354411/01.03.01_60/ts_10354411v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 544-11 V1.3.1 (2019-10)
+- language: en
+  script: Latn
+  content: 'Publicly Available Specification (PAS); Intelligent Transport Systems
+    (ITS); MirrorLink; Part 11: UPnP Notification Server Service'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58398
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10354411/01.03.01_60/ts_10354411v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 544-11 V1.3.1 (2019-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 544-11 V1.3.1 (2019-10)
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2019-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of a UPnP Service, allowing the UPnP Control Point to retrieve
+- language: en
+  script: Latn
+  content: Definition of a UPnP Service, allowing the UPnP Control Point to retrieve
     notifications from the UPnP Server and responding to them. Integration of change
     requests based on feedback from plugfests and initial implementations undergoing
     CCC's MirrorLink device certification program.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: ITS
-- content: PAS
-- content: smartphone
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: PAS
+  - language: en
+    script: Latn
+    content: smartphone
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Intelligent Transport Systems
+    content: Technical Specification

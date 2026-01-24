@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103053V1.1.12014-09
+id: ETSITR103053V111201409
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Parameters affecting the Signal-to-Noise Ratio (SNR)
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Parameters affecting the Signal-to-Noise Ratio (SNR)
     and the Receiver Signal Level (RSL) threshold in point-to-point receivers; Theory
     and practice
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31908
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103053/01.01.01_60/tr_103053v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 053 V1.1.1 (2014-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31908
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103053/01.01.01_60/tr_103053v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 053 V1.1.1 (2014-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 053 V1.1.1 (2014-09)
 date:
 - type: published
-  value: 2014-09
+  at: 2014-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1) To offer background on the parameters such as:\r\n- Nominal uncoded
+- language: en
+  script: Latn
+  content: "1) To offer background on the parameters such as:\r\n- Nominal uncoded
     SNR, coding gain, phase noise degradation.\r\n- Noise Figure\r\n- Industrial margins
     for mass production\r\n2) To define their practical values in view of possible
     standardisation."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NOISE
-- content: POINT-TO-POINT
-- content: RECEIVER
+- taxon:
+  - language: en
+    script: Latn
+    content: NOISE
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RECEIVER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

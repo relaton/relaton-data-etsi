@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103397V1.1.22020-03
+id: ETSITS103397V112202003
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); VoLTE and ViLTE interconnect,
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); VoLTE and ViLTE interconnect,
     interworking and roaming test specification with QoS/QoE (3GPPTM Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59264
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103397/01.01.02_60/ts_103397v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 397 V1.1.2 (2020-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59264
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103397/01.01.02_60/ts_103397v010102p.pdf
+docidentifier:
+- content: ETSI TS 103 397 V1.1.2 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 397 V1.1.2 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Change of reference version from TS 102 222-1 V.1.1.1 to TS 102 222-1
+- language: en
+  script: Latn
+  content: 'Change of reference version from TS 102 222-1 V.1.1.1 to TS 102 222-1
     V.1.3.1 in reference list '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QoE
-- content: QoS
-- content: ViLTE
-- content: VoLTE
+- taxon:
+  - language: en
+    script: Latn
+    content: QoE
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: ViLTE
+  - language: en
+    script: Latn
+    content: VoLTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

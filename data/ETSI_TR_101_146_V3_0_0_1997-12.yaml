@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101146V3.0.01997-12
+id: ETSITR101146V300199712
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); UMTS Terrestrial Radio
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); UMTS Terrestrial Radio
     Access (UTRA); Concept evaluation (UMTS 30.06 version 3.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6272
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101146/03.00.00_60/tr_101146v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 146 V3.0.0 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6272
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101146/03.00.00_60/tr_101146v030000p.pdf
+docidentifier:
+- content: ETSI TR 101 146 V3.0.0 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 146 V3.0.0 (1997-12)
 date:
 - type: published
-  value: 1997-12
+  at: 1997-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 1997-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SMG2 have according to the UTRA definition procedure elaborated proposal
+- language: en
+  script: Latn
+  content: "SMG2 have according to the UTRA definition procedure elaborated proposal
     for concept groups for the definition of the UMTS Terrestrial Radio Access UTRA.
     This work have resulted in the following five concept groups:\r\na - concept:
     Wideband CDMA\r\nAllocated to this groups are the following original proposals:\r\n-FRAMES
@@ -72,20 +81,24 @@ abstract:
     Access (MD PRMA) (NEC technologies (UK) Ltd., Kings College London).\r\nTemplates
     describing the key attributes of the proposals contained in the five concept groups
     follow.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: AIR INTERFACE
-- content: RADIO
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio
+    content: Technical Report

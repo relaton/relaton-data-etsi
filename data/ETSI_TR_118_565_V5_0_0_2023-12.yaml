@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR118565V5.0.02023-12
+id: ETSITR118565V500202312
+schema_version: v1.4.1
 title:
-- content: oneM2M-SensorThings API interworking (oneM2M TR-0065 version 5.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69544
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118565/05.00.00_60/tr_118565v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 118 565 V5.0.0 (2023-12)
+- language: en
+  script: Latn
+  content: oneM2M-SensorThings API interworking (oneM2M TR-0065 version 5.0.0)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69544
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118565/05.00.00_60/tr_118565v050000p.pdf
+docidentifier:
+- content: ETSI TR 118 565 V5.0.0 (2023-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 118 565 V5.0.0 (2023-12)
 date:
 - type: published
-  value: 2023-12
+  at: 2023-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 2023-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of the work item is to define an interworking of both standards
+- language: en
+  script: Latn
+  content: "The scope of the work item is to define an interworking of both standards
     oneM2M and OGC SensorThings API.\r\nThe interworking solution shall be designed
     and follow the principles applied too- and in alignment with, already existing
     interworking solution in oneM2M, \r\nThe objectives of the work item are structured
@@ -57,20 +66,24 @@ abstract:
     test cases for interworking between oneM2M and OGC SensorThings API\r\n\r\nProvide
     corresponding change requests if impacts on existing oneM2M Technical Specifications
     are identified.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: M2M
-- content: Sensor
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Sensor
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Report

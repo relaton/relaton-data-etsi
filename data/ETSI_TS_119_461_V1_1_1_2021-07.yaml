@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119461V1.1.12021-07
+id: ETSITS119461V111202107
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Policy and security requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Policy and security requirements
     for trust service components providing identity proofing of trust service subjects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57792
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119461/01.01.01_60/ts_119461v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 461 V1.1.1 (2021-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57792
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119461/01.01.01_60/ts_119461v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 461 V1.1.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 461 V1.1.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document specifies policy and security requirements for a trust service
+- language: en
+  script: Latn
+  content: "This document specifies policy and security requirements for a trust service
     component providing identity proofing of trust service subjects.  This can be
     used for conformity assessment of a trust service provider which includes this
     service component as part of its service or can be used for conformity assessment
@@ -54,19 +63,21 @@ abstract:
     providers.\r\n   \r\nThe document specifies best practices for security supporting
     different technological approaches, and possibly for different assurance levels.
     \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

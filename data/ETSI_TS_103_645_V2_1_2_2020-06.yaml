@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103645V2.1.22020-06
+id: ETSITS103645V212202006
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Cyber Security for Consumer Internet of Things: Baseline Requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58019
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103645/02.01.02_60/ts_103645v020102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 645 V2.1.2 (2020-06)
+- language: en
+  script: Latn
+  content: 'CYBER; Cyber Security for Consumer Internet of Things: Baseline Requirements'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58019
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103645/02.01.02_60/ts_103645v020102p.pdf
+docidentifier:
+- content: ETSI TS 103 645 V2.1.2 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 645 V2.1.2 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.2
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Implementation of feedback received on the TS. Development in parallel
+- language: en
+  script: Latn
+  content: Implementation of feedback received on the TS. Development in parallel
     to the EN to ensure aligned text
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

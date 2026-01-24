@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301492-2V1.2.12002-01
+id: ETSIEN3014922V121200201
+schema_version: v1.4.1
 title:
-- content: 'Private Integrated Services network (PISN); Inter-exchange signalling
+- language: en
+  script: Latn
+  content: 'Private Integrated Services network (PISN); Inter-exchange signalling
     protocol; Cordless terminal authentication supplementary services; Part 2: Abstract
     Test Suite (ATS) and partial Protocol Implementation eXtra Information for Testing
     (PIXIT) proforma specification for the VPN "b" service entry point'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13345
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30149202/01.02.01_60/en_30149202v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 492-2 V1.2.1 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13345
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30149202/01.02.01_60/en_30149202v010201p.pdf
+docidentifier:
+- content: ETSI EN 301 492-2 V1.2.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 492-2 V1.2.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial revision as decided at the 4th TC SPAN Plenary.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Editorial revision as decided at the 4th TC SPAN Plenary.
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: MOBILITY
-- content: PISN
-- content: PIXIT
-- content: SUPPLEMENTARY SERVICE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

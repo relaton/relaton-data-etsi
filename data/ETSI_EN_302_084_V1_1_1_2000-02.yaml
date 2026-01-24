@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302084V1.1.12000-02
+id: ETSIEN302084V111200002
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); The control of jitter and wander in
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); The control of jitter and wander in
     transport networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7591
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/302084/01.01.01_60/en_302084v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 084 V1.1.1 (2000-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7591
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/302084/01.01.01_60/en_302084v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 084 V1.1.1 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 084 V1.1.1 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS will define the parameters and the relevant values that are\r\nrequired
+- language: en
+  script: Latn
+  content: "This ETS will define the parameters and the relevant values that are\r\nrequired
     to satisfactorily control the amount of jitter and wander\r\npresent at digital
     data interfaces. This ETS is applicable to both\r\nSDH and PDH based transport
     networks.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: INTERFACE
-- content: NNI
-- content: PERFORMANCE
-- content: PROTOCOL
-- content: SYNCHRONIZATION
-- content: TRANSMISSION
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NNI
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Core networks, fibres and cables
+    content: European Standard

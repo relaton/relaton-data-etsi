@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101220V7.13.02010-04
+id: ETSITS101220V7130201004
+schema_version: v1.4.1
 title:
-- content: Smart Cards; ETSI numbering system for telecommunication application providers
+- language: en
+  script: Latn
+  content: Smart Cards; ETSI numbering system for telecommunication application providers
     (Release 7)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33503
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101220/07.13.00_60/ts_101220v071300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 220 V7.13.0 (2010-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33503
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101220/07.13.00_60/ts_101220v071300p.pdf
+docidentifier:
+- content: ETSI TS 101 220 V7.13.0 (2010-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 220 V7.13.0 (2010-04)
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.13.0
-revdate: 2010-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Implementation of\r\nCR 095 Cat F Creation of empty specification referencing
+- language: en
+  script: Latn
+  content: "Implementation of\r\nCR 095 Cat F Creation of empty specification referencing
     the next Release (TS 101 220 Rel-8)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: ID
-- content: SMART CARD
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

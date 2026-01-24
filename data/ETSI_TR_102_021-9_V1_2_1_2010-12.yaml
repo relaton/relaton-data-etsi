@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102021-9V1.2.12010-12
+id: ETSITR1020219V121201012
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
     Release 2.1; Part 9: Peripheral Equipment Interface'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31962
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202109/01.02.01_60/tr_10202109v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 021-9 V1.2.1 (2010-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31962
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202109/01.02.01_60/tr_10202109v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 021-9 V1.2.1 (2010-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 021-9 V1.2.1 (2010-12)
 date:
 - type: published
-  value: 2010-12
+  at: 2010-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2010-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Updating the PEI URS to include the micro USB connector.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Updating the PEI URS to include the micro USB connector.
+status:
+  stage: Published
 keyword:
-- content: MS
-- content: RADIO
-- content: TETRA
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

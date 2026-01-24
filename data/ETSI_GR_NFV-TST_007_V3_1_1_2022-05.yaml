@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-TST007V3.1.12022-05
+id: ETSIGRNFVTST007V311202205
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Testing; Guidelines on
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Testing; Guidelines on
     Interoperability Testing for MANO
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63006
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/007/03.01.01_60/gr_NFV-TST007v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-TST 007 V3.1.1 (2022-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63006
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/007/03.01.01_60/gr_NFV-TST007v030101p.pdf
+docidentifier:
+- content: ETSI GR NFV-TST 007 V3.1.1 (2022-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-TST 007 V3.1.1 (2022-05)
 date:
 - type: published
-  value: 2022-05
+  at: 2022-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2022-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This revision of NFV-TST 007 adds guidelines on testing requests to VIM
+- language: en
+  script: Latn
+  content: 'This revision of NFV-TST 007 adds guidelines on testing requests to VIM
     when specific virtualized resources are needed (typical examples are SR-IOV, DPDK,
     OVSDB, etc). It also adds guidelines on the description of test VNFs capabilities.   NFV-TST
     007 provides informative interoperability test guidelines for NFV capabilities
@@ -56,21 +65,27 @@ abstract:
     developed by the NFV TST WG (TST002) and is intended to be applicable for all
     implementations aligned with ETSI NFV architecture; references to open source
     implementations may be  included as examples.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Report

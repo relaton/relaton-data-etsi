@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103747V1.1.12021-11
+id: ETSITR103747V111202111
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT/ WG AFI); Federated GANA
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT/ WG AFI); Federated GANA
     Knowledge Planes (KPs) for Multi-Domain Autonomic Management & Control (AMC) of
     Slices in the NGMN(R) 5G End-to-End Architecture Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59267
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103747/01.01.01_60/tr_103747v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 747 V1.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59267
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103747/01.01.01_60/tr_103747v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 747 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 747 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution of Management towards Autonomic Future Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The Work Item will provide a mapping and evaluation of architectural components
+- language: en
+  script: Latn
+  content: 'The Work Item will provide a mapping and evaluation of architectural components
     for autonomic network management & control developed/implemented in the EU-funded
     Slicenet Project to the ETSI AFI Generic Autonomic Networking Architecture (GANA)
     model an architectural reference model for autonomic networking, cognitive networking
     and self-management. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Evolution of Management towards Autonomic Future Internet
+    content: Technical Report

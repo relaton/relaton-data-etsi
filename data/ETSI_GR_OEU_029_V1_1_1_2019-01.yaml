@@ -1,75 +1,96 @@
 ---
-schema-version: v1.2.9
-id: ETSIGROEU029V1.1.12019-01
+id: ETSIGROEU029V111201901
+schema_version: v1.4.1
 title:
-- content: Energy Efficient IP Video Surveillance Systems over Coaxial Cables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56848
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/029/01.01.01_60/gr_OEU029v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR OEU 029 V1.1.1 (2019-01)
+- language: en
+  script: Latn
+  content: Energy Efficient IP Video Surveillance Systems over Coaxial Cables
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56848
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/029/01.01.01_60/gr_OEU029v010101p.pdf
+docidentifier:
+- content: ETSI GR OEU 029 V1.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR OEU 029 V1.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operational energy Efficiency for Users
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document describes the motivations for the standardization
+- language: en
+  script: Latn
+  content: The present document describes the motivations for the standardization
     of technology which enables Energy Efficient IP Video Surveillance Systems over
     new and legacy Coaxial Infrastructures. The technology enables the transmission
     of both IP data and power over a single coaxial cable, and is based as much as
     possible on existing standards. The standardization of this technology is needed
     for the deployment of sustainable Video Surveillance Systems using interoperable
     products from different manufacturers.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HomePlug AV
-- content: IP
-- content: Power over Coaxial Cable
-- content: Smart Appliance
-- content: smart city
-- content: VIDEO
-- content: Video Security
-- content: Video Surveillance
+- taxon:
+  - language: en
+    script: Latn
+    content: HomePlug AV
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Power over Coaxial Cable
+  - language: en
+    script: Latn
+    content: Smart Appliance
+  - language: en
+    script: Latn
+    content: smart city
+  - language: en
+    script: Latn
+    content: VIDEO
+  - language: en
+    script: Latn
+    content: Video Security
+  - language: en
+    script: Latn
+    content: Video Surveillance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Operational energy Efficiency for Users
+    content: Group Report

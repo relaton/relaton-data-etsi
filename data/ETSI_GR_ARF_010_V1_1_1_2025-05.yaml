@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRARF010V1.1.12025-05
+id: ETSIGRARF010V111202505
+schema_version: v1.4.1
 title:
-- content: Augmented Reality Framework (ARF); Virtual World Standards Landscape Report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73721
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/010/01.01.01_60/gr_ARF010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ARF 010 V1.1.1 (2025-05)
+- language: en
+  script: Latn
+  content: Augmented Reality Framework (ARF); Virtual World Standards Landscape Report
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73721
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/010/01.01.01_60/gr_ARF010v010101p.pdf
+docidentifier:
+- content: ETSI GR ARF 010 V1.1.1 (2025-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR ARF 010 V1.1.1 (2025-05)
 date:
 - type: published
-  value: 2025-05
+  at: 2025-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Document standards in seven areas which can or will address the unique
+- language: en
+  script: Latn
+  content: 'Document standards in seven areas which can or will address the unique
     challenges of virtual worlds:  Virtual economy and society, Virtual experiences,
     Human interfaces and AR/VR devices, Reality capture, Artificial Intelligence,
     Data management , Infrastructure. Information will be compiled about standardization
@@ -58,19 +67,21 @@ abstract:
     widely adopted, the maturity of the standard, its adoption, and other criteria
     to be developed by the experts. Perform interviews with leaders of standards development
     organizations and subcommittees.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Augmented Reality
-- content: metaverse
-- content: standards landscape
+- taxon:
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: metaverse
+  - language: en
+    script: Latn
+    content: standards landscape
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Report

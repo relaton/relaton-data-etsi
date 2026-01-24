@@ -1,66 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM04.63V5.0.01996-05
+id: ETSIGTSGSM0463V500199605
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Packet Data
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Packet Data
     on Signalling channels service (PDS); Stage 3 (GSM 04.63)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4570
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/04/0463/05.00.00_60/gsmts_0463v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 04.63 V5.0.0 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4570
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/04/0463/05.00.00_60/gsmts_0463v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 04.63 V5.0.0 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 04.63 V5.0.0 (1996-05)
 date:
 - type: published
-  value: 1996-05
+  at: 1996-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification\r\n(GTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification\r\n(GTS)
     specifies the protocols for connection management of packet data\r\non signalling
     channels which is applied on the air interface, the\r\nPDSS1 protocol and the
     PDSS2 protocol.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

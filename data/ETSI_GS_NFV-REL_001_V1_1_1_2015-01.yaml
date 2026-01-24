@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-REL001V1.1.12015-01
+id: ETSIGSNFVREL001V111201501
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Resiliency Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41964
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-REL/001_099/001/01.01.01_60/gs_NFV-REL001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-REL 001 V1.1.1 (2015-01)
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Resiliency Requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41964
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-REL/001_099/001/01.01.01_60/gs_NFV-REL001v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-REL 001 V1.1.1 (2015-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-REL 001 V1.1.1 (2015-01)
 date:
 - type: published
-  value: 2015-01
+  at: 2015-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reliability & Availability
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work will be focused on the unique aspects related to providing robustness
+- language: en
+  script: Latn
+  content: This work will be focused on the unique aspects related to providing robustness
     and resiliency in a virtualized network architecture. Items like application portability,
     fault monitoring, isolation and recovery, and other mechanisms necessary to maintain
     service sustainability will be considered as part of this effort. This work will
     also identify the requirements for resiliency of the network comprised of virtualized
     network functions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AVAILABILITY
-- content: NETWORK
-- content: Network monitoring
-- content: RELIABILITY
-- content: resilience
+- taxon:
+  - language: en
+    script: Latn
+    content: AVAILABILITY
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: Network monitoring
+  - language: en
+    script: Latn
+    content: RELIABILITY
+  - language: en
+    script: Latn
+    content: resilience
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Reliability & Availability
+    content: Group Specification

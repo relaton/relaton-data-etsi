@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR225ed.11995-10
+id: ETSIETR225ed1199510
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Application Programmable Interface (API) and script
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Application Programmable Interface (API) and script
     representation for MHEG; Requirements and framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3419
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/225/01_60/etr_225e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 225 ed.1 (1995-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3419
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/225/01_60/etr_225e01p.pdf
+docidentifier:
+- content: ETSI ETR 225 ed.1 (1995-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 225 ed.1 (1995-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "a) Make use of the DTR/TE-10002 functional model for describing the\r\nfunctional
+- language: en
+  script: Latn
+  content: "a) Make use of the DTR/TE-10002 functional model for describing the\r\nfunctional
     architecture of multimedia applications;\r\nb) Detail which new services and applications
     may take benefit from\r\nthe MHEG API and the script representation;\r\nc) Indicate
     why those services and applications require the\r\ndevelopment of a MHEG API and
@@ -50,17 +60,15 @@ abstract:
     Identify the associated technical requirements;\r\ng) Evaluate technical options
     for the definition of the MHEG API and\r\nthe script representation, making recommendations
     accordingly and\r\nlisting open issues.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+    content: ETSI Technical Report

@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101580-3V1.1.12012-04
+id: ETSITS1015803V111201204
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Diameter Conformance testing for Rx interface;
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Diameter Conformance testing for Rx interface;
     Part 3: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information
     for Testing (PIXIT) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37157
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10158003/01.01.01_60/ts_10158003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 580-3 V1.1.1 (2012-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37157
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10158003/01.01.01_60/ts_10158003v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 580-3 V1.1.1 (2012-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 580-3 V1.1.1 (2012-04)
 date:
 - type: published
-  value: 2012-04
+  at: 2012-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Diameter Conformance testing for Rx interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Diameter Conformance testing for Rx interface
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: Diameter
-- content: PIXIT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: PIXIT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

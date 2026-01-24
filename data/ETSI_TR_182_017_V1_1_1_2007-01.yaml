@@ -1,67 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR182017V1.1.12007-01
+id: ETSITR182017V111200701
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Direct Communication Service; Architecture and functional
     description [Endorsement of OMA-AD-PoC-V1]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24732
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182017/01.01.01_60/tr_182017v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 182 017 V1.1.1 (2007-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24732
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182017/01.01.01_60/tr_182017v010101p.pdf
+docidentifier:
+- content: ETSI TR 182 017 V1.1.1 (2007-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 182 017 V1.1.1 (2007-01)
 date:
 - type: published
-  value: 2007-01
+  at: 2007-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXSSBzaGFsbCBlbmRvcnNlIHRoZSBleGlzdGluZyBPTUEgUG9DIEFyY2hpdGVjdHVyZSBhbmQgM0dQUCBTdGFnZSAyIHNwZWNpZmljYXRpb25zIGZvciBQb0MuIFRoZSBkb2N1bWVudHMgYXJlOg0KT01BIFBvQyBBcmNoaXRlY3R1cmUgRG9jdW1lbnQgVmVyc2lvbiAxLjAuIE9wZW4gTW9iaWxlIEFsbGlhbmNlw5QuICBPTUEtQUQtUG9DLVYxXzAtMjAwNjAxMjctQywgMjcgSmFudWFyeSAyMDA2Lg0KQ2hlY2sgaWYgM0dQUCBUUiAyMy45NzkgdjYuMi4wIFVuaXZlcnNhbCBNb2JpbGUgVGVsZWNvbW11bmljYXRpb25zIFN5c3RlbSAoVU1UUyk7IDNHUFAgZW5hYmxlcnMgZm9yIE9wZW4gTW9iaWxlIEFsbGlhbmNlIChPTUEpIFB1c2gtdG8tdGFsayBvdmVyIENlbGx1bGFyIChQb0MpIHNlcnZpY2VzOyBTdGFnZSAyIGluY2x1ZGVzIGFueSBtYXRlcmlhbCB1c2VmdWwgZm9yIHRoZSBlbmRvcnNlbWVudCBvciB1c2VmdWwgZm9yIHN0YWdlIDIgcmVhZGVycy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This WI shall endorse the existing OMA PoC Architecture and 3GPP Stage
+    2 specifications for PoC. The documents are:\r\nOMA PoC Architecture Document
+    Version 1.0. Open Mobile Alliance.  OMA-AD-PoC-V1_0-20060127-C, 27 January 2006.\r\nCheck
+    if 3GPP TR 23.979 v6.2.0 Universal Mobile Telecommunications System (UMTS); 3GPP
+    enablers for Open Mobile Alliance (OMA) Push-to-talk over Cellular (PoC) services;
+    Stage 2 includes any material useful for the endorsement or useful for stage 2
+    readers."
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ENDORSEMENT
-- content: INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Report

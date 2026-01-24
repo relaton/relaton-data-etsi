@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102822-2V1.4.12007-11
+id: ETSITS1028222V141200711
+schema_version: v1.4.1
 title:
-- content: 'Broadcast and On-line Services: Search, select, and rightful use of content
+- language: en
+  script: Latn
+  content: 'Broadcast and On-line Services: Search, select, and rightful use of content
     on personal storage systems ("TV-Anytime"); Part 2: Phase 1 - System description'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25939
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/10282202/01.04.01_60/ts_10282202v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 822-2 V1.4.1 (2007-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25939
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/10282202/01.04.01_60/ts_10282202v010401p.pdf
+docidentifier:
+- content: ETSI TS 102 822-2 V1.4.1 (2007-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 822-2 V1.4.1 (2007-11)
 date:
 - type: published
-  value: 2007-11
+  at: 2007-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2007-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Correct RMP schema instance examples\r\nCorrect DVB URIs expressions in
+- language: en
+  script: Latn
+  content: "Correct RMP schema instance examples\r\nCorrect DVB URIs expressions in
     examples\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: Content
-- content: SYSTEM
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: Content
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

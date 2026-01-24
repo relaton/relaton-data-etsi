@@ -1,71 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102721-4V1.2.12013-08
+id: ETSITS1027214V121201308
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Air Interface for S-band Mobile
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Air Interface for S-band Mobile
     Interactive Multimedia (S-MIM); Part 4: Physical Layer Specification, Return Link
     Synchronous Access'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39385
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272104/01.02.01_60/ts_10272104v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 721-4 V1.2.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39385
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272104/01.02.01_60/ts_10272104v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 721-4 V1.2.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 721-4 V1.2.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update of the definition of return channels and corresponding protocols
+- language: en
+  script: Latn
+  content: Update of the definition of return channels and corresponding protocols
     enabling interactive services in mobile interactive broadcast systems. The work
     concerns satellite broadcast systems operating in the 2 GHz MSS S-band, typically
     applying DVB-SH. All channels use the 2 GHz MSS band. This part defines the physical
     layer specification for the return link synchronous access and will be updated
     mainly based on the experimental results obtained in the EC co-funded project
     SafeTRIP.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MSS
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Specification

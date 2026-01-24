@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102021-6V1.2.12011-08
+id: ETSITR1020216V121201108
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
     Release 2.1; Part 6: Smart Card (SC) and Subscriber Identity Module (SIM)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30893
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202106/01.02.01_60/tr_10202106v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 021-6 V1.2.1 (2011-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30893
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202106/01.02.01_60/tr_10202106v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 021-6 V1.2.1 (2011-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 021-6 V1.2.1 (2011-08)
 date:
 - type: published
-  value: 2011-08
+  at: 2011-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2011-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Updating TR 102 021-6 to as part of the future evolution of TETRA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Updating TR 102 021-6 to as part of the future evolution of TETRA
+status:
+  stage: Published
 keyword:
-- content: SC
-- content: SIM
-- content: SMART CARD
-- content: TETRA
-- content: UR
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: SC
+  - language: en
+    script: Latn
+    content: SIM
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: UR
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

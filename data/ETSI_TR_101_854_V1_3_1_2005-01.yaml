@@ -1,68 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101854V1.3.12005-01
+id: ETSITR101854V131200501
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; Derivation of receiver interference
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; Derivation of receiver interference
     parameters useful for planning fixed service point-to-point systems operating
     different equipment classes and/or capacities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19854
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101854/01.03.01_60/tr_101854v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 854 V1.3.1 (2005-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19854
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101854/01.03.01_60/tr_101854v010301p.pdf
+docidentifier:
+- content: ETSI TR 101 854 V1.3.1 (2005-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 854 V1.3.1 (2005-01)
 date:
 - type: published
-  value: 2005-01
+  at: 2005-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Point-to-Point Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2005-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gcmV2aXNlIHRoZSBjdXJyZW50IGNsYXVzZSDigJw0LjIuMyAgIHJlY2VpdmVyIHNlbGVjdGl2aXR5IGV2YWx1YXRpb27igJ0gd2l0aCBhIG1vcmUgYXBwcm9wcmlhdGUgbWV0aG9kIHRvIGRlcml2ZSB0cmFuc21pdHRlciBtYXNrIGFuZCByZWNlaXZlciBzZWxlY3Rpdml0eSB0byB1c2UgdGhlbSBmb3IgTkZELWNhbGN1bGF0aW9ucyBiZXR3ZWVuIGRpZmZlcmVudCBiYW5kd2lkdGggYW5kIGNhcGFjaXRpZXMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To revise the current clause 4.2.3   receiver selectivity evaluation with
+    a more appropriate method to derive transmitter mask and receiver selectivity
+    to use them for NFD-calculations between different bandwidth and capacities.
+status:
+  stage: Published
 keyword:
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TM Point-to-Point Systems
+    content: Technical Report

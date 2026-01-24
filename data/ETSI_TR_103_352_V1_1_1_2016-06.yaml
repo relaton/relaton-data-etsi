@@ -1,68 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103352V1.1.12016-06
+id: ETSITR103352V111201606
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Energy efficiency of satellite
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Energy efficiency of satellite
     broadband network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41308
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103352/01.01.01_60/tr_103352v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 352 V1.1.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41308
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103352/01.01.01_60/tr_103352v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 352 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 352 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RW52aXJvbm1lbnRhbCBhc3Nlc3NtZW50IG9mIHNhdGVsbGl0ZSBicm9hZGJhbmQgbmV0d29ya3MgY292ZXJpbmcgZW5lcmd5IGNvbnN1bXB0aW9uIGFuZCBHSEcgZW1pc3Npb25zIGR1cmluZyB0aGUgVXNlIHBoYXNlLiBBbmFseXNlIGVuZXJneSBlZmZpY2llbmN5IHJlbGF0ZWQgbWV0cmljcyBkZXZlbG9wZWQgZm9yIHRlcnJlc3RyaWFsIGZpeGVkIGFuZCBtb2JpbGUgYnJvYWRiYW5kIG5ldHdvcmsgYW5kIGlkZW50aWZ5IG5lY2Vzc2FyeSBhZGFwdGF0aW9ucyB0byBhcHBseSB0aGVzZSB0byBzYXRlbGxpdGUgYnJvYWRiYW5kIG5ldHdvcmtzLiBSZWZlcmVuY2VzOiBUUyAxMDMgMTk5IOKAnEVudmlyb25tZW50YWwgRW5naW5lZXJpbmcgKEVFKTsgTGlmZSBDeWNsZSBBc3Nlc3NtZW50IChMQ0EpIG9mIElDVCBlcXVpcG1lbnQsIG5ldHdvcmtzIGFuZCBzZXJ2aWNlc+KAnSBUUiAxMDMgMTE3IOKAnEVudmlyb25tZW50YWwgRW5naW5lZXJpbmcgKEVFKTsgUHJpbmNpcGxlcyBmb3IgTW9iaWxlIE5ldHdvcmsgbGV2ZWwgZW5lcmd5IGVmZmljaWVuY3nigJ0uDQotIFRTIDEwMiA3MDYg4oCcRW52aXJvbm1lbnRhbCBFbmdpbmVlcmluZyAoRUUpOyBNZWFzdXJlbWVudCBNZXRob2QgZm9yIEVuZXJneSBFZmZpY2llbmN5IG9mIFdpcmVsZXNzIEFjY2VzcyBOZXR3b3JrIEVxdWlwbWVudOKAnQ0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Environmental assessment of satellite broadband networks covering energy
+    consumption and GHG emissions during the Use phase. Analyse energy efficiency
+    related metrics developed for terrestrial fixed and mobile broadband network and
+    identify necessary adaptations to apply these to satellite broadband networks.
+    References: TS 103 199 Environmental Engineering (EE); Life Cycle Assessment (LCA)
+    of ICT equipment, networks and services TR 103 117 Environmental Engineering (EE);
+    Principles for Mobile Network level energy efficiency.\r\n- TS 102 706 Environmental
+    Engineering (EE); Measurement Method for Energy Efficiency of Wireless Access
+    Network Equipment\r\n"
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: Energy Efficiency
-- content: ENVIRONMENT
-- content: LCA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: LCA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

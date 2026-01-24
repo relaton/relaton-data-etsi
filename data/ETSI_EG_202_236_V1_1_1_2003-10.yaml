@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202236V1.1.12003-10
+id: ETSIEG202236V111200310
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Design guide; Use of non-numeric names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17732
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202200_202299/202236/01.01.01_60/eg_202236v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 236 V1.1.1 (2003-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17732
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202200_202299/202236/01.01.01_60/eg_202236v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 236 V1.1.1 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 236 V1.1.1 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Naming and address translation issues
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Evaluate the issues involved in non-numeric names for identifying calling
+- language: en
+  script: Latn
+  content: Evaluate the issues involved in non-numeric names for identifying calling
     and called parties.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: NAME
-- content: NETWORK
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: NAME
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: TIPHON Naming and address translation issues
+    content: ETSI Guide

@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM02.34V5.2.11997-07
+id: ETSIGTSGSM0234V521199707
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); High Speed
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); High Speed
     Circuit Switched Data (HSCSD); Stage 1 (GSM 02.34 version 5.2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5715
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/02/0234/05.02.01_60/gsmts_0234v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 02.34 V5.2.1 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5715
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/02/0234/05.02.01_60/gsmts_0234v050201p.pdf
+docidentifier:
+- content: ETSI GTS GSM 02.34 V5.2.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 02.34 V5.2.1 (1997-07)
 date:
 - type: published
-  value: 1997-07
+  at: 1997-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 1997-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
     specifies the Stage 1 description of High Speed Circuit Switched\r\nData (HSCSD).
     HSCSD is a feature that allows users subscribing to the\r\nGeneral Bearer Services
     to access user rates that can be achieved with\r\none or more TCH/F. HSCSD also
     defines a flexible use of air interface\r\nresources which makes efficient and
     flexible use of higher user rates\r\nfeasible.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Services & Facilities
+    content: GSM Technical Specification

@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI041V4.1.12025-12
+id: ETSIGRENI041V411202512
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Knowledge-Enhanced Network LLMs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69131
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/041/04.01.01_60/gr_ENI041v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 041 V4.1.1 (2025-12)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Knowledge-Enhanced Network LLMs
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69131
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/041/04.01.01_60/gr_ENI041v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 041 V4.1.1 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 041 V4.1.1 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document describes the development of knowledge-enhanced network
+- language: en
+  script: Latn
+  content: "This document describes the development of knowledge-enhanced network
     Large Language Models.\r\nThe present document will explain the motivation for
     developing a knowledge-enhanced network Large Language Models, followed by recommendations
     for how a network Large Language Model is trained and then used for network operation,
     administration, maintenance, and performance (OAMP) operations.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Knowledge-Enhanced
-- content: Network Large Language Model
+- taxon:
+  - language: en
+    script: Latn
+    content: Knowledge-Enhanced
+  - language: en
+    script: Latn
+    content: Network Large Language Model
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

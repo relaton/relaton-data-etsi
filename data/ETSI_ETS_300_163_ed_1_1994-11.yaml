@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300163ed.11994-11
+id: ETSIETS300163ed1199411
+schema_version: v1.4.1
 title:
-- content: 'Television systems; NICAM 728: Specification for transmission of two-channel
+- language: en
+  script: Latn
+  content: 'Television systems; NICAM 728: Specification for transmission of two-channel
     digital sound with terrestrial television systems B, G, H, I and L'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=523
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300163/01_60/ets_300163e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 163 ed.1 (1994-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=523
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300163/01_60/ets_300163e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 163 ed.1 (1994-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 163 ed.1 (1994-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provides analogue terrestrial television systems with two high-quality\r\ndigital
+- language: en
+  script: Latn
+  content: "Provides analogue terrestrial television systems with two high-quality\r\ndigital
     sound channels & a small amount of additional data capacity.\r\nEither two independent
     mono or a single stereo signal may be trans-\r\nmitted. Alternatively, one or
     both sound channels may be used for\r\ntransparent transmission of data.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: NICAM
-- content: RADIO
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: NICAM
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Telecommunication Standard

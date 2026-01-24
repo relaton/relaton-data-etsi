@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100625V7.0.01999-08
+id: ETSITS100625V700199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Unstructured
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Unstructured
     Supplementary Service Data (USSD) - Stage 1 (GSM 02.90 version 7.0.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8326
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100625/07.00.00_60/ts_100625v070000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 625 V7.0.0 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8326
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100625/07.00.00_60/ts_100625v070000p.pdf
+docidentifier:
+- content: ETSI TS 100 625 V7.0.0 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 625 V7.0.0 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.0
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Upgrade to Release 1998
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Upgrade to Release 1998
+status:
+  stage: Published
 keyword:
-- content: GENERIC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services & Facilities
+    content: Technical Specification

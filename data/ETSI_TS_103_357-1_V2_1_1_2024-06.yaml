@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103357-1V2.1.12024-06
+id: ETSITS1033571V211202406
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices; Low Throughput Networks (LTN); Protocols for radio
+- language: en
+  script: Latn
+  content: 'Short Range Devices; Low Throughput Networks (LTN); Protocols for radio
     interface A; Part 1: Lfour and DD-UNB protocol families'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69514
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/10335701/02.01.01_60/ts_10335701v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 357-1 V2.1.1 (2024-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69514
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/10335701/02.01.01_60/ts_10335701v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 357-1 V2.1.1 (2024-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 357-1 V2.1.1 (2024-06)
 date:
 - type: published
-  value: 2024-06
+  at: 2024-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2024-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Creation of a Part 1, out of TS103357 v1.1.1, that includes Lfour and DD-UNB
+- language: en
+  script: Latn
+  content: Creation of a Part 1, out of TS103357 v1.1.1, that includes Lfour and DD-UNB
     protocol families. TS-UNB protocol is intended to be described in a new TS 103357-2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: LTN
-- content: OSSS
-- content: PROTOCOL
-- content: RADIO
-- content: SRD
-- content: UNB
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LTN
+  - language: en
+    script: Latn
+    content: OSSS
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UNB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: Technical Specification

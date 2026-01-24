@@ -1,58 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR015ed.11991-03
+id: ETSIETR015ed1199103
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Reference document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=272
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/015/01_60/etr_015e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 015 ed.1 (1991-03)
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Reference document
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=272
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/015/01_60/etr_015e01p.pdf
+docidentifier:
+- content: ETSI ETR 015 ed.1 (1991-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 015 ed.1 (1991-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Updating of the general description of the DECT system and its\r\nprinciples\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Updating of the general description of the DECT system and its\r\nprinciples\r\n "
+status:
+  stage: Historical
 keyword:
-- content: DECT
-- content: RADIO
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: DECT
+    content: ETSI Technical Report

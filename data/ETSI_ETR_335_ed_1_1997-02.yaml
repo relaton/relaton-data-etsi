@@ -1,64 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR335ed.11997-02
+id: ETSIETR335ed1199702
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); European Backbone
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); European Backbone
     Telecommunications Network (EBTN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4903
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/335/01_60/etr_335e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 335 ed.1 (1997-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4903
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/335/01_60/etr_335e01p.pdf
+docidentifier:
+- content: ETSI ETR 335 ed.1 (1997-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 335 ed.1 (1997-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR provides a definition and a first description of the EBTN\r\nin
+- language: en
+  script: Latn
+  content: "This ETR provides a definition and a first description of the EBTN\r\nin
     order to be able to develop the standards required for connectivity\r\nand interoperability
     of existing and future telecommunication core net\r\nworks. It includes a collection
     of existing relevant standards and\r\nrequirements on which additional standards
     can be built.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: BEARER
-- content: B-ISDN
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Broadband Networks
+    content: ETSI Technical Report

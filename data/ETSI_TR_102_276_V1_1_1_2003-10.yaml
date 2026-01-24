@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102276V1.1.12003-10
+id: ETSITR102276V111200310
+schema_version: v1.4.1
 title:
-- content: User Group; Users' Quality of Service Criteria for Internet Access in Europe
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15610
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102276/01.01.01_60/tr_102276v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 276 V1.1.1 (2003-10)
+- language: en
+  script: Latn
+  content: User Group; Users' Quality of Service Criteria for Internet Access in Europe
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15610
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102276/01.01.01_60/tr_102276v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 276 V1.1.1 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 276 V1.1.1 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Determination of QoS that are of concern to users with the follwoing points
+- language: en
+  script: Latn
+  content: "Determination of QoS that are of concern to users with the follwoing points
     in mind:\r\na) the uniquely identifiable groups of customers who have specific
     requirements\r\nb) the order of priority of the performance criteria for each
     of the main groups\r\nc) the preferred performance values for parameters which
@@ -54,20 +63,24 @@ abstract:
     be obtained by interviewing users, regulators and manufacturers in 7 countries
     in Europe thus ensuring with a certain amount of confidence that these represent
     a European view with customer validation."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: INTERNET
-- content: QoS
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: User Group
+    content: Technical Report

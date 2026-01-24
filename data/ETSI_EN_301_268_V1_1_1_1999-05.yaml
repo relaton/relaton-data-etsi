@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301268V1.1.11999-05
+id: ETSIEN301268V111199905
+schema_version: v1.4.1
 title:
-- content: Telecommunications Management Network (TMN); Linear multiplex section protection
+- language: en
+  script: Latn
+  content: Telecommunications Management Network (TMN); Linear multiplex section protection
     configuration information model for the Network Element (NE) view;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6105
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301268/01.01.01_60/en_301268v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 268 V1.1.1 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6105
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301268/01.01.01_60/en_301268v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 268 V1.1.1 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 268 V1.1.1 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunications Management Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the information model for configuration of SDH multiplex
+- language: en
+  script: Latn
+  content: "Definition of the information model for configuration of SDH multiplex
     section protection groups\r\n\r\nReference documents: ETS 300 304, ETS 300 413,
     ITU-T Rec. G. 774-03, ITU-T Rec. G. 774-09"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: NE
-- content: Q3 INTERFACE
-- content: SDH
-- content: TMN
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: NE
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Telecommunications Management Network
+    content: European Standard

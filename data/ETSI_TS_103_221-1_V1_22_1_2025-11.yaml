@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103221-1V1.22.12025-11
+id: ETSITS1032211V1221202511
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76256
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10322101/01.22.01_60/ts_10322101v012201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 221-1 V1.22.1 (2025-11)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76256
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10322101/01.22.01_60/ts_10322101v012201p.pdf
+docidentifier:
+- content: ETSI TS 103 221-1 V1.22.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 221-1 V1.22.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.22.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The internal network interface covers wide area connections between LI
+- language: en
+  script: Latn
+  content: "The internal network interface covers wide area connections between LI
     systems and (depending on the network) lots of network elements from different
     vendors. Nearly every network element has its own interface with different transport
     protocols, authentication (if any), encryption (if any), commands etc. This makes
@@ -77,18 +86,18 @@ abstract:
     and data model\r\n\r\nThis revision is to provide the following: Update to add
     TCPPortList and UDPPortList to Target Identifiers; Corrections on Destinations
     and Destination Sets; Addition of VRF to TargetIdentifiers."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: Lawful Interception
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: Lawful Interception
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

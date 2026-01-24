@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300093-2ed.11995-09
+id: ETSIETS3000932ed1199509
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Calling Line Identification
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Calling Line Identification
     Restriction (CLIR) supplementary service; Digital Subscriber Signalling System
     No. one (DSS1) protocol; Part 2: Protocol Implementation Conformance Statement
     (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1164
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30009302/01_60/ets_30009302e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 093-2 ed.1 (1995-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1164
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30009302/01_60/ets_30009302e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 093-2 ed.1 (1995-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 093-2 ed.1 (1995-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ISDN user-network interface layer 3 protocol implementation\r\nconformance
+- language: en
+  script: Latn
+  content: "ISDN user-network interface layer 3 protocol implementation\r\nconformance
     statement (PICS) proforma. This work provides a basis for\r\nfurther work on PIXIT
     & ATS for supplementary services. To be spec d\r\naccording to ISO 9646. Covers
     both user & network.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIR
-- content: DSS1
-- content: ISDN
-- content: PICS
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIR
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

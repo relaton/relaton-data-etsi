@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSECI001-5-1V1.1.12017-07
+id: ETSIGSECI00151V111201707
+schema_version: v1.4.1
 title:
-- content: 'Embedded Common Interface (ECI) for exchangeable CA/DRM solutions; Part
+- language: en
+  script: Latn
+  content: 'Embedded Common Interface (ECI) for exchangeable CA/DRM solutions; Part
     5: The Advanced Security System; Sub-part 1: ECI specific functionalities'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49508
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/0010501/01.01.01_60/gs_ECI0010501v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ECI 001-5-1 V1.1.1 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49508
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/0010501/01.01.01_60/gs_ECI0010501v010101p.pdf
+docidentifier:
+- content: ETSI GS ECI 001-5-1 V1.1.1 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI GS ECI 001-5-1 V1.1.1 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Embedded Common Interface for exchangeable CA/DRM solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Subject of this Work Item is Part 5, Sub-Part 1 of a multi-part deliverable
+- language: en
+  script: Latn
+  content: Subject of this Work Item is Part 5, Sub-Part 1 of a multi-part deliverable
     covering ECI-specific functionalities of an Advanced Security System, related
     to the Embedded Common Interface for exchangeable CA/DRM solutions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: authentication
-- content: CA
-- content: DRM
-- content: encryption
-- content: SWAPPING
+- taxon:
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: CA
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: encryption
+  - language: en
+    script: Latn
+    content: SWAPPING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Embedded Common Interface for exchangeable CA/DRM solutions
+    content: Group Specification

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102937V1.1.12011-03
+id: ETSITR102937V111201103
+schema_version: v1.4.1
 title:
-- content: eCall communications equipment; Conformance to EU vehicle regulations,
+- language: en
+  script: Latn
+  content: eCall communications equipment; Conformance to EU vehicle regulations,
     R&TTE, EMC & LV Directives, and EU regulations for eCall implementation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31919
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102937/01.01.01_60/tr_102937v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 937 V1.1.1 (2011-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31919
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102937/01.01.01_60/tr_102937v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 937 V1.1.1 (2011-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 937 V1.1.1 (2011-03)
 date:
 - type: published
-  value: 2011-03
+  at: 2011-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The deliverable is a guide to eCall Stakeholders on achieving compliance
+- language: en
+  script: Latn
+  content: The deliverable is a guide to eCall Stakeholders on achieving compliance
     of NAD products with the R&TTE Directive.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: cellular
-- content: EMERGENCY
-- content: GSM
-- content: MOBILE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: cellular
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: Technical Report

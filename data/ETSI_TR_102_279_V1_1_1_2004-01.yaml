@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102279V1.1.12004-01
+id: ETSITR102279V111200401
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Two surveys on assistive technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18334
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102279/01.01.01_60/tr_102279v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 279 V1.1.1 (2004-01)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Two surveys on assistive technology
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18334
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102279/01.01.01_60/tr_102279v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 279 V1.1.1 (2004-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 279 V1.1.1 (2004-01)
 date:
 - type: published
-  value: 2004-01
+  at: 2004-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document will record the details of two surveys made in connection
+- language: en
+  script: Latn
+  content: The document will record the details of two surveys made in connection
     with work on requirements of TR 102 068.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: INTERFACE
-- content: SPEECH
-- content: TRANSMISSION
-- content: USER
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: USER
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

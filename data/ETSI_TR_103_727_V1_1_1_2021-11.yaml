@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103727V1.1.12021-11
+id: ETSITR103727V111202111
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Library and mapping for Lawful Interception (LI)
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Library and mapping for Lawful Interception (LI)
     and Lawful Disclosure (LD)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59233
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103727/01.01.01_60/tr_103727v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 727 V1.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59233
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103727/01.01.01_60/tr_103727v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 727 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 727 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document describes  national parameters and implementations
+- language: en
+  script: Latn
+  content: "The present document describes  national parameters and implementations
     in the context of the Inter LEA Handover Interface (ETSI TS 103 462) and cross-border
     data exchange in criminal matters, e.g. through bilaterally agreed legal assistance
     (MLAT) or using the secure European Judicial Network. One aspect is the mapping
@@ -64,18 +73,18 @@ abstract:
     do not modify, override, or otherwise introduce incompatible changes to ETSI or
     national standards, nor do they prescribe requirements on communication service
     providers."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Lawful Disclosure
-- content: Lawful Interception
+- taxon:
+  - language: en
+    script: Latn
+    content: Lawful Disclosure
+  - language: en
+    script: Latn
+    content: Lawful Interception
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

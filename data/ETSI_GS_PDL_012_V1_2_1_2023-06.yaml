@@ -1,64 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSPDL012V1.2.12023-06
+id: ETSIGSPDL012V121202306
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Reference Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67520
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/012/01.02.01_60/gs_PDL012v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS PDL 012 V1.2.1 (2023-06)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Reference Architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67520
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/012/01.02.01_60/gs_PDL012v010201p.pdf
+docidentifier:
+- content: ETSI GS PDL 012 V1.2.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS PDL 012 V1.2.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UmV2aXNpb24gb2YgUERMLTAwMTIgKFJlZmVyZW5jZSBBcmNoaXRlY3R1cmUpIHRvIGFsbGluZyB3aXRoIGNoYW5nZXMgdGhhdCB3ZXJlIGltcGxlbWVudGVkIHRvIHRoZSBHU01BIHZlcnNpb24gb2YgdGhlIFBETCBSQS5JdCAgaW5jbHVkZXMgc29tZSB0ZXh0dWFsIGNoYW5nZXMgdG8gc29tZSBvZiB0aGUgc2VydmljZXMgYW5kIGEgc3dhcCBpbiB0aGUgb3JkZXIgYW5kIG1lYW5pbmcgb2Yg4oCcQ2hhcmxpZeKAnSBhbmQg4oCcRGVsdGHigJ0gcGxhdGZvcm0gY2F0ZWdvcmllcy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of PDL-0012 (Reference Architecture) to alling with changes that
+    were implemented to the GSMA version of the PDL RA.It  includes some textual changes
+    to some of the services and a swap in the order and meaning of Charlie and Delta
+    platform categories.
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: Distributed Ledger
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: Distributed Ledger
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Specification

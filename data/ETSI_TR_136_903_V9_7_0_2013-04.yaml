@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR136903V9.7.02013-04
+id: ETSITR136903V970201304
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA) and Evolved Universal
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA) and Evolved Universal
     Terrestrial Radio Access Network (E-UTRAN); Derivation of test tolerances for
     Radio Resource Management (RRM) conformance tests (3GPP TR 36.903 version 9.7.0
     Release 9)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42334
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/136900_136999/136903/09.07.00_60/tr_136903v090700p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 136 903 V9.7.0 (2013-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42334
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/136900_136999/136903/09.07.00_60/tr_136903v090700p.pdf
+docidentifier:
+- content: ETSI TR 136 903 V9.7.0 (2013-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 136 903 V9.7.0 (2013-04)
 date:
 - type: published
-  value: 2013-04
+  at: 2013-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.7.0
-revdate: 2013-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-59
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-59
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Report

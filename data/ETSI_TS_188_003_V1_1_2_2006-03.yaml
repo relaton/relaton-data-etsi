@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS188003V1.1.22006-03
+id: ETSITS188003V112200603
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Converged Services and Protocols for Advanced
     Networking (TISPAN); OSS requirements; OSS definition of requirements and priorities
     for further network management specifications for NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24397
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/188000_188099/188003/01.01.02_60/ts_188003v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 188 003 V1.1.2 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24397
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/188000_188099/188003/01.01.02_60/ts_188003v010102p.pdf
+docidentifier:
+- content: ETSI TS 188 003 V1.1.2 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 188 003 V1.1.2 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Network Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of requirements: Identify the places where additional standardised
+- language: en
+  script: Latn
+  content: "Definition of requirements: Identify the places where additional standardised
     OSS interfaces are needed in a multiservice environment in a mixed technology
     network.\r\nRecommend and prioritise required work."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: NETWORK
-- content: REMOTE
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: REMOTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Network Management
+    content: Technical Specification

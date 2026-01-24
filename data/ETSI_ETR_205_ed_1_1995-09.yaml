@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR205ed.11995-09
+id: ETSIETR205ed1199509
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Multifrequency push-button receiver
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Multifrequency push-button receiver
     at subscriber s premises [CEPT Recommendation T/CS 34-09 E (1983)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3570
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/205/01_60/etr_205e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 205 ed.1 (1995-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3570
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/205/01_60/etr_205e01p.pdf
+docidentifier:
+- content: ETSI ETR 205 ed.1 (1995-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 205 ed.1 (1995-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Protocols & Switching
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Endorsement of CEPT T/CS 34-09\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Endorsement of CEPT T/CS 34-09\r\n  "
+status:
+  stage: Published
 keyword:
-- content: DTMF
-- content: ENDORSEMENT
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: DTMF
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Signalling Protocols & Switching
+    content: ETSI Technical Report

@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102664V1.2.12010-04
+id: ETSITR102664V121201004
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
     and Traffic Telematics (RTTT); Short range radar to be used in the 24 GHz to 27,5
     GHz band; System Reference document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33340
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102664/01.02.01_60/tr_102664v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 664 V1.2.1 (2010-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33340
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102664/01.02.01_60/tr_102664v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 664 V1.2.1 (2010-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 664 V1.2.1 (2010-04)
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2010-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The TR 102 664 needs to be amended because SRR technology improvements
+- language: en
+  script: Latn
+  content: The TR 102 664 needs to be amended because SRR technology improvements
     have been developed. Studies have shown that the interference potential to other
     services in the band of 24 to 27.5 GHz is significantly reduced.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EHF
-- content: RADAR
-- content: RADIO
-- content: RTTT
-- content: SHORT RANGE
-- content: SRD
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: EHF
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RTTT
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: Technical Report

@@ -1,62 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300012/A2ed.11996-03
+id: ETSIETS300012A2ed1199603
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Basic user-network interface;
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Basic user-network interface;
     Layer 1 specification and test principles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1276
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300012/01_60/ets_300012e01p_a2p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 012/A2 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1276
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300012/01_60/ets_300012e01p_a2p.pdf
+docidentifier:
+- content: ETSI ETS 300 012/A2 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 012/A2 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "System conformance statements (SCS), PICS & PIXIT complementary to ETS\r\n300
+- language: en
+  script: Latn
+  content: "System conformance statements (SCS), PICS & PIXIT complementary to ETS\r\n300
     012. Both interface sides (ie interface points 1a & 1b) are\r\ncovered.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: ISDN
-- content: NETWORK
-- content: TESTING
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Telecommunication Standard

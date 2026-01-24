@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202798V1.1.12011-01
+id: ETSIEG202798V111201101
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Testing; Framework for conformance
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Testing; Framework for conformance
     and interoperability testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31024
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202700_202799/202798/01.01.01_60/eg_202798v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 798 V1.1.1 (2011-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31024
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202700_202799/202798/01.01.01_60/eg_202798v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 798 V1.1.1 (2011-01)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 798 V1.1.1 (2011-01)
 date:
 - type: published
-  value: 2011-01
+  at: 2011-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specifies the global framework for conformance and interoperability testing
+- language: en
+  script: Latn
+  content: Specifies the global framework for conformance and interoperability testing
     in ITS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: INTEROPERABILITY
-- content: ITS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: ETSI Guide

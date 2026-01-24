@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103543V1.1.12018-02
+id: ETSITS103543V111201802
+schema_version: v1.4.1
 title:
-- content: Mobile Standards Group (MSG); Pan-European eCall In-Vehicle Systems; Guidelines
+- language: en
+  script: Latn
+  content: Mobile Standards Group (MSG); Pan-European eCall In-Vehicle Systems; Guidelines
     for IVS conformity assessment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50988
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103543/01.01.01_60/ts_103543v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 543 V1.1.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50988
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103543/01.01.01_60/ts_103543v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 543 V1.1.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 543 V1.1.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI TS aims at providing guidelines for assessing conformity of
+- language: en
+  script: Latn
+  content: "This ETSI TS aims at providing guidelines for assessing conformity of
     Pan-European eCall (acc. to CEN EN 16072) IVS devices with regards to essential
     performance requirements.\r\nThe resulting test reference would be provided as
     a guidance for device suppliers and integrators to carry out conformity and essential
     performance requirement, as part of a voluntary procedure."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assessment
-- content: conformity
-- content: ecall
+- taxon:
+  - language: en
+    script: Latn
+    content: assessment
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: ecall
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: Technical Specification

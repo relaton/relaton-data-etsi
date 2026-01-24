@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119442V1.1.12019-02
+id: ETSITS119442V111201902
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Protocol profiles for
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Protocol profiles for
     trust service providers providing AdES digital signature validation services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47246
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119442/01.01.01_60/ts_119442v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 442 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47246
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119442/01.01.01_60/ts_119442v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 442 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 442 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This will specify protocols for accessing trust services providing signature
+- language: en
+  script: Latn
+  content: This will specify protocols for accessing trust services providing signature
     validation services.   This is to encompass signatures used for electronic signatures
     and seals as defined in the eIDAS Regulation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PROTOCOL
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

@@ -1,69 +1,99 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102528V1.1.12006-10
+id: ETSITR102528V111200610
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI) Interception domain Architecture for IP networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23389
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102528/01.01.01_60/tr_102528v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 528 V1.1.1 (2006-10)
+- language: en
+  script: Latn
+  content: Lawful Interception (LI) Interception domain Architecture for IP networks
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23389
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102528/01.01.01_60/tr_102528v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 528 V1.1.1 (2006-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 528 V1.1.1 (2006-10)
 date:
 - type: published
-  value: 2006-10
+  at: 2006-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgd2lsbCBkZXNjcmliZSBhIGhpZ2ggbGV2ZWwgYXJjaGl0ZWN0dXJlIGZvciBzdXBwb3J0aW5nIGxhd2Z1bCBpbnRlcmNlcHRpb24gaW4gbmV0d29yayBvcGVyYXRvciBhbmQgY29tbXVuaWNhdGlvbiBzZXJ2aWNlIHByb3ZpZGVycycgZG9tYWluIGZvciBJUCBuZXR3b3Jrcy4gDQpUaGUgZG9jdW1lbnQgd2lsbCBjb250YWluOg0K4oCiQSBnZW5lcmljIHJlZmVyZW5jZSBtb2RlbCBpbiB0aGUgbmV0d29yayBvcGVyYXRvciBhbmQgY29tbXVuaWNhdGlvbiBzZXJ2aWNlIHByb3ZpZGVyIGRvbWFpbi4NCuKAokEgSGlnaCBsZXZlbCBkZXNjcmlwdGlvbiBvZiBJbnRlcm5hbCBOZXR3b3JrIEZ1bmN0aW9ucyBhbmQgSW50ZXJmYWNlcy4NCuKAokFwcGxpY2F0aW9uIG9mIHRoZSByZWZlcmVuY2UgbW9kZWwgdG8gdm9pY2UgYW5kIG11bHRpbWVkaWEgb3ZlciBJUCBzZXJ2aWNlcyBhbmQgZGF0YSBsYXllciAzIGFuZCBsYXllciAyIHNlcnZpY2VzLg0KDQpUaGUgcHJlc2VudCAgZG9jdW1lbnQgaXMgZGVzaWduZWQgdG8gYmUgY29tcGF0aWJsZSB3aXRoIGFueSBzcGVjaWZpZWQgTEkgSE8gaW50ZXJmYWNlcywgbGlrZSBUUyAxMDIgMjMyLiAgICAgDQpJdCB3aWxsIG5vdCBpbnRlbmQgdG8gcmVwbGFjZSBhbnkgZXhpc3RpbmcgZG9jdW1lbnQgd2hpY2ggc3BlY2lmaWVzIG5ldHdvcmsgb3BlcmF0b3IgYW5kIGNvbW11bmljYXRpb24gc2VydmljZSBwcm92aWRlcidzIGFyY2hpdGVjdHVyZSBhbmQgaW50ZXJuYWwgbmV0d29yayBpbnRlcmZhY2VzLiBUaGUgcHJlc2VudCBkb2N1bWVudCB3aWxsIG5vdCBvdmVycmlkZSBvciBzdXBlcnNlZGUgYW55IHNwZWNpZmljYXRpb25zIG9yIHJlcXVpcmVtZW50cyBmb3IgdGhlIGxhd2Z1bCBpbnRlcmNlcHRpb24gd2l0aGluIEdTTS9VTVRTIFBTIGRvbWFpbiwgd2hpY2ggaXMgZGVmaW5lZCBpbiBUUyAxMzMuMTA2IGFuZCBUUyAxMzMgMTA3Lg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document will describe a high level architecture for supporting
+    lawful interception in network operator and communication service providers' domain
+    for IP networks. \r\nThe document will contain:\r\nA generic reference model in
+    the network operator and communication service provider domain.\r\nA High level
+    description of Internal Network Functions and Interfaces.\r\nApplication of the
+    reference model to voice and multimedia over IP services and data layer 3 and
+    layer 2 services.\r\n\r\nThe present  document is designed to be compatible with
+    any specified LI HO interfaces, like TS 102 232.     \r\nIt will not intend to
+    replace any existing document which specifies network operator and communication
+    service provider's architecture and internal network interfaces. The present document
+    will not override or supersede any specifications or requirements for the lawful
+    interception within GSM/UMTS PS domain, which is defined in TS 133.106 and TS
+    133 107."
+status:
+  stage: Historical
 keyword:
-- content: ARCHITECTURE
-- content: DATA
-- content: IP
-- content: Lawful Interception
-- content: MULTIMEDIA
-- content: SECURITY
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

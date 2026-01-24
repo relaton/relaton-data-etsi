@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC026V2.1.12019-01
+id: ETSIGSMEC026V211201901
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Support for regulatory requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53965
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/026/02.01.01_60/gs_MEC026v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC 026 V2.1.1 (2019-01)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Support for regulatory requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53965
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/026/02.01.01_60/gs_MEC026v020101p.pdf
+docidentifier:
+- content: ETSI GS MEC 026 V2.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC 026 V2.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item aims to specify the identified functionalities in support
+- language: en
+  script: Latn
+  content: 'This work item aims to specify the identified functionalities in support
     of the regulatory requirements in areas of Lawful Interception and Retained Data
     for the cases where underlying networks do not provide those. The work will identify
     gaps with the regulatory requirements, and fill the gaps, if exist. The document
@@ -54,19 +63,21 @@ abstract:
     related to virtualisation will be aligned with ETSI ISG NFV. ETSI TC LI will be
     consulted in order to understand the precise regulatory Lawful Intercept and Retained
     Data requirements. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Lawful Interception
-- content: MEC
-- content: Retained Data
+- taxon:
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: Retained Data
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Specification

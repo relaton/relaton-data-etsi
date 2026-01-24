@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102518V1.1.12008-02
+id: ETSITS102518V111200802
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Internet Protocol Testing
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Internet Protocol Testing
     (IPT); IPv4 to IPV6 Transitioning; Conformance Test Suite Structure and Test Purposes
     (TSS&TP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24386
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102518/01.01.01_60/ts_102518v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 518 V1.1.1 (2008-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24386
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102518/01.01.01_60/ts_102518v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 518 V1.1.1 (2008-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 518 V1.1.1 (2008-02)
 date:
 - type: published
-  value: 2008-02
+  at: 2008-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IP Testing Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Development of conformance test purposes for IPv4-IPv6 transitioning as
+- language: en
+  script: Latn
+  content: Development of conformance test purposes for IPv4-IPv6 transitioning as
     derived from the Requirements Catalogue.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: IP
-- content: IPv6
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IP Testing Group
+    content: Technical Specification

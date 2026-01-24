@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119162-2V1.0.12015-08
+id: ETSITS1191622V101201508
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Associated Signature
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Associated Signature
     Containers (ASiC); Part 2: Additional ASiC containers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47088
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11916202/01.00.01_60/ts_11916202v010001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 162-2 V1.0.1 (2015-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47088
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11916202/01.00.01_60/ts_11916202v010001p.pdf
+docidentifier:
+- content: ETSI TS 119 162-2 V1.0.1 (2015-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 162-2 V1.0.1 (2015-08)
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.1
-revdate: 2015-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specific communities or use cases may have additional requirements that
+- language: en
+  script: Latn
+  content: Specific communities or use cases may have additional requirements that
     are not addressed by the baseline profile defined in ASiC that can be built using
     the building blocks defined there or additional ones. The present document references
     such specific extended use of ASiC and aims to be used for containers that collects
@@ -57,20 +66,24 @@ abstract:
     UCF or any similarly structured container format. It is also the aim of the present
     document to address use of "virtual dossiers" container formats such as required
     in some pan-European projects.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASiC
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ASiC
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

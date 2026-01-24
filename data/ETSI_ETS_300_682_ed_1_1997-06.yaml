@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300682ed.11997-06
+id: ETSIETS300682ed1199706
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for On-Site Paging equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1827
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300682/01_60/ets_300682e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 682 ed.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1827
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300682/01_60/ets_300682e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 682 ed.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 682 ed.1 (1997-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for private paging equipment.\r\nThe ETS,
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for private paging equipment.\r\nThe ETS,
     together with ETS 300 224, may be used to\r\ndemonstrate compliance with the requirements\r\nof
     the EMC Directive 89/336/EEC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: PAGING
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: PAGING
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

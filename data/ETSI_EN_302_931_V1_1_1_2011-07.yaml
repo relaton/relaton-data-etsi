@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302931V1.1.12011-07
+id: ETSIEN302931V111201107
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Vehicular Communications; Geographical
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Vehicular Communications; Geographical
     Area Definition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34665
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302900_302999/302931/01.01.01_60/en_302931v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 931 V1.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34665
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302900_302999/302931/01.01.01_60/en_302931v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 931 V1.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 931 V1.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transport and Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specifies types and definition of geographical areas based on basic geometric
+- language: en
+  script: Latn
+  content: Specifies types and definition of geographical areas based on basic geometric
     shapes. Defines the geographical destination area for the GeoNetworking protocol
     headers. Defines basic geometric operations to determine whether a point is located
     inside, outside or at the border of a geometric shape. Out of scope are existing
     location referencing schemes and definition of SAPs. Out of scope is encoding
     of the definitions in the protocols.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: LOCATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: LOCATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Transport and Network
+    content: European Standard

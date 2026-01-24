@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102112-1V1.1.12002-09
+id: ETSITS1021121V111200209
+schema_version: v1.4.1
 title:
-- content: 'Services and Protocols for Advanced Networks (SPAN); Network Integration
+- language: en
+  script: Latn
+  content: 'Services and Protocols for Advanced Networks (SPAN); Network Integration
     Testing between IN, PLMN and ISDN; Part 1: Test Suite Structure and Test purposes
     (TSS&TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15511
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10211201/01.01.01_60/ts_10211201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 112-1 V1.1.1 (2002-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15511
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10211201/01.01.01_60/ts_10211201v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 112-1 V1.1.1 (2002-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 112-1 V1.1.1 (2002-09)
 date:
 - type: published
-  value: 2002-09
+  at: 2002-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specifies the TSS&TP
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Specifies the TSS&TP
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: ISDN
-- content: NIT
-- content: PLMN
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NIT
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: Technical Specification

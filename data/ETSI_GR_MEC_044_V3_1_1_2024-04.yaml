@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC044V3.1.12024-04
+id: ETSIGRMEC044V311202404
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Study on MEC Application Slices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64371
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/044/03.01.01_60/gr_MEC044v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 044 V3.1.1 (2024-04)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Study on MEC Application Slices
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64371
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/044/03.01.01_60/gr_MEC044v030101p.pdf
+docidentifier:
+- content: ETSI GR MEC 044 V3.1.1 (2024-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 044 V3.1.1 (2024-04)
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2024-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will study the potential requirements and enhancements to
+- language: en
+  script: Latn
+  content: This Work Item will study the potential requirements and enhancements to
     the MEC system needed to support MEC Application Slices,i.e., the slicing of the
     MEC applications. The work Item will also study the necessary changes to align
     the MEC support for network slicing studied in MEC024.The content will include
     the concept of MEC application slice, relationship and alignment with MEC system
     support for network slicing, as well as potential requirements and enhancements
     to the MEC system architecture and functions, etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: MEC
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

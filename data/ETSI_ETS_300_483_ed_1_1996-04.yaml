@@ -1,63 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300483ed.11996-04
+id: ETSIETS300483ed1199604
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); Multipoint
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); Multipoint
     communications for audiovisual services; Main functionalities and basic requirements
     for Multipoint Control Units (MCUs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2238
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300483/01_60/ets_300483e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 483 ed.1 (1996-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2238
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300483/01_60/ets_300483e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 483 ed.1 (1996-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 483 ed.1 (1996-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define basic protocols and related functional requirements for an\r\nMCU
+- language: en
+  script: Latn
+  content: "To define basic protocols and related functional requirements for an\r\nMCU
     which offers multipoint conference facilities to terminal\r\nequipment and systems
     supporting the videotelephony teleservice in the\r\nISDN.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: ISDN
-- content: MULTIPOINT
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: European Telecommunication Standard

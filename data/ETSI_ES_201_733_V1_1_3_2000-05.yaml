@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201733V1.1.32000-05
+id: ETSIES201733V113200005
+schema_version: v1.4.1
 title:
-- content: Electronic Signature Formats
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8179
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201700_201799/201733/01.01.03_60/es_201733v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 733 V1.1.3 (2000-05)
+- language: en
+  script: Latn
+  content: Electronic Signature Formats
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8179
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201700_201799/201733/01.01.03_60/es_201733v010103p.pdf
+docidentifier:
+- content: ETSI ES 201 733 V1.1.3 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 733 V1.1.3 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To study the requirements for standardization of digital signatures in
+- language: en
+  script: Latn
+  content: "To study the requirements for standardization of digital signatures in
     telecommunications applications.\r\nThe study will determine which areas of digital
     signature standardization should be concentrated on for \r\nthe requirements of
     the different European member states, taking account of the emerging national
     positions \r\non data security, electronic commerce, lawful interception and trusted
     third parties' requirements.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Security
+    content: ETSI Standard

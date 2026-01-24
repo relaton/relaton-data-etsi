@@ -1,66 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102114V1.6.12019-08
+id: ETSITS102114V161201908
+schema_version: v1.4.1
 title:
-- content: DTS Coherent Acoustics; Core and Extensions with Additional Profiles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57771
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102114/01.06.01_60/ts_102114v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 114 V1.6.1 (2019-08)
+- language: en
+  script: Latn
+  content: DTS Coherent Acoustics; Core and Extensions with Additional Profiles
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57771
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102114/01.06.01_60/ts_102114v010601p.pdf
+docidentifier:
+- content: ETSI TS 102 114 V1.6.1 (2019-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 114 V1.6.1 (2019-08)
 date:
 - type: published
-  value: 2019-08
+  at: 2019-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2019-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHJldmlzZWQgVFMgd2lsbCBpbmNsdWRlOg0K4oCiIFJlbnVtYmVyaW5nIHRoZSBjbGF1c2VzIHRvIGVsaW1pbmF0ZSB0aGUg4oCcLjDigJ0gbnVtYmVycyAocHJvbW90aW5nIHRoZSDigJwuMOKAnSB0byDigJwuMeKAnSwgZXRjKS4NCuKAoiBVcGRhdGVkIEFubmV4IEUgdG8gbWF0Y2ggdXBkYXRlcyB0byByZWZlcmVuY2VkIHNwZWNpZmljYXRpb25zIChlbGltaW5hdGluZyByZWR1bmRhbnQgcmVxdWlyZW1lbnRzKQ0K4oCiIENvcnJlY3Rpb25zIHRvIEFubmV4IEgsIGJvdGggc3Vic3RhbnRpdmUgYW5kIGVkaXRvcmlhbCBmaXhlcw0K4oCiIE5ldyBOb3JtYXRpdmUgQW5uZXggSSB0byBkZWZpbmUgYSBEVFMtSEQg4oCcQmFzaWPigJ0gRGVjb2RlciBQcm9maWxlDQrigKIgTmV3IEluZm9ybWF0aXZlIEFubmV4IEogZG9jdW1lbnRpbmcgb3RoZXIgRFRTIGFuZCBEVFMtSEQgY29kZXBvaW50IHJlZ2lzdHJhdGlvbnMgb2YgaW50ZXJlc3QgKE1wZWc0UkEgYW5kIElBTkEpLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The revised TS will include:\r\n Renumbering the clauses to eliminate
+    the .0 numbers (promoting the .0 to .1, etc).\r\n Updated Annex E to match updates
+    to referenced specifications (eliminating redundant requirements)\r\n Corrections
+    to Annex H, both substantive and editorial fixes\r\n New Normative Annex I to
+    define a DTS-HD Basic Decoder Profile\r\n New Informative Annex J documenting
+    other DTS and DTS-HD codepoint registrations of interest (Mpeg4RA and IANA)."
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: CODEC
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

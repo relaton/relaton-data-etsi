@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101052-1V3.2.12025-07
+id: ETSITS1010521V321202507
+schema_version: v1.4.1
 title:
-- content: 'Rules for the management of the TETRA standard authentication and key
+- language: en
+  script: Latn
+  content: 'Rules for the management of the TETRA standard authentication and key
     management algorithm sets; Part 1: TAA1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70095
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101000_101099/10105201/03.02.01_60/ts_10105201v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 052-1 V3.2.1 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70095
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101000_101099/10105201/03.02.01_60/ts_10105201v030201p.pdf
+docidentifier:
+- content: ETSI TS 101 052-1 V3.2.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 052-1 V3.2.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revise references and minor changes as a result of the publication of the
+- language: en
+  script: Latn
+  content: Revise references and minor changes as a result of the publication of the
     algorithms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: SECURITY
-- content: TAA1
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TAA1
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Security
+    content: Technical Specification

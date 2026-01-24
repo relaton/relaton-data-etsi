@@ -1,66 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103730V1.1.12021-01
+id: ETSITR103730V111202101
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Low Frequency MicroWave Security Scanners
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Low Frequency MicroWave Security Scanners
     (MWSSc) within the frequency range from 3,6 GHz to 12,4 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58928
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103730/01.01.01_60/tr_103730v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 730 V1.1.1 (2021-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58928
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103730/01.01.01_60/tr_103730v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 730 V1.1.1 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 730 V1.1.1 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvdmlkZXMgaW5mb3JtYXRpb24gb24gdGhlIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gYW5kIGFkZGl0aW9uYWwgbmV3IHJhZGlvIHNwZWN0cnVtIHJlcXVpcmVtZW50cyBmb3IgTWljcm9XYXZlIFNlY3VyaXR5IFNjYW5uZXJzIChNV1NTYykuIE1XU1NjIGFyZSBleHBlY3RlZCB0byBjb21wbHkgd2l0aCBsaW1pdHMgb3V0c2lkZSB0aGUgc2Nhbm5pbmcgc2NlbmFyaW8gaW4gdGhlIG9yZGVyIG9mIHRob3NlIGluIEVDQy9ERUMoMDYpLzA4IGZvciB1bmRlc2lyZWQgZW1pc3Npb25zLg0KVGhleSBhcmUgc2ltaWxhciB0byBtbVcgU2Nhbm5lcnMgZGVzY2liZWQgaW4gU1Jkb2MgVFIgMTAzIDY2NCAoc2VjdXJpdHkgc2Nhbm5lciA2MC05MCBHSHopIGJ1dCBvcGVyYXRlIGluIGEgbXVjaCBsb3dlciBmcmVxdWVuY3kgcmFuZ2Ugd2l0aCBsb3cgcG93ZXIgYW5kIGhhdmUgYSBkZWRpY2F0ZWQgYXBwbGljYXRpb24gaW4gc2VjdXJpdHkgc2NyZWVuaW5nOyAgZS5nIHRvIGRldGVjdCBvYmplY3RzIGNvbmNlYWxlZCBpbiBvciB1bmRlcm5lYXRoIGEgcGVyc29u4oCZcyBjbG90aGluZyBhbmQgdG8gZGlzcGxheSB0aGUgbG9jYXRpb24gb2YgdGhlIG9iamVjdHMgb24gZS5nLiBhIGh1bWFuIGF2YXRhci4gVGhlIHByZXNlbnQgZG9jdW1lbnQgaW5jbHVkZXMgbmVjZXNzYXJ5IGluZm9ybWF0aW9uIHRvIHN1cHBvcnQgdGhlIGNvLW9wZXJhdGlvbiBiZXR3ZWVuIEVUU0kgYW5kIHRoZSBFbGVjdHJvbmljIENvbW11bmljYXRpb25zIENvbW1pdHRlZSAoRUNDKSBvZiB0aGUgRXVyb3BlYW4gQ29uZmVyZW5jZSBvZiBQb3N0IGFuZCBUZWxlY29tbXVuaWNhdGlvbnMgQWRtaW5pc3RyYXRpb25zIChDRVBUKS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document provides information on the intended applications,
+    the technical parameters, the relation to the existing spectrum regulation and
+    additional new radio spectrum requirements for MicroWave Security Scanners (MWSSc).
+    MWSSc are expected to comply with limits outside the scanning scenario in the
+    order of those in ECC/DEC(06)/08 for undesired emissions.\r\nThey are similar
+    to mmW Scanners descibed in SRdoc TR 103 664 (security scanner 60-90 GHz) but
+    operate in a much lower frequency range with low power and have a dedicated application
+    in security screening;  e.g to detect objects concealed in or underneath a persons
+    clothing and to display the location of the objects on e.g. a human avatar. The
+    present document includes necessary information to support the co-operation between
+    ETSI and the Electronic Communications Committee (ECC) of the European Conference
+    of Post and Telecommunications Administrations (CEPT)."
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

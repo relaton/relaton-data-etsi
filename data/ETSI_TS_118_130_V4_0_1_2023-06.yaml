@@ -1,65 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118130V4.0.12023-06
+id: ETSITS118130V401202306
+schema_version: v1.4.1
 title:
-- content: oneM2M; Ontology based Interworking (oneM2M TS-0030 version 4.0.1 Release
+- language: en
+  script: Latn
+  content: oneM2M; Ontology based Interworking (oneM2M TS-0030 version 4.0.1 Release
     4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68586
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118130/04.00.01_60/ts_118130v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 130 V4.0.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68586
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118130/04.00.01_60/ts_118130v040001p.pdf
+docidentifier:
+- content: ETSI TS 118 130 V4.0.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 130 V4.0.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG9uZU0yTSBCYXNlIE9udG9sb2d5IHNob3VsZCBiZSBlbmhhbmNlZCBieToNCsK3QnVnIGZpeGluZyBhbmQgY29tcGxldGluZyB0aGUgcmVsZWFzZSAyIHNwZWNpZmljYXRpb24gd2hlcmUgbmVlZGVkLg0KwrdFeHRlbmRpbmcgdGhlIGN1cnJlbnQgbW9kZWwgb2YgU2VydmljZS9PcGVyYXRpb24gdnMuIEZ1bmN0aW9uYWxpdHkvQ29tbWFuZCB0byBiZSB1c2VkIGZvciBBYnN0cmFjdGlvbiBvZiBtYWNoaW5lLXR5cGUgT3BlcmF0aW9ucyBpbnRvIGFic3RyYWN0ZWQgQ29tbWFuZHMuIFRoZSBvbmVNMk0gQmFzZSBPbnRvbG9neSBuZWVkcyB0byBiZSBhYmxlIHRvIHN1cHBvcnQgaW5kaWNhdGlvbiBvZiB0aGUgcnVsZXMgdXNlZCBmb3IgYWJzdHJhY3Rpb24uDQpUaGUgYmFzaWMgbW9kZSBvZiBvcGVyYXRpb24gb2YgdGhlIElQRSBzaG91bGQgYmUgZW5oYW5jZWQgYnk6DQrCt0J1ZyBmaXhpbmcgYW5kIGNvbXBsZXRpbmcgdGhlIHJlbGVhc2UgMiBzcGVjaWZpY2F0aW9uIHdoZXJlIG5lZWRlZC4NCsK3RW5oYW5jZW1lbnRzIHRvIHRoZSBzcGVjaWZpZWQgY29tbXVuaWNhdGlvbiBzY2hlbWUgd2l0aCB0aGUgT250b2xvZ3kgYmFzZWQgSVdLIElQRSwgZS5nLjoNCm9Vc2Ugb2YgPGZsZXhDb250YWluZXI+cyBhcyBjb250ZW50IHNoYXJpbmcgcmVzb3VyY2VzDQpvQWxpZ25pbmcgT250b2xvZ3kgYmFzZWQgSW50ZXJ3b3JraW5nIHdpdGggdGhlIHByaW5jaXBsZXMgb2YgVFMtMDAzMy4NCm9Nb3ZpbmcgY29udGVudCBvbiBPbnRvbG9neSBiYXNlZCBJbnRlcndvcmtpbmcgZnJvbSBUUy0wMDEyIGludG8gYSBzZXBhcmF0ZSBUUyAoVFMtMDAzMCkuICANCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The oneM2M Base Ontology should be enhanced by:\r\nBug fixing and completing
+    the release 2 specification where needed.\r\nExtending the current model of Service/Operation
+    vs. Functionality/Command to be used for Abstraction of machine-type Operations
+    into abstracted Commands. The oneM2M Base Ontology needs to be able to support
+    indication of the rules used for abstraction.\r\nThe basic mode of operation of
+    the IPE should be enhanced by:\r\nBug fixing and completing the release 2 specification
+    where needed.\r\nEnhancements to the specified communication scheme with the Ontology
+    based IWK IPE, e.g.:\r\noUse of <flexContainer>s as content sharing resources\r\noAligning
+    Ontology based Interworking with the principles of TS-0033.\r\noMoving content
+    on Ontology based Interworking from TS-0012 into a separate TS (TS-0030).  \r\n"
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: ontology
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: ontology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

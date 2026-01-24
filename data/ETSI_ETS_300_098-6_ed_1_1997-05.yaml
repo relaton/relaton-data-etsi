@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300098-6ed.11997-05
+id: ETSIETS3000986ed1199705
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Connected Line Identification
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Connected Line Identification
     Restriction (COLR) supplementary service; Digital Subscriber Signalling System
     No. one (DSS1) protocol; Part 6: Abstract Test Suite (ATS) and partial Protocol
     Implementation eXtra Information for Testing (PIXIT) proforma specification for
     the network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3370
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30009806/01_60/ets_30009806e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 098-6 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3370
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30009806/01_60/ets_30009806e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 098-6 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 098-6 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Conformance Test Specification for the DSS1 protocol for the\r\nConnected
+- language: en
+  script: Latn
+  content: "Conformance Test Specification for the DSS1 protocol for the\r\nConnected
     line identification restriction (COLR)\r\nSupplementary service\r\n- including
     PIXIT proforma\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: COLR
-- content: DSS1
-- content: ISDN
-- content: NETWORK
-- content: PIXIT
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: COLR
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

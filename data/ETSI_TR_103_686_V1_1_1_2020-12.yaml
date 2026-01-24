@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103686V1.1.12020-12
+id: ETSITR103686V111202012
+schema_version: v1.4.1
 title:
-- content: Report on Low Duty Cycle Mitigation for UWB Devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58012
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103686/01.01.01_60/tr_103686v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 686 V1.1.1 (2020-12)
+- language: en
+  script: Latn
+  content: Report on Low Duty Cycle Mitigation for UWB Devices
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58012
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103686/01.01.01_60/tr_103686v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 686 V1.1.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 686 V1.1.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyByZXBvcnQgd2lsbCBhc3Nlc3MgdGhlIGN1cnJlbnQgTERDIG1pdGlnYXRpb24gdGVjaG5pcXVlIGZvciBVV0IgYXBwbGljYXRpb25zIHdpdGggdGhlIGFpbSBvZiBoYXZpbmcgY2xlYXIgdGVzdCBjcml0ZXJpYSBmb3IgdGhlIEhTcy4gVGhlIHdvcmsgd2lsbA0K4oCiCWluY2x1ZGUgYSByZXZpZXcgb2YgdGhlIHJlZ3VsYXRpb25zIGFuZCByZWxhdGVkIG1lYXN1cmVtZW50cyAoZS5nLiBsb25nLXRlcm0gY3JpdGVyaWEgbWVhc3VyZW1lbnQpLA0K4oCiCWFsaWduIHRoZSBVV0IgTERDIHdpdGggdGhlIGdlbmVyaWMgU1JEIExEQyAoc2VlIFRTIDEwMyAwNjAsIHNwZWNpZnkgcGFyYW1ldGVycykNCuKAoglhbmQgcHJvcG9zZSBtZWFzdXJlbWVudCBwcm9jZWR1cmVzLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This report will assess the current LDC mitigation technique for UWB applications
+    with the aim of having clear test criteria for the HSs. The work will\r\n\tinclude
+    a review of the regulations and related measurements (e.g. long-term criteria
+    measurement),\r\n\talign the UWB LDC with the generic SRD LDC (see TS 103 060,
+    specify parameters)\r\n\tand propose measurement procedures.\r\n"
+status:
+  stage: Published
 keyword:
-- content: Measurement
-- content: REPORT
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: REPORT
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Report

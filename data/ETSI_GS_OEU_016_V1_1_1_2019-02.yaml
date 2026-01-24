@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSOEU016V1.1.12019-02
+id: ETSIGSOEU016V111201902
+schema_version: v1.4.1
 title:
-- content: Energy Consumption Measurement of Operational Information Technology Storage
+- language: en
+  script: Latn
+  content: Energy Consumption Measurement of Operational Information Technology Storage
     Units
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45997
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/OEU/001_099/016/01.01.01_60/gs_OEU016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS OEU 016 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45997
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/OEU/001_099/016/01.01.01_60/gs_OEU016v010101p.pdf
+docidentifier:
+- content: ETSI GS OEU 016 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS OEU 016 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operational energy Efficiency for Users
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Energy Consumption Measurement of Operational Information Technology memory
+- language: en
+  script: Latn
+  content: Energy Consumption Measurement of Operational Information Technology memory
     units (storage)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: Measurement
-- content: operational
-- content: storage
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: operational
+  - language: en
+    script: Latn
+    content: storage
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Operational energy Efficiency for Users
+    content: Group Specification

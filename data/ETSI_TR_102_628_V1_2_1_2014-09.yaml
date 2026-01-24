@@ -1,74 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102628V1.2.12014-09
+id: ETSITR102628V121201409
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc); Land Mobile Service; Additional spectrum requirements
     for future Public Safety and Security (PSS) wireless communication systems in
     the UHF frequency range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44125
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102628/01.02.01_60/tr_102628v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 628 V1.2.1 (2014-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44125
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102628/01.02.01_60/tr_102628v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 628 V1.2.1 (2014-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 628 V1.2.1 (2014-09)
 date:
 - type: published
-  value: 2014-09
+  at: 2014-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2014-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Additional spectrum requirements for future TETRA emergency systems in
+- language: en
+  script: Latn
+  content: Additional spectrum requirements for future TETRA emergency systems in
     the UHF frequency range. This spectrum is for future public safety wide area coverage
     interoperable communications. High speed data application requirements need also
     to be supported. The aim of the present revision of the SRDoc is to include more
     detailed calculations to justify the requirements, and to update the document
     to reflect the changes in the external environment since publication of the initial
     version of the SRDoc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: TETRA
-- content: V+D
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

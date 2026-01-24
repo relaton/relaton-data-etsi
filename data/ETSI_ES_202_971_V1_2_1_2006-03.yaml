@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202971V1.2.12006-03
+id: ETSIES202971V121200603
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Public Switched Telephone Network (PSTN); Harmonized
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Public Switched Telephone Network (PSTN); Harmonized
     specification of physical and electrical characteristics of a 2-wire analogue
     interface for short line interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23813
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202900_202999/202971/01.02.01_60/es_202971v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 971 V1.2.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23813
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202900_202999/202971/01.02.01_60/es_202971v010201p.pdf
+docidentifier:
+- content: ETSI ES 202 971 V1.2.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 971 V1.2.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of analogue presented interface intended to deliver 3,1
+- language: en
+  script: Latn
+  content: "Specification of analogue presented interface intended to deliver 3,1
     kHz voiceband services which terminates a Public Switched Telephone Network (PSTN)
     with 2-wire local loops. for short loops (< 100 ohms)\r\nPromotion of TS 102 971
     to  ES"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ACCESS
-- content: ANALOGUE
-- content: INTERFACE
-- content: POTS
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Analogue
+    content: ETSI Standard

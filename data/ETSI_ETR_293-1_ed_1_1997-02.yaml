@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR293-1ed.11997-02
+id: ETSIETR2931ed1199702
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Air Interface (AI) layer 2 and 3 protocol
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Air Interface (AI) layer 2 and 3 protocol
     validation; Part 1: Validation of SDL models for Voice plus Data (V+D)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6729
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/29301/01_60/etr_29301e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 293-1 ed.1 (1997-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6729
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/29301/01_60/etr_29301e01p.pdf
+docidentifier:
+- content: ETSI ETR 293-1 ed.1 (1997-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 293-1 ed.1 (1997-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Terrestrial Trunked Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To perform the air interface functional protocol validation\r\n(more precisely
+- language: en
+  script: Latn
+  content: "To perform the air interface functional protocol validation\r\n(more precisely
     the layer 2 and 3 of the Voice and Data (V&D)\r\nand Packet Data Optimized (PDO)
     air interface protocol).\r\n-06012: Validation of SDL models\r\n-06013: Validation
     of test suites\r\n Define the functional validation model;\r\nDefine the test
@@ -48,23 +58,33 @@ abstract:
     and run the defined tests on the ETSI tools.\r\nLiaison with PT 65 (Validation
     and Verification techniques),\r\nreporting to TC MTS.\r\nActivity limited to Functional
     validation, excluding Load validation.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: LAYER 2
-- content: LAYER 3
-- content: PROTOCOL
-- content: RADIO
-- content: SDL
-- content: TETRA
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Terrestrial Trunked Radio
+    content: ETSI Technical Report

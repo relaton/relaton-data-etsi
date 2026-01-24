@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR131970V16.0.02020-07
+id: ETSITR131970V1600202007
+schema_version: v1.4.1
 title:
-- content: LTE; Universal Mobile Telecommunications System (UMTS); UICC power optimisation
+- language: en
+  script: Latn
+  content: LTE; Universal Mobile Telecommunications System (UMTS); UICC power optimisation
     for Machine-Type Communication (MTC) (3GPP TR 31.970 version 16.0.0 Release 16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60050
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/131900_131999/131970/16.00.00_60/tr_131970v160000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 131 970 V16.0.0 (2020-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60050
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/131900_131999/131970/16.00.00_60/tr_131970v160000p.pdf
+docidentifier:
+- content: ETSI TR 131 970 V16.0.0 (2020-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 131 970 V16.0.0 (2020-07)
 date:
 - type: published
-  value: 2020-07
+  at: 2020-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Application Aspects (formely T3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.0.0
-revdate: 2020-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#88-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#88-e
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart Card Application Aspects (formely T3)
+    content: Technical Report

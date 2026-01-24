@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301451-2V1.4.12002-01
+id: ETSIEN3014512V141200201
+schema_version: v1.4.1
 title:
-- content: 'Private Integrated Services Network (PISN); Cordless Terminal Mobility
+- language: en
+  script: Latn
+  content: 'Private Integrated Services Network (PISN); Cordless Terminal Mobility
     (CTM); Inter-exchange signalling protocol; Cordless terminal outgoing call additional
     network feature for the VPN "b" service entry point; Part 2: Abstract Test Suite
     (ATS) and partial Protocol Implementation eXtra Information for Testing (PIXIT)
     proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13338
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30145102/01.04.01_60/en_30145102v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 451-2 V1.4.1 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13338
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30145102/01.04.01_60/en_30145102v010401p.pdf
+docidentifier:
+- content: ETSI EN 301 451-2 V1.4.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 451-2 V1.4.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of ATS and PIXIT for CTM outgoing.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of ATS and PIXIT for CTM outgoing.
+status:
+  stage: Published
 keyword:
-- content: ANF
-- content: ATS
-- content: CTM
-- content: MOBILITY
-- content: PISN
-- content: PIXIT
-- content: TESTING
-- content: VPN
+- taxon:
+  - language: en
+    script: Latn
+    content: ANF
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VPN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

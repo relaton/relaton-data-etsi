@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102710-1V3.1.12011-05
+id: ETSITS1027101V311201105
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Interworking between the IP Multimedia (IM)
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Interworking between the IP Multimedia (IM)
     Core Network (CN) subsystem and Circuit Switched (CS) networks (Release 8); Part
     1: Protocol Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30490
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271001/03.01.01_60/ts_10271001v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 710-1 V3.1.1 (2011-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30490
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271001/03.01.01_60/ts_10271001v030101p.pdf
+docidentifier:
+- content: ETSI TS 102 710-1 V3.1.1 (2011-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 710-1 V3.1.1 (2011-05)
 date:
 - type: published
-  value: 2011-05
+  at: 2011-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2011-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Development of  Conformance Tests based on the 29.163 Rel.8 Part 1: PICS'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Development of  Conformance Tests based on the 29.163 Rel.8 Part 1: PICS'
+status:
+  stage: Published
 keyword:
-- content: ISUP
-- content: PICS
-- content: SIP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

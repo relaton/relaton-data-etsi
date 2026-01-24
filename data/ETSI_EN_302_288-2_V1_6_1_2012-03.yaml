@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302288-2V1.6.12012-03
+id: ETSIEN3022882V161201203
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices; Road Transport and Traffic Telematics (RTTT); Short range radar
     equipment operating in the 24 GHz range; Part 2: Harmonized EN covering the essential
     requirements of article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35230
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302200_302299/30228802/01.06.01_60/en_30228802v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 288-2 V1.6.1 (2012-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35230
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302200_302299/30228802/01.06.01_60/en_30228802v010601p.pdf
+docidentifier:
+- content: ETSI EN 302 288-2 V1.6.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 288-2 V1.6.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "RSCOM 11-07 decided to amend the existing EC decision 2005/50/EC for the
+- language: en
+  script: Latn
+  content: "RSCOM 11-07 decided to amend the existing EC decision 2005/50/EC for the
     frequency range from 22 GHz to 26,65 GHz with the sunset date 30.6. 2013 to 24,25
     GHz to 26,65 GHz with the new sunset date January 1st 2022.\r\nThis requires an
     adaption of the current EN 302 288-2."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: RADIO
-- content: REGULATION
-- content: RTTT
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: RTTT
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: European Standard

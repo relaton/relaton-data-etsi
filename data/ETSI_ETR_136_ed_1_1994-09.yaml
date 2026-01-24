@@ -1,61 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR136ed.11994-09
+id: ETSIETR136ed1199409
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Functional characteristics of 64 kbit/s
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Functional characteristics of 64 kbit/s
     frame structure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=832
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/136/01_60/etr_136e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 136 ed.1 (1994-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=832
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/136/01_60/etr_136e01p.pdf
+docidentifier:
+- content: ETSI ETR 136 ed.1 (1994-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 136 ed.1 (1994-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Describes frame structure of 64 kbit/s signals for sub-64 kbit/s\r\nmultiplexing
+- language: en
+  script: Latn
+  content: "Describes frame structure of 64 kbit/s signals for sub-64 kbit/s\r\nmultiplexing
     based on V.110, X.50, X.51 & X.58 suitable for referenc-\r\ning in sub-rate multiplexing
     & cross-connecting equipment standards.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CROSS CONNECT
-- content: MULTICHANNEL
-- content: MUX
+- taxon:
+  - language: en
+    script: Latn
+    content: CROSS CONNECT
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: MUX
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: ETSI Technical Report

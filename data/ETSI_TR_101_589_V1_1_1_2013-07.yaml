@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101589V1.1.12013-07
+id: ETSITR101589V111201307
+schema_version: v1.4.1
 title:
-- content: Broadband Radio Access Networks (BRAN); Very high capacity density BWA
+- language: en
+  script: Latn
+  content: Broadband Radio Access Networks (BRAN); Very high capacity density BWA
     networks; Protocols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38866
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101589/01.01.01_60/tr_101589v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 589 V1.1.1 (2013-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38866
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101589/01.01.01_60/tr_101589v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 589 V1.1.1 (2013-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 589 V1.1.1 (2013-07)
 date:
 - type: published
-  value: 2013-07
+  at: 2013-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Radio Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To describe the specific protocols for a system, providing 1Gb/s/km2, including
+- language: en
+  script: Latn
+  content: To describe the specific protocols for a system, providing 1Gb/s/km2, including
     self-backhauling in both licensed and license-exempt bands, cognitive-radio based
     self-organization, etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: BROADBAND
-- content: BWA
-- content: PROTOCOL
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: BWA
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Broadband Radio Access Networks
+    content: Technical Report

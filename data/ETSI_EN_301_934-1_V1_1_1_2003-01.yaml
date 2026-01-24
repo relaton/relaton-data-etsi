@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301934-1V1.1.12003-01
+id: ETSIEN3019341V111200301
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 3 (CS-3);
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 3 (CS-3);
     Abstract Test Suite (ATS) and Partial Protocol Implementation eXtra Information
     for Testing (PIXIT) proforma specification; Part 1: Basic capability set of CS3'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10781
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301900_301999/30193401/01.01.01_60/en_30193401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 934-1 V1.1.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10781
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301900_301999/30193401/01.01.01_60/en_30193401v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 934-1 V1.1.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 934-1 V1.1.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Applications Interfaces for Service Providers and Network Operators
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This EN defines the Abstract Test Suite (ATS) and Partial Protocol Implementation
+- language: en
+  script: Latn
+  content: "This EN defines the Abstract Test Suite (ATS) and Partial Protocol Implementation
     eXtra Information for Testing (PIXIT) proforma specification of INAP for CS -3.2
     \ part 1\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: CS3
-- content: CTM
-- content: IN
-- content: INAP
-- content: PIXIT
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: CS3
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Applications Interfaces for Service Providers and Network Operators
+    content: European Standard

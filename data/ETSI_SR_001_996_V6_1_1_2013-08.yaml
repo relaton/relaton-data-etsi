@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSISR001996V6.1.12013-08
+id: ETSISR001996V611201308
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); An annotated bibliography of documents dealing with
+- language: en
+  script: Latn
+  content: Human Factors (HF); An annotated bibliography of documents dealing with
     Human Factors and disability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35706
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/001900_001999/001996/06.01.01_60/sr_001996v060101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 001 996 V6.1.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35706
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/001900_001999/001996/06.01.01_60/sr_001996v060101p.pdf
+docidentifier:
+- content: ETSI SR 001 996 V6.1.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI SR 001 996 V6.1.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.1.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A listing of available Human Factors and disability standards with brief
+- language: en
+  script: Latn
+  content: A listing of available Human Factors and disability standards with brief
     comment on their content
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: AGEING
-- content: DISABILITY
-- content: HF
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: AGEING
+  - language: en
+    script: Latn
+    content: DISABILITY
+  - language: en
+    script: Latn
+    content: HF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Human Factors
+    content: Special Report

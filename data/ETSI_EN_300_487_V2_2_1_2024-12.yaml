@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300487V2.2.12024-12
+id: ETSIEN300487V221202412
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Receive-Only Mobile Earth Stations
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Receive-Only Mobile Earth Stations
     (ROMES) providing data communications operating in the 1,5 GHz frequency band;
     Harmonised Standard for access to radio spectrum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50117
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300487/02.02.01_60/en_300487v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 487 V2.2.1 (2024-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50117
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300487/02.02.01_60/en_300487v020201p.pdf
+docidentifier:
+- content: ETSI EN 300 487 V2.2.1 (2024-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 487 V2.2.1 (2024-12)
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on R&TTE dir. 99/5/EC and and RED dir. 2014/53/EU
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2024-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To improve receiver performance requirements in line with the anticipated
+- language: en
+  script: Latn
+  content: To improve receiver performance requirements in line with the anticipated
     development of IMT/LTE below 1518 MHz.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: EARTH STATION
-- content: LMSS
-- content: MES
-- content: MOBILE
-- content: RO
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: LMSS
+  - language: en
+    script: Latn
+    content: MES
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RO
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: SES WG on R&TTE dir. 99/5/EC and and RED dir. 2014/53/EU
+    content: European Standard

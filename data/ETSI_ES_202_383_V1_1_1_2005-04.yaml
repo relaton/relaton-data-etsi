@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202383V1.1.12005-04
+id: ETSIES202383V111200504
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Security Design Guide; Method and proforma for defining Security
     Targets
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19719
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/202383/01.01.01_60/es_202383v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 383 V1.1.1 (2005-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19719
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/202383/01.01.01_60/es_202383v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 383 V1.1.1 (2005-04)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 383 V1.1.1 (2005-04)
 date:
 - type: published
-  value: 2005-04
+  at: 2005-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To define both the method and proforma for security targets as defined
+- language: en
+  script: Latn
+  content: To define both the method and proforma for security targets as defined
     in the Common Criteria.  This to be the 3rd part of a 3-part document as outlined
     in 33wgTD054.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: METHODOLOGY
-- content: SECURITY
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Security
+    content: ETSI Standard

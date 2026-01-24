@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202090V1.1.21999-03
+id: ETSIEG202090V112199903
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); H.323/B-ISDN signalling
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); H.323/B-ISDN signalling
     interoperability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6424
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202000_202099/202090/01.01.02_60/eg_202090v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 090 V1.1.2 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6424
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202000_202099/202090/01.01.02_60/eg_202090v010102p.pdf
+docidentifier:
+- content: ETSI EG 202 090 V1.1.2 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 090 V1.1.2 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband ISDN, Layer 3
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "    Identify possible standardisation activities in this area by compiling
+- language: en
+  script: Latn
+  content: "    Identify possible standardisation activities in this area by compiling
     material on the following subjects: H.323 / B-ISDN unseparated interworking via
     gateway (including voice-only, H.321 and H.310), taking into account H.246; H.323
     / B-ISDN separated interworking via gateway; Application of separated protocols
@@ -60,26 +69,42 @@ abstract:
     work items to be addressed in H.323. Possible work items to be addressed in B-ISDN
     signalling.\r\n\r\nSupporting organisations Siemens AG, Bosch Telecom, BT, Lucent
     Technologies (ECMA member)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: AUDIO
-- content: B-ISDN
-- content: BROADBAND
-- content: INTEROPERABILITY
-- content: IP
-- content: ISDN
-- content: MULTIMEDIA
-- content: SPEECH
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Broadband ISDN, Layer 3
+    content: ETSI Guide

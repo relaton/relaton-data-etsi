@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119403-2V1.3.12023-03
+id: ETSITS1194032V131202303
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
     Conformity Assessment; Part 2: Additional requirements for Conformity Assessment
     Bodies auditing Trust Service Providers that issue Publicly-Trusted Certificates'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66922
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11940302/01.03.01_60/ts_11940302v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 403-2 V1.3.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66922
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11940302/01.03.01_60/ts_11940302v010301p.pdf
+docidentifier:
+- content: ETSI TS 119 403-2 V1.3.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 403-2 V1.3.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The NWI plans to update Chapter 4.3 Audit Attestation to adopt the requirements
+- language: en
+  script: Latn
+  content: The NWI plans to update Chapter 4.3 Audit Attestation to adopt the requirements
     from the CCADB (Common CA Data Base)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

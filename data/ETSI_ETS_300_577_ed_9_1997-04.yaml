@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300577ed.91997-04
+id: ETSIETS300577ed9199704
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Radio transmission
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Radio transmission
     and reception (GSM 05.05)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4916
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300577/09_60/ets_300577e09p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 577 ed.9 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4916
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300577/09_60/ets_300577e09p.pdf
+docidentifier:
+- content: ETSI ETS 300 577 ed.9 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 577 ed.9 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunications Standard (ETS) defines the\r\nrequirements
+- language: en
+  script: Latn
+  content: "This European Telecommunications Standard (ETS) defines the\r\nrequirements
     for the transceiver of the pan-european digital mobile\r\ncellular and personal
     communication systems operating in the 900 MHz\r\nand 1800 MHz band (GSM 900 and
     DCS 1800).\r\nRequirements are defined for two categories of parameters:\r\n-
@@ -67,23 +77,33 @@ abstract:
     RF characteristics of repeaters are defined in Annex E of this\r\nETS. Annex D
     and E are the only sections of this ETS applicable to\r\nrepeaters. Annex E does
     not apply to the MS or BSS.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: RECEIVER
-- content: TRANSMITTER
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: TRANSMITTER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

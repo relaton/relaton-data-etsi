@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103100V2.1.12019-03
+id: ETSITR103100V211201903
+schema_version: v1.4.1
 title:
-- content: Operation of RFID in the UHF Band; Proposed improvements to be incorporated
+- language: en
+  script: Latn
+  content: Operation of RFID in the UHF Band; Proposed improvements to be incorporated
     into future versions of ETSI EN 302 208
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52950
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103100/02.01.01_60/tr_103100v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 100 V2.1.1 (2019-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52950
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103100/02.01.01_60/tr_103100v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 100 V2.1.1 (2019-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 100 V2.1.1 (2019-03)
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To address comments received when the new EN 302 208 V3.1.1 is applied
+- language: en
+  script: Latn
+  content: To address comments received when the new EN 302 208 V3.1.1 is applied
     by vendors and test labs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: RFID
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Report

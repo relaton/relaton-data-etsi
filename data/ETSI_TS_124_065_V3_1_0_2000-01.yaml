@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS124065V3.1.02000-01
+id: ETSITS124065V310200001
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); General Packet Radio Service (GPRS);
     Mobile Station (MS) - Serving GPRS Support Node (SGSN); Subnetwork Dependent Convergence
     Protocol (SNDCP) (3G TS 24.065 version 3.1.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9749
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124065/03.01.00_60/ts_124065v030100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 124 065 V3.1.0 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9749
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124065/03.01.00_60/ts_124065v030100p.pdf
+docidentifier:
+- content: ETSI TS 124 065 V3.1.0 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 124 065 V3.1.0 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.0
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHVzZXIgb2YgdGhlIHNlcnZpY2VzIHByb3ZpZGVkIGJ5IFNORENQIGlzIGEgcGFja2V0IGRhdGEgcHJvdG9jb2wgKFBEUCkgYXQgdGhlIG1vYmlsZSBTdGF0aW9uIChNUykgb3IgdGhlIFJlbGF5IGF0IHRoZSBTZXJ2aW5nIEdQUlMgU3VwcG9ydCBOb2RlIChTR1NOKS4gQWRkaXRpb25hbGx5LCBhIGNvbnRyb2wgZW50aXR5LCBlLmcuLCBBVCBjb21tYW5kIGludGVycHJldGVyLCBtYXkgYmUgYW4gU05EQ1AgdXNlci4gU05EQ1AgdXNlcyB0aGUgc2VydmljZXMgcHJvdmlkZWQgYnkgdGhlIExvZ2ljYWwgTGluayBDb250cm9sIChMTEMpIGxheWVyIGFuZCB0aGUgU2Vzc2lvbiBNYW5hZ2VtZW50IChTTSkgc3ViLWxheWVyLg0KVGhlIG1haW4gZnVuY3Rpb25zIG9mIFNORENQIGFyZToNCi1NdWx0aXBsZXhpbmcgb2Ygc2V2ZXJhbCBQRFBzLg0KLUNvbXByZXNzaW9uwqAvIGRlY29tcHJlc3Npb24gb2YgdXNlciBkYXRhLg0KLUNvbXByZXNzaW9uwqAvIGRlY29tcHJlc3Npb24gb2YgcHJvdG9jb2wgY29udHJvbCBpbmZvcm1hdGlvbi4NCi1TZWdtZW50YXRpb24gb2YgYSBuZXR3b3JrIHByb3RvY29sIGRhdGEgdW5pdCAoTi1QRFUpIGludG8gTG9naWNhbCBMaW5rIENvbnRyb2wgUHJvdG9jb2wgRGF0YSBVbml0cyAoTEwtUERVcykgYW5kIHJlLWFzc2VtYmx5IG9mIExMLVBEVXMgaW50byBhIE4tUERVLg0KR1NNwqAwNC42NSBpcyBhcHBsaWNhYmxlIHRvIEdQUlMgTVMgYW5kIFNHU04u
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The user of the services provided by SNDCP is a packet data protocol (PDP)
+    at the mobile Station (MS) or the Relay at the Serving GPRS Support Node (SGSN).
+    Additionally, a control entity, e.g., AT command interpreter, may be an SNDCP
+    user. SNDCP uses the services provided by the Logical Link Control (LLC) layer
+    and the Session Management (SM) sub-layer.\r\nThe main functions of SNDCP are:\r\n-Multiplexing
+    of several PDPs.\r\n-Compression/ decompression of user data.\r\n-Compression/
+    decompression of protocol control information.\r\n-Segmentation of a network protocol
+    data unit (N-PDU) into Logical Link Control Protocol Data Units (LL-PDUs) and
+    re-assembly of LL-PDUs into a N-PDU.\r\nGSM04.65 is applicable to GPRS MS and
+    SGSN."
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MM/CC/SM (lu)
+    content: Technical Specification

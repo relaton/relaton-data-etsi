@@ -1,69 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103632V1.1.12018-10
+id: ETSITS103632V111201810
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Open Mobile Radio Interface (OMRI); Application
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Open Mobile Radio Interface (OMRI); Application
     Programming Interface (API)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54727
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103632/01.01.01_60/ts_103632v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 632 V1.1.1 (2018-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54727
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103632/01.01.01_60/ts_103632v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 632 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 632 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U3BlY2lmeSBhbiBBUEkgd2hpY2ggY2FuIGJlIHVzZWQgYnkgYXBwbGljYXRpb24gZGV2ZWxvcGVycyB0byBnYWluIGFjY2VzcyB0byBicm9hZGNhc3QgcmFkaW8gdHVuZXJzIGluIGNvbnN1bWVyIGVsZWN0cm9uaWMgZGV2aWNlcyBzdWNoIGFzIHNtYXJ0cGhvbmVzLCB0YWJsZXRzIGFuZCBvdGhlciBkZXZpY2VzIGFuZCB3aGljaCBhbGxvdyB0aGUgZXhlY3V0aW9uIG9mICBwcm9ncmFtIGNvZGUgb2Z0ZW4gcmVmZXJyZWQgdG8gYXMgQXBwcyB1c2luZyB0aGUgSmF2YSBwcm9ncmFtbWluZyBsYW5ndWFnZSwgc2VsZWN0ZWQgYmVjYXVzZSBvZiBpdHMgY2xlYXIgYW5kIHdlbGwga25vd24gc3ludGF4LCBpdOKAmXMgaW1wbGVtZW50YXRpb24gb2YgYWxsIG5lY2Vzc2FyeSBwcm9ncmFtbWluZyBwYXJhZGlnbXMgKGUuZy4gT2JqZWN0IE9yaWVudGF0ZWQsIEdlbmVyaWNzLCBEYXRhIGVuY2Fwc3VsYXRpb24gKSBhbmQgaXRzIHVzZSBpbiB0aGUgbWFpbiB0YXJnZXQgcGxhdGZvcm0gb2YgcG9zc2libGUgZGV2aWNlcywgdGhlIEFuZHJvaWQgcGxhdGZvcm0u
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Specify an API which can be used by application developers to gain access
+    to broadcast radio tuners in consumer electronic devices such as smartphones,
+    tablets and other devices and which allow the execution of  program code often
+    referred to as Apps using the Java programming language, selected because of its
+    clear and well known syntax, its implementation of all necessary programming paradigms
+    (e.g. Object Orientated, Generics, Data encapsulation ) and its use in the main
+    target platform of possible devices, the Android platform.
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: AUDIO
-- content: BROADCASTING
-- content: DIGITAL
-- content: INTERFACE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

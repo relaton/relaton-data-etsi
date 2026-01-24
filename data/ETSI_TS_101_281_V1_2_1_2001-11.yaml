@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101281V1.2.12001-11
+id: ETSITS101281V121200111
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Terrestrial
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Terrestrial
     Flight Telecommunications System; Protocol to support GSM-A;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10607
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101281/01.02.01_60/ts_101281v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 281 V1.2.1 (2001-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10607
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101281/01.02.01_60/ts_101281v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 281 V1.2.1 (2001-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 281 V1.2.1 (2001-11)
 date:
 - type: published
-  value: 2001-11
+  at: 2001-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Aeronautical Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Development of a standard for a protocol to support GSM-A through TFTS.
+- language: en
+  script: Latn
+  content: Development of a standard for a protocol to support GSM-A through TFTS.
     Include Ground-to-Aircalling from GSM.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: GSM
-- content: RADIO
-- content: TFTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TFTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Aeronautical Radio
+    content: Technical Specification

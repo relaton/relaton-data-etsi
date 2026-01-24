@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101115V7.4.02000-05
+id: ETSITR101115V740200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
     for Radio Frequency (RF) requirements (GSM 05.50 version 7.4.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10274
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101115/07.04.00_60/tr_101115v070400p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 115 V7.4.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10274
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101115/07.04.00_60/tr_101115v070400p.pdf
+docidentifier:
+- content: ETSI TR 101 115 V7.4.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 115 V7.4.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.4.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "05.50; s31b; CR: A021; R98; 7.3.0; 7.4.0; BTS Synchronisation, Location
+- language: en
+  script: Latn
+  content: "05.50; s31b; CR: A021; R98; 7.3.0; 7.4.0; BTS Synchronisation, Location
     Accuracy and LMU update rates\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio
+    content: Technical Report

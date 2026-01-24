@@ -1,62 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300508ed.42000-11
+id: ETSIETS300508ed4200011
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); International
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); International
     Mobile station Equipment Identities (IMEI) (GSM 02.16 version 4.7.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10939
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300508/04_60/ets_300508e04p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 508 ed.4 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10939
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300508/04_60/ets_300508e04p.pdf
+docidentifier:
+- content: ETSI ETS 300 508 ed.4 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 508 ed.4 (2000-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CRs from TSG#8
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CRs from TSG#8
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: IMEI
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: IMEI
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services
+    content: European Telecommunication Standard

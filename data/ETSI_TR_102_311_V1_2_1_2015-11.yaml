@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102311V1.2.12015-11
+id: ETSITR102311V121201511
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; Specific aspects of the
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; Specific aspects of the
     spatial frequency reuse method
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43373
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102311/01.02.01_60/tr_102311v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 311 V1.2.1 (2015-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43373
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102311/01.02.01_60/tr_102311v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 311 V1.2.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 311 V1.2.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Presenting essential aspects of  the spatial frequency reuse method.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Presenting essential aspects of  the spatial frequency reuse method.
+status:
+  stage: Published
 keyword:
-- content: DFRS
-- content: DIGITAL
-- content: DRRS
-- content: FWA
-- content: MIMO
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: MIMO
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

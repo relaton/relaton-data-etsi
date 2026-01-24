@@ -1,73 +1,98 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102546V2.1.12021-10
+id: ETSITR102546V211202110
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Technical characteristics for Audio
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Technical characteristics for Audio
     PMSE equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53963
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102546/02.01.01_60/tr_102546v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 546 V2.1.1 (2021-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53963
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102546/02.01.01_60/tr_102546v020101p.pdf
+docidentifier:
+- content: ETSI TR 102 546 V2.1.1 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 546 V2.1.1 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update based on TR 102 546 with current technology including Conference
+- language: en
+  script: Latn
+  content: Update based on TR 102 546 with current technology including Conference
     and other systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: C-PMSE
-- content: handheld microphone
-- content: IEM
-- content: PWSN
-- content: RADIO
-- content: RADIO MIC
-- content: SRDOC
-- content: wireless microphone
-- content: WMAS
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: C-PMSE
+  - language: en
+    script: Latn
+    content: handheld microphone
+  - language: en
+    script: Latn
+    content: IEM
+  - language: en
+    script: Latn
+    content: PWSN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RADIO MIC
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: wireless microphone
+  - language: en
+    script: Latn
+    content: WMAS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

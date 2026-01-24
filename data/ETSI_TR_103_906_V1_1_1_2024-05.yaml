@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103906V1.1.12024-05
+id: ETSITR103906V111202405
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Study On Low Data
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Study On Low Data
     Rate Audio Support
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66927
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103906/01.01.01_60/tr_103906v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 906 V1.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66927
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103906/01.01.01_60/tr_103906v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 906 V1.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 906 V1.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Enhanced Cordless Telecommunications (DECT)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Investigation of support for lower data rate voice connections in DECT,
+- language: en
+  script: Latn
+  content: "Investigation of support for lower data rate voice connections in DECT,
     using half slots and/or another slot format lower than a full slot. The study
     includes the following aspects:\r\n- Codec requirements\r\n- Impact on audio delay
     of 20ms codec frame\r\n- Channel coding requirements\r\n- Optimizations to DECT
     slot formats (e.g. A field reduction, A/B field sharing etc.)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: capacity
-- content: CODEC
-- content: DECT
-- content: low power
-- content: ROBUSTNESS
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: capacity
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: low power
+  - language: en
+    script: Latn
+    content: ROBUSTNESS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital Enhanced Cordless Telecommunications (DECT)
+    content: Technical Report

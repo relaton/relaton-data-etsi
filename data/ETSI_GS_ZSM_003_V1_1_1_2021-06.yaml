@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM003V1.1.12021-06
+id: ETSIGSZSM003V111202106
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); End-to-end management
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); End-to-end management
     and orchestration of network slicing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54284
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/003/01.01.01_60/gs_ZSM003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 003 V1.1.1 (2021-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54284
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/003/01.01.01_60/gs_ZSM003v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 003 V1.1.1 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 003 V1.1.1 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Investigate the available standards and open source outputs relevant to
+- language: en
+  script: Latn
+  content: "Investigate the available standards and open source outputs relevant to
     support the requirements and solutions for the zero-touch, inclusive of 100% automation,
     management and orchestration of end to end network slicing. \r\nTaking into account
     identified gaps, specify the end to end zero-touch management solutions and management
@@ -54,20 +63,24 @@ abstract:
     the agreed zero touch end-to-end network and service management architecture.
     The available standards and open source outputs will be used and referred where
     appropriate in the end to end zero-touch management solution."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: network management
-- content: orchestration
-- content: SERVICE
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

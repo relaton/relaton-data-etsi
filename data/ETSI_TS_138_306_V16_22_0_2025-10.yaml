@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS138306V16.22.02025-10
+id: ETSITS138306V16220202510
+schema_version: v1.4.1
 title:
-- content: 5G; NR; User Equipment (UE) radio access capabilities (3GPP TS 38.306 version
+- language: en
+  script: Latn
+  content: 5G; NR; User Equipment (UE) radio access capabilities (3GPP TS 38.306 version
     16.22.0 Release 16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75723
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/138300_138399/138306/16.22.00_60/ts_138306v162200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 138 306 V16.22.0 (2025-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75723
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/138300_138399/138306/16.22.00_60/ts_138306v162200p.pdf
+docidentifier:
+- content: ETSI TS 138 306 V16.22.0 (2025-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 138 306 V16.22.0 (2025-10)
 date:
 - type: published
-  value: 2025-10
+  at: 2025-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.22.0
-revdate: 2025-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#109
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#109
+status:
+  stage: Published
 keyword:
-- content: 5G
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

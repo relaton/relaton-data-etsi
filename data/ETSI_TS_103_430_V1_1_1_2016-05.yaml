@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103430V1.1.12016-05
+id: ETSITS103430V111201605
+schema_version: v1.4.1
 title:
-- content: PowerLine Telecommunications (PLT); Specification on coexistence of VDSL2
+- language: en
+  script: Latn
+  content: PowerLine Telecommunications (PLT); Specification on coexistence of VDSL2
     and PLT modems in customer premises; Spectral management of PLT and VDSL2 transceivers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42475
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103430/01.01.01_60/ts_103430v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 430 V1.1.1 (2016-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42475
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103430/01.01.01_60/ts_103430v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 430 V1.1.1 (2016-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 430 V1.1.1 (2016-05)
 date:
 - type: published
-  value: 2016-05
+  at: 2016-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Based on works done in the STF384 and PLUGTEST on Coexistence of VDSL2
+- language: en
+  script: Latn
+  content: Based on works done in the STF384 and PLUGTEST on Coexistence of VDSL2
     operating on twisted telephone wires with PLT transceivers operating on electrical
     wires create interferences by coupling. This document describe technical specifications
     for coexistence processing recommendations to avoid the interferences between
     VDSL2 and PLT.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Powerline
-- content: VDSL2
+- taxon:
+  - language: en
+    script: Latn
+    content: Powerline
+  - language: en
+    script: Latn
+    content: VDSL2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Specification

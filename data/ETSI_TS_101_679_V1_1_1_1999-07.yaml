@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101679V1.1.11999-07
+id: ETSITS101679V111199907
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Broadband Integrated
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Broadband Integrated
     Services Digital Network (B-ISDN); DECT/B-ISDN interworking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6140
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101679/01.01.01_60/ts_101679v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 679 V1.1.1 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6140
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101679/01.01.01_60/ts_101679v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 679 V1.1.1 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 679 V1.1.1 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This specification specifies how B-ISDN services can be accessed with a
+- language: en
+  script: Latn
+  content: This specification specifies how B-ISDN services can be accessed with a
     DECT terminal and describes the interworking between B-ISDN and the DECT air interface.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: DECT
-- content: INTERWORKING
-- content: PROFILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network aspects
+    content: Technical Specification

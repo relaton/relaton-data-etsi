@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202211V1.1.12003-11
+id: ETSIES202211V111200311
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
     speech recognition; Extended front-end feature extraction algorithm; Compression
     algorithms; Back-end speech reconstruction algorithm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14415
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202200_202299/202211/01.01.01_60/es_202211v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 211 V1.1.1 (2003-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14415
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202200_202299/202211/01.01.01_60/es_202211v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 211 V1.1.1 (2003-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 211 V1.1.1 (2003-11)
 date:
 - type: published
-  value: 2003-11
+  at: 2003-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Aurora Project
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: " ES 201 108 v1.1.2 defines the standard for a Distributed Speech Recognition
+- language: en
+  script: Latn
+  content: " ES 201 108 v1.1.2 defines the standard for a Distributed Speech Recognition
     front-end using Mel-Cepstrum features. The purpose of this new work item is to
     enable improved performance for tonal language recognition and provide the ability
     to reconstruct a speech waveform from the DSR parameters. To achieve this additional
@@ -62,19 +71,21 @@ abstract:
     is not part of this standard. The decoding of the received parameters together
     with the DSR cepstra to recreate a speech waveform will also be defined within
     this workitem and become a standard."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PERFORMANCE
-- content: SPEECH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: STQ Aurora Project
+    content: ETSI Standard

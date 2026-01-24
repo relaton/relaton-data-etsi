@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR021ed.11991-09
+id: ETSIETR021ed1199109
+schema_version: v1.4.1
 title:
-- content: Advanced Testing Methods (ATM); Tutorial on protocol conformance testing
+- language: en
+  script: Latn
+  content: Advanced Testing Methods (ATM); Tutorial on protocol conformance testing
     (Especially OSI standards and profiles) (ETR/ATM-1002)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=427
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/021/01_60/etr_021e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 021 ed.1 (1991-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=427
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/021/01_60/etr_021e01p.pdf
+docidentifier:
+- content: ETSI ETR 021 ed.1 (1991-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 021 ed.1 (1991-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing Methodologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide ETSI TC S with a brief summary of current achievements and\r\nmain
+- language: en
+  script: Latn
+  content: "To provide ETSI TC S with a brief summary of current achievements and\r\nmain
     open issues on the subject\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: PICS
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Conformance Testing Methodologies
+    content: ETSI Technical Report

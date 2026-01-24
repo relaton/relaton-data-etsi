@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC035V3.1.12021-06
+id: ETSIGRMEC035V311202106
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Study on Inter-MEC systems and MEC-Cloud
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Study on Inter-MEC systems and MEC-Cloud
     systems coordination
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59227
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/035/03.01.01_60/gr_MEC035v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 035 V3.1.1 (2021-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59227
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/035/03.01.01_60/gr_MEC035v030101p.pdf
+docidentifier:
+- content: ETSI GR MEC 035 V3.1.1 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 035 V3.1.1 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will study the applicability of MEC specifications to inter-MEC
+- language: en
+  script: Latn
+  content: This work item will study the applicability of MEC specifications to inter-MEC
     systems and MEC-Cloud systems coordination that supports e.g., application instance
     relocation, synchronization, and similar functionalities. It will also consider
     enablement and/or enhancement of  functionalities for application lifecycle management
@@ -57,18 +66,18 @@ abstract:
     to close the gaps. The work item will consider the relevant work of other industry
     bodies relating to inter-MEC system communication (e.g. GSMA, 5GAA) and all relevant
     work done in ETSI.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HANDOVER
-- content: INTERWORKING
+- taxon:
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: INTERWORKING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

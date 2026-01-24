@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183032V1.1.12006-05
+id: ETSITR183032V111200605
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Feasibility study into mechanisms for the support of encapsulated
     ISUP information in IMS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23391
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183032/01.01.01_60/tr_183032v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 032 V1.1.1 (2006-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23391
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183032/01.01.01_60/tr_183032v010101p.pdf
+docidentifier:
+- content: ETSI TR 183 032 V1.1.1 (2006-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 032 V1.1.1 (2006-05)
 date:
 - type: published
-  value: 2006-05
+  at: 2006-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gYWRkcmVzcyBpc3N1ZXMgZm9yIHRoZSBzdXBwb3J0IG9mIElTVVAgaW5mb3JtYXRpb24gYmV0d2VlbiBJTVMgZW50aXRpZXMsIGkuZS4gTUdDRiB0byBNR0NGLCBNR0NGIHRvIEFTLCBBUyB0byBNR0NGLCBBR0NGIHRvIEFTLCBhbmQgcG9zc2libHkgQVMgdG8gQVMuIFRvIHByb3ZpZGUgYSBob21lIGZvciB0ZXh0IGZvciBpbmNvcnBvcmF0aW9uIGludG8gb3RoZXIgZGVsaXZlcmFibGVzIChlLmcuIERFUy9USVNQQU4tMDMwMTksIERFUy9USVNQQU4tMDMwNTMpIG9uY2UgdGhlIGRvY3VtZW50YXRpb24gc3RydWN0dXJlIGhhcyBiZWVuIGRlY2lkZWQuIFRoZSBUUiBzaG91bGQgY29uc2lkZXIgZXhpc3RpbmcgbWVjaGFuaXNtcyBsaWtlIFNJUCBvciBOU1MgYW5kIG90aGVyIHBvc3NpYmlsaXRpZXMgbGlrZSB0aGUgZW5jYXBzdWxhdGlvbiBvZiBhIOKAnFhNTC1JU1VQ4oCdLiBBIG51bWJlciBvZiBwb3RlbnRpYWwgdXNlIGNhc2VzIGV4aXN0IGZvciBzdWNoIGEgbWVjaGFuaXNtLCBlLmcuIFBTVE4gdG8gUFNUTiBicmlkZ2luZyB1c2luZyBJTVMsIHN1cHBvcnQgb2Ygc2VydmljZSBpbmZvcm1hdGlvbiB0byBBUyBmcm9tIE1HQ0YgaW4gc2ltdWxhdGlvbiBzZXJ2aWNlcywgc3VwcG9ydCBvZiB0aGUgSU1TIGJhc2VkIFBTVE4vSVNETiBlbXVsYXRpb24gc3Vic3lzdGVtLCBidXQgaXQgaXMgbm90IGluIHRoZSBzY29wZSBvZiB0aGlzIFRSIHRvIGRvY3VtZW50IGluZm9ybWF0aW9uIHJlbGF0aW5nIHRvIHVzZSBvZiB0aGlzIG1lY2hhbmlzbSB0byBzdXBwb3J0IHN1Y2ggdXNlIGNhc2VzIChlLmcuIERUUy9USVNQQU4tMDMwNDQpLiBTdWNoIHVzZSBvZiB0aGlzIG1lY2hhbmlzbSB3aWxsIGJlIGRlYWx0IHdpdGggYnkgb3RoZXIgd29yayBpdGVtcywgVGhpcyB3b3JrIGlzIGludGVuZGVkIGZvciByZWxlYXNlIDEsIGJ1dCBhIGRlY2lzaW9uIG9uIGluY29ycG9yYXRpb24gaW4gcmVsZWFzZSAxIHdpbGwgZGVwZW5kIG9uIHByb2dyZXNz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To address issues for the support of ISUP information between IMS entities,
+    i.e. MGCF to MGCF, MGCF to AS, AS to MGCF, AGCF to AS, and possibly AS to AS.
+    To provide a home for text for incorporation into other deliverables (e.g. DES/TISPAN-03019,
+    DES/TISPAN-03053) once the documentation structure has been decided. The TR should
+    consider existing mechanisms like SIP or NSS and other possibilities like the
+    encapsulation of a XML-ISUP. A number of potential use cases exist for such a
+    mechanism, e.g. PSTN to PSTN bridging using IMS, support of service information
+    to AS from MGCF in simulation services, support of the IMS based PSTN/ISDN emulation
+    subsystem, but it is not in the scope of this TR to document information relating
+    to use of this mechanism to support such use cases (e.g. DTS/TISPAN-03044). Such
+    use of this mechanism will be dealt with by other work items, This work is intended
+    for release 1, but a decision on incorporation in release 1 will depend on progress
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: ISUP
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: ISUP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201781V1.1.12000-07
+id: ETSIEG201781V111200007
+schema_version: v1.4.1
 title:
-- content: Intelligent Network (IN); Lawful interception
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7242
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201781/01.01.01_60/eg_201781v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 781 V1.1.1 (2000-07)
+- language: en
+  script: Latn
+  content: Intelligent Network (IN); Lawful interception
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7242
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201781/01.01.01_60/eg_201781v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 781 V1.1.1 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 781 V1.1.1 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this ETSI Guide is to cover the standardisation of functions
+- language: en
+  script: Latn
+  content: "The scope of this ETSI Guide is to cover the standardisation of functions
     to allow lawful interception of services running in on IN platform. These functions
     probably need to be defined in the SSP anc SCP, including the information flox
     between these entities. Alternatives will, however, be investigated. As specific
     parts of the information flow are confidential, security aspects need to be addressed.\r\n\r\nReference
     documents: ETR 330, ETR 331, ES 201 158."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: IN
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Security
+    content: ETSI Guide

@@ -1,67 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103484-1V9.0.02013-05
+id: ETSITS1034841V900201305
+schema_version: v1.4.1
 title:
-- content: 'Smart Cards; Test specification for the Secure Channel interface; Part
+- language: en
+  script: Latn
+  content: 'Smart Cards; Test specification for the Secure Channel interface; Part
     1: Terminal features (Release 9)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37164
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10348401/09.00.00_60/ts_10348401v090000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 484-1 V9.0.0 (2013-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37164
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10348401/09.00.00_60/ts_10348401v090000p.pdf
+docidentifier:
+- content: ETSI TS 103 484-1 V9.0.0 (2013-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 484-1 V9.0.0 (2013-05)
 date:
 - type: published
-  value: 2013-05
+  at: 2013-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.0.0
-revdate: 2013-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gd2lsbCBkZWxpdmVyIG5ldyBjb25mb3JtYW5jZSB0ZXN0IHNwZWNpZmljYXRpb25zIHZlcmlmeWluZyByZXF1aXJlbWVudHMgc3BlY2lmaWVkIGluIFRTIDEwMiA0ODQgYW5kIFRTIDEwMiAyMjEuIE9uZSBtdWx0aS1wYXJ0IHRlc3Qgc3BlY2lmaWNhdGlvbiB3aWxsIGJlIHByb2R1Y2VkLCBhZGRyZXNzaW5nIHRoZSBUZXJtaW5hbCBhc3BlY3RzIGFuZCB0aGUgVUlDQyBhc3BlY3RzLg0KDQpUaGVzZSBhc3BlY3RzIGluY2x1ZGUgdGhlIGFyY2hpdGVjdHVyZSwgZnVuY3Rpb25hbCBjYXBhYmlsaXRpZXMgYW5kIGNoYXJhY3RlcmlzdGljcyBvZiB0aGUgU2VjdXJlIENoYW5uZWwgcHJvdG9jb2wgYW5kIGl0cyBhc3NvY2lhdGVkIGludGVyZmFjZXMgdHJhbnNwb3J0ZWQgb3ZlciB0aGUgbGVnYWN5IFVJQ0MgaW50ZXJmYWNlIHNwZWNpZmllZCBpbiBUUyAxMDIgMjIxLiANCg0KVGhlIGRlbGl2ZXJlZCBjb250ZW50IHNoYWxsIGJlIGV4dGVuZGFibGUgdG8gdGhlIGltcGxlbWVudGF0aW9uIG9mIHRoZSBTZWN1cmUgQ2hhbm5lbCBvdmVyIHRoZSBVU0IgVUlDQyBpbnRlcmZhY2Ugc3BlY2lmaWVkIGluIFRTIDEwMiA2MDAgYXMgd2VsbCBhcyB0aGUgUGxhdGZvcm0gdG8gUGxhdGZvcm0gbW9kZSBvZiBvcGVyYXRpb24uIFRoZSBhZGRpdGlvbiBvZiB0ZXN0IGNhc2VzIHJlbGF0ZWQgdG8gVFMgMTAyIDYwMCBhbmQgUGxhdGZvcm0gdG8gUGxhdGZvcm0gYXJlIHBsYW5uZWQgZm9yIGEgbGF0ZXIgc3RhZ2UuIA0KDQpUaGlzIHdvcmsgaXRlbSB3aWxsIGZvY3VzIG9uIHRob3NlIGFzcGVjdHMgb2YgVFMgMTAyIDQ4NCBhbmQgVFMgMTAyIDIyMSB3aGljaCBhcmUgdXNlZCBieSBjdXN0b21lciBvcmdhbmlzYXRpb25zIGxpa2UgM0dQUCBhbmQgT01BIEJDQVNULiANCg0KVGhlIHNjb3BlIG9mIHdvcmsgdG8gYmUgdW5kZXJ0YWtlbiBjb3ZlcnMgdGhlIGZvbGxvd2luZzoNCsK3Q29sbGVjdGlvbiBvZiBjb25mb3JtYW5jZSByZXF1aXJlbWVudHMgc3BlY2lmaWVkIGZvciBTZWN1cmUgQ2hhbm5lbCBpbiBUUyAxMDIgNDg0IGFuZCBUUyAxMDIgMjIxIChSZXF1aXJlbWVudHMgQ2FwdHVyaW5nKQ0KwrdEZWZpbml0aW9uIG9mIHRoZSB0ZXN0IGVudmlyb25tZW50IGFuZCB0aGUgdGVzdCBtZXRob2RzDQrCt1NwZWNpZmljYXRpb24gb2YgdGVzdCBjYXNlcyBmb3IgdGhlIA0Kb1NlY3VyZWQgQVBEVSAtIEFwcGxpY2F0aW9uIHRvIEFwcGxpY2F0aW9uDQpvS2V5IGFncmVlbWVudCAoUHJlLXNoYXJlZCBLZXlzKQ0KU3VwcG9ydGluZyBjb21wYW5pZXM6DQpDT01QUklPTiwNCklsbHVtaW5pc21vLA0KTk9LSUEsDQpTYWdlbSBPcmdhIEdtYkgsDQpWQUxJRA0KVGhlIFdJRCBkZXNjcmlwdGlvbiBpcyBmb3VuZCBpbiBTQ1AoMTEpMDE3NnIx
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Work Item will deliver new conformance test specifications verifying
+    requirements specified in TS 102 484 and TS 102 221. One multi-part test specification
+    will be produced, addressing the Terminal aspects and the UICC aspects.\r\n\r\nThese
+    aspects include the architecture, functional capabilities and characteristics
+    of the Secure Channel protocol and its associated interfaces transported over
+    the legacy UICC interface specified in TS 102 221. \r\n\r\nThe delivered content
+    shall be extendable to the implementation of the Secure Channel over the USB UICC
+    interface specified in TS 102 600 as well as the Platform to Platform mode of
+    operation. The addition of test cases related to TS 102 600 and Platform to Platform
+    are planned for a later stage. \r\n\r\nThis work item will focus on those aspects
+    of TS 102 484 and TS 102 221 which are used by customer organisations like 3GPP
+    and OMA BCAST. \r\n\r\nThe scope of work to be undertaken covers the following:\r\nCollection
+    of conformance requirements specified for Secure Channel in TS 102 484 and TS
+    102 221 (Requirements Capturing)\r\nDefinition of the test environment and the
+    test methods\r\nSpecification of test cases for the \r\noSecured APDU - Application
+    to Application\r\noKey agreement (Pre-shared Keys)\r\nSupporting companies:\r\nCOMPRION,\r\nIlluminismo,\r\nNOKIA,\r\nSagem
+    Orga GmbH,\r\nVALID\r\nThe WID description is found in SCP(11)0176r1"
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SMART CARD
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP TEST
+    content: Technical Specification

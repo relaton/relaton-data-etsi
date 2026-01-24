@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303446-2V1.2.12019-10
+id: ETSIEN3034462V121201910
+schema_version: v1.4.1
 title:
-- content: 'ElectroMagnetic Compatibility (EMC) standard for combined and/or integrated
+- language: en
+  script: Latn
+  content: 'ElectroMagnetic Compatibility (EMC) standard for combined and/or integrated
     radio and non-radio equipment; Part 2: Requirements for equipment intended to
     be used in industrial locations'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56802
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/30344602/01.02.01_60/en_30344602v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 446-2 V1.2.1 (2019-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56802
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/30344602/01.02.01_60/en_30344602v010201p.pdf
+docidentifier:
+- content: ETSI EN 303 446-2 V1.2.1 (2019-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 446-2 V1.2.1 (2019-10)
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2019-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Part of a series of standards for combined and/or integrated radio and
+- language: en
+  script: Latn
+  content: 'Part of a series of standards for combined and/or integrated radio and
     non-radio equipment (EN 303 466-2), where part 1 for household appliances is currently
     developed under ERM-EMC-348. This part of the standard sets requirements for radio
     enabled products designed for and intendend to be used in industrial locations
@@ -103,19 +112,21 @@ abstract:
     EMC requirements and specific test methods 20.EN 61800-3/A1:2012-03Adjustable
     speed electrical power drive systems. EMC requirements and specific test methods
     (list to be completed during creation of the standard) '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: EMISSION
-- content: IMMUNITY
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: EMISSION
+  - language: en
+    script: Latn
+    content: IMMUNITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

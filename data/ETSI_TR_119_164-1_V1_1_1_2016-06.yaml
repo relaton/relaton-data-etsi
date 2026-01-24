@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119164-1V1.1.12016-06
+id: ETSITR1191641V111201606
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Associated Signature
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Associated Signature
     Containers (ASiC) - Testing Conformance and Interoperability; Part 1: Overview'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41289
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119100_119199/11916401/01.01.01_60/tr_11916401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 164-1 V1.1.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41289
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119100_119199/11916401/01.01.01_60/tr_11916401v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 164-1 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 164-1 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This multi-part deliverable provides technical specifications for helping
+- language: en
+  script: Latn
+  content: "This multi-part deliverable provides technical specifications for helping
     implementers and accelerating the development of ASiC containers creation and
     validation applications. The test results may also be used in conformity assessment
     for signature creation and validation applications (EN 19 103) with policies requiring
@@ -56,23 +65,33 @@ abstract:
     Additionally, it will include the\r\nspecifications required for building software
     tools for actually testing technical compliance of ASiC against the relevant ASiC
     related technical specifications.\r\nThis part 1 provides an overview of the series."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASiC
-- content: CONFORMANCE
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ASiC
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

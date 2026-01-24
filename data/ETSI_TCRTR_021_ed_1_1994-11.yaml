@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR021ed.11994-11
+id: ETSITCRTR021ed1199411
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Amendment of the CCITT Recommendation
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Amendment of the CCITT Recommendation
     X.31, case B Packet Mode Bearer Service (PMBS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=999
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/021/01_60/tcrtr_021e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 021 ed.1 (1994-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=999
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/021/01_60/tcrtr_021e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 021 ed.1 (1994-11)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 021 ed.1 (1994-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provision of binding guidelines for development of stage 1, 2 & 3 of\r\nX.31
+- language: en
+  script: Latn
+  content: "Provision of binding guidelines for development of stage 1, 2 & 3 of\r\nX.31
     case B PMBS standards & the inclusion of private network\r\nrequirements.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: PACKET MODE
-- content: PMBS
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: PMBS
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: Technical Committee Reference Technical Report

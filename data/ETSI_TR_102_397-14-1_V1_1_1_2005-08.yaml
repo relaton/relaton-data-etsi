@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102397-14-1V1.1.12005-08
+id: ETSITR102397141V111200508
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Mapping of Parlay X Web Services to Parlay/OSA
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Mapping of Parlay X Web Services to Parlay/OSA
     APIs; Part 14: Presence Mapping; Sub-part 1: Mapping to Presence and Availability
     Management'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21126
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/1023971401/01.01.01_60/tr_1023971401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 397-14-1 V1.1.1 (2005-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21126
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/1023971401/01.01.01_60/tr_1023971401v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 397-14-1 V1.1.1 (2005-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 397-14-1 V1.1.1 (2005-08)
 date:
 - type: published
-  value: 2005-08
+  at: 2005-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification contains a Web Services specification, specified using
+- language: en
+  script: Latn
+  content: "This specification contains a Web Services specification, specified using
     WSDL.  This is an abstraction from the OSA APIs in ES 202 915.  This can be deployed
     on top of the OSA APIs, or can be deployed independantly from OSA.\r\nThis specification
     exists also in 3GPP Release 6 as TS 29.199, and is otherwise know as Parlay X."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: OSA
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Report

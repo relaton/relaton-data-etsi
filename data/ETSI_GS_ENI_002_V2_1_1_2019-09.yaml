@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSENI002V2.1.12019-09
+id: ETSIGSENI002V211201909
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); ENI requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54722
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/002/02.01.01_60/gs_ENI002v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ENI 002 V2.1.1 (2019-09)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); ENI requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54722
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/002/02.01.01_60/gs_ENI002v020101p.pdf
+docidentifier:
+- content: ETSI GS ENI 002 V2.1.1 (2019-09)
   type: ETSI
   primary: true
 docnumber: ETSI GS ENI 002 V2.1.1 (2019-09)
 date:
 - type: published
-  value: 2019-09
+  at: 2019-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document specifies the requirements related to ENI.  This includes
+- language: en
+  script: Latn
+  content: "This document specifies the requirements related to ENI.  This includes
     the common requirements for both fixed and mobile, fixed specific requirements
     and mobile specific requirements. The ENI requirements are based on the ENI use
     case document and identified requirements from other SDOs. These requirements
     will form the base for the architecture design work. \r\n \r\nThis revision will
     update the existing requirements where needed and add new functional and non-functional,
     security and architectural requirements."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: MANAGEMENT
-- content: NETWORK
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Specification

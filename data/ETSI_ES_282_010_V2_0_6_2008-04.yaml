@@ -1,68 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIES282010V2.0.62008-04
+id: ETSIES282010V206200804
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Charging management [Endorsement of 3GPP TS 32.240 Release
     7, 3GPP TS 32.260 Release 7, 3GPP TS 32.297 Release 7, 3GPP TS 32.298 Release
     7 and 3GPP TS 32.299 Release 7, modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25081
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/282000_282099/282010/02.00.06_60/es_282010v020006p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 282 010 V2.0.6 (2008-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25081
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/282000_282099/282010/02.00.06_60/es_282010v020006p.pdf
+docidentifier:
+- content: ETSI ES 282 010 V2.0.6 (2008-04)
   type: ETSI
   primary: true
 docnumber: ETSI ES 282 010 V2.0.6 (2008-04)
 date:
 - type: published
-  value: 2008-04
+  at: 2008-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.6
-revdate: 2008-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    Q2hhcmdpbmcgaW4gUjIgY292ZXJzIHRoZSBmb2xsb3dpbmcgaXNzdWVzOg0KwrdPbmxpbmUgY2hhcmdpbmcNCsK3Q2hhcmdpbmcgb2YgbmV3IHNlcnZpY2VzDQrCt0Nvb3JkaW5hdGlvbiB3aXRoIFJBQ1MsIGluIG9yZGVyIHRvIHByb3ZpZGUgUkFDUyBzdXBwb3J0IG9mIGNoYXJnaW5nLg0KTm90ZTogDQpPbmxpbmUgQ2hhcmdpbmcgYWxzbyBjb21wcmlzZXMgYSBjb3JyZWxhdGlvbiBiZXR3ZWVuIG9ubGluZSBjaGFyZ2luZyBhbmQgQW9DLCBhcyB3ZWxsIGFzIHJlYWx0aW1lIHRyYW5zZmVyIG9mIHRhcmlmZiBpbmZvcm1hdGlvbiB0aHJvdWdoIE5OSS1pbnRlcmZhY2VzIChTSVAtU0lQIGFuZCBTSVAtSVNVUCkuDQpDaGFyZ2luZyBvZiBuZXcgc2VydmljZXMgbmVlZHMgdG8gYmUgdHJpZ2dlcmVkIGJ5IHNlcnZpY2UtcmVsYXRlZCByZXF1aXJlbWVudHMgKGUuZy4gSVBUViwgRk1DKSBvciBhcmNoaXRlY3R1cmUgZW5oYW5jZW1lbnRzIA0KKGUuZy4gSUJDRiBGdW5jdGlvbmFsaXR5IGluIGludGVyY29ubmVjdGlvbiBzY2VuYXJpb3MpDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Charging in R2 covers the following issues:\r\nOnline charging\r\nCharging
+    of new services\r\nCoordination with RACS, in order to provide RACS support of
+    charging.\r\nNote: \r\nOnline Charging also comprises a correlation between online
+    charging and AoC, as well as realtime transfer of tariff information through NNI-interfaces
+    (SIP-SIP and SIP-ISUP).\r\nCharging of new services needs to be triggered by service-related
+    requirements (e.g. IPTV, FMC) or architecture enhancements \r\n(e.g. IBCF Functionality
+    in interconnection scenarios)\r\n"
+status:
+  stage: Published
 keyword:
-- content: CHARGING
-- content: ENDORSEMENT
-- content: MANAGEMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARGING
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MANAGEMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Standard

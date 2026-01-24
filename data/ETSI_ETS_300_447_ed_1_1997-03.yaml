@@ -1,64 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300447ed.11997-03
+id: ETSIETS300447ed1199703
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for VHF FM broadcasting transmitters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1830
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300447/01_60/ets_300447e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 447 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1830
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300447/01_60/ets_300447e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 447 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 447 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for VHF FM broadcast transmitters.\r\nThe
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for VHF FM broadcast transmitters.\r\nThe
     ETS together with ETS 300 384\r\nmay be used to demonstrate compliance with the
     requirements\r\nof the EMC Directive 89/336/EEC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: EMC
-- content: FM
-- content: TESTING
-- content: TRANSMITTER
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: FM
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSMITTER
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

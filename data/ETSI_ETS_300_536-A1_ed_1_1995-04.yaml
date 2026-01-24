@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300536/A1ed.11995-04
+id: ETSIETS300536A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Technical
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Technical
     realization of Short Message Service (SMS) Point-to-Point (PP) (GSM 03.40)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3171
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300536/01_60/ets_300536e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 536/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3171
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300536/01_60/ets_300536e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 536/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 536/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON 1:\r\nTo enable the SC to discard duplicate SMs.\r\n CONSEQUENCES
+- language: en
+  script: Latn
+  content: "REASON 1:\r\nTo enable the SC to discard duplicate SMs.\r\n CONSEQUENCES
     OF NON-ACCEPTANCE 1:\r\nSM duplication may in certain cases cause severe inconvenience
     to SMS\r\nusers.\r\nREASON 2:\r\nA number of situations can occur at the Visited
     MSC whereby an SM\r\ndelivery attempt to an MS can fail due to congestion. The
@@ -48,23 +58,33 @@ abstract:
     NON-ACCEPTANCE 2:\r\nThe SC is unable to distinguish between \"congestion\" and
     \"system\r\nfailure\" and therefore cannot take action which would be more\r\nappropriate
     to a congestion situation.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: POINT-TO-POINT
-- content: RADIO
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103757V1.1.22021-01
+id: ETSITS103757V112202101
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Asynchronous Contact Tracing System; Fighting pandemic disease
+- language: en
+  script: Latn
+  content: SmartM2M; Asynchronous Contact Tracing System; Fighting pandemic disease
     with Internet of Things (IoT)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62296
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103757/01.01.02_60/ts_103757v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 757 V1.1.2 (2021-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62296
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103757/01.01.02_60/ts_103757v010102p.pdf
+docidentifier:
+- content: ETSI TS 103 757 V1.1.2 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 757 V1.1.2 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Asynchronous Contact Tracing (ACT) traces the IoT connected object that
+- language: en
+  script: Latn
+  content: "Asynchronous Contact Tracing (ACT) traces the IoT connected object that
     may have been infected by the Covid-19 virus (or future pandemic viruses).\r\nThis
     shifts the paradigm, from searching for a person in the process of infecting another
     to the tracing of both potential contamination and infections, and leveraging
@@ -62,25 +71,39 @@ abstract:
     it will preserve the user's privacy in accordance with GDPR and/or other regional
     requirements not requiring the transmission of any personal information by the
     user. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: application layer
-- content: Covid
-- content: IoT
-- content: oneM2M
-- content: Pandemic
-- content: SAREF
-- content: Semantic
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: application layer
+  - language: en
+    script: Latn
+    content: Covid
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: Pandemic
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

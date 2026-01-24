@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201684V1.1.11999-08
+id: ETSIES201684V111199908
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); File Transfer Profile; B-channel
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); File Transfer Profile; B-channel
     aggregation and synchronous compression
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7558
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201600_201699/201684/01.01.01_60/es_201684v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 684 V1.1.1 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7558
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201600_201699/201684/01.01.01_60/es_201684v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 684 V1.1.1 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 684 V1.1.1 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Define the mechanism to extend throughput of file transfer (FT) applications
+- language: en
+  script: Latn
+  content: "Define the mechanism to extend throughput of file transfer (FT) applications
     as defined in ETS 300 383 and ETS 300 388 using B channel aggregation and/or compression\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: B-CHANNEL
-- content: FT
-- content: ISDN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: B-CHANNEL
+  - language: en
+    script: Latn
+    content: FT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Digital Terminals & Access
+    content: ETSI Standard

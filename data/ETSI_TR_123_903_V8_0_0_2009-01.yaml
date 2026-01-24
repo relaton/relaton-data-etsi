@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR123903V8.0.02009-01
+id: ETSITR123903V800200901
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Redial solution for
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Redial solution for
     voice-video switching (3GPP TR 23.903 version 8.0.0 Release 8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29574
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/123900_123999/123903/08.00.00_60/tr_123903v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 123 903 V8.0.0 (2009-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29574
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/123900_123999/123903/08.00.00_60/tr_123903v080000p.pdf
+docidentifier:
+- content: ETSI TR 123 903 V8.0.0 (2009-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 123 903 V8.0.0 (2009-01)
 date:
 - type: published
-  value: 2009-01
+  at: 2009-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2009-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-42
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-42
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture
+    content: Technical Report

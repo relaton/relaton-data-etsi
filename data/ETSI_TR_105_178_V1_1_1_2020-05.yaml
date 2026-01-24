@@ -1,72 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSITR105178V1.1.12020-05
+id: ETSITR105178V111202005
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM); Comparison of
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM); Comparison of
     sustainability parameters between internal and external, including "cloud-based",
     ICT hosting solutions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57852
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/105100_105199/105178/01.01.01_60/tr_105178v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 105 178 V1.1.1 (2020-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57852
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/105100_105199/105178/01.01.01_60/tr_105178v010101p.pdf
+docidentifier:
+- content: ETSI TR 105 178 V1.1.1 (2020-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 105 178 V1.1.1 (2020-05)
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Sustainable Digital Multiservice Communities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgd2lsbCBwcm92aWRlIGEgY29tcGFyaXNvbiBiZXR3ZWVuIGJvdGggaW50ZXJuYWwgYW5kIGV4dGVybmFsIOKAnGNsb3VkLWJhc2Vk4oCdIHNvbHV0aW9ucyB3aXRoIGEgbGlmZSBjeWNsZSBhbmFseXNpcyBhZGRyZXNzaW5nOg0KYSllbmVyZ3kgY29uc3VtcHRpb247DQpiKWdyZWVuLWhvdXNlIGdhcyAoR0hHKSBlbWlzc2lvbjsNCmMpd2F0ZXIgY29uc3VtcHRpb247DQpkKXdhc3RlIG1hbmFnZW1lbnQgZnJvbSBwcm9kdWN0aW9uIHRvIGVuZC1vZi1saWZlIG1hbmFnZW1lbnQ=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document will provide a comparison between both internal and
+    external cloud-based solutions with a life cycle analysis addressing:\r\na)energy
+    consumption;\r\nb)green-house gas (GHG) emission;\r\nc)water consumption;\r\nd)waste
+    management from production to end-of-life management"
+status:
+  stage: Published
 keyword:
-- content: Cloud computing
-- content: CO2 emission
-- content: energy consumption
-- content: e-waste management
-- content: green-house gas emission
-- content: ICT site hosting
-- content: Sustainability
-- content: water consumption
+- taxon:
+  - language: en
+    script: Latn
+    content: Cloud computing
+  - language: en
+    script: Latn
+    content: CO2 emission
+  - language: en
+    script: Latn
+    content: energy consumption
+  - language: en
+    script: Latn
+    content: e-waste management
+  - language: en
+    script: Latn
+    content: green-house gas emission
+  - language: en
+    script: Latn
+    content: ICT site hosting
+  - language: en
+    script: Latn
+    content: Sustainability
+  - language: en
+    script: Latn
+    content: water consumption
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Sustainable Digital Multiservice Communities
+    content: Technical Report

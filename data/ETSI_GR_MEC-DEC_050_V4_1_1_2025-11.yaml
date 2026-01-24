@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC-DEC050V4.1.12025-11
+id: ETSIGRMECDEC050V411202511
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); ESTIMED Use Cases & Recommendations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72028
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/050/04.01.01_60/gr_MEC-DEC050v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC-DEC 050 V4.1.1 (2025-11)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); ESTIMED Use Cases & Recommendations
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72028
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/050/04.01.01_60/gr_MEC-DEC050v040101p.pdf
+docidentifier:
+- content: ETSI GR MEC-DEC 050 V4.1.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC-DEC 050 V4.1.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Deployment and ECOsystem DEvelopment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Detailed description of selected use cases and identification of architectural
+- language: en
+  script: Latn
+  content: 'Detailed description of selected use cases and identification of architectural
     evolutions (components, required mappings, etc.) to the MEC framework. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: MEC
-- content: oneM2M
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: oneM2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Deployment and ECOsystem DEvelopment
+    content: Group Report

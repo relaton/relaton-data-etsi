@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA023V3.1.12017-07
+id: ETSIGRNFVIFA023V311201707
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Management and Orchestration; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Management and Orchestration; Report
     on Policy Management in Mano; Release 3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/023/03.01.01_60/gr_NFV-IFA023v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 023 V3.1.1 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/023/03.01.01_60/gr_NFV-IFA023v030101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 023 V3.1.1 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 023 V3.1.1 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This informative work aims at developing the use cases of applying policy
+- language: en
+  script: Latn
+  content: 'This informative work aims at developing the use cases of applying policy
     framework in the NFV MANO functionality and identifying & analysis of potential
     MANO architecture, interface and work flow impacts introduced by policy management. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANO
-- content: NFV
-- content: policy management
+- taxon:
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: policy management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

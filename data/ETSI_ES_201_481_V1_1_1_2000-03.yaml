@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201481V1.1.12000-03
+id: ETSIES201481V111200003
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); ISDN service enhancements based
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); ISDN service enhancements based
     on DDI ranges for call diversion supplementary services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6621
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201400_201499/201481/01.01.01_60/es_201481v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 481 V1.1.1 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6621
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201400_201499/201481/01.01.01_60/es_201481v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 481 V1.1.1 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 481 V1.1.1 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering/Addressing, Routeing and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To identify and investigate if there are additional requirements to ISDN
+- language: en
+  script: Latn
+  content: To identify and investigate if there are additional requirements to ISDN
     services, as a result of user requirements on DDI ranges.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DDI
-- content: ISDN
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: DDI
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Numbering/Addressing, Routeing and Services
+    content: ETSI Standard

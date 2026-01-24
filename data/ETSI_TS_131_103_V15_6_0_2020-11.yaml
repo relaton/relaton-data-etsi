@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS131103V15.6.02020-11
+id: ETSITS131103V1560202011
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); LTE; 5G; Characteristics of the IP Multimedia
     Services Identity Module (ISIM) application (3GPP TS 31.103 version 15.6.0 Release
     15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61471
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131103/15.06.00_60/ts_131103v150600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 131 103 V15.6.0 (2020-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61471
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131103/15.06.00_60/ts_131103v150600p.pdf
+docidentifier:
+- content: ETSI TS 131 103 V15.6.0 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 131 103 V15.6.0 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Application Aspects (formely T3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.6.0
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CT#89-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CT#89-e
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart Card Application Aspects (formely T3)
+    content: Technical Specification

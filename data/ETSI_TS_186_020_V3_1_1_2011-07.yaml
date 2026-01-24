@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186020V3.1.12011-07
+id: ETSITS186020V311201107
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); IMS-based IPTV interoperability test specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34189
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/186020/03.01.01_60/ts_186020v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 020 V3.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34189
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/186020/03.01.01_60/ts_186020v030101p.pdf
+docidentifier:
+- content: ETSI TS 186 020 V3.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 020 V3.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work is to specify interoperability tests for IMS-based IPTV Rel.3
+- language: en
+  script: Latn
+  content: This work is to specify interoperability tests for IMS-based IPTV Rel.3
     covering all the main IPTV functions via different methods as well as RACS integration
     and new R3 IPTV service procedures. Interoperability tests should include checking
     of high level message flows at key standardized reference points in the TISPAN
     IPTV infrastructure, also including customer premises network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: INTEROPERABILITY
-- content: IPTV
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IPTV
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Testing
+    content: Technical Specification

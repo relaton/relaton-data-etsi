@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300132-3V2.3.12023-01
+id: ETSIEN3001323V231202301
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); Power supply interface at the input of
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); Power supply interface at the input of
     Information and Communication Technology (ICT) equipment; Part 3: Up to 400 V
     Direct Current (DC)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66179
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300100_300199/30013203/02.03.01_60/en_30013203v020301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 132-3 V2.3.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66179
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300100_300199/30013203/02.03.01_60/en_30013203v020301p.pdf
+docidentifier:
+- content: ETSI EN 300 132-3 V2.3.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 132-3 V2.3.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.3.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of inrush current requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of inrush current requirements.
+status:
+  stage: Published
 keyword:
-- content: ENVIRONMENT
-- content: INTERFACE
-- content: POWER SUPPLY
+- taxon:
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Power Supply
+    content: European Standard

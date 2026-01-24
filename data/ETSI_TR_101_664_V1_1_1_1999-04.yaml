@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101664V1.1.11999-04
+id: ETSITR101664V111199904
+schema_version: v1.4.1
 title:
-- content: Intelligent Network (IN); IN interconnect security features
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4705
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101664/01.01.01_60/tr_101664v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 664 V1.1.1 (1999-04)
+- language: en
+  script: Latn
+  content: Intelligent Network (IN); IN interconnect security features
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4705
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101664/01.01.01_60/tr_101664v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 664 V1.1.1 (1999-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 664 V1.1.1 (1999-04)
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document implies :\r\n- a selection of security facilities to be
+- language: en
+  script: Latn
+  content: "This document implies :\r\n- a selection of security facilities to be
     settled in the SCF-SDF and\r\nSCF-SCF interface\r\n- the place of these facilities
     and mechanisms (signalling, IN, TMN)\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: Technical Report

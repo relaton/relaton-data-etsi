@@ -1,73 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101510-1V1.1.12000-01
+id: ETSITR1015101V111200001
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Security aspects of Switching Control Function
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Security aspects of Switching Control Function
     (SCF) - Service Switching Function (SSF) interconnection between networks; Part
     1: Capability Set 1 (CS1) based operations'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6496
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10151001/01.01.01_60/tr_10151001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 510-1 V1.1.1 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6496
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10151001/01.01.01_60/tr_10151001v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 510-1 V1.1.1 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 510-1 V1.1.1 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To consider Security issues which arise from the interconnection of two
+- language: en
+  script: Latn
+  content: "To consider Security issues which arise from the interconnection of two
     or more INs, when the interface of interconnection is from the SCF or SDF in one
     network to an SSF in another network. This work will be fed in to a revision of
     WI NA-061204. The proposed use of such interfaces in CAMEL phase 1, and other
     talk of such interfaces being used prompts careful study of the security implications,
     which have not previously been addressed.\r\n\r\nReference documents: DTR/NA-061203
     and DTR/NA-061204."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS1
-- content: IN
-- content: INTERWORKING
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

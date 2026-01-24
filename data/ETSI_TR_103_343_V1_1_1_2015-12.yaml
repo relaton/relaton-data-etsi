@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103343V1.1.12015-12
+id: ETSITR103343V111201512
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    UG93ZXIgTGluZSBUZWxlY29tbXVuaWNhdGlvbnMgKFBMVCk7IFBvd2VybGluZSBIRE1Jwq4gYW5hbHlzaXMgZm9yIHZlcnkgc2hvcnQgcmFuZ2UgbGluayBIRCBhbmQgVUhEIGFwcGxpY2F0aW9ucw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43384
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103343/01.01.01_60/tr_103343v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 343 V1.1.1 (2015-12)
+- language: en
+  script: Latn
+  content: Power Line Telecommunications (PLT); Powerline HDMI analysis for very short
+    range link HD and UHD applications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43384
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103343/01.01.01_60/tr_103343v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 343 V1.1.1 (2015-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 343 V1.1.1 (2015-12)
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Recommendations for the specification of Powerline Very High Bit Rate for
+- language: en
+  script: Latn
+  content: Recommendations for the specification of Powerline Very High Bit Rate for
     short range links.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Powerline
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: Powerline
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Report

@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300364ed.11994-11
+id: ETSIETS300364ed1199411
+schema_version: v1.4.1
 title:
-- content: Private Telecommunication Network (PTN); Inter-exchange signalling protocol;
+- language: en
+  script: Latn
+  content: Private Telecommunication Network (PTN); Inter-exchange signalling protocol;
     Do not disturb and do not disturb override supplementary services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1232
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300364/01_60/ets_300364e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 364 ed.1 (1994-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1232
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300364/01_60/ets_300364e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 364 ed.1 (1994-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 364 ed.1 (1994-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Do not disturb and do not disturb override supplementary services\r\nat
+- language: en
+  script: Latn
+  content: "Do not disturb and do not disturb override supplementary services\r\nat
     Q. See DTR/ECMA-0002 (ECMA-TR/SVC) for service description. See\r\nENV41005 for
     definition of stage 3. See ENV41004 for definition of Q\r\nreference point. To
     contain PICS proforma.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: DND
-- content: PISN
-- content: QSIG
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DND
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Telecommunication Standard

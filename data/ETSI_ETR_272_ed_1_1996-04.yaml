@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR272ed.11996-04
+id: ETSIETR272ed1199604
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Audio-visual retrieval services on narrow-band
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Audio-visual retrieval services on narrow-band
     networks; Priority setting and description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3420
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/272/01_60/etr_272e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 272 ed.1 (1996-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3420
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/272/01_60/etr_272e01p.pdf
+docidentifier:
+- content: ETSI ETR 272 ed.1 (1996-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 272 ed.1 (1996-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "a) Study the embedding of SBV videotex protocols within the ITU-T\r\nT.120
+- language: en
+  script: Latn
+  content: "a) Study the embedding of SBV videotex protocols within the ITU-T\r\nT.120
     series of Recommendations, paying attention to X.25 and H.221\r\nbeing side by
     side;\r\nb) In conjunction with STCs TE4 and TE10, and taking into account the\r\ndecision
     of TC TE (12/94) on initial priority setting, establish a\r\npriority list of
@@ -50,18 +60,18 @@ abstract:
     Define the interworking units (if required by the scenario.\r\nc) Study the possible
     constraints of the possible scenarios on the\r\nhardware and software of audiovisual
     terminals.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+    content: ETSI Technical Report

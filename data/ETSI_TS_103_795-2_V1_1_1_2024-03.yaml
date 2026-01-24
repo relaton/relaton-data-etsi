@@ -1,69 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103795-2V1.1.12024-03
+id: ETSITS1037952V111202403
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q29yZSBOZXR3b3JrIGFuZCBJbnRlcm9wZXJhYmlsaXR5IFRlc3RpbmcgKElOVCk7IE5ldHdvcmsgSW50ZXJvcGVyYWJpbGl0eSBUZXN0IERlc2NyaXB0aW9uIGZvciBlbWVyZ2VuY3kgc2VydmljZXMgb3ZlciBWb0xURSAoM0dQUOKEoiBSZWxlYXNlIDE1KTsgUGFydCAyOiBUZXN0IERlc2NyaXB0aW9ucw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/10379502/01.01.01_60/ts_10379502v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 795-2 V1.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Network Interoperability
+    Test Description for emergency services over VoLTE (3GPP Release 15); Part 2:
+    Test Descriptions'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/10379502/01.01.01_60/ts_10379502v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 795-2 V1.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 795-2 V1.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Test description of emergency call and NG eCall interoperability covers
+- language: en
+  script: Latn
+  content: Test description of emergency call and NG eCall interoperability covers
     non-roaming and roaming test scenarios over VoLTE . Test descriptions provide
     monitoring points and test specifications in prose details with focus on different
     interworking and interoperability interfaces.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: TESTING
-- content: TSS&amp;TP
-- content: VoLTE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: VoLTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

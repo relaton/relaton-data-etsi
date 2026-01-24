@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187005V3.1.12012-06
+id: ETSITS187005V311201206
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Lawful Interception; Stage 1 and Stage 2 definition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31849
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187005/03.01.01_60/ts_187005v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 005 V3.1.1 (2012-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31849
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187005/03.01.01_60/ts_187005v030101p.pdf
+docidentifier:
+- content: ETSI TS 187 005 V3.1.1 (2012-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 005 V3.1.1 (2012-06)
 date:
 - type: published
-  value: 2012-06
+  at: 2012-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2012-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update of TS 187 005 to address extensions to the NGN feature set. This
+- language: en
+  script: Latn
+  content: "Update of TS 187 005 to address extensions to the NGN feature set. This
     to include the NGN specific mapping of the dynamic triggering capability specified
     in TC LI for NGN equipment. The specification shall include a mapping to the handover
     capabilities defined in TC LI (in some cases there may not be a mapping of NGN
     capability to handover capability but if this is the case TISPAN shall work with
     TC LI to resolve and correct the problem).\r\nThis will be carried out in close
     collaboration with TC LI and request for joint approval."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: Lawful Interception
-- content: SECURITY
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

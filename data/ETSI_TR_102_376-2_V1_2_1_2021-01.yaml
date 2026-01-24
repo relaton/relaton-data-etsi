@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102376-2V1.2.12021-01
+id: ETSITR1023762V121202101
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Implementation guidelines for the second
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Implementation guidelines for the second
     generation system for Broadcasting, Interactive Services, News Gathering and other
     broadband satellite applications; Part 2: S2 Extensions (DVB-S2X)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59592
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10237602/01.02.01_60/tr_10237602v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 376-2 V1.2.1 (2021-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59592
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10237602/01.02.01_60/tr_10237602v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 376-2 V1.2.1 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 376-2 V1.2.1 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This specification will provide the DVB-S2 Extensions (DVB-S2X) Implementation
+- language: en
+  script: Latn
+  content: 'This specification will provide the DVB-S2 Extensions (DVB-S2X) Implementation
     Guidelines. This new revision will integrate the required modifications to integrate
     Beam Hopping. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: BROADCASTING
-- content: DIGITAL
-- content: SATELLITE
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

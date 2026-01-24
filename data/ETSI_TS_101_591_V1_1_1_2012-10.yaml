@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101591V1.1.12012-10
+id: ETSITS101591V111201210
+schema_version: v1.4.1
 title:
-- content: IMS Network Testing (INT); SS7 Message Transfer Part 2 - User Peer-to-Peer
+- language: en
+  script: Latn
+  content: IMS Network Testing (INT); SS7 Message Transfer Part 2 - User Peer-to-Peer
     Adaptation Layer (M2PA); (IETF RFC 4165); Test Suite Structure and Test Purposes
     (TSS&TP) Conformance Testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38351
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/101591/01.01.01_60/ts_101591v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 591 V1.1.1 (2012-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38351
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/101591/01.01.01_60/ts_101591v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 591 V1.1.1 (2012-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 591 V1.1.1 (2012-10)
 date:
 - type: published
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Delivery of  TSS&TP for the M2PA layer.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Delivery of  TSS&TP for the M2PA layer.
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: M2PA
-- content: SCTP
-- content: SIGTRAN
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: M2PA
+  - language: en
+    script: Latn
+    content: SCTP
+  - language: en
+    script: Latn
+    content: SIGTRAN
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

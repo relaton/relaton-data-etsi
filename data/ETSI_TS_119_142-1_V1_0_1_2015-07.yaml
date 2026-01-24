@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119142-1V1.0.12015-07
+id: ETSITS1191421V101201507
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); PAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); PAdES digital signatures;
     Part 1: Building blocks and PAdES baseline signatures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47085
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914201/01.00.01_60/ts_11914201v010001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 142-1 V1.0.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47085
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914201/01.00.01_60/ts_11914201v010001p.pdf
+docidentifier:
+- content: ETSI TS 119 142-1 V1.0.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 142-1 V1.0.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document, specifies PAdES digital signatures. PAdES signatures
+- language: en
+  script: Latn
+  content: "The present document, specifies PAdES digital signatures. PAdES signatures
     build on PDF signatures specified in ISO 32000-1 with an alternative signature
     encoding to support digital signature formats equivalent to the signature format
     CAdES, by incorporation of signed and unsigned attributes, which fulfil certain
@@ -64,20 +73,24 @@ abstract:
     for creation and validation of PAdES digital signatures are out of scope\r\nThe
     present document aim at supporting electronic signatures in different regulatory
     frameworks.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
-- content: PROFILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

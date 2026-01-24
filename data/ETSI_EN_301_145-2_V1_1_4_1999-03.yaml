@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301145-2V1.1.41999-03
+id: ETSIEN3011452V114199903
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Teleaction service; Part 2: Protocol Implementation
     Conformance Statement (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3574
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114502/01.01.04_60/en_30114502v010104p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 145-2 V1.1.4 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3574
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114502/01.01.04_60/en_30114502v010104p.pdf
+docidentifier:
+- content: ETSI EN 301 145-2 V1.1.4 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 145-2 V1.1.4 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic Call Control Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.4
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of PICS proforma specification for DE/SPS-05106-1\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Definition of PICS proforma specification for DE/SPS-05106-1\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: DSS1
-- content: ISDN
-- content: PICS
-- content: SERVICE
-- content: TELEACTION
-- content: TELESERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TELEACTION
+  - language: en
+    script: Latn
+    content: TELESERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Basic Call Control Protocols
+    content: European Standard

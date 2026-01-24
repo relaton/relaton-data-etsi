@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT019V1.1.12020-02
+id: ETSIGRmWT019V111202002
+schema_version: v1.4.1
 title:
-- content: millimetre Wave Transmission (mWT); Error performance related evaluation
+- language: en
+  script: Latn
+  content: millimetre Wave Transmission (mWT); Error performance related evaluation
     in equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54342
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/019/01.01.01_60/gr_mWT019v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 019 V1.1.1 (2020-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54342
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/019/01.01.01_60/gr_mWT019v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 019 V1.1.1 (2020-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 019 V1.1.1 (2020-02)
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimetre Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The purpose of this WI is to produce a Group Report  to provide information
+- language: en
+  script: Latn
+  content: 'The purpose of this WI is to produce a Group Report  to provide information
     about metrics needed to describe the error performance realted aspects in radio
     equipment used for FS, including definition of metrics and description of necessary
     equipment implementation.In particular, aspects related to traditional systems
     will be summarized, while packet based radios aspects will be specified '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: metrics
-- content: mWT
-- content: PERFORMANCE
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: metrics
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: PERFORMANCE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimetre Wave Transmission
+    content: Group Report

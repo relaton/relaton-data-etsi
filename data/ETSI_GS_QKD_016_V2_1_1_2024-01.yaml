@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD016V2.1.12024-01
+id: ETSIGSQKD016V211202401
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Common Criteria Protection Profile - Pair
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Common Criteria Protection Profile - Pair
     of Prepare and Measure Quantum Key Distribution Modules
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68536
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/016/02.01.01_60/gs_QKD016v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 016 V2.1.1 (2024-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68536
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/016/02.01.01_60/gs_QKD016v020101p.pdf
+docidentifier:
+- content: ETSI GS QKD 016 V2.1.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 016 V2.1.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item intends to develop a certified update to the uncertified
+- language: en
+  script: Latn
+  content: This work item intends to develop a certified update to the uncertified
     version of the Common Criteria Protection Profile for a pair of prepare and measure
     Quantum Key Distribution modules. Changes from V1.1.1 will respond to issues identified
     during the evaluation process to ensure compliance with the Common Criteria.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: quantum cryptography
-- content: Quantum Key Distribution
+- taxon:
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

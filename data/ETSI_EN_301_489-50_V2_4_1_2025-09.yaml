@@ -1,76 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-50V2.4.12025-09
+id: ETSIEN30148950V241202509
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63883
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148950/02.04.01_60/en_30148950v020401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 489-50 V2.4.1 (2025-09)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63883
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148950/02.04.01_60/en_30148950v020401p.pdf
+docidentifier:
+- content: ETSI EN 301 489-50 V2.4.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-50 V2.4.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.4.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Testing of MSR BS shall be assessed on one narrow band and one broad band
+- language: en
+  script: Latn
+  content: "Testing of MSR BS shall be assessed on one narrow band and one broad band
     RAT, guidance on selection of RATs will be added. \r\nReferences will be updated
     to the latest 3GPP releases.\r\nConsideration will be taken of feedback received
     from EC, HAS consultants and NSOs on the EN 301 489 series.\r\nESD test condition
     on OTA radio will be changed.\r\nAdditionally, EN 61000-3-x based requirements
     will be removed.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: EMC
-- content: GSM
-- content: Harmonised standard
-- content: LTE
-- content: MSR
-- content: NR
-- content: OFDMA
-- content: WCDMA
-- content: WMAN
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: MSR
+  - language: en
+    script: Latn
+    content: NR
+  - language: en
+    script: Latn
+    content: OFDMA
+  - language: en
+    script: Latn
+    content: WCDMA
+  - language: en
+    script: Latn
+    content: WMAN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

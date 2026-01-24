@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132106-3V3.3.02001-03
+id: ETSITS1321063V330200103
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication Management;
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication Management;
     Configuration Management; Part 3: Notification Integration Reference Point: CORBA
     solution set version 1:1 (3GPP TS 32.106-3 version 3.3.0 Release 1999)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13688
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132100_132199/13210603/03.03.00_60/ts_13210603v030300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 106-3 V3.3.0 (2001-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13688
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132100_132199/13210603/03.03.00_60/ts_13210603v030300p.pdf
+docidentifier:
+- content: ETSI TS 132 106-3 V3.3.0 (2001-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 106-3 V3.3.0 (2001-03)
 date:
 - type: published
-  value: 2001-03
+  at: 2001-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.0
-revdate: 2001-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSG#11\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TSG#11\r\n"
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

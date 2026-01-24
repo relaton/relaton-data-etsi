@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102820V4.1.12016-03
+id: ETSITS102820V411201603
+schema_version: v1.4.1
 title:
-- content: Digital Radio Mondiale (DRM); Multiplex Distribution Interface (MDI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47931
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102820/04.01.01_60/ts_102820v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 820 V4.1.1 (2016-03)
+- language: en
+  script: Latn
+  content: Digital Radio Mondiale (DRM); Multiplex Distribution Interface (MDI)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47931
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102820/04.01.01_60/ts_102820v040101p.pdf
+docidentifier:
+- content: ETSI TS 102 820 V4.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 820 V4.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A revision to reflect real world implementation of the _fac tag.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: A revision to reflect real world implementation of the _fac tag.
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DRM
-- content: INTERFACE
-- content: MUX
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MUX
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

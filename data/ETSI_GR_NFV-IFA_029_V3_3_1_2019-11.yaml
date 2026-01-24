@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA029V3.3.12019-11
+id: ETSIGRNFVIFA029V331201911
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Architecture; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Architecture; Report
     on the Enhancements of the NFV architecture towards "Cloud-native" and "PaaS"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50985
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/029/03.03.01_60/gr_NFV-IFA029v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 029 V3.3.1 (2019-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50985
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/029/03.03.01_60/gr_NFV-IFA029v030301p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 029 V3.3.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 029 V3.3.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The report will study the potential enhancements of the NFV architecture
+- language: en
+  script: Latn
+  content: "The report will study the potential enhancements of the NFV architecture
     for providing \"PaaS\"-type capabilities and supporting VNFs which follow \"cloud-native\"
     design principles, in particular the utilization of container technologies.\r\nIt
     will describe the related use cases and provide recommendations on the enhancements
@@ -62,20 +71,24 @@ abstract:
     this WI to define \"cloud-native\", nor to recommend how VNFs shall be decomposed
     and implemented.\r\nThe report will include recommendations for requirements and
     if necessary enhancements on architecture and reference points."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: CLOUD
-- content: NFV
-- content: NFVI
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

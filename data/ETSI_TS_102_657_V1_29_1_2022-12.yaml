@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102657V1.29.12022-12
+id: ETSITS102657V1291202212
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Retained data handling; Handover interface for
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Retained data handling; Handover interface for
     the request and delivery of retained data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67253
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102657/01.29.01_60/ts_102657v012901p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 657 V1.29.1 (2022-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67253
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102657/01.29.01_60/ts_102657v012901p.pdf
+docidentifier:
+- content: ETSI TS 102 657 V1.29.1 (2022-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 657 V1.29.1 (2022-12)
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.29.1
-revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document contains handover requirements and a handover specification
+- language: en
+  script: Latn
+  content: "The present document contains handover requirements and a handover specification
     for the data that is identified in national legislations on Retained Data.\r\nThis
     revision is to move ASN.1 to attachment and to provide enhancements related to
     Edge Computing."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HANDOVER
-- content: RETENTION
+- taxon:
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: RETENTION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

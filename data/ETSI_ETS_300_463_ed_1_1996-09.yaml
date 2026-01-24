@@ -1,63 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300463ed.11996-09
+id: ETSIETS300463ed1199609
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Requirements of passive Optical Access
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Requirements of passive Optical Access
     Networks (OANs) to provide services up to 2 Mbit/s bearer capacity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2006
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300463/01_60/ets_300463e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 463 ed.1 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2006
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300463/01_60/ets_300463e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 463 ed.1 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 463 ed.1 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the requirements of a passive optical access network for\r\nthe
+- language: en
+  script: Latn
+  content: "Definition of the requirements of a passive optical access network for\r\nthe
     existing 64 kbit/s-based PSTN and leased line service together\r\nwith distributive
     services.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BEARER
-- content: NETWORK
-- content: OPTICAL
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Telecommunication Standard

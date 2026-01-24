@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103264V4.1.12025-03
+id: ETSITS103264V411202503
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Smart Applications; Reference Ontology and oneM2M Mapping
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70023
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 264 V4.1.1 (2025-03)
+- language: en
+  script: Latn
+  content: SmartM2M; Smart Applications; Reference Ontology and oneM2M Mapping
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70023
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/04.01.01_60/ts_103264v040101p.pdf
+docidentifier:
+- content: ETSI TS 103 264 V4.1.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 264 V4.1.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Revision of SAREF Core from V3.2.1 to V4.1.1, using updated reference
+- language: en
+  script: Latn
+  content: 'Revision of SAREF Core from V3.2.1 to V4.1.1, using updated reference
     ontology patterns to solve the harmonization needs with updated development framework
     and tools. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: IoT
-- content: M2M
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

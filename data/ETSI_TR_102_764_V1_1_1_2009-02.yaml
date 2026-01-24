@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102764V1.1.12009-02
+id: ETSITR102764V111200902
+schema_version: v1.4.1
 title:
-- content: eHEALTH; Architecture; Analysis of user service models, technologies and
+- language: en
+  script: Latn
+  content: eHEALTH; Architecture; Analysis of user service models, technologies and
     applications supporting eHealth
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27268
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102764/01.01.01_60/tr_102764v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 764 V1.1.1 (2009-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27268
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102764/01.01.01_60/tr_102764v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 764 V1.1.1 (2009-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 764 V1.1.1 (2009-02)
 date:
 - type: published
-  value: 2009-02
+  at: 2009-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: eHEALTH
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work is an initial step in developing eHealth user service models.
+- language: en
+  script: Latn
+  content: "This work is an initial step in developing eHealth user service models.
     These models address interoperable solutions for healthcare data collection, transmission,
     storage and interchange with the required security, privacy and reliability.\r\nThe
     next step of this work will be to develop requirements and service architecture
     to provide improved eHealth services involving the relevant stakeholders, including
     users, medical professionals etc.\r\neHealth systems contribute to user ubiquitous
     access to more cost effective healthcare services irrespective to location."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: SAFETY
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: eHEALTH
+    content: Technical Report

@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103394V1.1.12018-01
+id: ETSITR103394V111201801
+schema_version: v1.4.1
 title:
-- content: Smart Body Area Networks (SmartBAN); System Description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43403
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103394/01.01.01_60/tr_103394v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 394 V1.1.1 (2018-01)
+- language: en
+  script: Latn
+  content: Smart Body Area Networks (SmartBAN); System Description
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43403
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103394/01.01.01_60/tr_103394v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 394 V1.1.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 394 V1.1.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Body Area Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The report provides the system description for Smart Body Area Networks
+- language: en
+  script: Latn
+  content: 'The report provides the system description for Smart Body Area Networks
     (Smart BANs). The standard will define the system overview and use cases of Smart
     BAN. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MAC
-- content: routing support
+- taxon:
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: routing support
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart Body Area Network
+    content: Technical Report

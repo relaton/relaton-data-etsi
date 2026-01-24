@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300919ed.31999-08
+id: ETSIETS300919ed3199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Types of Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Types of Mobile
     Stations (MS) (GSM 02.06 version 5.2.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7634
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300919/03_60/ets_300919e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 919 ed.3 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7634
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300919/03_60/ets_300919e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 919 ed.3 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 919 ed.3 (1999-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this European Telecommunication Standard (ETS) is to de\r\nscribe
+- language: en
+  script: Latn
+  content: "The purpose of this European Telecommunication Standard (ETS) is to de\r\nscribe
     typical attributes of different types of Mobile Stations (MS) t\r\no be used on
     GSM PLMNs. The term GSM PLMN refers to a GSM, DCS 1 800 o\r\nr any PLMN based
     on the GSM specification, irrespective of the frequen\r\ncy band used.\r\nManufacturers
@@ -48,18 +58,18 @@ abstract:
     order to fulfil their need while utilizing the ser\r\nvices offered through a
     GSM or a DCS 1 800 PLMN. This is not an exhaus\r\ntive list of attributes or types
     of MS. Type approval of MSs is addres\r\nsed in GSM 11.10.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

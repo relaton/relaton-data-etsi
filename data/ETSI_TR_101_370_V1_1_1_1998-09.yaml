@@ -1,65 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101370V1.1.11998-09
+id: ETSITR101370V111199809
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Implementing DECT
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Implementing DECT
     Fixed Wireless Access (FWA) in an arbitrary spectrum allocation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6922
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101370/01.01.01_60/tr_101370v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 370 V1.1.1 (1998-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6922
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101370/01.01.01_60/tr_101370v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 370 V1.1.1 (1998-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 370 V1.1.1 (1998-09)
 date:
 - type: published
-  value: 1998-09
+  at: 1998-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio and speech experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gcHJvdmlkZSBhIGd1aWRlIG9uIGhvdyB0byBpbXBsZW1lbnQgYW5kIHRlc3QgREVDVCBGV0EgKFdMTCkgc3lzdGVtcyBvcGVyYXRpbmcgYXQgZnJlcXVlbmNpZXMgb3V0c2lkZSB0aGUgZnJlcXVlbmN5LWJhbmRzIGRlc2NyaWJlZCBpbiBUQlLCoDYuDQpTdXBwb3J0aW5nIG1lbWJlcnM6IEVyaWNzc29uLCBTaWVtZW5zLCBBbGNhdGVsLCBSVFguDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To provide a guide on how to implement and test DECT FWA (WLL) systems
+    operating at frequencies outside the frequency-bands described in TBR6.\r\nSupporting
+    members: Ericsson, Siemens, Alcatel, RTX.\r\n"
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: WLL
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: WLL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio and speech experts
+    content: Technical Report

@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS134123-2V13.1.02017-10
+id: ETSITS1341232V1310201710
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); User Equipment (UE)
     conformance specification; Part 2: Implementation conformance statement (ICS)
     proforma specification (3GPP TS 34.123-2 version 13.1.0 Release 13)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53907
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/134100_134199/13412302/13.01.00_60/ts_13412302v130100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 134 123-2 V13.1.0 (2017-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53907
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/134100_134199/13412302/13.01.00_60/ts_13412302v130100p.pdf
+docidentifier:
+- content: ETSI TS 134 123-2 V13.1.0 (2017-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 134 123-2 V13.1.0 (2017-10)
 date:
 - type: published
-  value: 2017-10
+  at: 2017-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 13.1.0
-revdate: 2017-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#77
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#77
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Specification

@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301215-3V1.1.12001-08
+id: ETSIEN3012153V111200108
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Point to Multipoint Antennas; Antennas for point-to-multipoint
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Point to Multipoint Antennas; Antennas for point-to-multipoint
     fixed radio systems in the 11 GHz to 60 GHz band; Part 3: Multipoint Multimedia
     Wireless System in 40,5 GHz to 43,5 GHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9279
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121503/01.01.01_60/en_30121503v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 215-3 V1.1.1 (2001-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9279
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121503/01.01.01_60/en_30121503v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 215-3 V1.1.1 (2001-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 215-3 V1.1.1 (2001-08)
 date:
 - type: published
-  value: 2001-08
+  at: 2001-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Generate a part 3 to EN301-215 to detail minimum performance characteristics
+- language: en
+  script: Latn
+  content: "Generate a part 3 to EN301-215 to detail minimum performance characteristics
     for antennas used in multipoint DRRS in the 40GHz band. Additionally to modify
     the part 1 to align with the generation of a part 3 and to clarify terminology
     regarding multipoint systems. \r\n\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: DRRS
-- content: MULTIPOINT
-- content: RADIO
-- content: RLL
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RLL
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Standard

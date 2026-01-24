@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300908V6.9.12000-10
+id: ETSIEN300908V691200010
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Multiplexing
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Multiplexing
     and multiple access on the radio path (GSM 05.02 version 6.9.1 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10264
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300900_300999/300908/06.09.01_60/en_300908v060901p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 908 V6.9.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10264
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300900_300999/300908/06.09.01_60/en_300908v060901p.pdf
+docidentifier:
+- content: ETSI EN 300 908 V6.9.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 908 V6.9.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.9.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "05.02; S31b; CR: A145; R97; 6.8.0; 6.9.0; Clarification of PBCCH message
+- language: en
+  script: Latn
+  content: "05.02; S31b; CR: A145; R97; 6.8.0; 6.9.0; Clarification of PBCCH message
     scheduling\r\n05.02; S31b; CR: A155; R97; 6.8.0; 6.9.0; FCCH decoding problem
     for multislot MS"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: MUX
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MUX
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Radio
+    content: European Standard

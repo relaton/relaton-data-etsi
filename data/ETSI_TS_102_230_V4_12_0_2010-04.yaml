@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102230V4.12.02010-04
+id: ETSITS102230V4120201004
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC-Terminal interface; Physical, electrical and logical
+- language: en
+  script: Latn
+  content: Smart Cards; UICC-Terminal interface; Physical, electrical and logical
     test specification (Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33496
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102230/04.12.00_60/ts_102230v041200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 230 V4.12.0 (2010-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33496
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102230/04.12.00_60/ts_102230v041200p.pdf
+docidentifier:
+- content: ETSI TS 102 230 V4.12.0 (2010-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 230 V4.12.0 (2010-04)
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.12.0
-revdate: 2010-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Implementation of\r\nCR 058 Cat F Deletion of REL-4 content of TS 102
+- language: en
+  script: Latn
+  content: "Implementation of\r\nCR 058 Cat F Deletion of REL-4 content of TS 102
     230\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SMART CARD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP TEST
+    content: Technical Specification

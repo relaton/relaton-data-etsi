@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303472V1.1.12018-10
+id: ETSIEN303472V111201810
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Energy Efficiency measurement methodology
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Energy Efficiency measurement methodology
     and metrics for RAN equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50094
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303472/01.01.01_60/en_303472v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 472 V1.1.1 (2018-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50094
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303472/01.01.01_60/en_303472v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 472 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 472 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will define Energy Efficiency KPIs for RAN Equipment for
+- language: en
+  script: Latn
+  content: This work item will define Energy Efficiency KPIs for RAN Equipment for
     different technologies and relevant processes to perform measurement and manage
     the KPI calculation. The document will be based on the related specifications
     in ETSI TC-EE (e.g. ES 202 706). The work will be done in liaison with other SDOs
     e.g. 3GPP.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: Energy Management
-- content: ICT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: Energy Management
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: European Standard

@@ -1,68 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101548-2V1.1.12021-06
+id: ETSITS1015482V111202106
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); European Requirements
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); European Requirements
     for Reverse Powering of Remote Access Equipment; Part 2: Coaxial Cable Networks'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54711
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10154802/01.01.01_60/ts_10154802v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 548-2 V1.1.1 (2021-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54711
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10154802/01.01.01_60/ts_10154802v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 548-2 V1.1.1 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 548-2 V1.1.1 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoZSB3b3JrIGl0ZW0gaXMgdG8gZGVmaW5lIGFyY2hpdGVjdHVyZXMgYW5kIHNwZWNpZmljYXRpb25zIGZvciByZXZlcnNlIHBvd2VyaW5nIG9mIGEgcmVtb3RlIG5ldHdvcmsgbm9kZSBmcm9tIG9uZSBvciBtdWx0aXBsZSBHLmZhc3QgQ1BFcyBvdmVyICBQb2ludCB0byBQb2ludCAoUDJQKSBjb2F4aWFsIGNhYmxlIChjb2F4KSwgd2hlcmUgdGhlcmUgaXMgbm8gY29leGlzdGVuY2Ugd2l0aCBvdGhlciBzZXJ2aWNlcyBvdmVyIGFuIG9wZXJhdGlvbmFsIEh5YnJpZCBGaWJyZSBDb2F4IChIRkMpIG5ldHdvcmsuICBUaGlzIHNwZWNpZmljYXRpb24gc3BlY2lmaWVzIHRoZSByZXZlcnNlIHBvd2VyaW5nIGZvciB0d28gY29heCBjb25maWd1cmF0aW9ucyB3aXRoIEcuZmFzdCBhcyBkZXNjcmliZWQgaW4gQW5uZXggRC4xIG9mIEJCRiBUUi0yODUg4oCcQnJvYWRiYW5kIENvcHBlciBDYWJsZSBNb2RlbHPigJ0gSXNzdWUgMSBBbWVuZG1lbnQgMTogRy5mYXN0IHdpdGggc2F0ZWxsaXRlIFRWIGFuZCBHLmZhc3Qgb25seS4gIA0KDQpUaGUgcmVsZXZhbnQgY2xhdXNlcyB0byBUUyAxMDEgNTQ4LTEgYXJlIHJlZmVyZW5jZWQgd2hlcmUgYXBwcm9wcmlhdGUuIExpYWlzb24gd2l0aCBvdGhlciBjb21wZXRlbnQgc3RhbmRhcmRzIGJvZGllcyAgaXMgYWxzbyBjb25zaWRlcmVkIHdpdGhpbiB0aGUgc2NvcGUgb2Ygd29yay4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of the work item is to define architectures and specifications
+    for reverse powering of a remote network node from one or multiple G.fast CPEs
+    over  Point to Point (P2P) coaxial cable (coax), where there is no coexistence
+    with other services over an operational Hybrid Fibre Coax (HFC) network.  This
+    specification specifies the reverse powering for two coax configurations with
+    G.fast as described in Annex D.1 of BBF TR-285 Broadband Copper Cable Models Issue
+    1 Amendment 1: G.fast with satellite TV and G.fast only.  \r\n\r\nThe relevant
+    clauses to TS 101 548-1 are referenced where appropriate. Liaison with other competent
+    standards bodies  is also considered within the scope of work.\r\n"
+status:
+  stage: Published
 keyword:
-- content: cables
-- content: coaxial
-- content: powering
-- content: reverse
-- content: RPF
+- taxon:
+  - language: en
+    script: Latn
+    content: cables
+  - language: en
+    script: Latn
+    content: coaxial
+  - language: en
+    script: Latn
+    content: powering
+  - language: en
+    script: Latn
+    content: reverse
+  - language: en
+    script: Latn
+    content: RPF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Specification

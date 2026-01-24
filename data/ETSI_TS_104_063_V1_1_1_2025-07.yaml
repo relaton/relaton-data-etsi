@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104063V1.1.12025-07
+id: ETSITS104063V111202507
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); A nonlinearity measure
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); A nonlinearity measure
     for distortion analysis of speech communication terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70025
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104063/01.01.01_60/ts_104063v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 063 V1.1.1 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70025
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104063/01.01.01_60/ts_104063v010101p.pdf
+docidentifier:
+- content: ETSI TS 104 063 V1.1.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 063 V1.1.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document defines a novel nonlinearity measure, which quantifies
+- language: en
+  script: Latn
+  content: The present document defines a novel nonlinearity measure, which quantifies
     the distortion of acoustic interfaces by means of speech signals.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACOUSTIC
-- content: Distortion
-- content: electro-acoustic
-- content: Measurement
-- content: SPEECH
-- content: TERMINAL
-- content: transducer
+- taxon:
+  - language: en
+    script: Latn
+    content: ACOUSTIC
+  - language: en
+    script: Latn
+    content: Distortion
+  - language: en
+    script: Latn
+    content: electro-acoustic
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: transducer
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

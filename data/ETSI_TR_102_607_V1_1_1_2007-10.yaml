@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102607V1.1.12007-10
+id: ETSITR102607V111200710
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); TCP IP Stack
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); TCP IP Stack
     Parameter Settings for Microsoft Windows XP and Microsoft Windows Vista; Comparison
     and Recommendations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26374
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102607/01.01.01_60/tr_102607v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 607 V1.1.1 (2007-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26374
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102607/01.01.01_60/tr_102607v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 607 V1.1.1 (2007-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 607 V1.1.1 (2007-10)
 date:
 - type: published
-  value: 2007-10
+  at: 2007-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Take the scope text from 15TD22 until Furthermore
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Take the scope text from 15TD22 until Furthermore
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

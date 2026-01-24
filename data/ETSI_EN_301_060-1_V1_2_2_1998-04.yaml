@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301060-1V1.2.21998-04
+id: ETSIEN3010601V122199804
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Basic call control; Enhancement at the "b" service
     entry point for Virtual Private Network (VPN) applications; Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3873
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106001/01.02.02_60/en_30106001v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 060-1 V1.2.2 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3873
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106001/01.02.02_60/en_30106001v010202p.pdf
+docidentifier:
+- content: ETSI EN 301 060-1 V1.2.2 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 060-1 V1.2.2 (1998-04)
 date:
 - type: published
-  value: 1998-04
+  at: 1998-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic Call Control Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1998-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To enhance the DSS1 protocol to support VPN basic call applications\r\nat
+- language: en
+  script: Latn
+  content: "To enhance the DSS1 protocol to support VPN basic call applications\r\nat
     the \"b\" service entry point.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: DSS1
-- content: ISDN
-- content: PROTOCOL
-- content: VPN
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: VPN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Basic Call Control Protocols
+    content: European Standard

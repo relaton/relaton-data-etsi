@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302729-2V3.0.02025-09
+id: ETSIEN3027292V300202509
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57435
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302700_302799/30272902/03.00.00_20/en_30272902v030000ev.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 729-2 V3.0.0 (2025-09)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57435
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302700_302799/30272902/03.00.00_20/en_30272902v030000ev.pdf
+docidentifier:
+- content: ETSI EN 302 729-2 V3.0.0 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 729-2 V3.0.0 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies technical characteristics and methods of
+- language: en
+  script: Latn
+  content: "The present document specifies technical characteristics and methods of
     measurements for LPR devices tilted from the vertical downwards direction \r\n
     (tilted downward installation). This radio equipment type is capable of operating
     in the frequency range 75 GHz to 85 GHz. The work includes a detailed description
@@ -53,24 +62,36 @@ abstract:
     based on a clear test procedure for tilted LPR devices. \r\nThe new standard reflects
     the technical requirements for tilted LPR devices as given by TR 103 595. The
     new standard shall be part 2 of the existing EN 302 729 series. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: EN approval
 keyword:
-- content: EHF
-- content: Harmonised standard
-- content: LPR
-- content: RADAR
-- content: SHORT RANGE
-- content: SRD
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: EHF
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: LPR
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: European Standard

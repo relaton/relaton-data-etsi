@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119542V1.1.12025-10
+id: ETSITS119542V111202510
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Trust Infrastructures (ESI); Use of EU Digital
+- language: en
+  script: Latn
+  content: Electronic Signatures and Trust Infrastructures (ESI); Use of EU Digital
     Identity Wallets and electronic signatures for identification with Smart Contracts
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68617
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119500_119599/119542/01.01.01_60/ts_119542v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 542 V1.1.1 (2025-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68617
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119500_119599/119542/01.01.01_60/ts_119542v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 542 V1.1.1 (2025-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 542 V1.1.1 (2025-10)
 date:
 - type: published
-  value: 2025-10
+  at: 2025-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specify the use of EU Digital Identity Wallets and advanced and qualified
+- language: en
+  script: Latn
+  content: Specify the use of EU Digital Identity Wallets and advanced and qualified
     electronic signatures for identification with smart contracts, taking into account
     the requirements for identification in TR 119 540.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: digital identity
-- content: digital signature
-- content: smart contract
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: digital identity
+  - language: en
+    script: Latn
+    content: digital signature
+  - language: en
+    script: Latn
+    content: smart contract
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Specification

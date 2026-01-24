@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300239V1.3.12003-06
+id: ETSIEN300239V131200306
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
     Generic functional protocol for the support of supplementary services [ISO/IEC
     11582 (2002) modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10397
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300200_300299/300239/01.03.01_60/en_300239v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 239 V1.3.1 (2003-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10397
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300200_300299/300239/01.03.01_60/en_300239v010301p.pdf
+docidentifier:
+- content: ETSI EN 300 239 V1.3.1 (2003-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 239 V1.3.1 (2003-06)
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2003-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This new third version of EN 300 239 is a rework of ECMA-165 (4th edition).
+- language: en
+  script: Latn
+  content: This new third version of EN 300 239 is a rework of ECMA-165 (4th edition).
     This rework will introduce (beside smaller editorial and technical changes) a
     new Annex for the purpose of APDU segmentation which enables the transport of
     QSIG APDUs which extceed the maximum length transportable within a Facility Information
     Element between entities acting on behalf of the two ends of a connection through
     a PISN.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: ISDN
-- content: PISN
-- content: QSIG
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Standard

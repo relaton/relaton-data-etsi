@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301401V1.2.61999-10
+id: ETSIEN301401V126199910
+schema_version: v1.4.1
 title:
-- content: Attachment requirements for Data Terminal Equipment (DTE) to connect to
+- language: en
+  script: Latn
+  content: Attachment requirements for Data Terminal Equipment (DTE) to connect to
     public networks that have physical and electrical network presentations based
     upon the ITU-T V-series of Recommendations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6150
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301401/01.02.06_60/en_301401v010206p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 401 V1.2.6 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6150
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301401/01.02.06_60/en_301401v010206p.pdf
+docidentifier:
+- content: ETSI EN 301 401 V1.2.6 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 401 V1.2.6 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.6
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "(Provisional) Attachment requirements for Data Terminal Equipment (DTE)
+- language: en
+  script: Latn
+  content: "(Provisional) Attachment requirements for Data Terminal Equipment (DTE)
     to connect to physical and electrical network presentations that are based upon
     the ITU-T V Series of Recommendations. This TBR will combine and harmonize the
     requirements of TBR 1 and TBR 2. The TBR will contain all requirements deemed
@@ -57,20 +66,24 @@ abstract:
     and V.36 network presentations and will supercede TBR 1 and TBR 2.\r\n\r\nReference
     documents: TBR 1, TBR 2, ITU-T Recommendations V.10, V.11, V.12, V.28, V.35 and
     V.36"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PSPDN
-- content: REGULATION
-- content: TERMINAL
-- content: X.21
+- taxon:
+  - language: en
+    script: Latn
+    content: PSPDN
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: X.21
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Digital Terminals & Access
+    content: European Standard

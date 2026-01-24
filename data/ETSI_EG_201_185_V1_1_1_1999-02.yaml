@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201185V1.1.11999-02
+id: ETSIEG201185V111199902
+schema_version: v1.4.1
 title:
-- content: Terminal support interface for harmonized analogue PSTN terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5997
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201185/01.01.01_60/eg_201185v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 185 V1.1.1 (1999-02)
+- language: en
+  script: Latn
+  content: Terminal support interface for harmonized analogue PSTN terminals
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5997
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201185/01.01.01_60/eg_201185v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 185 V1.1.1 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 185 V1.1.1 (1999-02)
 date:
 - type: published
-  value: 1999-02
+  at: 1999-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item applies to apparatus providing an interface intended for
+- language: en
+  script: Latn
+  content: "This work item applies to apparatus providing an interface intended for
     the connection \r\nof approved pan-European PSTN, harmonised, 2-wire analogue
     TE, and defines the \r\nnecessary electrical conditions at the interface to provide
     correct operation of TE \r\nconnected via a short local loop."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: INTERFACE
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: ETSI Guide

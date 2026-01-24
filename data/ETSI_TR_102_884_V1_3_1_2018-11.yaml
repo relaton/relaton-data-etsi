@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102884V1.3.12018-11
+id: ETSITR102884V131201811
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); digital
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); digital
     Private Mobile Radio (dPMR) General System Design
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54739
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102884/01.03.01_60/tr_102884v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 884 V1.3.1 (2018-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54739
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102884/01.03.01_60/tr_102884v010301p.pdf
+docidentifier:
+- content: ETSI TR 102 884 V1.3.1 (2018-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 884 V1.3.1 (2018-11)
 date:
 - type: published
-  value: 2018-11
+  at: 2018-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Mobile Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2018-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Designers Guide to complement the dPMR TS 102 490 and TS 102 658.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Designers Guide to complement the dPMR TS 102 490 and TS 102 658.
+status:
+  stage: Published
 keyword:
-- content: dPMR
-- content: PMR
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: dPMR
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital Mobile Radio
+    content: Technical Report

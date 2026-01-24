@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302536-1V1.1.12007-11
+id: ETSIEN3025361V111200711
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Radio equipment in the frequency range 315 kHz to 600 kHz;
     Part 1: Technical characteristics and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24330
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302500_302599/30253601/01.01.01_60/en_30253601v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 536-1 V1.1.1 (2007-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24330
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302500_302599/30253601/01.01.01_60/en_30253601v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 536-1 V1.1.1 (2007-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 536-1 V1.1.1 (2007-11)
 date:
 - type: published
-  value: 2007-11
+  at: 2007-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Wireless Medical Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Develop specific standard for Ultra Low Power Animal Implantable Devices
+- language: en
+  script: Latn
+  content: "Develop specific standard for Ultra Low Power Animal Implantable Devices
     ( ULP-AID) - Animal implants  operating in the frequency range of 315-600 kHz.
     \  \r\nThis application is described in TR 102 316 (2004-03)\r\nThe radio interface
     is defined in CEPT/ERC/Rec 70-03 , annex 12 , band c."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: inductive
-- content: MAGNETIC
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: inductive
+  - language: en
+    script: Latn
+    content: MAGNETIC
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Wireless Medical Devices
+    content: European Standard

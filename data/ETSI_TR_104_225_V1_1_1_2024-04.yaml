@@ -1,64 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104225V1.1.12024-04
+id: ETSITR104225V111202404
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence TC (SAI); Privacy aspects of AI/ML systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70027
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104200_104299/104225/01.01.01_60/tr_104225v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 225 V1.1.1 (2024-04)
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence TC (SAI); Privacy aspects of AI/ML systems
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70027
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104200_104299/104225/01.01.01_60/tr_104225v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 225 V1.1.1 (2024-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 225 V1.1.1 (2024-04)
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence TC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHB1cnBvc2Ugb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gaWRlbnRpZnkgdGhlIHJvbGUgb2YgcHJpdmFjeSBhcyBvbmUgb2YgdGhlIGNvbXBvbmVudHMgb2YgdGhlIFNlY3VyaXR5IG9mIEFJIGFuZCBwcm9jZWVkIHdpdGggdGhlIGF0dGVtcHQgdG8gZGVmaW5lIFByaXZhY3kgaW4gdGhlIGNvbnRleHQgb2YgQUkgdGhhdCBjb3ZlcnMgYm90aCwgc2FmZWd1YXJkaW5nIG1vZGVscyBhbmQgcHJvdGVjdGluZyBkYXRhLCBhcyB3ZWxsIGFzIHRoZSByb2xlIG9mIHByaXZhY3ktc2Vuc2l0aXZlIGRhdGEgaW4gQUkgc29sdXRpb25zLiBJdCBpbnZlc3RpZ2F0ZXMgYW5kIGFkZHJlc3NlcyB0aGUgYXR0YWNrcyBhbmQgdGhlaXIgYXNzb2NpYXRlZCByZW1lZGlhdGlvbnMgd2hlcmUgYXBwbGljYWJsZSwgY29uc2lkZXJpbmcgdGhlIGV4aXN0ZW5jZSBvZiBtdWx0aXBsZSBsZXZlbHMgb2YgdHJ1c3QgYWZmZWN0aW5nIHRoZSBsaWZlY3ljbGUgb2YgZGF0YS4gQXBwcm9wcmlhdGUgbWVhbnMgdG8gbGFiZWwvcHJvdGVjdC9hbm9ueW1pemUgcHJpdmFjeS1zZW5zaXRpdmUgZGF0YSBlbGVtZW50cyBkdXJpbmcgZGF0YSBjb2xsZWN0aW9uIGFuZCBwcm9jZXNzaW5nIGFyZSBzdHVkaWVkIGFpbWluZyB0byBwcm90ZWN0IHByaXZhY3ktc2Vuc2l0aXZlIGRhdGEsIHdoaWxlIGxpbWl0aW5nIEFJIHBlcmZvcm1hbmNlIGltcGFjdC4gVGhlIGludmVzdGlnYXRlZCBhdHRhY2sgbWl0aWdhdGlvbnMgaW5jbHVkZSBOb24tQUktU3BlY2lmaWMgKHRyYWRpdGlvbmFsIFNlY3VyaXR5L1ByaXZhY3kgcmVkcmVzc2VzKSwgQUkvTUwtc3BlY2lmaWMgcmVtZWRpZXMsIHByZS1lbXB0aXZlIHJlbWVkaWF0aW9ucyAo4oCcbGVmdCBvZiB0aGUgYm9vbSIpLCBhbmQgcmVhY3RpdmUgcmVzcG9uc2VzIHRvIGFuIGFkdmVyc2FyaWFsIGFjdGl2aXR5ICjigJxyaWdodCBvZiB0aGUgYm9vbeKAnSkuIEluIGFkZGl0aW9uLCB0aGUgYW50aWNpcGF0ZWQgZGVsaXZlcnkgZG9jdW1lbnQgd2lsbCBzZWVrIHRvIGFsaWduIHRlcm1pbm9sb2d5IHdpdGggZXhpc3RpbmcgRVRTSSBTQUkgSVNHIGRvY3VtZW50cyBhbmQgc3R1ZGllcywgYW5kIHdpbGwgcmVmZXJlbmNlIHByZXZpb3VzbHktc3R1ZGllZCBwcml2YWN5IGF0dGFja3MgYW5kIHJlbWVkaWF0aW9ucyAoc2VlIEVUU0kgR1IgU0FJIDAwNCwgRVRTSSBHUiBTQUkgMDAyKS4gVGhlIGFudGljaXBhdGVkIGRlbGl2ZXJ5IGRvY3VtZW50IHdpbGwgYWxzbyBwcm92aWRlIGEgc3VtbWFyeSBvZiBhY2FkZW1pYyBhbmQgaW5kdXN0cmlhbCBleHBlcmllbmNlIGluIHByaXZhY3kgcHJvdGVjdGlvbiBmb3IgQUku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The purpose of this work item is to identify the role of privacy as one
+    of the components of the Security of AI and proceed with the attempt to define
+    Privacy in the context of AI that covers both, safeguarding models and protecting
+    data, as well as the role of privacy-sensitive data in AI solutions. It investigates
+    and addresses the attacks and their associated remediations where applicable,
+    considering the existence of multiple levels of trust affecting the lifecycle
+    of data. Appropriate means to label/protect/anonymize privacy-sensitive data elements
+    during data collection and processing are studied aiming to protect privacy-sensitive
+    data, while limiting AI performance impact. The investigated attack mitigations
+    include Non-AI-Specific (traditional Security/Privacy redresses), AI/ML-specific
+    remedies, pre-emptive remediations (left of the boom"), and reactive responses
+    to an adversarial activity (right of the boom). In addition, the anticipated delivery
+    document will seek to align terminology with existing ETSI SAI ISG documents and
+    studies, and will reference previously-studied privacy attacks and remediations
+    (see ETSI GR SAI 004, ETSI GR SAI 002). The anticipated delivery document will
+    also provide a summary of academic and industrial experience in privacy protection
+    for AI.
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Securing Artificial Intelligence TC
+    content: Technical Report

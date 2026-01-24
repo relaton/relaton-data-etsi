@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101885V1.1.12002-03
+id: ETSITS101885V111200203
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 3; Technology Mapping; Technology Mapping of TIPHON reference point N
     to H.248/MEGACO protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11540
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101885/01.01.01_60/ts_101885v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 885 V1.1.1 (2002-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11540
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101885/01.01.01_60/ts_101885v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 885 V1.1.1 (2002-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 885 V1.1.1 (2002-03)
 date:
 - type: published
-  value: 2002-03
+  at: 2002-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Call control matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This WI will deliver a mapping of the reference points N1, N2, N3, N4 and
+- language: en
+  script: Latn
+  content: This WI will deliver a mapping of the reference points N1, N2, N3, N4 and
     UI in WI 2003 to H.248/MEGACOP.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: CONFIGURATION
-- content: INTERNET
-- content: NETWORK
-- content: PROTOCOL
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TIPHON Call control matters
+    content: Technical Specification

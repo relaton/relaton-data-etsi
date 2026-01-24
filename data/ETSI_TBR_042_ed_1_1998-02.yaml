@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR042ed.11998-02
+id: ETSITBR042ed1199802
+schema_version: v1.4.1
 title:
-- content: Satellite Personal Communications Networks (S-PCN); Mobile Earth Stations
+- language: en
+  script: Latn
+  content: Satellite Personal Communications Networks (S-PCN); Mobile Earth Stations
     (MES), including handheld earth stations, for S-PCN in the 2,0 GHz bands under
     the Mobile Satellite Service (MSS); Terminal essential requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4024
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/042/01_60/tbr_042e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 042 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4024
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/042/01_60/tbr_042e01p.pdf
+docidentifier:
+- content: ETSI TBR 042 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 042 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Earth Stations & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TBR specifies those technical requirements under Article 4 of\r\nCouncil
+- language: en
+  script: Latn
+  content: "This TBR specifies those technical requirements under Article 4 of\r\nCouncil
     Directive 93/97/EEC [1] that apply to Mobile Earth Station\r\n(MES) equipment
     with both transmit and receive capabilities for\r\noperation in a Satellite -
     Personal Communications Network (S-PCN).\r\n These MESs include handheld, portable
@@ -64,23 +74,33 @@ abstract:
     not provide any guarantee of correct interworking between\r\nMES equipment.\r\n
     The Terminal Directive 91/263/EEC Articles 4a and 4b are covered by\r\nother Directives
     and therefore, are not covered by this TBR.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: MES
-- content: MOBILE
-- content: MSS
-- content: REGULATION
-- content: SATELLITE
-- content: S-PCN
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: MES
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: S-PCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Satellite Earth Stations & Systems
+    content: Technical Basis for Regulation

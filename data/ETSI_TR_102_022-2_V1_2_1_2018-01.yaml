@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102022-2V1.2.12018-01
+id: ETSITR1020222V121201801
+schema_version: v1.4.1
 title:
-- content: 'User Requirements Specification; Mission Critical Broadband Communications;
+- language: en
+  script: Latn
+  content: 'User Requirements Specification; Mission Critical Broadband Communications;
     Part 2: Critical Communications Application'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49398
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202202/01.02.01_60/tr_10202202v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 022-2 V1.2.1 (2018-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49398
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202202/01.02.01_60/tr_10202202v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 022-2 V1.2.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 022-2 V1.2.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To provide more detail to the user requirements on interworking between
+- language: en
+  script: Latn
+  content: 'To provide more detail to the user requirements on interworking between
     the CCA (Critical Communications Application) and TETRA and on migration of services
     from TETRA to broadband (LTE) . '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EVOLUTION
-- content: Requirements
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: EVOLUTION
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

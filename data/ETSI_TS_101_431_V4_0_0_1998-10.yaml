@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101431V4.0.01998-10
+id: ETSITS101431V400199810
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Attachment
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Attachment
     requirements for mobile stations in the DCS 1 800 band and additional GSM 900
     band; Access (GSM 13.01-2 version 4.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7045
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101431/04.00.00_60/ts_101431v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 431 V4.0.0 (1998-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7045
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101431/04.00.00_60/ts_101431v040000p.pdf
+docidentifier:
+- content: ETSI TS 101 431 V4.0.0 (1998-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 431 V4.0.0 (1998-10)
 date:
 - type: published
-  value: 1998-10
+  at: 1998-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 1998-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Crs on TBR 31 produced for SMG#27. Version produced as TS in preparation
+- language: en
+  script: Latn
+  content: Crs on TBR 31 produced for SMG#27. Version produced as TS in preparation
     for merging TBRs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DCS
-- content: GSM
-- content: MOBILE
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: Technical Specification

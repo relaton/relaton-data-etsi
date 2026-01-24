@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101864-3V1.1.12001-07
+id: ETSITR1018643V111200107
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
     High Level Analysis of 3GPP Release 1999 Documents; Part 3: Radio Access Network
     aspects'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11810
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/10186403/01.01.01_60/tr_10186403v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 864-3 V1.1.1 (2001-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11810
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/10186403/01.01.01_60/tr_10186403v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 864-3 V1.1.1 (2001-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 864-3 V1.1.1 (2001-07)
 date:
 - type: published
-  value: 2001-07
+  at: 2001-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: WG on the Satellite Component of UMTS/IMT-2000
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Analysis of 3GPP documents for S-UMTS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Analysis of 3GPP documents for S-UMTS.\r\n"
+status:
+  stage: Published
 keyword:
-- content: 3GPP
-- content: SATELLITE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 3GPP
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: WG on the Satellite Component of UMTS/IMT-2000
+    content: Technical Report

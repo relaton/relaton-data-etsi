@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303661V1.1.12024-05
+id: ETSIEN303661V111202405
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD); Ground Based Synthetic Aperture Radar (GBSAR)
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD); Ground Based Synthetic Aperture Radar (GBSAR)
     in the frequency range 17,1 GHz to 17,3 GHz and High Definition Ground Based Synthetic
     Aperture Radar (HD-GBSAR) in the frequency range 76 GHz to 77 GHz; Harmonised
     Standard for access to radio spectrum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57436
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303600_303699/303661/01.01.01_60/en_303661v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 661 V1.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57436
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303600_303699/303661/01.01.01_60/en_303661v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 661 V1.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 661 V1.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies technical characteristics and methods of
+- language: en
+  script: Latn
+  content: "The present document specifies technical characteristics and methods of
     measurements for GBSAR and HD-GBSAR devices. This radio equipment types are capable
     of operating in the frequency range 17,1 to 17,3 GHz (GBSAR) and 76-77 GHZ (HD-GBSAR).
     The work includes a detailed description of the wanted performance criterion,
@@ -58,20 +67,24 @@ abstract:
     for all type of GBSAR equipment. Equipment covered by the present document operates
     in accordance with ERC REC 70-03 Annex 6, band l (GBSAR) and with ECC/DEC/(21)02
     for HD-GBSAR.\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: Measurement
-- content: RADIO
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: European Standard

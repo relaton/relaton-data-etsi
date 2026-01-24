@@ -1,65 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103553-2V1.1.12021-11
+id: ETSITS1035532V111202111
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); Innovative energy storage technology for
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); Innovative energy storage technology for
     stationary use; Part 2: Battery'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49440
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10355302/01.01.01_60/ts_10355302v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 553-2 V1.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49440
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10355302/01.01.01_60/ts_10355302v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 553-2 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 553-2 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUZWNobmljYWwgUmVwb3J0IGludHJvZHVjZXMgZXZvbHV0aW9uIG9mIEVuZXJneSBTdG9yYWdlIGFwcGxpY2FibGUgZm9yIHVzZSB3aXRoIHN0YXRpb25hcnkgSUNUL1RlbGVjb20gZXF1aXBtZW50IGFuZCBnbG9iYWwgcmVzdWx0cyBvZiBpbnZlc3RpZ2F0aW9ucyBpbiBsYWJvcmF0b3JpZXMgb3IgZnJvbSBmaWVsZCB0ZXN0cyBpbiBUZWxlY29tL0lDVCBuZXR3b3JrIG9yIGN1c3RvbWVyIHByZW1pc2VzIGUuZy4gZm9yIHJlc2lsaWVuY2UgaW4gc21hcnQgc3VzdGFpbmFibGUgY2l0eS4gTW9iaWxlIGFuZCBwb3J0YWJsZSBiYXR0ZXJpZXMgYXJlIG91dCBvZiB0aGUgc2NvcGUuIA0KDQpUaGUgc2NvcGUgb2YgdGhpcyBkb2N1bWVudCBpbmNsdWRlczogLSBpZGVudGlmaWNhdGlvbiBvZiBhdmFpbGFibGUgbmV3IGJhdHRlcnkgdGVjaG5vbG9neSBvciByb2FkbWFwIC0gQ2hhcmFjdGVyaXN0aWNzIChlbGVjdHJpY2FsICwgbWVjaGFuaWNhbCwgdGhlcm1hbCwg4oCmKSAtIFRlc3QgbGFiIHJlc3VsdHMgYW5kL29yIGZpZWxkIGV4cGVyaW1lbnQgcmVzdWx0cyAtIFJlY29tbWVuZGF0aW9ucyBvZiBhZGFwdGVkIHVzZSBvZiBlYWNoIHRlY2hub2xvZ3kgLSBSZWNvbW1lbmRhdGlvbiBmb3IgYXBwcm9wcmlhdGUgbWluaW11bSBiZW5jaG1hcmsgdGVzdHMgYW5kIGRlZXBlciBjaGFyYWN0ZXJpemF0aW9uICANCg0KVGhlc2UgV0lzIGFyZSBhbHNvIHByZXNlbnQgaW4gSVRVLVQgU0c1L1dQMyBmb3IgYSBqb2ludCBhY3Rpdml0eTsgSVRVLVQgV0kgKEwuRU5TVCAxLDIsMyk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Technical Report introduces evolution of Energy Storage applicable
+    for use with stationary ICT/Telecom equipment and global results of investigations
+    in laboratories or from field tests in Telecom/ICT network or customer premises
+    e.g. for resilience in smart sustainable city. Mobile and portable batteries are
+    out of the scope. \r\n\r\nThe scope of this document includes: - identification
+    of available new battery technology or roadmap - Characteristics (electrical ,
+    mechanical, thermal, ) - Test lab results and/or field experiment results - Recommendations
+    of adapted use of each technology - Recommendation for appropriate minimum benchmark
+    tests and deeper characterization  \r\n\r\nThese WIs are also present in ITU-T
+    SG5/WP3 for a joint activity; ITU-T WI (L.ENST 1,2,3)"
+status:
+  stage: Published
 keyword:
-- content: battery
-- content: POWER
+- taxon:
+  - language: en
+    script: Latn
+    content: battery
+  - language: en
+    script: Latn
+    content: POWER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EE Power Supply
+    content: Technical Specification

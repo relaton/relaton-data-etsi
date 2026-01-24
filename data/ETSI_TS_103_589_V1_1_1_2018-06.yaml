@@ -1,66 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103589V1.1.12018-06
+id: ETSITS103589V111201806
+schema_version: v1.4.1
 title:
-- content: Higher Order Ambisonics (HOA) Transport Format
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53690
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103589/01.01.01_60/ts_103589v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 589 V1.1.1 (2018-06)
+- language: en
+  script: Latn
+  content: Higher Order Ambisonics (HOA) Transport Format
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53690
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103589/01.01.01_60/ts_103589v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 589 V1.1.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 589 V1.1.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SGlnaGVyIE9yZGVyIEFtYmlzb25pY3MgKEhPQSkgc2lnbmFscyBhcmUgYWJsZSB0byBkZWxpdmVyIGEgc2lnbmlmaWNhbnRseSBlbmhhbmNlZCBpbW1lcnNpdmUgc291bmQgY29tcGFyZWQgdG8gY29udmVudGlvbmFsIHN0ZXJlbyBvciA1LjEgY2hhbm5lbCBhdWRpbyBzaWduYWxzLiBIb3dldmVyLCB0aGVyZSBhcmUgc29tZSB1c2UgY2FzZXMgd2hlcmUgSE9BIHNpZ25hbHMgY2Fubm90IGJlIHRyYW5zcG9ydGVkIGJlY2F1c2Ugb2YgdGhlIGxhcmdlIG51bWJlciBvZiBIT0EgaW5wdXQgY2hhbm5lbHMuIE9uZSBleGFtcGxlIGlzIG1vYmlsZSBkZXZpY2VzLCB3aGVyZSB0aGUgbnVtYmVyIG9mIGlucHV0IGNoYW5uZWxzIGNhbiBiZSBsaW1pdGVkIGJ5IDggUHVsc2UtQ29kZSBNb2R1bGF0aW9uIChQQ00pIGNoYW5uZWxzLCBhbmQgdGh1cyBvbmx5IGEgbWF4aW11bSBvZiBGaXJzdCBPcmRlciBBbWJpc29uaWNzIChGT0E6IHJlcXVpcmluZyA0IFBDTSBjaGFubmVscykgY2FuIGJlIHRyYW5zcG9ydGVkLiBBbm90aGVyIGV4YW1wbGUgaXMgYSB0eXBpY2FsIGJyb2FkY2FzdCB3b3JrZmxvdy4gVGhlIHVzZSBvZiBzaW5nbGUgSGlnaC1EZWZpbml0aW9uIFNlcmlhbCBEaWdpdGFsIEludGVyZmFjZSAoSEQtU0RJKSBsaW5rIGhhcyBhIGxpbWl0YXRpb24gb2YgYmVpbmcgYWJsZSB0byB0cmFuc3BvcnQgb25seSAxNiBQQ00gYXVkaW8gZW1iZWRkZWQgY2hhbm5lbHMuIFRoaXMgcmVzdHJpY3RzIHRoZSB0cmFuc3BvcnQgdG8gYSBtYXhpbXVtIG9mIDNyZCBvcmRlciBIT0Egc2lnbmFscyAocmVxdWlyaW5nIDE2IFBDTSBjaGFubmVscykg4oCTIGFuZCB0aGF0LCBvbmx5IGlmIHRoZXJlIGFyZSBubyBhZGRpdGlvbmFsIGRpc2NyZXRlIGF1ZGlvIGVsZW1lbnRzIHRvIGJlIHRyYW5zcG9ydGVkLiBJZiBhZGRpdGlvbmFsIGF1ZGlvIGVsZW1lbnRzIGFyZSB0byBiZSB0cmFuc3BvcnRlZCwgb25seSBhIG1heGltdW0gb2YgMm5kIG9yZGVyIEhPQSAocmVxdWlyaW5nIDkgUENNIGNoYW5uZWxzKSBjYW4gYmUgdHJhbnNwb3J0ZWQuIFRoaXMgd29yayBpdGVtIGFpbXMgdG8gc3BlY2lmeSBhIEhPQSB0cmFuc3BvcnQgZm9ybWF0IHdoaWNoIGFsbG93cyB1bnJlc3RyaWN0ZWQgSE9BIG9yZGVyIHNpZ25hbHMgdG8gYmUgdHJhbnNwb3J0ZWQu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Higher Order Ambisonics (HOA) signals are able to deliver a significantly
+    enhanced immersive sound compared to conventional stereo or 5.1 channel audio
+    signals. However, there are some use cases where HOA signals cannot be transported
+    because of the large number of HOA input channels. One example is mobile devices,
+    where the number of input channels can be limited by 8 Pulse-Code Modulation (PCM)
+    channels, and thus only a maximum of First Order Ambisonics (FOA: requiring 4
+    PCM channels) can be transported. Another example is a typical broadcast workflow.
+    The use of single High-Definition Serial Digital Interface (HD-SDI) link has a
+    limitation of being able to transport only 16 PCM audio embedded channels. This
+    restricts the transport to a maximum of 3rd order HOA signals (requiring 16 PCM
+    channels)  and that, only if there are no additional discrete audio elements to
+    be transported. If additional audio elements are to be transported, only a maximum
+    of 2nd order HOA (requiring 9 PCM channels) can be transported. This work item
+    aims to specify a HOA transport format which allows unrestricted HOA order signals
+    to be transported.'
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: TV
-- content: UHDTV
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: UHDTV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

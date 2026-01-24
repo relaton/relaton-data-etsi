@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS131130V6.7.02009-10
+id: ETSITS131130V670200910
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; (U)SIM Application Programming Interface
     (API); (U)SIM API for Java Card (3GPP TS 31.130 version 6.7.0 Release 6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31695
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131130/06.07.00_60/ts_131130v060700p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 131 130 V6.7.0 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31695
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131130/06.07.00_60/ts_131130v060700p.pdf
+docidentifier:
+- content: ETSI TS 131 130 V6.7.0 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 131 130 V6.7.0 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Application Aspects (formely T3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.7.0
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-45
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-45
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart Card Application Aspects (formely T3)
+    content: Technical Specification

@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300469ed.11998-03
+id: ETSIETS300469ed1199803
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Asynchronous Transfer
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Asynchronous Transfer
     Mode (ATM); Management of the network element view [ITU-T Recommendation I.751
     (1996)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1066
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300469/01_60/ets_300469e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 469 ed.1 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1066
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300469/01_60/ets_300469e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 469 ed.1 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 469 ed.1 (1998-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Application of network management principles to B-ISDN.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Application of network management principles to B-ISDN.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: B-ISDN
-- content: ENDORSEMENT
-- content: MANAGEMENT
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Broadband Networks
+    content: European Telecommunication Standard

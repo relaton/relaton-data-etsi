@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101596-1V5.1.12012-10
+id: ETSITS1015961V511201210
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Terminating Identification Presentation (TIP)
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Terminating Identification Presentation (TIP)
     and Terminating Identification Restriction (TIR) using IP Multimedia (IM) Core
     Network (CN) subsystem; Conformance Test Specification; Part 1: Protocol Implementation
     Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38371
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10159601/05.01.01_60/ts_10159601v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 596-1 V5.1.1 (2012-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38371
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10159601/05.01.01_60/ts_10159601v050101p.pdf
+docidentifier:
+- content: ETSI TS 101 596-1 V5.1.1 (2012-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 596-1 V5.1.1 (2012-10)
 date:
 - type: published
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2012-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The PICS ensures the conformance of the SUT to ETSI TS 124 608 (3GPP Release
+- language: en
+  script: Latn
+  content: "The PICS ensures the conformance of the SUT to ETSI TS 124 608 (3GPP Release
     10)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: PICS
-- content: TESTING
-- content: TIP
-- content: TIR
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TIP
+  - language: en
+    script: Latn
+    content: TIR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

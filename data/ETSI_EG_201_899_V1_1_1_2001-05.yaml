@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201899V1.1.12001-05
+id: ETSIEG201899V111200105
+schema_version: v1.4.1
 title:
-- content: Services and Protocols for Advanced Networks (SPAN); Service Provider Access;
+- language: en
+  script: Latn
+  content: Services and Protocols for Advanced Networks (SPAN); Service Provider Access;
     Modelling Service Provider Access Requirements using an API approach
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10742
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201800_201899/201899/01.01.01_60/eg_201899v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 899 V1.1.1 (2001-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10742
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201800_201899/201899/01.01.01_60/eg_201899v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 899 V1.1.1 (2001-05)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 899 V1.1.1 (2001-05)
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Overall Network and System Architecture (ONSA)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify interface classes between SCF/SA-GF and 3rd party applications
+- language: en
+  script: Latn
+  content: "To specify interface classes between SCF/SA-GF and 3rd party applications
     using UML. The interface to be provide at least IN CS1 capabilities to those applications.
     Result will be used to influence SPAN-03070-1.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: ARCHITECTURE
-- content: INTERFACE
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Overall Network and System Architecture (ONSA)
+    content: ETSI Guide

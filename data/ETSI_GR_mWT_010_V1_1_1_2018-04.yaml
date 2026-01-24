@@ -1,70 +1,99 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT010V1.1.12018-04
+id: ETSIGRmWT010V111201804
+schema_version: v1.4.1
 title:
-- content: 3D RayTracing Interference Analysis in V-Band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51333
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/010/01.01.01_60/gr_mWT010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 010 V1.1.1 (2018-04)
+- language: en
+  script: Latn
+  content: 3D RayTracing Interference Analysis in V-Band
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51333
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/010/01.01.01_60/gr_mWT010v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 010 V1.1.1 (2018-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 010 V1.1.1 (2018-04)
 date:
 - type: published
-  value: 2018-04
+  at: 2018-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gY29uZHVjdCBkZXRhaWxlZCBpbnRlcmZlcmVuY2UgYW5hbHlzaXMgYnkgdXNpbmcgM0QgUmF5LVRyYWNpbmcgdG9vbHMgdGhhdCBjYW4gdGFrZSBpbnRvIGFjY291bnQgdGhlIGdlb21ldHJ5IG9mIGhpZ2ggZGVuc2UgdXJiYW4gZW52aXJvbm1lbnRzLCBjb25zaWRlcmluZzoNClByb3BlciBWLUJhbmQgQ2hhbm5lbCBNb2RlbCAgaW4gcmVhbCBlbnZpcm9ubWVudA0KVXJiYW4gY2FueW9uaW5nIGFuZCBkZW5zZSB1cmJhbiBzY2VuYXJpb3MgdXNpbmcgR0lTIGRhdGFiYXNlIChieSBzZWxlY3RpbmcgcmVhbCBjaXRpZXMgc2NlbmVzKS4NClRvIGNvbnNpZGVyIHdpZGUgYmFuZHdpZHRoIHN5c3RlbXMgKFdpR2lnIGxpa2UpIGFzIHBvdGVudGlhbCBpbnRlcmZlcmVycw0KVG8gcHJvZHVjZSBhIG51bWJlciBvZiB1c2VmdWwgcmVzdWx0cyBsaWtlOg0KUlNMIG1hcHMNClNOUiBtYXBzDQpMb1MgcHJvYmFiaWxpdHkNCk11bHRpLXBhdGhzIGltcGFjdA0KVmVnZXRhdGlvbiBwZW5ldHJhdGlvbiBsb3NzDQpEZS1wb2xhcml6YXRpb24gZWZmZWN0cw0K4oCmb3RoZXJz4oCmDQpUbyBkZWZpbmUgdXNlZnVsIHBlcmZvcm1hbmNlIChpLmUuIGF2YWlsYWJpbGl0eSBhbmQgdGhyb3VnaHB1dCkgYW5kIGluc3RhbGxhdGlvbiBLUEnigJlzIGZvciBsaW5rL25ldHdvcmsgZGVwbG95bWVudHMNCk91dGNvbWVzIG9mIHRoaXMgYW5hbHlzaXMgYXJlIGludGVuZGVkIHRvIGJlIGxpYWlzZWQgdG8gSVRVLVIgV1AgMywgRUNDL1NFMTksIGFuZCB0byBvdGhlciByZWxldmFudCBncm91cHMgaWRlbnRpZmllZCBpbiBkdWUgY291cnNlLCAgYXMgY29udHJpYnV0aW9uIGZvciBkaXNjDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To conduct detailed interference analysis by using 3D Ray-Tracing tools
+    that can take into account the geometry of high dense urban environments, considering:\r\nProper
+    V-Band Channel Model  in real environment\r\nUrban canyoning and dense urban scenarios
+    using GIS database (by selecting real cities scenes).\r\nTo consider wide bandwidth
+    systems (WiGig like) as potential interferers\r\nTo produce a number of useful
+    results like:\r\nRSL maps\r\nSNR maps\r\nLoS probability\r\nMulti-paths impact\r\nVegetation
+    penetration loss\r\nDe-polarization effects\r\nothers\r\nTo define useful performance
+    (i.e. availability and throughput) and installation KPIs for link/network deployments\r\nOutcomes
+    of this analysis are intended to be liaised to ITU-R WP 3, ECC/SE19, and to other
+    relevant groups identified in due course,  as contribution for disc\r\n"
+status:
+  stage: Published
 keyword:
-- content: 3D Ray-Tracing
-- content: 60 GHz
-- content: FWA
-- content: Interference Analysis
-- content: Listen Before Talk
-- content: mWT
-- content: Network Performance
-- content: V-band
+- taxon:
+  - language: en
+    script: Latn
+    content: 3D Ray-Tracing
+  - language: en
+    script: Latn
+    content: 60 GHz
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: Interference Analysis
+  - language: en
+    script: Latn
+    content: Listen Before Talk
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: Network Performance
+  - language: en
+    script: Latn
+    content: V-band
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Report

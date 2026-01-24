@@ -1,63 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR283ed.11996-05
+id: ETSIETR283ed1199605
+schema_version: v1.4.1
 title:
-- content: Equipment Engineering (EE); Transient voltages at Interface A on telecommunications
+- language: en
+  script: Latn
+  content: Equipment Engineering (EE); Transient voltages at Interface A on telecommunications
     direct current (dc) power distributions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3040
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/283/01_60/etr_283e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 283 ed.1 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3040
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/283/01_60/etr_283e01p.pdf
+docidentifier:
+- content: ETSI ETR 283 ed.1 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 283 ed.1 (1996-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To examine the parameters of the power distribtion that significantly\r\ncontribute
+- language: en
+  script: Latn
+  content: "To examine the parameters of the power distribtion that significantly\r\ncontribute
     to the energy contained in a transient; to discuss ways in\r\nwhich the transient
     can be controlled to reduce its harmful effects,\r\nand suggest ways in which
     the immunity of an electronic unit or a\r\nsubstantial telecommunications installation
     might be tested.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: POWER SUPPLY
-- content: PROTECTION
-- content: TRANSIENT
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: PROTECTION
+  - language: en
+    script: Latn
+    content: TRANSIENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Technical Report

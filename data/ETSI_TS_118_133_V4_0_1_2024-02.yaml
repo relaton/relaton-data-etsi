@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118133V4.0.12024-02
+id: ETSITS118133V401202402
+schema_version: v1.4.1
 title:
-- content: Interworking Framework (oneM2M TS-0033 v4.0.1 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68584
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118133/04.00.01_60/ts_118133v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 133 V4.0.1 (2024-02)
+- language: en
+  script: Latn
+  content: Interworking Framework (oneM2M TS-0033 v4.0.1 Release 4)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68584
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118133/04.00.01_60/ts_118133v040001p.pdf
+docidentifier:
+- content: ETSI TS 118 133 V4.0.1 (2024-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 133 V4.0.1 (2024-02)
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document is the specification describing interworking methodologies
+- language: en
+  script: Latn
+  content: "This document is the specification describing interworking methodologies
     that are defined by oneM2M for the purpose of representing interactions  with
     devices or functions in Proximal IoT networks that are not aware of oneM2M. This
     includes exposing non-oneM2M devices, applications and services to oneM2M entities
@@ -53,19 +62,21 @@ abstract:
     services to Proximal IoT networks that are not aware of oneM2M. This present document
     is independent of any specific Proximal IoT technology. Details for interworking
     with specific Proximal IoT Technologies are contained in other Technical Specifications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

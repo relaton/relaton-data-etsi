@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRZSM010V1.1.12021-07
+id: ETSIGRZSM010V111202107
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); General Security Aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58436
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/010/01.01.01_60/gr_ZSM010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ZSM 010 V1.1.1 (2021-07)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); General Security Aspects
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58436
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/010/01.01.01_60/gr_ZSM010v010101p.pdf
+docidentifier:
+- content: ETSI GR ZSM 010 V1.1.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR ZSM 010 V1.1.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This study investigates the security aspects of the ZSM framework and solutions
+- language: en
+  script: Latn
+  content: This study investigates the security aspects of the ZSM framework and solutions
     , identifies potential security threats and mitigation considerations to be covered
     in ZSM standardization activities. It aims to outline a list of security controls
     (aka security countermeasures) in order to raise awareness of security aspects
     that could be considered in ZSM specifications. The report will explore the relationship
     between security controls and technology-specific solutions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Countermeasures
-- content: SECURITY
-- content: Threat Analysis
+- taxon:
+  - language: en
+    script: Latn
+    content: Countermeasures
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Threat Analysis
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Report

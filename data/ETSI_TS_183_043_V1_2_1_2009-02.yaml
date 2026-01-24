@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183043V1.2.12009-02
+id: ETSITS183043V121200902
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); IMS-based PSTN/ISDN Emulation; Stage 3 specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28793
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183043/01.02.01_60/ts_183043v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 043 V1.2.1 (2009-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28793
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183043/01.02.01_60/ts_183043v010201p.pdf
+docidentifier:
+- content: ETSI TS 183 043 V1.2.1 (2009-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 043 V1.2.1 (2009-02)
 date:
 - type: published
-  value: 2009-02
+  at: 2009-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Maintenance of the TS to ensure essential corrections are incorporated
+- language: en
+  script: Latn
+  content: Maintenance of the TS to ensure essential corrections are incorporated
     into the standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: ISDN
-- content: PSTN
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301819V1.1.12000-10
+id: ETSIEN301819V111200010
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Specification, functional models
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Specification, functional models
     and information flows; Common information Additional Network Feature (ANF) [ISO/IEC
     15771 (1998), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/301819/01.01.01_60/en_301819v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 819 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/301819/01.01.01_60/en_301819v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 819 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 819 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Stage 1 & 2 of additional n/w feature common information\r\nSee DTR/ECMA-0002
+- language: en
+  script: Latn
+  content: "Stage 1 & 2 of additional n/w feature common information\r\nSee DTR/ECMA-0002
     (ECMA-TR/SVC) for service description. See\r\nENV41005 for definition of stage
     1 & 2.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANF
-- content: ENDORSEMENT
-- content: PISN
+- taxon:
+  - language: en
+    script: Latn
+    content: ANF
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PISN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Standard

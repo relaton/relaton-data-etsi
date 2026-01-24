@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302065-3-1V3.2.12025-02
+id: ETSIEN30206531V321202502
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Harmonised
+- language: en
+  script: Latn
+  content: 'Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Harmonised
     standard for access to radio spectrum; Part 3: UWB devices installed in motor
     and railway vehicles; Sub-part 1:Requirements for UWB devices for vehicular access
     systems within 3,8 GHz to 4,2 GHz or 6 GHz to 8,5 GHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55073
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/3020650301/03.02.01_60/en_3020650301v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 065-3-1 V3.2.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55073
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/3020650301/03.02.01_60/en_3020650301v030201p.pdf
+docidentifier:
+- content: ETSI EN 302 065-3-1 V3.2.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 065-3-1 V3.2.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gdG8gYW1lbmQgdGhlIGZvcm1lciB2ZXJzaW9uIG9mIEVOIDMwMiAwNjUgUGFydCAzLCB2Mi4xLjEgKOKAnFJlcXVpcmVtZW50cyBmb3IgVVdCIGRldmljZXMgZm9yIGdyb3VuZCBiYXNlZCB2ZWhpY3VsYXIgYXBwbGljYXRpb25z4oCdKSB0byBhZGRyZXNzIHRoZSByZXF1ZXN0IG9mIHRoZSBFVSBkZXNrIG9mZmljZXIuIFRoaXMgaW5jbHVkZXMgYSBkZXRhaWxlZCBkZXNjcmlwdGlvbiBvZiB0aGUgd2FudGVkIHBlcmZvcm1hbmNlIGNyaXRlcmlvbiwgUlgtcmVxdWlyZW1lbnRzIGFuZCBmaXhlZCBsaW1pdHMgZm9yIGFsbCByZXF1aXJlbWVudHMgYmFzZWQgb24gYSBjbGVhciB0ZXN0IHByb2NlZHVyZS4NClRoZXJlZm9yZSwgdGhpcyBFTiB3aWxsIGNvdmVyIHZlaGljbGUgaW5zdGFsbGVkIGRldmljZXMgZm9yIOKAnFVXQiBiYXNlZCB2ZWhpY3VsYXIgYWNjZXNzIHN5c3RlbXMgZm9yIG9wZXJhdGlvbiBpbiA2IEdIeiB0byA4LDUgR0h6IGZyZXF1ZW5jeSByYW5nZXPigJ0sIHVzaW5nIOKAnFRyaWdnZXItYmVmb3JlLVRyYW5zbWl04oCdIG1pdGlnYXRpb24gdGVjaG5pcXVlLiBJdCBhcHBsaWVzIHRvIENhdGVnb3J5IEEgKHByb3hpbWl0eSB2ZXJpZmljYXRpb24pIGFuZCBDYXRlZ29yeSBCIChwcm94aW1pdHkgbW9uaXRvcmluZykgc3lzdGVtcyBhcyBpbnRyb2R1Y2VkIGluIFRSIDEwMyA0MTYgVjEuMS4xIHJlc3BlY3RpdmVseSBFQ0MgUmVwb3J0IDI3OC4NCkEgZmlyc3QgY29sbGVjdGlvbiBvZiBvcGVuIHBvaW50cyB3aGljaCBzaGFsbCBiZSBjb25zaWRlcmVkIChpbiBhZGRpdGlvbikgYXJlIHVwbG9hZGVkIGFzOiBUR1VXQlsxN10wNDAwMDEgYW5kIFRHVVdCKDE3KTA0MDAwNw0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This work item to amend the former version of EN 302 065 Part 3, v2.1.1
+    (Requirements for UWB devices for ground based vehicular applications) to address
+    the request of the EU desk officer. This includes a detailed description of the
+    wanted performance criterion, RX-requirements and fixed limits for all requirements
+    based on a clear test procedure.\r\nTherefore, this EN will cover vehicle installed
+    devices for UWB based vehicular access systems for operation in 6 GHz to 8,5 GHz
+    frequency ranges, using Trigger-before-Transmit mitigation technique. It applies
+    to Category A (proximity verification) and Category B (proximity monitoring) systems
+    as introduced in TR 103 416 V1.1.1 respectively ECC Report 278.\r\nA first collection
+    of open points which shall be considered (in addition) are uploaded as: TGUWB[17]040001
+    and TGUWB(17)040007\r\n"
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: SRD
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: European Standard

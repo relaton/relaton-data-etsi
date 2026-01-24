@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103605V1.1.12018-10
+id: ETSITS103605V111201810
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Second Generation Common Interface (CI);
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Second Generation Common Interface (CI);
     Implementation Using the Universal Serial Bus (USB)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54404
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103605/01.01.01_60/ts_103605v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 605 V1.1.1 (2018-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54404
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103605/01.01.01_60/ts_103605v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 605 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 605 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document will specify the USB form factor for the Common Interface.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The document will specify the USB form factor for the Common Interface.
+status:
+  stage: Published
 keyword:
-- content: CI Plus
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: CI Plus
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102828V1.1.12008-08
+id: ETSITS102828V111200808
+schema_version: v1.4.1
 title:
-- content: 'GRID; Grid Component Model (GCM); Part 2: GCM Application Description'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28176
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102828/01.01.01_60/ts_102828v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 828 V1.1.1 (2008-08)
+- language: en
+  script: Latn
+  content: 'GRID; Grid Component Model (GCM); Part 2: GCM Application Description'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28176
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102828/01.01.01_60/ts_102828v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 828 V1.1.1 (2008-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 828 V1.1.1 (2008-08)
 date:
 - type: published
-  value: 2008-08
+  at: 2008-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CLOUD
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: In relation with the GCM Interoperability Deployment (GCM Part 1), this
+- language: en
+  script: Latn
+  content: In relation with the GCM Interoperability Deployment (GCM Part 1), this
     second part allows to describe and wrap  Grid applications in a standard manner.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: ARCHITECTURE
-- content: INTEROPERABILITY
-- content: NETWORK
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: CLOUD
+    content: Technical Specification

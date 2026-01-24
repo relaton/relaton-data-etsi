@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126092V3.0.12000-01
+id: ETSITS126092V301200001
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Mandatory Speech Codec
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Mandatory Speech Codec
     speech processing functions AMR Speech Codec - Comfort noise aspects (3G TS 26.092
     version 3.0.1 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8055
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126000_126099/126092/03.00.01_60/ts_126092v030001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 092 V3.0.1 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8055
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126000_126099/126092/03.00.01_60/ts_126092v030001p.pdf
+docidentifier:
+- content: ETSI TS 126 092 V3.0.1 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 092 V3.0.1 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.1
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document gives the detailed requirements for the correct operation
+- language: en
+  script: Latn
+  content: "This document gives the detailed requirements for the correct operation
     of the background acoustic noise evaluation, noise parameter encoding/decoding
     and comfort noise generation for the AMR speech codec during Source Controlled
     Rate (SCR) operation.\r\nThe requirements described in this document are mandatory
@@ -57,17 +66,15 @@ abstract:
     where downlink SCR will be used.\r\nIn case of discrepancy between the requirements
     described in this document and the fixed point computational description of these
     requirements contained in [1], the description in [1] will prevail.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

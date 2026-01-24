@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126231V5.2.12005-01
+id: ETSITS126231V521200501
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Cellular text telephone modem; Minimum performance
     requirements (3GPP TS 26.231 version 5.2.1 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22247
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126231/05.02.01_60/ts_126231v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 231 V5.2.1 (2005-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22247
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126231/05.02.01_60/ts_126231v050201p.pdf
+docidentifier:
+- content: ETSI TS 126 231 V5.2.1 (2005-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 231 V5.2.1 (2005-01)
 date:
 - type: published
-  value: 2005-01
+  at: 2005-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 2005-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: edito post SP-26
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: edito post SP-26
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

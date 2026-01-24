@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187016V3.1.12010-06
+id: ETSITS187016V311201006
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Security; Identity Protection (Protection Profile)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28850
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187016/03.01.01_60/ts_187016v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 016 V3.1.1 (2010-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28850
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187016/03.01.01_60/ts_187016v030101p.pdf
+docidentifier:
+- content: ETSI TS 187 016 V3.1.1 (2010-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 016 V3.1.1 (2010-06)
 date:
 - type: published
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2010-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To provide countermeasure to assure that users of the NGN have protection
+- language: en
+  script: Latn
+  content: To provide countermeasure to assure that users of the NGN have protection
     from abuse of identity. This to cover Identity protection, authentication and
     integrity countermeasures and to define credential management. The document will
     extend from TR 187 010 and will identify the functional objectives from ISO 15408-2
@@ -58,18 +67,18 @@ abstract:
     marked as informative, whilst the technical countermeasures will be normative.
     The final document should follow the recommendations of EG 282 387 to allow its
     use as a Protection Profile.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ID
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

@@ -1,69 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SOL020V5.2.12025-03
+id: ETSIGSNFVSOL020V521202503
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Protocols and Data Models;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Protocols and Data Models;
     Specification of protocols and data models for Container Infrastructure Service
     Cluster Management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73024
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/020/05.02.01_60/gs_NFV-SOL020v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SOL 020 V5.2.1 (2025-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73024
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/020/05.02.01_60/gs_NFV-SOL020v050201p.pdf
+docidentifier:
+- content: ETSI GS NFV-SOL 020 V5.2.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SOL 020 V5.2.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyByZXZpc2lvbiBvZiBFVFNJIEdTIE5GVi1TT0wwMjAgY29udGludWVzIHRoZSBkZXZlbG9wbWVudCBvZiB0aGUgc3BlY2lmaWNhdGlvbiBhcyBwYXJ0IG9mIHRoZSBSZWxlYXNlIDUgYW5kIGFwcGxpZXMgbWFpbnRlbmFuY2UgY2hhbmdlcyB3aGVyZSBhcHBsaWNhYmxlLiBUaGlzIGVkaXRpb24gd2lsbCBhbHNvIGFkZCB1cGRhdGVzIGFjY29yZGluZyB0byBsYXRlc3QgcHVibGlzaGVkIHZlcnNpb25zIG9mIHRoZSByZWZlcmVuY2Ugb3BlbiBzb3VyY2UgQVBJcyBhbmQgZGF0YSBtb2RlbCBzb2x1dGlvbnMgcmVsYXRlZCB0byBkYWVtb24gc2V0cy4gVGhlIHNjb3BlIG9mIHRoZSBmb3JtZXIgZWRpdGlvbiBpcyBzdW1tYXJpemVkIGhlcmVhZnRlcjoNCg0KVGhlIHdvcmsgaXRlbSB3aWxsIHNwZWNpZnkgdGhlIHNlcnZpY2UgaW50ZXJmYWNlcyB0byBmdWxmaWxsIHRoZSBmdW5jdGlvbmFsIHJlcXVpcmVtZW50IG9mIHRoZSBjb250YWluZXIgaW5mcmFzdHJ1Y3R1cmUgc2VydmljZSBjbHVzdGVyIG1hbmFnZW1lbnQgKENJUyBDbHVzdGVyIE1hbmFnZW1lbnQsIG9yIENDTSBpbiBhYmJyZXZpYXRpb24pIGFzIHNwZWNpZmllZCBieSBFVFNJIEdTIE5GVi1JRkEgMDM2LiBJdCB3aWxsIGFuYWx5emUgdGhlIE5GViBvYmplY3QgbW9kZWwgZm9yIENJUyBjbHVzdGVyIG1hbmFnZW1lbnQgYW5kIHRoZSBtYW5hZ2VkIG9iamVjdHMgb2YgdGhlIHJlZmVyZW5jZWQgb3Blbi1zb3VyY2Ugc29sdXRpb25zIChlLmcuIEt1YmVybmV0ZXPCriBjbHVzdGVyIEFQSSkgYW5kIHByb3ZpZGUgYSBtYXBwaW5nIGJldHdlZW4gdGhlbS4gQmFzZWQgb24gdGhlIGFuYWx5c2lzIHJlc3VsdHMsIHRoZSByZWZlcmVuY2VkIHNvbHV0aW9ucyB3aWxsIGJlIHByb2ZpbGVkIGZvciBzcGVjaWZ5aW5nIHRoZSBDSVMgY2x1c3RlciBsaWZlY3ljbGUsIGNvbmZpZ3VyYXRpb24sIHBlcmZvcm1hbmNlLCBmYXVsdCBhbmQgc2VjdXJpdHkgbWFuYWdlbWVudCBzZXJ2aWNlIGludGVyZmFjZXMuIFRoZSByZXN1bHRpbmcgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIG5vcm1hdGl2ZSBwcm92aXNpb25zLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This revision of ETSI GS NFV-SOL020 continues the development of the specification
+    as part of the Release 5 and applies maintenance changes where applicable. This
+    edition will also add updates according to latest published versions of the reference
+    open source APIs and data model solutions related to daemon sets. The scope of
+    the former edition is summarized hereafter:\r\n\r\nThe work item will specify
+    the service interfaces to fulfill the functional requirement of the container
+    infrastructure service cluster management (CIS Cluster Management, or CCM in abbreviation)
+    as specified by ETSI GS NFV-IFA 036. It will analyze the NFV object model for
+    CIS cluster management and the managed objects of the referenced open-source solutions
+    (e.g. Kubernetes cluster API) and provide a mapping between them. Based on the
+    analysis results, the referenced solutions will be profiled for specifying the
+    CIS cluster lifecycle, configuration, performance, fault and security management
+    service interfaces. The resulting deliverable will contain normative provisions."
+status:
+  stage: Published
 keyword:
-- content: Container
-- content: data models
-- content: MANO
-- content: NFV
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: Container
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Solutions
+    content: Group Specification

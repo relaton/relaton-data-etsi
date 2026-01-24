@@ -1,76 +1,97 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201737V1.1.12000-04
+id: ETSIES201737V111200004
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Interaction channel through Global System
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Interaction channel through Global System
     for Mobile communications (GSM) the Public switched Telecommunications System
     (PSTN); Integrated Services Digital Network (ISDN) and Digital Enhanced Cordless
     Telecommunications (DECT)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8633
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201700_201799/201737/01.01.01_60/es_201737v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 737 V1.1.1 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8633
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201700_201799/201737/01.01.01_60/es_201737v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 737 V1.1.1 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 737 V1.1.1 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specifies the DAB Interaction Channel through GSM/PSTN/ISDN/DECT
+- language: en
+  script: Latn
+  content: "This specifies the DAB Interaction Channel through GSM/PSTN/ISDN/DECT
     and handles low level network questions.  it is basically a document with references
     to relevant telecommunications standards where you will find how to implement
     the low level interaction part.\r\nSupporting ETSI member Organisations; Eureka
     147 Project i.e., BBC, Bosch, IRT, Teracom."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: BROADCAST
-- content: BROADCASTING
-- content: DAB
-- content: DECT
-- content: DIGITAL
-- content: GSM
-- content: ISDN
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

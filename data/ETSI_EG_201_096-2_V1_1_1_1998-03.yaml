@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201096-2V1.1.11998-03
+id: ETSIEG2010962V111199803
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Cordless Terminal Mobility (CTM); IN architecture
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Cordless Terminal Mobility (CTM); IN architecture
     and functionality for the support of CTM; Part 2: CTM interworking between public
     IN'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4963
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201000_201099/20109602/01.01.01_60/eg_20109602v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 096-2 V1.1.1 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4963
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201000_201099/20109602/01.01.01_60/eg_20109602v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 096-2 V1.1.1 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 096-2 V1.1.1 (1998-03)
 date:
 - type: published
-  value: 1998-03
+  at: 1998-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document covers inter-network scenarios and procedures to support\r\nroaming
+- language: en
+  script: Latn
+  content: "The document covers inter-network scenarios and procedures to support\r\nroaming
     of CTM users between IN-structured public networks for CTM\r\nPhase 1. The same
     type of procedures are addressed as in Part 1.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CTM
-- content: IN
-- content: INTERWORKING
-- content: PUBLIC
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: PUBLIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: ETSI Guide

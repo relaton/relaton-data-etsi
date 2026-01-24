@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-TST010V5.1.12025-04
+id: ETSIGSNFVTST010V511202504
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Testing; API Conformance
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Testing; API Conformance
     Testing Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73744
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/010/05.01.01_60/gs_NFV-TST010v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-TST 010 V5.1.1 (2025-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73744
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/010/05.01.01_60/gs_NFV-TST010v050101p.pdf
+docidentifier:
+- content: ETSI GS NFV-TST 010 V5.1.1 (2025-04)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-TST 010 V5.1.1 (2025-04)
 date:
 - type: published
-  value: 2025-04
+  at: 2025-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2025-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Test descriptions, procedures, methods and test configurations, along
+- language: en
+  script: Latn
+  content: 'Test descriptions, procedures, methods and test configurations, along
     with precise expected outcomes that will comprise a conformance test plan for
     the APIs exposed on the following reference points: Os-Ma-Nfvo, Or-Vnfm, and Ve-Vnfm,
     defined in NFV Release-5 versions 5.1.1 of ETSI GS NFV-SOL 012, ETSI GS NFV-SOL
     011, ETSI GS NFV-SOL 009, ETSI GS NFV-SOL 005, ETSI GS NFV-SOL 003, and ETSI GS
     NFV-SOL 002, respectively. Where possible, the tests will be specified using means
     to facilitate automation of the testing.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: CONFORMANCE
-- content: NFV
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Specification

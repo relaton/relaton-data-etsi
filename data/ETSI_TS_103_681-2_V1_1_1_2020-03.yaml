@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103681-2V1.1.12020-03
+id: ETSITS1036812V111202003
+schema_version: v1.4.1
 title:
-- content: 'Reconfigurable Radio Systems (RRS); Radio Equipment (RE) information models
+- language: en
+  script: Latn
+  content: 'Reconfigurable Radio Systems (RRS); Radio Equipment (RE) information models
     and protocols for generalized software reconfiguration architecture; Part 2: generalized
     Reconfigurable Radio Frequency Interface (gRRFI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58007
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10368102/01.01.01_60/ts_10368102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 681-2 V1.1.1 (2020-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58007
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10368102/01.01.01_60/ts_10368102v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 681-2 V1.1.1 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 681-2 V1.1.1 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: REA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Specification will be based on ETSI EN 303 146-2 and provide
+- language: en
+  script: Latn
+  content: This Technical Specification will be based on ETSI EN 303 146-2 and provide
     a generalized interface definition for the generalized Reconfigurable Radio Frequency
     Interface.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: RADIO
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: REA - Reconfigurable Radio Equipment Architecture
+    content: Technical Specification

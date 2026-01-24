@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183020V1.1.12006-03
+id: ETSITS183020V111200603
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Network Attachment: Roaming in TISPAN NGN Network Accesses;
     Interface Protocol Definition'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22490
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183020/01.01.01_60/ts_183020v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 020 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22490
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183020/01.01.01_60/ts_183020v010101p.pdf
+docidentifier:
+- content: ETSI TS 183 020 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 020 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Review existing roaming interface drafts for WLAN and xDSL, prepare final
+- language: en
+  script: Latn
+  content: Review existing roaming interface drafts for WLAN and xDSL, prepare final
     definition for Work Group approval. Prepare roaming interface definition for NASS
     interface e5.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: INTERFACE
-- content: NETWORK
-- content: ROAMING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: ROAMING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

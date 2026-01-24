@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-SEC003V1.3.12024-12
+id: ETSIGRNFVSEC003V131202412
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); NFV Security; Security and Trust
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); NFV Security; Security and Trust
     Guidance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72987
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-SEC/001_099/003/01.03.01_60/gr_NFV-SEC003v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-SEC 003 V1.3.1 (2024-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72987
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-SEC/001_099/003/01.03.01_60/gr_NFV-SEC003v010301p.pdf
+docidentifier:
+- content: ETSI GR NFV-SEC 003 V1.3.1 (2024-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-SEC 003 V1.3.1 (2024-12)
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2024-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgaGFzIGJlZW4gZGV2ZWxvcGVkIHRvIGRlc2NyaWJlIHRoZSBzZWN1cml0eSBhbmQgdHJ1c3QgZ3VpZGFuY2UgdGhhdCBpcyB1bmlxdWUgdG8gTkZWIGRldmVsb3BtZW50LCBhcmNoaXRlY3R1cmUgYW5kIG9wZXJhdGlvbi4gR3VpZGFuY2UgY29uc2lzdHMgb2YgaXRlbXMgdG8gY29uc2lkZXIgdGhhdCBtYXkgYmUgdW5pcXVlIHRvIHRoZSBlbnZpcm9ubWVudCBvciBkZXBsb3ltZW50LiBTdXBwbGllZCBndWlkYW5jZSBkb2VzIG5vdCBjb25zaXN0IG9mIHByZXNjcmlwdGl2ZSByZXF1aXJlbWVudHMgb3Igc3BlY2lmaWMgaW1wbGVtZW50YXRpb24gZGV0YWlscywgd2hpY2ggc2hvdWxkIGJlIGJ1aWx0IGZyb20gdGhlIGNvbnNpZGVyYXRpb25zIHN1cHBsaWVkLiBHdWlkYW5jZSBpcyBiYXNlZCBvbiBkZWZpbmVkIHVzZSBjYXNlcywgaW5jbHVkZWQgaW4gdGhlIHByZXNlbnQgZG9jdW1lbnQsIHRoYXQgYXJlIGRlcml2ZWQgZnJvbSB0aGUgU2VjdXJpdHkgUHJvYmxlbSBTdGF0ZW1lbnQgYW5kIGFyZSB1bmlxdWUgdG8gTkZWLiBSZWxldmFudCBleHRlcm5hbCBndWlkYW5jZSB3aWxsIGJlIHJlZmVyZW5jZWQsIHdoZXJlIGF2YWlsYWJsZS4gVGhlIHByb3Bvc2VkIHdvcmsgaXRlbSBmb3IgcmV2aXNpb24gaXMgdG8gdXBkYXRlIFNFQzAwMyBvbiB0aGUgdGVybSBUUE0gd2l0aCBnZW5lcmljIGRlc2NyaXB0aW9ucywgaW5jbHVkaW5nIHVzaW5nIE5GVi1TRUPigJlzIG93biB0ZXJtIEhCUlQsIG9yIGFkZGluZyBlcXVpdmFsZW50IGhhcmR3YXJlIGltcGxlbWVudGF0aW9ucywganVzdCBsaWtlIElFVEYgZHJhZnQtaWV0Zi1yYXRzLXRwbS1iYXNlZC1uZXR3b3JrLWRldmljZS1hdHRlc3QtMTQgc2F5cyBpbiB0aGUgYWJzdHJhY3Qu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The present document has been developed to describe the security and trust
+    guidance that is unique to NFV development, architecture and operation. Guidance
+    consists of items to consider that may be unique to the environment or deployment.
+    Supplied guidance does not consist of prescriptive requirements or specific implementation
+    details, which should be built from the considerations supplied. Guidance is based
+    on defined use cases, included in the present document, that are derived from
+    the Security Problem Statement and are unique to NFV. Relevant external guidance
+    will be referenced, where available. The proposed work item for revision is to
+    update SEC003 on the term TPM with generic descriptions, including using NFV-SECs
+    own term HBRT, or adding equivalent hardware implementations, just like IETF draft-ietf-rats-tpm-based-network-device-attest-14
+    says in the abstract.
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: NFV
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Security
+    content: Group Report

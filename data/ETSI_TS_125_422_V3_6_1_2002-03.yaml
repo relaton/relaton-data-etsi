@@ -1,63 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125422V3.6.12002-03
+id: ETSITS125422V361200203
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); UTRAN Iur Interface
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); UTRAN Iur Interface
     Signalling Transport (3GPP TS 25.422 version 3.6.1 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16003
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125400_125499/125422/03.06.01_60/ts_125422v030601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 422 V3.6.1 (2002-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16003
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125400_125499/125422/03.06.01_60/ts_125422v030601p.pdf
+docidentifier:
+- content: ETSI TS 125 422 V3.6.1 (2002-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 422 V3.6.1 (2002-03)
 date:
 - type: published
-  value: 2002-03
+  at: 2002-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.6.1
-revdate: 2002-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Editorial correction\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Editorial correction\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

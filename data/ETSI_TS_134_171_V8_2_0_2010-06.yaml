@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS134171V8.2.02010-06
+id: ETSITS134171V820201006
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Terminal conformance
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Terminal conformance
     specification; Assisted Global Positioning System (A-GPS); Frequency Division
     Duplex (FDD) (3GPP TS 34.171 version 8.2.0 Release 8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34530
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/134100_134199/134171/08.02.00_60/ts_134171v080200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 134 171 V8.2.0 (2010-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34530
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/134100_134199/134171/08.02.00_60/ts_134171v080200p.pdf
+docidentifier:
+- content: ETSI TS 134 171 V8.2.0 (2010-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 134 171 V8.2.0 (2010-06)
 date:
 - type: published
-  value: 2010-06
+  at: 2010-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.2.0
-revdate: 2010-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-48
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-48
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Specification

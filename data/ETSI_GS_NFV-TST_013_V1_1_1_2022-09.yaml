@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-TST013V1.1.12022-09
+id: ETSIGSNFVTST013V111202209
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Testing; Test Case Description
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing; Test Case Description
     Template Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59538
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/013/01.01.01_60/gs_NFV-TST013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-TST 013 V1.1.1 (2022-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59538
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/013/01.01.01_60/gs_NFV-TST013v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-TST 013 V1.1.1 (2022-09)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-TST 013 V1.1.1 (2022-09)
 date:
 - type: published
-  value: 2022-09
+  at: 2022-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Define standardized test case description template to determine the standardized
+- language: en
+  script: Latn
+  content: 'Define standardized test case description template to determine the standardized
     machine-readable format including, but not limited to :  1. Test case description
     info;   2. Test case input info;   3. Test case script designation info;   4.
     Test case output info'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: SCRIPT
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SCRIPT
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Specification

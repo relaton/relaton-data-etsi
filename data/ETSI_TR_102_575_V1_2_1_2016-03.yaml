@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102575V1.2.12016-03
+id: ETSITR102575V121201603
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); An IP-based text telephony solution known as "Reliable
+- language: en
+  script: Latn
+  content: Human Factors (HF); An IP-based text telephony solution known as "Reliable
     RTT"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49388
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102575/01.02.01_60/tr_102575v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 575 V1.2.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49388
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102575/01.02.01_60/tr_102575v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 575 V1.2.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 575 V1.2.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial re-publication to correct informative reference i.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Editorial re-publication to correct informative reference i.1
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: IP
-- content: MOBILE
-- content: TELEPHONY
-- content: TERMINAL
-- content: TEXT
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TEXT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

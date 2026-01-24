@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103579V1.1.12020-09
+id: ETSITR103579V111202009
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Pre-Standardization Study on payment
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Pre-Standardization Study on payment
     applications in Cooperative ITS using V2I communication
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53992
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103579/01.01.01_60/tr_103579v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 579 V1.1.1 (2020-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53992
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103579/01.01.01_60/tr_103579v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 579 V1.1.1 (2020-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 579 V1.1.1 (2020-09)
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Identify potential requirements for the set of payment applications including
+- language: en
+  script: Latn
+  content: Identify potential requirements for the set of payment applications including
     positioning and security requirements. To investigate possible updates and changes
     to the existing set of ETSI Cooperative ITS standards using V2I communication,
     to support locally hosted payment applications including Electronic Fee Collection
     (EFC) and other general payment applications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: application layer
-- content: CHARGING
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: application layer
+  - language: en
+    script: Latn
+    content: CHARGING
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Report

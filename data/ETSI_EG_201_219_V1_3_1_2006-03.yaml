@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201219V1.3.12006-03
+id: ETSIEG201219V131200603
+schema_version: v1.4.1
 title:
-- content: User requirements; Guidelines on the consideration of user requirements
+- language: en
+  script: Latn
+  content: User requirements; Guidelines on the consideration of user requirements
     when managing the standardization process
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19159
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201200_201299/201219/01.03.01_60/eg_201219v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 219 V1.3.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19159
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201200_201299/201219/01.03.01_60/eg_201219v010301p.pdf
+docidentifier:
+- content: ETSI EG 201 219 V1.3.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 219 V1.3.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To update the procedure that will ensure that user requirements are addressed
+- language: en
+  script: Latn
+  content: To update the procedure that will ensure that user requirements are addressed
     during the development of an ETSI deliverable
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: SERVICE
-- content: TERMINAL
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: User Group
+    content: ETSI Guide

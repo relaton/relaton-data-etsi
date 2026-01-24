@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103739V1.4.12021-10
+id: ETSITS103739V141202110
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
     for wideband mobile wireless terminals (handset and headset) from a QoS perspective
     as perceived by the user
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58339
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103739/01.04.01_60/ts_103739v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 739 V1.4.1 (2021-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58339
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103739/01.04.01_60/ts_103739v010401p.pdf
+docidentifier:
+- content: ETSI TS 103 739 V1.4.1 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 739 V1.4.1 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document achieves the following: optimize the end to end quality
+- language: en
+  script: Latn
+  content: "The present document achieves the following: optimize the end to end quality
     perceived by the user, whatever be the radio link (terminals may implement different
     radio links) - ensure compatibility across access network with VoIP, DECT terminals
     - optimize the listening and talking quality, conversational performance, use
@@ -55,18 +64,18 @@ abstract:
     form factors.\r\nThis revision is to provide clarifications about the applicability
     with regard to access networks, and to extend applicability to terminals with
     new types of acoustic transducers. Also, the word \"mobile\" is added to the title."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SPEECH
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

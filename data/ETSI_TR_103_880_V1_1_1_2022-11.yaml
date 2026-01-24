@@ -1,66 +1,111 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103880V1.1.12022-11
+id: ETSITR103880V111202211
+schema_version: v1.4.1
 title:
-- content: Study into the challenges of developing harmonised standards in the context
+- language: en
+  script: Latn
+  content: Study into the challenges of developing harmonised standards in the context
     of future changes to the environment in which products are being developed and
     operated
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63987
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103880/01.01.01_60/tr_103880v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 880 V1.1.1 (2022-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63987
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103880/01.01.01_60/tr_103880v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 880 V1.1.1 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 880 V1.1.1 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIHdpbGwgZGV2ZWxvcCBhIFRSIHRvIGluZm9ybSBFVFNJIG1lbWJlcnMgYW5kIHdpZGVyIHBhcnRpZXMgb2YgdGhlIGNoYWxsZW5nZXMgb2YgZGV2ZWxvcGluZyBoYXJtb25pc2VkIHN0YW5kYXJkcyBpbiB0aGUgY29udGV4dCBvZiBmdXR1cmUgY2hhbmdlcyB0byB0aGUgZW52aXJvbm1lbnQgaW4gd2hpY2ggcHJvZHVjdHMgYXJlIGJlaW5nIGRldmVsb3BlZCBhbmQgb3BlcmF0ZWQuDQoNClRoZSBUUiB3aWxsIGluZm9ybSBFVFNJIG1lbWJlcnMgYW5kIHRoZSBidXNpbmVzcyBjb21tdW5pdHkgbW9yZSB3aWRlbHkgYXMgdG8gdGhlIGhpc3Rvcnkgb2YgRVRTSSBzdGFuZGFyZHMgYW5kIHRoZSBjdXJyZW50IFJFRCBwcm9jZXNzIHBsdXMgd2hhdCB0aGUgY2hhbmdlcyBpbiBSRUQgbWVhbiBmb3IgdGhlbSwgaW5jbHVkaW5nIGhvdyBtb3JlIHN1YmplY3RpdmUgcmVxdWlyZW1lbnRzIGFuZCBhc3Nlc3NtZW50cyBhcmUgYmVjb21pbmcgY29tbW9ucGxhY2UuIFNpbWlsYXIgY2hhbmdlcyBhcmUgZXhwZWN0ZWQgaW4gU3RhbmRhcmRpc2F0aW9uIFJlcXVlc3RzIG91dHNpZGUgb2YgUkVEIHNjb3BlLCAoZS5nLiBBSSksIHdoaWNoIHRoaXMgd29yayBtaWdodCBpbmZvcm0uDQoNCkVUU0kgaXMgY3VycmVudGx5IGluIHRoZSBwcm9jZXNzIG9mIGFkZHJlc3NpbmcgcHJvcG9zZWQgUkVEIGFydGljbGVzLCBhbmQgdGhlIGV4cGVyaWVuY2UgYW5kIGxlc3NvbnMgbGVhcm50IGZyb20gdGhpcyBwcm9jZXNzIGNhbiBhbmQgc2hvdWxkIGluZm9ybSBFVFNJIHByb2Nlc3NlcyBpbiB0aGUgaGFuZGxpbmcgb2Ygc2ltaWxhciBjb25jZXJucywgd2hldGhlciB0aGVzZSBhcmlzZSBpbiB0aGUgY29udGV4dCBvZiBhIFN0YW5kYXJkaXNhdGlvbiBSZXF1ZXN0IG9yIG90aGVyd2lzZS4NCg0KVGhlIGNvbnRlbnQgb2YgdGhlIGRlbGl2ZXJibGUgd2lsbCBiZToNCi0gRXhwbGFuYXRpb24gb2YgdGhlIGJhY2tncm91bmQgYW5kIGRldmVsb3BtZW50IG9mIHRoZSBSRUQ6IGxlZ2lzbGF0b3Jz4oCZIGludGVudGlvbnMgYW5kIHRoZSBuZXcgbGVnaXNsYXRpdmUgZnJhbWV3b3JrIChOTEYpDQotIEEgc2hvcnQgaGlzdG9yeSBvZiBzdGFuZGFyZHMgd3JpdHRlbiBmb3IgdGhlIFJFRA0KLSBFVFNJ4oCZcyByb2xlOiBIb3cgRVRTSSBIYXJtb25pc2VkIFN0YW5kYXJkcyBjaXRlZCBpbiBPSkVVIGFmZmVjdCBtYW51ZmFjdHVyZXJzIGFuZCBpbnRlcm1lZGlhcmllcyAoaW5jbHVkaW5nIFNNRXMgJiBOQnMpIHdoZW4gcGxhY2luZyBlcXVpcG1lbnQgb24gdGhlIG1hcmtldCAoYW5kIHdoYXQgaGF2aW5nIG5vIHN0YW5kYXJkcyBtZWFucykg4oCTIHRoZSBuZWNlc3NpdHkgZm9yIGxlZ2FsIGNlcnRhaW50eS4NCi0gUmVjZW50IGRldmVsb3BtZW50czoNCm8gYWN0aXZhdGlvbiBvZiBSRUQgYXJ0aWNsZXMgb2YgMy4zLzQ7DQpvIHRoZSBIQVNDIHByb2Nlc3M7DQpvIGlzc3VlcyBwZXJjZWl2ZWQgYnkgRVRTSSAoYW5kIHRoZSBFQykgd2l0aCByZWNlbnQgZGV2ZWxvcG1lbnRzLCBpbmNsdWRpbmcgaW1wbGljYXRpb25zIGJleW9uZCBtYXJrZXQgcGxhY2VtZW50IChkZXNpZ24gcHJvY2Vzcywgb3BlcmF0aW9uKSBkZXNwaXRlIHRoZSBSRUTigJlzIGluYWJpbGl0eSB0byBlbmNvbXBhc3Mgc2VydmljZSBhc3BlY3RzLCBhbmQgdGhlIGZlYXIgdGhhdCBpbmR1c3RyeSBhbmQgRVRTSSBtZW1iZXJzIGFyZSBwYXlpbmcgaW5zdWZmaWNpZW50IGF0dGVudGlvbi4NCi0gVGhlIGFjdGl2YXRpb24gcHJvY2VzczogdGhlIERlbGVnYXRlZCBBY3QgYW5kIFN0YW5kYXJkaXNhdGlvbiBSZXF1ZXN0LCBhbmQgdGhlIHJvbGUgb2YgRVRTSSBhbmQgbGVzc29ucyBsZWFybnQgZnJvbSBpbnRlcmFjdGlvbnMgd2l0aCB0aGUgQ29tbWlzc2lvbiBkdXJpbmcgdGhpcyBwcm9jZXNzLiBTdGFnZXMgaW4gdGhlIHByb2Nlc3Mgd2hlcmUgSEFTIGNvbnN1bHRhbnRzIG1heSBhbmQgZG8gZW5nYWdlLCBhbmQgb3V0Y29tZXMgYW5kIGlzc3VlcyB0aGF0IG1heSBhcmlzZSBvdXQgb2YgdGhlIGFjdHVhbCByZWFsaXNhdGlvbiBvZiB0aG9zZSBzdGFnZXMuIFJlcGVyY3Vzc2lvbnMgYW5kIGltcGFjdCBvZiBzdWJqZWN0aXZlIGZhY3RvcnMgcHV0IGRvd24gaW4gbGVnaXNsYXRpdmUgdGV4dCBhbmQgaW1wYWN0aW5nIHRoZSBhc3Nlc3NtZW50IHByb2Nlc3MgKGUuZy4gaXNzdWVzIGFyaXNpbmcgZnJvbSBDeWJlcnNlY3VyaXR5IFJpc2sgQXNzZXNzbWVudCkNCi0gRnV0dXJlIChsaWtlbHkpIHRpbWV0YWJsZSBvZiB0aGUgZGV2ZWxvcG1lbnQgdGhlIGhhcm1vbmlzZWQgc3RhbmRhcmRzIHdyaXRpbmcgcHJvY2Vzcywgd2l0aCBlbXBoYXNpcyBvbiB0aGUgZmx1aWQgbmF0dXJlIG9mIGRldmVsb3BtZW50cywgYnV0IG5vdGluZyB0aGUgd29yayBiZWluZyBjYXJyaWVkIG91dCBieSB0aGUgRUMgdGFza2ZvcmNlIHRvIGxvb2sgaW50byB0aGVzZSBhc3BlY3RzLg0KLSBTb3VyY2VzIG9mIGZ1cnRoZXIgaW5mb3JtYXRpb24g4oCTIGVnIFRDIEN5YmVyIFJlcG9ydCBhbmQgQXJ0aWNsZSAyOSBvZiBEaXJlY3RpdmUgOTUvNDYvRUMNCi0gVGhlIGRlbGl2ZXJhYmxlIFRSIG1heSBpbmNsdWRlIHJlY29tbWVuZGF0aW9ucyBmb3IgY29uc2lkZXJhdGlvbiBieSBkaWZmZXJlbnQgc3Rha2Vob2xkZXJzIChSZWd1bGF0b3JzLCBFU09zLCBpbmR1c3RyaWVzIGV0YykgdG8gb3ZlcmNvbWUgZGlmZmljdWx0aWVzIGV4cGVyaWVuY2VkLg0KLSBFeGlzdGluZyBkb2N1bWVudGF0aW9uIChpbmNsdWRpbmcgVEMgQ3liZXLigJlzIFRSIGFuZCBSRUQgQ0EgZG9jdW1lbnRzKSB3aWxsIGJlIHJlZmVyZW5jZWQsIHdoZXJldmVyIGF2YWlsYWJsZQ0KLSBUaGUgVFIgd2lsbCBhbHNvIGNvbnNpZGVyIHRoZSBiZXN0IHdheSB0byBwcmVwYXJlIGFuZCBkaXN0cmlidXRlIGFkZGl0aW9uYWwsIGJyaWVmLCBjb25jaXNlIGluZm9ybWF0aW9uIG9uIGZ1dHVyZSBuZXcgbGVnaXNsYXRpb24gKGVnIEFJKSBvciBvdGhlciBpc3N1ZXMgYWZmZWN0aW5nIE1lbWJlcnMsIEluZHVzdHJ5LCBBY2FkZW1pYSBhbmQgb3RoZXIgaW50ZXJlc3RlZCBwYXJ0aWVzLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This work will develop a TR to inform ETSI members and wider parties of
+    the challenges of developing harmonised standards in the context of future changes
+    to the environment in which products are being developed and operated.\r\n\r\nThe
+    TR will inform ETSI members and the business community more widely as to the history
+    of ETSI standards and the current RED process plus what the changes in RED mean
+    for them, including how more subjective requirements and assessments are becoming
+    commonplace. Similar changes are expected in Standardisation Requests outside
+    of RED scope, (e.g. AI), which this work might inform.\r\n\r\nETSI is currently
+    in the process of addressing proposed RED articles, and the experience and lessons
+    learnt from this process can and should inform ETSI processes in the handling
+    of similar concerns, whether these arise in the context of a Standardisation Request
+    or otherwise.\r\n\r\nThe content of the deliverble will be:\r\n- Explanation of
+    the background and development of the RED: legislators intentions and the new
+    legislative framework (NLF)\r\n- A short history of standards written for the
+    RED\r\n- ETSIs role: How ETSI Harmonised Standards cited in OJEU affect manufacturers
+    and intermediaries (including SMEs & NBs) when placing equipment on the market
+    (and what having no standards means)  the necessity for legal certainty.\r\n-
+    Recent developments:\r\no activation of RED articles of 3.3/4;\r\no the HASC process;\r\no
+    issues perceived by ETSI (and the EC) with recent developments, including implications
+    beyond market placement (design process, operation) despite the REDs inability
+    to encompass service aspects, and the fear that industry and ETSI members are
+    paying insufficient attention.\r\n- The activation process: the Delegated Act
+    and Standardisation Request, and the role of ETSI and lessons learnt from interactions
+    with the Commission during this process. Stages in the process where HAS consultants
+    may and do engage, and outcomes and issues that may arise out of the actual realisation
+    of those stages. Repercussions and impact of subjective factors put down in legislative
+    text and impacting the assessment process (e.g. issues arising from Cybersecurity
+    Risk Assessment)\r\n- Future (likely) timetable of the development the harmonised
+    standards writing process, with emphasis on the fluid nature of developments,
+    but noting the work being carried out by the EC taskforce to look into these aspects.\r\n-
+    Sources of further information  eg TC Cyber Report and Article 29 of Directive
+    95/46/EC\r\n- The deliverable TR may include recommendations for consideration
+    by different stakeholders (Regulators, ESOs, industries etc) to overcome difficulties
+    experienced.\r\n- Existing documentation (including TC Cybers TR and RED CA documents)
+    will be referenced, wherever available\r\n- The TR will also consider the best
+    way to prepare and distribute additional, brief, concise information on future
+    new legislation (eg AI) or other issues affecting Members, Industry, Academia
+    and other interested parties."
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

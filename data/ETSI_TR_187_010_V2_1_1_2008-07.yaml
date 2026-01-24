@@ -1,72 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR187010V2.1.12008-07
+id: ETSITR187010V211200807
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Security; Report on issues related to security in identity
     imanagement and their resolution in the NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25914
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187010/02.01.01_60/tr_187010v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 187 010 V2.1.1 (2008-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25914
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187010/02.01.01_60/tr_187010v020101p.pdf
+docidentifier:
+- content: ETSI TR 187 010 V2.1.1 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 187 010 V2.1.1 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Report on how IdM from ETSI fits to IdM activities in other SDOs. To identify
+- language: en
+  script: Latn
+  content: Report on how IdM from ETSI fits to IdM activities in other SDOs. To identify
     the security issues related to identity and to identify means of resolving them.
     To carry out a TVRA of identity in the NGN identifying the role of identity, assets
     related to identity, threats to identity. Identify the issues that need to be
     addressed and the areas where potential modification to existing work items is
     needed (e.g., if CRs are neededagainst existing WG7/TISPAN work items). Identify
     how existing WG7 work items relate to IdM.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ID
-- content: MANAGEMENT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Report

@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101402V8.0.02000-05
+id: ETSITS101402V800200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Private Numbering Plan (SPNP); Service description; Stage 1 (GSM 02.95 version
     8.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10359
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101402/08.00.00_60/ts_101402v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 402 V8.0.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10359
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101402/08.00.00_60/ts_101402v080000p.pdf
+docidentifier:
+- content: ETSI TS 101 402 V8.0.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 402 V8.0.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SA#7 8.0.0 V8.0.0 created for R99\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SA#7 8.0.0 V8.0.0 created for R99\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services
+    content: Technical Specification

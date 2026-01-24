@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRQSC004V1.1.12017-03
+id: ETSIGRQSC004V111201703
+schema_version: v1.4.1
 title:
-- content: Quantum-Safe Cryptography; Quantum-Safe threat assessment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46693
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/QSC/001_099/004/01.01.01_60/gr_QSC004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR QSC 004 V1.1.1 (2017-03)
+- language: en
+  script: Latn
+  content: Quantum-Safe Cryptography; Quantum-Safe threat assessment
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46693
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/QSC/001_099/004/01.01.01_60/gr_QSC004v010101p.pdf
+docidentifier:
+- content: ETSI GR QSC 004 V1.1.1 (2017-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR QSC 004 V1.1.1 (2017-03)
 date:
 - type: published
-  value: 2017-03
+  at: 2017-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Threat and risk assessment for real-world use cases.\r\nThis WI should
+- language: en
+  script: Latn
+  content: "Threat and risk assessment for real-world use cases.\r\nThis WI should
     make some reference to these 3 areas:\r\nA.\tWhen a large scale quantum computer
     is expected to be realized and any new threat  this may pose.\r\nB.\tExpected
     to real world use cases e.g. certificate authorities and PKI ; the protocol stack
@@ -53,18 +62,18 @@ abstract:
     to Quantum Safe Cryptography. \r\nD.\tRequirements for extensible architectures
     which would support the selection and deployment of the appropriate choice of
     cryptography, where both classical and quantum safe options are available.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: quantum cryptography
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Quantum Safe Cryptography
+    content: Group Report

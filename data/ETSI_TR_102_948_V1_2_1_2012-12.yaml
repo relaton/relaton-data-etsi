@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102948V1.2.12012-12
+id: ETSITR102948V121201212
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Quality Assessment of
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Quality Assessment of
     Synthesized Speech
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37826
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102948/01.02.01_60/tr_102948v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 948 V1.2.1 (2012-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37826
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102948/01.02.01_60/tr_102948v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 948 V1.2.1 (2012-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 948 V1.2.1 (2012-12)
 date:
 - type: published
-  value: 2012-12
+  at: 2012-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision will be based on up-to-date scientific results on impact
+- language: en
+  script: Latn
+  content: "This revision will be based on up-to-date scientific results on impact
     of specific types of impairments on speech quality predictions provided by current
     objective models, when both naturally-produced and synthesized speech are used.
     In addition, results from new scientific studies and from ITU-T SG12 are expected.
     \r\nOn the basis of the results presented in this TR, final advices to users with
     regard to usage of investigated models in corresponding conditions will be defined.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QUALITY
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

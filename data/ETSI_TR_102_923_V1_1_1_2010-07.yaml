@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102923V1.1.12010-07
+id: ETSITR102923V111201007
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
     Signatures (PAdES); Usage and implementation guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31987
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102923/01.01.01_60/tr_102923v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 923 V1.1.1 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31987
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102923/01.01.01_60/tr_102923v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 923 V1.1.1 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 923 V1.1.1 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: These guidelines will provide further guidance on the use of PAdES (TS
+- language: en
+  script: Latn
+  content: These guidelines will provide further guidance on the use of PAdES (TS
     102 778).  The guidelines are to be based on articles produced in an online FAQ
     for PAdES.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

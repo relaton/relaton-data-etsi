@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202810V1.1.12010-03
+id: ETSIEG202810V111201003
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Automated Interoperability
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Automated Interoperability
     Testing; Methodology and Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29274
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202800_202899/202810/01.01.01_60/eg_202810v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 810 V1.1.1 (2010-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29274
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202800_202899/202810/01.01.01_60/eg_202810v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 810 V1.1.1 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 810 V1.1.1 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document will describe a methodology based on the best working practices
+- language: en
+  script: Latn
+  content: This document will describe a methodology based on the best working practices
     of EG 202 237 extended to include automation and including  proposals for harmonising
     the understanding of generic testing architectures of distributed systems (access
     to reference points, synchronisation issues, assignment of test verdicts etc.).
     In addition, the document shall outline recommendations for the use of TTCN-3
     for this purpose.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: METHODOLOGY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

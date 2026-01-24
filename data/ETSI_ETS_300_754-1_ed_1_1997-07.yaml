@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300754-1ed.11997-07
+id: ETSIETS3007541ed1199707
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Transaction
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Transaction
     Capabilities (TC); Application Service Element (ASE) for Message Waiting Indication
     (MWI) supplementary service; Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3307
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30075401/01_60/ets_30075401e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 754-1 ed.1 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3307
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30075401/01_60/ets_30075401e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 754-1 ed.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 754-1 ed.1 (1997-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The message waiting indication supplementary service is to support\r\n(voice)
+- language: en
+  script: Latn
+  content: "The message waiting indication supplementary service is to support\r\n(voice)
     mail systems. It gives the possibility to indicate that\r\n(voice) mail is available
     to the intended recipient.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MWI
-- content: SS7
-- content: SUPPLEMENTARY SERVICE
-- content: TC
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MWI
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Signalling
+    content: European Telecommunication Standard

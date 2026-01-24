@@ -1,67 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302408V7.1.12000-08
+id: ETSIEN302408V711200008
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); GSM Cordless
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); GSM Cordless
     Telephony System (CTS), Phase 1; CTS-FP Radio subsystem (GSM 05.56 version 7.1.1
     Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7985
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302400_302499/302408/07.01.01_60/en_302408v070101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 408 V7.1.1 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7985
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302400_302499/302408/07.01.01_60/en_302408v070101p.pdf
+docidentifier:
+- content: ETSI EN 302 408 V7.1.1 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 408 V7.1.1 (2000-08)
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.1
-revdate: 2000-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUUyBzcGVjaWZpZXMgdGhlIHJlcXVpcmVtZW50cyBmb3IgdGhlIENUUy1GaXhlZCBQYXJ0IChDVFMtRlApIHRyYW5zY2VpdmVyIG9mIHRoZSBkaWdpdGFsIG1vYmlsZSBjZWxsdWxhciBhbmQgcGVyc29uYWwgY29tbXVuaWNhdGlvbiBzeXN0ZW1zIG9wZXJhdGluZyBpbiB0aGUgOTAwwqBNSHogKFAtR1NNIGFuZCBFLUdTTSkgYW5kIDHCoDgwMMKgTUh6IGJhbmQgKEdTTcKgOTAwIGFuZCBEQ1PCoDHCoDgwMCksIGFuZCBzcGVjaWZpZXMgdGhlIFJhZGlvIHN1YnN5c3RlbSBmcmVxdWVuY3kgY29udHJvbCBpbXBsZW1lbnRlZCBpbiB0aGUgQ1RTLUZpeGVkIFBhcnQuDQpTVUJKRUNUDQpDVFMtRlAgUmFkaW8gU3ViLXN5c3RlbQ0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This TS specifies the requirements for the CTS-Fixed Part (CTS-FP) transceiver
+    of the digital mobile cellular and personal communication systems operating in
+    the 900MHz (P-GSM and E-GSM) and 1800MHz band (GSM900 and DCS1800), and specifies
+    the Radio subsystem frequency control implemented in the CTS-Fixed Part.\r\nSUBJECT\r\nCTS-FP
+    Radio Sub-system\r\n"
+status:
+  stage: Published
 keyword:
-- content: CTS
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: CTS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Radio
+    content: European Standard

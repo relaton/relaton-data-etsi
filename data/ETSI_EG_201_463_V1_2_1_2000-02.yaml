@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201463V1.2.12000-02
+id: ETSIEG201463V121200002
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN);
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8807
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201400_201499/201463/01.02.01_60/eg_201463v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 463 V1.2.1 (2000-02)
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN);
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8807
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201400_201499/201463/01.02.01_60/eg_201463v010201p.pdf
+docidentifier:
+- content: ETSI EG 201 463 V1.2.1 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 463 V1.2.1 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This ETSI Guide is the second version of the former TCR-TR 018 which has
+- language: en
+  script: Latn
+  content: This ETSI Guide is the second version of the former TCR-TR 018 which has
     been published by the former STC BTC1 and now maintained by ECMA TC32 TG13. This
     Technical Report discusses some of the technical aspects of PISNs and identifies
     areas for standardization. It also provides a common framework of concepts and
     terminology for standards in this field.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PISN
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: ETSI Guide

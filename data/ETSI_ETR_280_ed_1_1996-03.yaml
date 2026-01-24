@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR280ed.11996-03
+id: ETSIETR280ed1199603
+schema_version: v1.4.1
 title:
-- content: Business TeleCommunications (BTC); Private Integrated Services Network
+- language: en
+  script: Latn
+  content: Business TeleCommunications (BTC); Private Integrated Services Network
     (PISN); Private User Mobility (PUM); Impact of PUM on the PISN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2980
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/280/01_60/etr_280e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 280 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2980
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/280/01_60/etr_280e01p.pdf
+docidentifier:
+- content: ETSI ETR 280 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 280 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Private Networking Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To cover the impact of implementing PUM on standardised services\r\nwithin
+- language: en
+  script: Latn
+  content: "To cover the impact of implementing PUM on standardised services\r\nwithin
     the existing PISN.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANF
-- content: MOBILITY
-- content: PISN
-- content: PUM
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ANF
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: PUM
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Private Networking Aspects
+    content: ETSI Technical Report

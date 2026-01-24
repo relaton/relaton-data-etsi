@@ -1,64 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103755V1.1.12022-06
+id: ETSITS103755V111202206
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); PEMEA ESInet Shared Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59089
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103755/01.01.01_60/ts_103755v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 755 V1.1.1 (2022-06)
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); PEMEA ESInet Shared Services
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59089
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103755/01.01.01_60/ts_103755v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 755 V1.1.1 (2022-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 755 V1.1.1 (2022-06)
 date:
 - type: published
-  value: 2022-06
+  at: 2022-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG91dHB1dCBvZiB0aGlzIHdvcmsgaXRlbSB3aWxsIHByb3ZpZGUgYSBzb2x1dGlvbiB0aGF0IGVuYWJsZXMgUEVNRUEgbm9kZXMgdG8gc2hhcmUgY29yZSBFU0luZXQgY29tcG9uZW50cyBlbGltaW5hdGluZyByZXBsaWNhdGlvbiBhbmQgc3VwcG9ydGluZyBib3RoIHNlcnZpY2UgZGVsaXZlcnkgbWVjaGFuaXNtcy4NCg0KUGFydGljdWxhciBmb2N1cyB3aWxsIGJlIHBsYWNlZCBvbiBhY2Nlc3MgY29udHJvbCBpbnRvIHRoZSAiUEVNRUEtRVNJbmV0IHpvbmUiLiBBdHRlbnRpb24gd2lsbCBhbHNvIGJlIHBhaWQgdG8gcm91dGluZyB3aXRoaW4gdGhlIFBFTUVBLUVTSW5ldCB6b25lLCBib3RoZXIgZ2VvZ3JhcGhpYyBhbmQgcG9saWN5LWJhc2VkLiBUaGlzIHdpbGwgaW5jbHVkZSBjbGFyaWZpY2F0aW9ucyBhbmQgZGVzY3JpcHRpb25zIG9uIGhvdyB0byB1c2UgaW50ZXJmYWNlcyBmb3IgdGhlc2UgZnVuY3Rpb25zIGRlZmluZWQgd2l0aGluIEVTSW5ldCBhbmQgYXNzb2NpYXRlZCBzcGVjaWZpY2F0aW9ucy4NCg0KRXh0ZW5zaW9uIHRvIFBFTUVBIHByb3RvY29sIG1heWJlIGlkZW50aWZpZWQgYXMgcGFydCBvZiB0aGlzIHdvcmsgaXRlbS4gU3VjaCBleHRlbnNpb25zIG1heSBiZSBjYXB0dXJlZCBpbiBvbmUgb2YgdGhyZWUgd2F5cyBsaXN0ZWQgaW4gb3JkZXIgYmVsb3c6DQoxLglJbmNsdWRlZCBpbiB0aGlzIHdvcmsgcHJvZHVjdA0KMi4JQ2FwdHVyZWQgaW4gYSBuZXcgd29yayBpdGVtIHNwZWNpZmljYXRpb24NCjMuCUNhcHR1cmVkIGluIGEgcmV2aXNpb24gb2YgdGhlIGNvcmUgUEVNRUEgc3BlY2lmaWNhdGlvbg0KDQpUaGUgZ2VuZXJhbCBza2VsZXRvbiBmb3IgdGhpcyB3b3JrIGl0ZW0gd291bGQgYmUgYXMgZm9sbG93czoNCg0K4oCiICBJbnRyb2R1Y3Rpb24gYW5kIG5lZWQNCiAgIG8JRGlyZWN0aW9uIG9mIHB1YmxpYyBjb21tdW5pY2F0aW9ucw0KICAgbwlEaWZmZXJlbmNlcyBiZXR3ZWVuIE5HMTEyIGFuZCBQRU1FQQ0KICAgDQrigKIgIFJlcXVpcmVtZW50cyBmb3IgYSBzb2x1dGlvbg0KICAgbwlBY2Nlc3MgY29udHJvbA0KICAgbwlDb21tb24gZ2VvIHJvdXRpbmcNCiAgIG8JQ29tbW9uIHBvbGljeSByb3V0aW5nDQogICBvCU90aGVyDQogICANCuKAoiAgQXJjaGl0ZWN0dXJhbCBPdmVydmlldw0KDQrigKIgIENvbXBvbmVudCBpbnRlcmZhY2UgZGVmaW5pdGlvbnMNCg0K4oCiICBNZXRob2RzIGFuZCBQcm9jZWR1cmVzDQoNCkFudGljaXBhdGlvbiBvZiB3b3JrIGl0ZW0gaXMgb3ZlciAxMiBtb250aHMgZnJvbSBpbml0aWFsIGRyYWZ0IGRvY3VtZW50IHN1Ym1pc3Npb24u
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The output of this work item will provide a solution that enables PEMEA
+    nodes to share core ESInet components eliminating replication and supporting both
+    service delivery mechanisms.\r\n\r\nParticular focus will be placed on access
+    control into the \"PEMEA-ESInet zone\". Attention will also be paid to routing
+    within the PEMEA-ESInet zone, bother geographic and policy-based. This will include
+    clarifications and descriptions on how to use interfaces for these functions defined
+    within ESInet and associated specifications.\r\n\r\nExtension to PEMEA protocol
+    maybe identified as part of this work item. Such extensions may be captured in
+    one of three ways listed in order below:\r\n1.\tIncluded in this work product\r\n2.\tCaptured
+    in a new work item specification\r\n3.\tCaptured in a revision of the core PEMEA
+    specification\r\n\r\nThe general skeleton for this work item would be as follows:\r\n\r\n
+    \ Introduction and need\r\n   o\tDirection of public communications\r\n   o\tDifferences
+    between NG112 and PEMEA\r\n   \r\n  Requirements for a solution\r\n   o\tAccess
+    control\r\n   o\tCommon geo routing\r\n   o\tCommon policy routing\r\n   o\tOther\r\n
+    \  \r\n  Architectural Overview\r\n\r\n  Component interface definitions\r\n\r\n
+    \ Methods and Procedures\r\n\r\nAnticipation of work item is over 12 months from
+    initial draft document submission."
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: EMERGENCY
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: EMERGENCY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Specification

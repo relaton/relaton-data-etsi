@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300952ed.11997-05
+id: ETSIETS300952ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Call Forwarding (CF) supplementary
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Call Forwarding (CF) supplementary
     services; Stage 3 (GSM 04.82 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5092
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300952/01_60/ets_300952e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 952 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5092
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300952/01_60/ets_300952e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 952 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 952 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
     used at the radio interface (reference point Um as defined in GSM 04\r\n.02) for
     normal operation, registration, erasure, activation, deactiva\r\ntion, interrogation
     and network invocation of call offering supplement\r\nary services. Provision
@@ -61,24 +71,36 @@ abstract:
     1);\r\n - Call forwarding on mobile subscriber busy (CFB) (clause 2);\r\n - Call
     forwarding on no reply (CFNRy) (clause 3);\r\n - Call forwarding on mobile subscriber
     not reachable (CFNRc) (clause 4\r\n).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CF
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

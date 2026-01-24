@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS123083V5.1.02002-09
+id: ETSITS123083V510200209
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Call Waiting (CW) and Call Hold (HOLD) Supplementary
     Service; Stage 2 (3GPP TS 23.083 version 5.1.0 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17402
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/123000_123099/123083/05.01.00_60/ts_123083v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 123 083 V5.1.0 (2002-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17402
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/123000_123099/123083/05.01.00_60/ts_123083v050100p.pdf
+docidentifier:
+- content: ETSI TS 123 083 V5.1.0 (2002-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 123 083 V5.1.0 (2002-09)
 date:
 - type: published
-  value: 2002-09
+  at: 2002-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/GTP/BCH/SS
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 2002-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NP-17
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: NP-17
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/GTP/BCH/SS
+    content: Technical Specification

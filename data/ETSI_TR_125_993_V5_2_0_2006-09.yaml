@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITR125993V5.2.02006-09
+id: ETSITR125993V520200609
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Typical examples of
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Typical examples of
     Radio Access Bearers (RABs) and Radio Bearers (RBs) supported by Universal Terrestrial
     Radio Access (UTRA) (3GPP TR 25.993 version 5.2.0 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25344
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125993/05.02.00_60/tr_125993v050200p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 125 993 V5.2.0 (2006-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25344
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125993/05.02.00_60/tr_125993v050200p.pdf
+docidentifier:
+- content: ETSI TR 125 993 V5.2.0 (2006-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 125 993 V5.2.0 (2006-09)
 date:
 - type: published
-  value: 2006-09
+  at: 2006-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.0
-revdate: 2006-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-33
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-33
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Report

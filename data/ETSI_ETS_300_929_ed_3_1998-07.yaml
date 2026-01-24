@@ -1,63 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300929ed.31998-07
+id: ETSIETS300929ed3199807
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Security related
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Security related
     network functions (GSM 03.20 version 5.2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6047
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300929/03_60/ets_300929e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 929 ed.3 (1998-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6047
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300929/03_60/ets_300929e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 929 ed.3 (1998-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 929 ed.3 (1998-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "GPRS security\r\nGPRS interaction with existing security mechanisms"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "GPRS security\r\nGPRS interaction with existing security mechanisms"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: NETWORK
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

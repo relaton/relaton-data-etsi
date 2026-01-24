@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103666-1V17.3.02023-06
+id: ETSITS1036661V1730202306
+schema_version: v1.4.1
 title:
-- content: 'Smart Secure Platform (SSP); Part 1: General characteristics (Release
+- language: en
+  script: Latn
+  content: 'Smart Secure Platform (SSP); Part 1: General characteristics (Release
     17)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68529
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10366601/17.03.00_60/ts_10366601v170300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 666-1 V17.3.0 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68529
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10366601/17.03.00_60/ts_10366601v170300p.pdf
+docidentifier:
+- content: ETSI TS 103 666-1 V17.3.0 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 666-1 V17.3.0 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.3.0
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Implementation of CRs after SET#109
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Implementation of CRs after SET#109
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: MFF
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: MFF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET-TEC
+    content: Technical Specification

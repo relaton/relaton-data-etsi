@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300581-8ed.21998-04
+id: ETSIETS3005818ed2199804
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2) (GSM); Half rate
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2) (GSM); Half rate
     speech; Part 8: Test sequences for the GSM half rate speech codec (GSM 06.07 version
     4.2.1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5887
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/30058108/02_60/ets_30058108e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 581-8 ed.2 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5887
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/30058108/02_60/ets_30058108e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 581-8 ed.2 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 581-8 ed.2 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the digital t\r\nest
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the digital t\r\nest
     sequences for the GSM half rate speech codec. These sequences test\r\nfor a bit
     exact implementation of the half rate speech transcoder (GS\r\nM 06.20 ), Voice
     Activity Detector (GSM 06.42 ), comfort noise (GSM 06\r\n.22 ) and the disco\r\nntinuous
     transmission (GSM 06.41 0.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: DISKETTE
-- content: GSM
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DISKETTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Telecommunication Standard

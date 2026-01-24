@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI056V4.1.12025-10
+id: ETSIGRENI056V411202510
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Study on Multi-Agent Frameworks
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Study on Multi-Agent Frameworks
     for Next-Generation Core Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74387
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/056/04.01.01_60/gr_ENI056v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 056 V4.1.1 (2025-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74387
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/056/04.01.01_60/gr_ENI056v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 056 V4.1.1 (2025-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 056 V4.1.1 (2025-10)
 date:
 - type: published
-  value: 2025-10
+  at: 2025-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document studies multi-agent systems (MASs), which comprise
+- language: en
+  script: Latn
+  content: The present document studies multi-agent systems (MASs), which comprise
     multiple artificial intelligence (AI) agents designed to solve a set of complex
     tasks collaboratively. It reviews popular existing open-source frameworks to implement
     MASs and existing multi-agent topologies, conversation patterns and key design
@@ -56,20 +65,24 @@ abstract:
     on the employment of MASs in the next generation mobile networks, the present
     document explicitly discusses recommended architectural changes in the design
     principles of core network together with potential standard impacts.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 6G
-- content: AI
-- content: AI-native
-- content: GenAI
+- taxon:
+  - language: en
+    script: Latn
+    content: 6G
+  - language: en
+    script: Latn
+    content: AI
+  - language: en
+    script: Latn
+    content: AI-native
+  - language: en
+    script: Latn
+    content: GenAI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

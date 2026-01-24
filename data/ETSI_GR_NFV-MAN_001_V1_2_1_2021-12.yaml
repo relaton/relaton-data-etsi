@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-MAN001V1.2.12021-12
+id: ETSIGRNFVMAN001V121202112
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Management and Orchestration; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Management and Orchestration; Report
     on Management and Orchestration Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62970
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-MAN/001_099/001/01.02.01_60/gr_NFV-MAN001v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-MAN 001 V1.2.1 (2021-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62970
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-MAN/001_099/001/01.02.01_60/gr_NFV-MAN001v010201p.pdf
+docidentifier:
+- content: ETSI GR NFV-MAN 001 V1.2.1 (2021-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-MAN 001 V1.2.1 (2021-12)
 date:
 - type: published
-  value: 2021-12
+  at: 2021-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2021-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The aim of this work item is the re-publication of the GS NFV-MAN001 as
+- language: en
+  script: Latn
+  content: "The aim of this work item is the re-publication of the GS NFV-MAN001 as
     a Group Report (GR). \r\nThis re-publication of MAN001 as an informative ETSI
     Group Report aims at keeping its historical content while acknowledging that 6
     years after its first publication, part of it has become obsolete.\r\nFor this
@@ -54,21 +63,27 @@ abstract:
     be changed to non-normative,  an introductory text will warn the reader on the
     obsolescence of the content and pointers to more recent ISG NFV normative specifications
     will be added.\r\nNo other technical changes in the content will be performed."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: NETWORK
-- content: NFV
-- content: orchestration
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

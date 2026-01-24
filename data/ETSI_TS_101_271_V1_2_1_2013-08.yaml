@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101271V1.2.12013-08
+id: ETSITS101271V121201308
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM); Access transmission
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM); Access transmission
     systems on metallic access cables; Very High Speed digital subscriber line system
     (VDSL2) [Recommendation ITU-T G.993.2 modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29378
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101271/01.02.01_60/ts_101271v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 271 V1.2.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29378
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101271/01.02.01_60/ts_101271v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 271 V1.2.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 271 V1.2.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify European requirements for VDSL2 noise models (REIN, PEIN, SHINE,
+- language: en
+  script: Latn
+  content: "To specify European requirements for VDSL2 noise models (REIN, PEIN, SHINE,
     fluctuating crosstalk & Composite Threat Noise).\r\nEuropean requirements for
     VDSL2 retransmission.\r\nTo specify other European specific modifications to ITU-T
     Recommendation G993.2 Annex B.\r\nLiaison and cooperation with ITU-T and other
     competent Standards bodies."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ENDORSEMENT
-- content: MODEM
-- content: TRANSMISSION
-- content: VDSL2
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: VDSL2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Specification

@@ -1,63 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300650ed.11998-06
+id: ETSIETS300650ed1199806
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Message Waiting Indication
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Message Waiting Indication
     (MWI) supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2774
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300650/01_60/ets_300650e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 650 ed.1 (1998-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2774
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300650/01_60/ets_300650e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 650 ed.1 (1998-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 650 ed.1 (1998-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Interfaces, Services and Charging
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The message waiting indication is a supplementary service to support (\r\nvoice)
+- language: en
+  script: Latn
+  content: "The message waiting indication is a supplementary service to support (\r\nvoice)
     mail systems. The MWI supplementary service gives the possibili\r\nty to give
     an indication that (voice) mail is available to the indende\r\nd receipient.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MWI
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MWI
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: User Interfaces, Services and Charging
+    content: European Telecommunication Standard

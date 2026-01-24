@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102943V1.1.12012-06
+id: ETSITS102943V111201206
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Confidentiality services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34682
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102943/01.01.01_60/ts_102943v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 943 V1.1.1 (2012-06)
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Confidentiality services
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34682
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102943/01.01.01_60/ts_102943v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 943 V1.1.1 (2012-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 943 V1.1.1 (2012-06)
 date:
 - type: published
-  value: 2012-06
+  at: 2012-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This technical specification shall include specification of measures to
+- language: en
+  script: Latn
+  content: This technical specification shall include specification of measures to
     ensure the required level of confidentiality of information for participants in
     the co-operative ITS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: ITS
-- content: MANAGEMENT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

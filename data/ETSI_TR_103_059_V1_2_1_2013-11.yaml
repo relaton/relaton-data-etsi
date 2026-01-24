@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103059V1.2.12013-11
+id: ETSITR103059V121201311
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short-Range
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short-Range
     Devices (SRD) for operation in the 13,56 MHz band; System Reference Document for
     Radio Frequency Identification (RFID) equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41992
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103059/01.02.01_60/tr_103059v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 059 V1.2.1 (2013-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41992
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103059/01.02.01_60/tr_103059v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 059 V1.2.1 (2013-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 059 V1.2.1 (2013-11)
 date:
 - type: published
-  value: 2013-11
+  at: 2013-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revise documend according to LS request from WGSE(13)049 Annex 20 Feb.
+- language: en
+  script: Latn
+  content: "Revise documend according to LS request from WGSE(13)049 Annex 20 Feb.
     1st.  2013\r\nReference: ERM(12)48b038_Response_LS_from_WGSE_to_ERM_on_TR_103_059_RFID_13_56_MHz.zip"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: RFID
-- content: SHORT RANGE
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: Technical Report

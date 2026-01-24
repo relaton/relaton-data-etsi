@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRSAI009V1.1.12023-02
+id: ETSIGRSAI009V111202302
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence (SAI); Artificial Intelligence Computing
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Artificial Intelligence Computing
     Platform Security Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63910
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/009/01.01.01_60/gr_SAI009v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR SAI 009 V1.1.1 (2023-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63910
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/009/01.01.01_60/gr_SAI009v010101p.pdf
+docidentifier:
+- content: ETSI GR SAI 009 V1.1.1 (2023-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR SAI 009 V1.1.1 (2023-02)
 date:
 - type: published
-  value: 2023-02
+  at: 2023-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item aims to specify a security framework of AI computing platform
+- language: en
+  script: Latn
+  content: This work item aims to specify a security framework of AI computing platform
     containing hardware and basic software to protect valuable assets like models
     and data deployed on AI computing platform when they are used in runtime or stored
     at rest. The security framework consists of security components in AI computing
@@ -56,18 +65,18 @@ abstract:
     the stakeholders in AI systems to better protect the valuable assets(model/data)
     on AI computing platform.The study will use SAI-006 as a start point for hardware
     aspects and avoid overlap with SAI-006
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Securing Artificial Intelligence
+    content: Group Report

@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132612V4.6.02004-03
+id: ETSITS132612V460200403
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
     Configuration Management (CM); Bulk CM Integration Reference Point (IRP): Information
     service (3GPP TS 32.612 version 4.6.0 Release 4)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20364
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132612/04.06.00_60/ts_132612v040600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 612 V4.6.0 (2004-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20364
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132612/04.06.00_60/ts_132612v040600p.pdf
+docidentifier:
+- content: ETSI TS 132 612 V4.6.0 (2004-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 612 V4.6.0 (2004-03)
 date:
 - type: published
-  value: 2004-03
+  at: 2004-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.6.0
-revdate: 2004-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-23
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-23
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

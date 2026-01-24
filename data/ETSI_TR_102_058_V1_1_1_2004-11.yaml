@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102058V1.1.12004-11
+id: ETSITR102058V111200411
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Satellite Component of UMTS/IMT-2000;
     Evaluation of the W-CDMA UTRA FDD as a Satellite Radio Interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16137
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102058/01.01.01_60/tr_102058v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 058 V1.1.1 (2004-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16137
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102058/01.01.01_60/tr_102058v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 058 V1.1.1 (2004-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 058 V1.1.1 (2004-11)
 date:
 - type: published
-  value: 2004-11
+  at: 2004-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on the Satellite Component of UMTS/IMT-2000
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Evaluation of the possibility to use the W-CDMA UTRA FDD as a Satellite
+- language: en
+  script: Latn
+  content: Evaluation of the possibility to use the W-CDMA UTRA FDD as a Satellite
     Radio Interface according to the procedures defined by ITU-R in the recommendations
     M.1455 and M.1225.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: RADIO
-- content: SATELLITE
-- content: UMTS
-- content: WCDMA
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: UMTS
+  - language: en
+    script: Latn
+    content: WCDMA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SES WG on the Satellite Component of UMTS/IMT-2000
+    content: Technical Report

@@ -1,65 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201148V1.1.21998-03
+id: ETSIEG201148V112199803
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Guide for the use of the second
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Guide for the use of the second
     edition of TTCN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3656
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201148/01.01.02_60/eg_201148v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 148 V1.1.2 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3656
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201148/01.01.02_60/eg_201148v010102p.pdf
+docidentifier:
+- content: ETSI EG 201 148 V1.1.2 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 148 V1.1.2 (1998-03)
 date:
 - type: published
-  value: 1998-03
+  at: 1998-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1998-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gY292ZXIgdGhlIGNvcnJlY3QgdXNhZ2Ugb2YgdGhlIHNlY29uZCBlZGl0aW9uIG9mIElTTyA5NjQ2LTMgKGllLg0KVFRDTiksIHNvbWUgcmVsZXZhbnQgbmV3IGFzcGVjdHMgb2YgdGhlIFRUQ04gbm90YXRpb24sIHN1Y2ggYXMgbGl2ZQ0KY29uY3VycmVuY3ksIG1vZHVsYXJpdHksIGVuY29kaW5nIHJ1bGVzLCB0YWtpbmcgaW50byBhY2NvdW50IHRoYXQgdGhlDQpjdXJyZW50IG9uZ29pbmcgZXZvbHV0aW9uIG9mIHRoZSBzdGFuZGFyZHMgcmVxdWlyZSBzb21lIGd1aWRhbmNlIHRvIGJlDQpwcm92aWRlZC4NClN1cHBvcnRpbmcgbWVtYmVyczogRnJhbmNlIFTDqWzDqWNvbSwgQ1NFTFQsIFBRTSwgRXhwZXJ0IFRlbGVjb21zLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To cover the correct usage of the second edition of ISO 9646-3 (ie.\r\nTTCN),
+    some relevant new aspects of the TTCN notation, such as live\r\nconcurrency, modularity,
+    encoding rules, taking into account that the\r\ncurrent ongoing evolution of the
+    standards require some guidance to be\r\nprovided.\r\nSupporting members: France
+    Tlcom, CSELT, PQM, Expert Telecoms.\r\n"
+status:
+  stage: Published
 keyword:
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

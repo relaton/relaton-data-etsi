@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102470-1V1.2.12009-03
+id: ETSITS1024701V121200903
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); IP Datacast: Program Specific Information
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); IP Datacast: Program Specific Information
     (PSI)/Service Information (SI); Part 1: IP Datacast over DVB-H'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29350
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/10247001/01.02.01_60/ts_10247001v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 470-1 V1.2.1 (2009-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29350
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/10247001/01.02.01_60/ts_10247001v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 470-1 V1.2.1 (2009-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 470-1 V1.2.1 (2009-03)
 date:
 - type: published
-  value: 2009-03
+  at: 2009-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document describes the usage of PSI/SI information in IPDC in DVB-H
+- language: en
+  script: Latn
+  content: The document describes the usage of PSI/SI information in IPDC in DVB-H
     System. The document intentionally constrains PSI/SI to simplify requirements
     for equipments developed for IPDC in DVB-H Systems. TS 102 470-2 is a corresponding
     document describing usage of PSI/SI information in IPDC in DVB-SH systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: IP
-- content: MOBILE
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

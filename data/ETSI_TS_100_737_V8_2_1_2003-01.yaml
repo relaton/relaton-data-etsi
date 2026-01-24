@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100737V8.2.12003-01
+id: ETSITS100737V821200301
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); In-band control
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); In-band control
     of remote transcoders and rate adaptors for Enhanced Full Rate (EFR) and full
     rate traffic channels (3GPP TS 08.60 version 8.2.1 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18259
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100700_100799/100737/08.02.01_60/ts_100737v080201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 737 V8.2.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18259
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100700_100799/100737/08.02.01_60/ts_100737v080201p.pdf
+docidentifier:
+- content: ETSI TS 100 737 V8.2.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 737 V8.2.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.2.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: replace corrupted figure 2.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: replace corrupted figure 2.1
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio aspects
+    content: Technical Specification

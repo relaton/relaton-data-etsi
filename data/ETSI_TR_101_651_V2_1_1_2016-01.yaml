@@ -1,70 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101651V2.1.12016-01
+id: ETSITR101651V211201601
+schema_version: v1.4.1
 title:
-- content: Classification of the electromagnetic environment conditions for equipment
+- language: en
+  script: Latn
+  content: Classification of the electromagnetic environment conditions for equipment
     in telecommunication networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43809
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101651/02.01.01_60/tr_101651v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 651 V2.1.1 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43809
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101651/02.01.01_60/tr_101651v020101p.pdf
+docidentifier:
+- content: ETSI TR 101 651 V2.1.1 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 651 V2.1.1 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gcmV2aXNlIHRoaXMgVFIgMTAxIDY1MSB0byBpbmNsdWRlIHRoZSBlbGVjdHJvbWFnbmV0aWMgKEVNKSBjbGFzc2lmaWNhdGlvbnMgYXQgZnJlcXVlbmN5IHJhbmdlIHVwIHRvIDYgR0h6LCB1cGRhdGUgdGhlIGNsYXNzIOKAnGN1c3RvbWVy4oCZcyBwcmVtaXNlc+KAnSBpbiBsaW5lIHdpdGggSUVDIDYxMDAwLTItNSwgdXBkYXRlIGFsbCByZWZlcmVuY2VzLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To revise this TR 101 651 to include the electromagnetic (EM) classifications
+    at frequency range up to 6 GHz, update the class customers premises in line with
+    IEC 61000-2-5, update all references.
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: MANAGEMENT
-- content: NETWORK
-- content: POWER SUPPLY
-- content: SWITCHING
-- content: TESTING
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: SWITCHING
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: Technical Report

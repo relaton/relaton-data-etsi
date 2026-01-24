@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102250-2V1.7.12009-10
+id: ETSITS1022502V171200910
+schema_version: v1.4.1
 title:
-- content: 'Speech and multimedia Transmission Quality (STQ); QoS aspects for popular
+- language: en
+  script: Latn
+  content: 'Speech and multimedia Transmission Quality (STQ); QoS aspects for popular
     services in GSM and 3G networks; Part 2: Definition of Quality of Service parameters
     and their computation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28559
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10225002/01.07.01_60/ts_10225002v010701p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 250-2 V1.7.1 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28559
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10225002/01.07.01_60/ts_10225002v010701p.pdf
+docidentifier:
+- content: ETSI TS 102 250-2 V1.7.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 250-2 V1.7.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of Direct Service e-mail parameters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Definition of Direct Service e-mail parameters
+status:
+  stage: Published
 keyword:
-- content: 3G
-- content: GSM
-- content: NETWORK
-- content: QoS
-- content: SERVICE
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: 3G
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Specification

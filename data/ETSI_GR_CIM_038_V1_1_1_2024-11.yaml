@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM038V1.1.12024-11
+id: ETSIGRCIM038V111202411
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); YANG and NGSI-LD interoperability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/038/01.01.01_60/gr_CIM038v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 038 V1.1.1 (2024-11)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); YANG and NGSI-LD interoperability
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/038/01.01.01_60/gr_CIM038v010101p.pdf
+docidentifier:
+- content: ETSI GR CIM 038 V1.1.1 (2024-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 038 V1.1.1 (2024-11)
 date:
 - type: published
-  value: 2024-11
+  at: 2024-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of this Group Report is to give guidelines on how data modeled
+- language: en
+  script: Latn
+  content: The purpose of this Group Report is to give guidelines on how data modeled
     with the YANG language can be translated and integrated into NGSI-LD.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data models
-- content: INFORMATION MODEL
-- content: INTEROPERABILITY
-- content: network management
-- content: YANG
+- taxon:
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: YANG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

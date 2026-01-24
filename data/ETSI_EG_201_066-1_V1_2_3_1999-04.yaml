@@ -1,74 +1,98 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201066-1V1.2.31999-04
+id: ETSIEG2010661V123199904
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Application of the Bearer Capability (BC), High
     Layer Compatibility (HLC) and Low Layer Compatibility (LLC) information elements;
     Part 1: Test Suite Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6524
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201000_201099/20106601/01.02.03_60/eg_20106601v010203p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 066-1 V1.2.3 (1999-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6524
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201000_201099/20106601/01.02.03_60/eg_20106601v010203p.pdf
+docidentifier:
+- content: ETSI EG 201 066-1 V1.2.3 (1999-04)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 066-1 V1.2.3 (1999-04)
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.3
-revdate: 1999-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gdGFrZSBhY2NvdW50IG9mIGNoYW5nZXMgaW4gRVRSIDAxOCB3aGVuIHVwZ3JhZGluZyB0byBFR8KgMjAxwqAwMTg6IGNvZGluZyB0byBzdXBwb3J0IHRoZSBhdWRpb2dyYXBoaWMgY29uZmVyZW5jZSBhbmQgdmlkZW9jb25mZXJlbmNlIHRlbGVzZXJ2aWNlLCBhbmQgdGhlIHVzZXIgc2lnbmFsbGluZyBiZWFyZXIgc2VydmljZS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'To take account of changes in ETR 018 when upgrading to EG201018: coding
+    to support the audiographic conference and videoconference teleservice, and the
+    user signalling bearer service.'
+status:
+  stage: Published
 keyword:
-- content: BC
-- content: DSS1
-- content: HLC
-- content: ISDN
-- content: LLC
-- content: NETWORK
-- content: PROTOCOL
-- content: TERMINAL
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: BC
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: HLC
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LLC
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Conformance Testing
+    content: ETSI Guide

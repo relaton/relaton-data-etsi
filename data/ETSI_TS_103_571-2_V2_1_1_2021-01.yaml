@@ -1,68 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103571-2V2.1.12021-01
+id: ETSITS1035712V211202101
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q29yZSBOZXR3b3JrIGFuZCBJbnRlcm9wZXJhYmlsaXR5IFRlc3RpbmcgKElOVCk7IERpYW1ldGVyIENvbmZvcm1hbmNlIHRlc3RpbmcgZm9yIFNoL0RoIGludGVyZmFjZXM7ICgzR1BQ4oSiIFJlbGVhc2UgMTUpOyBQYXJ0IDI6IFRlc3QgU3VpdGUgU3RydWN0dXJlIChUU1MpIGFuZCBUZXN0IFB1cnBvc2VzIChUUCk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57768
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10357102/02.01.01_60/ts_10357102v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 571-2 V2.1.1 (2021-01)
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
+    testing for Sh/Dh interfaces; (3GPP Release 15); Part 2: Test Suite Structure
+    (TSS) and Test Purposes (TP)'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57768
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10357102/02.01.01_60/ts_10357102v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 571-2 V2.1.1 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 571-2 V2.1.1 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Test specifications related to the Diameter protocol profile for the Sh
+- language: en
+  script: Latn
+  content: Test specifications related to the Diameter protocol profile for the Sh
     and Dh reference points has been already developed and validation is needed using  those
     test specifications against existing real time SUTs. Findings found during the
     validation will reflect to the better quality of standards and maintain existing
     multi part test specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Diameter
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

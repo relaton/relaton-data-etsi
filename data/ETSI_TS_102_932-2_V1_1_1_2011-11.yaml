@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102932-2V1.1.12011-11
+id: ETSITS1029322V111201111
+schema_version: v1.4.1
 title:
-- content: 'Railway Telecommunications; ER-GSM frequencies; Part 2: ER-GSM additional
+- language: en
+  script: Latn
+  content: 'Railway Telecommunications; ER-GSM frequencies; Part 2: ER-GSM additional
     radio conformance testing'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31476
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/10293202/01.01.01_60/ts_10293202v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 932-2 V1.1.1 (2011-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31476
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/10293202/01.01.01_60/ts_10293202v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 932-2 V1.1.1 (2011-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 932-2 V1.1.1 (2011-11)
 date:
 - type: published
-  value: 2011-11
+  at: 2011-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Extended-GSM-R
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies the additional  radio conformance tests needed by ER-GSM. The
+- language: en
+  script: Latn
+  content: "Specifies the additional  radio conformance tests needed by ER-GSM. The
     specification will be based on:\r\n- 3GPP TS 51.021;  ETSI TS 101 087  \"Digital
     cellular telecommunications system (Phase 2 & Phase 2+); Base Station System (BSS)
     equipment specification; Radio aspects;\r\n- 3GPP TS 51.010-1; ETSI TS 151 010-1
@@ -55,20 +64,24 @@ abstract:
     100910 Digital cellular telecommunications system (Phase 2+);Radio Transmission
     and Reception.\r\nThe specification will identify the radio conformance tests
     as an extension to the testing of the core-GSM-R frequencies."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ER-GSM
-- content: GSM-R
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ER-GSM
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Extended-GSM-R
+    content: Technical Specification

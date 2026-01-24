@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201803-11V1.1.12004-09
+id: ETSIES20180311V111200409
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Dynamic synchronous Transfer Mode (DTM); Part 11: Mapping
     of video streams over DTM'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19658
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201800_201899/20180311/01.01.01_60/es_20180311v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 803-11 V1.1.1 (2004-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19658
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201800_201899/20180311/01.01.01_60/es_20180311v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 803-11 V1.1.1 (2004-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 803-11 V1.1.1 (2004-09)
 date:
 - type: published
-  value: 2004-09
+  at: 2004-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Uncompressed video streams over DTM mapping\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Uncompressed video streams over DTM mapping\r\n"
+status:
+  stage: Published
 keyword:
-- content: DTM
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: DTM
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Standard

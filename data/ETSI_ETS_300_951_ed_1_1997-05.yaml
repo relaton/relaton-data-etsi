@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300951ed.11997-05
+id: ETSIETS300951ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Line identification supplementary
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Line identification supplementary
     services; Stage 3 (GSM 04.81 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5091
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300951/01_60/ets_300951e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 951 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5091
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300951/01_60/ets_300951e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 951 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 951 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the procedure\r\ns
     used at the radio interface for normal operation, registration, eras\r\nure, activation,
     deactivation, invocation and interrogation of line id\r\nentification supplementary
     services. Provision and withdrawal of suppl\r\nementary services is an administrative
@@ -60,29 +70,51 @@ abstract:
     (CLIP) (section 1);\r\n - Calling line identification restriction (CLIR) (section
     2);\r\n - Connected line identification presentation (COLP) (section 3);\r\n -
     Connected line identification restriction (COLR) (section 4).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIP
-- content: CLIR
-- content: COLP
-- content: COLR
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: ID
-- content: MOBILE
-- content: NAME
-- content: PLMN
-- content: RADIO
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: CLIR
+  - language: en
+    script: Latn
+    content: COLP
+  - language: en
+    script: Latn
+    content: COLR
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NAME
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

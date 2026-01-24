@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300609-4V10.2.12012-11
+id: ETSIEN3006094V1021201211
+schema_version: v1.4.1
 title:
-- content: 'Global System for Mobile communications (GSM); Part 4: Harmonized EN for
+- language: en
+  script: Latn
+  content: 'Global System for Mobile communications (GSM); Part 4: Harmonized EN for
     GSM Repeaters covering the essential requirements of article 3.2 of the R&TTE
     Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37834
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300600_300699/30060904/10.02.01_60/en_30060904v100201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 609-4 V10.2.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37834
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300600_300699/30060904/10.02.01_60/en_30060904v100201p.pdf
+docidentifier:
+- content: ETSI EN 300 609-4 V10.2.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 609-4 V10.2.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 10.2.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update the Repeater Harmonized Standard in particular according to the
+- language: en
+  script: Latn
+  content: Update the Repeater Harmonized Standard in particular according to the
     latest version of ETSI TS 151.026 (3GPP TS 51.026) and take into account the latest
     template of the Harmonized Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: REPEATER
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: REPEATER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: European Standard

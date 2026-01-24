@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118108V4.4.12023-08
+id: ETSITS118108V441202308
+schema_version: v1.4.1
 title:
-- content: oneM2M; CoAP Protocol Binding (oneM2M TS-0008 version 4.4.1 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68608
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118108/04.04.01_60/ts_118108v040401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 108 V4.4.1 (2023-08)
+- language: en
+  script: Latn
+  content: oneM2M; CoAP Protocol Binding (oneM2M TS-0008 version 4.4.1 Release 4)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68608
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118108/04.04.01_60/ts_118108v040401p.pdf
+docidentifier:
+- content: ETSI TS 118 108 V4.4.1 (2023-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 108 V4.4.1 (2023-08)
 date:
 - type: published
-  value: 2023-08
+  at: 2023-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.4.1
-revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The specification will cover the protocol specific part of communication
+- language: en
+  script: Latn
+  content: "The specification will cover the protocol specific part of communication
     protocol used by oneM2M compliant systems as 'RESTful CoAP binding'.\r\nThe scope
     of this Work Item includes (not limited to as shown below):\r\n-Binding oneM2M
     Protocol primitive types to CoAP method\r\n-Binding oneM2M response codes (successful/unsuccessful)
     to CoAP resopnse codes\r\n-Binding oneM2M RESTful resources to CoAP resources\r\nThis
     specification is depending on Core API protocol specification (TS-0008) for data
     types"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

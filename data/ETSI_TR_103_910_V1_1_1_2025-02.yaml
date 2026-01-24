@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103910V1.1.12025-02
+id: ETSITR103910V111202502
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); AI Testing; Test Methodology
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); AI Testing; Test Methodology
     and Test Specification for ML-based Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62502
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103910/01.01.01_60/tr_103910v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 910 V1.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62502
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103910/01.01.01_60/tr_103910v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 910 V1.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 910 V1.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document covers testing of AI-enabled systems for the purpose of standardisation
+- language: en
+  script: Latn
+  content: "The document covers testing of AI-enabled systems for the purpose of standardisation
     and elaborates on test methodologies and methods for test specification.\r\nIt
     identifies requirements for testing and comes forward with proposals to tackle
     the technical aspects of certifying trustworthiness of AI in standardisation contexts."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AI
-- content: ML
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AI
+  - language: en
+    script: Latn
+    content: ML
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

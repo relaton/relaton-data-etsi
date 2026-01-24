@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300119-4V2.1.12004-09
+id: ETSIEN3001194V211200409
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); European telecommunication standard for
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); European telecommunication standard for
     equipment practice; Part 4: Engineering requirements for subracks in miscellaneous
     racks and cabinets'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19276
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300100_300199/30011904/02.01.01_60/en_30011904v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 119-4 V2.1.1 (2004-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19276
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300100_300199/30011904/02.01.01_60/en_30011904v020101p.pdf
+docidentifier:
+- content: ETSI EN 300 119-4 V2.1.1 (2004-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 119-4 V2.1.1 (2004-09)
 date:
 - type: published
-  value: 2004-09
+  at: 2004-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Thermal Management Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2004-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Removal of all thermal management sections. Update references.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Removal of all thermal management sections. Update references.
+status:
+  stage: Published
 keyword:
-- content: ENVIRONMENT
-- content: EQUIPMENT PRACTICE
-- content: RACK
+- taxon:
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: EQUIPMENT PRACTICE
+  - language: en
+    script: Latn
+    content: RACK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Thermal Management Group
+    content: European Standard

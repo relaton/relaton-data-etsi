@@ -1,68 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103595V1.1.12019-04
+id: ETSITR103595V111201904
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Transmission characteristics; Technical
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Transmission characteristics; Technical
     characteristics for level probing radar within the frequency range 75 GHz to 85
     GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54063
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103595/01.01.01_60/tr_103595v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 595 V1.1.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54063
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103595/01.01.01_60/tr_103595v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 595 V1.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 595 V1.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGRvY3VtZW50IHdpbGwgcHJvdmlkZSBpbmZvcm1hdGlvbiBvbiB0aGUgZXhpc3RpbmcgYW5kIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKEVDQy9ERUMvKDExKTAyIGFuZCAyMDE3LzE0ODMvRVUpLlRoZSBjdXJyZW50IHJlZ3VsYXRpb24gc2hvdWxkIGJlIHJldmlld2VkIGluIHRoZSBsaWdodCBvZiBoYWxmIHNwaGVyZSBjb25jZXB0IGFuZCB0aGUgbmVlZHMgZnJvbSB0aGUgbWFya2V0LiBUaGlzIGRvY3VtZW50IHdpbGwgZm9yIGV4YW1wbGUgcmVxdWVzdCBhIG1vcmUgZmxleGlibGUgYXBwcm9hY2ggZm9yIHRoZSBjdXJyZW50IHJlcXVpcmVtZW50IG9mIGEgc3RyaWN0IGRvd253YXJkcyBwb2ludGluZyBkaXJlY3Rpb25hbCBhbnRlbm5hLiBUaGUgZG9jdW1lbnQgd2lsbCBpbmNsdWRlIG5lY2Vzc2FyeSBpbmZvcm1hdGlvbiB0byBzdXBwb3J0IHRoZSBjby1vcGVyYXRpb24gYmV0d2VlbiBFVFNJIGFuZCB0aGUgRWxlY3Ryb25pYyBDb21tdW5pY2F0aW9ucyBDb21taXR0ZWUgKEVDQykgb2YgdGhlIEV1cm9wZWFuIENvbmZlcmVuY2Ugb2YgUG9zdCBhbmQgVGVsZWNvbW11bmljYXRpb25zIEFkbWluaXN0cmF0aW9ucyAoQ0VQVCksIGluY2x1ZGluZzog4oCiIERldGFpbGVkIG1hcmtldCBpbmZvcm1hdGlvbiAoYW5uZXggQSk7IOKAoiBUZWNobmljYWwgaW5mb3JtYXRpb24gKGFubmV4IEIpOyDigKIgUmVsYXRpb24gdG8gZXhpc3Rpbmcgc3BlY3RydW0gcmVndWxhdGlvbiAoYW5uZXggQyk7IOKAoiBFeHBlY3RlZCBjb21wYXRpYmlsaXR5IGlzc3VlcyAoYW5uZXggRCku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'The document will provide information on the existing and intended applications,
+    the technical parameters, the relation to the existing spectrum regulation (ECC/DEC/(11)02
+    and 2017/1483/EU).The current regulation should be reviewed in the light of half
+    sphere concept and the needs from the market. This document will for example request
+    a more flexible approach for the current requirement of a strict downwards pointing
+    directional antenna. The document will include necessary information to support
+    the co-operation between ETSI and the Electronic Communications Committee (ECC)
+    of the European Conference of Post and Telecommunications Administrations (CEPT),
+    including:  Detailed market information (annex A);  Technical information (annex
+    B);  Relation to existing spectrum regulation (annex C);  Expected compatibility
+    issues (annex D).'
+status:
+  stage: Published
 keyword:
-- content: Measurement
-- content: RADAR
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

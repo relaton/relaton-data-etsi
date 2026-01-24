@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102044V1.1.12002-12
+id: ETSITR102044V111200212
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Requirements for role
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Requirements for role
     and attribute certificates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17210
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102044/01.01.01_60/tr_102044v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 044 V1.1.1 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17210
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102044/01.01.01_60/tr_102044v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 044 V1.1.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 044 V1.1.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Standard ways of certifying roles and attributes are starting to emerge,
+- language: en
+  script: Latn
+  content: Standard ways of certifying roles and attributes are starting to emerge,
     such as; Attribute Certificate standards from the IETF, using extensions to existing
     authentication certificates, and others.  Such standards may be used to support
     the notion of roles within an organization or professional roles.  The implications
     of the requirements of the Directive need to be investigated. Conclusions and
     recommendations based on the investigation would be documented in a Technical
     report called  "Requirements for certifying roles and attributes".
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR132ed.11994-08
+id: ETSIETR132ed1199408
+schema_version: v1.4.1
 title:
-- content: Radio broadcasting systems; Code of practice for site engineering Very
+- language: en
+  script: Latn
+  content: Radio broadcasting systems; Code of practice for site engineering Very
     High Frequency (VHF), frequency modulated, sound broadcasting transmitters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2098
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/132/01_60/etr_132e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 132 ed.1 (1994-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2098
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/132/01_60/etr_132e01p.pdf
+docidentifier:
+- content: ETSI ETR 132 ed.1 (1994-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 132 ed.1 (1994-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide guidance for engineers concerned with design, specification\r\ninstallation,
+- language: en
+  script: Latn
+  content: "To provide guidance for engineers concerned with design, specification\r\ninstallation,
     operation, maintanance of broadcast radio systems, in\r\nparticular those operating
     in the band 87,5 to 108 MHz where co-sited\r\noperation of many different users
     is common.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: COP
-- content: FM
-- content: TRANSMITTER
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: COP
+  - language: en
+    script: Latn
+    content: FM
+  - language: en
+    script: Latn
+    content: TRANSMITTER
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Technical Report

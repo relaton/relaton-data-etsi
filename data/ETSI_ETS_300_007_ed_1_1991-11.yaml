@@ -1,61 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300007ed.11991-11
+id: ETSIETS300007ed1199111
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Support of packet-mode terminal
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Support of packet-mode terminal
     equipment by an ISDN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300007/01_60/ets_300007e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 007 ed.1 (1991-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300007/01_60/ets_300007e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 007 ed.1 (1991-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 007 ed.1 (1991-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Layer 3 ISDN D-channel signalling procedures for control of packet-\r\nswitched
+- language: en
+  script: Latn
+  content: "Layer 3 ISDN D-channel signalling procedures for control of packet-\r\nswitched
     connections on ISDN on terminal adaptor functions required\r\nto support X.25
     DTE s\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: PACKET MODE
-- content: X.31
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: X.31
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

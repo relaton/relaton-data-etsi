@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR182015V1.1.12006-10
+id: ETSITR182015V111200610
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Next Generation Networks; Architecture for Control of Processing
     Overload
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21291
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182015/01.01.01_60/tr_182015v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 182 015 V1.1.1 (2006-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21291
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182015/01.01.01_60/tr_182015v010101p.pdf
+docidentifier:
+- content: ETSI TR 182 015 V1.1.1 (2006-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 182 015 V1.1.1 (2006-10)
 date:
 - type: published
-  value: 2006-10
+  at: 2006-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To determine the architectural principles that are required to provide
+- language: en
+  script: Latn
+  content: To determine the architectural principles that are required to provide
     effective control of processing overload in the NGN, with particular reference
     to the AG to CA (including H.248) fan-in issue and the design of a single reusable
     generic overload control for session protocols that have no built-in controls.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: CONTROL
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: CONTROL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Report

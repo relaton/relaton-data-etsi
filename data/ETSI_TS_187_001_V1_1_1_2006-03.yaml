@@ -1,65 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187001V1.1.12006-03
+id: ETSITS187001V111200603
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN SECurity (SEC); Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22911
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187001/01.01.01_60/ts_187001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 001 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22911
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187001/01.01.01_60/ts_187001v010101p.pdf
+docidentifier:
+- content: ETSI TS 187 001 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 001 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBuZXcgd29yayBpdGVtIGFpbXMgdG8gY2FwdHVyZSB0aGUgTkdOIHJlbGVhc2UgMSBzcGVjaWZpYyBzZWN1cml0eSBvYmplY3RpdmVzIGFuZCByZXF1aXJlbWVudHMgaW4gYSBzdGFnZSAxIHR5cGUgZGVsaXZlcmFibGUuDQpSZW1hcmtzOiANCkRlcGVuZGVuY2llcyBhbmQgcmVsYXRpb25zaGlwczogwqcgTkdOIEFyY2hpdGVjdHVyZSBhbmQgUmVsZWFzZSAxIERlZmluaXRpb24sIE5HTiBzY2VuYXJpb3MgYW5kIHVzZSBjYXNlcywgwqcgTkdOIFNlY3VyaXR5IC0gRnJhbWV3b3JrIGFuZCBSZXF1aXJlbWVudHMgLSBSZWxlYXNlIGluZGVwZW5kZW50IMKnIE5HTiBTZWN1cml0eSAtIFRocmVhdCAmIFJpc2sgQW5hbHlzaXMgwqcgTkdOIFNlY3VyaXR5IC0gU2VjdXJpdHkgQXJjaGl0ZWN0dXJlIC0gUmVsZWFzZSAxIMKnIDNHUFAgU0EzIFdJIElNUyBTZWN1cml0eSBFeHRlbnNpb25zIGZvciBJTVMgUjcsIFRSIGFuZCBDUnMgwqcgU1RGIDI5MiDCpyBJRVRGLCAzR1BQIGNvbGxhYm9yYXRpb24gwqcgUmVsZXZhbnQgcmVmZXJlbmNlczogM0dQUCBUUyAzMy4yMDNyZXYgIjNHIHNlY3VyaXR5OyBBY2Nlc3Mgc2VjdXJpdHkgZm9yIElQLWJhc2VkIHNlcnZpY2VzIiwgM0dQUDIgUy5TMDA4Ni0wICJJTVMgU2VjdXJpdHkgRnJhbWV3b3JrIiwgbW9yZSB0byBiZSBpZGVudGlmaWVkIMKnIFRJU1BBTiBXb3JrIEl0ZW1zIERFRy9USVNQQU4tMDcwMDQtVGVjaCAiQXBwbGljYXRpb24gb2Ygc2VjdXJpdHkgY291bnRlcm1lYXN1cmVzIHRvIHNlcnZpY2UgY2FwYWJpbGl0aWVzIiDCpyBSVFMvVElTUEFOLTA3MDA2LVRlY2ggIk1ldGhvZHMgYW5kIFByb3RvY29scyAtIFBhcnQgMTogVGhyZWF0IGFuYWx5c2lzIiwgwqcgUlRTL1RJU1BBTi0wNzAwNy1UZWNoIOKAnE1ldGhvZHMgYW5kIFByb3RvY29scyAtIFBhcnQgMjogQ291bnRlciBNZWFzdXJlc+KAnSwgwqcgRFRTL1RJU1BBTi0wNzAwOC1UZWNoIOKAnFByb3RlY3Rpb24gUHJvZmlsZeKAnSwNCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This new work item aims to capture the NGN release 1 specific security
+    objectives and requirements in a stage 1 type deliverable.\r\nRemarks: \r\nDependencies
+    and relationships:  NGN Architecture and Release 1 Definition, NGN scenarios and
+    use cases,  NGN Security - Framework and Requirements - Release independent  NGN
+    Security - Threat & Risk Analysis  NGN Security - Security Architecture - Release
+    1  3GPP SA3 WI IMS Security Extensions for IMS R7, TR and CRs  STF 292  IETF,
+    3GPP collaboration  Relevant references: 3GPP TS 33.203rev \"3G security; Access
+    security for IP-based services\", 3GPP2 S.S0086-0 \"IMS Security Framework\",
+    more to be identified  TISPAN Work Items DEG/TISPAN-07004-Tech \"Application of
+    security countermeasures to service capabilities\"  RTS/TISPAN-07006-Tech \"Methods
+    and Protocols - Part 1: Threat analysis\",  RTS/TISPAN-07007-Tech Methods and
+    Protocols - Part 2: Counter Measures,  DTS/TISPAN-07008-Tech Protection Profile,\r\n"
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

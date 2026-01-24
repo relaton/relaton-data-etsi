@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301358V1.1.11999-04
+id: ETSIEN301358V111199904
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Satellite User Terminals (SUT)
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Satellite User Terminals (SUT)
     using satellites in geostationary orbit operating in the 19,7 GHz to 20,2 GHz
     (space-to-earth) and 29,5 GHz to 30 GHz (earth-to-space) frequency bands
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5232
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301300_301399/301358/01.01.01_60/en_301358v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 358 V1.1.1 (1999-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5232
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301300_301399/301358/01.01.01_60/en_301358v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 358 V1.1.1 (1999-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 358 V1.1.1 (1999-04)
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Earth Stations & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To generate a standard for satellites user terminals receiving in the
+- language: en
+  script: Latn
+  content: "To generate a standard for satellites user terminals receiving in the
     19,7 - 20,2 GHz and transmitting in the 29,5 - 30 GHz frequency bands through
     geostationary satellites, for the protection of the spectral and orbital resources.\r\n
     \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: FSS
-- content: REGULATION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: FSS
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Satellite Earth Stations & Systems
+    content: European Standard

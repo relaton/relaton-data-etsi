@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103571-1V1.1.12019-04
+id: ETSITS1035711V111201904
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
     testing for the Sh/Dh interfaces; (3GPPTM Release 15); Part 1: Protocol Implementation
     Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51210
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10357101/01.01.01_60/ts_10357101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 571-1 V1.1.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51210
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10357101/01.01.01_60/ts_10357101v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 571-1 V1.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 571-1 V1.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Given that there are already test specifications related to the Diameter
+- language: en
+  script: Latn
+  content: "Given that there are already test specifications related to the Diameter
     protocol profile for the Rf and the Ro reference points under validation, it seems
     reasonable to extend the INT set of test specifications to also cover Diameter
     on the Sh and Dh reference points as similar procedures are covered on those interfaces.
@@ -64,20 +73,24 @@ abstract:
     project provide ETSI with the possibility to validate the outputs of this STF
     against their LTE components (i.e. HSS, AS, OSA OCS, SLF). See also list of supporting
     organisations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: Diameter
-- content: PICS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

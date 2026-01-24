@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300220-4V1.1.12017-02
+id: ETSIEN3002204V111201702
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices (SRD) operating in the frequency range 25 MHz to 1
+- language: en
+  script: Latn
+  content: 'Short Range Devices (SRD) operating in the frequency range 25 MHz to 1
     000 MHz; Part 4: Harmonised Standard covering the essential requirements of article
     3.2 of Directive 2014/53/EU; Metering devices operating in designated band 169,400
     MHz to 169,475 MHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47900
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300200_300299/30022004/01.01.01_60/en_30022004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 220-4 V1.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47900
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300200_300299/30022004/01.01.01_60/en_30022004v010101p.pdf
+docidentifier:
+- content: ETSI EN 300 220-4 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 220-4 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This EN 300 220-4 revision includes the work already done in REN/ERM-TG28-505
+- language: en
+  script: Latn
+  content: This EN 300 220-4 revision includes the work already done in REN/ERM-TG28-505
     & REN/ERM-TG28-506 also including REN/ERM-TG28-521, under RE-D mandate M/536.
     The new EN 300 220 arrangement is based on a multipart approach.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

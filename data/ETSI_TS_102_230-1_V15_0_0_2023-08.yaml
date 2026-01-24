@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102230-1V15.0.02023-08
+id: ETSITS1022301V1500202308
+schema_version: v1.4.1
 title:
-- content: 'Smart Cards; UICC-Terminal interface; Physical, electrical and logical
+- language: en
+  script: Latn
+  content: 'Smart Cards; UICC-Terminal interface; Physical, electrical and logical
     test specification; Part 1: Terminal features (Release 15)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69068
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223001/15.00.00_60/ts_10223001v150000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 230-1 V15.0.0 (2023-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69068
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223001/15.00.00_60/ts_10223001v150000p.pdf
+docidentifier:
+- content: ETSI TS 102 230-1 V15.0.0 (2023-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 230-1 V15.0.0 (2023-08)
 date:
 - type: published
-  value: 2023-08
+  at: 2023-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.0.0
-revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Implementations of CRs after SET#110
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Implementations of CRs after SET#110
+status:
+  stage: Published
 keyword:
-- content: SMART CARD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET TEST
+    content: Technical Specification

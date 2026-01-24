@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100725V8.2.02000-12
+id: ETSITS100725V820200012
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Test sequences
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Test sequences
     for the GSM Enhanced Full Rate (EFR) speech codec (3GPP TS 06.54 version 8.2.0
     Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12700
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100700_100799/100725/08.02.00_60/ts_100725v080200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 725 V8.2.0 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12700
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100700_100799/100725/08.02.00_60/ts_100725v080200p.pdf
+docidentifier:
+- content: ETSI TS 100 725 V8.2.0 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 725 V8.2.0 (2000-12)
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.2.0
-revdate: 2000-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CRs at TSG#10
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CRs at TSG#10
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

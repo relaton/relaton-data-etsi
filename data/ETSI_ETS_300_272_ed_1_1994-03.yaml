@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300272ed.11994-03
+id: ETSIETS300272ed1199403
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Metropolitan Area Network (MAN); Physical Layer Convergence
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Metropolitan Area Network (MAN); Physical Layer Convergence
     Procedure (PLCP) for 155,520 Mbit/s CCITT Recommendations G.707, G.708 and G.709
     SDH based systems Protocol Implementation Conformance Statement (PICS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=782
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300272/01_60/ets_300272e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 272 ed.1 (1994-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=782
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300272/01_60/ets_300272e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 272 ed.1 (1994-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 272 ed.1 (1994-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "."
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: LAYER 1
-- content: MAN
-- content: PICS
-- content: SDH
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: MAN
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Broadband Networks
+    content: European Telecommunication Standard

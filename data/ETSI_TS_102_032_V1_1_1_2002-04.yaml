@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102032V1.1.12002-04
+id: ETSITS102032V111200204
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); SNMP MIB for test and measurement applications
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); SNMP MIB for test and measurement applications
     in DVB systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15162
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/102032/01.01.01_60/ts_102032v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 032 V1.1.1 (2002-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15162
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/102032/01.01.01_60/ts_102032v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 032 V1.1.1 (2002-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 032 V1.1.1 (2002-04)
 date:
 - type: published
-  value: 2002-04
+  at: 2002-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document contains a recommendation for the SNMP MIB (Simple Network
+- language: en
+  script: Latn
+  content: "This document contains a recommendation for the SNMP MIB (Simple Network
     Management Protocol - Management Information Base) that addresses the relevant
     issues of the DVB Measurement Guidelines (TR 101 290).\r\nThe intention was to
     create a MIB that can be used in all test and measurement instruments which provide
@@ -63,21 +72,27 @@ abstract:
     is a variety of existing standards which are applicable for different application
     scenarios. Neither the speed of the links in the management network is considered,
     nor are the security aspects addressed."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: TESTING
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

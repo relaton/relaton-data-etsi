@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100929V7.2.01999-11
+id: ETSITS100929V720199911
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Security related
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Security related
     network functions (GSM 03.20 version 7.2.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8017
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100900_100999/100929/07.02.00_60/ts_100929v070200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 929 V7.2.0 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8017
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100900_100999/100929/07.02.00_60/ts_100929v070200p.pdf
+docidentifier:
+- content: ETSI TS 100 929 V7.2.0 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 929 V7.2.0 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.2.0
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nGPRS interaction with existing security mechanisms\r\nGPRS
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nGPRS interaction with existing security mechanisms\r\nGPRS
     security\r\nSUBJECT\r\nProposed annex E on CTS security\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: NETWORK
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

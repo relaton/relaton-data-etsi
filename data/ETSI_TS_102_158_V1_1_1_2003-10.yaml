@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102158V1.1.12003-10
+id: ETSITS102158V111200310
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Policy requirements for
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Policy requirements for
     Certification Service Providers issuing attribute certificates usable with Qualified
     certificates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17217
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102158/01.01.01_60/ts_102158v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 158 V1.1.1 (2003-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17217
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102158/01.01.01_60/ts_102158v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 158 V1.1.1 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 158 V1.1.1 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To develop a standard, providing requirements for the management of attribute
+- language: en
+  script: Latn
+  content: "To develop a standard, providing requirements for the management of attribute
     and role certification services. The work can, for its structure and some of the
     contents, draw upon the earlier published TS 101 456.\r\nThis task builds upon
     the results to be reported by a new work item  Identification of requirements
     for certifying roles and attributes, which has been approved and will be started
     soon."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Specification

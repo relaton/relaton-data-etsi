@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSARF008V1.1.12024-12
+id: ETSIGSARF008V111202412
+schema_version: v1.4.1
 title:
-- content: Augmented Reality Framework (ARF); Open APIs for Managing and Querying
+- language: en
+  script: Latn
+  content: Augmented Reality Framework (ARF); Open APIs for Managing and Querying
     the World Analysis function
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68570
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ARF/001_099/008/01.01.01_60/gs_ARF008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ARF 008 V1.1.1 (2024-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68570
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ARF/001_099/008/01.01.01_60/gs_ARF008v010101p.pdf
+docidentifier:
+- content: ETSI GS ARF 008 V1.1.1 (2024-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS ARF 008 V1.1.1 (2024-12)
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gd2lsbCBwcm92aWRlIGFuIG92ZXJ2aWV3IGFuZCBhbiBpbnRyb2R1Y3Rpb24gdG8gdGhlIGludGVyZmFjZSBzcGVjaWZpY2F0aW9uIGZvciB0aGUgcmVmZXJlbmNlIHBvaW50ICJBUiA4IOKAkyBQb3Nl4oCdIG9mIHRoZSBBUiBmcmFtZXdvcmsgYXJjaGl0ZWN0dXJlIGRldmVsb3BlZCBieSB0aGUgRVRTSSBJbmR1c3RyeSBTcGVjaWZpY2F0aW9uIEdyb3VwIChJU0cpIGZvciBhbiBBdWdtZW50ZWQgUmVhbGl0eSBGcmFtZXdvcmsgKEFSRiku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This work item will provide an overview and an introduction to the interface
+    specification for the reference point "AR 8  Pose of the AR framework architecture
+    developed by the ETSI Industry Specification Group (ISG) for an Augmented Reality
+    Framework (ARF).
+status:
+  stage: Published
 keyword:
-- content: API
-- content: Augmented Reality
-- content: Context capturing and analysis
-- content: INTEROPERABILITY
-- content: Real World capture
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: Context capturing and analysis
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: Real World capture
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Specification

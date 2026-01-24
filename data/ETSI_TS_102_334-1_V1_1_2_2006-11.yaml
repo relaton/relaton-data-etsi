@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102334-1V1.1.22006-11
+id: ETSITS1023341V112200611
+schema_version: v1.4.1
 title:
-- content: 'Network Address Book on fixed network; Part 1: Overview'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25561
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10233401/01.01.02_60/ts_10233401v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 334-1 V1.1.2 (2006-11)
+- language: en
+  script: Latn
+  content: 'Network Address Book on fixed network; Part 1: Overview'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25561
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10233401/01.01.02_60/ts_10233401v010102p.pdf
+docidentifier:
+- content: ETSI TS 102 334-1 V1.1.2 (2006-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 334-1 V1.1.2 (2006-11)
 date:
 - type: published
-  value: 2006-11
+  at: 2006-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2006-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The aim of this WI is to create an overview document regarding the issue
+- language: en
+  script: Latn
+  content: The aim of this WI is to create an overview document regarding the issue
     "Contact Book" on fixed network for PSTN/ISDN. The content of the document should
     contain information regarding network and terminal equipment aspects. Specific
     items inhere are call establishing using Contact Book, vCard transmission and
     Data synchronisation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: ISDN
-- content: NETWORK
-- content: PSTN
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: AT Features
+    content: Technical Specification

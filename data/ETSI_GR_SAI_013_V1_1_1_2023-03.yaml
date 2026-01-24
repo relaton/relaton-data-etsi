@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRSAI013V1.1.12023-03
+id: ETSIGRSAI013V111202303
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence (SAI); Proofs of Concepts Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67260
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/013/01.01.01_60/gr_SAI013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR SAI 013 V1.1.1 (2023-03)
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Proofs of Concepts Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67260
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/013/01.01.01_60/gr_SAI013v010101p.pdf
+docidentifier:
+- content: ETSI GR SAI 013 V1.1.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR SAI 013 V1.1.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGRvY3VtZW50IHByb3ZpZGVzIGluZm9ybWF0aW9uIGFib3V0IHRoZSDigJhsaWdodHdlaWdodOKAmSBmcmFtZXdvcmsgdG8gYmUgdXNlZCBieSBFVFNJIElTRyBTQUkgdG8gY3JlYXRlIG11bHRpLXBhcnRuZXIgUHJvb2ZzIG9mIENvbmNlcHRzIChQb0NzKS4g
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'The document provides information about the lightweight framework to be
+    used by ETSI ISG SAI to create multi-partner Proofs of Concepts (PoCs). '
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: Cyber Security
-- content: Proof of Concept
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Proof of Concept
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Securing Artificial Intelligence
+    content: Group Report

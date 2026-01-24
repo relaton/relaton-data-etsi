@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203251V1.1.12016-01
+id: ETSIEG203251V111201601
+schema_version: v1.4.1
 title:
-- content: Methods for Testing & Specification; Risk-based Security Assessment and
+- language: en
+  script: Latn
+  content: Methods for Testing & Specification; Risk-based Security Assessment and
     Testing Methodologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43304
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203200_203299/203251/01.01.01_60/eg_203251v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 251 V1.1.1 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43304
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203200_203299/203251/01.01.01_60/eg_203251v010101p.pdf
+docidentifier:
+- content: ETSI EG 203 251 V1.1.1 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 251 V1.1.1 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This WI describes a set of methodologies that combine risk assessment and
+- language: en
+  script: Latn
+  content: This WI describes a set of methodologies that combine risk assessment and
     testing. It distinguishes between risk-based testing (risk assessment to improve
     the testing) and test-based risk assessment (using testing to improve the risk
     assessment). A methodology in the sense of this WI describes a collection of systematically
     aligned activities with associated rules, methods and best practices to achieve
     a certain goal or result. The methodologies are based on  standards like ISO 31000
     and IEEE 829/29119.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assurance
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: assurance
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

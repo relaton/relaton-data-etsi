@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300497-3V0.3.21999-09
+id: ETSIEN3004973V032199909
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Common Interface
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Common Interface
     (CI); Test Case Library (TCL); Part 3: Abstract Test Suite (ATS) for Medium Access
     Control (MAC) layer - Fixed radio Termination (FT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6143
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/30049703/00.03.02_60/en_30049703v000302p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 497-3 V0.3.2 (1999-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6143
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/30049703/00.03.02_60/en_30049703v000302p.pdf
+docidentifier:
+- content: ETSI EN 300 497-3 V0.3.2 (1999-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 497-3 V0.3.2 (1999-09)
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 0.3.2
-revdate: 1999-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Third edition of Conformance Test Specification (CTS) for voluntary testing
+- language: en
+  script: Latn
+  content: "Third edition of Conformance Test Specification (CTS) for voluntary testing
     to ETS 300 175:\r\n- adding test cases relevant for CAP testing to provide bases
     for development of the CAP Profile Test Specification;\r\n- making neccessary
     modifications based on the 3rd edition of ETS 300 175;\r\n- correcting errors."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: DECT
-- content: MAC
-- content: TERMINAL
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Testing aspects
+    content: European Standard

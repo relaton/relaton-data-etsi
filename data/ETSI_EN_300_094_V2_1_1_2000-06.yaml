@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300094V2.1.12000-06
+id: ETSIEN300094V211200006
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Connected Line Identification
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Connected Line Identification
     Presentation (COLP) supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9224
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300001_300099/300094/02.01.01_60/en_300094v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 094 V2.1.1 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9224
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300001_300099/300094/02.01.01_60/en_300094v020101p.pdf
+docidentifier:
+- content: ETSI EN 300 094 V2.1.1 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 094 V2.1.1 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ISDN/PSTN and IN services and mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update resulting from work on number screening.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update resulting from work on number screening.
+status:
+  stage: Published
 keyword:
-- content: COLP
-- content: ISDN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: COLP
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ISDN/PSTN and IN services and mobility
+    content: European Standard

@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202130V1.1.12003-10
+id: ETSIES202130V111200310
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User Interfaces; Character repertoires, ordering rules
+- language: en
+  script: Latn
+  content: Human Factors (HF); User Interfaces; Character repertoires, ordering rules
     and assignments to the 12-key telephone keypad
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11730
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202100_202199/202130/01.01.01_60/es_202130v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 130 V1.1.1 (2003-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11730
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202100_202199/202130/01.01.01_60/es_202130v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 130 V1.1.1 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 130 V1.1.1 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This activity will identify a common as well as a language specific assignment
+- language: en
+  script: Latn
+  content: "This activity will identify a common as well as a language specific assignment
     and access solution for European characters from the 12-key telephone pads, including
     sorting orders.  Most common glyphs-e.g. the Euro sign- and punctuation marks
     will be included.\r\nGreek characters and a solution for Cyrillic will be fully
     supported.\r\nThe main output will be an ETSI Standard which is intended to later
     form the basis for a European Norm."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CHARACTER
-- content: HF
-- content: KEYPAD
-- content: USER
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARACTER
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: KEYPAD
+  - language: en
+    script: Latn
+    content: USER
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

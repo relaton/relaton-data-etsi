@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTS04.08-EXTV3.0.01993-07
+id: ETSIGTS0408EXTV300199307
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 1); Mobile radio
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 1); Mobile radio
     interface; Layer 3 specification (GSM 04.08 - EXT)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2107
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/04/0408/03.00.00_60/gsmts_0408ev030000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS 04.08-EXT V3.0.0 (1993-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2107
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/04/0408/03.00.00_60/gsmts_0408ev030000p.pdf
+docidentifier:
+- content: ETSI GTS 04.08-EXT V3.0.0 (1993-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS 04.08-EXT V3.0.0 (1993-07)
 date:
 - type: published
-  value: 1993-07
+  at: 1993-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 1993-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Extension of GSM 04.08 (& 04.08-DCS) to cover dual ciphering\r\nalgorithms
+- language: en
+  script: Latn
+  content: "Extension of GSM 04.08 (& 04.08-DCS) to cover dual ciphering\r\nalgorithms
     (A5/1 & A5/2)\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE1
-- content: LAYER 3
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

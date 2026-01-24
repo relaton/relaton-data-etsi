@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102600V10.1.02020-09
+id: ETSITS102600V1010202009
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC-Terminal interface; Characteristics of the USB interface
+- language: en
+  script: Latn
+  content: Smart Cards; UICC-Terminal interface; Characteristics of the USB interface
     (Release 10)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39889
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102600/10.01.00_60/ts_102600v100100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 600 V10.1.0 (2020-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39889
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102600/10.01.00_60/ts_102600v100100p.pdf
+docidentifier:
+- content: ETSI TS 102 600 V10.1.0 (2020-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 600 V10.1.0 (2020-09)
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 10.1.0
-revdate: 2020-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Implemented CRs approved in SCP#46. SCP document check for missing CRs
+- language: en
+  script: Latn
+  content: "Implemented CRs approved in SCP#46. SCP document check for missing CRs
     in SCP#93 and SCP#94.\r\nRef doc\r\n017r2 - Addition of a UICC specifc descriptor\r\n021r1
     - Correction of inconsistencies related to the ICCD specification\r\n022 - clarifications
     related to the ICCD specification\r\n025 - UICC descriptors adaptation after power
     negotiation\r\n026 - clarification of handling of device descriptors"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

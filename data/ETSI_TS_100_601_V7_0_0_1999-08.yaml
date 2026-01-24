@@ -1,71 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100601V7.0.01999-08
+id: ETSITS100601V700199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Interworking
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Interworking
     between the Public Land Mobile Network (PLMN) and the Circuit Switched Public
     Data Network (CSPDN) (GSM 09.04 version 7.0.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8612
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100601/07.00.00_60/ts_100601v070000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 601 V7.0.0 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8612
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100601/07.00.00_60/ts_100601v070000p.pdf
+docidentifier:
+- content: ETSI TS 100 601 V7.0.0 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 601 V7.0.0 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.0
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Upgrade from Phase 2+ to Release 1998
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Upgrade from Phase 2+ to Release 1998
+status:
+  stage: Published
 keyword:
-- content: CIRCUIT MODE
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: MOBILE
-- content: PDN
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: CIRCUIT MODE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PDN
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Data Services
+    content: Technical Specification

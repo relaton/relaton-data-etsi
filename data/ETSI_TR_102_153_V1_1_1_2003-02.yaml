@@ -1,67 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102153V1.1.12003-02
+id: ETSITR102153V111200302
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Pre-study on certificate
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Pre-study on certificate
     profiles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17788
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102153/01.01.01_60/tr_102153v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 153 V1.1.1 (2003-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17788
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102153/01.01.01_60/tr_102153v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 153 V1.1.1 (2003-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 153 V1.1.1 (2003-02)
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RVRTSSBUQyBFU0kgIGhhcyByZW1hcmtlZCB0aGF0IGV4aXN0aW5nIGNlcnRpZmljYXRlIHByb2ZpbGVzLCBhbW9uZyB0aGVtIFRTIDEwMSA4NjIgWzZdLCBhcmUgY29uc2lkZXJlZCB0b28gb3BlbiwgYWxsb3dpbmcgdG9vIG1hbnkgY2hvaWNlcywgd2hpY2ggbGVhZCB0byBpbmNvbXBhdGlibGUgaW1wbGVtZW50YXRpb25zLiBJdCBoYXMgdGhlbiBhZ3JlZWQgdG8gbGF1bmNoIGEgcHJlLXN0dWR5IHRvIGFzc2VzcyB0aGUgcHJlY29uZGl0aW9ucyBmb3IgYW4gYWN0aW9uIHRvIGZ1cnRoZXIgcHJvZmlsZSB0aGUgY2VydGlmaWNhdGUgZm9ybWF0cy4NClRoZSBwdXJwb3NlIG9mIHRoaXMgc3R1ZHkgaXMgdG8gY292ZXIsIGJ1dCBub3QgYmUgbGltaXRlZCB0bywgcXVhbGlmaWVkIGNlcnRpZmljYXRlcy4NClRoZSBtYWluIGZpbmRpbmcgb2YgdGhpcyBzdHVkeSBpcyB0aGF0IG1vcmUgcmlnaWQgcHJvZmlsZXMgYXJlIGRlZW1lZCBuZWNlc3NhcnkgdG8gYWN0dWFsbHkgYWNoaWV2ZSBpbnRlcm9wZXJhYmlsaXR5IGFuZCwgdGhlcmVmb3JlLCDigJx0byBlbnN1cmUgdGhlIGZyZWUgbW92ZW1lbnQgd2l0aGluIHRoZSBpbnRlcm5hbCBtYXJrZXQgYW5kIHRvIGJ1aWxkIHRydXN0IGluIGVsZWN0cm9uaWMgc2lnbmF0dXJl4oCdLiANClRoZXJlZm9yZSB0aGUgbmV4dCBzdGVwIHNob3VsZCBiZSB0byBpc3N1ZSBhIFRlY2huaWNhbCBTdGFuZGFyZCBzcGVjaWZ5IHRoZSBmdWxsIGZvcm1hdCBvZiBhIFF1YWxpZmllZCBDZXJ0aWZpY2F0ZSBib3RoIGZyb20gYW4gaXNzdWVyIHBvaW50IG9mIHZpZXcgYW5kIGZyb20gYSB2ZXJpZmllciBwb2ludCBvZiB2aWV3LiBGb3JtYXRzIGZvciDigJxjaXRpemVu4oCdIGNlcnRpZmljYXRlcyAoRWxlY3Ryb25pYyBJZGVudGl0eSBDZXJ0aWZpY2F0ZXMpIGNvdWxkIGFsc28gYmUgaW5kaWNhdGVkLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "ETSI TC ESI  has remarked that existing certificate profiles, among them
+    TS 101 862 [6], are considered too open, allowing too many choices, which lead
+    to incompatible implementations. It has then agreed to launch a pre-study to assess
+    the preconditions for an action to further profile the certificate formats.\r\nThe
+    purpose of this study is to cover, but not be limited to, qualified certificates.\r\nThe
+    main finding of this study is that more rigid profiles are deemed necessary to
+    actually achieve interoperability and, therefore, to ensure the free movement
+    within the internal market and to build trust in electronic signature. \r\nTherefore
+    the next step should be to issue a Technical Standard specify the full format
+    of a Qualified Certificate both from an issuer point of view and from a verifier
+    point of view. Formats for citizen certificates (Electronic Identity Certificates)
+    could also be indicated.\r\n"
+status:
+  stage: Published
 keyword:
-- content: authentication
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Report

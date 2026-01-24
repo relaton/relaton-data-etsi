@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102949V1.1.12014-09
+id: ETSITR102949V111201409
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Wideband and Superwideband
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Wideband and Superwideband
     speech terminals; Perceptually motivated parameters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35168
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102949/01.01.01_60/tr_102949v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 949 V1.1.1 (2014-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35168
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102949/01.01.01_60/tr_102949v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 949 V1.1.1 (2014-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 949 V1.1.1 (2014-09)
 date:
 - type: published
-  value: 2014-09
+  at: 2014-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document is intended to investigate new perceptually motivated parameters
+- language: en
+  script: Latn
+  content: The document is intended to investigate new perceptually motivated parameters
     defining more closely the audio quality, the loudness and fidelity of the speech
     as perceived by the user, for wideband and superwideband speech terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LOUDNESS
-- content: SPEECH
-- content: Superwideband
-- content: TERMINAL
-- content: Wideband
+- taxon:
+  - language: en
+    script: Latn
+    content: LOUDNESS
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: Superwideband
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: Wideband
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

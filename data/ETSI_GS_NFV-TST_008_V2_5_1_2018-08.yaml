@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-TST008V2.5.12018-08
+id: ETSIGSNFVTST008V251201808
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 2; Testing; NFVI Compute
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 2; Testing; NFVI Compute
     and Network Metrics Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54460
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/008/02.05.01_60/gs_NFV-TST008v020501p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-TST 008 V2.5.1 (2018-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54460
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/008/02.05.01_60/gs_NFV-TST008v020501p.pdf
+docidentifier:
+- content: ETSI GS NFV-TST 008 V2.5.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-TST 008 V2.5.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.5.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-TST 008 conducts NFV Release 2 maintenance. It corrects
+- language: en
+  script: Latn
+  content: "This revision of NFV-TST 008 conducts NFV Release 2 maintenance. It corrects
     errors, ambiguities, misalignments, and applies editorial modifications (i.e.
     Corrections of category F and D as described in ETSI TWPs Annex L). This edition
     does not add or modify features, nor does it extend the scope of the former Release
@@ -56,21 +65,27 @@ abstract:
     to serve as references for processed and time-aggregated measurement values for
     performance management information that traverses the Or-Vi and/or Vi-Vnfm reference
     points of the NFV architectural framework."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: NFV
-- content: NFVI
-- content: SDN
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Specification

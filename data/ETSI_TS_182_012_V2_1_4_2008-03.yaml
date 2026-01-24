@@ -1,68 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182012V2.1.42008-03
+id: ETSITS182012V214200803
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); IMS-based PSTN/ISDN Emulation Sub-system (PES); Functional
     architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25088
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182012/02.01.04_60/ts_182012v020104p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 012 V2.1.4 (2008-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25088
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182012/02.01.04_60/ts_182012v020104p.pdf
+docidentifier:
+- content: ETSI TS 182 012 V2.1.4 (2008-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 012 V2.1.4 (2008-03)
 date:
 - type: published
-  value: 2008-03
+  at: 2008-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.4
-revdate: 2008-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RXZvbHV0aW9uIG9mIFNwZWNpZmljYXRpb24gb2YgRnVuY3Rpb25hbCBBcmNoaXRlY3R1cmUgb2YgdGhlIFBTVE4vSVNETiBFbXVsYXRpb24gU3Vic3lzdGVtLCBkZXJpdmVkIGZyb20gdGhlIElNUyBhcmNoaXRlY3R1cmUuIA0KSXQgY29uc2lzdHMgb2YgZXhwYW5kaW5nIHRoZSBSZWxlYXNlIDEgc3BlY2lmaWNhdGlvbiBieSBhZGRpbmcgY2FwYWJpbGl0aWVzIHRvOg0KwrdpbmNyZWFzZSB0aGUgbnVtYmVyIG9mIFBTVE4vSVNETiBzZXJ2aWNlcyB0aGF0IGNhbiBiZSBlbXVsYXRlZDsNCsK3IGFkZHJlc3NlcyBvcGVuIGlzc3VlcyBmcm9tIFJlbGVhc2UgMTsNCsK3c3VwcG9ydCBvZiAgSVNETiBhY2Nlc3MgdHlwZXMgZm9yIFByaW1hcnkgUmF0ZSBhY2Nlc3MgYW5kIEJhc2ljIGFjY2Vzcy4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Evolution of Specification of Functional Architecture of the PSTN/ISDN
+    Emulation Subsystem, derived from the IMS architecture. \r\nIt consists of expanding
+    the Release 1 specification by adding capabilities to:\r\nincrease the number
+    of PSTN/ISDN services that can be emulated;\r\n addresses open issues from Release
+    1;\r\nsupport of  ISDN access types for Primary Rate access and Basic access.\r\n"
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: IMS
-- content: ISDN
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Specification

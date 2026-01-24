@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101606-2V1.1.12012-09
+id: ETSITS1016062V111201209
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Diameter Conformance testing for Gx interface;
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Diameter Conformance testing for Gx interface;
     Part 2: Test Suite Structure (TSS) and Test Purposes (TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38349
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160602/01.01.01_60/ts_10160602v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 606-2 V1.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38349
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160602/01.01.01_60/ts_10160602v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 606-2 V1.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 606-2 V1.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Production of TSS&TP:\r\nBased on the work performed on the PICS a comprehensive
+- language: en
+  script: Latn
+  content: "Production of TSS&TP:\r\nBased on the work performed on the PICS a comprehensive
     set of test purposes will be developed covering all mandatory and the major optional
     requirements of the protocol specifications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Diameter
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

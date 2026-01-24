@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300408V1.3.12002-11
+id: ETSIEN300408V131200211
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; Parameters for digital radio
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; Parameters for digital radio
     systems for the transmission of digital signals and analogue video signals operating
     at around 58 GHz, which do not require co-ordinated frequency planning
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14644
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300408/01.03.01_60/en_300408v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 408 V1.3.1 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14644
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300408/01.03.01_60/en_300408v010301p.pdf
+docidentifier:
+- content: ETSI EN 300 408 V1.3.1 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 408 V1.3.1 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Modification of the 50 MHz spectrum mask, antenna requirements and editorial
+- language: en
+  script: Latn
+  content: Modification of the 50 MHz spectrum mask, antenna requirements and editorial
     changes to improve clearance of the text.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DFRS
-- content: DRRS
-- content: POINT-TO-POINT
-- content: RADIO
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Standard

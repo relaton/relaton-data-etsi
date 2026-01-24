@@ -1,48 +1,58 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR038ed.11998-05
+id: ETSITBR038ed1199805
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Attachment requirements for a
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Attachment requirements for a
     terminal equipment incorporating an analogue handset function capable of supporting
     the justified case service when connected to the analogue interface of the PSTN
     in Europe
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4577
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/038/01_60/tbr_038e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 038 ed.1 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4577
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/038/01_60/tbr_038e01p.pdf
+docidentifier:
+- content: ETSI TBR 038 ed.1 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 038 ed.1 (1998-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TBR specifies the technical characteristics (electrical and acoustic
+- language: en
+  script: Latn
+  content: "This TBR specifies the technical characteristics (electrical and acoustic
     requirements) under Article 4(g) of Directive 91/263/EEC to\r\nbe provided by
     a single, handset telephony, terminal equipment which is intended:\r\n(a) for
     pan-European approval; and\r\n(b) for connection by 2-wires to an analogue interface
@@ -52,21 +62,27 @@ abstract:
     3 kHz at the network termination point; and\r\n(c) for supporting the voice telephony
     justified case service.\r\nWork Item supported by Nortel, BT, Siemens, CSELT,
     BAKOM/OFCOM, GPT\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ANALOGUE
-- content: PSTN
-- content: REGULATION
-- content: TELEPHONY
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Basis for Regulation

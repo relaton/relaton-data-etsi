@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103621V1.2.12022-09
+id: ETSITR103621V121202209
+schema_version: v1.4.1
 title:
-- content: Guide to Cyber Security for Consumer Internet of Things
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66181
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103621/01.02.01_60/tr_103621v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 621 V1.2.1 (2022-09)
+- language: en
+  script: Latn
+  content: Guide to Cyber Security for Consumer Internet of Things
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66181
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103621/01.02.01_60/tr_103621v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 621 V1.2.1 (2022-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 621 V1.2.1 (2022-09)
 date:
 - type: published
-  value: 2022-09
+  at: 2022-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2022-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update/extend clause 5 ("Guidance on implementation") to consider domestic
+- language: en
+  script: Latn
+  content: Update/extend clause 5 ("Guidance on implementation") to consider domestic
     abuse (mis)using consumer IoT devices by trusted humans such as intimate partner
     (see alignment document as an additional contribution).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

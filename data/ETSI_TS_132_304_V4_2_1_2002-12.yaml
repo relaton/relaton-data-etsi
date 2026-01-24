@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132304V4.2.12002-12
+id: ETSITS132304V421200212
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
     Configuration Management (CM); Notification Integration Reference Point: CMIP
     Solution Set Version 1:1 (3GPP TS 32.304 version 4.2.1 Release 4)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18230
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132300_132399/132304/04.02.01_60/ts_132304v040201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 304 V4.2.1 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18230
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132300_132399/132304/04.02.01_60/ts_132304v040201p.pdf
+docidentifier:
+- content: ETSI TS 132 304 V4.2.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 304 V4.2.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.2.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: edito post SP-18
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: edito post SP-18
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

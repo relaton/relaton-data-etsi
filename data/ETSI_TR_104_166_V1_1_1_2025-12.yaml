@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104166V1.1.12025-12
+id: ETSITR104166V111202512
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Guide on development and
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Guide on development and
     maintenance of ONPs (Open Networking Platforms) and federations for IMT-2020 and
     beyond [ITU-T Technical Report QSTR-GDM (02/2025)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74835
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104166/01.01.01_60/tr_104166v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 166 V1.1.1 (2025-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74835
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104166/01.01.01_60/tr_104166v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 166 V1.1.1 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 166 V1.1.1 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The Technical Report provides a guide on how to foster the development
+- language: en
+  script: Latn
+  content: "The Technical Report provides a guide on how to foster the development
     and maintenance of multi SDO/Fora standards-driven ONPs for standards-driven innovation,
     Multi-SDO standards harmonization, and validation of pre-deployment technology
     use cases in IMT-2020 and beyond, can be achieved.\r\nThe Technical Report might
@@ -65,17 +74,15 @@ abstract:
     can be transformed to conform to the reference model for federated testbeds defined
     in [ITU-T Q.4068].\r\nThe stakeholders of this Technical Report are but not limited
     to Open Source/Hardware projects, SDOs/Fora, R&D projects.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: test
+- taxon:
+  - language: en
+    script: Latn
+    content: test
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Report

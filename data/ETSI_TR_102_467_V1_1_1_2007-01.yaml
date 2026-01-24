@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102467V1.1.12007-01
+id: ETSITR102467V111200701
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM); Transition to IPv06
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20302
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102467/01.01.01_60/tr_102467v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 467 V1.1.1 (2007-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20302
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102467/01.01.01_60/tr_102467v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 467 V1.1.1 (2007-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 467 V1.1.1 (2007-01)
 date:
 - type: published
-  value: 2007-01
+  at: 2007-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This technical specification will provide an overview and rationale of
+- language: en
+  script: Latn
+  content: "This technical specification will provide an overview and rationale of
     the multicast security architecture used for small and large multicast groups.\r\nIt
     will build on the general security architecture and it will specify the multicast
     security reference Framework and the security services that may be part of a secure
     multicast solution."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: INTERWORKING
-- content: IP
-- content: IPv6
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Report

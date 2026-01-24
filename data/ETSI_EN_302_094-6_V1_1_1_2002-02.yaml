@@ -1,73 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302094-6V1.1.12002-02
+id: ETSIEN3020946V111200202
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) and Signalling System No.7 (SS7) protocols; Call Forwarding
     on Not Reachable (CFNRc) supplementary service for Cordless Terminal Mobility
     (CTM) phase 1; Part 6: Abstract Test Suite (ATS) and partial Protocol Implementation
     eXtra Information for Testing (PIXIT) proforma specification for the network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11013
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209406/01.01.01_60/en_30209406v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 094-6 V1.1.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11013
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209406/01.01.01_60/en_30209406v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 094-6 V1.1.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 094-6 V1.1.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Upgrade of Test Specification.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Upgrade of Test Specification.\r\n"
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: CF
-- content: CTM
-- content: ISDN
-- content: NETWORK
-- content: PIXIT
-- content: SUPPLEMENTARY SERVICE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

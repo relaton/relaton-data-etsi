@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201399V1.3.12003-01
+id: ETSIEG201399V131200301
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); A guide
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); A guide
     to the production of candidate Harmonized Standards for application under the
     R&TTE Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15868
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201300_201399/201399/01.03.01_60/eg_201399v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 399 V1.3.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15868
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201300_201399/201399/01.03.01_60/eg_201399v010301p.pdf
+docidentifier:
+- content: ETSI EG 201 399 V1.3.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 399 V1.3.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Inclusion of a new attribute for RE using received signal level to control
+- language: en
+  script: Latn
+  content: "Inclusion of a new attribute for RE using received signal level to control
     transmitter power level or channel access (automatically or manually) and consideration
     of active antennas, taking into account the results of TG18\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: REGULATION
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: ETSI Guide

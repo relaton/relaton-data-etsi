@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102820V3.1.12010-12
+id: ETSITS102820V311201012
+schema_version: v1.4.1
 title:
-- content: Digital Radio Mondiale (DRM); Multiplex Distribution Interface (MDI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34696
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102820/03.01.01_60/ts_102820v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 820 V3.1.1 (2010-12)
+- language: en
+  script: Latn
+  content: Digital Radio Mondiale (DRM); Multiplex Distribution Interface (MDI)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34696
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102820/03.01.01_60/ts_102820v030101p.pdf
+docidentifier:
+- content: ETSI TS 102 820 V3.1.1 (2010-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 820 V3.1.1 (2010-12)
 date:
 - type: published
-  value: 2010-12
+  at: 2010-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2010-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A revision to accommodate the requirements from the new robustness mode
+- language: en
+  script: Latn
+  content: A revision to accommodate the requirements from the new robustness mode
     which extends DRM's frequency range.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DRM
-- content: MUX
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: MUX
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

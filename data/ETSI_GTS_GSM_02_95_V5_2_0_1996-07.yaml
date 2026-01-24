@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM02.95V5.2.01996-07
+id: ETSIGTSGSM0295V520199607
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Private Numbering Plan (SPNP); Service description, Stage 1 (GSM 02.95)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4637
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/02/0295/05.02.00_60/gsmts_0295v050200p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 02.95 V5.2.0 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4637
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/02/0295/05.02.00_60/gsmts_0295v050200p.pdf
+docidentifier:
+- content: ETSI GTS GSM 02.95 V5.2.0 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 02.95 V5.2.0 (1996-07)
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.0
-revdate: 1996-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the stage 1\r\ndescription
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the stage 1\r\ndescription
     of Support of Private Numbering Plan (SPNP), which enables\r\na subscriber to
     use a Private Numbering Plan (PNP) for communication\r\nacross one or more networks
     with mobile and fixed users. The\r\nsubscriber may belong to one or more (up to
@@ -62,18 +71,18 @@ abstract:
     applied to Support of Private Numbering Plan\r\n(SPNP) are outside of the scope
     of this ETS.\r\nAny interactions with other services and/or networks not dealt
     with in\r\nClauses 4.1 and 11 to 13 are outside the scope of this ETS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Services & Facilities
+    content: GSM Technical Specification

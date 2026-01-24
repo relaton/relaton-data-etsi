@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-17V1.3.22008-04
+id: ETSIEN30148917V132200804
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
     Compatibility (EMC) standard for radio equipment; Part 17: Specific conditions
     for 2,4 GHz wideband transmission systems, 5 GHz high performance RLAN equipment
     and 5,8 GHz Broadband Data Transmitting Systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24799
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148917/01.03.02_60/en_30148917v010302p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 489-17 V1.3.2 (2008-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24799
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148917/01.03.02_60/en_30148917v010302p.pdf
+docidentifier:
+- content: ETSI EN 301 489-17 V1.3.2 (2008-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-17 V1.3.2 (2008-04)
 date:
 - type: published
-  value: 2008-04
+  at: 2008-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.2
-revdate: 2008-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To consider changes to EN 301 489-17 which may be required to accomodate
+- language: en
+  script: Latn
+  content: "To consider changes to EN 301 489-17 which may be required to accomodate
     5.8GHz Broadband DataTransmitting systems that are covered by the draft harmonised
     standard EN 302 502.\r\nChange title to reflect the addition of the new equipment.\r\nAlign
     with latest changes to EN 301 489-1.\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: HIPERLAN
-- content: LAN
-- content: RADIO
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: HIPERLAN
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

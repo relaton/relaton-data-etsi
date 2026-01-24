@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101288V1.3.12002-12
+id: ETSITR101288V131200212
+schema_version: v1.4.1
 title:
-- content: Television systems; Code of practice for an Electronic Programme Guide
+- language: en
+  script: Latn
+  content: Television systems; Code of practice for an Electronic Programme Guide
     (EPG)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16168
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101288/01.03.01_60/tr_101288v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 288 V1.3.1 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16168
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101288/01.03.01_60/tr_101288v010301p.pdf
+docidentifier:
+- content: ETSI TR 101 288 V1.3.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 288 V1.3.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The former EACEM Project Team 1.4 (Data Services), the originator of the
+- language: en
+  script: Latn
+  content: The former EACEM Project Team 1.4 (Data Services), the originator of the
     ETSI standard ETR 288, prepared some changes, corrections and additions. The details
     are given in document J23d06, submitted to the 23rd meeting of JTC Broadcast.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: TELETEXT
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

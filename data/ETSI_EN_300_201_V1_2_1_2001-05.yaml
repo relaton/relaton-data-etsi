@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300201V1.2.12001-05
+id: ETSIEN300201V121200105
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Call Forwarding No Reply (CFNR)
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Call Forwarding No Reply (CFNR)
     supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10702
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300200_300299/300201/01.02.01_60/en_300201v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 201 V1.2.1 (2001-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10702
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300200_300299/300201/01.02.01_60/en_300201v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 201 V1.2.1 (2001-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 201 V1.2.1 (2001-05)
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services, Applications, Numbering, Naming and Addressing (SANNA)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "User-controlled call offer before divert (timer) and updating of the interaction
+- language: en
+  script: Latn
+  content: "User-controlled call offer before divert (timer) and updating of the interaction
     with CCBS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CF
-- content: ISDN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Services, Applications, Numbering, Naming and Addressing (SANNA)
+    content: European Standard

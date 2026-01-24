@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC024V2.1.12019-11
+id: ETSIGRMEC024V211201911
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Support for network slicing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53580
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/024/02.01.01_60/gr_MEC024v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 024 V2.1.1 (2019-11)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Support for network slicing
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53580
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/024/02.01.01_60/gr_MEC024v020101p.pdf
+docidentifier:
+- content: ETSI GR MEC 024 V2.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 024 V2.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on identifying the necessary support provided by
+- language: en
+  script: Latn
+  content: This work item focuses on identifying the necessary support provided by
     Multi-access Edge Computing for network slicing and, in addition, how the orchestration
     of resources and services from multiple administrative domains could facilitate
     that. The work will be a study with the intent to collect and analyse the use
@@ -57,18 +66,18 @@ abstract:
     as well as changes to existing  MEC services or interfaces, data models, application
     rules and application requirements. The work item will recommend the necessary
     normative work to close these gaps.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MEC
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

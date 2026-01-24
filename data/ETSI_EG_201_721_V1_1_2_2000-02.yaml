@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201721V1.1.22000-02
+id: ETSIEG201721V112200002
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Strategies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7248
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201721/01.01.02_60/eg_201721v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 721 V1.1.2 (2000-02)
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Strategies
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7248
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201721/01.01.02_60/eg_201721v010102p.pdf
+docidentifier:
+- content: ETSI EG 201 721 V1.1.2 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 721 V1.1.2 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: UMTS task force
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose and scope of this work item is to describe possible startegies
+- language: en
+  script: Latn
+  content: "The purpose and scope of this work item is to describe possible startegies
     for the evolution of fixed networks towards UMTS, with the aim to produce protocol
     requirements for other ETSI groups. The following issues should be covered by
     this work iitem:\r\n- Identification of evolutions scenarios;\r\n- Migration of
@@ -59,21 +68,27 @@ abstract:
     of mobility-supporting capabilities in fixed networks. Options for implementing
     mobility in fixed network evolved UMTS (modified MAP, IN-based, mobile ATM).\r\n\r\nReference
     document: EG NA 061301.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: IN
-- content: ISDN
-- content: PSTN
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: UMTS task force
+    content: ETSI Guide

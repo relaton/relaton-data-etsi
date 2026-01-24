@@ -1,71 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR170012V3.1.12006-01
+id: ETSITR170012V311200601
+schema_version: v1.4.1
 title:
-- content: Project MESA; Technical Specification Group - System; System Overview
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20334
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/170000_170099/170012/03.01.01_60/tr_170012v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 170 012 V3.1.1 (2006-01)
+- language: en
+  script: Latn
+  content: Project MESA; Technical Specification Group - System; System Overview
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20334
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/170000_170099/170012/03.01.01_60/tr_170012v030101p.pdf
+docidentifier:
+- content: ETSI TR 170 012 V3.1.1 (2006-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 170 012 V3.1.1 (2006-01)
 date:
 - type: published
-  value: 2006-01
+  at: 2006-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MESA System
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2006-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Production of a Project MESA System Reference Model to facilitate development
+- language: en
+  script: Latn
+  content: "Production of a Project MESA System Reference Model to facilitate development
     of technical specifications\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: DIGITAL
-- content: EMERGENCY
-- content: PROTECTION
-- content: RADIO
-- content: SAFETY
-- content: SAR
-- content: SATELLITE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: PROTECTION
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SAR
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MESA System
+    content: Technical Report

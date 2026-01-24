@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103756V1.1.12021-11
+id: ETSITS103756V111202111
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); PEMEA Instant Message Extension
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59090
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103756/01.01.01_60/ts_103756v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 756 V1.1.1 (2021-11)
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); PEMEA Instant Message Extension
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59090
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103756/01.01.01_60/ts_103756v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 756 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 756 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The output of this work item is an ETSI Technical Specification for a concrete
+- language: en
+  script: Latn
+  content: The output of this work item is an ETSI Technical Specification for a concrete
     PEMEA Instant message extension based on the chat specification implemented as
     part of EC project NEXES. The TS would use the existing publicly available specification
     as a starting point with minimal changes being made so as to accommodate ETSI
     requirements for publishing as a TS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: EMERGENCY
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: EMERGENCY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Specification

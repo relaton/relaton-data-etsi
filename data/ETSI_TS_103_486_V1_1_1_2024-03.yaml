@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103486V1.1.12024-03
+id: ETSITS103486V111202403
+schema_version: v1.4.1
 title:
-- content: CYBER; Identity Management and Discovery for IoT
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47653
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 486 V1.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: CYBER; Identity Management and Discovery for IoT
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47653
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103486/01.01.01_60/ts_103486v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 486 V1.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 486 V1.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document describes a model of identity management applicable
+- language: en
+  script: Latn
+  content: "The present document describes a model of identity management applicable
     to IoT devices. The present document defines a data structure, described as authority-attribute
     trees, for managing identifiers and properties of a device, where identifiers
     and properties are exposed in a number of use cases including discovery, attachment
@@ -63,21 +72,27 @@ abstract:
     protocol to allow discovery of authority-attribute trees by other devices; Annex
     C illustrates how the identity management model applies to existing protocols
     and their ability to control discovery"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: authentication
-- content: authorization
-- content: CONFIDENTIALITY
-- content: identification
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: identification
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

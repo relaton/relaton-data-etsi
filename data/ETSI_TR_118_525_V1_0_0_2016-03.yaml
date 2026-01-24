@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR118525V1.0.02016-03
+id: ETSITR118525V100201603
+schema_version: v1.4.1
 title:
-- content: oneM2M; Application Developer Guide (oneM2M version 1.0.0 Release 1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47957
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118525/01.00.00_60/tr_118525v010000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 118 525 V1.0.0 (2016-03)
+- language: en
+  script: Latn
+  content: oneM2M; Application Developer Guide (oneM2M version 1.0.0 Release 1)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47957
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118525/01.00.00_60/tr_118525v010000p.pdf
+docidentifier:
+- content: ETSI TR 118 525 V1.0.0 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 118 525 V1.0.0 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.0
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgV29yayBJdGVtIHByb3Bvc2VzIGEgZ3VpZGVsaW5lIGZvciBhcHBsaWNhdGlvbiBkZXZlbG9wZXJzIHdobyB3YW50IHRvIHVzZSBmdW5jdGlvbmFsaXRpZXMgb2ZmZXJlZCBieSBhbiBvbmVNMk0gc2VydmljZSBwbGF0Zm9ybS4NCg0KV2hlbiBpbXBsZW1lbnRpbmcgYSBzdGFuZGFyZCwgaXQgaXMgZnJlcXVlbnRseSByZXF1ZXN0ZWQgZnJvbSBzb2Z0d2FyZSBkZXZlbG9wZXIgY29tbXVuaXR5IHRvIGdldCBzb21lIHR1dG9yaWFscyBkZXNjcmliaW5nIGZvciBiYXNpYyB1c2UgY2FzZXMsIHNvbWUgcHJvY2VkdXJlcyBhbmQgc2NlbmFyaW9zLCBpbmNsdWRpbmcgZGlhZ3JhbXMsIG1lc3NhZ2UgZmxvd3MsIG1lc3NhZ2UgdHJhY2VzIHNhbXBsZXMsIHJlc291cmNlIGRlc2NyaXB0aW9uIHNhbXBsZXMsIGV0Yy4uIOKApiBTdWNoIGRvY3VtZW50IHdvdWxkIGJlIGhlbHBmdWwgaW4gc29mdHdhcmUgZGV2ZWxvcG1lbnQgdG8gcHJvdmlkZSBvdmVyYWxsIHVuZGVyc3RhbmRpbmcgb2YgdGhlIG1haW4gZnVuY3Rpb25zIG9mZmVyZWQgYnkgdGhlIG9uZU0yTSBhcmNoaXRlY3R1cmUsIGJlZm9yZSBnb2luZyBtb3JlIGRlZXBseSBpbnRvIHRoZSBhbmFseXNpcyBvZiB0aGUgb25lTTJNIHN0YW5kYXJkcy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present Work Item proposes a guideline for application developers
+    who want to use functionalities offered by an oneM2M service platform.\r\n\r\nWhen
+    implementing a standard, it is frequently requested from software developer community
+    to get some tutorials describing for basic use cases, some procedures and scenarios,
+    including diagrams, message flows, message traces samples, resource description
+    samples, etc..  Such document would be helpful in software development to provide
+    overall understanding of the main functions offered by the oneM2M architecture,
+    before going more deeply into the analysis of the oneM2M standards."
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: INTEROPERABILITY
-- content: M2M
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Report

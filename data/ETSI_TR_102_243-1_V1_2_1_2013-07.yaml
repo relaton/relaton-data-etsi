@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102243-1V1.2.12013-07
+id: ETSITR1022431V121201307
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Representative values for transmitter power and antenna
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Representative values for transmitter power and antenna
     gain to support inter- and intra-compatibility and sharing analysis; Part 1: Digital
     point-to-point systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37155
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/10224301/01.02.01_60/tr_10224301v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 243-1 V1.2.1 (2013-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37155
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/10224301/01.02.01_60/tr_10224301v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 243-1 V1.2.1 (2013-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 243-1 V1.2.1 (2013-07)
 date:
 - type: published
-  value: 2013-07
+  at: 2013-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial revision for aligning system identification methodology to latest
+- language: en
+  script: Latn
+  content: Editorial revision for aligning system identification methodology to latest
     version of EN 302 217-2-2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DFRS
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

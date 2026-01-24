@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTS11.30V3.2.11995-01
+id: ETSIGTS1130V321199501
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 1); Mobile Services
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 1); Mobile Services
     Switching Centre (GSM 11.30)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1613
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/11/1130/03.02.01_60/gsmts_1130sv030201p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS 11.30 V3.2.1 (1995-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1613
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/11/1130/03.02.01_60/gsmts_1130sv030201p.pdf
+docidentifier:
+- content: ETSI GTS 11.30 V3.2.1 (1995-01)
   type: ETSI
   primary: true
 docnumber: ETSI GTS 11.30 V3.2.1 (1995-01)
 date:
 - type: published
-  value: 1995-01
+  at: 1995-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Special Mobile Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 1995-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "...."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "...."
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE1
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Special Mobile Group
+    content: GSM Technical Specification

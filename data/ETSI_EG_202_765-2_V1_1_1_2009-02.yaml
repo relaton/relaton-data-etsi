@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202765-2V1.1.12009-02
+id: ETSIEG2027652V111200902
+schema_version: v1.4.1
 title:
-- content: 'Speech Processing, Transmission and Quality Aspects (STQ); QoS and network
+- language: en
+  script: Latn
+  content: 'Speech Processing, Transmission and Quality Aspects (STQ); QoS and network
     performance metrics and measurement methods Part 2 : Transmission Quality Indicator
     combining Voice Quality Metrics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25535
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202700_202799/20276502/01.01.01_60/eg_20276502v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 765-2 V1.1.1 (2009-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25535
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202700_202799/20276502/01.01.01_60/eg_20276502v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 765-2 V1.1.1 (2009-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 765-2 V1.1.1 (2009-02)
 date:
 - type: published
-  value: 2009-02
+  at: 2009-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document will provide requirements and a solution to combine voice
+- language: en
+  script: Latn
+  content: "The document will provide requirements and a solution to combine voice
     quality metrics in a \"figure of merit\" including but not limited to :\r\nMOS-LQOM
     scores (common scale for narrow and wide band), End-to-end delay, Voice and Noise
     levels, Frequency response (compared to standard gauges), Electrical echo (attenuation
     + delay)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PERFORMANCE
-- content: QoS
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: ETSI Guide

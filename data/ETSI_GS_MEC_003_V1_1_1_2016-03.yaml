@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC003V1.1.12016-03
+id: ETSIGSMEC003V111201603
+schema_version: v1.4.1
 title:
-- content: Mobile Edge Computing (MEC); Framework and Reference Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46046
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/003/01.01.01_60/gs_MEC003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC 003 V1.1.1 (2016-03)
+- language: en
+  script: Latn
+  content: Mobile Edge Computing (MEC); Framework and Reference Architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46046
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/003/01.01.01_60/gs_MEC003v010101p.pdf
+docidentifier:
+- content: ETSI GS MEC 003 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC 003 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document provides a framework and a high-level reference architecture
+- language: en
+  script: Latn
+  content: This document provides a framework and a high-level reference architecture
     for Mobile Edge Computing that will enable MEC applications to be efficiently
     and seamlessly integrated across MEC platforms from multiple vendors. This document
     presents the concepts and enabling technologies required to define the architecture.
     It defines the functional elements and their interfaces (or APIs) that comprise
     the solution. The document produced will be a Group Specification containing normative
     parts.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MEC
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MEC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Specification

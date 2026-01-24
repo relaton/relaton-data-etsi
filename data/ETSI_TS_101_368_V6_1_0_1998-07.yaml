@@ -1,74 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101368V6.1.01998-07
+id: ETSITS101368V610199807
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Example protocol
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Example protocol
     stacks for interconnecting Cell Broadcast Centre (CBC) and Base Station Controller
     (BSC) (GSM 03.49 version 6.1.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6493
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101368/06.01.00_60/ts_101368v060100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 368 V6.1.0 (1998-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6493
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101368/06.01.00_60/ts_101368v060100p.pdf
+docidentifier:
+- content: ETSI TS 101 368 V6.1.0 (1998-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 368 V6.1.0 (1998-07)
 date:
 - type: published
-  value: 1998-07
+  at: 1998-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.1.0
-revdate: 1998-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nCBCH loading\r\nRepetition Rate\r\nNo-of-Broadcasts-Completed\r\nFormat
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nCBCH loading\r\nRepetition Rate\r\nNo-of-Broadcasts-Completed\r\nFormat
     of Cell List Structures\r\nAlignment with 03.41\r\nCause values\r\nRemoving restriction
     on the use of SET-DRX\r\nUser Data definition for non Fast Select\r\nSUBJECT\r\nVersion
     Control for the CBC-BSC interface\r\nWrite-Replace ASN.1\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: PLUS
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: PLUS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Data Services
+    content: Technical Specification

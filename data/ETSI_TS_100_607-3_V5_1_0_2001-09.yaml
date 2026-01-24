@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100607-3V5.1.02001-09
+id: ETSITS1006073V510200109
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2+); Mobile Station
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2+); Mobile Station
     (MS) conformance specification; Part 3: Layer 3 (L3) Abstract Test Suits (ATS)
     (3GPP TS 11.10-3 version 5.1.0 Release 1996)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14872
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/10060703/05.01.00_60/ts_10060703v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 607-3 V5.1.0 (2001-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14872
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/10060703/05.01.00_60/ts_10060703v050100p.pdf
+docidentifier:
+- content: ETSI TS 100 607-3 V5.1.0 (2001-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 607-3 V5.1.0 (2001-09)
 date:
 - type: published
-  value: 2001-09
+  at: 2001-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Terminal testing - Radio Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 2001-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Geran#6
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Geran#6
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Terminal testing - Radio Aspects
+    content: Technical Specification

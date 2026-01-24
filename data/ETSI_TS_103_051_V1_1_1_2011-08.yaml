@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103051V1.1.12011-08
+id: ETSITS103051V111201108
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Expanded
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Expanded
     measurement uncertainty for the measurement of radiated electromagnetic fields
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34058
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103051/01.01.01_60/ts_103051v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 051 V1.1.1 (2011-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34058
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103051/01.01.01_60/ts_103051v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 051 V1.1.1 (2011-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 051 V1.1.1 (2011-08)
 date:
 - type: published
-  value: 2011-08
+  at: 2011-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Site Engineering
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Investigate and possibly revise measurement uncertainty values based on
+- language: en
+  script: Latn
+  content: Investigate and possibly revise measurement uncertainty values based on
     new information on state-of-the-art measurements including impact assessment Include
     values for expanded measurement uncertainty for measurements at higher frequencies,
     also taking into account new work in ERM for radio applications at EHF frequencies.
@@ -55,19 +64,21 @@ abstract:
     ERM_33_093 Add structures for the description of the methods of measurement (see
     proposal in ERM_33_093). Update and add references. Thorough review of current
     version of document TR 102 215. Upgrade of TR 102 215 to TS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MEASUREMENT UNCERTAINTY
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: MEASUREMENT UNCERTAINTY
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Radio Site Engineering
+    content: Technical Specification

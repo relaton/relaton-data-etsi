@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104078V1.1.12025-06
+id: ETSITR104078V111202506
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices; Radar equipment
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices; Radar equipment
     operating in 57 GHz to 64 GHz and 76 GHz to 77 GHz for applications on drones
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70097
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104078/01.01.01_60/tr_104078v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 078 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70097
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104078/01.01.01_60/tr_104078v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 078 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 078 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The applications will be separated from the still available WI in DTR/ERM-629.
+- language: en
+  script: Latn
+  content: "The applications will be separated from the still available WI in DTR/ERM-629.
     The reasons are to prepare a clear request for ECC and to get the possibility
     to add additional frequency ranges for the application. The SRdoc will provide
     necessary application related information, such as transmitter parameters, deployment
@@ -56,20 +65,24 @@ abstract:
     has to be noted that the frequency ranges (see title) needs to be updated at the
     end and the still available information in \tDTR/ERM-629 will be transvered to
     this work."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: SHORT RANGE
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

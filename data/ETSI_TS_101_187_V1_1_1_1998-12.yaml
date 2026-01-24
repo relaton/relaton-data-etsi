@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101187V1.1.11998-12
+id: ETSITS101187V111199812
+schema_version: v1.4.1
 title:
-- content: 2-wire analogue voice band interfaces; Loop Disconnect Signalling Specific
+- language: en
+  script: Latn
+  content: 2-wire analogue voice band interfaces; Loop Disconnect Signalling Specific
     Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7356
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101187/01.01.01_60/ts_101187v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 187 V1.1.1 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7356
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101187/01.01.01_60/ts_101187v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 187 V1.1.1 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 187 V1.1.1 (1998-12)
 date:
 - type: published
-  value: 1998-12
+  at: 1998-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical specification (TS) specifies the technical characteristics
+- language: en
+  script: Latn
+  content: "This Technical specification (TS) specifies the technical characteristics
     (electrical interface requirements) to be provided by Terminal Equipment (TE)
     to be connected to a 2-wire analogue interface of the PSTN at which network addressing
     is intended to be performed by means of loop disconnect signalling, insofar as
     they are particular to the loop disconnect signalling function. Reference document:
     prTBR21.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ACCESS
-- content: ANALOGUE
-- content: PSTN
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Specification

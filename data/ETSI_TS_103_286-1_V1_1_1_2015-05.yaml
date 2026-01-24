@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103286-1V1.1.12015-05
+id: ETSITS1032861V111201505
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Companion Screens and Streams; Part
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Companion Screens and Streams; Part
     1: Concepts, roles and overall architecture'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45964
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10328601/01.01.01_60/ts_10328601v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 286-1 V1.1.1 (2015-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45964
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10328601/01.01.01_60/ts_10328601v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 286-1 V1.1.1 (2015-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 286-1 V1.1.1 (2015-05)
 date:
 - type: published
-  value: 2015-05
+  at: 2015-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document describes the framework and architecture used by subsequent
+- language: en
+  script: Latn
+  content: "This document describes the framework and architecture used by subsequent
     parts of the CSS specifications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: companion screen
-- content: SYNCHRONIZATION
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: companion screen
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

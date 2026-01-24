@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102302-1V4.1.12004-02
+id: ETSITR1023021V411200402
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 4; Emergency Priority Telecommunications Service (EPTS); Part 1: Requirements
     analysis'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19760
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230201/04.01.01_60/tr_10230201v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 302-1 V4.1.1 (2004-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19760
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230201/04.01.01_60/tr_10230201v040101p.pdf
+docidentifier:
+- content: ETSI TR 102 302-1 V4.1.1 (2004-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 302-1 V4.1.1 (2004-02)
 date:
 - type: published
-  value: 2004-02
+  at: 2004-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2004-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The provision of Emergency Telecommunications Service (ETS) will involve
+- language: en
+  script: Latn
+  content: The provision of Emergency Telecommunications Service (ETS) will involve
     the attention of TIPHON Working Groups. Each working group will contribute specific
     elements related to their own charter of work. This WI is for the development
     of a requirements definition study for the Emergency Telecommunications Service
     in TIPHON networks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: IP
-- content: PRIORITY CALL
-- content: SERVICE
-- content: TELEPHONY
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PRIORITY CALL
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Report

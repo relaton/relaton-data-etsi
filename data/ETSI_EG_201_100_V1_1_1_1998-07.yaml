@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201100V1.1.11998-07
+id: ETSIEG201100V111199807
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); General terminal
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); General terminal
     requirements for the support of applications by B-ISDN access to B-ISDN at 155
     520 kbit/s and 622 080 kbit/s
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3827
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201100/01.01.01_60/eg_201100v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 100 V1.1.1 (1998-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3827
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201100/01.01.01_60/eg_201100v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 100 V1.1.1 (1998-07)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 100 V1.1.1 (1998-07)
 date:
 - type: published
-  value: 1998-07
+  at: 1998-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of general terminal requirements for the support of\r\napplications
+- language: en
+  script: Latn
+  content: "Specification of general terminal requirements for the support of\r\napplications
     by B-ISDN and access to B-ISDN at the S(B) and T(B)\r\nreference points at 155520
     kbit/s and 622080 kbit/s\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: B-ISDN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Digital Terminals & Access
+    content: ETSI Guide

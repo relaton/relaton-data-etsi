@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103698V1.1.12020-12
+id: ETSITS103698V111202012
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Lightweight Messaging Protocol for Emergency
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Lightweight Messaging Protocol for Emergency
     Service Accessibility (LMPE)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58113
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103698/01.01.01_60/ts_103698v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 698 V1.1.1 (2020-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58113
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103698/01.01.01_60/ts_103698v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 698 V1.1.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 698 V1.1.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This WI will define a SIP SIMPLE based Instant Messaging for Emergency
+- language: en
+  script: Latn
+  content: This WI will define a SIP SIMPLE based Instant Messaging for Emergency
     Service accessibility utilizing NG112 core services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Chat
-- content: Decentralized Identifier
-- content: emergency services
-- content: LOCATION
-- content: SSL/TLS certificates
+- taxon:
+  - language: en
+    script: Latn
+    content: Chat
+  - language: en
+    script: Latn
+    content: Decentralized Identifier
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: SSL/TLS certificates
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Specification

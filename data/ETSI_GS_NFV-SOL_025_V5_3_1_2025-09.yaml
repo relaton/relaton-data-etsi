@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SOL025V5.3.12025-09
+id: ETSIGSNFVSOL025V531202509
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Protocols and Data Models;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Protocols and Data Models;
     Specification of protocol and data model solutions for Telco Cloud data analytics
     service
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74854
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/025/05.03.01_60/gs_NFV-SOL025v050301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SOL 025 V5.3.1 (2025-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74854
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/025/05.03.01_60/gs_NFV-SOL025v050301p.pdf
+docidentifier:
+- content: ETSI GS NFV-SOL 025 V5.3.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SOL 025 V5.3.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-SOL 025 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-SOL 025 continues the development of the specification
     as part of the NFV Release 5. This edition will extend the specification of protocol
     and data models to support the Release 5 features. The scope of the former edition
     is summarized hereafter:\r\n\r\nNFV-SOL 025 specifies a RESTful protocol and data
@@ -55,20 +64,24 @@ abstract:
     data analytics service (Telco-cloud DAS). It develops the data model related to
     general and specific NFV management data analytics services and includes OpenAPI
     representations."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data models
-- content: MANO
-- content: PROTOCOL
-- content: Telco-cloud DAS
+- taxon:
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: Telco-cloud DAS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Solutions
+    content: Group Specification

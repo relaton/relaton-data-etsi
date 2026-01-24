@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG200351V4.1.12001-10
+id: ETSIEG200351V411200110
+schema_version: v1.4.1
 title:
-- content: ETSI object identifier tree; Rules and registration procedures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14412
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/200300_200399/200351/04.01.01_60/eg_200351v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 200 351 V4.1.1 (2001-10)
+- language: en
+  script: Latn
+  content: ETSI object identifier tree; Rules and registration procedures
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14412
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/200300_200399/200351/04.01.01_60/eg_200351v040101p.pdf
+docidentifier:
+- content: ETSI EG 200 351 V4.1.1 (2001-10)
   type: ETSI
   primary: true
 docnumber: ETSI EG 200 351 V4.1.1 (2001-10)
 date:
 - type: published
-  value: 2001-10
+  at: 2001-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2001-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To update the rules  and procedures for assigning ASN.1 object identifiers
+- language: en
+  script: Latn
+  content: To update the rules  and procedures for assigning ASN.1 object identifiers
     to remove the list of assigned object IDs for Common Domain and ETSI identified
     organisation from the document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: OBJECT IDENTIFIER
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: OBJECT IDENTIFIER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: ETSI Guide

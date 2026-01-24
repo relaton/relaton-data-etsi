@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202737V1.8.12020-05
+id: ETSIES202737V181202005
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
     for narrowband VoIP terminals (handset and headset) from a QoS perspective as
     perceived by the user
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54793
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202700_202799/202737/01.08.01_60/es_202737v010801p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 737 V1.8.1 (2020-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54793
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202700_202799/202737/01.08.01_60/es_202737v010801p.pdf
+docidentifier:
+- content: ETSI ES 202 737 V1.8.1 (2020-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 737 V1.8.1 (2020-05)
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.8.1
-revdate: 2020-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides speech transmission performance requirements
+- language: en
+  script: Latn
+  content: "The present document provides speech transmission performance requirements
     for 4 kHz narrowband VoIP handset and headset terminals; it addresses all types
     of IP based terminals, including wireless and soft phones.\r\nThis revision incorporates
     the newest updates of Recommendation ITU-T P.863, error corrections and introduces
     new test methods and measurements."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: narrowband
-- content: QUALITY
-- content: SPEECH
-- content: TELEPHONY
-- content: TERMINAL
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: narrowband
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: ETSI Standard

@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS124084V15.0.02018-07
+id: ETSITS124084V1500201807
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); Multi Party (MPTY) supplementary service;
     Stage 3 (3GPP TS 24.084 version 15.0.0 Release 15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55553
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124084/15.00.00_60/ts_124084v150000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 124 084 V15.0.0 (2018-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55553
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124084/15.00.00_60/ts_124084v150000p.pdf
+docidentifier:
+- content: ETSI TS 124 084 V15.0.0 (2018-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 124 084 V15.0.0 (2018-07)
 date:
 - type: published
-  value: 2018-07
+  at: 2018-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.0.0
-revdate: 2018-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#80
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#80
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+    content: Technical Specification

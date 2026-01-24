@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300638ed.11996-11
+id: ETSIETS300638ed1199611
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
     Fixed point-to-point radio link equipment for the transmission of digital signals
     and analogue video signal operating in the frequency bands 10 GHz and 14 GHz with
     20 MHz alternate channel spacing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2343
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300638/01_60/ets_300638e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 638 ed.1 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2343
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300638/01_60/ets_300638e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 638 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 638 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify parameters for digital and analogue radio relay systems\r\nin
+- language: en
+  script: Latn
+  content: "To specify parameters for digital and analogue radio relay systems\r\nin
     frequency bands with about 20 MHz channel spacing using an\r\nalternated polarisation
     channel arrangement.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: DRRS
-- content: POINT-TO-POINT
-- content: RADIO
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Telecommunication Standard

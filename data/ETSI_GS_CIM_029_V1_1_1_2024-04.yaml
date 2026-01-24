@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM029V1.1.12024-04
+id: ETSIGSCIM029V111202404
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); NGSI-LD Implementation Conformance
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); NGSI-LD Implementation Conformance
     Statement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66911
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/029/01.01.01_60/gs_CIM029v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 029 V1.1.1 (2024-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66911
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/029/01.01.01_60/gs_CIM029v010101p.pdf
+docidentifier:
+- content: ETSI GS CIM 029 V1.1.1 (2024-04)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 029 V1.1.1 (2024-04)
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: includes and updated implementation conformance statement and related annexes
+- language: en
+  script: Latn
+  content: includes and updated implementation conformance statement and related annexes
     extracted from ETSI GS CIM 016
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: NGSI-LD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: NGSI-LD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

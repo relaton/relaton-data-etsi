@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101695V3.1.11999-10
+id: ETSITR101695V311199910
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Universal Mobile Telecommunications
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Universal Mobile Telecommunications
     System (UMTS); ISDN-UMTS Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2470
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101695/03.01.01_60/tr_101695v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 695 V3.1.1 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2470
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101695/03.01.01_60/tr_101695v030101p.pdf
+docidentifier:
+- content: ETSI TR 101 695 V3.1.1 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 695 V3.1.1 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The report should progress IN/UMTS activities to resolve the technical\r\nissues
+- language: en
+  script: Latn
+  content: "The report should progress IN/UMTS activities to resolve the technical\r\nissues
     relating to the support of UMTS and terminal mobility using th\r\ne Intelligent
     Network.\r\nThe document should\r\n-  provide an overview of fIN and UMTS standards
     development;\r\n-  clarify and solve the technical issues on the IN/UMTS subject
     relat\r\ned to the DFP and the BCSM and UMTS proocedures\r\n-  identify possible
     contributions to ITU-T.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ISDN
-- content: MOBILITY
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: Technical Report

@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSF5G031V1.1.12025-12
+id: ETSIGSF5G031V111202512
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); Intelligent Management for PON based
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); Intelligent Management for PON based
     Industrial Network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72205
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/031/01.01.01_60/gs_F5G031v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS F5G 031 V1.1.1 (2025-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72205
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/031/01.01.01_60/gs_F5G031v010101p.pdf
+docidentifier:
+- content: ETSI GS F5G 031 V1.1.1 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS F5G 031 V1.1.1 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fifth Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This WI will define the Intelligent Management for PON based industrial
+- language: en
+  script: Latn
+  content: 'This WI will define the Intelligent Management for PON based industrial
     network. This WI primarily focuses on new management requirements in PON based
     industrial network which have not been addressed so far. This WI identifies and
     specifies new features and solutions to enhance the efficiency and intelligence
     of PON based industrial network management. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: F5G
-- content: MANAGEMENT
-- content: TELEMETRY
-- content: YANG
+- taxon:
+  - language: en
+    script: Latn
+    content: F5G
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: TELEMETRY
+  - language: en
+    script: Latn
+    content: YANG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Fifth Generation Fixed Network
+    content: Group Specification

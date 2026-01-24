@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103820V1.1.12015-11
+id: ETSITR103820V111201511
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Energy efficiency metrics and test procedures for
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Energy efficiency metrics and test procedures for
     Point-to-point fixed radio systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37152
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103820/01.01.01_60/tr_103820v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 820 V1.1.1 (2015-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37152
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103820/01.01.01_60/tr_103820v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 820 V1.1.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 820 V1.1.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To identify spectral and other parameters to be considered and, based
+- language: en
+  script: Latn
+  content: "To identify spectral and other parameters to be considered and, based
     on them, consequently develop into a suitable metrics for the definition of Energy
     Efficiency in point-to-point fixed radio systems.\r\nTo describe suitable test
     method for Energy Efficiency values according the above defined metrics.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: POINT-TO-POINT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

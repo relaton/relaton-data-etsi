@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM09.11V5.1.01996-07
+id: ETSIGTSGSM0911V510199607
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
     interworking for supplementary services (GSM 09.11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4732
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/09/0911/05.01.00_60/gsmts_0911v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 09.11 V5.1.0 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4732
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/09/0911/05.01.00_60/gsmts_0911v050100p.pdf
+docidentifier:
+- content: ETSI GTS GSM 09.11 V5.1.0 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 09.11 V5.1.0 (1996-07)
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 1996-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this Technical Specification is to provide a detailed\r\nspecification
+- language: en
+  script: Latn
+  content: "The scope of this Technical Specification is to provide a detailed\r\nspecification
     for interworking between the A interface protocol and\r\nthe Mobile Application
     Part for handling of supplementary services.\r\nThe MAP interfaces of interest
     are the B-, C-, D- and E-interfaces.\r\nThe A-, C-, D- and E-interfaces are physical
@@ -66,20 +75,24 @@ abstract:
     6 also\r\ncovers the interworking between the MAP User (see TS GSM 09.02) and\r\nthe
     SS handling functions of the network entities (see TS GSM 04.10\r\nand TS GSM
     04.80).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

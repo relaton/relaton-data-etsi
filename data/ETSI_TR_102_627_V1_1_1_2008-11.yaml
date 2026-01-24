@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102627V1.1.12008-11
+id: ETSITR102627V111200811
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference Document; Land Mobile Service; Additional spectrum requirements for
     PMR/PAMR systems operated by railway companies (GSM-R)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28515
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102627/01.01.01_60/tr_102627v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 627 V1.1.1 (2008-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28515
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102627/01.01.01_60/tr_102627v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 627 V1.1.1 (2008-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 627 V1.1.1 (2008-11)
 date:
 - type: published
-  value: 2008-11
+  at: 2008-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Additional spectrum requirements for PMR/PAMR systems operated by railway
+- language: en
+  script: Latn
+  content: "Additional spectrum requirements for PMR/PAMR systems operated by railway
     companies (GSM-R) in the duplex frequency band 870 MHz to 876 MHz paired with
     915 MHz to 921 MHz.\r\nThis addition is necessary for applications such as ERTMS
     (European Rail Traffic Management System) as required by EC/96/48 (high speed
     lines) and EC/01/16 (conventional lines) directives\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: PMR
-- content: SRDOC
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR134943V5.0.02005-10
+id: ETSITR134943V500200510
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Analysis of difference
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Analysis of difference
     between FDD and 1.28 Mcps TDD and corresponding effect on terminal conformance
     test in radio access stratum protocol aspects (3GPP TR 34.943 version 5.0.0 Release
     5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23806
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/134900_134999/134943/05.00.00_60/tr_134943v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 134 943 V5.0.0 (2005-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23806
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/134900_134999/134943/05.00.00_60/tr_134943v050000p.pdf
+docidentifier:
+- content: ETSI TR 134 943 V5.0.0 (2005-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 134 943 V5.0.0 (2005-10)
 date:
 - type: published
-  value: 2005-10
+  at: 2005-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 2005-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-29
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-29
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Report

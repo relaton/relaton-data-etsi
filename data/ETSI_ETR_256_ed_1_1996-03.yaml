@@ -1,60 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR256ed.11996-03
+id: ETSIETR256ed1199603
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Signalling System No.7; Telephone
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Signalling System No.7; Telephone
     User Part "Plus" (TUP+) [CEPT Recommendation T/S 43-02 E (1988)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3768
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/256/01_60/etr_256e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 256 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3768
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/256/01_60/etr_256e01p.pdf
+docidentifier:
+- content: ETSI ETR 256 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 256 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Protocols & Switching
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Endorsement of CEPT T/S 43-02\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Endorsement of CEPT T/S 43-02\r\n  "
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: ISDN
-- content: SS7
-- content: TUP
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TUP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Signalling Protocols & Switching
+    content: ETSI Technical Report

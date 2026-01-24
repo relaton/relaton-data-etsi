@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102659-2V1.2.12009-10
+id: ETSITR1026592V121200910
+schema_version: v1.4.1
 title:
-- content: 'GRID; Study of ICT Grid interoperability gaps; Part 2: Interoperability
+- language: en
+  script: Latn
+  content: 'GRID; Study of ICT Grid interoperability gaps; Part 2: Interoperability
     Gaps and proposed solutions'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30417
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10265902/01.02.01_60/tr_10265902v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 659-2 V1.2.1 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30417
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/10265902/01.02.01_60/tr_10265902v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 659-2 V1.2.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 659-2 V1.2.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CLOUD
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Review and update TR 102 659-2 to add possible solutions and roadmap to
+- language: en
+  script: Latn
+  content: Review and update TR 102 659-2 to add possible solutions and roadmap to
     the interoperability gaps identified in v1.1.1 of the document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: DIRECTORY
-- content: ICT
-- content: INTEROPERABILITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: DIRECTORY
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: CLOUD
+    content: Technical Report

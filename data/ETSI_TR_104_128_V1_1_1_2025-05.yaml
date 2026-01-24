@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104128V1.1.12025-05
+id: ETSITR104128V111202505
+schema_version: v1.4.1
 title:
-- content: Securing Artificial Intelligence (SAI); Guide to Cyber Security for AI
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Guide to Cyber Security for AI
     Models and Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73753
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104128/01.01.01_60/tr_104128v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 128 V1.1.1 (2025-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73753
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104128/01.01.01_60/tr_104128v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 128 V1.1.1 (2025-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 128 V1.1.1 (2025-05)
 date:
 - type: published
-  value: 2025-05
+  at: 2025-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence TC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Guidance to help stakeholders in the AI supply chain in meeting the cyber
+- language: en
+  script: Latn
+  content: Guidance to help stakeholders in the AI supply chain in meeting the cyber
     security provisions defined for AI models and systems in ETSI TS 104 223.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Securing Artificial Intelligence TC
+    content: Technical Report

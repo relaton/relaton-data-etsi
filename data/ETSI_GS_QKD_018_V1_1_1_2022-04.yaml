@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD018V1.1.12022-04
+id: ETSIGSQKD018V111202204
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Orchestration Interface for Software Defined
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Orchestration Interface for Software Defined
     Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59581
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/018/01.01.01_60/gs_QKD018v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 018 V1.1.1 (2022-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59581
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/018/01.01.01_60/gs_QKD018v010101p.pdf
+docidentifier:
+- content: ETSI GS QKD 018 V1.1.1 (2022-04)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 018 V1.1.1 (2022-04)
 date:
 - type: published
-  value: 2022-04
+  at: 2022-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This New Work Item will provide a definition of orchestration interfaces
+- language: en
+  script: Latn
+  content: This New Work Item will provide a definition of orchestration interfaces
     between SDN Orchestrator(s) and SDN Controller(s) of QKD networks. It will define
     abstraction models and workflows between SDN Orchestrator(s) and SDN Controller(s)
     of QKD networks, including resource management, system configuration management,
     performance management, alarm, service provisioning, and management of multi-domain
     QKD networks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: MANAGEMENT
-- content: orchestration
-- content: quantum cryptography
-- content: Quantum Key Distribution
-- content: SDN
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102778-1V1.1.12009-07
+id: ETSITS1027781V111200907
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
     Signature Profiles; Part 1: PAdES Overview - a framework document for PAdES'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31003
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 778-1 V1.1.1 (2009-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31003
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10277801/01.01.01_60/ts_10277801v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 778-1 V1.1.1 (2009-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 778-1 V1.1.1 (2009-07)
 date:
 - type: published
-  value: 2009-07
+  at: 2009-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides a framework for the set of profiles for PDF
+- language: en
+  script: Latn
+  content: The present document provides a framework for the set of profiles for PDF
     (Portable Document Format - as specified in ISO 32000-1) Advanced Electronic Signatures
     specified in this multi-part deliverable.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

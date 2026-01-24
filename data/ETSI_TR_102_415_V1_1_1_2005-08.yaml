@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102415V1.1.12005-08
+id: ETSITR102415V111200508
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Telecare services; Issues and recommendations for user
+- language: en
+  script: Latn
+  content: Human Factors (HF); Telecare services; Issues and recommendations for user
     aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15618
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102415/01.01.01_60/tr_102415v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 415 V1.1.1 (2005-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15618
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102415/01.01.01_60/tr_102415v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 415 V1.1.1 (2005-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 415 V1.1.1 (2005-08)
 date:
 - type: published
-  value: 2005-08
+  at: 2005-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "European network operators can expect to experience a significant demand
+- language: en
+  script: Latn
+  content: "European network operators can expect to experience a significant demand
     from customers for ICT services to support the care of vulnerable people while
     they engage in the activities of everyday life. Supported independence through
     the delivery of care services through public and private networks will give vulnerable
@@ -54,22 +63,30 @@ abstract:
     the need for institutional care. \r\nThis work item will provide a technical report
     identifying the key issues and standardisation actions that ETSI TC HF needs to
     take to facilitate the growth of care service delivery to intelligent homes\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Design for All
-- content: HEALTH
-- content: HF
-- content: intelligent homes &amp; buildings
-- content: INTERFACE
-- content: MMI
+- taxon:
+  - language: en
+    script: Latn
+    content: Design for All
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: intelligent homes &amp; buildings
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MMI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

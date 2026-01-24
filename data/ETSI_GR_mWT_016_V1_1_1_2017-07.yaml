@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT016V1.1.12017-07
+id: ETSIGRmWT016V111201707
+schema_version: v1.4.1
 title:
-- content: Applications and use cases of Software Defined Networking (SDN) as related
+- language: en
+  script: Latn
+  content: Applications and use cases of Software Defined Networking (SDN) as related
     to microwave and millimetre wave transmission
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50058
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/016/01.01.01_60/gr_mWT016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 016 V1.1.1 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50058
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/016/01.01.01_60/gr_mWT016v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 016 V1.1.1 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 016 V1.1.1 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of this WI is to place focus on the possible applications that,
+- language: en
+  script: Latn
+  content: The purpose of this WI is to place focus on the possible applications that,
     leveraging on SDN paradigm, are able to add value in terms of functionality, efficiency
     and/or cost to the use of microwave/millimetre wave network segments.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: Millimetre wave
-- content: mWT
-- content: SDN
-- content: TRANSMISSION
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: Millimetre wave
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Report

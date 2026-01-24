@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS131101V6.5.12006-01
+id: ETSITS131101V651200601
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); UICC-terminal interface;
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); UICC-terminal interface;
     Physical and logical characteristics (3GPP TS 31.101 version 6.5.1 Release 6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24270
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131101/06.05.01_60/ts_131101v060501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 131 101 V6.5.1 (2006-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24270
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131101/06.05.01_60/ts_131101v060501p.pdf
+docidentifier:
+- content: ETSI TS 131 101 V6.5.1 (2006-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 131 101 V6.5.1 (2006-01)
 date:
 - type: published
-  value: 2006-01
+  at: 2006-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Application Aspects (formely T3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.5.1
-revdate: 2006-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: post CP-30
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: post CP-30
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart Card Application Aspects (formely T3)
+    content: Technical Specification

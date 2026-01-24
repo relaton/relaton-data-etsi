@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300920ed.32000-08
+id: ETSIETS300920ed3200008
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Security aspects
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Security aspects
     (GSM 02.09 version 5.2.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9836
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300920/03_60/ets_300920e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 920 ed.3 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9836
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300920/03_60/ets_300920e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 920 ed.3 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 920 ed.3 (2000-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Bearer and Teleservices, as respectively defined in GSM 02.02 and GSM\r\n02.03,
+- language: en
+  script: Latn
+  content: "Bearer and Teleservices, as respectively defined in GSM 02.02 and GSM\r\n02.03,
     are the objects which the GSM PLMN operators offer to their cus\r\ntomers. Besides
     these basic telecommunications services, features whic\r\nh aim at up grading
     these basic services need also to be offered. Due\r\nto the use of radiocommunications
@@ -59,18 +69,18 @@ abstract:
     aim at the up grading of the\r\nsecurity in a GSM PLMN. In particular, end to
     end security is outside\r\nthe scope of this ETS.\r\nThe implementation aspects
     of security features are described in GSM 0\r\n3.20.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS124090V3.0.02000-01
+id: ETSITS124090V300200001
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); Unstructured Supplementary Service Data
     (USSD) - Stage 3 (3G TS 24.090 version 3.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7828
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124090/03.00.00_60/ts_124090v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 124 090 V3.0.0 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7828
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124090/03.00.00_60/ts_124090v030000p.pdf
+docidentifier:
+- content: ETSI TS 124 090 V3.0.0 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 124 090 V3.0.0 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Supplementary Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Release 1999\r\nThe present document gives the stage 3 description of
+- language: en
+  script: Latn
+  content: "Release 1999\r\nThe present document gives the stage 3 description of
     the Unstructured Supplementary Service Data (USSD) operations. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Supplementary Services
+    content: Technical Specification

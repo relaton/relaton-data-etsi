@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102461V1.2.12015-07
+id: ETSITS102461V121201507
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM); Multicast Source Management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42506
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102461/01.02.01_60/ts_102461v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 461 V1.2.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42506
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102461/01.02.01_60/ts_102461v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 461 V1.2.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 461 V1.2.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This technical specification will define how a multicast source may "connect"
+- language: en
+  script: Latn
+  content: This technical specification will define how a multicast source may "connect"
     to the BSM network, including optional local sources. It will consider knowledge
     of where the source enters the BSM network, where it comes from and where in the
     network it is to be delivered. This may depend on the source address, or contributing
     network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: INTERWORKING
-- content: IP
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Specification

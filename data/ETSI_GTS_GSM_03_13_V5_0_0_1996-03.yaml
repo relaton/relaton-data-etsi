@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM03.13V5.0.01996-03
+id: ETSIGTSGSM0313V500199603
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Discontinuous
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Discontinuous
     Reception (DRX) in the GSM system (GSM 03.13)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4242
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/03/0313/05.00.00_60/gsmts_0313v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 03.13 V5.0.0 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4242
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/03/0313/05.00.00_60/gsmts_0313v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 03.13 V5.0.0 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 03.13 V5.0.0 (1996-03)
 date:
 - type: published
-  value: 1996-03
+  at: 1996-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Specification provides a system wide view of the\r\noperation
+- language: en
+  script: Latn
+  content: "This Technical Specification provides a system wide view of the\r\noperation
     of discontinuous reception on the GSM system.\r\nThe support of DRX is mandatory
     in GSM PLMNs.\r\nThe detailed coding and procedural details are defined in the
     relevant\r\nTechnical Specifications dealing with the specific interfaces that
@@ -56,22 +65,30 @@ abstract:
     of\r\ndiscontinuous reception DRX within the GSM system, the actions\r\nrequired
     at MSC, BSS, and MS, the support of the facility via the air\r\ninterface, and
     some operational aspects of the facility.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DRX
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DRX
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

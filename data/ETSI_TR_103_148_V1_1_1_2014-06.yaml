@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103148V1.1.12014-06
+id: ETSITR103148V111201406
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc); Technical characteristics of Radio equipment to be
     used in the 76 GHz to 77 GHz band; Short-Range Radar to be fitted on fixed transport
     infrastructure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41975
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103148/01.01.01_60/tr_103148v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 148 V1.1.1 (2014-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41975
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103148/01.01.01_60/tr_103148v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 148 V1.1.1 (2014-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 148 V1.1.1 (2014-06)
 date:
 - type: published
-  value: 2014-06
+  at: 2014-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SRdoc for surveillance radar equipment operating in the 76 to 77 GHz  range
+- language: en
+  script: Latn
+  content: SRdoc for surveillance radar equipment operating in the 76 to 77 GHz  range
     for fixed transport infrastructure surveillance applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: REGULATION
-- content: SAFETY
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: Technical Report

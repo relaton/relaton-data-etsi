@@ -1,60 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300686ed.11996-04
+id: ETSIETS300686ed1199604
+schema_version: v1.4.1
 title:
-- content: Business TeleCommunications (BTC); 34 Mbit/s and 140 Mbit/s digital leased
+- language: en
+  script: Latn
+  content: Business TeleCommunications (BTC); 34 Mbit/s and 140 Mbit/s digital leased
     lines (D34U, D34S, D140U, D140S); Network interface presentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2208
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300686/01_60/ets_300686e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 686 ed.1 (1996-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2208
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300686/01_60/ets_300686e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 686 ed.1 (1996-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 686 ed.1 (1996-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the public network interface and test methods for\r\ncompliance.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Specification of the public network interface and test methods for\r\ncompliance.\r\n "
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: LEASED LINE
-- content: NETWORK
-- content: ONP
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LEASED LINE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: ONP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: European Telecommunication Standard

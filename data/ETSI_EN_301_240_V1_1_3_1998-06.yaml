@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301240V1.1.31998-06
+id: ETSIEN301240V113199806
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
     (DSP); Point-to-Point Protocol (PPP) interworking for internet access and general
     multi-protocol datagram transport
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4655
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301240/01.01.03_60/en_301240v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 240 V1.1.3 (1998-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4655
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301240/01.01.03_60/en_301240v010103p.pdf
+docidentifier:
+- content: ETSI EN 301 240 V1.1.3 (1998-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 240 V1.1.3 (1998-06)
 date:
 - type: published
-  value: 1998-06
+  at: 1998-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1998-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "An interworking profile, based on the Class 2 Data Services Profiles,\r\nfor
+- language: en
+  script: Latn
+  content: "An interworking profile, based on the Class 2 Data Services Profiles,\r\nfor
     non-voice equipment with roaming mobility, for inter-operability\r\nbetween DECT
     equipment providing \"packet based\" Point-to-Point\r\nProtocol (PPP) transmission
     to provide dial-up internet access and\r\ngeneral multi-protocol datagram transport,
     including remote LAN\r\naccess.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: DECT
-- content: INTERNET
-- content: IP
-- content: MOBILITY
-- content: POINT-TO-POINT
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Data applications
+    content: European Standard

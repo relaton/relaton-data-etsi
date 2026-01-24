@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101480V1.1.21999-12
+id: ETSITR101480V112199912
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Public Switched Telephone Network
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Public Switched Telephone Network
     (PSTN); Framework for the provision of calling party name information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3630
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101480/01.01.02_60/tr_101480v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 480 V1.1.2 (1999-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3630
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101480/01.01.02_60/tr_101480v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 480 V1.1.2 (1999-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 480 V1.1.2 (1999-12)
 date:
 - type: published
-  value: 1999-12
+  at: 1999-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering/Addressing, Routeing and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1999-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR describes the general requirements for presenting calling\r\nparty
+- language: en
+  script: Latn
+  content: "This ETR describes the general requirements for presenting calling\r\nparty
     name information to users connected to the PSTN or ISDN.\r\nThe ability of the
     calling party to restrict the presentation of his\r\nname is also covered.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CNIP
-- content: CNIR
-- content: ISDN
-- content: PSTN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CNIP
+  - language: en
+    script: Latn
+    content: CNIR
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Numbering/Addressing, Routeing and Services
+    content: Technical Report

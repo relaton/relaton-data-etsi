@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201752V1.2.12001-12
+id: ETSIEG201752V121200112
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-Point and Point-to-Multipoint Equipment and
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-Point and Point-to-Multipoint Equipment and
     Antennas; Identification of European standards (EN), applicable to fixed radio
     systems, for the essential requirements under the article 3.1 of the 1999/5/EC
     Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12912
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201752/01.02.01_60/eg_201752v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 752 V1.2.1 (2001-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12912
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201752/01.02.01_60/eg_201752v010201p.pdf
+docidentifier:
+- content: ETSI EG 201 752 V1.2.1 (2001-12)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 752 V1.2.1 (2001-12)
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "For upgrade informations on applicable standards for conformity to R&TTE
+- language: en
+  script: Latn
+  content: "For upgrade informations on applicable standards for conformity to R&TTE
     article 3.1 (EMC and Safety) \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DRRS
-- content: FWA
-- content: RADIO
-- content: REGULATION
-- content: TERMINAL
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: ETSI Guide

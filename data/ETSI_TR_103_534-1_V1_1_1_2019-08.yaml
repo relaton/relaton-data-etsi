@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103534-1V1.1.12019-08
+id: ETSITR1035341V111201908
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; Teaching material; Part 1: Security'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54045
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10353401/01.01.01_60/tr_10353401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 534-1 V1.1.1 (2019-08)
+- language: en
+  script: Latn
+  content: 'SmartM2M; Teaching material; Part 1: Security'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54045
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10353401/01.01.01_60/tr_10353401v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 534-1 V1.1.1 (2019-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 534-1 V1.1.1 (2019-08)
 date:
 - type: published
-  value: 2019-08
+  at: 2019-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Develop teaching materials on IoT Security such as an electronic textbook
+- language: en
+  script: Latn
+  content: Develop teaching materials on IoT Security such as an electronic textbook
     and a set of slides, lectures / workshops with developers and operational managers
     to initiate a widespread dissemination of the developed teaching materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: oneM2M
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

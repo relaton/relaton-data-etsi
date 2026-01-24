@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR182013V1.1.12006-06
+id: ETSITR182013V111200606
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Bearer Control; Stage 2 Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21140
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182013/01.01.01_60/tr_182013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 182 013 V1.1.1 (2006-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21140
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182013/01.01.01_60/tr_182013v010101p.pdf
+docidentifier:
+- content: ETSI TR 182 013 V1.1.1 (2006-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 182 013 V1.1.1 (2006-06)
 date:
 - type: published
-  value: 2006-06
+  at: 2006-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Functional Architecture and information flows for bearer control, and taking
+- language: en
+  script: Latn
+  content: Functional Architecture and information flows for bearer control, and taking
     into account the RACS function in DES/TISPAN-02020-NGN-R1 and the recommendations
     of TISPAN WG5 on QoS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: CONTROL
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: CONTROL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Report

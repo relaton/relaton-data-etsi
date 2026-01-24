@@ -1,59 +1,69 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR026ed.11992-01
+id: ETSIETR026ed1199201
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Terminal selection principles for priority I and
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Terminal selection principles for priority I and
     II services of MoU - ISDN, applicable in multi-terminal environments at customer
     premises
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/026/01_60/etr_026e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 026 ed.1 (1992-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/026/01_60/etr_026e01p.pdf
+docidentifier:
+- content: ETSI ETR 026 ed.1 (1992-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 026 ed.1 (1992-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: ETSI Technical Report

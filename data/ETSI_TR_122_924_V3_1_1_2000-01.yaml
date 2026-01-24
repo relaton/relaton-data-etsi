@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR122924V3.1.12000-01
+id: ETSITR122924V311200001
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Service aspects; Charging
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Service aspects; Charging
     and Accounting Mechanisms (3G TR 22.924 version 3.1.1 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5806
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/122900_122999/122924/03.01.01_60/tr_122924v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 122 924 V3.1.1 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5806
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/122900_122999/122924/03.01.01_60/tr_122924v030101p.pdf
+docidentifier:
+- content: ETSI TR 122 924 V3.1.1 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 122 924 V3.1.1 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nNew Charging and Accounting Mechanisms"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nNew Charging and Accounting Mechanisms"
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Services
+    content: Technical Report

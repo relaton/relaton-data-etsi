@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103103V1.1.12012-09
+id: ETSITR103103V111201209
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point systems; ATPC, RTPC, Adaptive Modulation
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point systems; ATPC, RTPC, Adaptive Modulation
     (mixed-mode) and Bandwidth Adaptive functionalities; Technical background and
     impact on deployment, link design and coordination
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39525
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103103/01.01.01_60/tr_103103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 103 V1.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39525
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103103/01.01.01_60/tr_103103v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 103 V1.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 103 V1.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The new TR, will contain the information, derived from Informative Annex
+- language: en
+  script: Latn
+  content: "The new TR, will contain the information, derived from Informative Annex
     I of draft revision of EN 302 217-2-2 (REN/ATTM-04018), which is not specifically
     required from the point of view of R&TTE Directive assessment.\r\nNote: in Informative
     Annex I of revised EN 302 217-2-2 (REN/ATTM-04018) a reduced amount of information
     will remain, as necessary\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADAPTION
-- content: DFRS
-- content: MODULATION
-- content: POINT-TO-POINT
+- taxon:
+  - language: en
+    script: Latn
+    content: ADAPTION
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: MODULATION
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

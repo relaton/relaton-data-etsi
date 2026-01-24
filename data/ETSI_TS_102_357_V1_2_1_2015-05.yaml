@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102357V1.2.12015-05
+id: ETSITS102357V121201505
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM); Common Air interface specification; Satellite Independent Service Access
     Point (SI-SAP) interface: Primitives'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42504
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102357/01.02.01_60/ts_102357v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 357 V1.2.1 (2015-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42504
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102357/01.02.01_60/ts_102357v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 357 V1.2.1 (2015-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 357 V1.2.1 (2015-05)
 date:
 - type: published
-  value: 2015-05
+  at: 2015-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of an API for the BSM bearer services. This API to be applicable
+- language: en
+  script: Latn
+  content: Specification of an API for the BSM bearer services. This API to be applicable
     to all BSM families.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: BROADBAND
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Specification

@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100939V6.5.11999-11
+id: ETSITS100939V651199911
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
     interface signalling layer 3; General aspects (GSM 04.07 version 6.5.1 Release
     1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9141
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100900_100999/100939/06.05.01_60/ts_100939v060501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 939 V6.5.1 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9141
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100900_100999/100939/06.05.01_60/ts_100939v060501p.pdf
+docidentifier:
+- content: ETSI TS 100 939 V6.5.1 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 939 V6.5.1 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.5.1
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nSNSM Primitives\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nSNSM Primitives\r\n"
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

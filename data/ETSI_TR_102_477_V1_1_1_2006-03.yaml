@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102477V1.1.12006-03
+id: ETSITR102477V111200603
+schema_version: v1.4.1
 title:
-- content: Corporate telecommunication Networks (CN); Mobility for enterprise communication
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21030
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102477/01.01.01_60/tr_102477v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 477 V1.1.1 (2006-03)
+- language: en
+  script: Latn
+  content: Corporate telecommunication Networks (CN); Mobility for enterprise communication
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21030
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102477/01.01.01_60/tr_102477v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 477 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 477 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The Technical Report identifies key mobility issues for access to IP-based
+- language: en
+  script: Latn
+  content: "The Technical Report identifies key mobility issues for access to IP-based
     enterprise information and communications services. It defines a taxonomy of mobility
     terms and then explores use cases and connectivity scenarios involving mobile
     enterprise users. From these it derives requirements for mobility management,
@@ -56,18 +65,18 @@ abstract:
     \r\nThis Technical Report is intended as an aid to analysing gaps in standardization
     that prevent or hinder mobility in enterprise communications and information access.
     \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MOBILITY
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: Technical Report

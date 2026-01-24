@@ -1,74 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301442V1.2.12010-08
+id: ETSIEN301442V121201008
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Harmonized EN for Mobile Earth
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Harmonized EN for Mobile Earth
     Stations (MESs), including handheld earth stations, for Satellite Personal Communications
     Networks (S-PCN) in the 2,0 GHz bands under the Mobile Satellite Service (MSS)
     covering essential requirements under article 3.2 of the R&TTE directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28577
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301442/01.02.01_60/en_301442v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 442 V1.2.1 (2010-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28577
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301442/01.02.01_60/en_301442v010201p.pdf
+docidentifier:
+- content: ETSI EN 301 442 V1.2.1 (2010-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 442 V1.2.1 (2010-08)
 date:
 - type: published
-  value: 2010-08
+  at: 2010-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on Mobile Satellite Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2010-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revise the document to limit the scope to NGSO systems.\r\nScope of initial
+- language: en
+  script: Latn
+  content: "Revise the document to limit the scope to NGSO systems.\r\nScope of initial
     version V1.1.1: The new R&TTE Directive implies the conversion of existing TBRs.
     TC SES decided during SES#40 to accelerate the process, and planned to send TBR26,
     TBR27, TBR28, TBR30,TBR41, TBR42, TBR43 and TBR44 to OAP during a dedicated TC
     SES #42 meeting (30/11-3/12/99).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: MES
-- content: MSS
-- content: REGULATION
-- content: SATELLITE
-- content: S-PCN
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: MES
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: S-PCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: SES WG on Mobile Satellite Systems
+    content: European Standard

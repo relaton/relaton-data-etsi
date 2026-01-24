@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS138323V15.8.02021-09
+id: ETSITS138323V1580202109
+schema_version: v1.4.1
 title:
-- content: 5G; NR; Packet Data Convergence Protocol (PDCP) specification (3GPP TS
+- language: en
+  script: Latn
+  content: 5G; NR; Packet Data Convergence Protocol (PDCP) specification (3GPP TS
     38.323 version 15.8.0 Release 15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63477
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/138300_138399/138323/15.08.00_60/ts_138323v150800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 138 323 V15.8.0 (2021-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63477
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/138300_138399/138323/15.08.00_60/ts_138323v150800p.pdf
+docidentifier:
+- content: ETSI TS 138 323 V15.8.0 (2021-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 138 323 V15.8.0 (2021-09)
 date:
 - type: published
-  value: 2021-09
+  at: 2021-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.8.0
-revdate: 2021-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#92-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#92-e
+status:
+  stage: Published
 keyword:
-- content: 5G
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

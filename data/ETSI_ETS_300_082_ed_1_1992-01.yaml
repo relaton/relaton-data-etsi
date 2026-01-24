@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300082ed.11992-01
+id: ETSIETS300082ed1199201
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); 3,1 kHz telephony teleservice;
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); 3,1 kHz telephony teleservice;
     End-to-end compatibility
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=145
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300082/01_60/ets_300082e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 082 ed.1 (1992-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=145
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300082/01_60/ets_300082e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 082 ed.1 (1992-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 082 ed.1 (1992-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify characteristics and related test methods wich will ensure\r\nend-to-end
+- language: en
+  script: Latn
+  content: "To specify characteristics and related test methods wich will ensure\r\nend-to-end
     compatibility for the 3.1 kHz teleservice in the ISDN\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: '3'
-- content: 1 KHZ
-- content: ISDN
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: '3'
+  - language: en
+    script: Latn
+    content: 1 KHZ
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: European Telecommunication Standard

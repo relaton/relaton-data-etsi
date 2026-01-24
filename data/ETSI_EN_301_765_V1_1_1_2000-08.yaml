@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301765V1.1.12000-08
+id: ETSIEN301765V111200008
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Functional requirements for
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Functional requirements for
     static circuit-mode inter-PINX connections [ISO/IEC 14474 (1998) modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3417
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301700_301799/301765/01.01.01_60/en_301765v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 765 V1.1.1 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3417
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301700_301799/301765/01.01.01_60/en_301765v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 765 V1.1.1 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 765 V1.1.1 (2000-08)
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Defines the mapping functions in exchanges of Private\r\nintegrated services
+- language: en
+  script: Latn
+  content: "Defines the mapping functions in exchanges of Private\r\nintegrated services
     Networks (PISNs) as required for the utilization\r\nof intervening network scenarios,
     which provide a circuit mode bearer\r\ncapability for inter-PINX Connections via
     dedicated inter-PINX\r\nconnections (IPCs).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: PINX
-- content: PISN
-- content: QSIG
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Standard

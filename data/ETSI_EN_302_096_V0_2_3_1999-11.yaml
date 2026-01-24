@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302096V0.2.31999-11
+id: ETSIEN302096V023199911
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Cordless Terminal
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Cordless Terminal
     Mobility (CTM); Feature Package 1 (FP1); CTM circuit-switched data profile, 32
     kbit/s and 64 kbit/s Unrestricted Digital Information (UDI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6005
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/302096/00.02.03_60/en_302096v000203p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 096 V0.2.3 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6005
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/302096/00.02.03_60/en_302096v000203p.pdf
+docidentifier:
+- content: ETSI EN 302 096 V0.2.3 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 096 V0.2.3 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 0.2.3
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This EN specifies the DECT air interface protocol for the implementation
+- language: en
+  script: Latn
+  content: "This EN specifies the DECT air interface protocol for the implementation
     of circuit-switched data services, 32 kbit/s and 64 kbit/s unrestricted digital
     information.\r\n\r\nReference documents: ETS 300 175"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: CTM
-- content: DATA
-- content: DECT
-- content: MOBILITY
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network aspects
+    content: European Standard

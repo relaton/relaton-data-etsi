@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101971V1.1.12003-05
+id: ETSITR101971V111200305
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); IP Cable Services for Multimedia Broadband Cable
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); IP Cable Services for Multimedia Broadband Cable
     Networks; Availability and Reliability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14067
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101971/01.01.01_60/tr_101971v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 971 V1.1.1 (2003-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14067
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101971/01.01.01_60/tr_101971v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 971 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 971 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Technical report covering availability and reliability model for IP cable
+- language: en
+  script: Latn
+  content: Technical report covering availability and reliability model for IP cable
     access network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: AVAILABILITY
-- content: BROADBAND
-- content: CABLE
-- content: IP
-- content: SLA
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: AVAILABILITY
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SLA
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital
+    content: Technical Report

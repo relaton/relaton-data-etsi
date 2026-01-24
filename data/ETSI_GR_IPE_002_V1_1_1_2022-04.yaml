@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIPE002V1.1.12022-04
+id: ETSIGRIPE002V111202204
+schema_version: v1.4.1
 title:
-- content: IPv6 Enhanced Innovation (IPE); IPv6 based Data Centers, Network and Cloud
+- language: en
+  script: Latn
+  content: IPv6 Enhanced Innovation (IPE); IPv6 based Data Centers, Network and Cloud
     Integration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62479
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/002/01.01.01_60/gr_IPE002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IPE 002 V1.1.1 (2022-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62479
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/002/01.01.01_60/gr_IPE002v010101p.pdf
+docidentifier:
+- content: ETSI GR IPE 002 V1.1.1 (2022-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR IPE 002 V1.1.1 (2022-04)
 date:
 - type: published
-  value: 2022-04
+  at: 2022-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 Enhanced innovation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this work item is to identify and describe the emerging
+- language: en
+  script: Latn
+  content: "The purpose of this work item is to identify and describe the emerging
     IPv6 based use cases and scenarios: IPv6 evolution in Data Centers, Network and
     Cloud Integration\r\n.In this case,IPv6 can be envisaged to be used to meet the
     following requirements.\r\n-\tIPv6 evolution in Data Centers where the cloud resides,\r\n-\tInter-connection
@@ -55,21 +64,27 @@ abstract:
     services or functions, such as SFC (service function chain) and SD-WAN.\r\nIt
     should be noted that the use case mentioned here is independent to wireless and
     wireline network.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: Data Centres
-- content: IP
-- content: IPv6
-- content: SDN
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: Data Centres
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: SDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 Enhanced innovation
+    content: Group Report

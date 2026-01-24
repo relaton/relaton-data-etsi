@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP016V1.1.12019-11
+id: ETSIGRNGP016V111201911
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocols (NGP); Large-Scale Deterministic Network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56357
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/016/01.01.01_60/gr_NGP016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 016 V1.1.1 (2019-11)
+- language: en
+  script: Latn
+  content: Next Generation Protocols (NGP); Large-Scale Deterministic Network
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56357
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/016/01.01.01_60/gr_NGP016v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 016 V1.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 016 V1.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work item will describe a framework that enables a Layer 3 deterministic
+- language: en
+  script: Latn
+  content: The work item will describe a framework that enables a Layer 3 deterministic
     service over large-scale networks. Four functional components to construct the
     whole framework are (1) User-Network Interface; (2) Resource Reservation Signalling;
     (3) Deterministic Forwarding Mechanisms and (4) OAM toolset. No specific technical
     solution will be recommended in this work item. However, some example mechanisms
     will be described in order to prove the effectiveness of the framework.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Framework
-- content: IP
-- content: jitter buffer
+- taxon:
+  - language: en
+    script: Latn
+    content: Framework
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: jitter buffer
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

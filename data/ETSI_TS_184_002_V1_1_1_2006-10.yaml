@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS184002V1.1.12006-10
+id: ETSITS184002V111200610
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Identifiers (IDs) for NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21349
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/184000_184099/184002/01.01.01_60/ts_184002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 184 002 V1.1.1 (2006-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21349
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/184000_184099/184002/01.01.01_60/ts_184002v010101p.pdf
+docidentifier:
+- content: ETSI TS 184 002 V1.1.1 (2006-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 184 002 V1.1.1 (2006-10)
 date:
 - type: published
-  value: 2006-10
+  at: 2006-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Numbering Addressing and routing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To review the service requirements and architecture for NGN, identify the
+- language: en
+  script: Latn
+  content: To review the service requirements and architecture for NGN, identify the
     Naming, Numbering, Addressing and Identification issues, identify possible solutions
     and recommend an approach that facilitates these requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: ARCHITECTURE
-- content: ID
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ID
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Numbering Addressing and routing
+    content: Technical Specification

@@ -1,67 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102962V1.1.12012-02
+id: ETSITR102962V111201202
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Framework for Public Mobile Networks
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Framework for Public Mobile Networks
     in Cooperative ITS (C-ITS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37107
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102962/01.01.01_60/tr_102962v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 962 V1.1.1 (2012-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37107
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102962/01.01.01_60/tr_102962v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 962 V1.1.1 (2012-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 962 V1.1.1 (2012-02)
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoZSB3b3JrIGl0ZW0gaXMgdG8gDQoNCuKAoglhbmFseXNlIGNvb3BlcmF0aXZlIElUUyBzZXJ2aWNlcyB1c2luZyBwdWJsaWMgbW9iaWxlIGNlbGx1bGFyIG5ldHdvcmtzIGZvciBjb21tdW5pY2F0aW9ucyBiZXR3ZWVuIElUUyBzdGF0aW9ucyBpbiBvcmRlciB0byBpZGVudGlmeSByZWxhdGVkIGZ1bmN0aW9uYWwgcmVxdWlyZW1lbnRzIG9uIHRoZSBJVFMgYXJjaGl0ZWN0dXJlLA0KDQrigKIJaWRlbnRpZnkgcmVxdWlyZWQgYW1lbmRtZW50cyAvIG1vZGlmaWNhdGlvbnMgb2YgZXhpc3Rpbmcgc3RhbmRhcmRzIG9uIGNvb3BlcmF0aXZlIElUUyBpbiBvcmRlciB0byBlbmFibGUgdXNhZ2Ugb2YgcHVibGljIG1vYmlsZSBjZWxsdWxhciBuZXR3b3JrcywNCg0K4oCiCWlkZW50aWZ5IGZ1bmN0aW9uYWxpdHkgdG8gYmUgc3BlY2lmaWVkIGluIG5ldyBJVFMgc3RhbmRhcmRzIHRvIGJlIGRldmVsb3BlZCB1bmRlciBNLzQ1My4gDQoNClRoZSByZXN1bHQgaXMgdG8gYmUgcHJlc2VudGVkIGFzIGFuIEVUU0kgVGVjaG5pY2FsIFJlcG9ydC4NClN0YXJ0aW5nIGZyb20gdGhlIGFyY2hpdGVjdHVyZSBkZXNjcmliZWQgaW4gdGhlIHB1Ymxpc2hlZCBzdGFuZGFyZCDigJxJVFMgQ29tbXVuaWNhdGlvbiBBcmNoaXRlY3R1cmXigJ0gIEVOIDMwMiA2NjUgdjEuMS4xLCBhbmQgY29uc2lkZXJpbmcgcHJpbWFyaWx5IHRoZSDigJxCYXNpYyBTZXQgb2YgQXBwbGljYXRpb25z4oCdIGRlZmluZWQgaW4gRVRTSSBUUiAxMDIgNjM4LCBhIGNyaXRpY2FsIGFzc2Vzc21lbnQgb2YgdGhlIGFwcGxpY2FiaWxpdHkgb2YgdGhlIDNHIOKAkyA0RyBtb2JpbGUgbmV0d29yayBhY2Nlc3MgdG8gc3VwcG9ydCB0aGUgZGVzY3JpYmVkIGFwcGxpY2F0aW9uIHNjZW5hcmlvcyB3aWxsIGJlIHByb3ZpZGVkLg0KDQpUaGlzIGFuYWx5c2lzIGFpbXMgdG8gcmVmZXIgdG8gdGVjaG5pY2FsIHN0YW5kYXJkcyBkZXZlbG9wZWQgYnkgM0dQUCBhbmQgRVRTSSBUQyBNMk0gYXMgbXVjaCBhcyBwb3NzaWJsZS4NCg0KVGhpcyBhbmFseXNpcyBpcyBiYXNlZCBvbiB0aGUgSVRTIHN0YXRpb24gYXJjaGl0ZWN0dXJlIGFuZCBhbHNvIGNvdmVycyBzZWN1cml0eSBhc3BlY3RzLg0KDQpBZGRpdGlvbmFsIHRlY2huaWNhbCBiYWNrZ3JvdW5kIHByb3ZpZGVkIGJ5IFImRCBwcm9qZWN0cyBzdWNoIGFzIENvQ0FSIChodHRwOi8vd3d3LmFrdGl2LW9ubGluZS5vcmcvZW5nbGlzaC9ha3Rpdi1jb2Nhci5odG1sKSwgQ29DQVJ4ICh0aGUgZm9sbG93LW9uIHByb2plY3QgaW5jbHVkaW5nIGludGVncmF0aW9uIGJldHdlZW4gTFRFIGFuZCBEU1JDIGFjY2VzcyB0ZWNobm9sb2dpZXMpLCBhbmQgQ1ZJUyAoaHR0cDovL3d3dy5jdmlzcHJvamVjdC5vcmcvKSBpcyBpbnRlbmRlZCB0byBiZSBjb25zaWRlcmVkIGZvciB0aGUgZGV2ZWxvcG1lbnQgb2YgdGhlIFRlY2huaWNhbCBSZXBvcnQuDQoNClJlbGF0ZWQgc3RhbmRhcmRzIGZyb20gb3RoZXIgU0RPcyB3b3JraW5nIG9uIGNvb3BlcmF0aXZlIElUUyBhbHNvIHdpbGwgYmUgY29uc2lkZXJlZCBhcyBhcHByb3ByaWF0ZS4NCg0KVGhpcyBhcHByb2FjaCBpcyBjb2hlcmVudCB3aXRoIHRoZSBzcGlyaXQgb2YgdGhlICJKb2ludCBDRU4gYW5kIEVUU0kgUmVzcG9uc2UgdG8gTWFuZGF0ZSBNLzQ1MyIsIHdpdGggc3BlY2lmaWMgcmVmZXJlbmNlIHRvIGNsYXVzZSAzLjMuIOKAnFN0YW5kYXJkaXNhdGlvbiBmb3IgQ28tb3BlcmF0aXZlIHN5c3RlbXMgY292ZXJpbmcgb3RoZXIgbWVkaWHigJ0gYW5kIGNsYXVzZSA0LjIuMy4g4oCcTmF0aW9uYWwgUiZEIHByb2plY3RzIGluY2x1ZGluZyBuYXRpb25hbCBGT1Rz4oCdLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of the work item is to \r\n\r\n\tanalyse cooperative ITS services
+    using public mobile cellular networks for communications between ITS stations
+    in order to identify related functional requirements on the ITS architecture,\r\n\r\n\tidentify
+    required amendments / modifications of existing standards on cooperative ITS in
+    order to enable usage of public mobile cellular networks,\r\n\r\n\tidentify functionality
+    to be specified in new ITS standards to be developed under M/453. \r\n\r\nThe
+    result is to be presented as an ETSI Technical Report.\r\nStarting from the architecture
+    described in the published standard ITS Communication Architecture  EN 302 665
+    v1.1.1, and considering primarily the Basic Set of Applications defined in ETSI
+    TR 102 638, a critical assessment of the applicability of the 3G  4G mobile network
+    access to support the described application scenarios will be provided.\r\n\r\nThis
+    analysis aims to refer to technical standards developed by 3GPP and ETSI TC M2M
+    as much as possible.\r\n\r\nThis analysis is based on the ITS station architecture
+    and also covers security aspects.\r\n\r\nAdditional technical background provided
+    by R&D projects such as CoCAR (http://www.aktiv-online.org/english/aktiv-cocar.html),
+    CoCARx (the follow-on project including integration between LTE and DSRC access
+    technologies), and CVIS (http://www.cvisproject.org/) is intended to be considered
+    for the development of the Technical Report.\r\n\r\nRelated standards from other
+    SDOs working on cooperative ITS also will be considered as appropriate.\r\n\r\nThis
+    approach is coherent with the spirit of the \"Joint CEN and ETSI Response to Mandate
+    M/453\", with specific reference to clause 3.3. Standardisation for Co-operative
+    systems covering other media and clause 4.2.3. National R&D projects including
+    national FOTs.\r\n"
+status:
+  stage: Published
 keyword:
-- content: 3GPP
-- content: ARCHITECTURE
-- content: IPv6
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: 3GPP
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Report

@@ -1,69 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103143V1.1.12015-01
+id: ETSITS103143V111201501
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); System architecture for information
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); System architecture for information
     exchange between different Geo-location Databases (GLDBs) enabling the operation
     of White Space Devices (WSDs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42395
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103143/01.01.01_60/ts_103143v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 143 V1.1.1 (2015-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42395
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103143/01.01.01_60/ts_103143v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 143 V1.1.1 (2015-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 143 V1.1.1 (2015-01)
 date:
 - type: published
-  value: 2015-01
+  at: 2015-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB0ZWNobmljYWwgc3BlY2lmaWNhdGlvbiBkZWZpbmVzIHRoZSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIGZvciB0aGUgaW5mb3JtYXRpb24gZXhjaGFuZ2UgYmV0d2VlbiBkaWZmZXJlbnQgR2VvLWxvY2F0aW9uIERhdGFiYXNlcyAoR0xEQnMpIGVuYWJsaW5nIHRoZSBvcGVyYXRpb24gb2YgV2hpdGUgU3BhY2UgRGV2aWNlcyAoV1NEcykgZm9yIHRoZSBwcm90ZWN0aW9uIG9mIHRoZSBpbmN1bWJlbnQgc2VydmljZS4gVGhlIGFyY2hpdGVjdHVyZSBzdGVtcyBmcm9tIHRoZSBzeXN0ZW0gcmVxdWlyZW1lbnRzIGRlc2NyaWJlZCBpbiB0aGUgc2VjdGlvbiA3LjEgKFRlcnJlc3RyaWFsIEJyb2FkY2FzdGluZyBTZXJ2aWNlIFByb3RlY3Rpb24gUmVxdWlyZW1lbnRzKSBvZiBFVFNJIFRTIDEwMiA5NDYg4oCdU3lzdGVtIHJlcXVpcmVtZW50cyBmb3Igb3BlcmF0aW9uIGluIFVIRiBUViBCYW5kIFdoaXRlIFNwYWNlc+KAnSBhbmQgd2lsbCBzZXJ2ZSBhcyBhbiBpbnB1dCBmb3IgZGVmaW5pbmcgdGhlIEhhcm1vbml6ZWQgU3RhbmRhcmRzIGFuZCBFdXJvcGVhbiBTdGFuZGFyZHMgdGhhdCBhcmUgcGFydCBvZiB0aGUgRUMgbWFuZGF0ZSBmb3IgUmVjb25maWd1cmFibGUgUmFkaW8gU3lzdGVtcyAoTS81MTIpLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This technical specification defines the system architecture for the information
+    exchange between different Geo-location Databases (GLDBs) enabling the operation
+    of White Space Devices (WSDs) for the protection of the incumbent service. The
+    architecture stems from the system requirements described in the section 7.1 (Terrestrial
+    Broadcasting Service Protection Requirements) of ETSI TS 102 946 System requirements
+    for operation in UHF TV Band White Spaces and will serve as an input for defining
+    the Harmonized Standards and European Standards that are part of the EC mandate
+    for Reconfigurable Radio Systems (M/512).
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: CRS
-- content: GLDB
-- content: PERFORMANCE
-- content: white space
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: GLDB
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: white space
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

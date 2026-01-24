@@ -1,66 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSECI001-2V1.2.12018-03
+id: ETSIGSECI0012V121201803
+schema_version: v1.4.1
 title:
-- content: 'Embedded Common Interface (ECI) for exchangeable CA/DRM solutions; Part
+- language: en
+  script: Latn
+  content: 'Embedded Common Interface (ECI) for exchangeable CA/DRM solutions; Part
     2: Use cases and requirements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52917
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/00102/01.02.01_60/gs_ECI00102v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ECI 001-2 V1.2.1 (2018-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52917
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/00102/01.02.01_60/gs_ECI00102v010201p.pdf
+docidentifier:
+- content: ETSI GS ECI 001-2 V1.2.1 (2018-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS ECI 001-2 V1.2.1 (2018-03)
 date:
 - type: published
-  value: 2018-03
+  at: 2018-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Embedded Common Interface for exchangeable CA/DRM solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U3ViamVjdCBvZiB0aGlzIFdvcmsgSXRlbSBpcyBhIHJldmlzaW9uIG9mIFBhcnQgMiBvZiB0aGUgRUNJIG11bHRpLXBhcnQgZGVsaXZlcmFibGUgY292ZXJpbmcgdXNlIGNhc2VzIGFuZCByZXF1aXJlbWVudHMsIHJlbGF0ZWQgdG8gdGhlIEVtYmVkZGVkIENvbW1vbiBJbnRlcmZhY2UgZm9yIGV4Y2hhbmdlYWJsZSBDQS9EUk0gc29sdXRpb25zLiBUaGUgcmV2aXNpb24gaXMgbmVjZXNzYXJ5IGluIG9yZGVyIHRvIHJlZmxlY3QgdGhlIGRlbWFuZHMsIGFtb25nIG90aGVycywgZnJvbSBjb250ZW50IG93bmVywrRzIGFuZCBjb25zdW1lcsK0cyBwZXJzcGVjdGl2ZSBhbmQgYWxzbyB0byB0YWtlIGFjY291bnQgb2YgdGhlIGxhdGVzdCB0ZWNobm9sb2dpY2FsIGRldmVsb3BtZW50cy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Subject of this Work Item is a revision of Part 2 of the ECI multi-part
+    deliverable covering use cases and requirements, related to the Embedded Common
+    Interface for exchangeable CA/DRM solutions. The revision is necessary in order
+    to reflect the demands, among others, from content owners and consumers perspective
+    and also to take account of the latest technological developments.
+status:
+  stage: Published
 keyword:
-- content: CA
-- content: DRM
-- content: SWAPPING
+- taxon:
+  - language: en
+    script: Latn
+    content: CA
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: SWAPPING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Embedded Common Interface for exchangeable CA/DRM solutions
+    content: Group Specification

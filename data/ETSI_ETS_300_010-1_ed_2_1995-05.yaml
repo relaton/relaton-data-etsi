@@ -1,61 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300010-1ed.21995-05
+id: ETSIETS3000101ed2199505
+schema_version: v1.4.1
 title:
-- content: 'Transmission and Multiplexing (TM); Synchronous cross connect equipment;
+- language: en
+  script: Latn
+  content: 'Transmission and Multiplexing (TM); Synchronous cross connect equipment;
     64 kbit/s and n x 64 kbit/s cross connection rate 2 048 kbit/s access ports; Part
     1: Core functions and characteristics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=288
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30001001/02_60/ets_30001001e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 010-1 ed.2 (1995-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=288
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30001001/02_60/ets_30001001e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 010-1 ed.2 (1995-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 010-1 ed.2 (1995-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Draft addition to ETS 300 010-1 to cover additional functionality.\r\nDraft
+- language: en
+  script: Latn
+  content: "Draft addition to ETS 300 010-1 to cover additional functionality.\r\nDraft
     new ETS on the management aspects of 64 kbit/s DXCs.\r\nSupport for DXCs with
     64kbit/s SDH or PDH ports, which can be flexibly\r\nmanaged\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CROSS CONNECT
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: CROSS CONNECT
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Core networks, fibres and cables
+    content: European Telecommunication Standard

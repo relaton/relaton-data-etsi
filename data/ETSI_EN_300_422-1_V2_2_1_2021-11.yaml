@@ -1,71 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300422-1V2.2.12021-11
+id: ETSIEN3004221V221202111
+schema_version: v1.4.1
 title:
-- content: 'Wireless Microphones; Audio PMSE up to 3 GHz; Part 1: Audio PMSE Equipment
+- language: en
+  script: Latn
+  content: 'Wireless Microphones; Audio PMSE up to 3 GHz; Part 1: Audio PMSE Equipment
     up to 3 GHz; Harmonised Standard for access to radio spectrum'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53883
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/30042201/02.02.01_60/en_30042201v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 422-1 V2.2.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53883
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/30042201/02.02.01_60/en_30042201v020201p.pdf
+docidentifier:
+- content: ETSI EN 300 422-1 V2.2.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 422-1 V2.2.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Standards for PMSE and broadcast equipment/services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RU4gMzAwIDQyMi0xIOKAkyAyIOKAkyAzOyBjb252ZXJ0IHRvIHNpbmdsZSBwYXJ0IGZvciBBdWRpbyBQTVNFLCBpbmNsdWRpbmcgY29uZmVyZW5jZSBzeXN0ZW1zLCByZXZpZXcgQy1QTVNFLCBtZWFzdXJlbWVudCBtZXRob2RzIGFuZCBzcGVjdHJ1bSBzY2FubmluZyBwcm9jZWR1cmU=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: EN 300 422-1  2  3; convert to single part for Audio PMSE, including conference
+    systems, review C-PMSE, measurement methods and spectrum scanning procedure
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: audio-PMSE
-- content: C-PMSE
-- content: Harmonised standard
-- content: RADIO
-- content: TESTING
-- content: wireless microphone
-- content: wireless microphone system
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: audio-PMSE
+  - language: en
+    script: Latn
+    content: C-PMSE
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: wireless microphone
+  - language: en
+    script: Latn
+    content: wireless microphone system
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Standards for PMSE and broadcast equipment/services
+    content: European Standard

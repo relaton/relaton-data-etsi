@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101767V1.1.12000-01
+id: ETSITR101767V111200001
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Symbols to identify telecommunications facilities for
+- language: en
+  script: Latn
+  content: Human Factors (HF); Symbols to identify telecommunications facilities for
     deaf and hard of hearing people; Development and evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6494
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101767/01.01.01_60/tr_101767v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 767 V1.1.1 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6494
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101767/01.01.01_60/tr_101767v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 767 V1.1.1 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 767 V1.1.1 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document reports the background research, symbols development and
+- language: en
+  script: Latn
+  content: This document reports the background research, symbols development and
     evaluation undertaken to create a European Standard on symbols to identify telecommunication
     facilities for deaf and hard of hearing people. The symbols developed and defined
     in the final standard will be applicable to all telecommunication equipment, related
     signage and publications, that provide or reference the defined facilities and
     assistive technologies which are intended to support telecommunications by deaf
     and hard of hearing people.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HEARING AID
-- content: HF
-- content: PWSN
+- taxon:
+  - language: en
+    script: Latn
+    content: HEARING AID
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: PWSN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

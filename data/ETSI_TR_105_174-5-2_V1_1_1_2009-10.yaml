@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR105174-5-2V1.1.12009-10
+id: ETSITR10517452V111200910
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Broadband Deployment
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Broadband Deployment
     - Energy Efficiency and Key Performance Indicators; Part 5: Customer network infrastructures;
     Sub-part 2: Office premises (single-tenant)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29357
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/105100_105199/1051740502/01.01.01_60/tr_1051740502v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 105 174-5-2 V1.1.1 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29357
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/105100_105199/1051740502/01.01.01_60/tr_1051740502v010101p.pdf
+docidentifier:
+- content: ETSI TR 105 174-5-2 V1.1.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 105 174-5-2 V1.1.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Infrastructure, Physical Networks & Communication Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Overview, common and generic aspects, general engineering of specific sub-areas
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Overview, common and generic aspects, general engineering of specific sub-areas
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CABLE
-- content: OPTICAL
-- content: SITE ENGINEERING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: SITE ENGINEERING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Infrastructure, Physical Networks & Communication Systems
+    content: Technical Report

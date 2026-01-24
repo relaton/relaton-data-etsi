@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIPE010V1.1.12022-07
+id: ETSIGRIPE010V111202207
+schema_version: v1.4.1
 title:
-- content: IPv6 Enhanced innovation (IPE); Proof of Concepts Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63942
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/010/01.01.01_60/gr_IPE010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IPE 010 V1.1.1 (2022-07)
+- language: en
+  script: Latn
+  content: IPv6 Enhanced innovation (IPE); Proof of Concepts Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63942
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/010/01.01.01_60/gr_IPE010v010101p.pdf
+docidentifier:
+- content: ETSI GR IPE 010 V1.1.1 (2022-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR IPE 010 V1.1.1 (2022-07)
 date:
 - type: published
-  value: 2022-07
+  at: 2022-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 Enhanced innovation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U2NvcGUgb2Ygd29yayB0byBiZSB1bmRlcnRha2VuOiBUaGlzIFdvcmsgSXRlbSB3aWxsIHByb2R1Y2UgYSBkb2N1bWVudCB0byBkZXNjcmliZSBhIGZyYW1ld29yayBmb3IgdXNlIHdpdGhpbiBFVFNJIElQRSBJU0cgdG8gY29vcmRpbmF0ZSBhbmQgcHJvbW90ZSBwdWJsaWMgZGVtb25zdHJhdGlvbnMgb2YgUHJvb2Ygb2YgQ29uY2VwdCAoUG9DKSB2YWxpZGF0aW5nIHRoZSBrZXkgdGVjaG5pY2FsIGNvbXBvbmVudHMgZGV2ZWxvcGVkIGluIElQRS4gVGhlIG9iamVjdGl2ZSBvZiB0aGUgUG9DcyBpcyB0byBidWlsZCBjb21tZXJjaWFsIGF3YXJlbmVzcyBhbmQgY29uZmlkZW5jZSBhbmQgZW5jb3VyYWdlIGRldmVsb3BtZW50IG9mIGFuIG9wZW4gZWNvc3lzdGVtIGJ5IGludGVncmF0aW5nIGNvbXBvbmVudHMgZnJvbSBkaWZmZXJlbnQgcGxheWVycy4NClRoaXMgZnJhbWV3b3JrIG91dGxpbmVzOiDigKIgcmF0aW9uYWxlIGZvciBJUEUgSVNHIFBvQ3M7IOKAoiBJUEUgSVNHIFBvQyBwcm9jZXNzIChzdWJtaXNzaW9uIGFuZCBmb3JtYXQgb2YgUG9DIFByb3Bvc2FscywgcmV2aWV3IGFuZCBhY2NlcHRhbmNlIGNyaXRlcmlhIG9mIFBvQyBwcm9wb3NhbHMsIGFuZCBJUEUgSVNHIFBvQyBSZXBvcnQgZm9ybWF0IGFuZCByZXF1aXJlbWVudHMpOyDigKIgRVRTSSBzdXBwb3J0IGZvciBQb0MgdGVhbXMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken: This Work Item will produce a document
+    to describe a framework for use within ETSI IPE ISG to coordinate and promote
+    public demonstrations of Proof of Concept (PoC) validating the key technical components
+    developed in IPE. The objective of the PoCs is to build commercial awareness and
+    confidence and encourage development of an open ecosystem by integrating components
+    from different players.\r\nThis framework outlines:  rationale for IPE ISG PoCs;
+    \ IPE ISG PoC process (submission and format of PoC Proposals, review and acceptance
+    criteria of PoC proposals, and IPE ISG PoC Report format and requirements);  ETSI
+    support for PoC teams."
+status:
+  stage: Published
 keyword:
-- content: IPv6
-- content: Proof of Concept
+- taxon:
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: Proof of Concept
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 Enhanced innovation
+    content: Group Report

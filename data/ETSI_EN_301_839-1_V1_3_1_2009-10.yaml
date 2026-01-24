@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301839-1V1.3.12009-10
+id: ETSIEN3018391V131200910
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Ultra Low Power Active Medical Implants (ULP-AMI) and Peripherals
     (ULP-AMI-P) operating in the frequency range 402 MHz to 405 MHz; Part 1: Technical
     characteristics and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26327
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/30183901/01.03.01_60/en_30183901v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 839-1 V1.3.1 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26327
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/30183901/01.03.01_60/en_30183901v010301p.pdf
+docidentifier:
+- content: ETSI EN 301 839-1 V1.3.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 839-1 V1.3.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Wireless Medical Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Equipment covered by EN 302 537-2 is specialized medical equipment that
+- language: en
+  script: Latn
+  content: Equipment covered by EN 302 537-2 is specialized medical equipment that
     comprise a system consisting of implanted, body worn and/or other external devices.  The
     application of these devices in the medical field requires the development of
     a specific product standard for ensuring that the radio parts of the devices are
     tested to acceptable levels.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Wireless Medical Devices
+    content: European Standard

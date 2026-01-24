@@ -1,63 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129413V18.5.02025-07
+id: ETSITS129413V1850202507
+schema_version: v1.4.1
 title:
-- content: 5G; Application of the NG Application Protocol (NGAP) to non-3GPP access
+- language: en
+  script: Latn
+  content: 5G; Application of the NG Application Protocol (NGAP) to non-3GPP access
     (3GPP TS 29.413 version 18.5.0 Release 18)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75288
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129400_129499/129413/18.05.00_60/ts_129413v180500p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 413 V18.5.0 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75288
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129400_129499/129413/18.05.00_60/ts_129413v180500p.pdf
+docidentifier:
+- content: ETSI TS 129 413 V18.5.0 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 413 V18.5.0 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 18.5.0
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#108
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#108
+status:
+  stage: Published
 keyword:
-- content: 5G
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102205V1.1.12003-05
+id: ETSITR102205V111200305
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); UML 2.0 action syntax feasibility
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); UML 2.0 action syntax feasibility
     study
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17730
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102205/01.01.01_60/tr_102205v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 205 V1.1.1 (2003-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17730
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102205/01.01.01_60/tr_102205v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 205 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 205 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Scope of this work is to produce an ETSI Technical Report consisting of
+- language: en
+  script: Latn
+  content: Scope of this work is to produce an ETSI Technical Report consisting of
     a study on the feasibility of defining an action syntax for UML 2.0 for possible
     use in standardization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MTS
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: MTS
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

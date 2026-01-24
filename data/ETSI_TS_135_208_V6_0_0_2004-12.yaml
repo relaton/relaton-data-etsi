@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITS135208V6.0.02004-12
+id: ETSITS135208V600200412
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); 3G Security; Specification
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); 3G Security; Specification
     of the MILENAGE algorithm set: An example algorithm Set for the 3GPP Authentication
     and Key Generation functions f1, f1*, f2, f3, f4, f5 and f5*; Document 4: Design
     conformance test data (3GPP TS 35.208 version 6.0.0 Release 6)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22111
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/135200_135299/135208/06.00.00_60/ts_135208v060000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 135 208 V6.0.0 (2004-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22111
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/135200_135299/135208/06.00.00_60/ts_135208v060000p.pdf
+docidentifier:
+- content: ETSI TS 135 208 V6.0.0 (2004-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 135 208 V6.0.0 (2004-12)
 date:
 - type: published
-  value: 2004-12
+  at: 2004-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.0
-revdate: 2004-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-26
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-26
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

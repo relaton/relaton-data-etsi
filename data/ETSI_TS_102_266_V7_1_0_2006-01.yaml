@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102266V7.1.02006-01
+id: ETSITS102266V710200601
+schema_version: v1.4.1
 title:
-- content: 'Smart Cards; USSM: UICC Security Service Module; Stage 1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24203
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102266/07.01.00_60/ts_102266v070100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 266 V7.1.0 (2006-01)
+- language: en
+  script: Latn
+  content: 'Smart Cards; USSM: UICC Security Service Module; Stage 1'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24203
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102266/07.01.00_60/ts_102266v070100p.pdf
+docidentifier:
+- content: ETSI TS 102 266 V7.1.0 (2006-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 266 V7.1.0 (2006-01)
 date:
 - type: published
-  value: 2006-01
+  at: 2006-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET-REQ
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.0
-revdate: 2006-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The UICC may contain several applications, each dealing with keys and
+- language: en
+  script: Latn
+  content: "The UICC may contain several applications, each dealing with keys and
     realising crypto services. Some keys might be shareable (e.g. signing key of the
     WIM application) but there are no standardised mechanisms to share keys and indicate
     allowed functions to authorised applications. \r\nTo allow applications on the
@@ -59,18 +68,18 @@ abstract:
     document including the needed functions \r\n- Initial work on the format of parameters
     used in the functions \r\n(existing specifications (e.g. ISO 7816-15, Global Platform,
     ...) are taken into account for evaluation if mechanisms of them can be reused.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET-REQ
+    content: Technical Specification

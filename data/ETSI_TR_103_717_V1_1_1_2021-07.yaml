@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103717V1.1.12021-07
+id: ETSITR103717V111202107
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Study for oneM2M; Discovery and Query specification development
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58449
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103717/01.01.01_60/tr_103717v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 717 V1.1.1 (2021-07)
+- language: en
+  script: Latn
+  content: SmartM2M; Study for oneM2M; Discovery and Query specification development
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58449
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103717/01.01.01_60/tr_103717v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 717 V1.1.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 717 V1.1.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work will develop the specification for the discovery solution selected
+- language: en
+  script: Latn
+  content: 'This work will develop the specification for the discovery solution selected
     in DTR/SmartM2M-123151. This deliverable will document the specification while
     the real standardisation proposal will be contributed to oneM2M TS-0001 (Architecture),
     oneM2M TS-0034 (Semantic support), oneM2M TS-0033 (Interworking Framework), oneM2M
     TS-0004 (Protocols) (other oneM2M TS may be also impacted) with the help of the
     supporting companies active in oneM2M. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IoT
-- content: oneM2M
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

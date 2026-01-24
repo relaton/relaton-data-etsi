@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-2V1.3.12002-08
+id: ETSIEN3014892V131200208
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
     Compatibility (EMC) standard for radio equipment and services; Part 2: Specific
     conditions for radio paging equipment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15899
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148902/01.03.01_60/en_30148902v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 489-2 V1.3.1 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15899
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148902/01.03.01_60/en_30148902v010301p.pdf
+docidentifier:
+- content: ETSI EN 301 489-2 V1.3.1 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-2 V1.3.1 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This standard has one common requirements part plus specific parts for
+- language: en
+  script: Latn
+  content: "This standard has one common requirements part plus specific parts for
     each of the radio equipment and services.  This harmonised standard under the
     EMC Directive and article 3.1b of the R&TTE Dirctive.  This does not include EMC
     requirements for equipment covered by the Marine Equipment Directive.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: ERMES
-- content: PAGING
-- content: RADIO
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: ERMES
+  - language: en
+    script: Latn
+    content: PAGING
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

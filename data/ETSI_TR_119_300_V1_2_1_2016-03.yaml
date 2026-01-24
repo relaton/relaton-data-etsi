@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119300V1.2.12016-03
+id: ETSITR119300V121201603
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Guidance on the use of
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Guidance on the use of
     standards for cryptographic suites
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49467
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119300_119399/119300/01.02.01_60/tr_119300v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 300 V1.2.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49467
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119300_119399/119300/01.02.01_60/tr_119300v010201p.pdf
+docidentifier:
+- content: ETSI TR 119 300 V1.2.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 300 V1.2.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The scope of the work is the production of an updated version of the document
+- language: en
+  script: Latn
+  content: The scope of the work is the production of an updated version of the document
     to reflect title change and any related change in the associated framework standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

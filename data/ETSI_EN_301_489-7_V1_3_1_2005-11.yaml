@@ -1,73 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-7V1.3.12005-11
+id: ETSIEN3014897V131200511
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
     Compatibility (EMC) standard for radio equipment and services; Part 7: Specific
     conditions for mobile and portable radio and ancillary equipment of digital cellular
     radio telecommunications systems (GSM and DCS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22804
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148907/01.03.01_60/en_30148907v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 489-7 V1.3.1 (2005-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22804
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148907/01.03.01_60/en_30148907v010301p.pdf
+docidentifier:
+- content: ETSI EN 301 489-7 V1.3.1 (2005-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-7 V1.3.1 (2005-11)
 date:
 - type: published
-  value: 2005-11
+  at: 2005-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2005-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To revise clause 7.2.2 (table 2) in part 7 and part 24, section dealing
+- language: en
+  script: Latn
+  content: "To revise clause 7.2.2 (table 2) in part 7 and part 24, section dealing
     with transients and surges clause 9.6.2.1, to align with the requirements of the
     motor vehicle directive 2004/104/EC (Annex 1, clause 6.8 of the directive).\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: GSM
-- content: GSM_PHASE1
-- content: GSM_PHASE2
-- content: GSM_PHASE2_PLUS
-- content: RADIO
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

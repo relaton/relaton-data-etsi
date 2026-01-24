@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM03.04V5.0.01996-11
+id: ETSIGTSGSM0304V500199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Signalling requirements relating
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Signalling requirements relating
     to routeing of calls to mobile subscribers (GSM 03.04)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5122
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/03/0304/05.00.00_60/gsmts_0304v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 03.04 V5.0.0 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5122
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/03/0304/05.00.00_60/gsmts_0304v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 03.04 V5.0.0 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 03.04 V5.0.0 (1996-11)
 date:
 - type: published
-  value: 1996-11
+  at: 1996-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "When a subscriber wants to call a mobile station (MS), the network nee\r\nds
+- language: en
+  script: Latn
+  content: "When a subscriber wants to call a mobile station (MS), the network nee\r\nds
     to know the location of the called MS in order to route the call to\r\nthe appropriate
     Mobile services Switching Centre (MSC) (see GSM 03.12\r\non location registration).
     This Global System for Mobile communicatio\r\nns Technical Specification (GTS)
@@ -62,23 +71,33 @@ abstract:
     calls; t\r\nhe SMS Gateway MSC must be able to interrogate the HLR of the MS for
     w\r\nhich the short message is intended, in order to route the short messag\r\ne
     to the visited MSC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

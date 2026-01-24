@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101982V1.2.12002-07
+id: ETSITR101982V121200207
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Radio equipment
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Radio equipment
     to be used in the 24 GHz band; System Reference Document for automotive collision
     warning Short Range Radar
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15882
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101982/01.02.01_60/tr_101982v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 982 V1.2.1 (2002-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15882
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101982/01.02.01_60/tr_101982v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 982 V1.2.1 (2002-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 982 V1.2.1 (2002-07)
 date:
 - type: published
-  value: 2002-07
+  at: 2002-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "System Reference Document for 24 GHz Short Range Radar (SRR) to amend
+- language: en
+  script: Latn
+  content: "System Reference Document for 24 GHz Short Range Radar (SRR) to amend
     technical parameters, consideration of comments and frequency choice information.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: RADIO
-- content: SHF
-- content: SHORT RANGE
-- content: SRD
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHF
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

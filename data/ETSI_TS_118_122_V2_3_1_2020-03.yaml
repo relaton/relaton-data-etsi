@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118122V2.3.12020-03
+id: ETSITS118122V231202003
+schema_version: v1.4.1
 title:
-- content: oneM2M; Field Device Configuration (oneM2M TS-0022 version 2.3.1 Release
+- language: en
+  script: Latn
+  content: oneM2M; Field Device Configuration (oneM2M TS-0022 version 2.3.1 Release
     2A)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53484
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118122/02.03.01_60/ts_118122v020301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 122 V2.3.1 (2020-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53484
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118122/02.03.01_60/ts_118122v020301p.pdf
+docidentifier:
+- content: ETSI TS 118 122 V2.3.1 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 122 V2.3.1 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.3.1
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gcHJvdmlkZXMgYSBmcmFtZXdvcmsgdG8gY29uZmlndXJlIG9uZU0yTSBBRXMgYW5kIENTRXMgaW4gdGhlIEZpZWxkIERvbWFpbiBieSB0aGUgb25lTTJNIFNQLiANClRoZSBjb25maWd1cmF0aW9uIGluZm9ybWF0aW9uIG1heSBpbmNsdWRlOg0KwrdUaGUgYXZhaWxhYmlsaXR5IG9mIHByb3RvY29sIGJpbmRpbmdzDQrCt1RoZSBVUkkgb2YgcmVnaXN0cmFyIENTRSB0aGF0ICByZWNlaXZlcyBSZWdpc3RyYXRpb24gcmVxdWVzdHMuDQrCt1RoZSBVUkkgb2YgcmVnaXN0cmFyIENTRSB0aGF0IHJlY2VpdmVzIG5vbi1SZWdpc3RyYXRpb24gcmVxdWVzdHMuDQrCt1RoZSBhZGRyZXNzIG9mIHRhcmdldCByZXNvdXJjZSB0byB1c2UgYSBvbmVNMk0gU2VydmljZS4gW2UuZy4gcmVjb25maWd1cmFibGUgdG8gYWRkL2RlbGV0ZSBzZXJ2aWNlIGR1cmluZyBvcGVyYXRpb25dDQrCt1RoZSBjcmVkZW50aWFsIGRhdGEgdGhhdCBpcyByZXF1aXJlZCBmb3IgYWNjZXNzaW5nIHRoZSByZXNvdXJjZS4gW2UuZy4gcmVjb25maWd1cmFibGUgdG8gZ3JhbnQvcmV2b2tlIGF1dGhvcml6YXRpb25dDQpBcyB0aGUgcmVzdWx0IG9mIGNvbnNpZGVyYXRpb24gaW4gc3RhZ2UgMiB3b3JrLCBpdCBpcyBuZWVkZWQgdG8gZGV2ZWxvcCBhIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9uIHRvIHNvbHZlIGV4aXN0aW5nIHByb2JsZW0gaW4gUmVsZWFzZS0xIHNwZWNpZmljYXRpb25zIHdoaWNoIG9ubHkgc3VwcG9ydHMgcHJlLXByb3ZpdGlvbmluZyBmb3IgY29uZmlndXJpbmcgdGhlIGZpbGVkLWRvbWFpbiBkZXZpY2VzLiANClRoZSBzZWN1cml0eSBhc3BlY3RzIGZvciByZW1vdGUgcHJvdmlzaW9uaW5nIHNob3VsZCBiZSBkaXNjdXNzZWQgaW4gV0c0Lg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This work item provides a framework to configure oneM2M AEs and CSEs in
+    the Field Domain by the oneM2M SP. \r\nThe configuration information may include:\r\nThe
+    availability of protocol bindings\r\nThe URI of registrar CSE that  receives Registration
+    requests.\r\nThe URI of registrar CSE that receives non-Registration requests.\r\nThe
+    address of target resource to use a oneM2M Service. [e.g. reconfigurable to add/delete
+    service during operation]\r\nThe credential data that is required for accessing
+    the resource. [e.g. reconfigurable to grant/revoke authorization]\r\nAs the result
+    of consideration in stage 2 work, it is needed to develop a Technical Specification
+    to solve existing problem in Release-1 specifications which only supports pre-provitioning
+    for configuring the filed-domain devices. \r\nThe security aspects for remote
+    provisioning should be discussed in WG4.\r\n"
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

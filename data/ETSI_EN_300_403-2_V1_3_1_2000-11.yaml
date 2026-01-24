@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300403-2V1.3.12000-11
+id: ETSIEN3004032V131200011
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Signalling network layer for circuit-mode basic
     call control; Part 2: Specification and Description Language (SDL) diagrams'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7998
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/30040302/01.03.01_60/en_30040302v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 403-2 V1.3.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7998
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/30040302/01.03.01_60/en_30040302v010301p.pdf
+docidentifier:
+- content: ETSI EN 300 403-2 V1.3.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 403-2 V1.3.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic call control protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To correct the errors detected and introduced the solution agreed during
+- language: en
+  script: Latn
+  content: "To correct the errors detected and introduced the solution agreed during
     the Brighton meeting (TD202).\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ISDN
-- content: LAYER 3
-- content: SDL
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: SDL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Basic call control protocols
+    content: European Standard

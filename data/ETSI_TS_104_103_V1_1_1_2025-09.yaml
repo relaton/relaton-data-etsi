@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104103V1.1.12025-09
+id: ETSITS104103V111202509
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Encrypted Traffic Integration (ETI); Problem Statement
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Encrypted Traffic Integration (ETI); Problem Statement
     review and requirements definition
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73038
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104100_104199/104103/01.01.01_60/ts_104103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 103 V1.1.1 (2025-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73038
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104100_104199/104103/01.01.01_60/ts_104103v010101p.pdf
+docidentifier:
+- content: ETSI TS 104 103 V1.1.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 103 V1.1.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work item will describe the problem arising from pervasive encrypted
+- language: en
+  script: Latn
+  content: "The work item will describe the problem arising from pervasive encrypted
     traffic in electronic/digital communications networks. The work item will identifiy
     the impact of encrypted traffic on a number of stakeholders and how the stakeholders'
     objectives work together. The characterization of traffic as either user generated
@@ -58,20 +67,24 @@ abstract:
     assist future standards development activity in mitigating the negative impact
     on stakeholders whilst not adversely impacting the positive impacts of such a
     paradigm on stakeholders, including the regulatory and lawful dimensions. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIDENTIALITY
-- content: Network Measurement
-- content: Network monitoring
-- content: Network Performance
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: Network Measurement
+  - language: en
+    script: Latn
+    content: Network monitoring
+  - language: en
+    script: Latn
+    content: Network Performance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

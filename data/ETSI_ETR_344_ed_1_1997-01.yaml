@@ -1,58 +1,66 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR344ed.11997-01
+id: ETSIETR344ed1199701
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); The technical feasibility of a harmonized plug
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); The technical feasibility of a harmonized plug
     and socket standard for European Public Switched Telephone Network (PSTN) access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2243
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/344/01_60/etr_344e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 344 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2243
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/344/01_60/etr_344e01p.pdf
+docidentifier:
+- content: ETSI ETR 344 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 344 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To generate an ETR for a European harmonised PSTN plug and socket\r\n
+- language: en
+  script: Latn
+  content: "To generate an ETR for a European harmonised PSTN plug and socket\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: ETSI Technical Report

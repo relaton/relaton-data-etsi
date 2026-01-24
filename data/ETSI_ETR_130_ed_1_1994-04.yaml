@@ -1,61 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR130ed.11994-04
+id: ETSIETR130ed1199404
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Interoperability and conformance
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Interoperability and conformance
     testing A classification scheme .
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1906
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/130/01_60/etr_130e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 130 ed.1 (1994-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1906
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/130/01_60/etr_130e01p.pdf
+docidentifier:
+- content: ETSI ETR 130 ed.1 (1994-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 130 ed.1 (1994-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing Environment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provide a description of the termis used in the field of interoperab-\r\nility
+- language: en
+  script: Latn
+  content: "Provide a description of the termis used in the field of interoperab-\r\nility
     between open systems, and fit them into an overall model;\r\ndescribe different
     classifications and qualifications for interoperab-\r\nility.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: TAXONOMY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: TAXONOMY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Conformance Testing Environment
+    content: ETSI Technical Report

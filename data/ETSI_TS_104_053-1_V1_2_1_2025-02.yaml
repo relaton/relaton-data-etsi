@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104053-1V1.2.12025-02
+id: ETSITS1040531V121202502
+schema_version: v1.4.1
 title:
-- content: 'TETRA Air Interface Security, Algorithms Specifications; Part 1: TETRA
+- language: en
+  script: Latn
+  content: 'TETRA Air Interface Security, Algorithms Specifications; Part 1: TETRA
     Encryption Algorithms, TEA Set A'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74294
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/10405301/01.02.01_60/ts_10405301v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 053-1 V1.2.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74294
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/10405301/01.02.01_60/ts_10405301v010201p.pdf
+docidentifier:
+- content: ETSI TS 104 053-1 V1.2.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 053-1 V1.2.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To revise the TS to correct typo errors in section 7.2.3.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To revise the TS to correct typo errors in section 7.2.3.
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: ALGORITHM
-- content: DMO
-- content: SECURITY
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: DMO
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Security
+    content: Technical Specification

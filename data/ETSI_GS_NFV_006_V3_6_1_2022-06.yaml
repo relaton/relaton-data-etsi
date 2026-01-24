@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV006V3.6.12022-06
+id: ETSIGSNFV006V361202206
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
     Architectural Framework Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63146
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV/001_099/006/03.06.01_60/gs_NFV006v030601p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV 006 V3.6.1 (2022-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63146
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV/001_099/006/03.06.01_60/gs_NFV006v030601p.pdf
+docidentifier:
+- content: ETSI GS NFV 006 V3.6.1 (2022-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV 006 V3.6.1 (2022-06)
 date:
 - type: published
-  value: 2022-06
+  at: 2022-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Functions Virtualisation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.6.1
-revdate: 2022-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV 006 propagates the deliverable into NFV Release 3.
+- language: en
+  script: Latn
+  content: "This revision of NFV 006 propagates the deliverable into NFV Release 3.
     \r\nThis edition will enhance the specification of the architectural framework
     to support the Release 3 features, and it will extend the scope of the former
     Release 2 edition summarized hereafter:\r\n\r\nNFV 006 describes the high-level
     functional architectural framework for the Management and Orchestration part of
     the NFV architectural framework."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Network Functions Virtualisation
+    content: Group Specification

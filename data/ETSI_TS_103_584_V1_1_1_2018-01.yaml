@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103584V1.1.12018-01
+id: ETSITS103584V111201801
+schema_version: v1.4.1
 title:
-- content: DTS-UHD Point Source Renderer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54006
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103584/01.01.01_60/ts_103584v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 584 V1.1.1 (2018-01)
+- language: en
+  script: Latn
+  content: DTS-UHD Point Source Renderer
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54006
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103584/01.01.01_60/ts_103584v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 584 V1.1.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 584 V1.1.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The DTS-UHD Point Source Renderer is a Vector Base Amplitude Panning (VBAP)
+- language: en
+  script: Latn
+  content: The DTS-UHD Point Source Renderer is a Vector Base Amplitude Panning (VBAP)
     based audio renderer for sources composed of either audio channels or audio objects.
     The audio renderer described in this specification will include support for both
     DTS-UHD Metadata as described in TS 103 491, and API based parameter over-rides
     which facilitate user interaction.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: CODEC
-- content: DIGITAL
-- content: object audio
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: object audio
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

@@ -1,61 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300374-5ed.11996-11
+id: ETSIETS3003745ed1199611
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
     Core Intelligent Network Application Protocol (INAP); Part 5: Protocol specification
     for the Service Control Function (SCF) - Service Data Function (SDF) interface'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2807
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037405/01_60/ets_30037405e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 374-5 ed.1 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2807
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037405/01_60/ets_30037405e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 374-5 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 374-5 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the INAP on the SCF-SDF interface required for the suppo\r\nrt
+- language: en
+  script: Latn
+  content: "Definition of the INAP on the SCF-SDF interface required for the suppo\r\nrt
     CS1. Completes ETS 300 374-1. It is based on the ITU-T X.500 series\r\nof Recommendations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS1
-- content: IN
-- content: INAP
+- taxon:
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: IN protocols
+    content: European Telecommunication Standard

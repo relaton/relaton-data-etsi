@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSISR019020V1.1.22016-08
+id: ETSISR019020V112201608
+schema_version: v1.4.1
 title:
-- content: The framework for standardization of signatures; Standards for AdES digital
+- language: en
+  script: Latn
+  content: The framework for standardization of signatures; Standards for AdES digital
     signatures in mobile and distributed environments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50567
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/019000_019099/019020/01.01.02_60/sr_019020v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 019 020 V1.1.2 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50567
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/019000_019099/019020/01.01.02_60/sr_019020v010102p.pdf
+docidentifier:
+- content: ETSI SR 019 020 V1.1.2 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI SR 019 020 V1.1.2 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides the framework for further standardisation
+- language: en
+  script: Latn
+  content: The present document provides the framework for further standardisation
     for the creation and validation of advanced electronic signatures (AdES) in mobile
     environments (i.e. in environments where mobile devices are supported by networked
     services for signature creation and/or validation) taking into account recent
     improvements in the capabilities of mobile devices and their overlap with the
     capabilities other computing devices.  It identifies the recommended scope of
     such standards and any suggested provision thought appropriate to these standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: MOBILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300730ed.11997-03
+id: ETSIETS300730ed1199703
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Voice Activity Detector (VAD)
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Voice Activity Detector (VAD)
     for Enhanced Full Rate (EFR) speech traffic channels (GSM 06.82)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4137
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300730/01_60/ets_300730e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 730 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4137
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300730/01_60/ets_300730e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 730 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 730 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) specifies the\r\nVoice
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) specifies the\r\nVoice
     Activity Detector (VAD) to be used in the Discontinuous\r\nTransmission (DTX)
     as described in GSM EFR 06.31. It also specifies\r\nthe test methods to be used
     to verify that a VAD complies with this\r\nETS.\r\n The requirements are mandatory
     on any VAD to be used either in GSM\r\nMobile Stations (MS)s or Base Station Systems
     (BSS)s that utilise the\r\nenhanced full-rate speech traffic channel.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

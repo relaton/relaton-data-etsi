@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSISI002V1.2.12015-11
+id: ETSIGSISI002V121201511
+schema_version: v1.4.1
 title:
-- content: Information Security Indicators (ISI); Event Model A security event classification
+- language: en
+  script: Latn
+  content: Information Security Indicators (ISI); Event Model A security event classification
     model and taxonomy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46638
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/002/01.02.01_60/gs_ISI002v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ISI 002 V1.2.1 (2015-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46638
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/002/01.02.01_60/gs_ISI002v010201p.pdf
+docidentifier:
+- content: ETSI GS ISI 002 V1.2.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI GS ISI 002 V1.2.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Information Security Indicators
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Develop a security event classification model and taxonomy supporting the
+- language: en
+  script: Latn
+  content: Develop a security event classification model and taxonomy supporting the
     full set of operational indicators
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Information Security Indicators
+    content: Group Specification

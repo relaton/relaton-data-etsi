@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300721V1.2.21999-07
+id: ETSIEN300721V122199907
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Mobile Earth Stations (MES)
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Mobile Earth Stations (MES)
     providing Low Bit Rate Data Communications (LBRDC) using Low Earth Orbiting (LEO)
     satellites operating below 1 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6587
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300700_300799/300721/01.02.02_60/en_300721v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 721 V1.2.2 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6587
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300700_300799/300721/01.02.02_60/en_300721v010202p.pdf
+docidentifier:
+- content: ETSI EN 300 721 V1.2.2 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 721 V1.2.2 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Earth Stations & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Harmonised Standard will specify the technical requirements that
+- language: en
+  script: Latn
+  content: "This Harmonised Standard will specify the technical requirements that
     apply to Mobile Earth Stations (MESs) for compliance with Article 17 of Council
     Directive 98/13/EC.\r\nThere are no essential requirements under Article 17.6
     of Directive 98/13/EC for terminals approved against this Harmonised Standard,
@@ -68,23 +77,33 @@ abstract:
     Harmonised Standard does not imply that the MES may be used. In conformity with
     Article 15.2 of Directive 98/13/EC, the use of such equipment may be subject to
     licensing terms in conformity with Community law.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: LEO
-- content: MES
-- content: MOBILE
-- content: MSS
-- content: REGULATION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: LEO
+  - language: en
+    script: Latn
+    content: MES
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Satellite Earth Stations & Systems
+    content: European Standard

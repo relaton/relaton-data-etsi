@@ -1,64 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300506/A1ed.11995-04
+id: ETSIETS300506A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Security
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Security
     aspects (GSM 02.09)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3166
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300506/01_60/ets_300506e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 506/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3166
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300506/01_60/ets_300506e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 506/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 506/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON:\r\nTo define the security policy for the Software Version Number
+- language: en
+  script: Latn
+  content: "REASON:\r\nTo define the security policy for the Software Version Number
     in the\r\nMobile Equipment.\r\nCONSEQUENCES OF NON-ACCEPTANCE:\r\nSecurity of
     this feature might be compromised.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

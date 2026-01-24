@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSORI001V1.2.12012-08
+id: ETSIGSORI001V121201208
+schema_version: v1.4.1
 title:
-- content: Open Radio equipment Interface (ORI); Requirements for Open Radio equipment
+- language: en
+  script: Latn
+  content: Open Radio equipment Interface (ORI); Requirements for Open Radio equipment
     Interface (ORI) (Release 1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37680
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ORI/001_099/001/01.02.01_60/gs_ORI001v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ORI 001 V1.2.1 (2012-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37680
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ORI/001_099/001/01.02.01_60/gs_ORI001v010201p.pdf
+docidentifier:
+- content: ETSI GS ORI 001 V1.2.1 (2012-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS ORI 001 V1.2.1 (2012-08)
 date:
 - type: published
-  value: 2012-08
+  at: 2012-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Open Radio equipment Interface
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    QWRkaXRpb24gb2YgQyZNIHJlcXVpcmVtZW50cyBhcHBsaWNhYmxlIHRvIHRoZSBmaXJzdCByZWxlYXNlIChSZWxlYXNlIDEpIG9mIHRoZSBPcGVuIFJhZGlvIGVxdWlwbWVudCBJbnRlcmZhY2UgKE9SSSkuDQpSZWxlYXNlIDEgZm9jdXNlcyBvbiB0aGUgc3VwcG9ydCBvZiB0aGUgZm9sbG93aW5nIDNHUFAgcmFkaW8gYWNjZXNzIHRlY2hub2xvZ2llczogDQrCrQlVVFJBLUZERCwgDQrCrQlFLVVUUkEtRkRELA0Kwq0JRS1VVFJBLVRERC4NCg0KKE5vdGUpOiBUaGUgcmVxdWlyZW1lbnRzIGFyZSB0aGUgc2FtZSBhcyB0aG9zZSBwcmV2aW91c2x5IGluY2x1ZGVkIGluIHRoZSBDJk0gZnVuY3Rpb25hbGl0eSBzZWN0aW9uIG9mIDAwMDEgc3BlY2lmaWNhdGlvbiwgYnV0IHdlcmUgcmVtb3ZlZCBpbiBPUkkjNSB0byBhbGxvdyBhbiBlYXJseSBwdWJsaWNhdGlvbiBvZiBER1MvT1JJLTAwMDEgYW5kIERHUy9PUkktMDAwMi4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Addition of C&M requirements applicable to the first release (Release
+    1) of the Open Radio equipment Interface (ORI).\r\nRelease 1 focuses on the support
+    of the following 3GPP radio access technologies: \r\n\tUTRA-FDD, \r\n\tE-UTRA-FDD,\r\n\tE-UTRA-TDD.\r\n\r\n(Note):
+    The requirements are the same as those previously included in the C&M functionality
+    section of 0001 specification, but were removed in ORI#5 to allow an early publication
+    of DGS/ORI-0001 and DGS/ORI-0002.\r\n"
+status:
+  stage: Published
 keyword:
-- content: E-UTRA
-- content: INTERFACE
-- content: RADIO
-- content: UTRA
+- taxon:
+  - language: en
+    script: Latn
+    content: E-UTRA
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UTRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Open Radio equipment Interface
+    content: Group Specification

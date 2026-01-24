@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR200ed.31996-08
+id: ETSIETR200ed3199608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Recommended
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Recommended
     infrastructure measures to overcome specific Phase 1 Mobile Station (MS) faults
     (GSM 09.94)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4745
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/200/03_60/etr_200e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 200 ed.3 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4745
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/200/03_60/etr_200e03p.pdf
+docidentifier:
+- content: ETSI ETR 200 ed.3 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 200 ed.3 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Special Mobile Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) clarifies recommended measures which\r\nmay
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) clarifies recommended measures which\r\nmay
     be adopted by the GSM infrastructure to enable interworking to be\r\nobtained
     between the GSM infrastructure and various Mobile Station (MS\r\nimplementations
     of the GSM Phase 1 standard. The objective is to obtai\r\ncompatibility without
@@ -50,18 +60,18 @@ abstract:
     within some Phase 1 MSs.\r\nThe lifetime of the herein described measures together
     with their\r\npotential impact on optimal network performance is out of the scope
     of\r\nthis ETR\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Special Mobile Group
+    content: ETSI Technical Report

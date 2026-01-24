@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102636-4-3V1.1.12020-08
+id: ETSITS10263643V111202008
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Vehicular Communications; GeoNetworking;
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Vehicular Communications; GeoNetworking;
     Part 4: Geographical addressing and forwarding for point-to-point and point-to-multipoint
     communications; Sub-part 3: Media-dependent functionalities for LTE-V2X'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58961
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/1026360403/01.01.01_60/ts_1026360403v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 636-4-3 V1.1.1 (2020-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58961
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/1026360403/01.01.01_60/ts_1026360403v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 636-4-3 V1.1.1 (2020-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 636-4-3 V1.1.1 (2020-08)
 date:
 - type: published
-  value: 2020-08
+  at: 2020-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transport and Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Add those LTE-V2X specific statements that had to be removed from EN 302
+- language: en
+  script: Latn
+  content: "Add those LTE-V2X specific statements that had to be removed from EN 302
     636-4-1 GeoNetworking media-independent, specifically:\r\n- Fields of the GeoNetworking
     address,\r\n- Overall packet structure for LTE-V2X access layer technology,\r\n-
     Packet handling.\r\nAlign the deliverable to changes in EN 302 613 (LTE-V2X access
     layer) and TS 103 574 (Congestion Control).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: ITS
-- content: NETWORK
-- content: POINT-TO-MULTIPOINT
-- content: POINT-TO-POINT
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: POINT-TO-MULTIPOINT
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Transport and Network
+    content: Technical Specification

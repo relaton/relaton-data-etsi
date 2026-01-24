@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101075V4.2.02000-05
+id: ETSITR101075V420200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Base Station
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Base Station
     and ancillary equipment; Physical and electrical parameters; Application of standards
     and guidance notes (GSM 11.22 version 4.2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10327
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101075/04.02.00_60/tr_101075v040200p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 075 V4.2.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10327
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101075/04.02.00_60/tr_101075v040200p.pdf
+docidentifier:
+- content: ETSI TR 101 075 V4.2.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 075 V4.2.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: " "
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.2.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CR SMG#31bis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CR SMG#31bis
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: " "
+    content: Technical Report

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300734V1.1.11998-05
+id: ETSIEN300734V111199805
+schema_version: v1.4.1
 title:
-- content: Satellite Personal Communications Networks (S-PCN); Mobile Earth Stations
+- language: en
+  script: Latn
+  content: Satellite Personal Communications Networks (S-PCN); Mobile Earth Stations
     (MES), including handheld earth stations, for S-PCN in the 2,0 GHz bands, providing
     voice and/or data communications under the Mobile Satellite Service (MSS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2993
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300700_300799/300734/01.01.01_60/en_300734v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 734 V1.1.1 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2993
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300700_300799/300734/01.01.01_60/en_300734v010101p.pdf
+docidentifier:
+- content: ETSI EN 300 734 V1.1.1 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 734 V1.1.1 (1998-05)
 date:
 - type: published
-  value: 1998-05
+  at: 1998-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: E/S for Mobile Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide specifications for the standardisation of transmit/receive\r\nmobile
+- language: en
+  script: Latn
+  content: "To provide specifications for the standardisation of transmit/receive\r\nmobile
     earth stations in order to ensure general safety & to limit\r\ninterference to
     other radio communication services.\r\nThe term \"2 GHz\" in the title covers
     four bands: 1980-2010 MHz (up),\r\n2170-2200 MHz (down), 2500-2520 MHz (down)
@@ -55,24 +64,36 @@ abstract:
     az) This standard together with ETS 300 831 is intended to\r\nbecome a harmonised
     standard, the reference of which is intended to be\r\npublished in the Official
     Journal of the European Communities\r\nreferencing the EMC Directive.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: MES
-- content: MOBILE
-- content: MSS
-- content: MULTIMODE
-- content: SATELLITE
-- content: SERVICE
-- content: S-PCN
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: MES
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: MULTIMODE
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: S-PCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: E/S for Mobile Services
+    content: European Standard

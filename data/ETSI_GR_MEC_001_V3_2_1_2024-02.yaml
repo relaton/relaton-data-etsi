@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC001V3.2.12024-02
+id: ETSIGRMEC001V321202402
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Terminology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63970
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/001/03.02.01_60/gr_MEC001v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 001 V3.2.1 (2024-02)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Terminology
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63970
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/001/03.02.01_60/gr_MEC001v030201p.pdf
+docidentifier:
+- content: ETSI GR MEC 001 V3.2.1 (2024-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 001 V3.2.1 (2024-02)
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item addresses the necessary changes to align the MEC glossary
+- language: en
+  script: Latn
+  content: This Work Item addresses the necessary changes to align the MEC glossary
     to the changes coming from other MEC specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: acronym
-- content: MEC
-- content: terminology
+- taxon:
+  - language: en
+    script: Latn
+    content: acronym
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: terminology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

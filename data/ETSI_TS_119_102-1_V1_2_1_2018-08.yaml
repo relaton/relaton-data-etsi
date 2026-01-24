@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119102-1V1.2.12018-08
+id: ETSITS1191021V121201808
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Procedures for Creation
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Procedures for Creation
     and Validation of AdES Digital Signatures; Part 1: Creation and Validation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56214
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11910201/01.02.01_60/ts_11910201v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 102-1 V1.2.1 (2018-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56214
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11910201/01.02.01_60/ts_11910201v010201p.pdf
+docidentifier:
+- content: ETSI TS 119 102-1 V1.2.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 102-1 V1.2.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Intermediary update of EN 319 102-1 in TS to cover following changes and
+- language: en
+  script: Latn
+  content: "Intermediary update of EN 319 102-1 in TS to cover following changes and
     be referenced by TS 119 441 and TS 119 102-2: \r\n- ESI(17)59_007r1, ESI(18)61_019,
     ESI(18)61_038, ESI(18)62_088 \r\n- ESI(18)000064r2 CR to correct NOT_YET_VALID\r\n-
     ESI(18)63_038r1 CR to fix time validation of NOT_YET_VALID signatures\r\n- ESI(18)000078r2
     CR to improve X.509 and crypto validation\r\n- update of definitions, validation
     policy, augmentation following STF 524 work on signature validation\r\n- adjust
     signature elements constraints definition\r\n- clarifications of some elements\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

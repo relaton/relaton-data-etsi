@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103256V1.1.12014-10
+id: ETSITS103256V111201410
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Reference webpage for
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Reference webpage for
     subjective testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43845
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103256/01.01.01_60/ts_103256v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 256 V1.1.1 (2014-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43845
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103256/01.01.01_60/ts_103256v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 256 V1.1.1 (2014-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 256 V1.1.1 (2014-10)
 date:
 - type: published
-  value: 2014-10
+  at: 2014-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item aims to develop a web site that can be used for subjective
+- language: en
+  script: Latn
+  content: "This work item aims to develop a web site that can be used for subjective
     testing. To ensure that the following two requirements have to be met: 1) provisioned
     news content will be able to be used throughout several consecutive web browsing
     sessions, and 2) site created will adhere to the W3C guidelines for proper web
     design in terms of appearance and technical implementation.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: QUALITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: QUALITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

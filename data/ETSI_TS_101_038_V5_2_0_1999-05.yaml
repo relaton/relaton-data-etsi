@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101038V5.2.01999-05
+id: ETSITS101038V520199905
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); High Speed
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); High Speed
     Circuit Switched Data (HSCSD) - Stage 2 (GSM 03.34 version 5.2.0 Release 1996
     )
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7644
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101038/05.02.00_60/ts_101038v050200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 038 V5.2.0 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7644
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101038/05.02.00_60/ts_101038v050200p.pdf
+docidentifier:
+- content: ETSI TS 101 038 V5.2.0 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 038 V5.2.0 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.0
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Specification proposes a stage-2\r\nservice description for a High
+- language: en
+  script: Latn
+  content: "This Specification proposes a stage-2\r\nservice description for a High
     Speed Circuit Switched Data (HSCSD) on\r\nGSM.\r\nIn analogy with CCITT Recommendations
     I.130 [7] (refer to annex A) and\r\nwith reference of CCITT Recommendations VI.1
     Q.65 [8](Stage 2 of the\r\nmethod for characterisation of services supported by
@@ -58,20 +67,24 @@ abstract:
     the functional\r\ncapabilities. The output of Stage 2, which is signalling system\r\nindependent,
     is used as an input to Stage 3, the design of signalling\r\nsystem and switching
     Recommendations.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

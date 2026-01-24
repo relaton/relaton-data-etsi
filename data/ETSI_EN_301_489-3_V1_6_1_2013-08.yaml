@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-3V1.6.12013-08
+id: ETSIEN3014893V161201308
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
     Compatibility (EMC) standard for radio equipment and services; Part 3: Specific
     conditions for Short-Range Devices (SRD) operating on frequencies between 9 kHz
     and 246 GHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35778
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148903/01.06.01_60/en_30148903v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 489-3 V1.6.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35778
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148903/01.06.01_60/en_30148903v010601p.pdf
+docidentifier:
+- content: ETSI EN 301 489-3 V1.6.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-3 V1.6.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Short-term maintenance of EN 301 489-3. Alignment of the classification
+- language: en
+  script: Latn
+  content: Short-term maintenance of EN 301 489-3. Alignment of the classification
     for SRDs used in EN 301 489-3 with that used in EN 305 550. Change the upper frequency
     limit to 246 GHz. Consideration of the LS from ERM-TG28 in document ERM_39_40_47.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

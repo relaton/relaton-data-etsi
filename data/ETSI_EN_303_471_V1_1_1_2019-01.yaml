@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303471V1.1.12019-01
+id: ETSIEN303471V111201901
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Energy Efficiency measurement methodology
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Energy Efficiency measurement methodology
     and metrics for Network Function Virtualisation (NFV)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50095
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303471/01.01.01_60/en_303471v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 471 V1.1.1 (2019-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50095
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303471/01.01.01_60/en_303471v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 471 V1.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 471 V1.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies the method and metrics to determine the
+- language: en
+  script: Latn
+  content: The present document specifies the method and metrics to determine the
     energy efficiency of Network Function Virtualization (NFV) applications. KPIs
     are also defined to determine the performances, in terms of energy efficiency,
     for the NFV applications. continuation of DES/EE-EEPS19 (ES )
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: Energy Management
-- content: ICT
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: Energy Management
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: European Standard

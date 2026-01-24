@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102300-6V1.1.22016-05
+id: ETSITR1023006V112201605
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D): Designers''
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D): Designers''
     guide; Part 6: Air-Ground-Air'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50012
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230006/01.01.02_60/tr_10230006v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 300-6 V1.1.2 (2016-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50012
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230006/01.01.02_60/tr_10230006v010102p.pdf
+docidentifier:
+- content: ETSI TR 102 300-6 V1.1.2 (2016-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 300-6 V1.1.2 (2016-05)
 date:
 - type: published
-  value: 2016-05
+  at: 2016-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2016-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial revision to improve PDF quality and resolution of figure A.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Editorial revision to improve PDF quality and resolution of figure A.1
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

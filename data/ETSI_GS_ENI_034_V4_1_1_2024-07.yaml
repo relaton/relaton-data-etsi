@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSENI034V4.1.12024-07
+id: ETSIGSENI034V411202407
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Requirements and Detailed Procedure
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Requirements and Detailed Procedure
     of Network Policy Conflict Detection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68053
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/034/04.01.01_60/gs_ENI034v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ENI 034 V4.1.1 (2024-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68053
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/034/04.01.01_60/gs_ENI034v040101p.pdf
+docidentifier:
+- content: ETSI GS ENI 034 V4.1.1 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI GS ENI 034 V4.1.1 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this work item is to provide additional information concerning
+- language: en
+  script: Latn
+  content: "The purpose of this work item is to provide additional information concerning
     Policy local conflict detection. This GS expands on the work done in GS ENI 005,
     clause 6.3.9.6.3, to provide additional requirements and procedures to ensure
     that a new policy will not conflict with any currently deployed policies in the
@@ -63,19 +72,21 @@ abstract:
     encompass research and investigation activities that will address IP networks
     at the first stage. Subsequent efforts may extend the work into telecommunication
     networks."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conflict detection
-- content: OAM
-- content: policy management
+- taxon:
+  - language: en
+    script: Latn
+    content: conflict detection
+  - language: en
+    script: Latn
+    content: OAM
+  - language: en
+    script: Latn
+    content: policy management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Specification

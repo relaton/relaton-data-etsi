@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR187009V2.1.12008-07
+id: ETSITR187009V211200807
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Converged Services and Protocols for Advanced
     Networking (TISPAN); Feasibility study of prevention of unsolicited communication
     in the NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25541
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187009/02.01.01_60/tr_187009v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 187 009 V2.1.1 (2008-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25541
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187009/02.01.01_60/tr_187009v020101p.pdf
+docidentifier:
+- content: ETSI TR 187 009 V2.1.1 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 187 009 V2.1.1 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Terminology and Definitions\r\nOverview of unsolicited communication prevention\r\nReview
+- language: en
+  script: Latn
+  content: "Terminology and Definitions\r\nOverview of unsolicited communication prevention\r\nReview
     of the applicable regulatory framework\r\nDescribe scenarios where unsolicited
     communication may occur in the NGN and analyze the threats and the risks\r\nInvestigate
     the effectiveness of existing countermeasures against unsolicited communication
     in NGN (where, how could prevention built into the architecture) possible requirements?\r\nIdentify
     requirements for new countermeasures."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: REGULATION
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Report

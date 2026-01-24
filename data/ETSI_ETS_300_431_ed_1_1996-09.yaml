@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300431ed.11996-09
+id: ETSIETS300431ed1199609
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Digital fixed point-to-point radio
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Digital fixed point-to-point radio
     link equipment operating in the frequency range 24,25 GHz to 29,50 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=840
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300431/01_60/ets_300431e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 431 ed.1 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=840
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300431/01_60/ets_300431e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 431 ed.1 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 431 ed.1 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Standardisation of digital systems with bit rates from 2 Mbit/s to\r\n140/155
+- language: en
+  script: Latn
+  content: "Standardisation of digital systems with bit rates from 2 Mbit/s to\r\n140/155
     Mbit/s for use by the fixed service in the band\r\n24,25 to 29,5 GHz\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ARCHITECTURE
-- content: DIGITAL
-- content: DRRS
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Telecommunication Standard

@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300575/A1ed.21996-01
+id: ETSIETS300575A1ed2199601
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Channel
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Channel
     coding (GSM 05.03)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3671
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300575/02_60/ets_300575e02p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 575/A1 ed.2 (1996-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3671
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300575/02_60/ets_300575e02p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 575/A1 ed.2 (1996-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 575/A1 ed.2 (1996-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A reference configuration of the transmission chain is shown in GSM 05\r\n.01.
+- language: en
+  script: Latn
+  content: "A reference configuration of the transmission chain is shown in GSM 05\r\n.01.
     According to this reference configuration, this technical specifi\r\ncation specifies
     the data blocks given to the encryption unit.\r\nIt includes the specification
     of encoding, reordering, interleaving an\r\nd the stealing flag. It does not specify
@@ -49,22 +59,30 @@ abstract:
     coder, the da\r\nta terminal equipment, or the controller of the MS or BS. The
     definiti\r\nons of the logical channel types used in this technical specification\r\nare
     given in GSM 05.02, a summary is in annex 1.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODING
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119112V1.1.12019-04
+id: ETSITR119112V111201904
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Most significant differences
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Most significant differences
     between AdES/ASiC ENs and previous TSs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53501
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119100_119199/119112/01.01.01_60/tr_119112v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 112 V1.1.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53501
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119100_119199/119112/01.01.01_60/tr_119112v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 112 V1.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 112 V1.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Identifies most significant differences between ETSI ENs specifying AdES
+- language: en
+  script: Latn
+  content: "Identifies most significant differences between ETSI ENs specifying AdES
     signatures and ASiC containers and the former ETSI TSs for them.\r\n1. CAdES:
     between ETSI EN 319 122 parts 1 and 2 and their preceding specifications namely
     ETSI TS 101 733 and ETSI TS 103 173.\r\n2. XAdES: between ETSI EN 319 132 parts
@@ -55,21 +64,27 @@ abstract:
     specifications namely ETSI TS 102 778 and ETSI TS 103 172.\r\n4. ASiC: between
     ETSI EN 319 162 parts 1 and 2 and their preceding specifications namely ETSI TS
     102 918 and ETSI TS 103 174.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASiC
-- content: CAdES
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
-- content: XAdES
+- taxon:
+  - language: en
+    script: Latn
+    content: ASiC
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: XAdES
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

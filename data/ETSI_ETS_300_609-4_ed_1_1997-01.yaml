@@ -1,67 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300609-4ed.11997-01
+id: ETSIETS3006094ed1199701
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2) (GSM); Base Station
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2) (GSM); Base Station
     System (BSS) equipment specification; Part 4: Repeaters (GSM 11.26)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3869
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30060904/01_60/ets_30060904e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 609-4 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3869
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30060904/01_60/ets_30060904e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 609-4 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 609-4 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Base Station System (BSS) Testing  (GSM 11.20)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) describes the Radio Fre\r\nquency
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) describes the Radio Fre\r\nquency
     (RF) tests for GSM 900 and DCS 1800 repeaters which receive, am\r\nplify, and
     retransmit a received Mobile Station (MS) signal in the GSM\r\nMS transmit band
     and simultaneously receive, amplify and retransmit a\r\nreceived Base Transceiver
     Station (BTS) RF signal in the GSM BTS tran\r\nsmit band.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BSS
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: REPEATER
+- taxon:
+  - language: en
+    script: Latn
+    content: BSS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REPEATER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Base Station System (BSS) Testing  (GSM 11.20)
+    content: European Telecommunication Standard

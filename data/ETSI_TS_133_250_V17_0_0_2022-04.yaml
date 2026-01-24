@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS133250V17.0.02022-04
+id: ETSITS133250V1700202204
+schema_version: v1.4.1
 title:
-- content: LTE; Security assurance specification for the PGW network product class
+- language: en
+  script: Latn
+  content: LTE; Security assurance specification for the PGW network product class
     (3GPP TS 33.250 version 17.0.0 Release 17)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64888
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/133200_133299/133250/17.00.00_60/ts_133250v170000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 133 250 V17.0.0 (2022-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64888
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/133200_133299/133250/17.00.00_60/ts_133250v170000p.pdf
+docidentifier:
+- content: ETSI TS 133 250 V17.0.0 (2022-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 133 250 V17.0.0 (2022-04)
 date:
 - type: published
-  value: 2022-04
+  at: 2022-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.0.0
-revdate: 2022-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#95-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#95-e
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103451V1.1.12016-11
+id: ETSITR103451V111201611
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices (SRD); Technical
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices (SRD); Technical
     characteristics for UHF wideband Ultra Low Power Wireless Medical Capsule Endoscopy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50051
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103451/01.01.01_60/tr_103451v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 451 V1.1.1 (2016-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50051
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103451/01.01.01_60/tr_103451v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 451 V1.1.1 (2016-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 451 V1.1.1 (2016-11)
 date:
 - type: published
-  value: 2016-11
+  at: 2016-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Description of market demand and technical requirements for wideband ULP
+- language: en
+  script: Latn
+  content: "Description of market demand and technical requirements for wideband ULP
     \ Wireless Medical Capsule Endoscopy in the UHF band in the 430-440 MHz frequency
     range.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HEALTH
-- content: RADIO
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

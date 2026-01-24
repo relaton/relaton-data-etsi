@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103224V1.7.12025-11
+id: ETSITS103224V171202511
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); A sound field reproduction
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); A sound field reproduction
     method for terminal testing including a background noise database
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70017
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103224/01.07.01_60/ts_103224v010701p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 224 V1.7.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70017
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103224/01.07.01_60/ts_103224v010701p.pdf
+docidentifier:
+- content: ETSI TS 103 224 V1.7.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 224 V1.7.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A sound field reproduction technique is described allowing the physical
+- language: en
+  script: Latn
+  content: "A sound field reproduction technique is described allowing the physical
     reproduction of real, prerecorded sound fields in a laboratory type environment.
     In contrast to other methodologies the technique is targeted to reproduce the
     spectral, temporal and spatial characteristics of sound fields. The method is
@@ -59,20 +68,24 @@ abstract:
     If applicable, additional requirements on the maximum distortion and playback
     level of the loudspeakers/sub-woofer used in the sound field reproduction will
     be defined based on the new recordings."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NOISE
-- content: QUALITY
-- content: SPEECH
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: NOISE
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

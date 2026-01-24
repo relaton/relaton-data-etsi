@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100812-1V2.2.52003-10
+id: ETSITS1008121V225200310
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Subscriber Identity Module to Mobile
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Subscriber Identity Module to Mobile
     Equipment (SIM-ME) interface; Part 1: Universal Integrated Circuit Card (UICC);
     Physical and logical characteristics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19258
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100800_100899/10081201/02.02.05_60/ts_10081201v020205p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 812-1 V2.2.5 (2003-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19258
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100800_100899/10081201/02.02.05_60/ts_10081201v020205p.pdf
+docidentifier:
+- content: ETSI TS 100 812-1 V2.2.5 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 812-1 V2.2.5 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.5
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Inclusion of Change Request due to error in definition of the name of
+- language: en
+  script: Latn
+  content: "Inclusion of Change Request due to error in definition of the name of
     the application TSIM.\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: SECURITY
-- content: SIM
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SIM
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

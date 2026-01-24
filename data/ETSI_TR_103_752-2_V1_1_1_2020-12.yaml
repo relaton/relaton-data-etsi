@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103752-2V1.1.12020-12
+id: ETSITR1037522V111202012
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Dynamic substitution of content in linear
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Dynamic substitution of content in linear
     broadcast; Part 2: Interfacing to an advert decisioning service and optimal preparation
     of media'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59380
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/10375202/01.01.01_60/tr_10375202v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 752-2 V1.1.1 (2020-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59380
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/10375202/01.01.01_60/tr_10375202v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 752-2 V1.1.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 752-2 V1.1.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document provides guidance and recommended practice for delivering
+- language: en
+  script: Latn
+  content: This document provides guidance and recommended practice for delivering
     and measuring targeted adverts in horizontal and vertical market deployments using
     in-market advert technology. The focus of this document pertains to the context
     of linear broadcast and the substitution with IP delivered adverts.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Advertisement
-- content: BROADCASTING
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: Advertisement
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101953-1-3V1.1.22003-06
+id: ETSITR10195313V112200306
+schema_version: v1.4.1
 title:
-- content: 'Access network xDSL transmission filters; Part 1: ADSL splitters for European
+- language: en
+  script: Latn
+  content: 'Access network xDSL transmission filters; Part 1: ADSL splitters for European
     deployment; Sub-part 3: Testing methods for ADSL/ISDN splitters'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18835
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530103/01.01.02_60/tr_1019530103v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 953-1-3 V1.1.2 (2003-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18835
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530103/01.01.02_60/tr_1019530103v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 953-1-3 V1.1.2 (2003-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 953-1-3 V1.1.2 (2003-06)
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2003-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present v1.1.2 of TR 101 953-1-3 is a purely editorial revision of
+- language: en
+  script: Latn
+  content: "The present v1.1.2 of TR 101 953-1-3 is a purely editorial revision of
     the v1.1.1 in order to correct the corrupted figure 10. and some other minor error
     in the doc. The original (v1.1.1) scope of the deliverable is below: \r\n\r\nThe
     purposeof this Work Item is to produce an ETSI Technical Report (TR) document
@@ -69,21 +78,27 @@ abstract:
     all DSL splitter specifications including the low-pass section of POTS splitters.\r\nThe
     following splitters are included within the scope of the present work item: ADSL/POT(with
     ot without HPF), ADSL/ISDN-BA, VDSL/POTS (with or without HPF), VDSL/ISDN-BA."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: ISDN
-- content: Splitter
-- content: TESTING
-- content: xDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: xDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TM Access Networks
+    content: Technical Report

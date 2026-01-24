@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102892V1.1.22011-07
+id: ETSITR102892V112201107
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); SRD radar
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); SRD radar
     equipment using Wideband Low Activity Mode (WLAM) and operating in the frequency
     range from 24,05 GHz to 24,50 GHz; System Reference Document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37737
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102892/01.01.02_60/tr_102892v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 892 V1.1.2 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37737
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102892/01.01.02_60/tr_102892v010102p.pdf
+docidentifier:
+- content: ETSI TR 102 892 V1.1.2 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 892 V1.1.2 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The new TR will explain: \r\n- the need for improving the existing narrowband
+- language: en
+  script: Latn
+  content: "The new TR will explain: \r\n- the need for improving the existing narrowband
     24GHz-NB radars operating in the 24,05-24,25GHz ISM band, \r\n- the WLAM operation
     mode operating in the range from 24.05 to 24.5 GHz.\r\n- the operating and activation
     mechanism and scenarios \r\n- the emission levels and protection criteria for
     other services and systems in the operating and adjacent frequency ranges"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: RADIO
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: Technical Report

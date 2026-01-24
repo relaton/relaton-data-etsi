@@ -1,68 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300967ed.21998-03
+id: ETSIETS300967ed2199803
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Half rate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Half rate
     speech; ANSI-C code for the GSM half rate speech codec ANSI-C code for the GSM
     half rate speech codec (GSM 06.06 version 5.1.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5737
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300967/02_60/ets_300967e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 967 ed.2 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5737
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300967/02_60/ets_300967e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 967 ed.2 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 967 ed.2 (1998-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) contains an electronic\r\ncopy
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) contains an electronic\r\ncopy
     of the ANSI-C code for the GSM half rate codec. The ANSI-C code i\r\ns necessary
     for a bit exact implementation of the half rate speech tra\r\nnscoder (GSM 06.20
     (ETS 300 969) [2]), Voice Activity Detector (GSM 06\r\n.42 (ETS 300 973) [6]),
     comfort noise (GSM 06.22 (ETS 300 971) [4]), D\r\niscontinuous Transmission (GSM
     06.41 (ETS 300 972) [5]) and example so\r\nlutions for substituting and muting
     of lost frames (GSM 06.21 (ETS 300\r\n970) [3])\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: DISKETTE
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DISKETTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Telecommunication Standard

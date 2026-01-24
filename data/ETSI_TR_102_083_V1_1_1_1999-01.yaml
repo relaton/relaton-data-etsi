@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102083V1.1.11999-01
+id: ETSITR102083V111199901
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Supplementary service codes for use in public network
+- language: en
+  script: Latn
+  content: Human Factors (HF); Supplementary service codes for use in public network
     services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4370
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102083/01.01.01_60/tr_102083v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 083 V1.1.1 (1999-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4370
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102083/01.01.01_60/tr_102083v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 083 V1.1.1 (1999-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 083 V1.1.1 (1999-01)
 date:
 - type: published
-  value: 1999-01
+  at: 1999-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document reports on the analysis of the answers to the TC/HF questionnaire
+- language: en
+  script: Latn
+  content: "This document reports on the analysis of the answers to the TC/HF questionnaire
     on service codes for supplementary services in public networks that was sent out
     in October 1997. It reports the creation of a register of supplementary service
     codes together with a database to facilitate the entry of the necessary base infiormation.
     Instructions are provided to enable the register to be maintained by the ETSI
     Secretariat.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: NETWORK
-- content: PUBLIC
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PUBLIC
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

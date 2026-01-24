@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA018V3.1.12017-07
+id: ETSIGSNFVIFA018V311201707
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Acceleration Technologies; Network
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Acceleration Technologies; Network
     Acceleration Interface Specification; Release 3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49478
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/018/03.01.01_60/gs_NFV-IFA018v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 018 V3.1.1 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49478
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/018/03.01.01_60/gs_NFV-IFA018v030101p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 018 V3.1.1 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 018 V3.1.1 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI will specify the message flows and information elements on the
+- language: en
+  script: Latn
+  content: "This WI will specify the message flows and information elements on the
     interface between the VNF and an allocated switch controlled by the VNF.\r\nThis
     WI is built on the DOPFR (Dynamic Optimization of Packet Flow Routing) use case
     in IFA001, it will analyze the position of the interface in the NFVI, and identify
@@ -55,20 +64,24 @@ abstract:
     aims to using a common language to define the semantics of the VNF while IFA002
     continuation will cover the EPD (Extensible Para-virtualized Device) specification.\r\nThe
     deliverable will be a normative specification."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Acceleration
-- content: INTERFACE
-- content: NETWORK
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: Acceleration
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102329V1.2.12007-06
+id: ETSITS102329V121200706
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-Point equipment; Radio equipment and antennas
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-Point equipment; Radio equipment and antennas
     for use in Point-to-Point High Density applications in the Fixed Services (HDFS)
     frequency band 64 GHz to 66 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21496
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102329/01.02.01_60/ts_102329v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 329 V1.2.1 (2007-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21496
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102329/01.02.01_60/ts_102329v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 329 V1.2.1 (2007-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 329 V1.2.1 (2007-06)
 date:
 - type: published
-  value: 2007-06
+  at: 2007-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Antennas
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2007-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Extension of the TS to frequency assignments based on frequency slots
+- language: en
+  script: Latn
+  content: "Extension of the TS to frequency assignments based on frequency slots
     of 30 MHz to form a channel or a block.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: DFRS
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TM Antennas
+    content: Technical Specification

@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101221V1.1.11999-03
+id: ETSITR101221V111199903
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); User guideline for Digital Satellite
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); User guideline for Digital Satellite
     News Gathering (DSNG) and other contribution applications by satellite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5462
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101221/01.01.01_60/tr_101221v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 221 V1.1.1 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5462
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101221/01.01.01_60/tr_101221v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 221 V1.1.1 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 221 V1.1.1 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Digital Satellite News Gathering (DSNG) applications; Implementation guidelines
+- language: en
+  script: Latn
+  content: "Digital Satellite News Gathering (DSNG) applications; Implementation guidelines
     for the use of EN 301 210 and EN 301 222.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: SNG
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: SNG
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

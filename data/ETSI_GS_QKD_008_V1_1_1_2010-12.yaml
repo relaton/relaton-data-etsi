@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD008V1.1.12010-12
+id: ETSIGSQKD008V111201012
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); QKD Module Security Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30487
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/008/01.01.01_60/gs_QKD008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 008 V1.1.1 (2010-12)
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); QKD Module Security Specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30487
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/008/01.01.01_60/gs_QKD008v010101p.pdf
+docidentifier:
+- content: ETSI GS QKD 008 V1.1.1 (2010-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 008 V1.1.1 (2010-12)
 date:
 - type: published
-  value: 2010-12
+  at: 2010-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "\r\nThe goal of this task is to produce generic security specifications
+- language: en
+  script: Latn
+  content: "\r\nThe goal of this task is to produce generic security specifications
     for QKD systems. Based on a thorough security analysis, the steps foreseen in
     the Common Criteria ISO/EN 15408 standard shall be carried out. These are the
     definition of security objectives and underlying functional security requirements.
@@ -54,21 +63,27 @@ abstract:
     developers will be enabled to develop and specify their systems in concordance
     with this generic QKD security specification as a prerequisite for security evaluation
     and accreditation of their systems for qualified use.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: PROTOCOL
-- content: Quantum Key Distribution
-- content: SECURITY
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

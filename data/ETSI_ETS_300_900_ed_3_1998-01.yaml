@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300900ed.31998-01
+id: ETSIETS300900ed3199801
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Alphabets
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Alphabets
     and language-specific information (GSM 03.38 version 5.6.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5725
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300900/03_60/ets_300900e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 900 ed.3 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5725
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300900/03_60/ets_300900e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 900 ed.3 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 900 ed.3 (1998-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS defines the language-specific\r\nrequirements for GSM. These
+- language: en
+  script: Latn
+  content: "This ETS defines the language-specific\r\nrequirements for GSM. These
     are specific codepoints required by the\r\nSMS specifications which in turn are
     used not only for SMS (GSM 03.40,\r\n03.41) but also for Unstructured Data (GSM
     02.90) and may additionally\r\nbe used for MMI (GSM 02.30).\r\nThe specifications
     for the DCE/DTE interface (GSM 07.05, 07.06) will\r\nalso use the codes specified
     herein for the transfer of SMS data to an\r\nexternal terminal.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

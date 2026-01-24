@@ -1,73 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302686V1.1.12011-02
+id: ETSIEN302686V111201102
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Radiocommunications equipment operating
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Radiocommunications equipment operating
     in the 63 GHz to 64 GHz frequency band; Harmonized EN covering the essential requirements
     of article 3.2 of the R&TTE Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20587
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302600_302699/302686/01.01.01_60/en_302686v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 686 V1.1.1 (2011-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20587
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302600_302699/302686/01.01.01_60/en_302686v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 686 V1.1.1 (2011-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 686 V1.1.1 (2011-02)
 date:
 - type: published
-  value: 2011-02
+  at: 2011-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Candidate Harmonised Standard under the R&TTE Directive article 3.2 covering
+- language: en
+  script: Latn
+  content: "Candidate Harmonised Standard under the R&TTE Directive article 3.2 covering
     requirements and essential radio test suites of the technical parameters for vehicle
     to vehicle and vehicle to roadside/infrastructure in the 63 GHz to 64 GHz range.\r\nThe
     EN shall cover Physical Layer and MAC Layer parameters to avoid harmful interference.
     Special emphasis on requirements from European regulations involving spectrum
     management.\r\nThis work supports the eSafety initiative\r\nThis work is in co-operation
     with ISO TC 204 (Intelligent Transport Systems) ISO IS 21216."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: RADIO
-- content: REGULATION
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: European Standard

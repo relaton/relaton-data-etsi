@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300154ed.11994-02
+id: ETSIETS300154ed1199402
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Terminal characteristics for the telematic file
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Terminal characteristics for the telematic file
     transfer within the teletex service [ITU-T Recommendation T.571, modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1302
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300154/01_60/ets_300154e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 154 ed.1 (1994-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1302
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300154/01_60/ets_300154e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 154 ed.1 (1994-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 154 ed.1 (1994-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS contains the technical descriptions to implement the\r\nfunctionalities
+- language: en
+  script: Latn
+  content: "This ETS contains the technical descriptions to implement the\r\nfunctionalities
     necessary for the telematic file transfer\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: FAX
-- content: FT
-- content: GROUP 4
-- content: TELETEX
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: FAX
+  - language: en
+    script: Latn
+    content: FT
+  - language: en
+    script: Latn
+    content: GROUP 4
+  - language: en
+    script: Latn
+    content: TELETEX
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: European Telecommunication Standard

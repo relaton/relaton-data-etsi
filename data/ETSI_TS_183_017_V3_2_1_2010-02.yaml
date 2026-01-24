@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183017V3.2.12010-02
+id: ETSITS183017V321201002
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Resource and Admission Control: DIAMETER protocol for session
     based policy set-up information exchange between the Application Function (AF)
     and the Service Policy Decision Function (SPDF); Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30968
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183017/03.02.01_60/ts_183017v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 017 V3.2.1 (2010-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30968
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183017/03.02.01_60/ts_183017v030201p.pdf
+docidentifier:
+- content: ETSI TS 183 017 V3.2.1 (2010-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 017 V3.2.1 (2010-02)
 date:
 - type: published
-  value: 2010-02
+  at: 2010-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2010-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Scope of work to be undertaken:  to update Gq' interface: \r\n- Add new
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken:  to update Gq' interface: \r\n- Add new
     features to comply with the RACS Stage 2 Release 3 evolution (e.g. control of
     core network resources, support of new IPTV services added in Release 3)\r\n-
     Update the specification of the session modification procedure (In the current
     Release 2 specification, some problems may happen (see 19tTD199r1))"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

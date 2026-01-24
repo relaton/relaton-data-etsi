@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI003V1.1.12018-05
+id: ETSIGRENI003V111201805
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Context-Aware Policy Management
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Context-Aware Policy Management
     Gap Analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52852
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/003/01.01.01_60/gr_ENI003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 003 V1.1.1 (2018-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52852
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/003/01.01.01_60/gr_ENI003v010101p.pdf
+docidentifier:
+- content: ETSI GR ENI 003 V1.1.1 (2018-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 003 V1.1.1 (2018-05)
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A critical foundation of experiential networked intelligence is context-
+- language: en
+  script: Latn
+  content: A critical foundation of experiential networked intelligence is context-
     and situation-awareness. This WI will analyse work done in various SDOs on network
     policy management in general, and context-aware network policy management specifically,
     to determine what can be reused and what needs to be developed. The requirements
     documented in this report will be considered during the architecture design work
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: NETWORK
-- content: policy management
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: policy management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

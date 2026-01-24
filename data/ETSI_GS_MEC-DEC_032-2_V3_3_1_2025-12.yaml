@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC-DEC032-2V3.3.12025-12
+id: ETSIGSMECDEC0322V331202512
+schema_version: v1.4.1
 title:
-- content: 'Multi-access Edge Computing (MEC); API Conformance Test Specification;
+- language: en
+  script: Latn
+  content: 'Multi-access Edge Computing (MEC); API Conformance Test Specification;
     Part 2: Test Purposes (TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73700
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC-DEC/001_099/03202/03.03.01_60/gs_MEC-DEC03202v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC-DEC 032-2 V3.3.1 (2025-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73700
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC-DEC/001_099/03202/03.03.01_60/gs_MEC-DEC03202v030301p.pdf
+docidentifier:
+- content: ETSI GS MEC-DEC 032-2 V3.3.1 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC-DEC 032-2 V3.3.1 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Deployment and ECOsystem DEvelopment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item is for MEC phase 3 maintenance and alignment of part 2
+- language: en
+  script: Latn
+  content: 'This work item is for MEC phase 3 maintenance and alignment of part 2
     of a multi-part conformance test specification, for the MEC service APIs (including
     MEC 045, 046 & 048) and the MEC APIs specified in MEC 010-2 and MEC 011. Part
     2 includes the Test Suite Structure (TSS) and Test Purposes (TPs) using the standardized
     notation TDL_TO.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: CONFORMANCE
-- content: MEC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Deployment and ECOsystem DEvelopment
+    content: Group Specification

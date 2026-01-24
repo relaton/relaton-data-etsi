@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300767ed.11997-07
+id: ETSIETS300767ed1199707
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Telephone Prepayment Cards; Tactile Identifier
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2832
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300767/01_60/ets_300767e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 767 ed.1 (1997-07)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Telephone Prepayment Cards; Tactile Identifier
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2832
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300767/01_60/ets_300767e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 767 ed.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 767 ed.1 (1997-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: People with Special Needs
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To standardize one common tactile identifier to improve the usability
+- language: en
+  script: Latn
+  content: "To standardize one common tactile identifier to improve the usability
     of telephone prepayment cards for all users, especially blind and visually impaired
     people.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: MMI
-- content: PWSN
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: PWSN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: People with Special Needs
+    content: European Telecommunication Standard

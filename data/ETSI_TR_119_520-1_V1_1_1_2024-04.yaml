@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119520-1V1.1.12024-04
+id: ETSITR1195201V111202404
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Trust Infrastructures (ESI); Framework of ERDS/REM
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Trust Infrastructures (ESI); Framework of ERDS/REM
     standards; Part 1: New (Q)ERDS/(Q)ERDSP standardization rationalized framework
     as a result of the new components brought by eIDAS2.0'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66852
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119500_119599/11952001/01.01.01_60/tr_11952001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 520-1 V1.1.1 (2024-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66852
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119500_119599/11952001/01.01.01_60/tr_11952001v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 520-1 V1.1.1 (2024-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 520-1 V1.1.1 (2024-04)
 date:
 - type: published
-  value: 2024-04
+  at: 2024-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document will define the new framework of standards that specify
+- language: en
+  script: Latn
+  content: "This document will define the new framework of standards that specify
     ERDS and REM, identifying the most relevant changes to be performed in the framework
     currently existing, among which, the incorporation of an ERDS HTTP-based baseline,
     offering similar features than REM baseline but on HTTP-based protocols; those
@@ -57,21 +66,27 @@ abstract:
     also contain recommendations for updating ETSI TR 119 000 and ETSI TR 119 001.\r\nFinally,
     this document will also identify the issues that may impact the policy and security
     requirements standard.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ERDS
-- content: QERDS
-- content: QREM
-- content: REM
-- content: standards framework
+- taxon:
+  - language: en
+    script: Latn
+    content: ERDS
+  - language: en
+    script: Latn
+    content: QERDS
+  - language: en
+    script: Latn
+    content: QREM
+  - language: en
+    script: Latn
+    content: REM
+  - language: en
+    script: Latn
+    content: standards framework
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Report

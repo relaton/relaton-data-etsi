@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSF5G-TEST029V1.1.12025-08
+id: ETSIGSF5GTEST029V111202508
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); Test Specification for Residential
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); Test Specification for Residential
     FTTR Functionality and Performance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69540
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/F5G-TEST/001_099/029/01.01.01_60/gs_F5G-TEST029v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS F5G-TEST 029 V1.1.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69540
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/F5G-TEST/001_099/029/01.01.01_60/gs_F5G-TEST029v010101p.pdf
+docidentifier:
+- content: ETSI GS F5G-TEST 029 V1.1.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS F5G-TEST 029 V1.1.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will specify the test methodology and criteria of the functionality
+- language: en
+  script: Latn
+  content: This Work Item will specify the test methodology and criteria of the functionality
     and performance of ITU-T G.fin-based on-premises network. The test specification
     includes optical interfaces and the coordination with Wi-Fi interfaces in residential
     scenarios.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: F5G
-- content: FIBRE
-- content: FTTR
-- content: residential network
-- content: test
+- taxon:
+  - language: en
+    script: Latn
+    content: F5G
+  - language: en
+    script: Latn
+    content: FIBRE
+  - language: en
+    script: Latn
+    content: FTTR
+  - language: en
+    script: Latn
+    content: residential network
+  - language: en
+    script: Latn
+    content: test
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: TEST
+    content: Group Specification

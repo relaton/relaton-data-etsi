@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103525-3V1.2.22022-07
+id: ETSITS1035253V122202207
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Testing; Conformance test specifications
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Testing; Conformance test specifications
     for ITS PKI management; Part 3: Abstract Test Suite (ATS) and Protocol Implementation
     eXtra Information for Testing (PIXIT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66202
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352503/01.02.02_60/ts_10352503v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 525-3 V1.2.2 (2022-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66202
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352503/01.02.02_60/ts_10352503v010202p.pdf
+docidentifier:
+- content: ETSI TS 103 525-3 V1.2.2 (2022-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 525-3 V1.2.2 (2022-07)
 date:
 - type: published
-  value: 2022-07
+  at: 2022-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2022-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To implement changes agreed with the EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To implement changes agreed with the EU
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: PIXIT
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

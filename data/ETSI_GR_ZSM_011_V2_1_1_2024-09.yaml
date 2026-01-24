@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRZSM011V2.1.12024-09
+id: ETSIGRZSM011V211202409
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Intent-driven autonomous
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Intent-driven autonomous
     networks; Generic aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67446
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/011/02.01.01_60/gr_ZSM011v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ZSM 011 V2.1.1 (2024-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67446
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/011/02.01.01_60/gr_ZSM011v020101p.pdf
+docidentifier:
+- content: ETSI GR ZSM 011 V2.1.1 (2024-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR ZSM 011 V2.1.1 (2024-09)
 date:
 - type: published
-  value: 2024-09
+  at: 2024-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2024-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This second edition of the ZSM011 study further investigates the potential
+- language: en
+  script: Latn
+  content: "This second edition of the ZSM011 study further investigates the potential
     use of intents as key enabler for enhancing autonomous network and service management
     within the ZSM framework.\r\nThe Work Item may identify partially divergent approaches
     to Intent and how they may be considered in the context of future ZSM work."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: Autonomic Networking
-- content: GENERIC
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: GENERIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Report

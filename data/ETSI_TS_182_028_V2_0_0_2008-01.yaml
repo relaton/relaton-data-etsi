@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182028V2.0.02008-01
+id: ETSITS182028V200200801
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); IPTV Architecture; Dedicated subsystem for IPTV functions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25230
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182028/02.00.00_60/ts_182028v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 028 V2.0.0 (2008-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25230
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182028/02.00.00_60/ts_182028v020000p.pdf
+docidentifier:
+- content: ETSI TS 182 028 V2.0.0 (2008-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 028 V2.0.0 (2008-01)
 date:
 - type: published
-  value: 2008-01
+  at: 2008-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2008-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvIHNwZWNpZnkgdGhlIGFyY2hpdGVjdHVyZSBhbmQgZnVuY3Rpb25zIG9mIGFuIElQVFYgc3lzdGVtIGJ5IGluY29ycG9yYXRpbmcgSVBUViBmdW5jdGlvbnMgd2l0aGluIHRoZSBOR04gYXJjaGl0ZWN0dXJlLiBGb3IgZXhhbXBsZSwgaW50ZXJhY3Rpb25zIGFuZCBpbmZvcm1hdGlvbiBmbG93cyBiZXR3ZWVuIHRoZSBJUFRWIHN5c3RlbSB3aXRoIG90aGVyIGVudGl0aWVzIHdpbGwgYmUgc3BlY2lmaWVkLg0KRm9jdXMgc2hvdWxkIGJlIG9uIGludGVncmF0aW5nIElQVFYgc29sdXRpb25zIChzdWNoIGFzIHRob3NlIGRlZmluZWQgYnkgRFZCLCBBVElTIElJRiBldGMpIHdpdGggdGhlIE5HTiBhcmNoaXRlY3R1cmUuDQpUaGUgcmVzdWx0aW5nIGFyY2hpdGVjdHVyZSBzaG91bGQsIGJ5IHJlbHlpbmcgYXMgbXVjaCBhcyBwb3NzaWJsZSBvbiBjb21tb24gY29tcG9uZW50cywgY29leGlzdCB3aXRoIG90aGVyIFRJU1BBTiBOR04gc2VydmljZXMuDQpGb3IgZXhhbXBsZSwgYXR0ZW50aW9uIHNob3VsZCBiZSBnaXZlbiB0byB0aGUgZm9sbG93aW5nOg0KwrdBdXRoZW50aWNhdGlvbiBhbmQgYXV0aG9yaXNhdGlvbg0KwrdDb250ZW50IFByb3RlY3Rpb24gKGluY2x1ZGluZyBEUk0pDQrCt0NhcGFiaWxpdHkgZXhjaGFuZ2UNCsK3UmVzb3VyY2UgTWFuYWdlbWVudA0KwrdQb2xpY3kgTWFuYWdlbWVudA0KwrdDaGFyZ2luZyANCsK3VXNlciBQcm9maWxlcw0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this work item is to specify the architecture and functions
+    of an IPTV system by incorporating IPTV functions within the NGN architecture.
+    For example, interactions and information flows between the IPTV system with other
+    entities will be specified.\r\nFocus should be on integrating IPTV solutions (such
+    as those defined by DVB, ATIS IIF etc) with the NGN architecture.\r\nThe resulting
+    architecture should, by relying as much as possible on common components, coexist
+    with other TISPAN NGN services.\r\nFor example, attention should be given to the
+    following:\r\nAuthentication and authorisation\r\nContent Protection (including
+    DRM)\r\nCapability exchange\r\nResource Management\r\nPolicy Management\r\nCharging
+    \r\nUser Profiles\r\n"
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: IP
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Specification

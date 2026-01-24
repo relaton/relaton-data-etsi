@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102516V3.1.12008-02
+id: ETSITS102516V311200802
+schema_version: v1.4.1
 title:
-- content: 'Methods for Testing and Specification (MTS); Internet Protocol Testing
+- language: en
+  script: Latn
+  content: 'Methods for Testing and Specification (MTS); Internet Protocol Testing
     (IPT): IPv6 Core Protocol; Conformance Abstract Test Suite (ATS) and partial Protocol
     Implementation eXtra Information for Testing (PIXIT) proforma'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25202
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102516/03.01.01_60/ts_102516v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 516 V3.1.1 (2008-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25202
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102516/03.01.01_60/ts_102516v030101p.pdf
+docidentifier:
+- content: ETSI TS 102 516 V3.1.1 (2008-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 516 V3.1.1 (2008-02)
 date:
 - type: published
-  value: 2008-02
+  at: 2008-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IP Testing Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2008-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Updated Abstract Test Suite (ATS) in TTCN-3 for the conformance testing
+- language: en
+  script: Latn
+  content: Updated Abstract Test Suite (ATS) in TTCN-3 for the conformance testing
     of the core IPv6 protocol. This includes all the documentation work done for 006[3]-IPv6-CorATS
     + correction of all received change requests.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: IPv6
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IP Testing Group
+    content: Technical Specification

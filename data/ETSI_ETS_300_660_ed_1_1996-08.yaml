@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300660ed.11996-08
+id: ETSIETS300660ed1199608
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Synchronization and Co-ordination
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Synchronization and Co-ordination
     Function (SCF) for the provision of the OSI Connection-mode Network Service (OSI
     CONS) in an ISDN environment; Specification of SCF [ITU-T Recommendation Q.923
     (1995), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3323
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300660/01_60/ets_300660e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 660 ed.1 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3323
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300660/01_60/ets_300660e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 660 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 660 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of a function to co-ordinate the control and the user\r\nplane
+- language: en
+  script: Latn
+  content: "Specification of a function to co-ordinate the control and the user\r\nplane
     at the user side of an ISDN access, based on service primitives\r\nof sub-networks
     (at upper boundaries of C- and U-plane). The SCF\r\nprovides the OSI Network Service\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: ENDORSEMENT
-- content: ISDN
-- content: NETWORK
-- content: OSI
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: OSI
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

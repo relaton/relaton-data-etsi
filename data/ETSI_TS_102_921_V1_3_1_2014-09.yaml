@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102921V1.3.12014-09
+id: ETSITS102921V131201409
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); mIa, dIa and mId interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43275
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102921/01.03.01_60/ts_102921v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 921 V1.3.1 (2014-09)
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); mIa, dIa and mId interfaces
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43275
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102921/01.03.01_60/ts_102921v010301p.pdf
+docidentifier:
+- content: ETSI TS 102 921 V1.3.1 (2014-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 921 V1.3.1 (2014-09)
 date:
 - type: published
-  value: 2014-09
+  at: 2014-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2014-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This RTS will allow to cover maintenance and essential corrections to
+- language: en
+  script: Latn
+  content: "This RTS will allow to cover maintenance and essential corrections to
     the M2M interfaces, by means of Change Requests, based on TS 102 921 v121. This
     work shall not include new features.\r\n\r\nThe 3 mentioned interfaces are expected
     to have commonalities in term of stage 3 definition, so one single TS is currently
     envisaged, but the possible split (one TS for each interface) will be evaluated
     when this specification will become stable."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: M2M
-- content: PROTOCOL
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

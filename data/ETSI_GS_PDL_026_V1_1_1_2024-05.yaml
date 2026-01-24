@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSPDL026V1.1.12024-05
+id: ETSIGSPDL026V111202405
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledgers (PDL); PDL in Settlement of Usage-Based
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledgers (PDL); PDL in Settlement of Usage-Based
     Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69464
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/026/01.01.01_60/gs_PDL026v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS PDL 026 V1.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69464
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/026/01.01.01_60/gs_PDL026v010101p.pdf
+docidentifier:
+- content: ETSI GS PDL 026 V1.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS PDL 026 V1.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This WI will \r\nDefine the following: Use of PDL in Settlement of Usage-Based
+- language: en
+  script: Latn
+  content: "This WI will \r\nDefine the following: Use of PDL in Settlement of Usage-Based
     Services; the form of acquiring usage data by each stakeholder; the form of sharing
     usage data by stakeholders on a PDL; the process of resolving disputes/differences
     between data shared by different stakeholders; the process of invoicing, netting
     and payment. The GS will include flow diagrams."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: Distributed Ledger
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: Distributed Ledger
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Specification

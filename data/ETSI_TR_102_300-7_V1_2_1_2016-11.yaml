@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102300-7V1.2.12016-11
+id: ETSITR1023007V121201611
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D): Designers''
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D): Designers''
     guide; Part 7: TETRA High-Speed Data (HSD); TETRA Enhanced Data Service (TEDS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38897
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230007/01.02.01_60/tr_10230007v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 300-7 V1.2.1 (2016-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38897
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10230007/01.02.01_60/tr_10230007v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 300-7 V1.2.1 (2016-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 300-7 V1.2.1 (2016-11)
 date:
 - type: published
-  value: 2016-11
+  at: 2016-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE High Speed Data
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Updates to reflect recent changes to the packet data clauses including
+- language: en
+  script: Latn
+  content: "Updates to reflect recent changes to the packet data clauses including
     Direct Access, and to incorporate roaming scenarios and other informative information.\r\nThe
     present TR has a new ETSI number and is a revision of the TR 102 580)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: SERVICE
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE High Speed Data
+    content: Technical Report

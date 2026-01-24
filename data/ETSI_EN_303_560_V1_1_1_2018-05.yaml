@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303560V1.1.12018-05
+id: ETSIEN303560V111201805
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); TTML subtitling systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53568
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303500_303599/303560/01.01.01_60/en_303560v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 560 V1.1.1 (2018-05)
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); TTML subtitling systems
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53568
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303500_303599/303560/01.01.01_60/en_303560v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 560 V1.1.1 (2018-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 560 V1.1.1 (2018-05)
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The specification will enable the delivery of next generation subtitles
+- language: en
+  script: Latn
+  content: The specification will enable the delivery of next generation subtitles
     in transport streams for broadcast television services, based on W3C Timed Text
     Markup Language (TTML). It will specify the transport of TTML subtitle streams
     in DVB MPEG-2 transport streams, based on the MPEG 2 system described in ISO/IEC
     13818 1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: DIGITAL
-- content: DVB
-- content: subtitle
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: subtitle
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

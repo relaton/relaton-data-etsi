@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302099V1.1.12002-01
+id: ETSIEN302099V111200201
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Powering of equipment in access network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4826
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/302099/01.01.01_60/en_302099v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 099 V1.1.1 (2002-01)
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Powering of equipment in access network
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4826
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/302099/01.01.01_60/en_302099v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 099 V1.1.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 099 V1.1.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To address local & remote powering, power management (alarms), safety,\r\nearthing
+- language: en
+  script: Latn
+  content: "To address local & remote powering, power management (alarms), safety,\r\nearthing
     & bonding, resistibility & EMC, environmental conditions.\r\nLiaison required
     with CLC TC215.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Power Supply
+    content: European Standard

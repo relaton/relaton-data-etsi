@@ -1,65 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201803-7V1.1.12002-05
+id: ETSIES2018037V111200205
+schema_version: v1.4.1
 title:
-- content: 'Dynamic synchronous Transfer Mode (DTM); Part 7: Ethernet over DTM Mapping'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10835
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201800_201899/20180307/01.01.01_60/es_20180307v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 803-7 V1.1.1 (2002-05)
+- language: en
+  script: Latn
+  content: 'Dynamic synchronous Transfer Mode (DTM); Part 7: Ethernet over DTM Mapping'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10835
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201800_201899/20180307/01.01.01_60/es_20180307v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 803-7 V1.1.1 (2002-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 803-7 V1.1.1 (2002-05)
 date:
 - type: published
-  value: 2002-05
+  at: 2002-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Ethernet over DTM mapping\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Ethernet over DTM mapping\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: DTM
-- content: ethernet
-- content: LAN
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DTM
+  - language: en
+    script: Latn
+    content: ethernet
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: ETSI Standard

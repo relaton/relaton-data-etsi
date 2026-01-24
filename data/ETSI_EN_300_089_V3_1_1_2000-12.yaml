@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300089V3.1.12000-12
+id: ETSIEN300089V311200012
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Calling Line Identification
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Calling Line Identification
     Presentation (CLIP) supplementary service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10178
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300001_300099/300089/03.01.01_60/en_300089v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 089 V3.1.1 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10178
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300001_300099/300089/03.01.01_60/en_300089v030101p.pdf
+docidentifier:
+- content: ETSI EN 300 089 V3.1.1 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 089 V3.1.1 (2000-12)
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ISDN/PSTN and IN services and mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2000-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This deliverable specifies the enhancements of the CLIP service description
+- language: en
+  script: Latn
+  content: This deliverable specifies the enhancements of the CLIP service description
     to handle the new CLI indicator "presentation restricted by network" for support
     of e.g. Anonymous Call Rejection (ACR). This is the third version of 300 089.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIP
-- content: ISDN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ISDN/PSTN and IN services and mobility
+    content: European Standard

@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103492V1.1.12019-01
+id: ETSITR103492V111201901
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Critical Infrastructure Utility Operations
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Critical Infrastructure Utility Operations
     requirements for Smart Grid systems, other radio systems, and future radio spectrum
     access arrangements below 1,5 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50939
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103492/01.01.01_60/tr_103492v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 492 V1.1.1 (2019-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50939
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103492/01.01.01_60/tr_103492v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 492 V1.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 492 V1.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Critical Infrastructure Utility Operations requirements for: \r\n- Smart
+- language: en
+  script: Latn
+  content: "Critical Infrastructure Utility Operations requirements for: \r\n- Smart
     Grid / Meter systems; \r\n- other radio systems; and \r\n- future radio spectrum
     access arrangements. \r\nThis SRDoc will build on the information presented in
     TR 103 401"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: dPMR
-- content: M2M
-- content: PMR
-- content: resilience
-- content: Smart Grid
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: dPMR
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: resilience
+  - language: en
+    script: Latn
+    content: Smart Grid
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101949V1.1.12002-07
+id: ETSITR101949V111200207
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); QoS parameter
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); QoS parameter
     definitions and measurements for use in network-to-network narrowband interconnection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11726
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101949/01.01.01_60/tr_101949v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 949 V1.1.1 (2002-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11726
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101949/01.01.01_60/tr_101949v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 949 V1.1.1 (2002-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 949 V1.1.1 (2002-07)
 date:
 - type: published
-  value: 2002-07
+  at: 2002-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Processing, Transmission and Quality Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Report contains harmonised definitions and measurement methods
+- language: en
+  script: Latn
+  content: This Technical Report contains harmonised definitions and measurement methods
     for a range of Quality of Service (QoS) parameters that relate to network-network
     interconnection. The purpose of these parameters is to define objective and comparable
     measures of the QoS delivered at points of interconnection. The establishment
@@ -59,19 +68,21 @@ abstract:
     geographic and non-geographic numbers; Fixed to mobile; Mobile to mobile; All
     forms of services with special user tariff arrangements such as freephone, shared
     cost and premium rate.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: QoS
-- content: QUALITY
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: QUALITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech Processing, Transmission and Quality Aspects
+    content: Technical Report

@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301918V1.1.12003-06
+id: ETSIEN301918V111200306
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Specification, functional model
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Specification, functional model
     and information flows; Single step call transfer supplementary service [ISO/IEC
     19459 (2001) modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8785
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301900_301999/301918/01.01.01_60/en_301918v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 918 V1.1.1 (2003-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8785
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301900_301999/301918/01.01.01_60/en_301918v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 918 V1.1.1 (2003-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 918 V1.1.1 (2003-06)
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Single Step Call Transfer is a service which enables a User, user A, to
+- language: en
+  script: Latn
+  content: "Single Step Call Transfer is a service which enables a User, user A, to
     transform an existing call between user A and user B into a new call between user
     B and a user C whereby user A does not have a call established with user C prior
     to call transfer.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: PINX
-- content: PISN
-- content: QSIG
-- content: STAGE 1
-- content: STAGE 2
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: STAGE 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Standard

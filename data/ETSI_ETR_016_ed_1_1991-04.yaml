@@ -1,60 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR016ed.11991-04
+id: ETSIETR016ed1199104
+schema_version: v1.4.1
 title:
-- content: Business Telecommunications (BT); Serveability performance objectives for
+- language: en
+  script: Latn
+  content: Business Telecommunications (BT); Serveability performance objectives for
     Private Telecommunications Networks (PTN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=324
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/016/01_60/etr_016e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 016 ed.1 (1991-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=324
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/016/01_60/etr_016e01p.pdf
+docidentifier:
+- content: ETSI ETR 016 ed.1 (1991-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 016 ed.1 (1991-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "- To identify portion boundaries, reference connections and events;\r\n-
+- language: en
+  script: Latn
+  content: "- To identify portion boundaries, reference connections and events;\r\n-
     To specify performance objectives for speed of service, accuracy\r\ndependability
     and availability\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PERFORMANCE
-- content: PISN
+- taxon:
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: PISN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: ETSI Technical Report

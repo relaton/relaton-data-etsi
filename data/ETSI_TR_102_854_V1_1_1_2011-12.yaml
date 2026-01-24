@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102854V1.1.12011-12
+id: ETSITR102854V111201112
+schema_version: v1.4.1
 title:
-- content: User Group; The assessment of the overall Quality of Services (QoS) as
+- language: en
+  script: Latn
+  content: User Group; The assessment of the overall Quality of Services (QoS) as
     perceived by the users; Review of practical examples of service QoS assessments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37168
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102854/01.01.01_60/tr_102854v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 854 V1.1.1 (2011-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37168
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102854/01.01.01_60/tr_102854v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 854 V1.1.1 (2011-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 854 V1.1.1 (2011-12)
 date:
 - type: published
-  value: 2011-12
+  at: 2011-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document aims at explaining how the methodology described
+- language: en
+  script: Latn
+  content: "The present document aims at explaining how the methodology described
     in EG 202 843 can be implemented using QoS assessments from various sources to
     compare the QoS of services provided by different Service Providers (SP). Some
     of these results, used as examples in EG 202 934, are more detailed in the present
@@ -54,18 +63,18 @@ abstract:
     users according to best practices in this area. Nevertheless, this document should
     not be taken as an actual comparison of SP but rather as a tutorial about how
     such comparisons should be done, provided fully comparable data is available."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: QoS
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: QoS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: User Group
+    content: Technical Report

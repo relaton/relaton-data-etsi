@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102362-1V1.3.12007-06
+id: ETSITS1023621V131200706
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Conformance
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Conformance
     testing for the Digital Mobile Radio (DMR); Part 1: Protocol Implementation Conformance
     Statement (PICS) proforma'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24301
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10236201/01.03.01_60/ts_10236201v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 362-1 V1.3.1 (2007-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24301
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10236201/01.03.01_60/ts_10236201v010301p.pdf
+docidentifier:
+- content: ETSI TS 102 362-1 V1.3.1 (2007-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 362-1 V1.3.1 (2007-06)
 date:
 - type: published
-  value: 2007-06
+  at: 2007-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Mobile Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2007-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides the revised PICS proforma for ERM; Digital
+- language: en
+  script: Latn
+  content: "The present document provides the revised PICS proforma for ERM; Digital
     Mobile Radio (DMR), as defined in Air Interface specification TS 102361-1 v1.2.1,
     Voice and Generic Services and Facilities specification TS 102361-2 v1.2.1, Data
     specification TS 102361-3 v1.1.1 and Trunking specification TS 102361-4 v1.1.1,
@@ -55,20 +64,24 @@ abstract:
     guidance given in ISO/IEC 9646-7 and ETS 300 406.\r\nIt details in tabular form
     the implementation options, i.e. the optional functions additional to those which
     are mandatory to implement"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: PICS
-- content: PMR
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Digital Mobile Radio
+    content: Technical Specification

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301129V1.1.21999-05
+id: ETSIEN301129V112199905
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Digital Radio Relay Systems (DRRS);
     Synchronous Digital Hierarchy (SDH); System performance monitoring parameters
     of SDH DRRS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8084
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/301129/01.01.02_60/en_301129v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 129 V1.1.2 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8084
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/301129/01.01.02_60/en_301129v010102p.pdf
+docidentifier:
+- content: ETSI EN 301 129 V1.1.2 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 129 V1.1.2 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: " To define additional performance requirements for the management of SDH
+- language: en
+  script: Latn
+  content: " To define additional performance requirements for the management of SDH
     on DRRS."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DRRS
-- content: PERFORMANCE
-- content: QUALITY
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Standard

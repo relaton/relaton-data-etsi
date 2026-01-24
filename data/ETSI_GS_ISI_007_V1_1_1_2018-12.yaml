@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSISI007V1.1.12018-12
+id: ETSIGSISI007V111201812
+schema_version: v1.4.1
 title:
-- content: Information Security Indicators (ISI); Guidelines for building and operating
+- language: en
+  script: Latn
+  content: Information Security Indicators (ISI); Guidelines for building and operating
     a secured Security Operations Center (SOC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50920
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/007/01.01.01_60/gs_ISI007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ISI 007 V1.1.1 (2018-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50920
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ISI/001_099/007/01.01.01_60/gs_ISI007v010101p.pdf
+docidentifier:
+- content: ETSI GS ISI 007 V1.1.1 (2018-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS ISI 007 V1.1.1 (2018-12)
 date:
 - type: published
-  value: 2018-12
+  at: 2018-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Information Security Indicators
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document will list a set of requirements to build and operate
+- language: en
+  script: Latn
+  content: The present document will list a set of requirements to build and operate
     a secured SOC (Security Operations Center) addressing technical, human and process
     aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber-defence
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Information Security Indicators
+    content: Group Specification

@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM006V1.3.12024-03
+id: ETSIGSCIM006V131202403
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); NGSI-LD Information Model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69156
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.03.01_60/gs_CIM006v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 006 V1.3.1 (2024-03)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); NGSI-LD Information Model
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69156
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/006/01.03.01_60/gs_CIM006v010301p.pdf
+docidentifier:
+- content: ETSI GS CIM 006 V1.3.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 006 V1.3.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The purpose of this Group Specification is to define a cross-domain data
+- language: en
+  script: Latn
+  content: 'The purpose of this Group Specification is to define a cross-domain data
     model compatible with the NGSI-LD API defined in GS CIM 009. It is expected that
     work within ETSI SmartM2M and within oneM2M will influence this specification.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: INTEROPERABILITY
-- content: smart city
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: smart city
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

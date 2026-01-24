@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303808V1.1.12023-01
+id: ETSIEN303808V111202301
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Applicability of EN 45552 to EN 45559 methods
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Applicability of EN 45552 to EN 45559 methods
     for assessment of material efficiency aspects of ICT network infrastructure goods
     in the context of circular economy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59545
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303800_303899/303808/01.01.01_60/en_303808v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 808 V1.1.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59545
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303800_303899/303808/01.01.01_60/en_303808v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 808 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 808 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The standard will define an assessment of the direct applicability of eight
+- language: en
+  script: Latn
+  content: The standard will define an assessment of the direct applicability of eight
     general material efficiency standards to ICT network infrastructure goods in the
     context of circular economy. The existing generic standards address ability to
     remanufacture, repair, reuse, and upgrade; and recyclability and recoverability  ,
@@ -55,23 +64,33 @@ abstract:
     information provision. The present standard will determine if further metrics/KPI
     and measurement methodologies are necessary for ICT network infrastructure goods
     beyond each of the eight general standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASE STATION
-- content: Environmental impact
-- content: e-waste management
-- content: KPI
-- content: LCA
-- content: server
-- content: storage
+- taxon:
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: Environmental impact
+  - language: en
+    script: Latn
+    content: e-waste management
+  - language: en
+    script: Latn
+    content: KPI
+  - language: en
+    script: Latn
+    content: LCA
+  - language: en
+    script: Latn
+    content: server
+  - language: en
+    script: Latn
+    content: storage
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: European Standard

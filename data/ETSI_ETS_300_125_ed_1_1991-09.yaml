@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300125ed.11991-09
+id: ETSIETS300125ed1199109
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); User-network interface data
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); User-network interface data
     link layer specification; Application of CCITT Recommendations Q.920/I.440 and
     Q.921/I.441
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=95
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300125/01_60/ets_300125e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 125 ed.1 (1991-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=95
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300125/01_60/ets_300125e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 125 ed.1 (1991-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 125 ed.1 (1991-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ISDN User-Network Layer 2 Signalling Protocols and associated Test\r\nSpecifications\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "ISDN User-Network Layer 2 Signalling Protocols and associated Test\r\nSpecifications\r\n "
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CCS
-- content: DSS1
-- content: ISDN
-- content: LAPD
-- content: LAYER 2
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LAPD
+  - language: en
+    script: Latn
+    content: LAYER 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

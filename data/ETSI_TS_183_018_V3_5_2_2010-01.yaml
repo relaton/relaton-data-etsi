@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183018V3.5.22010-01
+id: ETSITS183018V352201001
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Resource and Admission Control: H.248 Profile Version 3 for
     controlling Border Gateway Functions (BGF) in the Resource and Admission Control
     Subsystem (RACS); Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31966
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183018/03.05.02_60/ts_183018v030502p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 018 V3.5.2 (2010-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31966
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183018/03.05.02_60/ts_183018v030502p.pdf
+docidentifier:
+- content: ETSI TS 183 018 V3.5.2 (2010-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 018 V3.5.2 (2010-01)
 date:
 - type: published
-  value: 2010-01
+  at: 2010-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.5.2
-revdate: 2010-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "re-publication after editorial correction of table 5 and correction implementation
+- language: en
+  script: Latn
+  content: "re-publication after editorial correction of table 5 and correction implementation
     of CR 113\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: H.248
-- content: INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: H.248
+  - language: en
+    script: Latn
+    content: INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

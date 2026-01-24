@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102945V1.1.12013-06
+id: ETSITR102945V111201306
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Definitions and abbreviations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35714
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102945/01.01.01_60/tr_102945v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 945 V1.1.1 (2013-06)
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Definitions and abbreviations
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35714
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102945/01.01.01_60/tr_102945v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 945 V1.1.1 (2013-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 945 V1.1.1 (2013-06)
 date:
 - type: published
-  value: 2013-06
+  at: 2013-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reconfigurable Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This TR contains acronyms and definitions as introduced by RRS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This TR contains acronyms and definitions as introduced by RRS.
+status:
+  stage: Published
 keyword:
-- content: CR
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: CR
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Reconfigurable Radio Systems
+    content: Technical Report

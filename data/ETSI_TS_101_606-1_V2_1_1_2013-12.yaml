@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101606-1V2.1.12013-12
+id: ETSITS1016061V211201312
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
     testing for Gx interface (3GPP Release 10); Part 1: Protocol Implementation Conformance
     Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39460
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160601/02.01.01_60/ts_10160601v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 606-1 V2.1.1 (2013-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39460
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160601/02.01.01_60/ts_10160601v020101p.pdf
+docidentifier:
+- content: ETSI TS 101 606-1 V2.1.1 (2013-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 606-1 V2.1.1 (2013-12)
 date:
 - type: published
-  value: 2013-12
+  at: 2013-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2013-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Production of PICS:\r\nThis task will require the thorough analysis of
+- language: en
+  script: Latn
+  content: "Production of PICS:\r\nThis task will require the thorough analysis of
     the base standard IETF RFC3588 and the derived profile for the Gx interface ETSI
     TS 129 212. Requirements from the above specifications will be collected and labelled
     according to their status (i.e. mandatory, optional, conditional)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: Diameter
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

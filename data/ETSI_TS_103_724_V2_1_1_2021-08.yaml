@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103724V2.1.12021-08
+id: ETSITS103724V211202108
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Facilities layer function; Interference
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Facilities layer function; Interference
     Management Zone Message (IMZM); Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58665
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103724/02.01.01_60/ts_103724v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 724 V2.1.1 (2021-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58665
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103724/02.01.01_60/ts_103724v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 724 V2.1.1 (2021-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 724 V2.1.1 (2021-08)
 date:
 - type: published
-  value: 2021-08
+  at: 2021-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify an \"Interference Management Zone\" (IMZ) message and protocol
+- language: en
+  script: Latn
+  content: "To specify an \"Interference Management Zone\" (IMZ) message and protocol
     to support the dynamic band sharing in co-channel and adjacent channel scenarios
     between ITS stations and other services and applications. The message structure
     will be based on the existing CAM ProtectedCommunicationZones structure.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: ITS
-- content: SAFETY
-- content: SERVICE
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Specification

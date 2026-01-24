@@ -1,64 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR284ed.11996-05
+id: ETSIETR284ed1199605
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Radio link
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Radio link
     management in hierarchical networks (GSM 05.22)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4435
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/284/01_60/etr_284e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 284 ed.1 (1996-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4435
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/284/01_60/etr_284e01p.pdf
+docidentifier:
+- content: ETSI ETR 284 ed.1 (1996-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 284 ed.1 (1996-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) gives examples for the Radio\r\nsub-system
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) gives examples for the Radio\r\nsub-system
     link control to be implemented in the Base Station System\r\n(BSS) and Mobile
     Switching Centre (MSC) of the GSM and DCS 1800\r\nsystems in case hierarchical
     cell structures are employed.\r\nUnless otherwise specified, references to GSM
     also include DCS 1800,\r\nand multiband systems if operated by a single operator.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: NETWORK
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Radio
+    content: ETSI Technical Report

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300463V1.1.22000-06
+id: ETSIEN300463V112200006
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Requirements of passive Optical Access
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Requirements of passive Optical Access
     Networks (OANs) to provide services up to 2 Mbit/s bearer capacity
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9813
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300463/01.01.02_60/en_300463v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 463 V1.1.2 (2000-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9813
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300463/01.01.02_60/en_300463v010102p.pdf
+docidentifier:
+- content: ETSI EN 300 463 V1.1.2 (2000-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 463 V1.1.2 (2000-06)
 date:
 - type: published
-  value: 2000-06
+  at: 2000-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2000-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The revision of this document is exclusively restricted to the provisions
+- language: en
+  script: Latn
+  content: "The revision of this document is exclusively restricted to the provisions
     related to Safety. cal change, the revision will be editorial.\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BEARER
-- content: NETWORK
-- content: OPTICAL
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Core networks, fibres and cables
+    content: European Standard

@@ -1,75 +1,96 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301827V1.1.12004-01
+id: ETSIEN301827V111200401
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
     Wireless terminal call handling Additional Network Feature (ANF) [ISO/IEC 15431
     (2003), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10402
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/301827/01.01.01_60/en_301827v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 827 V1.1.1 (2004-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10402
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/301827/01.01.01_60/en_301827v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 827 V1.1.1 (2004-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 827 V1.1.1 (2004-01)
 date:
 - type: published
-  value: 2004-01
+  at: 2004-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ANF-WTMI is a feature that directs incoming calls to a WTMI user within
+- language: en
+  script: Latn
+  content: "ANF-WTMI is a feature that directs incoming calls to a WTMI user within
     the PISN regardless of the WTMI user's geographical location within the PISN,
     provided that the WTMI user's location is known. Roaming outside the PISN is outside
     \ the scope of this edition of this standard.\r\nANF-WTMO permits the PISN to
     process call requests from a WTMO user at the Home mocation, if required.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANF
-- content: CTM
-- content: ENDORSEMENT
-- content: MOBILITY
-- content: PISN
-- content: QSIG
-- content: STAGE 3
-- content: WTM
+- taxon:
+  - language: en
+    script: Latn
+    content: ANF
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: WTM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Standard

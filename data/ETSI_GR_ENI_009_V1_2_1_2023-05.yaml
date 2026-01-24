@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI009V1.2.12023-05
+id: ETSIGRENI009V121202305
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Definition of data processing
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Definition of data processing
     mechanisms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63117
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/009/01.02.01_60/gr_ENI009v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 009 V1.2.1 (2023-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63117
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/009/01.02.01_60/gr_ENI009v010201p.pdf
+docidentifier:
+- content: ETSI GR ENI 009 V1.2.1 (2023-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 009 V1.2.1 (2023-05)
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document revises ETSI GR ENI 009.\r\nThe realization of intelligent
+- language: en
+  script: Latn
+  content: "The present document revises ETSI GR ENI 009.\r\nThe realization of intelligent
     network depends on the big data, AI algorithms and computing resources. Therefore,
     effective data management and operation is extremely important. This work item
     is purposed to draft a GR of data operation requirements and mechanisms to better
@@ -57,23 +66,33 @@ abstract:
     of data format and interface to accelerate the Autonomus Network (AN) evolution
     process and (4) Ensure that customer privacy is not disclosed in the entire lifecycle
     of data collection, processing, and utilization (Federated Learning)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: data collection
-- content: data management
-- content: data mechanism
-- content: data processing
-- content: data storage
-- content: network management
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: data collection
+  - language: en
+    script: Latn
+    content: data management
+  - language: en
+    script: Latn
+    content: data mechanism
+  - language: en
+    script: Latn
+    content: data processing
+  - language: en
+    script: Latn
+    content: data storage
+  - language: en
+    script: Latn
+    content: network management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

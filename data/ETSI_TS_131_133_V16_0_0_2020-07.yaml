@@ -1,65 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS131133V16.0.02020-07
+id: ETSITS131133V1600202007
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    RGlnaXRhbCBjZWxsdWxhciB0ZWxlY29tbXVuaWNhdGlvbnMgc3lzdGVtIChQaGFzZSAyKykgKEdTTSk7IFVuaXZlcnNhbCBNb2JpbGUgVGVsZWNvbW11bmljYXRpb25zIFN5c3RlbSAoVU1UUyk7IExURTsgSVAgTXVsdGltZWRpYSBTZXJ2aWNlcyBJZGVudGl0eSBNb2R1bGUgKElTSU0pIEFwcGxpY2F0aW9uIFByb2dyYW1taW5nIEludGVyZmFjZSAoQVBJKTsgSVNJTSBBUEkgZm9yIEphdmEgQ2FyZOKEoiAoM0dQUCBUUyAzMS4xMzMgdmVyc2lvbiAxNi4wLjAgUmVsZWFzZSAxNik=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60045
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131133/16.00.00_60/ts_131133v160000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 131 133 V16.0.0 (2020-07)
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+    Mobile Telecommunications System (UMTS); LTE; IP Multimedia Services Identity
+    Module (ISIM) Application Programming Interface (API); ISIM API for Java Card
+    (3GPP TS 31.133 version 16.0.0 Release 16)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60045
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/131100_131199/131133/16.00.00_60/ts_131133v160000p.pdf
+docidentifier:
+- content: ETSI TS 131 133 V16.0.0 (2020-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 131 133 V16.0.0 (2020-07)
 date:
 - type: published
-  value: 2020-07
+  at: 2020-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Application Aspects (formely T3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.0.0
-revdate: 2020-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#88-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#88-e
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart Card Application Aspects (formely T3)
+    content: Technical Specification

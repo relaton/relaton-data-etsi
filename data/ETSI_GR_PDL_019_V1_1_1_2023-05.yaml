@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL019V1.1.12023-05
+id: ETSIGRPDL019V111202305
+schema_version: v1.4.1
 title:
-- content: PDL Services for Decentralized Identity and Trust Management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66207
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/019/01.01.01_60/gr_PDL019v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 019 V1.1.1 (2023-05)
+- language: en
+  script: Latn
+  content: PDL Services for Decentralized Identity and Trust Management
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66207
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/019/01.01.01_60/gr_PDL019v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 019 V1.1.1 (2023-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 019 V1.1.1 (2023-05)
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document studies and analyses potential PDL services to enable identity
+- language: en
+  script: Latn
+  content: This document studies and analyses potential PDL services to enable identity
     and trust service management. The scope of the work includes objective(s) to analyse
     and identify required PDL framework services related to aspects such as (i) DID
     and trust service management; (ii) to support DID for end devices and end-users
     as applicable; (iii) to achieve controlled transparency to share trust data with
     service providers; and (iv) to support co-operation with APIs related to public
     services (e.g., eIDAS framework and EBSI services) and private services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Decentralized Identifier
-- content: keyword
-- content: PDL
+- taxon:
+  - language: en
+    script: Latn
+    content: Decentralized Identifier
+  - language: en
+    script: Latn
+    content: keyword
+  - language: en
+    script: Latn
+    content: PDL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

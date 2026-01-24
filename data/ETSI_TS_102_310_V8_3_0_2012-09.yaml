@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102310V8.3.02012-09
+id: ETSITS102310V830201209
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Extensible Authentication Protocol support in the UICC (Release
+- language: en
+  script: Latn
+  content: Smart Cards; Extensible Authentication Protocol support in the UICC (Release
     8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39883
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102310/08.03.00_60/ts_102310v080300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 310 V8.3.0 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39883
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102310/08.03.00_60/ts_102310v080300p.pdf
+docidentifier:
+- content: ETSI TS 102 310 V8.3.0 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 310 V8.3.0 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.3.0
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Implementation of CRs approved at SCP #55'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Implementation of CRs approved at SCP #55'
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: PROTOCOL
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

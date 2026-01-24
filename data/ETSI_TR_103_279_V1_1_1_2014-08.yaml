@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103279V1.1.12014-08
+id: ETSITR103279V111201408
+schema_version: v1.4.1
 title:
-- content: End to End Network Architectures (E2NA); Location of Transcoders for voice
+- language: en
+  script: Latn
+  content: End to End Network Architectures (E2NA); Location of Transcoders for voice
     and video communications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42512
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103279/01.01.01_60/tr_103279v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 279 V1.1.1 (2014-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42512
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103279/01.01.01_60/tr_103279v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 279 V1.1.1 (2014-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 279 V1.1.1 (2014-08)
 date:
 - type: published
-  value: 2014-08
+  at: 2014-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: End-to-End Network Architectures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Provides a review of standardization activities on the location of transcoders
+- language: en
+  script: Latn
+  content: Provides a review of standardization activities on the location of transcoders
     for voice and video communications inside and across networks. Identifies issues
     that are not addressed in current standards and provides recommendations to fill
     these gaps. Recommendations will be provided in the form of guidance to service
     providers or in the form of a suggested addition to existing standards.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: interconnection
-- content: transcoding
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: interconnection
+  - language: en
+    script: Latn
+    content: transcoding
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: End-to-End Network Architectures
+    content: Technical Report

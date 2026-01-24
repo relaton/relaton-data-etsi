@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101904V1.1.12001-03
+id: ETSITR101904V111200103
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Time Division Duplex (TDD) in Point-to-Multipoint
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Time Division Duplex (TDD) in Point-to-Multipoint
     (P-MP) Fixed Wireless Access (FWA) systems; Characteristics and network applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7429
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101904/01.01.01_60/tr_101904v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 904 V1.1.1 (2001-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7429
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101904/01.01.01_60/tr_101904v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 904 V1.1.1 (2001-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 904 V1.1.1 (2001-03)
 date:
 - type: published
-  value: 2001-03
+  at: 2001-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Taking due consideration of the ongoing studies in WG-TM4 (namely, TM-04069),
+- language: en
+  script: Latn
+  content: "Taking due consideration of the ongoing studies in WG-TM4 (namely, TM-04069),
     and in ERC/WGSE and ERM, in particular of compatibility issues between FDD and
     TDD systems deployed in the same geographical area using the same frequency band
     allocated by the CEPT for P-MP fixed systems, produce a Technical Report which:\r\n\r\ndescribes
@@ -55,21 +64,27 @@ abstract:
     to provide the preliminary draft of generic wording for ENs for P-MP systems using
     TDD.\r\n\r\nClose liaison with WGSE (PT SE-19), TC-ERM (WG ERM/RM) and EP DECT
     is required.\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DRRS
-- content: MULTIPOINT
-- content: RADIO
-- content: RLL
-- content: TDM
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RLL
+  - language: en
+    script: Latn
+    content: TDM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-2V2.6.12006-05
+id: ETSITS1003922V261200605
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
     Interface (AI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24227
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039202/02.06.01_60/ts_10039202v020601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-2 V2.6.1 (2006-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24227
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039202/02.06.01_60/ts_10039202v020601p.pdf
+docidentifier:
+- content: ETSI TS 100 392-2 V2.6.1 (2006-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-2 V2.6.1 (2006-05)
 date:
 - type: published
-  value: 2006-05
+  at: 2006-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.6.1
-revdate: 2006-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Inclusion of security related Change Requests to align part 2 with the
+- language: en
+  script: Latn
+  content: "Inclusion of security related Change Requests to align part 2 with the
     next version of part 7 V2.3.1;\r\nInclusion of the editorial corrections identified
     in OAP20051118 of EN 300 392-2 V2.5.1."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

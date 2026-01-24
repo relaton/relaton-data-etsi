@@ -1,59 +1,67 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR019ed.11994-10
+id: ETSITCRTR019ed1199410
+schema_version: v1.4.1
 title:
-- content: Signalling Protocols and Switching (SPS); Evaluation of Abstract Syntax
+- language: en
+  script: Latn
+  content: Signalling Protocols and Switching (SPS); Evaluation of Abstract Syntax
     Notation One (ASN.1) tools for use as syntax and semantics checkers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2348
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/019/01_60/tcrtr_019e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 019 ed.1 (1994-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2348
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/019/01_60/tcrtr_019e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 019 ed.1 (1994-10)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 019 ed.1 (1994-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To present a list of recommended tools which can be used to ensure\r\nthat
+- language: en
+  script: Latn
+  content: "To present a list of recommended tools which can be used to ensure\r\nthat
     an ASN.1 specification complies with the syntaxand semantics\r\ndefined in CCITT
     X.208\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: Technical Committee Reference Technical Report

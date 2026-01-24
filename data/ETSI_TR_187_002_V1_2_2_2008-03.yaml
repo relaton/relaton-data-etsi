@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR187002V1.2.22008-03
+id: ETSITR187002V122200803
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); TISPAN NGN Security (NGN_SEC); Threat, Vulnerability and
     Risk Analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25221
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187002/01.02.02_60/tr_187002v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 187 002 V1.2.2 (2008-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25221
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187002/01.02.02_60/tr_187002v010202p.pdf
+docidentifier:
+- content: ETSI TR 187 002 V1.2.2 (2008-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 187 002 V1.2.2 (2008-03)
 date:
 - type: published
-  value: 2008-03
+  at: 2008-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2008-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This is a release 1 maintenance WI. The scope is to provide a revision
+- language: en
+  script: Latn
+  content: This is a release 1 maintenance WI. The scope is to provide a revision
     of the ETSI TR 187 002 release 1 technical report. This revision shall capture
     essential corrections to the published document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Report

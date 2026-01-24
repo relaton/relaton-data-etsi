@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SEC006V1.1.12016-04
+id: ETSIGSNFVSEC006V111201604
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Security Guide; Report on Security
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Security Guide; Report on Security
     Aspects and Regulatory Concerns
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46039
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/006/01.01.01_60/gs_NFV-SEC006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SEC 006 V1.1.1 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46039
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/006/01.01.01_60/gs_NFV-SEC006v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-SEC 006 V1.1.1 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SEC 006 V1.1.1 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This deliverable will develop a guide to assist with addressing the security
+- language: en
+  script: Latn
+  content: "This deliverable will develop a guide to assist with addressing the security
     aspects and regulatory concerns of NFV related documents and applications.\r\nThis
     will include a template to assist the development of ETSI NFV deliverables and
     broader guidance for developers, architects and designers of hardware and software."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: REGULATION
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Security
+    content: Group Specification

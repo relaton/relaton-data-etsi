@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301357-2V1.4.12008-11
+id: ETSIEN3013572V141200811
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Cordless
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Cordless
     audio devices in the range 25 MHz to 2 000 MHz; Part 2: Harmonized EN covering
     essential requirements of article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26323
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301300_301399/30135702/01.04.01_60/en_30135702v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 357-2 V1.4.1 (2008-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26323
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301300_301399/30135702/01.04.01_60/en_30135702v010401p.pdf
+docidentifier:
+- content: ETSI EN 301 357-2 V1.4.1 (2008-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 357-2 V1.4.1 (2008-11)
 date:
 - type: published
-  value: 2008-11
+  at: 2008-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Microphones, Cordless Audio and Audio Links
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2008-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To clarify methods of measurement and frequency coverage.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To clarify methods of measurement and frequency coverage.\r\n"
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: RADIO
-- content: RADIO MIC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RADIO MIC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Radio Microphones, Cordless Audio and Audio Links
+    content: European Standard

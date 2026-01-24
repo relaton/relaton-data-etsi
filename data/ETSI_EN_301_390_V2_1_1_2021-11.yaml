@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301390V2.1.12021-11
+id: ETSIEN301390V211202111
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point and Multipoint Systems; Unwanted emissions
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point and Multipoint Systems; Unwanted emissions
     in the spurious domain and receiver immunity limits at equipment/antenna port
     of Digital Fixed Radio Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59367
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301300_301399/301390/02.01.01_60/en_301390v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 390 V2.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59367
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301300_301399/301390/02.01.01_60/en_301390v020101p.pdf
+docidentifier:
+- content: ETSI EN 301 390 V2.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 390 V2.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Remove all specific spurious domain emissions limits, maintaining only
+- language: en
+  script: Latn
+  content: Remove all specific spurious domain emissions limits, maintaining only
     references to ERC/REC 74-01 (2019)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMISSION
-- content: FWS
-- content: IMMUNITY
-- content: MULTIPOINT
-- content: POINT-TO-POINT
+- taxon:
+  - language: en
+    script: Latn
+    content: EMISSION
+  - language: en
+    script: Latn
+    content: FWS
+  - language: en
+    script: Latn
+    content: IMMUNITY
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Standard

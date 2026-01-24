@@ -1,67 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-EVE007V3.1.22017-03
+id: ETSIGSNFVEVE007V312201703
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; NFV Evolution and Ecosystem;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; NFV Evolution and Ecosystem;
     Hardware Interoperability Requirements Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52766
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/007/03.01.02_60/gs_NFV-EVE007v030102p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-EVE 007 V3.1.2 (2017-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52766
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/007/03.01.02_60/gs_NFV-EVE007v030102p.pdf
+docidentifier:
+- content: ETSI GS NFV-EVE 007 V3.1.2 (2017-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-EVE 007 V3.1.2 (2017-03)
 date:
 - type: published
-  value: 2017-03
+  at: 2017-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.2
-revdate: 2017-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gcHJvcG9zZXMgdG8gZGV2ZWxvcCBhIHNldCBvZiBOb3JtYXRpdmUgaW50ZXJvcGVyYWJpbGl0eSByZXF1aXJlbWVudHMgZm9yIHRoZSBORlYgaGFyZHdhcmUgZWNvc3lzdGVtIGFuZCB0ZWxlY29tbXVuaWNhdGlvbnMgcGh5c2ljYWwgZW52aXJvbm1lbnQgdG8gc3VwcG9ydCBORlYgZGVwbG95bWVudC4gSXQgYnVpbGRzIG9uIHRoZSB3b3JrIG9yaWdpbmF0ZWQgaW4gRVZFMDAzLiANCg0KVGhlIFdvcmsgSXRlbSBzY29wZSBlbmNvbXBhc3NlcyB0aGUgZm9sbG93aW5nOg0KLVNwZWNpZmljYXRpb24gb2YgcmVxdWlyZW1lbnRzIHRvIGVuYWJsZSBpbnRlcm9wZXJhYmlsaXR5IG9mIGVxdWlwbWVudCBpbiB0aGUgdGVsZWNvbW11bmljYXRpb25zIGVudmlyb25tZW50IHRvIHN1cHBvcnQgTkZWIGRlcGxveW1lbnQuIFRoZSBmb2N1cyBpbmNsdWRlcyB0aGUgZm9sbG93aW5nIGFyZWFzOg0KLU9wZXJhdGlvbnMgDQotRW52aXJvbm1lbnRhbA0KLU1lY2hhbmljYWwNCi1DYWJsaW5nDQotTWFpbnRlbmFuY2UuDQrigKJTcGVjaWZpY2F0aW9uIG9mIHJlcXVpcmVtZW50cyBmb3IgdGhlIHN1cHBvcnQgb2YgbGF3ZnVsIGludGVyY2VwdCBhbmQvb3IgY3JpdGljYWwgbmF0aW9uYWwgaW5mcmFzdHJ1Y3R1cmVzLg0K4oCiSW52ZXN0aWdhdGUgYmFzZWxpbmUgcmVsaWFiaWxpdHkgcmVxdWlyZW1lbnRzIGZvciBORlZJIE5vZGUNCuKAokNvbGxhYm9yYXRlIHdpdGggb3RoZXIgZXhpc3RpbmcgaW5kdXN0cnkgZm9yYSBvciBTRE9zIChlLmcuLCBPcGVuIENvbXB1dGUgUHJvamVjdCDigJMgVGVsY28gUHJvamVjdCkgdG8gZW5zdXJlIE5GViBoYXJkd2FyZSBpbnRlcm9wZXJhYmlsaXR5IHJlcXVpcmVtZW50cyBhcmUgZnVsZmlsbGVkLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Work Item proposes to develop a set of Normative interoperability
+    requirements for the NFV hardware ecosystem and telecommunications physical environment
+    to support NFV deployment. It builds on the work originated in EVE003. \r\n\r\nThe
+    Work Item scope encompasses the following:\r\n-Specification of requirements to
+    enable interoperability of equipment in the telecommunications environment to
+    support NFV deployment. The focus includes the following areas:\r\n-Operations
+    \r\n-Environmental\r\n-Mechanical\r\n-Cabling\r\n-Maintenance.\r\nSpecification
+    of requirements for the support of lawful intercept and/or critical national infrastructures.\r\nInvestigate
+    baseline reliability requirements for NFVI Node\r\nCollaborate with other existing
+    industry fora or SDOs (e.g., Open Compute Project  Telco Project) to ensure NFV
+    hardware interoperability requirements are fulfilled.\r\n"
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: NFV
-- content: NFVI
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Specification

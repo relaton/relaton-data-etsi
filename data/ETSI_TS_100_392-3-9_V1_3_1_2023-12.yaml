@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-3-9V1.3.12023-12
+id: ETSITS10039239V131202312
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 3: Interworking
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 3: Interworking
     at the Inter-System Interface (ISI); Sub-part 9: Transport layer independent,
     General design'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69048
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003920309/01.03.01_60/ts_1003920309v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-3-9 V1.3.1 (2023-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69048
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003920309/01.03.01_60/ts_1003920309v010301p.pdf
+docidentifier:
+- content: ETSI TS 100 392-3-9 V1.3.1 (2023-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-3-9 V1.3.1 (2023-12)
 date:
 - type: published
-  value: 2023-12
+  at: 2023-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2023-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work is based on TS 100 392-7 v4.1.1 that is introducing new TETRA
+- language: en
+  script: Latn
+  content: This work is based on TS 100 392-7 v4.1.1 that is introducing new TETRA
     Encryption algorithms (TEA set B) and authentication algorithms 'TAA2'.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: MOBILITY
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

@@ -1,66 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSISR019050V1.1.12015-06
+id: ETSISR019050V111201506
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Rationalized framework
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Rationalized framework
     of Standards for Electronic Registered Delivery Services Applying Electronic Signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39416
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 019 050 V1.1.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39416
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/019000_019099/019050/01.01.01_60/sr_019050v010101p.pdf
+docidentifier:
+- content: ETSI SR 019 050 V1.1.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI SR 019 050 V1.1.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkb2N1bWVudCB3aWxsIHByb3Bvc2UgYSByYXRpb25hbGlzZWQgYW5kIHdlbGwgb3JnYW5pemVkIHNldCBvZiBzdGFuZGFyZHMgZm9yIEVsZWN0cm9uaWMgRGVsaXZlcnkgQXBwbHlpbmcgRWxlY3Ryb25pYyBTaWduYXR1cmVzIGZ1bGx5IGFsaWduZWQgd2l0aCB0aGUgcHJpbmNpcGxlcywgY3JpdGVyaWEgYW5kIHN0cnVjdHVyZSBvZiB0aGUgUmF0aW9uYWxpc2VkIEZyYW1ld29yayBvZiBFbGVjdHJvbmljIFNpZ25hdHVyZXMuDQoNCkluIHZpZXcgb2YgdGhlIG11bHRpcGxpY2l0eSBvZiBhcHByb2FjaGVzIGFuZCBwcm9qZWN0cyBvbiB0aGlzIG1hdHRlciAoTGFyZ2UgU2NhbGUgDQoNCkEgIFN0dWR5IHdpbGwgYmUgY29uZHVjdGVkIG9uIGUtZGVsaXZlcnkgZGVmaW5pdGlvbiBhbmQgc3RhbmRhcmRpc2F0aW9uIHJlcXVpcmVtZW50cyBpbiBvcmRlciB0byBwcm9wb3NlIGEgcmF0aW9uYWxpc2VkIHNldCBvZiBzdGFuZGFyZHMgdGhhdCBmdWxmaWxzIHRoZSBnYXAgYW1vbmcgdGhlIGRpZmZlcmVudCBzdGFuZGFyZGl6YXRpb25zIGVmZm9ydHMgYW5kIHBpbG90c+KAmSBvdXRjb21lIGRvY3VtZW50YXRpb24=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This document will propose a rationalised and well organized set of standards
+    for Electronic Delivery Applying Electronic Signatures fully aligned with the
+    principles, criteria and structure of the Rationalised Framework of Electronic
+    Signatures.\r\n\r\nIn view of the multiplicity of approaches and projects on this
+    matter (Large Scale \r\n\r\nA  Study will be conducted on e-delivery definition
+    and standardisation requirements in order to propose a rationalised set of standards
+    that fulfils the gap among the different standardizations efforts and pilots outcome
+    documentation"
+status:
+  stage: Published
 keyword:
-- content: electronic registered delivery
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: electronic registered delivery
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Special Report

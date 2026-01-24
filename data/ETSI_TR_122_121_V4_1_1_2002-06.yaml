@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR122121V4.1.12002-06
+id: ETSITR122121V411200206
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Service aspects; The Virtual Home Environment;
     Stage 1 (3GPP TR 22.121 version 4.1.1 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16326
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/122100_122199/122121/04.01.01_60/tr_122121v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 122 121 V4.1.1 (2002-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16326
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/122100_122199/122121/04.01.01_60/tr_122121v040101p.pdf
+docidentifier:
+- content: ETSI TR 122 121 V4.1.1 (2002-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 122 121 V4.1.1 (2002-06)
 date:
 - type: published
-  value: 2002-06
+  at: 2002-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2002-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-16
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-16
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Services
+    content: Technical Report

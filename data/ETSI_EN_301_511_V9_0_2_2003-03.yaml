@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301511V9.0.22003-03
+id: ETSIEN301511V902200303
+schema_version: v1.4.1
 title:
-- content: Global System for Mobile communications (GSM); Harmonized EN for mobile
+- language: en
+  script: Latn
+  content: Global System for Mobile communications (GSM); Harmonized EN for mobile
     stations in the GSM 900 and GSM 1800 bands covering essential requirements under
     article 3.2 of the R&TTE directive (1999/5/EC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13302
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301500_301599/301511/09.00.02_60/en_301511v090002p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 511 V9.0.2 (2003-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13302
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301500_301599/301511/09.00.02_60/en_301511v090002p.pdf
+docidentifier:
+- content: ETSI EN 301 511 V9.0.2 (2003-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 511 V9.0.2 (2003-03)
 date:
 - type: published
-  value: 2003-03
+  at: 2003-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Working Group for GSM
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.0.2
-revdate: 2003-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Maintenance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Maintenance
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Working Group for GSM
+    content: European Standard

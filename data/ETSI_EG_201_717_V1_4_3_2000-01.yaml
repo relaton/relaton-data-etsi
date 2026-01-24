@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201717V1.4.32000-01
+id: ETSIEG201717V143200001
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Virtual Home Environment
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Virtual Home Environment
     (VHE) in the Integrated Services Digital Network (ISDN); Evolved UMTS core network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9276
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201717/01.04.03_60/eg_201717v010403p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 717 V1.4.3 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9276
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201717/01.04.03_60/eg_201717v010403p.pdf
+docidentifier:
+- content: ETSI EG 201 717 V1.4.3 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 717 V1.4.3 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: UMTS task force
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.3
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This version has been issued for correcting the title of version 1. There
+- language: en
+  script: Latn
+  content: This version has been issued for correcting the title of version 1. There
     is no need to make it approved by ETSI membership.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: ISDN
-- content: UMTS
-- content: VHE
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: UMTS
+  - language: en
+    script: Latn
+    content: VHE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: UMTS task force
+    content: ETSI Guide

@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187005V1.1.12006-12
+id: ETSITS187005V111200612
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Lawful Interception; Lawful interception functional entities,
     information flow and reference points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21037
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187005/01.01.01_60/ts_187005v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 005 V1.1.1 (2006-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21037
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187005/01.01.01_60/ts_187005v010101p.pdf
+docidentifier:
+- content: ETSI TS 187 005 V1.1.1 (2006-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 005 V1.1.1 (2006-12)
 date:
 - type: published
-  value: 2006-12
+  at: 2006-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TISPAN is developing an architecture for IP-based Multimedia Services
+- language: en
+  script: Latn
+  content: "TISPAN is developing an architecture for IP-based Multimedia Services
     and PSTN-Emulation Services, which need to address provision for lawful interception.\r\nThe
     work item shall endorse where appropriate existing specifications from work already
     done in 3GPP in a manner consistent with the goals of the NGN project in TISPAN."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: Lawful Interception
-- content: SECURITY
-- content: TELEPHONY
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Specification

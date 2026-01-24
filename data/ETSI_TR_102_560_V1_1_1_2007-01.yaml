@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102560V1.1.12007-01
+id: ETSITR102560V111200701
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); URI name space for TTCN-3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102560/01.01.01_60/tr_102560v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 560 V1.1.1 (2007-01)
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); URI name space for TTCN-3
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102560/01.01.01_60/tr_102560v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 560 V1.1.1 (2007-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 560 V1.1.1 (2007-01)
 date:
 - type: published
-  value: 2007-01
+  at: 2007-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Along the TTCN-3 development, in particular TCI, a name space is needed
+- language: en
+  script: Latn
+  content: Along the TTCN-3 development, in particular TCI, a name space is needed
     to address TTCN-3 XML schema. This name space may also include TTCN-3 IDL specifications
     for TRI and TCI. In long run, this name space may include URIs for specifications
     beyond TTCN-3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IDL
-- content: NAME
-- content: TCI
-- content: TRI
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: IDL
+  - language: en
+    script: Latn
+    content: NAME
+  - language: en
+    script: Latn
+    content: TCI
+  - language: en
+    script: Latn
+    content: TRI
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

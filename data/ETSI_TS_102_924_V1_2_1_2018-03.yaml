@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102924V1.2.12018-03
+id: ETSITS102924V121201803
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
     for Super-Wideband / Fullband handset and headset terminals from a QoS perspective
     as perceived by the user
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42423
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102924/01.02.01_60/ts_102924v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 924 V1.2.1 (2018-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42423
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102924/01.02.01_60/ts_102924v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 924 V1.2.1 (2018-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 924 V1.2.1 (2018-03)
 date:
 - type: published
-  value: 2018-03
+  at: 2018-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides speech & audio transmission performance
+- language: en
+  script: Latn
+  content: "The present document provides speech & audio transmission performance
     requirements and measurement methods for headset functions of superwideband/fullband
     terminals.\r\nThe present standard  provides requirements in order to optimize
     the end to end quality perceived by users whatever be network and the type of
     terminal. \r\nSeveral usage scenarios will also be defined including handset and
     headset."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QoS
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

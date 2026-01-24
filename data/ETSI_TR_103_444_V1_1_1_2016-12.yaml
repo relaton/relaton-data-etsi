@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103444V1.1.12016-12
+id: ETSITR103444V111201612
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM); Guide to Satellite Independent Service Access Point (SI-SAP) use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47926
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103444/01.01.01_60/tr_103444v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 444 V1.1.1 (2016-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47926
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103444/01.01.01_60/tr_103444v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 444 V1.1.1 (2016-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 444 V1.1.1 (2016-12)
 date:
 - type: published
-  value: 2016-12
+  at: 2016-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To prepare guidelines for the use of SI-SAP interface services and primitives.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To prepare guidelines for the use of SI-SAP interface services and primitives.
+status:
+  stage: Published
 keyword:
-- content: BSS
-- content: INTERFACE
-- content: MSS
-- content: PROTOCOL
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BSS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

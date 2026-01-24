@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103366V1.1.12016-05
+id: ETSITS103366V111201605
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Time
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Time
     Domain based Low Duty Cycle Measurement for UWB
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46686
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103366/01.01.01_60/ts_103366v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 366 V1.1.1 (2016-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46686
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103366/01.01.01_60/ts_103366v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 366 V1.1.1 (2016-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 366 V1.1.1 (2016-05)
 date:
 - type: published
-  value: 2016-05
+  at: 2016-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Define a new additional measurement procedure for Low Duty Cycle. The
+- language: en
+  script: Latn
+  content: 'Define a new additional measurement procedure for Low Duty Cycle. The
     objective is to include the results in EN 303 883. Current measurement procedure(s)
     for Low Duty Cycle as defined in TS 102 883 V1.1.1. are not sufficient with respect
     to short Toff time periods between pulse bursts. Target of this work item is to
@@ -54,19 +63,21 @@ abstract:
     yields accurate results.The current understanding is that such a method is only
     possible to be done in the time domain with Oscilloscopes. Investigation of time
     domain parameters and necessary equipment has to be done '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Specification

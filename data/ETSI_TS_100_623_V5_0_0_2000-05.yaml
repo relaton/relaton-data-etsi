@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100623V5.0.02000-05
+id: ETSITS100623V500200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Network Management
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Network Management
     (NM) procedures and messages on the A-bis interface (GSM 12.21 version 5.0.0 Release
     1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6409
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100623/05.00.00_60/ts_100623v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 623 V5.0.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6409
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100623/05.00.00_60/ts_100623v050000p.pdf
+docidentifier:
+- content: ETSI TS 100 623 V5.0.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 623 V5.0.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operations & Maintenance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification addresses the network\r\nmanagement messages and procedures
+- language: en
+  script: Latn
+  content: "This specification addresses the network\r\nmanagement messages and procedures
     across the A-bis interface, which\r\nis defined as Qx in GSM. The information
     model included here defines\r\nthe objects and how they are addressed for purposes
     of operations and\r\nmaintenance activities.\r\nThere is a requirement for the
@@ -60,23 +69,33 @@ abstract:
     be specified to fulfill the functionality.\r\nIt is essential for operation that
     a BSC can handle the functions used\r\nby all its BTSs. Therefore, all items in
     this ETS are considered\r\nmandatory unless otherwise indicated in this ETS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MANAGEMENT
-- content: MOBILE
-- content: NETWORK
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Operations & Maintenance
+    content: Technical Specification

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201189V1.4.12000-09
+id: ETSIEG201189V141200009
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Master list of codepoints and operation values
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7266
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201189/01.04.01_60/eg_201189v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 189 V1.4.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7266
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201189/01.04.01_60/eg_201189v010401p.pdf
+docidentifier:
+- content: ETSI EG 201 189 V1.4.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 189 V1.4.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic call control protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Updates existing document with:  Security Tools, Remote Control, Line
+- language: en
+  script: Latn
+  content: "Updates existing document with:  Security Tools, Remote Control, Line
     Hunting, Trunk Hunting supplementary service coding information. \r\n\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: CODING
-- content: DSS1
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Basic call control protocols
+    content: ETSI Guide

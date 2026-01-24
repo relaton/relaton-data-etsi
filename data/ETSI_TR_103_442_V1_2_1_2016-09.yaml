@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103442V1.2.12016-09
+id: ETSITR103442V121201609
+schema_version: v1.4.1
 title:
-- content: Railways Telecommunications (RT); Shared use of spectrum between Communication
+- language: en
+  script: Latn
+  content: Railways Telecommunications (RT); Shared use of spectrum between Communication
     Based Train Control (CBTC) and ITS applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50419
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103442/01.02.01_60/tr_103442v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 442 V1.2.1 (2016-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50419
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103442/01.02.01_60/tr_103442v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 442 V1.2.1 (2016-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 442 V1.2.1 (2016-09)
 date:
 - type: published
-  value: 2016-09
+  at: 2016-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Joint Task Force ITS RT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision in order to include some additional feedback from the ITS community
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision in order to include some additional feedback from the ITS community
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Joint Task Force ITS RT
+    content: Technical Report

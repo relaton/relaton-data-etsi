@@ -1,68 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103774V1.1.12022-02
+id: ETSITR103774V111202202
+schema_version: v1.4.1
 title:
-- content: 'System Reference document (SRdoc); Short Range Devices (SRD): Technical
+- language: en
+  script: Latn
+  content: 'System Reference document (SRdoc); Short Range Devices (SRD): Technical
     Characteristics for Radio Equipment used for power transfer and communication
     with associated peripheral devices using the 917,5 MHz RFID interrogator channel'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59485
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103774/01.01.01_60/tr_103774v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 774 V1.1.1 (2022-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59485
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103774/01.01.01_60/tr_103774v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 774 V1.1.1 (2022-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 774 V1.1.1 (2022-02)
 date:
 - type: published
-  value: 2022-02
+  at: 2022-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIFN5c3RlbSBSZWZlcmVuY2UgRG9jdW1lbnQgd2lsbCBkZXNjcmliZSB0ZWNobmljYWwgY2hhcmFjdGVyaXN0aWNzIG9mIFJhZGlvIEVxdWlwbWVudCBmb3IgcG93ZXIgdHJhbnNmZXIgYW5kIGNvbW11bmljYXRpb24gd2l0aCBhc3NvY2lhdGVkIHBlcmlwaGVyYWwgZGV2aWNlcywgYW5kIG9wZXJhdGluZyB3aXRoaW4gdGhlIGZyZXF1ZW5jeSByYW5nZSA5MTcsMyDigJMgOTE3LDcgTUh6IChmb3IgcG93ZXIgdHJhbnNmZXIpIGFuZCAyLDQgR0h6IEJsdWV0b290aCBvciBhbm90aGVyIGZyZXF1ZW5jeSAoZm9yIGNvbnRyb2wgc2lnbmFsbGluZykuIFRoZSBhcHBsaWNhdGlvbiBpcyBpbnRlbmRlZCBmb3IgaW5kb29yIHVzZSBhbmQgaGFzIHRoZSBzYW1lIHJhZGlvIGNoYXJhY3RlcmlzdGljcyBhcyBleGlzdGluZyBSRklEIGludGVycm9nYXRvcnMgaW4gdGhlIDkxNywzIOKAkyA5MTcsNyBNSHogYmFuZCAoaS5lLiBtYXhpbXVtIHBvd2VyIG9mIDRXIGUuci5wLiBhbmQgbWF4aW11bSBiYW5kd2lkdGggb2YgNDAwIGtIeikgYXMgY29uc2lkZXJlZCBpbiBFQ0MgUmVwb3J0IDIwMC4gVGhlIGRvY3VtZW50IHdpbGwgIGluY2x1ZGUgdGhlIG5lY2Vzc2FyeSBpbmZvcm1hdGlvbiB0byBzdXBwb3J0IHRoZSBjby1vcGVyYXRpb24gYmV0d2VlbiBFVFNJIGFuZCB0aGUgRWxlY3Ryb25pYyBDb21tdW5pY2F0aW9ucyBDb21taXR0ZWUgKEVDQykgb2YgdGhlIEV1cm9wZWFuIENvbmZlcmVuY2Ugb2YgUG9zdCBhbmQgVGVsZWNvbW11bmljYXRpb25zIEFkbWluaXN0cmF0aW9ucyAoQ0VQVCku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The System Reference Document will describe technical characteristics of
+    Radio Equipment for power transfer and communication with associated peripheral
+    devices, and operating within the frequency range 917,3  917,7 MHz (for power
+    transfer) and 2,4 GHz Bluetooth or another frequency (for control signalling).
+    The application is intended for indoor use and has the same radio characteristics
+    as existing RFID interrogators in the 917,3  917,7 MHz band (i.e. maximum power
+    of 4W e.r.p. and maximum bandwidth of 400 kHz) as considered in ECC Report 200.
+    The document will  include the necessary information to support the co-operation
+    between ETSI and the Electronic Communications Committee (ECC) of the European
+    Conference of Post and Telecommunications Administrations (CEPT).
+status:
+  stage: Published
 keyword:
-- content: RFID
-- content: SRDOC
-- content: TRANSMISSION
-- content: WPT
+- taxon:
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: WPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

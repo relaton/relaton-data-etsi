@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102562V1.1.12007-03
+id: ETSITS102562V111200703
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Improved
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Improved
     spectrum efficiency for RFID in the UHF Band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25584
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102562/01.01.01_60/ts_102562v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 562 V1.1.1 (2007-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25584
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102562/01.01.01_60/ts_102562v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 562 V1.1.1 (2007-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 562 V1.1.1 (2007-03)
 date:
 - type: published
-  value: 2007-03
+  at: 2007-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document will recommend the use of a channel plan for RFID devices
+- language: en
+  script: Latn
+  content: "The document will recommend the use of a channel plan for RFID devices
     in the designated band 865 - 868 MHz. The document will also recommend the use
     of synchronisation protocol techniques, which will permit channel sharing between
     multiple interrogators that are co-located. The document will be drafted to ensure
     that the contents are in accordance with EN 302 208, including the requirement
     on LBT.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: UHF
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Specification

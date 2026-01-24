@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103720V1.2.12023-06
+id: ETSITS103720V121202306
+schema_version: v1.4.1
 title:
-- content: 5G Broadcast System for linear TV and radio services; LTE-based 5G terrestrial
+- language: en
+  script: Latn
+  content: 5G Broadcast System for linear TV and radio services; LTE-based 5G terrestrial
     broadcast system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64260
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103720/01.02.01_60/ts_103720v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 720 V1.2.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64260
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103720/01.02.01_60/ts_103720v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 720 V1.2.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 720 V1.2.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work item proposes to update ETSI TS 103 720 with the following features,
+- language: en
+  script: Latn
+  content: "The work item proposes to update ETSI TS 103 720 with the following features,
     all by reference to 3GPP Rel-17 specifications:\r\n- Bug fixes, clarifications
     and upgrade to 3GPP Rel-17 specification\r\n- Adding receiver requirements for
     consistent network planning including requirements on demodulation performance\r\n-
@@ -54,20 +63,24 @@ abstract:
     (based on 3GPP RAN work items)\r\n- Support of 5GMS over eMBMS with reference
     to 3GPP TS 26.501 including hybrid use cases\r\n- Codecs and Formats with reference
     to 5GMS in 3GPP TS 26.511 \r\n- Support of Emergency Alerts"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: BROADCAST
-- content: RADIO
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

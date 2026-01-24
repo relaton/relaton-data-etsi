@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119102-2V1.4.12023-06
+id: ETSITS1191022V141202306
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Procedures for Creation
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Procedures for Creation
     and Validation of AdES Digital Signatures; Part 2: Signature Validation Report'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64293
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11910202/01.04.01_60/ts_11910202v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 102-2 V1.4.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64293
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11910202/01.04.01_60/ts_11910202v010401p.pdf
+docidentifier:
+- content: ETSI TS 119 102-2 V1.4.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 102-2 V1.4.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update the document, to be able to create a validation report for qualified
+- language: en
+  script: Latn
+  content: Update the document, to be able to create a validation report for qualified
     electronic signature or seals, inline with ETSI TS 119 172-4.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: trust services
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: trust services
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

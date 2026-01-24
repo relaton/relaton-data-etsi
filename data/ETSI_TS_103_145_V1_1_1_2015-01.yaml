@@ -1,67 +1,98 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103145V1.1.12015-01
+id: ETSITS103145V111201501
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); System Architecture and High Level
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); System Architecture and High Level
     Procedures for Coordinated and Uncoordinated Use of TV White Spaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42394
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103145/01.01.01_60/ts_103145v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 145 V1.1.1 (2015-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42394
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103145/01.01.01_60/ts_103145v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 145 V1.1.1 (2015-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 145 V1.1.1 (2015-01)
 date:
 - type: published
-  value: 2015-01
+  at: 2015-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB0ZWNobmljYWwgc3BlY2lmaWNhdGlvbiBkZWZpbmVzIHRoZSBzeXN0ZW0gYXJjaGl0ZWN0dXJlIGZvciB0aGUgdXNlIG9mIHNwZWN0cnVtIGJ5IFdoaXRlIFNwYWNlIERldmljZXMgKFdTRHMpLCBzcGVjaWZpY2FsbHkgaW4gdGhlIFVIRiBUViBCYW5kcy4gVGhlIGFyY2hpdGVjdHVyZSBzdGVtcyBmcm9tIEVUU0kgVFMgMTAyIDk0NjogIOKAnFN5c3RlbSByZXF1aXJlbWVudHMgZm9yIE9wZXJhdGlvbiBpbiBVSEYgVFYgQmFuZCBXaGl0ZSBTcGFjZXMu4oCdICBUaGUgc2NvcGUgb2YgdGhlIHdvcmsgd2lsbCBiZSB0byBkZWZpbmUgdGhlIGFyY2hpdGVjdHVyZSBvZiBhIHN5c3RlbSB3aGljaCBjYW4gYWxsb3cgb3BlcmF0aW9uIG9mIFdTRHMgYmFzZWQgb24gaW5mb3JtYXRpb24gb2J0YWluZWQgZnJvbSBHZW8tbG9jYXRpb24gZGF0YWJhc2VzLiAgVGhlIGFyY2hpdGVjdHVyZSB3aWxsIGNvbnNpZGVyIGJvdGggdW5jb29yZGluYXRlZCB1c2Ugb2YgV2hpdGUgU3BhY2UgKHdoZXJlIHRoZXJlIGlzIG5vIGF0dGVtcHQgdG8gbWFuYWdlIHRoZSB1c2FnZSBvZiBjaGFubmVscyBieSBkaWZmZXJlbnQgV1NEcykgYXMgd2VsbCBhcyBjb29yZGluYXRlZCB1c2Ugb2YgV2hpdGUgU3BhY2UgKHdoZXJlIHNvbWUgZm9ybSBvZiBjaGFubmVsIG1hbmFnZW1lbnQgYW5kL29yIGNvZXhpc3RlbmNlIHRlY2huaXF1ZXMgYXJlIGVtcGxveWVkIHRvIGVmZmljaWVudGx5IHVzZSB0aGUgV2hpdGUgU3BhY2UpLiAgVGhlIGFyY2hpdGVjdHVyZSB3aWxsIHNlcnZlIGFzIGFuIGlucHV0IGZvciBkZWZpbmluZyB0aGUgSGFybW9uaXplZCBTdGFuZGFyZHMgYW5kIEV1cm9wZWFuIFN0YW5kYXJkcyB0aGF0IGFyZSBwYXJ0IG9mIHRoZSBFQyBtYW5kYXRlIGZvciBSZWNvbmZpZ3VyYWJsZSBSYWRpbyBTeXN0ZW1zIChNLzUxMikuICAgIFRoZSBzcGVjaWZpY2F0aW9uIHNob3VsZCBpbmNsdWRlLCBidXQgaXMgbm90IGxpbWl0ZWQgdG86IA0KLSBDb21tb24gYXJjaGl0ZWN0dXJlIGNvdmVyaW5nIGJvdGggY29vcmRpbmF0ZWQgYW5kIG5vbi1jb29yZGluYXRlZCB1c2FnZQ0KLSBJZGVudGlmaWNhdGlvbiBvZiB0aGUgZGlmZmVyZW50IGVudGl0aWVzLCByZWZlcmVuY2UgcG9pbnRzLCBhbmQgdGhlIGZ1bmN0aW9uIG9mIGVhY2ggZW50aXR5IA0KLSBNZWNoYW5pc21zIGZvckhpZ2ggbGV2ZWwgcHJvY2VkdXJlcyBhbmQgc2lnbmFsbGluZyBlbmFibGluZyBpbnRlcmZlcmVuY2UgbWFuYWdlbWVudCwgY29leGlzdGVuY2UsIGFuZCBjaGFubmVsIG1hbmFnZW1lbnQgaW4gdGhlIGNhc2Ugb2YgY29vcmRpbmF0ZWQgdXNhZ2UgKGluY2x1ZGluZyB0aGUgZXZhbHVhdGlvbiBvZiB0aGUgc3BlY3RydW0gYW5kIHRoZSBjb29yZGluYXRpb24gc3RyYXRlZ3kgYW1vbmcgZGlmZmVyZW50IENSUykNCi0gIERlZmluaXRpb24sIGhpZ2ggbGV2ZWwgcHJvY2VkdXJlcyBhbmQgSW5mb3JtYXRpb24gZXhjaGFuZ2UgZm9yIHNwZWN0cnVtIHJlcXVlc3RzIG1hZGUgYnkgc2Vjb25kYXJ5IHN5c3RlbXMNCi0gRGVmaW5pdGlvbiwgaGlnaCBsZXZlbCBwcm9jZWR1cmVzLCBhbmQgaW5mb3JtYXRpb24gZXhjaGFuZ2UgcmVsYXRlZCB0byBtZWFzdXJlbWVudHMgcmVxdWlyZWQgZm9yIHNwZWN0cnVtIGFsbG9jYXRpb24gYW5kIHJlY29uZmlndXJhdGlvbg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This technical specification defines the system architecture for the use
+    of spectrum by White Space Devices (WSDs), specifically in the UHF TV Bands. The
+    architecture stems from ETSI TS 102 946:  System requirements for Operation in
+    UHF TV Band White Spaces.  The scope of the work will be to define the architecture
+    of a system which can allow operation of WSDs based on information obtained from
+    Geo-location databases.  The architecture will consider both uncoordinated use
+    of White Space (where there is no attempt to manage the usage of channels by different
+    WSDs) as well as coordinated use of White Space (where some form of channel management
+    and/or coexistence techniques are employed to efficiently use the White Space).
+    \ The architecture will serve as an input for defining the Harmonized Standards
+    and European Standards that are part of the EC mandate for Reconfigurable Radio
+    Systems (M/512).    The specification should include, but is not limited to: \r\n-
+    Common architecture covering both coordinated and non-coordinated usage\r\n- Identification
+    of the different entities, reference points, and the function of each entity \r\n-
+    Mechanisms forHigh level procedures and signalling enabling interference management,
+    coexistence, and channel management in the case of coordinated usage (including
+    the evaluation of the spectrum and the coordination strategy among different CRS)\r\n-
+    \ Definition, high level procedures and Information exchange for spectrum requests
+    made by secondary systems\r\n- Definition, high level procedures, and information
+    exchange related to measurements required for spectrum allocation and reconfiguration"
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: GLDB
-- content: SYSTEM
-- content: white space
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: GLDB
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: white space
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

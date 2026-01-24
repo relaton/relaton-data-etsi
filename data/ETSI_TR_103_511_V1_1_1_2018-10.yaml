@@ -1,73 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103511V1.1.12018-10
+id: ETSITR103511V111201810
+schema_version: v1.4.1
 title:
-- content: SmartM2M; SAREF extension investigation; Requirements for AgriFood domain
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51408
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103511/01.01.01_60/tr_103511v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 511 V1.1.1 (2018-10)
+- language: en
+  script: Latn
+  content: SmartM2M; SAREF extension investigation; Requirements for AgriFood domain
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51408
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103511/01.01.01_60/tr_103511v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 511 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 511 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specify an initial semantic model for smart agriculture and food chain
+- language: en
+  script: Latn
+  content: "Specify an initial semantic model for smart agriculture and food chain
     domain based on a limited set of use cases and from available existing data model.\r\nThis
     work is expected to be developed in close collaboration with AIOTI, the H2020
     Large Scale Pilots and with ETSI activities in the smart agriculture and food
     chain domain.\r\nFurther extensions are envisaged in the  future to cover entirely
     the smart agriculture and food chain domain."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Agriculture
-- content: Food
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: Agriculture
+  - language: en
+    script: Latn
+    content: Food
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

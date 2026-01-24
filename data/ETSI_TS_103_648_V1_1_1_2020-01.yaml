@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103648V1.1.12020-01
+id: ETSITS103648V111202001
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Radio Equipment (RE) reconfiguration
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Radio Equipment (RE) reconfiguration
     architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103648/01.01.01_60/ts_103648v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 648 V1.1.1 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103648/01.01.01_60/ts_103648v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 648 V1.1.1 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 648 V1.1.1 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: REA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Report will define an Architecture for Radio Equipment enabling
+- language: en
+  script: Latn
+  content: This Technical Report will define an Architecture for Radio Equipment enabling
     Reconfiguration through Software.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: RADIO
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: REA - Reconfigurable Radio Equipment Architecture
+    content: Technical Specification

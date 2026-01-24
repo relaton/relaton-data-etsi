@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103410-7V1.1.12020-07
+id: ETSITS1034107V111202007
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; Extension to SAREF; Part 7: Automotive Domain'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51402
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10341007/01.01.01_60/ts_10341007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 410-7 V1.1.1 (2020-07)
+- language: en
+  script: Latn
+  content: 'SmartM2M; Extension to SAREF; Part 7: Automotive Domain'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51402
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/10341007/01.01.01_60/ts_10341007v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 410-7 V1.1.1 (2020-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 410-7 V1.1.1 (2020-07)
 date:
 - type: published
-  value: 2020-07
+  at: 2020-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specify an initial extension to SAREF to include the semantic model for
+- language: en
+  script: Latn
+  content: "Specify an initial extension to SAREF to include the semantic model for
     Automotive. \r\nThis initial extension will be based on a limited set of use cases
     and available existing data models identified in the corresponding requirement
     TR.\r\nThis work is expected to be developed in close collaboration with AIOTI,
     the H2020 Large Scale Pilots, ETSI and oneM2M.\r\nFurther extensions are envisaged
     in the future to cover entirely the Automotive domain."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

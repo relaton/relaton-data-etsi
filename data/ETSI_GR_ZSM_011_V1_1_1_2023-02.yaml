@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRZSM011V1.1.12023-02
+id: ETSIGRZSM011V111202302
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Intent-driven autonomous
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Intent-driven autonomous
     networks; Generic aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61992
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/011/01.01.01_60/gr_ZSM011v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ZSM 011 V1.1.1 (2023-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61992
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/011/01.01.01_60/gr_ZSM011v010101p.pdf
+docidentifier:
+- content: ETSI GR ZSM 011 V1.1.1 (2023-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR ZSM 011 V1.1.1 (2023-02)
 date:
 - type: published
-  value: 2023-02
+  at: 2023-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Intent-based management enables simpler and more user-friendly expressions
+- language: en
+  script: Latn
+  content: "Intent-based management enables simpler and more user-friendly expressions
     of input information, and higher flexibility in automation.\r\nThis study investigates
     the potential use of intents as key enabler for enhancing autonomous network and
     service management within ZSM framework. It provides guidelines on how to use
@@ -63,19 +72,21 @@ abstract:
     study will take the progress from other standards developing organizations related
     to intents and intent-based management into account, and coordinate with corresponding
     standards groups if needed.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: Autonomic Networking
-- content: GENERIC
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: GENERIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Report

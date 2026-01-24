@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103189V1.2.12014-04
+id: ETSITS103189V121201404
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Assessment of end-to-end
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Assessment of end-to-end
     Quality for VoLTE and RCS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43382
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103189/01.02.01_60/ts_103189v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 189 V1.2.1 (2014-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43382
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103189/01.02.01_60/ts_103189v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 189 V1.2.1 (2014-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 189 V1.2.1 (2014-04)
 date:
 - type: published
-  value: 2014-04
+  at: 2014-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2014-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies a set of end-to-end QoS test extensions
+- language: en
+  script: Latn
+  content: The present document specifies a set of end-to-end QoS test extensions
     to TS 186 011, TS 102 901 and TS 103 029. To some extent the end-to-end QoS tests
     are self-contained and are therefore provided as a self-standing document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assessment
-- content: QoS
-- content: VIDEO
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: assessment
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: VIDEO
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

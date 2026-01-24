@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301140-5V1.1.31999-11
+id: ETSIEN3011405V113199911
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Application Protocol (INAP);
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Application Protocol (INAP);
     Capability Set 2 (CS2); Part 5: Distributed Functional Plane (DFP) [ITU-T Recommendation
     Q.1224 (1997), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4642
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114005/01.01.03_60/en_30114005v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 140-5 V1.1.3 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4642
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114005/01.01.03_60/en_30114005v010103p.pdf
+docidentifier:
+- content: ETSI EN 301 140-5 V1.1.3 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 140-5 V1.1.3 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Core INAP for CS2 shall also reflect the Distributed Functional Plane\r\n(DFP),
+- language: en
+  script: Latn
+  content: "Core INAP for CS2 shall also reflect the Distributed Functional Plane\r\n(DFP),
     e.g. including the specification of BCSM, DP processing rules,\r\nFE modelling.
     The intention of this part of Core INAP for CS2 is, to\r\nendorse ITU-T Recommendation
     Q.1224 and to identify exceptions from\r\nQ.1224 which are valid for Core INAP
@@ -57,20 +66,24 @@ abstract:
     CTN, GVNS, Call Party Handling (CPH), Interworking of INAP with\r\nISUP/DSS1.\r\n
     Specification of this part shall be done in close co-operation with\r\nNA 6 since
     modelling aspects are to be considered.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS2
-- content: ENDORSEMENT
-- content: IN
-- content: INAP
+- taxon:
+  - language: en
+    script: Latn
+    content: CS2
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Intelligent Network
+    content: European Standard

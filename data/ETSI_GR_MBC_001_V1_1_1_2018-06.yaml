@@ -1,74 +1,107 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMBC001V1.1.12018-06
+id: ETSIGRMBC001V111201806
+schema_version: v1.4.1
 title:
-- content: Mobile Broadcast Convergence Group Report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50573
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MBC/001_099/001/01.01.01_60/gr_MBC001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MBC 001 V1.1.1 (2018-06)
+- language: en
+  script: Latn
+  content: Mobile Broadcast Convergence Group Report
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50573
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MBC/001_099/001/01.01.01_60/gr_MBC001v010101p.pdf
+docidentifier:
+- content: ETSI GR MBC 001 V1.1.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR MBC 001 V1.1.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile and Broadcast Convergence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIE1CQyBJU0cgZ3JvdXAgd2lsbCBkZXZlbG9wIHVzZSBjYXNlcyBhbmQgY29tbWVyY2lhbCByZXF1aXJlbWVudHMgZW5hYmxpbmcgZnV0dXJlIHdpcmVsZXNzIG5ldHdvcmtzIHRvIGRlbGl2ZXIgbW9yZSBlZmZpY2llbnRseSBtYXNzIG1hcmtldCBicm9hZGNhc3Qgc2VydmljZXMgdG8gbW9iaWxlIGRldmljZXMuIFRoaXMgd2lsbCB0YWtlIHRoZSBmb3JtIG9mIGEgZ2VuZXJhbCByZXBvcnQgZXhwbG9yaW5nIHRoZSBkZXBsb3ltZW50IGFuZCBidXNpbmVzcyBtb2RlbHMgb2YgY29udmVyZ2VkIG5ldHdvcmtzIGVuY29tcGFzc2luZyBhbGwgaW5kdXN0cnkgdmlld3MuIEluaXRpYWxseSB3ZSBhcmUgZGV2ZWxvcGluZyB0aHJlZSBhcmVhcyDigJMgKDEpIFdoZXJlIGFyZSB3ZSBub3csICgyKSBEZXBsb3ltZW50IE9wcG9ydHVuaXRpZXMsICgzKSBFbmFibGluZyB0aGUgTWFya2V0Lg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The MBC ISG group will develop use cases and commercial requirements enabling
+    future wireless networks to deliver more efficiently mass market broadcast services
+    to mobile devices. This will take the form of a general report exploring the deployment
+    and business models of converged networks encompassing all industry views. Initially
+    we are developing three areas  (1) Where are we now, (2) Deployment Opportunities,
+    (3) Enabling the Market.
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADBAND
-- content: BROADCAST
-- content: Content
-- content: DVB
-- content: IMT
-- content: LTE-Advanced
-- content: MOBILE
-- content: MULTIMEDIA
-- content: smartphone
-- content: UHDTV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: Content
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: IMT
+  - language: en
+    script: Latn
+    content: LTE-Advanced
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: smartphone
+  - language: en
+    script: Latn
+    content: UHDTV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Mobile and Broadcast Convergence
+    content: Group Report

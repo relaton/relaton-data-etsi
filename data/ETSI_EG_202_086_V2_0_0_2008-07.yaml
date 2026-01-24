@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202086V2.0.02008-07
+id: ETSIEG202086V200200807
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Objectives and
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Objectives and
     principles for the transmission performance of multiple interconnected networks
     that aim to provide "traditional quality" telephony services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27673
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202000_202099/202086/02.00.00_60/eg_202086v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 086 V2.0.0 (2008-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27673
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202000_202099/202086/02.00.00_60/eg_202086v020000p.pdf
+docidentifier:
+- content: ETSI EG 202 086 V2.0.0 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 086 V2.0.0 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Currently EG 202 086 uses the assumption that the operator who is paid
+- language: en
+  script: Latn
+  content: "Currently EG 202 086 uses the assumption that the operator who is paid
     for the call will have responsibility for this performance. However, with the
     development of competition so that a substantial proportion of calls pass across
     more than one network, it is no longer realistic to consider that any operator
@@ -55,22 +64,30 @@ abstract:
     to the other unless the call remains wholly on-net. Responsibility implies choice
     and control, but in many cases this choice and control do not exist.\r\nTherefore
     EG 202 086 is to be revised in order to reflect this situation."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: QoS
-- content: QUALITY
-- content: SPEECH
-- content: TELEPHONY
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: ETSI Guide

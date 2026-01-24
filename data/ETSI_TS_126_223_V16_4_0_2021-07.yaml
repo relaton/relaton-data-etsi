@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126223V16.4.02021-07
+id: ETSITS126223V1640202107
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; Telepresence using
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; Telepresence using
     the IP Multimedia Subsystem (IMS); Media handling and interaction (3GPP TS 26.223
     version 16.4.0 Release 16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63283
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126223/16.04.00_60/ts_126223v160400p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 223 V16.4.0 (2021-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63283
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126223/16.04.00_60/ts_126223v160400p.pdf
+docidentifier:
+- content: ETSI TS 126 223 V16.4.0 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 223 V16.4.0 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.4.0
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#92-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#92-e
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

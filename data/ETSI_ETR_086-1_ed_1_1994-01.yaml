@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR086-1ed.11994-01
+id: ETSIETR0861ed1199401
+schema_version: v1.4.1
 title:
-- content: 'Trans European Trunked Radio (TETRA) systems; Technical requirements specification;
+- language: en
+  script: Latn
+  content: 'Trans European Trunked Radio (TETRA) systems; Technical requirements specification;
     Part 1: Voice plus Data (V+D) systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6712
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/08601/01_60/etr_08601e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 086-1 ed.1 (1994-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6712
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/08601/01_60/etr_08601e01p.pdf
+docidentifier:
+- content: ETSI ETR 086-1 ed.1 (1994-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 086-1 ed.1 (1994-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Terrestrial Trunked Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A description of the principles, working assumptions, and relevant\r\nconsiderations
+- language: en
+  script: Latn
+  content: "A description of the principles, working assumptions, and relevant\r\nconsiderations
     for these, of the Trans-European Trunked Radio (TETRA)\r\n must reflect the ETR1-000/ETR3-000
     (az 11/93)\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: RADIO
-- content: SPEECH
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Terrestrial Trunked Radio
+    content: ETSI Technical Report

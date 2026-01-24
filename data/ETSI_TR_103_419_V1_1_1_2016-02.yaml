@@ -1,66 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103419V1.1.12016-02
+id: ETSITR103419V111201602
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Testing methodology for equipment able
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Testing methodology for equipment able
     of dynamic performances adaptation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43756
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103419/01.01.01_60/tr_103419v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 419 V1.1.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43756
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103419/01.01.01_60/tr_103419v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 419 V1.1.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 419 V1.1.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RW5lcmd5IEF3YXJlIE5ldHdvcmtpbmcgYWRhcHQgcGVyZm9ybWFuY2VzIGFuZCBwb3dlciBjb25zdW1wdGlvbiBhY2NvcmRpbmcgdG8gdHJhZmZpYyBsb2FkLiBBY3R1YWwgZW5lcmd5IGVmZmljaWVuY3kgbWVhc3VyZW1lbnQgcHJvY2VkdXJlcyBhcmUgdW5zdWl0YWJsZSB0byBkZXRlcm1pbmVzIHRoZSBlcXVpcG1lbnTigJlzIGFiaWxpdHkgdG8gYWRhcHQgcGVyZm9ybWFuY2VzIGFuZCBwb3dlciBjb25zdW1wdGlvbiB0byB0cmFmZmljIGxvYWQgbmVlZHMsIGhlbmNlIGEgbm92ZWwgbWVhc3VyZW1lbnQgbWV0aG9kIGlzIHJlcXVpcmVkLiBUaGlzIFdJIHdpbGwgZm9jdXMgb24gZml4ZWQgYWNjZXNzIGFuZCB0cmFuc3BvcnQgbm9kZXMuIA==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Energy Aware Networking adapt performances and power consumption according
+    to traffic load. Actual energy efficiency measurement procedures are unsuitable
+    to determines the equipments ability to adapt performances and power consumption
+    to traffic load needs, hence a novel measurement method is required. This WI will
+    focus on fixed access and transport nodes. '
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: Measurement
-- content: SDN
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: SDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: Technical Report

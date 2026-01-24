@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103462V1.2.12019-12
+id: ETSITS103462V121201912
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58054
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103462/01.02.01_60/ts_103462v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 462 V1.2.1 (2019-12)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58054
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103462/01.02.01_60/ts_103462v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 462 V1.2.1 (2019-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 462 V1.2.1 (2019-12)
 date:
 - type: published
-  value: 2019-12
+  at: 2019-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2019-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies the LEMF to LEMF interface to support (as
+- language: en
+  script: Latn
+  content: "The present document specifies the LEMF to LEMF interface to support (as
     a minimum) European Investigation Orders (EIOs) related to LI and/or RD. The present
     document enables to to securely handling real time and stored data transfer between
     LEMFs.\r\n\r\nThis revision makes corrections according to the Change Request
     process in order to take into account the outcome of the 1st ETSI Plugtests event
     on the Inter LEMF Handover Interface (IHLI)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HANDOVER
-- content: IP
-- content: Lawful Disclosure
-- content: Lawful Interception
-- content: Retained Data
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Disclosure
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: Retained Data
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

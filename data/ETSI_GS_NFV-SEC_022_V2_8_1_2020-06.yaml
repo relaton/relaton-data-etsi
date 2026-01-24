@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SEC022V2.8.12020-06
+id: ETSIGSNFVSEC022V281202006
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 2; Security; Access Token
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 2; Security; Access Token
     Specification for API Access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59472
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/022/02.08.01_60/gs_NFV-SEC022v020801p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SEC 022 V2.8.1 (2020-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59472
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/022/02.08.01_60/gs_NFV-SEC022v020801p.pdf
+docidentifier:
+- content: ETSI GS NFV-SEC 022 V2.8.1 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SEC 022 V2.8.1 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.8.1
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-SEC 022 conducts NFV Release 2 maintenance. It corrects
+- language: en
+  script: Latn
+  content: "This revision of NFV-SEC 022 conducts NFV Release 2 maintenance. It corrects
     errors, ambiguities, misalignments, and applies editorial modifications (i.e.
     Corrections of category F and D as described in ETSI TWPs Annex L). This edition
     does not add or modify features, nor does it extend the scope of the former Release
@@ -60,21 +69,27 @@ abstract:
     defined.\r\n- Defines the token request and generation profile, the token format
     and associated metadata considering the result of existing access token specifications
     analysis.\r\n- Defines the token verification procedures for the API Producer.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: authentication
-- content: authorization
-- content: NFV
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Security
+    content: Group Specification

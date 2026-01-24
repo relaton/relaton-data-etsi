@@ -1,64 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118140V4.0.02022-09
+id: ETSITS118140V400202209
+schema_version: v1.4.1
 title:
-- content: oneM2M Modbus Interworking (oneM2M TS-0040 version 4.0.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66924
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118140/04.00.00_60/ts_118140v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 140 V4.0.0 (2022-09)
+- language: en
+  script: Latn
+  content: oneM2M Modbus Interworking (oneM2M TS-0040 version 4.0.0 Release 4)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66924
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118140/04.00.00_60/ts_118140v040000p.pdf
+docidentifier:
+- content: ETSI TS 118 140 V4.0.0 (2022-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 140 V4.0.0 (2022-09)
 date:
 - type: published
-  value: 2022-09
+  at: 2022-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2022-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gd2lsbCBjcmVhdGUgYSBUZWNobmljYWwgUmVwb3J0IHRvIHN0dWR5IGVuaGFuY2luZyBvbmVNMk0gc3lzdGVtIHRvIHN1cHBvcnQgaW50ZXJ3b3JraW5nIHdpdGggbW9kYnVzIGRldmljZXMgZm9yIGhvcml6b25hbGx5IGV4dGVuZGluZyBvbmVNMk0gcGxhdGZvcm0uIFRoZSBvYmplY3RpdmVzIG9mIHRoZSBUZWNobmljYWwgUmVwb3J0IGFyZSBhcyBmb2xsb3dzOg0KwrdJbnZlc3RpZ2F0ZSBpbnRlcndvcmtpbmcgYmV0d2VlbiBtb2RidXMgZGV2aWNlIGFuZCB0aGUgb25lTTJNIHN5c3RlbQ0KLUVuaGFuY2VtZW50cyBmb3Igb25lTTJNIHN5c3RlbSBzdXBwb3J0IGludGVyd29ya2luZyB3aXRoIE1vZGJ1cyBkZXZpY2UsIHN1Y2ggYXMgc3VwcG9ydGluZyBNYXN0ZXItc2xhdmVyIGNvbW11bmljYXRpb24gbWV0aG9kIA0KLU1vZGJ1cyBkYXRhIG1vZGVsIGlzIG1hcHBlZCB0byBvbmVNMk0gcmVzb3VyY2VzIA0KLUluc3RhbnRpYXRpbmcgTW9kYnVzIGRhdGEgbW9kZWwgYnkgdXNhZ2Ugb2Ygb25lTTJNIGJhc2Ugb250b2xvZ3kgDQotSW50ZXJ3b3JraW5nIHByb2NlZHVyZSBieSBvcGVyYXRpbmcgb25lTTJNIHJlc291cmNlIGFuZCByZXVzaW5nIEdlcm5lcmljIEludGVyd29ya2luZyAoVFMtMDAzMCkNCkZ1cnRoZXJtb3JlLCBkZXBlbmRpbmcgb24gdGhlIHN0dWR5IHJlc3VsdCBvZiB0aGUgVFIsIG5vcm1hdGl2ZSB3b3JrcyBtYXkgYmUgZm9sbG93ZWQgYXMgYSBzdGFuZGFsb25lIFRTIGZvciBzdXBwb3J0aW5nIE1vZHVicyBpbnRlcndvcmtpbmcuIA0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Work Item will create a Technical Report to study enhancing oneM2M
+    system to support interworking with modbus devices for horizonally extending oneM2M
+    platform. The objectives of the Technical Report are as follows:\r\nInvestigate
+    interworking between modbus device and the oneM2M system\r\n-Enhancements for
+    oneM2M system support interworking with Modbus device, such as supporting Master-slaver
+    communication method \r\n-Modbus data model is mapped to oneM2M resources \r\n-Instantiating
+    Modbus data model by usage of oneM2M base ontology \r\n-Interworking procedure
+    by operating oneM2M resource and reusing Gerneric Interworking (TS-0030)\r\nFurthermore,
+    depending on the study result of the TR, normative works may be followed as a
+    standalone TS for supporting Modubs interworking. \r\n"
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

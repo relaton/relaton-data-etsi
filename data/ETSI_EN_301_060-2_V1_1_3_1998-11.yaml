@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301060-2V1.1.31998-11
+id: ETSIEN3010602V113199811
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Basic call control; Enhancement at the "b" service
     entry point for Virtual Private Network (VPN) applications; Part 2: Protocol Implementation
     Conformance Statement (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5180
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106002/01.01.03_60/en_30106002v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 060-2 V1.1.3 (1998-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5180
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106002/01.01.03_60/en_30106002v010103p.pdf
+docidentifier:
+- content: ETSI EN 301 060-2 V1.1.3 (1998-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 060-2 V1.1.3 (1998-11)
 date:
 - type: published
-  value: 1998-11
+  at: 1998-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic Call Control Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1998-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "PICSS for DE/SPS-05109-1\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "PICSS for DE/SPS-05109-1\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: DSS1
-- content: ISDN
-- content: PICS
-- content: VPN
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: VPN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Basic Call Control Protocols
+    content: European Standard

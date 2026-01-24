@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201962V1.1.12001-09
+id: ETSIES201962V111200109
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); TETRA Advanced Packet Service (TAPS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12538
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201900_201999/201962/01.01.01_60/es_201962v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 962 V1.1.1 (2001-09)
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); TETRA Advanced Packet Service (TAPS)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12538
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201900_201999/201962/01.01.01_60/es_201962v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 962 V1.1.1 (2001-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 962 V1.1.1 (2001-09)
 date:
 - type: published
-  value: 2001-09
+  at: 2001-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE High Speed Data
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Evolution of TETRA to provide high speed packet data at speeds approximately
+- language: en
+  script: Latn
+  content: "Evolution of TETRA to provide high speed packet data at speeds approximately
     10 times that available in existing TETRA, to support multimedia and other high
     speed data applications required by existing and future TETRA users.\r\nAreas
     involved expected to include:\r\n-modulation method/FEC;\r\n-air interface protocol
     stack;\r\n-interference/guard bands;\r\n-roaming indicator;\r\nGPRS interaction.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TCCE High Speed Data
+    content: ETSI Standard

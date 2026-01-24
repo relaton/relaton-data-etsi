@@ -1,73 +1,100 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101952-3V1.1.12012-02
+id: ETSITS1019523V111201202
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Access network
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Access network
     xDSL splitters for European deployment; Part 3: Generic specification of static
     distributed filters for xDSL over POTS'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31041
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/10195203/01.01.01_60/ts_10195203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 952-3 V1.1.1 (2012-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31041
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/10195203/01.01.01_60/ts_10195203v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 952-3 V1.1.1 (2012-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 952-3 V1.1.1 (2012-02)
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UHJvZHVjZSBhIHJldmlzaW9uIG9mIFRTIDEwMSA5NTItMS01IGNvdmVyaW5nIHN0YXRpYyBkaXN0cmlidXRlZCBmaWx0ZXJzDQrCt1RvIGV4dGVuZCB0aGUgc2NvcGUgdG8gY292ZXIgQURTTDIrDQrCt1RvIGltcHJvdmUgY2xhcml0eSBvbiB0ZXN0IGNvbmZpZ3VyYXRpb25zIGluIHBhcnRpY3VsYXIgdGhlIG51bWJlciBvZiBmaWx0ZXJzIGluIHRoZSB0ZXN0IHNldCB1cC4NClRvIGFkZCBhbiBJbnRyb2R1Y3Rpb24gaW4gbGluZSB3aXRoIG90aGVyIHN1YiBwYXJ0cyANClRvIFVwZGF0ZSByZWZlcmVuY2UgdG8gVEJSIDIxIHRvIEVTIDIwMyAwMjENClN0dWR5IGEgcmV2aXNpb24gb2YgdGhlIHJlcXVpcmVtZW50IGZvciBpbXBlZGFuY2UgYXQgMjUgYW5kIDUwIEh6DQpBZGQgbmV3IHJlcXVpcmVtZW50IGZvciBBRFNMIEludGVyIG1vZHVsYXRpb24gZGlzdG9ydGlvbi4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Produce a revision of TS 101 952-1-5 covering static distributed filters\r\nTo
+    extend the scope to cover ADSL2+\r\nTo improve clarity on test configurations
+    in particular the number of filters in the test set up.\r\nTo add an Introduction
+    in line with other sub parts \r\nTo Update reference to TBR 21 to ES 203 021\r\nStudy
+    a revision of the requirement for impedance at 25 and 50 Hz\r\nAdd new requirement
+    for ADSL Inter modulation distortion.\r\n"
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ACCESS
-- content: ADSL
-- content: ANALOGUE
-- content: BROADBAND
-- content: distributed filters
-- content: POTS
-- content: Splitter
-- content: VDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: distributed filters
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: VDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Specification

@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102384V17.0.02024-08
+id: ETSITS102384V1700202408
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC-Terminal interface; Card Application Toolkit (CAT) conformance
+- language: en
+  script: Latn
+  content: Smart Cards; UICC-Terminal interface; Card Application Toolkit (CAT) conformance
     specification (Release 17)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68044
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102384/17.00.00_60/ts_102384v170000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 384 V17.0.0 (2024-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68044
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102384/17.00.00_60/ts_102384v170000p.pdf
+docidentifier:
+- content: ETSI TS 102 384 V17.0.0 (2024-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 384 V17.0.0 (2024-08)
 date:
 - type: published
-  value: 2024-08
+  at: 2024-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.0.0
-revdate: 2024-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of test cases to be able to verify the Logical Secure element
+- language: en
+  script: Latn
+  content: "Specification of test cases to be able to verify the Logical Secure element
     Interface (LSI) as defined in ETSI TS 102 221\r\nTest cases should cover the following
     LSI functionality:\r\n- selecting an Logical Secure Element (LSE) for subsequent
     APDUs;\r\n- resetting an LSE;\r\n- setting up the LSI configuration after power
     up or a reset of the physical interface; \r\n- assigning the UICC-CLF interface
     to an LSE and retrieving the LSI of the LSE that has the UICC-CLF interface assigned.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LSE
-- content: LSI
-- content: SIM
-- content: SMART CARD
-- content: test
-- content: UICC
+- taxon:
+  - language: en
+    script: Latn
+    content: LSE
+  - language: en
+    script: Latn
+    content: LSI
+  - language: en
+    script: Latn
+    content: SIM
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: UICC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET TEST
+    content: Technical Specification

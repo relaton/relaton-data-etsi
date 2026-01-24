@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301361-1V1.1.11999-10
+id: ETSIEN3013611V111199910
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
     Digital Network (ISDN); ISDN Mobility protocol Interworking specification Profile
     (IMIP); Part 1: DECT/ISDN interworking for Cordless Terminal Mobility (CTM) support'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5812
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301300_301399/30136101/01.01.01_60/en_30136101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 361-1 V1.1.1 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5812
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301300_301399/30136101/01.01.01_60/en_30136101v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 361-1 V1.1.1 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 361-1 V1.1.1 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This standard specifies a set of technical requiremens for Digital Enhanced
+- language: en
+  script: Latn
+  content: "This standard specifies a set of technical requiremens for Digital Enhanced
     Cordless Telecommunications (DECT) Fixed Parts (FP) supporting connection, via
     an ISDN interface, to a network supporting terminal mobility.\r\nThis part 1 of
     this standard specifies the interworking procedures between the DECT air interface
@@ -56,22 +65,30 @@ abstract:
     procedures between the DECT air interface and the mobility management protocols
     defined for an enhanced ISDN interface, to support GSM mobility.\r\n\r\nThe ETS
     300 434 contains interworking requirements for the support of basic call.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CTM
-- content: DECT
-- content: DSS1
-- content: INTERWORKING
-- content: ISDN
-- content: MOBILITY
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network aspects
+    content: European Standard

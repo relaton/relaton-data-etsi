@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103833-1V1.1.12022-12
+id: ETSITS1038331V111202212
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Conformance Test Specifications
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Conformance Test Specifications
     for the SCC-AS Services; (3GPPTM Release 16); Part 1: Protocol Implementation
     Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61424
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10383301/01.01.01_60/ts_10383301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 833-1 V1.1.1 (2022-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61424
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10383301/01.01.01_60/ts_10383301v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 833-1 V1.1.1 (2022-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 833-1 V1.1.1 (2022-12)
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "):   The Service centralization and continuity application server (SCC
+- language: en
+  script: Latn
+  content: "):   The Service centralization and continuity application server (SCC
     AS) is the entity in the IMS domain that handles the management of the access
     transfer of active sessions. The SCC AS coordinates the proper media and signalling
     exchange to the access network in which the UE is present. IMS centralized services
@@ -58,19 +67,21 @@ abstract:
     acts as a back-to-back user agent (B2BUA), providing an anchor point for incoming
     and outgoing calls. This conformance test specification aims to verify the SIP
     Protocol over the ISC reference point. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: PICS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

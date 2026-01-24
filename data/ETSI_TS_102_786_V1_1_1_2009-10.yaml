@@ -1,65 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102786V1.1.12009-10
+id: ETSITS102786V111200910
+schema_version: v1.4.1
 title:
-- content: GRID; ICT Grid Interoperability Testing Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30422
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102786/01.01.01_60/ts_102786v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 786 V1.1.1 (2009-10)
+- language: en
+  script: Latn
+  content: GRID; ICT Grid Interoperability Testing Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30422
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102786/01.01.01_60/ts_102786v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 786 V1.1.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 786 V1.1.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CLOUD
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGVmaW5lIGEgR1JJRCB0ZXN0aW5nIHdvcmtpbmcgZnJhbWV3b3JrICh0ZXN0cyBhbmQgdmFsaWRhdGlvbiBtZXRob2RvbG9naWVzLCBhcHByb2FjaCBhbmQgdG9vbHMgdG8gYmUgdXNlZC4gQnkgZXhhbXBsZSwgcHJvcG9zZSB0byByZS11c2UgdGhlIHRvb2xzIGRldmVsb3BlZCBieSBNVFMtSVBUIHRvIGNyZWF0ZSBlYXNpbHkgYSDigJxSZXF1aXJlbWVudCBDYXRhbG9ndWXigJ0gYWJsZSB0byB0cmFuc2Zvcm0gZXhpc3RpbmcgSUNUIEdSSUQgc3BlY2lmaWNhdGlvbnMgaW50byB0ZXN0cyByZXF1aXJlbWVudHMgc3RhbmRhcmRzIGNvcnJlc3BvbmRpbmcgdG8gc2VsZWN0ZWQgR1JJRCBpbnRlcm9wZXJhYmlsaXR5IGNhc2Ugc3R1ZGllcy4gSW4gYm90aCB0aGUgSVQgc2VjdG9ycyBhbmQgaW4gdGhlIFRlbGVjb20gd29ybGQsIHByb2R1Y2UgdGhlIGJlc3QgcHJhY3RpY2VzIHRvIG9idGFpbiBJQ1QgSW50ZXJvcGVyYWJpbGl0eQ==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Define a GRID testing working framework (tests and validation methodologies,
+    approach and tools to be used. By example, propose to re-use the tools developed
+    by MTS-IPT to create easily a Requirement Catalogue able to transform existing
+    ICT GRID specifications into tests requirements standards corresponding to selected
+    GRID interoperability case studies. In both the IT sectors and in the Telecom
+    world, produce the best practices to obtain ICT Interoperability
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: INTEROPERABILITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: CLOUD
+    content: Technical Specification

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300152V1.2.11999-10
+id: ETSIEN300152V121199910
+schema_version: v1.4.1
 title:
-- content: ElectroMagnetic Compatibility and Radio Spectrum Matters (ERM); Maritime
+- language: en
+  script: Latn
+  content: ElectroMagnetic Compatibility and Radio Spectrum Matters (ERM); Maritime
     Emergency Position Indicating Radio Beacons (EPIRBs) intended for use on the frequency
     121,5 MHz or the frequencies 121,5 MHz and 243 MHz for homing purposes only; Technical
     characteristics and methods of measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5490
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300100_300199/300152/01.02.01_60/en_300152v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 152 V1.2.1 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5490
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300100_300199/300152/01.02.01_60/en_300152v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 152 V1.2.1 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 152 V1.2.1 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Maritime Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update and align with Radio regulations.\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Update and align with Radio regulations.\r\n \r\n"
+status:
+  stage: Published
 keyword:
-- content: EPIRB
-- content: MARITIME
-- content: RADIO
-- content: SAR
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EPIRB
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SAR
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Maritime Radio
+    content: European Standard

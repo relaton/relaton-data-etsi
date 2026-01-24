@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRF5G007V1.1.12023-01
+id: ETSIGRF5G007V111202301
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); F5G Industrial PON
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61423
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/F5G/001_099/007/01.01.01_60/gr_F5G007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR F5G 007 V1.1.1 (2023-01)
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); F5G Industrial PON
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61423
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/F5G/001_099/007/01.01.01_60/gr_F5G007v010101p.pdf
+docidentifier:
+- content: ETSI GR F5G 007 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR F5G 007 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 5th Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will specify PON system for industrial applications, including
+- language: en
+  script: Latn
+  content: This Work Item will specify PON system for industrial applications, including
     different scenarios, system architecuture, key functions and requirements, interfaces,
     controller architecture, ONU architecutre with fieldbus interfaces and industrial
     environment adaption requirement etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: F5G
-- content: Industrial
-- content: PON
+- taxon:
+  - language: en
+    script: Latn
+    content: F5G
+  - language: en
+    script: Latn
+    content: Industrial
+  - language: en
+    script: Latn
+    content: PON
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: 5th Generation Fixed Network
+    content: Group Report

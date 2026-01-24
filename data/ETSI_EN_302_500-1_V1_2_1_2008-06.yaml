@@ -1,74 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302500-1V1.2.12008-06
+id: ETSIEN3025001V121200806
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD) using Ultra WideBand (UWB) technology; Location Tracking equipment
     operating in the frequency range from 6 GHz to 8,5 GHz; Part 1: Technical characteristics
     and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25582
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302500_302599/30250001/01.02.01_60/en_30250001v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 500-1 V1.2.1 (2008-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25582
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302500_302599/30250001/01.02.01_60/en_30250001v010201p.pdf
+docidentifier:
+- content: ETSI EN 302 500-1 V1.2.1 (2008-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 500-1 V1.2.1 (2008-06)
 date:
 - type: published
-  value: 2008-06
+  at: 2008-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band Sensors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2008-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document defines the requirements for radio frequency usage
+- language: en
+  script: Latn
+  content: "The present document defines the requirements for radio frequency usage
     for Ultra Wide Band (UWB) location tracking devices. These devices operate in
     the frequency range from 6 GHz to 9 GHz and use a fixed infrastructure. It covers
     Ultra Wide Band location tracking tags which are attached to people or objects
     and are tracked using a fixed infrastructure. Operation is mainly indoors. Outdoor
     usage is only allowed under an adequate national licensing scheme.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: REGULATION
-- content: SRD
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Ultra Wide Band Sensors
+    content: European Standard

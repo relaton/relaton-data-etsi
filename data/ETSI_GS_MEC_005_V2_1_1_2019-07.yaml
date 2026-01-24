@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC005V2.1.12019-07
+id: ETSIGSMEC005V211201907
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Proof of Concept Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56302
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/005/02.01.01_60/gs_MEC005v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC 005 V2.1.1 (2019-07)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Proof of Concept Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56302
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/005/02.01.01_60/gs_MEC005v020101p.pdf
+docidentifier:
+- content: ETSI GS MEC 005 V2.1.1 (2019-07)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC 005 V2.1.1 (2019-07)
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item intends to introduce the MEC Deployment Trial (MDT) projects
+- language: en
+  script: Latn
+  content: 'This work item intends to introduce the MEC Deployment Trial (MDT) projects
     into PoC framework.The MEC Deployment Trial Framework is seen as the next step
     of MEC PoC, which is to demonstrate the viability of MEC in commercial trial/deployment
     and to provide feedback to the standardization work. The present document specifies
     the process of MDT activities under the management of PoC team.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: deployement trial
-- content: MEC
-- content: Proof of Concept
+- taxon:
+  - language: en
+    script: Latn
+    content: deployement trial
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: Proof of Concept
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Specification

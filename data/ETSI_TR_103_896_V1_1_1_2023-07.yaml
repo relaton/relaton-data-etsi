@@ -1,66 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103896V1.1.12023-07
+id: ETSITR103896V111202307
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Considerations on off-axis
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Considerations on off-axis
     EIRP density mask applicability for Ka band GSO ESOMPs in relation to potential
     revision to ETSI EN 303 978 (V2.1.2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66752
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103896/01.01.01_60/tr_103896v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 896 V1.1.1 (2023-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66752
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103896/01.01.01_60/tr_103896v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 896 V1.1.1 (2023-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 896 V1.1.1 (2023-07)
 date:
 - type: published
-  value: 2023-07
+  at: 2023-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on R&TTE dir. 99/5/EC and and RED dir. 2014/53/EU
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gc3R1ZHkgdGhlIGltcGxpY2F0aW9ucyBvZiByZXZpZXdpbmcgdGhlIGN1cnJlbnQgc3BlY2lmaWNhdGlvbnMgZm9yIG9mZi1heGlzIGVpcnAgZGVuc2l0eSAoaS5lLiAywrAgb3IgbW9yZSBmcm9tIG1haW4gYXhpcykgaW4gRU4gMzAzIDk3OCB0byBiZXR0ZXIgdGFrZSBpbnRvIGFjY291bnQgRVNPTVAgcGhhc2VkIGFycmF5IGFudGVubmFzLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To study the implications of reviewing the current specifications for off-axis
+    eirp density (i.e. 2 or more from main axis) in EN 303 978 to better take into
+    account ESOMP phased array antennas.
+status:
+  stage: Published
 keyword:
-- content: radio parameters
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: radio parameters
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SES WG on R&TTE dir. 99/5/EC and and RED dir. 2014/53/EU
+    content: Technical Report

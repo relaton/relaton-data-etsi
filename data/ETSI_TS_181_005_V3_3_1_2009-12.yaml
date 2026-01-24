@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS181005V3.3.12009-12
+id: ETSITS181005V331200912
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Service and Capability Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28853
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181005/03.03.01_60/ts_181005v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 181 005 V3.3.1 (2009-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28853
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181005/03.03.01_60/ts_181005v030301p.pdf
+docidentifier:
+- content: ETSI TS 181 005 V3.3.1 (2009-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 181 005 V3.3.1 (2009-12)
 date:
 - type: published
-  value: 2009-12
+  at: 2009-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2009-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document defines the overall requirements for the TISPAN NGN from
+- language: en
+  script: Latn
+  content: This document defines the overall requirements for the TISPAN NGN from
     the perspective of users, service providers' (operators) and content providers
     for the support of NGN services. The objective is not to standardise NGN applications
     but, instead, to identify the requirements to enable their support. The deliverable
     will expand requirements in the R3 definition and reference other TISPAN NGN Work
     Items where the detailed services and requirements are specified.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Provider
-- content: SERVICE
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: Provider
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Specification

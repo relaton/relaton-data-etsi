@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102203V1.1.12003-05
+id: ETSITR102203V111200305
+schema_version: v1.4.1
 title:
-- content: Mobile Commerce (M-COMM); Mobile Signatures; Business and Functional Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16182
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102203/01.01.01_60/tr_102203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 203 V1.1.1 (2003-05)
+- language: en
+  script: Latn
+  content: Mobile Commerce (M-COMM); Mobile Signatures; Business and Functional Requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16182
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102203/01.01.01_60/tr_102203v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 203 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 203 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Commerce
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The objective of this task is to define a general architecture of a mobile
+- language: en
+  script: Latn
+  content: "The objective of this task is to define a general architecture of a mobile
     signature web service. The first step is to identify the business requirements
     that will lead the specifications. The second step is to settle a generic model
     description in order to clarify the actors and the message flows involved. \r\nRoaming
@@ -56,21 +65,27 @@ abstract:
     signature, particularly in Europe. However, liaison with other organisations outside
     Europe should also be taken into consideration. An initial list of interested
     bodies is: M-Sign, Radicchio, GSM Association, WAP Forum."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Commerce
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: FUNCTIONAL
-- content: MOBILE
+- taxon:
+  - language: en
+    script: Latn
+    content: Commerce
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: MOBILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Commerce
+    content: Technical Report

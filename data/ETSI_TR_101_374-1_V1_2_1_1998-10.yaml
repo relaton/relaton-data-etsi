@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101374-1V1.2.11998-10
+id: ETSITR1013741V121199810
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Broadband satellite multimedia;
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Broadband satellite multimedia;
     Part 1: Survey on standardization objectives'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6381
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101300_101399/10137401/01.02.01_60/tr_10137401v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 374-1 V1.2.1 (1998-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6381
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/10137401/01.02.01_60/tr_10137401v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 374-1 V1.2.1 (1998-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 374-1 V1.2.1 (1998-10)
 date:
 - type: published
-  value: 1998-10
+  at: 1998-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1998-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To prepare a Technical Report  on the Standardization Objectives for Broadband
+- language: en
+  script: Latn
+  content: "To prepare a Technical Report  on the Standardization Objectives for Broadband
     Satellite Multimedia using as reference the GMM report.\r\nThere is a growing
     interest in the development and the future deployment of Broadband Satellite Multimedia
     Systems. WRC 97 has allocated and confirmed allocation of new frequencies for
@@ -69,20 +78,24 @@ abstract:
     collect information, analyse, liaise with other relevant fora and draft standards.
     This can only be achieved within a short time scale with the support of a dedicated
     Specialist Task Force.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: EARTH STATION
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Report

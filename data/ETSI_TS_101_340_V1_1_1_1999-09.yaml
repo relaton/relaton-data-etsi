@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101340V1.1.11999-09
+id: ETSITS101340V111199909
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Protocol Implementation Conformance Statement (PICS) proforma for the support
     of supplementary services in H.323; Support of H.450.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6378
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101340/01.01.01_60/ts_101340v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 340 V1.1.1 (1999-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6378
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101340/01.01.01_60/ts_101340v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 340 V1.1.1 (1999-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 340 V1.1.1 (1999-09)
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Verification, demonstration and implementation matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: PICS proforma for H.450.1 Supplementary Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: PICS proforma for H.450.1 Supplementary Services
+status:
+  stage: Published
 keyword:
-- content: ICS
-- content: IP
-- content: PICS
-- content: SUPPLEMENTARY SERVICE
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ICS
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Verification, demonstration and implementation matters
+    content: Technical Specification

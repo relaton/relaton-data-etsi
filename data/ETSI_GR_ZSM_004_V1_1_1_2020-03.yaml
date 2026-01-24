@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRZSM004V1.1.12020-03
+id: ETSIGRZSM004V111202003
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Landscape
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54334
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/004/01.01.01_60/gr_ZSM004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ZSM 004 V1.1.1 (2020-03)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Landscape
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54334
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/004/01.01.01_60/gr_ZSM004v010101p.pdf
+docidentifier:
+- content: ETSI GR ZSM 004 V1.1.1 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR ZSM 004 V1.1.1 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document will develop a landscape report for Zero-Touch Network
+- language: en
+  script: Latn
+  content: "The present document will develop a landscape report for Zero-Touch Network
     and Service Management (ZSM).\r\nThe report will identify and include the information
     about activities in other bodies (such as Standards Developing Organizations,
     Open Source Communities, and Industry Associations) that are relevant to the work
     in ISG ZSM ."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: NETWORK
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Report

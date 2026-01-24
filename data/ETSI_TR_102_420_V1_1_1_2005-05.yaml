@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102420V1.1.12005-05
+id: ETSITR102420V111200505
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Review of activity on security
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20341
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102420/01.01.01_60/tr_102420v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 420 V1.1.1 (2005-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20341
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102420/01.01.01_60/tr_102420v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 420 V1.1.1 (2005-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 420 V1.1.1 (2005-05)
 date:
 - type: published
-  value: 2005-05
+  at: 2005-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of this deliverable is management reporting.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The purpose of this deliverable is management reporting.
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: REPORT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: REPORT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Report

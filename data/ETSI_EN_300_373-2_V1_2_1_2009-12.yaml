@@ -1,68 +1,107 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300373-2V1.2.12009-12
+id: ETSIEN3003732V121200912
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Maritime
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Maritime
     mobile transmitters and receivers for use in the MF and HF bands; Part 2: Harmonized
     EN covering essential requirements under article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28840
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30037302/01.02.01_60/en_30037302v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 373-2 V1.2.1 (2009-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28840
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30037302/01.02.01_60/en_30037302v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 373-2 V1.2.1 (2009-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 373-2 V1.2.1 (2009-12)
 date:
 - type: published
-  value: 2009-12
+  at: 2009-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgYXBwbGllcyB0byByYWRpbyB0cmFuc21pdHRlcnMgYW5kIHJlY2VpdmVycywgZm9yIHVzZSBvbiB2ZXNzZWxzLCBvcGVyYXRpbmcgaW4gZWl0aGVyIHRoZSBNZWRpdW0gRnJlcXVlbmN5IChNRikgb25seSBvciBpbiB0aGUgTWVkaXVtIGFuZCBIaWdoIEZyZXF1ZW5jeSAoTUYvSEYpIGJhbmRzIGFsbG9jYXRlZCBpbiB0aGUgSW50ZXJuYXRpb25hbCBUZWxlY29tbXVuaWNhdGlvbnMgVW5pb24gKElUVSkgUmFkaW8gUmVndWxhdGlvbnMgWzRdLCB0byB0aGUgTWFyaXRpbWUgTW9iaWxlIFNlcnZpY2UgKE1NUykuDQpUaGUgcHJlc2VudCBkb2N1bWVudCByZWZlcnMgdG8gZXF1aXBtZW50IGZvciBvbmUgb3IgbW9yZSBvZiB0aGUgZm9sbG93aW5nOg0KLVNpbmdsZSBTaWRlQmFuZCAoU1NCKSBtb2R1bGF0aW9uIGZvciB0ZWxlcGhvbnkgdHJhbnNtaXNzaW9uIGFuZCByZWNlcHRpb24gKEozRSk7DQotRnJlcXVlbmN5IFNoaWZ0IEtleWluZyAoRlNLKSBvciBTU0IgbW9kdWxhdGlvbiBvZiBhIGtleWVkIHN1Yi1jYXJyaWVyIHRvIHRyYW5zbWl0IGFuZCByZWNlaXZlIERpZ2l0YWwgU2VsZWN0aXZlIENhbGxpbmcgKERTQykgc2lnbmFscyBpbiBhY2NvcmRhbmNlIHdpdGggSVRVLVIgUmVjb21tZW5kYXRpb24gTS40OTMtMTAgWzVdLg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgYWxzbyByZWZlcnMgdG8gcmFkaW8gZXF1aXBtZW50LCB3aGljaCBpcyBub3QgaW50ZWdyYXRlZCB3aXRoIHRoZSBEU0MgZW5jb2RlciBvciBkZWNvZGVyLCBidXQgZGVmaW5lcyB0aGUgaW50ZXJmYWNlcyB3aXRoIHN1Y2ggZXF1aXBtZW50Lg0KTk9URSAxOlRoZSByZXF1aXJlbWVudHMgZm9yIGludGVncmF0ZWQgZXF1aXBtZW50IG1heSBiZSBmb3VuZCBpbiBvdGhlciByZWxldmFudCBFTi9FVFNzLg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgaXMgaW50ZW5kZWQgdG8gY292ZXIgdGhlIHByb3Zpc2lvbnMgb2YgRGlyZWN0aXZlIDE5OTkvNS9FQyAoUiZUVEUgRGlyZWN0aXZlKSBbMV0gYXJ0aWNsZSAzLjIsIHdoaWNoIHN0YXRlcyB0aGF0ICLigKYuLiByYWRpbyBlcXVpcG1lbnQgc2hhbGwgYmUgc28gY29uc3RydWN0ZWQgdGhhdCBpdCBlZmZlY3RpdmVseSB1c2VzIHRoZSBzcGVjdHJ1bSBhbGxvY2F0ZWQgdG8gdGVycmVzdHJpYWwvc3BhY2UgcmFkaW8gY29tbXVuaWNhdGlvbnMgYW5kIG9yYml0YWwgcmVzb3VyY2VzIHNvIGFzIHRvIGF2b2lkIGhhcm1mdWwgaW50ZXJmZXJlbmNlIi4NClRoZSByZXF1aXJlbWVudHMgaW4gdGhlIHByZXNlbnQgZG9jdW1lbnQgYXJlIGFwcGxpY2FibGUgdG8gcmVjZWl2ZXJzIGZvciBvcGVyYXRpbmcgb24gYWxsIGZyZXF1ZW5jaWVzIGluIHRoZSBiYW5kcyAxIDYwNSBrSHogdG8gNCAwMDAga0h6IG9yIDEgNjA1IGtIeiB0byAyNyw1IE1IeiBhcyBhbGxvY2F0ZWQgaW4gdGhlIElUVSBSYWRpbyBSZWd1bGF0aW9ucyBbNF0sIHRvIHRoZSBNTVMuDQpPdGhlciBzcG90IGZyZXF1ZW5jeSByZWNlaXZlcnMgc2hvdWxkIG1lZXQgYWxsIHRoZSByZXF1aXJlbWVudHMgb2YgdGhlIHByZXNlbnQgZG9jdW1lbnQgYW5kIG90aGVyIHJlbGV2YW50IHN0YW5kYXJkcyBhcyBhcHBsaWNhYmxlIGZvciB0aGUgZnJlcXVlbmNpZXMgYW5kIG1vZGVzIHByb3ZpZGVkLg0KSWYgdGhlIGVxdWlwbWVudCwgb3IgcGFydHMgb2YgaXQsIGFyZSBkZXNpZ25lZCBpbiBzdWNoIGEgbWFubmVyIHRoYXQgdGhleSBjYW4gYmUgdXNlZCBmb3Igb3RoZXIgY2F0ZWdvcmllcyBvZiBtYXJpdGltZSByYWRpb2NvbW11bmljYXRpb24gKGUuZy4gTW9yc2UgdGVsZWdyYXBoeSBvciBOQkRQIC0gRVRTIDMwMCAwNjcgWzZdKSwgdGhvc2UgcGFydHMgb2YgdGhlIGVxdWlwbWVudCBzaG91bGQgZnVsZmlsIHRoZSByZWxldmFudCByZXF1aXJlbWVudHMgb2YgdGhlIGFwcHJvcHJpYXRlIHN0YW5kYXJkcyBmb3IgdGhlIHNlcnZpY2UocykgaW4gcXVlc3Rpb24gZS5nLiBFVFMgMzAwIDA2NyBbNl0uDQpJbiBhZGRpdGlvbiB0byB0aGUgcHJlc2VudCBkb2N1bWVudCwgb3RoZXIgRU5zIHRoYXQgc3BlY2lmeSB0ZWNobmljYWwgcmVxdWlyZW1lbnRzIGluIHJlc3BlY3Qgb2YgZXNzZW50aWFsIHJlcXVpcmVtZW50cyB1bmRlciBvdGhlciBwYXJ0cyBvZiBhcnRpY2xlIDMgb2YgdGhlIFImVFRFIERpcmVjdGl2ZSBbMV0gd2lsbCBhcHBseSB0byBlcXVpcG1lbnQgd2l0aGluIHRoZSBzY29wZSBvZiB0aGUgcHJlc2VudCBkb2N1bWVudC4NCg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document applies to radio transmitters and receivers, for
+    use on vessels, operating in either the Medium Frequency (MF) only or in the Medium
+    and High Frequency (MF/HF) bands allocated in the International Telecommunications
+    Union (ITU) Radio Regulations [4], to the Maritime Mobile Service (MMS).\r\nThe
+    present document refers to equipment for one or more of the following:\r\n-Single
+    SideBand (SSB) modulation for telephony transmission and reception (J3E);\r\n-Frequency
+    Shift Keying (FSK) or SSB modulation of a keyed sub-carrier to transmit and receive
+    Digital Selective Calling (DSC) signals in accordance with ITU-R Recommendation
+    M.493-10 [5].\r\nThe present document also refers to radio equipment, which is
+    not integrated with the DSC encoder or decoder, but defines the interfaces with
+    such equipment.\r\nNOTE 1:The requirements for integrated equipment may be found
+    in other relevant EN/ETSs.\r\nThe present document is intended to cover the provisions
+    of Directive 1999/5/EC (R&TTE Directive) [1] article 3.2, which states that \"..
+    radio equipment shall be so constructed that it effectively uses the spectrum
+    allocated to terrestrial/space radio communications and orbital resources so as
+    to avoid harmful interference\".\r\nThe requirements in the present document are
+    applicable to receivers for operating on all frequencies in the bands 1 605 kHz
+    to 4 000 kHz or 1 605 kHz to 27,5 MHz as allocated in the ITU Radio Regulations
+    [4], to the MMS.\r\nOther spot frequency receivers should meet all the requirements
+    of the present document and other relevant standards as applicable for the frequencies
+    and modes provided.\r\nIf the equipment, or parts of it, are designed in such
+    a manner that they can be used for other categories of maritime radiocommunication
+    (e.g. Morse telegraphy or NBDP - ETS 300 067 [6]), those parts of the equipment
+    should fulfil the relevant requirements of the appropriate standards for the service(s)
+    in question e.g. ETS 300 067 [6].\r\nIn addition to the present document, other
+    ENs that specify technical requirements in respect of essential requirements under
+    other parts of article 3 of the R&TTE Directive [1] will apply to equipment within
+    the scope of the present document.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: MARITIME
-- content: RADIO
-- content: REGULATION
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: European Standard

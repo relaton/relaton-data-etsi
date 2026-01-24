@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC-DEC063V4.1.12025-08
+id: ETSIGRMECDEC063V411202508
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); ESTIMED Analysis and selection for oneM2M
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); ESTIMED Analysis and selection for oneM2M
     and MEC implementations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74887
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/063/04.01.01_60/gr_MEC-DEC063v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC-DEC 063 V4.1.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74887
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/063/04.01.01_60/gr_MEC-DEC063v040101p.pdf
+docidentifier:
+- content: ETSI GR MEC-DEC 063 V4.1.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC-DEC 063 V4.1.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Deployment and ECOsystem DEvelopment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This GR will provide a summary of the oneM2M and MEC implementations that
+- language: en
+  script: Latn
+  content: This GR will provide a summary of the oneM2M and MEC implementations that
     have been investigated as part of STF 685 Enabling Standardized IoT deployments
     in MEC Environments for advanced systems. It will include a list of the use case
     selection criteria and assessment of implementations for use in the PoCs. It will
@@ -54,19 +63,21 @@ abstract:
     of development effort required to implement any identified potential new features.
     Finally, it will indicate the selected implementations and the reasons for their
     selection.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: MEC
-- content: oneM2M
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: oneM2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Deployment and ECOsystem DEvelopment
+    content: Group Report

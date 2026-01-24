@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300506ed.32000-08
+id: ETSIETS300506ed3200008
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Security aspects
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Security aspects
     (GSM 02.09 version 4.5.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9835
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300506/03_60/ets_300506e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 506 ed.3 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9835
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300506/03_60/ets_300506e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 506 ed.3 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 506 ed.3 (2000-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this European Telecommunication Standard (ETS) is to de\r\nfine
+- language: en
+  script: Latn
+  content: "The purpose of this European Telecommunication Standard (ETS) is to de\r\nfine
     the security features which are to be available in a GSM PLMN, to\r\ngether with
     the associated levels of protection. This ETS is only conc\r\nerned with those
     security features which aim at the up-grading of the\r\nsecurity in a GSM PLMN.
     In particular, end-to-end security is outside\r\nthe scope of this ETS.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

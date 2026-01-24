@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186010-2V3.2.12015-10
+id: ETSITS1860102V321201510
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Conference (CONF) using
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Conference (CONF) using
     IP Multimedia (IM) Core Network (CN) subsystem; Conformance test specification
     (3GPP Release 10); Part 2: Test Suite Structure and Test Purposes (TSS&TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47058
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601002/03.02.01_60/ts_18601002v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 010-2 V3.2.1 (2015-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47058
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601002/03.02.01_60/ts_18601002v030201p.pdf
+docidentifier:
+- content: ETSI TS 186 010-2 V3.2.1 (2015-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 010-2 V3.2.1 (2015-10)
 date:
 - type: published
-  value: 2015-10
+  at: 2015-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2015-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UHJvZHVjdGlvbiBvZiBhIG5ldyByZWxlYXNlIG9mIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9uIFRTMTg2IDAxMC0yIENPTkZlcmVuY2UgVGVzdCBTdWl0ZSBTdHJ1Y3R1cmUgYW5kIFRlc3QgUHVycG9zZXMgKFRTUyZUUCnigJ0sIHVwZGF0ZSB0byAzR1BQIFJlbGVhc2UgMTA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Production of a new release of Technical Specification TS186 010-2 CONFerence
+    Test Suite Structure and Test Purposes (TSS&TP), update to 3GPP Release 10
+status:
+  stage: Published
 keyword:
-- content: CONF
-- content: IMS
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONF
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

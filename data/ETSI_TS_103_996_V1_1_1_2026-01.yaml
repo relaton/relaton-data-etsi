@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103996V1.1.12026-01
+id: ETSITS103996V111202601
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); EUCC PP for Optical Network and Device Security
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); EUCC PP for Optical Network and Device Security
     (ONDS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68554
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103996/01.01.01_60/ts_103996v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 996 V1.1.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68554
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103996/01.01.01_60/ts_103996v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 996 V1.1.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 996 V1.1.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop the Test Cases in the form of evaluation criteria and PP/CC
+- language: en
+  script: Latn
+  content: To develop the Test Cases in the form of evaluation criteria and PP/CC
     evaluation tests resulting from the Test Purposes identified for Work Items 92
     and 93. In combination with the base standard (including its ICS statement), and
     the TSS&TP this serves as a complete ONDS specification to allow use in the EUCC
     regime or equivalent under Common Criteria as a Protection Profile
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: Evaluation
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: Evaluation
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

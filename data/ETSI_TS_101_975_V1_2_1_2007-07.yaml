@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101975V1.2.12007-07
+id: ETSITS101975V121200707
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); RF Sensitive Area Mode
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25167
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101975/01.02.01_60/ts_101975v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 975 V1.2.1 (2007-07)
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); RF Sensitive Area Mode
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25167
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101975/01.02.01_60/ts_101975v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 975 V1.2.1 (2007-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 975 V1.2.1 (2007-07)
 date:
 - type: published
-  value: 2007-07
+  at: 2007-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2007-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update the document based on new user requirements, e.g. transmit inhibit
+- language: en
+  script: Latn
+  content: Update the document based on new user requirements, e.g. transmit inhibit
     - ambience listening interaction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MS
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Specification

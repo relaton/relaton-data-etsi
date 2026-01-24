@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186001-1V3.1.12015-11
+id: ETSITS1860011V311201511
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Network Integration Testing
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Network Integration Testing
     between SIP and ISDN/PSTN network signalling protocols; Part 1: Test Suite Structure
     and Test Purposes (TSS&TP) for SIP-ISDN'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38381
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600101/03.01.01_60/ts_18600101v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 001-1 V3.1.1 (2015-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38381
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600101/03.01.01_60/ts_18600101v030101p.pdf
+docidentifier:
+- content: ETSI TS 186 001-1 V3.1.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 001-1 V3.1.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The TSS&TP ensures the conformance of the SUT to 3GPP TS 29.163, ETSI
+- language: en
+  script: Latn
+  content: 'The TSS&TP ensures the conformance of the SUT to 3GPP TS 29.163, ETSI
     TS 183 036; '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: ISDN
-- content: NIT
-- content: SIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NIT
+  - language: en
+    script: Latn
+    content: SIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

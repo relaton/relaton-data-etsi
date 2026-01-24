@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126226V5.0.02002-08
+id: ETSITS126226V500200208
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Global text telephony;Transport
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Global text telephony;Transport
     of text in the voice channel (3GPP TS 26.226 version 5.0.0 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16223
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126226/05.00.00_60/ts_126226v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 226 V5.0.0 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16223
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126226/05.00.00_60/ts_126226v050000p.pdf
+docidentifier:
+- content: ETSI TS 126 226 V5.0.0 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 226 V5.0.0 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-11
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-11
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

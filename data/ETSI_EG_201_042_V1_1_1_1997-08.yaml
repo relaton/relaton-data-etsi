@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201042V1.1.11997-08
+id: ETSIEG201042V111199708
+schema_version: v1.4.1
 title:
-- content: Universal Personal Telecommunication (UPT); UPT phase 2; Network functionalities
+- language: en
+  script: Latn
+  content: Universal Personal Telecommunication (UPT); UPT phase 2; Network functionalities
     for feature interaction
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3812
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201042/01.01.01_60/eg_201042v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 042 V1.1.1 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3812
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201042/01.01.01_60/eg_201042v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 042 V1.1.1 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 042 V1.1.1 (1997-08)
 date:
 - type: published
-  value: 1997-08
+  at: 1997-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document gives a description of the issues and required\r\nfunctionalities
+- language: en
+  script: Latn
+  content: "This document gives a description of the issues and required\r\nfunctionalities
     concerning feature interaction between the features of\r\nUPT service phase 2
     and the features and supplementary services of the\r\nsupporting networks.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: ETSI Guide

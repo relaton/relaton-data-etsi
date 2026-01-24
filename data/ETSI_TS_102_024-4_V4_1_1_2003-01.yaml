@@ -1,74 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102024-4V4.1.12003-01
+id: ETSITS1020244V411200301
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 4; End-to-end Quality of Service in TIPHON Systems; Part 4: Quality of
     Service Management'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8872
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10202404/04.01.01_60/ts_10202404v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 024-4 V4.1.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8872
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10202404/04.01.01_60/ts_10202404v040101p.pdf
+docidentifier:
+- content: ETSI TS 102 024-4 V4.1.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 024-4 V4.1.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Quality of service aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document, \"TIPHON Quality of Service (QoS) Management\",
+- language: en
+  script: Latn
+  content: "The present document, \"TIPHON Quality of Service (QoS) Management\",
     specifies procedures for the monitoring of end-to-end QoS performance within and
     between TIPHON domains in a multi-media environment. This includes the monitoring
     of firewall devices in a secure manner. Annexe A to the present document specifies
     the TIPHON meta-protocols and object definitions required by these performance
     monitoring procedures.\r\nAdditional annexes to the present document define profiles
     for mapping a number of existing candidate protocols to the specified TIPHON meta-protocols."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: MANAGEMENT
-- content: QoS
-- content: TELEPHONY
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TIPHON Quality of service aspects
+    content: Technical Specification

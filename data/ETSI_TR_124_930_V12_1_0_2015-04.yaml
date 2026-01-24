@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR124930V12.1.02015-04
+id: ETSITR124930V1210201504
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; Signalling flows for the session setup
     in the IP Multimedia core network Subsystem (IMS) based on Session Initiation
     Protocol (SIP) and Session Description Protocol (SDP); Stage 3 (3GPP TR 24.930
     version 12.1.0 Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46845
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/124900_124999/124930/12.01.00_60/tr_124930v120100p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 124 930 V12.1.0 (2015-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46845
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/124900_124999/124930/12.01.00_60/tr_124930v120100p.pdf
+docidentifier:
+- content: ETSI TR 124 930 V12.1.0 (2015-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 124 930 V12.1.0 (2015-04)
 date:
 - type: published
-  value: 2015-04
+  at: 2015-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM [lu] (formely CN1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.1.0
-revdate: 2015-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-67
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-67
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MM/CC/SM [lu] (formely CN1)
+    content: Technical Report

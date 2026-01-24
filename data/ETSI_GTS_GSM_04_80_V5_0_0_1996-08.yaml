@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM04.80V5.0.01996-08
+id: ETSIGTSGSM0480V500199608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
     interface layer 3; Supplementary services specification; Formats and coding (GSM
     04.80)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4488
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/04/0480/05.00.00_60/gsmts_0480v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 04.80 V5.0.0 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4488
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/04/0480/05.00.00_60/gsmts_0480v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 04.80 V5.0.0 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 04.80 V5.0.0 (1996-08)
 date:
 - type: published
-  value: 1996-08
+  at: 1996-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS contains the coding of information necessary for support of\r\nsupplementary
+- language: en
+  script: Latn
+  content: "This ETS contains the coding of information necessary for support of\r\nsupplementary
     service operation on the mobile radio interface layer 3.\r\nClause 2 gives the
     functional definitions and contents of messages for\r\ncall independent supplementary
     service operations. Messages necessary\r\nfor support of call related supplementary
@@ -57,26 +66,42 @@ abstract:
     and call independent\r\nsupplementary service operations.\r\nClause 4 gives the
     specification of the call related and call\r\nindependent supplementary service
     operations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: GENERIC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: LAYER 3
-- content: MOBILE
-- content: PROTOCOL
-- content: RADIO
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

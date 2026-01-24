@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSmWT002V1.1.12015-08
+id: ETSIGSmWT002V111201508
+schema_version: v1.4.1
 title:
-- content: millimetre Wave Transmission (mWT); Applications and use cases of millimetre
+- language: en
+  script: Latn
+  content: millimetre Wave Transmission (mWT); Applications and use cases of millimetre
     wave transmission
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46550
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/002/01.01.01_60/gs_mWT002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS mWT 002 V1.1.1 (2015-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46550
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/002/01.01.01_60/gs_mWT002v010101p.pdf
+docidentifier:
+- content: ETSI GS mWT 002 V1.1.1 (2015-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS mWT 002 V1.1.1 (2015-08)
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHB1cnBvc2Ugb2YgdGhpcyBXb3JrIEl0ZW0gaXMgdG8gcHJvZHVjZSBpbmZvcm1hdGl2ZSBHUyBhcyBmb2xsb3dzOg0K4oCiUG90ZW50aWFsIHVzZXMgY2FzZXMvYXBwbGljYXRpb25zICh0ZWNobm9sb2dpZXMsIG5ldHdvcmsgdG9wb2xvZ2llcykNCuKAolJlcXVpcmVtZW50cyBwZXIgdXNlIGNhc2UgLyBhcHBsaWNhdGlvbg0K4oCibW1XIHNwZWN0cnVtIHNvbHV0aW9ucyBrZXkgcGVyZm9ybWFuY2UgYmVuZWZpdHMNCuKAokV2YWx1YXRpb24gY3JpdGVyaWEgZm9yIHVzZSBjYXNlcyAvIGFwcGxpY2F0aW9ucw0K4oCibW1XIGJhbmRzIGFwcGxpY2F0aW9uIGFuZCB1c2UgY2FzZSBleGFtcGxlcw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The purpose of this Work Item is to produce informative GS as follows:\r\nPotential
+    uses cases/applications (technologies, network topologies)\r\nRequirements per
+    use case / application\r\nmmW spectrum solutions key performance benefits\r\nEvaluation
+    criteria for use cases / applications\r\nmmW bands application and use case examples"
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: Millimetre wave
-- content: mWT
-- content: TRANSMISSION
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: Millimetre wave
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Specification

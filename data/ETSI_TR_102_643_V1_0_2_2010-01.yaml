@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102643V1.0.22010-01
+id: ETSITR102643V102201001
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Quality of Experience (QoE) requirements for real-time
+- language: en
+  script: Latn
+  content: Human Factors (HF); Quality of Experience (QoE) requirements for real-time
     communication services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33382
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102643/01.00.02_60/tr_102643v010002p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 643 V1.0.2 (2010-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33382
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102643/01.00.02_60/tr_102643v010002p.pdf
+docidentifier:
+- content: ETSI TR 102 643 V1.0.2 (2010-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 643 V1.0.2 (2010-01)
 date:
 - type: published
-  value: 2010-01
+  at: 2010-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.2
-revdate: 2010-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work item shall evaluate existing user-centred guidelines and their
+- language: en
+  script: Latn
+  content: The work item shall evaluate existing user-centred guidelines and their
     dissemination for the development of real-time communication services.  This includes
     EG 202 534 and the web-based system developed by STF284 (DEG/HF-00062).  The real-time
     services shall include person-to-person communication (e.g., multimedia conferencing,
@@ -56,19 +65,21 @@ abstract:
     shall be made that take into account the evolution of technologies, the development
     of user and market requirements and updates of the EC ICT Standardisation Work
     Programme.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERACTION
-- content: QUALITY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

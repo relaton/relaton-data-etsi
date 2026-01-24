@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM04.85V5.0.01996-12
+id: ETSIGTSGSM0485V500199612
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Closed User Group (CUG) supplementary
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Closed User Group (CUG) supplementary
     services; Stage 3 (GSM 04.85)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5210
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/04/0485/05.00.00_60/gsmts_0485v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 04.85 V5.0.0 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5210
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/04/0485/05.00.00_60/gsmts_0485v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 04.85 V5.0.0 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 04.85 V5.0.0 (1996-12)
 date:
 - type: published
-  value: 1996-12
+  at: 1996-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
     specifies the procedures used at the radio interface (reference p\r\noint Um as
     defined in GSM 04.02) for normal operation, registration, e\r\nrasure, activation,
     deactivation, invocation and interrogation of comm\r\nunity of interest supplementary
@@ -66,24 +75,36 @@ abstract:
     between GSM 09.02 and GSM 04.80 is defined in GSM 09.\r\n11.\r\nThe following
     supplementary services belong to the community of intere\r\nst supplementary services
     and are described in this GTS:\r\n-\tClosed User Group (CUG)\tclause 1.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CUG
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CUG
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

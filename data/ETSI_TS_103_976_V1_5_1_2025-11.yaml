@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103976V1.5.12025-11
+id: ETSITS103976V151202511
+schema_version: v1.4.1
 title:
-- content: Interface for Lawful Disclosure of vehicle-related data
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76259
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103976/01.05.01_60/ts_103976v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 976 V1.5.1 (2025-11)
+- language: en
+  script: Latn
+  content: Interface for Lawful Disclosure of vehicle-related data
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76259
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103976/01.05.01_60/ts_103976v010501p.pdf
+docidentifier:
+- content: ETSI TS 103 976 V1.5.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 976 V1.5.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document defines an interface between two parties to make
+- language: en
+  script: Latn
+  content: "The present document defines an interface between two parties to make
     lawful requests for data relating to vehicles, and to respond to those requests
     where appropriate. The usage of the interface does not jeopardise the safety and
     security of the vehicles involved and takes into account the boundaries of the
     responsibilities of the parties involved.\r\nThis revision is to provide the following:
     Adding AllocatedUserAccounts; Pushing locations to AO."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Automotive
-- content: Lawful Disclosure
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Automotive
+  - language: en
+    script: Latn
+    content: Lawful Disclosure
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

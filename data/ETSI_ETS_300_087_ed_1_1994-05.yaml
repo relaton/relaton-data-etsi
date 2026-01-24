@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300087ed.11994-05
+id: ETSIETS300087ed1199405
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
     on the ISDN; Functional specification of the equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=247
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300087/01_60/ets_300087e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 087 ed.1 (1994-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=247
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300087/01_60/ets_300087e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 087 ed.1 (1994-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 087 ed.1 (1994-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies the technical characteristics of equipment offering Group 4,\r\nClass
+- language: en
+  script: Latn
+  content: "Specifies the technical characteristics of equipment offering Group 4,\r\nClass
     1 facsimile function for attachment to the ISDN\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FAX
-- content: GROUP 4
-- content: ISDN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: FAX
+  - language: en
+    script: Latn
+    content: GROUP 4
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: European Telecommunication Standard

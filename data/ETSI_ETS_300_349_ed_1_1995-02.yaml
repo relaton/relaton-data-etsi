@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300349ed.11995-02
+id: ETSIETS300349ed1199502
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Asynchronous Transfer
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Asynchronous Transfer
     Mode (ATM); Adaptation Layer (AAL) specification - type 3/4
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=632
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300349/01_60/ets_300349e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 349 ed.1 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=632
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300349/01_60/ets_300349e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 349 ed.1 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 349 ed.1 (1995-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition and specification of AAL type 3/4.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Definition and specification of AAL type 3/4.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: AAL
-- content: ATM
-- content: B-ISDN
-- content: BROADBAND
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: AAL
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Broadband Networks
+    content: European Telecommunication Standard

@@ -1,74 +1,97 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301062-1V1.2.31999-10
+id: ETSIEN3010621V123199910
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Support
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Support
     of Virtual Private Network (VPN) applications with Private network Q reference
     point Signalling System number 1 (PSS1) information flows; Part 1: Protocol specification
     [ITU-T Recommendations Q.765.1 and Q.699.1, modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8798
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106201/01.02.03_60/en_30106201v010203p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 062-1 V1.2.3 (1999-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8798
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106201/01.02.03_60/en_30106201v010203p.pdf
+docidentifier:
+- content: ETSI EN 301 062-1 V1.2.3 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 062-1 V1.2.3 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.3
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The definition of extensions to the NNI protocols (ISUP, TC) to\r\nenable
+- language: en
+  script: Latn
+  content: "The definition of extensions to the NNI protocols (ISUP, TC) to\r\nenable
     the support of VPN applications.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ENDORSEMENT
-- content: ISDN
-- content: ISUP
-- content: PINX
-- content: PSS1
-- content: SS7
-- content: TC
-- content: VPN
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: PSS1
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TC
+  - language: en
+    script: Latn
+    content: VPN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Signalling
+    content: European Standard

@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103083V1.1.12014-03
+id: ETSITR103083V111201403
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc); Technical characteristics for pan European harmonized
     communications equipment operating in the 5,855 GHz to 5,925 GHz range intended
     for road safety and traffic management, and for non-safety related ITS applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39526
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103083/01.01.01_60/tr_103083v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 083 V1.1.1 (2014-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39526
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103083/01.01.01_60/tr_103083v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 083 V1.1.1 (2014-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 083 V1.1.1 (2014-03)
 date:
 - type: published
-  value: 2014-03
+  at: 2014-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The SRDoc will review the operational and the sharing requirements of
+- language: en
+  script: Latn
+  content: "The SRDoc will review the operational and the sharing requirements of
     ITS G5 systems operating in the 5,9GHz band. Mitigation factors shall be identified
     optimizing the coexistence behavior of ITS G5 system and potential victim systems.\r\nThe
     SRDoc should already include initial sharing investigation based on simulations."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: RADIO
-- content: SRDOC
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: Technical Report

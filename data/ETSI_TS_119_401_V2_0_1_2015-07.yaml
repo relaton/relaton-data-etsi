@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119401V2.0.12015-07
+id: ETSITS119401V201201507
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); General Policy Requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); General Policy Requirements
     for Trust Service Providers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47089
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119401/02.00.01_60/ts_119401v020001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 401 V2.0.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47089
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119401/02.00.01_60/ts_119401v020001p.pdf
+docidentifier:
+- content: ETSI TS 119 401 V2.0.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 401 V2.0.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Updates to EN 319 401 and publication as TS:\r\na) Change scope to not
+- language: en
+  script: Latn
+  content: "Updates to EN 319 401 and publication as TS:\r\na) Change scope to not
     be restricted to TSP supporting electronic signatures\r\ne.g. Applicable also
     to e_Delivery\r\nb) Incorporate ISO 27002 based guidance\r\nc) Include requirements
     based on generic elements of CAB Forum network security guidelines\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: Provider
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: Provider
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

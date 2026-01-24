@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR009ed.21995-10
+id: ETSITBR009ed2199510
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system; Attachment requirements
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system; Attachment requirements
     for Global System for Mobile communications (GSM) mobile stations; Telephony
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2735
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/009/02_60/tbr_009e02p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 009 ed.2 (1995-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2735
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/009/02_60/tbr_009e02p.pdf
+docidentifier:
+- content: ETSI TBR 009 ed.2 (1995-10)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 009 ed.2 (1995-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Special Mobile Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Basis for Regulation (TBR) specifies the technical\r\nrequirements
+- language: en
+  script: Latn
+  content: "This Technical Basis for Regulation (TBR) specifies the technical\r\nrequirements
     to be provided by terminal equipment capable of\r\nconnection to a public telecommunications
     network. These requirements\r\napply to terminals for phase 1 of the public land
     mobile radio service\r\nutilising constant envelope modulation, operating in the
@@ -65,22 +75,30 @@ abstract:
     of the conformance requirements in\r\nthis TBR ame based on the tests described
     in this reference. The set\r\nof requirements in GSM 11.10 (I-ETS 300 020-1) [2]
     and the set of\r\nrequirements in this TBR need not be identical.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: MOBILE
-- content: REGULATION
-- content: TELEPHONY
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Special Mobile Group
+    content: Technical Basis for Regulation

@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSISR003091V1.1.22013-03
+id: ETSISR003091V112201303
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Recommendations on Governance
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Recommendations on Governance
     and Audit Regime for CAB Forum Extended Validation and Baseline Certificates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41918
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/003001_003099/003091/01.01.02_60/sr_003091v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 003 091 V1.1.2 (2013-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41918
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/003001_003099/003091/01.01.02_60/sr_003091v010102p.pdf
+docidentifier:
+- content: ETSI SR 003 091 V1.1.2 (2013-03)
   type: ETSI
   primary: true
 docnumber: ETSI SR 003 091 V1.1.2 (2013-03)
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2013-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Change:  http://technet.microsoft.com/es-es/library/cc751157(en-us).aspx.  for:  http://social.technet.microsoft.com/wiki/contents/articles/3281.introduction-to-the-microsoft-root-certificate-program.aspx  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Change:  http://technet.microsoft.com/es-es/library/cc751157(en-us).aspx.  for:  http://social.technet.microsoft.com/wiki/contents/articles/3281.introduction-to-the-microsoft-root-certificate-program.aspx  '
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

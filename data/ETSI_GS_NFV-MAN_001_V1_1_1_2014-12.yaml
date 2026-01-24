@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-MAN001V1.1.12014-12
+id: ETSIGSNFVMAN001V111201412
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Management and Orchestration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41954
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-MAN/001_099/001/01.01.01_60/gs_NFV-MAN001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-MAN 001 V1.1.1 (2014-12)
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Management and Orchestration
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41954
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-MAN/001_099/001/01.01.01_60/gs_NFV-MAN001v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-MAN 001 V1.1.1 (2014-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-MAN 001 V1.1.1 (2014-12)
 date:
 - type: published
-  value: 2014-12
+  at: 2014-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Management & Orchestration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Define the issues and analyze the existing standards for the management
+- language: en
+  script: Latn
+  content: Define the issues and analyze the existing standards for the management
     and orchestration of network services based on NFV infrastructures. Identify the
     gaps between those issues and the current standards, and propose actions to fill
     these gaps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: MANAGEMENT
-- content: NETWORK
-- content: NFV
-- content: orchestration
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Management & Orchestration
+    content: Group Specification

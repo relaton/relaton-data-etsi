@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101607V1.2.12020-02
+id: ETSITR101607V121202002
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Cooperative ITS (C-ITS); Release 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55969
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101607/01.02.01_60/tr_101607v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 607 V1.2.1 (2020-02)
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Cooperative ITS (C-ITS); Release 1
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55969
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101607/01.02.01_60/tr_101607v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 607 V1.2.1 (2020-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 607 V1.2.1 (2020-02)
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2020-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To update the ETSI deliverables that form Release 1 for Cooperative ITS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To update the ETSI deliverables that form Release 1 for Cooperative ITS.
+status:
+  stage: Published
 keyword:
-- content: GENERIC
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Intelligent Transport Systems
+    content: Technical Report

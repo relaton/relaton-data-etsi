@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300119-7V1.1.12015-02
+id: ETSIEN3001197V111201502
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); European telecommunication standard for
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); European telecommunication standard for
     equipment practice; Part 7: Engineering requirements for Subracks in harmonized
     racks and cabinets with extended features'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42961
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300100_300199/30011907/01.01.01_60/en_30011907v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 119-7 V1.1.1 (2015-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42961
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300100_300199/30011907/01.01.01_60/en_30011907v010101p.pdf
+docidentifier:
+- content: ETSI EN 300 119-7 V1.1.1 (2015-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 119-7 V1.1.1 (2015-02)
 date:
 - type: published
-  value: 2015-02
+  at: 2015-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Environmental Engineering
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The new WI should detail requirements for subracks for use in harmonized
+- language: en
+  script: Latn
+  content: The new WI should detail requirements for subracks for use in harmonized
     racks/cabinets, as described in EN 300 119 7  [6]. The subrack will normally be
     supplied as a fully assembled structure, unequipped, partially equipped or fully
     equipped with plug-in units, etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENVIRONMENT
-- content: EQUIPMENT PRACTICE
-- content: RACK
+- taxon:
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: EQUIPMENT PRACTICE
+  - language: en
+    script: Latn
+    content: RACK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Environmental Engineering
+    content: European Standard

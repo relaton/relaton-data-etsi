@@ -1,68 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR125934V4.0.02001-03
+id: ETSITR125934V400200103
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); QoS optimization for
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); QoS optimization for
     AAL type 2 connections over Iub and Iur interfaces (3GPP TR 25.934 version 4.0.0
     Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13788
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125934/04.00.00_60/tr_125934v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 125 934 V4.0.0 (2001-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13788
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125934/04.00.00_60/tr_125934v040000p.pdf
+docidentifier:
+- content: ETSI TR 125 934 V4.0.0 (2001-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 125 934 V4.0.0 (2001-03)
 date:
 - type: published
-  value: 2001-03
+  at: 2001-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2001-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To clarify:\r\nthe issue to be improved under the work task,\r\nrequirements
+- language: en
+  script: Latn
+  content: "To clarify:\r\nthe issue to be improved under the work task,\r\nrequirements
     for the solution from UTRAN transport network configuration point of view,\r\nsolution
     to solve the issue,\r\nbackward compatibility mechanism between Release 2000 and
     Release 99 specifications for the solution, and\r\nwhat Change request is needed
     to reflect the solution to enhance Release 99 specifications to Release 2000 specifications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Report

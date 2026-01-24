@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101181V6.2.01999-05
+id: ETSITS101181V620199905
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Security Mechanisms
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Security Mechanisms
     for the SIM application toolkit; Stage 2 (GSM 03.48 version 6.2.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7645
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101181/06.02.00_60/ts_101181v060200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 181 V6.2.0 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7645
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101181/06.02.00_60/ts_101181v060200p.pdf
+docidentifier:
+- content: ETSI TS 101 181 V6.2.0 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 181 V6.2.0 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IC Card Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.2.0
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-ACK RP-ERROR for SIM data download error
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-ACK RP-ERROR for SIM data download error
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: STAGE 1
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: STAGE 1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IC Card Aspects
+    content: Technical Specification

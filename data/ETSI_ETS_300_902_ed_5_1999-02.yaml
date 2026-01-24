@@ -1,64 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300902ed.51999-02
+id: ETSIETS300902ed5199902
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Technical
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Technical
     realization of Short Message Service Cell Broadcast (SMSCB) (GSM 03.41 version
     5.9.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6834
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300902/05_60/ets_300902e05p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 902 ed.5 (1999-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6834
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300902/05_60/ets_300902e05p.pdf
+docidentifier:
+- content: ETSI ETS 300 902 ed.5 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 902 ed.5 (1999-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nAlignment of 03.41 with 11.11\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nAlignment of 03.41 with 11.11\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

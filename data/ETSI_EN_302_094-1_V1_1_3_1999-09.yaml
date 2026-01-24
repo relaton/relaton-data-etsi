@@ -1,74 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302094-1V1.1.31999-09
+id: ETSIEN3020941V113199909
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) and Signalling System No.7 (SS7) protocols; Call Forwarding
     on Not Reachable (CFNRc) supplementary service for Cordless Terminal Mobility
     (CTM) phase 1; Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6517
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209401/01.01.03_60/en_30209401v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 094-1 V1.1.3 (1999-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6517
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209401/01.01.03_60/en_30209401v010103p.pdf
+docidentifier:
+- content: ETSI EN 302 094-1 V1.1.3 (1999-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 094-1 V1.1.3 (1999-09)
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic Call Control Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1999-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The Call Forwarding on Not Reachable (CFNRc) supplementary service enables
+- language: en
+  script: Latn
+  content: The Call Forwarding on Not Reachable (CFNRc) supplementary service enables
     a served user to have the network redirect to another user calls which are addressed
     to the served user's ISDN number for the phase 1 of CTM. The CFNRc supplementary
     service operate on all calls. The served user's ability to originate calls is
     in principle unaffected by the CFNRc supplementary service.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CF
-- content: CTM
-- content: DSS1
-- content: ISDN
-- content: PROTOCOL
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CF
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Basic Call Control Protocols
+    content: European Standard

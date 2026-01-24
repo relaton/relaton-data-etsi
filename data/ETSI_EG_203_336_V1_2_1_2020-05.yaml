@@ -1,68 +1,97 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203336V1.2.12020-05
+id: ETSIEG203336V121202005
+schema_version: v1.4.1
 title:
-- content: Guide for the selection of technical parameters for the production of Harmonised
+- language: en
+  script: Latn
+  content: Guide for the selection of technical parameters for the production of Harmonised
     Standards covering article 3.1(b) and article 3.2 of Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56803
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203336/01.02.01_60/eg_203336v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 336 V1.2.1 (2020-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56803
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203336/01.02.01_60/eg_203336v010201p.pdf
+docidentifier:
+- content: ETSI EG 203 336 V1.2.1 (2020-05)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 336 V1.2.1 (2020-05)
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2020-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    Rm9sbG93aW5nIGV4cGVyaWVuY2UgZ2FpbmVkIGluIGl0cyB1c2UgdG8gZGF0ZSBhbmQgbm90aW5nIHJlY2VudCBkaXNjdXNzaW9ucywgcmV2aWV3IGFuZCByZXZpc2UgdGhlIGd1aWRlIHRvOg0KMS4JUHJvdmlkZSBpbmZvcm1hdGl2ZSBndWlkYW5jZSBvbiB3aGljaCByZWNlaXZlciBwYXJhbWV0ZXJzIG1heSBiZSBjb25zaWRlcmVkIHRoZSBtb3N0IHJlbGV2YW50IGRlcGVuZGluZyBvbiB0aGUgdHlwZSBvZiBkZXZpY2UgKGUuZy4gU1JEcywgdW5saWNlbnNlZCwgbGljZW5zZWQpIGFuZCB0aGUgdW5kZXJseWluZyBzcGVjdHJ1bSByZWd1bGF0b3J5IGVudmlyb25tZW50LCBpbmNsdWRpbmcgY2hhbmdlcyB0byB0aGF0IGVudmlyb25tZW50Lg0KMi4JQ2xhcmlmeSB0aGUgdGV4dCBvbiB0aGUgc2VsZWN0aW9uIG9mIHBhcmFtZXRlcnMgdG8gZGVtb25zdHJhdGUgdGhhdCB0aGUgZ3VpZGUgaXMgYWR2aXNvcnkgYXMgb3Bwb3NlZCB0byBwcmVzY3JpcHRpdmUuDQozLglQcm92aWRlIGd1aWRhbmNlIGluIHJlZ2FyZHMgdG8gbWludXRpbmcgZGVjaXNpb25zIGFuZCBiYWNrZ3JvdW5kIChqdXN0aWZpY2F0aW9uKSBvZiB3aGVyZSBhbmQgd2hlcmUgbm90IHNwZWNpZmljIHBhcmFtZXRlcnMgKGVzcGVjYWlsbHkgcmVjZWl2ZXIgcGFyYW1ldGVycykgYXJlIGluY2x1ZGVkLg0KNC4JQWRkIHNwZWNpZmljIGd1aWRhbmNlIG9uIHdoaWNoIHJlY2VpdmVyIHBhcmFtZXRlcnMgc2hvdWxkIGJlIGNvbnNpZGVyZWQgZGVwZW5kaW5nIG9uIHNwZWNpZmljIHRlY2hub2xvZ2llcyAoZS5nLiAgUmFkaW9kZXRlcm1pbmF0aW9uLCBVV0IgYW5kIFNhdGVsbGl0ZSBHcm91bmQgQ29tcG9uZW50cykgYXMgdGhlc2UgbWF5IGRpZmZlciBmcm9tIHRoZSDigJxjbGFzc2ljYWzigJ0gcGFyYW1ldGVyIHNldCBjdXJyZW50bHkgY29udGFpbmVkIHdpdGggdGhlIGd1aWRlDQo1LglBZGQgZ3VpZGFuY2UgZGVzY3JpYmluZyB0aGUgcmV2aXNlZCBzdHJ1Y3R1cmUgb2YgdGhlIEVUU0kgRU1DIHN0YW5kYXJkcy4NCg0KTm8gcGFyYW1ldGVycyB3aWxsIGJlIGRlbGV0ZWQgZnJvbSB0aGUgY3VycmVudCB2ZXJzaW9uDQoNClRoaXMgZ3VpZGUgd2lsbCBmb2N1cyBzb2xleSBvbiB0aGUgUmFkaW8gRXF1aXBtZW50IERpcmVjdGl2ZSBhbmQgbm90IGNvdmVyIHJlcXVpcmVtZW50cyBhbmQgcHJvY2Vzc2VzIGFwcGxpY2FibGUgdG8gaGFybW9uaXNlZCBzdGFuZGFyZHMgcHJvZHVjZWQgaW4gc3VwcG9ydCBvZiBlYXJsaWVyIHJlZ3VsYXRvcnkgcmVnaW1lcy4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Following experience gained in its use to date and noting recent discussions,
+    review and revise the guide to:\r\n1.\tProvide informative guidance on which receiver
+    parameters may be considered the most relevant depending on the type of device
+    (e.g. SRDs, unlicensed, licensed) and the underlying spectrum regulatory environment,
+    including changes to that environment.\r\n2.\tClarify the text on the selection
+    of parameters to demonstrate that the guide is advisory as opposed to prescriptive.\r\n3.\tProvide
+    guidance in regards to minuting decisions and background (justification) of where
+    and where not specific parameters (especailly receiver parameters) are included.\r\n4.\tAdd
+    specific guidance on which receiver parameters should be considered depending
+    on specific technologies (e.g.  Radiodetermination, UWB and Satellite Ground Components)
+    as these may differ from the classical parameter set currently contained with
+    the guide\r\n5.\tAdd guidance describing the revised structure of the ETSI EMC
+    standards.\r\n\r\nNo parameters will be deleted from the current version\r\n\r\nThis
+    guide will focus soley on the Radio Equipment Directive and not cover requirements
+    and processes applicable to harmonised standards produced in support of earlier
+    regulatory regimes.\r\n"
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: RECEIVER
-- content: REGULATION
-- content: TRANSMITTER
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TRANSMITTER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: ETSI Guide

@@ -1,65 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118110V2.4.12016-09
+id: ETSITS118110V241201609
+schema_version: v1.4.1
 title:
-- content: oneM2M; MQTT Protocol Binding (oneM2M TS-0010 version 2.4.1 Release 2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50580
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118110/02.04.01_60/ts_118110v020401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 110 V2.4.1 (2016-09)
+- language: en
+  script: Latn
+  content: oneM2M; MQTT Protocol Binding (oneM2M TS-0010 version 2.4.1 Release 2)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50580
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118110/02.04.01_60/ts_118110v020401p.pdf
+docidentifier:
+- content: ETSI TS 118 110 V2.4.1 (2016-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 110 V2.4.1 (2016-09)
 date:
 - type: published
-  value: 2016-09
+  at: 2016-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.4.1
-revdate: 2016-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgV29yayBJdGVtIGluY2x1ZGVzOg0K4oCiRWxhYm9yYXRpbmcgdmFyaW91cyBvcHRpb25zIGZvciB0aGUgdXNlIG9mIE1RVFQgd2l0aGluIG9uZU0yTSwgaW5jbHVkaW5nIGJ1dCBub3QgbGltaXRlZCB0bywgdGhlIGJpbmRpbmcgb2YgTWNhIGFuZCBNY2MgcHJpbWl0aXZlcyB0byBNUVRUOg0K4oCTSWRlbnRpZnlpbmcgdGhlIGJlbmVmaXRzIG9mIGVhY2ggb3B0aW9uIHRvIG9uZU0yTSB1c2VycyBhbmQgdG8gZXhpc3RpbmcgTVFUVCBhcHBsaWNhdGlvbnMNCuKAk0RvY3VtZW50aW5nIHRoaXMgb3B0aW9uIGFuYWx5c2lzIGluIGEgbmV3IFRSIA0K4oCTSWRlbnRpZnlpbmcgYW5kIHByb3Bvc2luZyBhbnkgY2hhbmdlcyB0aGF0IG1pZ2h0IGJlIG5lZWRlZCB0byBUUy0wMDAxDQrigKJTcGVjaWZ5aW5nIHRoZSBiaW5kaW5nIG9mIE1jYSBhbmQgTWNjIHByaW1pdGl2ZXMgdG8gTVFUVCBpbiBhIG5ldyBUUw0K4oCiSWRlbnRpZnlpbmcgYW55IGNoYW5nZXMgdGhhdCBtaWdodCBiZSBuZWVkZWQgdG8gVFMtMDAwNA0K4oCiSWRlbnRpZnlpbmcgYW55IGVuaGFuY2VtZW50cyB0aGF0IG1pZ2h0IGJlIG5lZWRlZCB0byBvbmVNMk0gUmVzb3VyY2VzIA0K4oCiW1NlY29uZGFyeV0gSWRlbnRpZnlpbmcgZW5oYW5jZW1lbnRzIHRvIGZ1dHVyZSB2ZXJzaW9ucyBvZiB0aGUgTVFUVCBwcm90b2NvbCB0aGF0IHdvdWxkIGJlIG9mIGFkdmFudGFnZSB0byBvbmVNMk0NClRoaXMgc3BlY2lmaWNhdGlvbiBoYWQgYSBkZXBlbmRlbmN5IG9uIHRoZSBDb3JlIEFQSSBwcm90b2NvbCBzcGVjaWZpY2F0aW9uIChUUy0wMDA4KSBmb3IgZGF0YSBtb2RlbHMuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this Work Item includes:\r\nElaborating various options for
+    the use of MQTT within oneM2M, including but not limited to, the binding of Mca
+    and Mcc primitives to MQTT:\r\nIdentifying the benefits of each option to oneM2M
+    users and to existing MQTT applications\r\nDocumenting this option analysis in
+    a new TR \r\nIdentifying and proposing any changes that might be needed to TS-0001\r\nSpecifying
+    the binding of Mca and Mcc primitives to MQTT in a new TS\r\nIdentifying any changes
+    that might be needed to TS-0004\r\nIdentifying any enhancements that might be
+    needed to oneM2M Resources \r\n[Secondary] Identifying enhancements to future
+    versions of the MQTT protocol that would be of advantage to oneM2M\r\nThis specification
+    had a dependency on the Core API protocol specification (TS-0008) for data models.\r\n"
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

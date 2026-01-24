@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR033ed.11997-12
+id: ETSITBR033ed1199712
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Attachment requirements for
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Attachment requirements for
     packet mode terminal equipment to connect to an ISDN using ISDN basic access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4031
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/033/01_60/tbr_033e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 033 ed.1 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4031
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/033/01_60/tbr_033e01p.pdf
+docidentifier:
+- content: ETSI TBR 033 ed.1 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 033 ed.1 (1997-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Basic Call Control Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TBR will define the attachment requirements for packet-mode\r\nterminals
+- language: en
+  script: Latn
+  content: "This TBR will define the attachment requirements for packet-mode\r\nterminals
     to access the ISDN packet-mode bearer service using an ISDN\r\nbasic access.\r\nOnly
     essential requirements contained in ETS 300 007 will be covered.\r\nThis TBR will
     form the basis of CTR 033 in accordance with the scope\r\nfrom TRAC.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BASIC
-- content: ISDN
-- content: PACKET MODE
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Basic Call Control Protocols
+    content: Technical Basis for Regulation

@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300377-1ed.11994-12
+id: ETSIETS3003771ed1199412
+schema_version: v1.4.1
 title:
-- content: 'Q3 interface at the Local Exchange (LE) for configuration management of
+- language: en
+  script: Latn
+  content: 'Q3 interface at the Local Exchange (LE) for configuration management of
     V5 interfaces and associated customer profiles; Part 1: Q3 interface specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1391
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037701/01_60/ets_30037701e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 377-1 ed.1 (1994-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1391
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037701/01_60/ets_30037701e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 377-1 ed.1 (1994-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 377-1 ed.1 (1994-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify the Q3 interface for administration of V5 connected\r\ncustomers
+- language: en
+  script: Latn
+  content: "To specify the Q3 interface for administration of V5 connected\r\ncustomers
     & for the adminstration of a V5\r\ninterface in a local exchange.\r\nThe Q3 interface
     can be a direct interface between an\r\nOS & an LE or between an OS & an MD according
     to CCITT Rec M.3010.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: INFORMATION MODEL
-- content: LE
-- content: MANAGEMENT
-- content: Q3 INTERFACE
-- content: TMN
-- content: V5 INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: LE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: V5 INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: IN protocols
+    content: European Telecommunication Standard

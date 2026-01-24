@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR125936V4.0.12001-12
+id: ETSITR125936V401200112
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Handovers for real-time
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Handovers for real-time
     services from PS domain. (3GPP TR 25.936 version 4.0.1 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13802
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125936/04.00.01_60/tr_125936v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 125 936 V4.0.1 (2001-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13802
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125936/04.00.01_60/tr_125936v040001p.pdf
+docidentifier:
+- content: ETSI TR 125 936 V4.0.1 (2001-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 125 936 V4.0.1 (2001-12)
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 2001-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gaGVscCB0aGUgcmVsZXZhbnQgM0dQUCBncm91cHMgdG8gc3BlY2lmeSB0aGUgY2hhbmdlcyB0byBleGlzdGluZyBzcGVjaWZpY2F0aW9ucywgbmVlZGVkIGZvciB0aGUgaW50cm9kdWN0aW9uIG9mIHRoZSDigJxIYW5kb3ZlciBmb3IgcmVhbC10aW1lIHNlcnZpY2VzIGZyb20gUFMgZG9tYWlu4oCdIEJ1aWxkaW5nIEJsb2NrIGZvciBSZWxlYXNlIDQu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To help the relevant 3GPP groups to specify the changes to existing specifications,
+    needed for the introduction of the Handover for real-time services from PS domain
+    Building Block for Release 4.
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Report

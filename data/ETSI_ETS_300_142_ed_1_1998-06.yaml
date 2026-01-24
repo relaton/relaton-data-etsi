@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300142ed.11998-06
+id: ETSIETS300142ed1199806
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN) and other digital telecommunications
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN) and other digital telecommunications
     networks; Line transmission of non-telephone signals; Video codec for audiovisual
     services at p x 64 kbit/s [ITU-T Recommendation H.261 (1993), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1075
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300142/01_60/ets_300142e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 142 ed.1 (1998-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1075
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300142/01_60/ets_300142e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 142 ed.1 (1998-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 142 ed.1 (1998-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: see title
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: see title
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: ENDORSEMENT
-- content: ISDN
-- content: MULTICHANNEL
-- content: TELESERVICE
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: TELESERVICE
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Broadband Networks
+    content: European Telecommunication Standard

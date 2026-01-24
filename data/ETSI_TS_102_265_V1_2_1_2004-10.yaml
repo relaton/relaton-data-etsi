@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102265V1.2.12004-10
+id: ETSITS102265V121200410
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); DECT access to IP
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); DECT access to IP
     networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20676
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102265/01.02.01_60/ts_102265v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 265 V1.2.1 (2004-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20676
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102265/01.02.01_60/ts_102265v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 265 V1.2.1 (2004-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 265 V1.2.1 (2004-10)
 date:
 - type: published
-  value: 2004-10
+  at: 2004-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Enhanced Cordless Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To update to DECT access to IP networks to include DECT-SIP interworking
+- language: en
+  script: Latn
+  content: To update to DECT access to IP networks to include DECT-SIP interworking
     for non-voice media types sessions (IPv4 and IPv6 shall be considered)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DATA
-- content: DECT
-- content: IP
-- content: MULTIMEDIA
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Digital Enhanced Cordless Telecommunications
+    content: Technical Specification

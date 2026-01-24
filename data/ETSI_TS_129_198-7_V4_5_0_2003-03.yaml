@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129198-7V4.5.02003-03
+id: ETSITS1291987V450200303
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Open Service Access
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Open Service Access
     (OSA) Application Programming Interface (API); Part 7: Terminal capabilities (3GPP
     TS 29.198-7 version 4.5.0 Release 4)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18511
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129100_129199/12919807/04.05.00_60/ts_12919807v040500p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 198-7 V4.5.0 (2003-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18511
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129100_129199/12919807/04.05.00_60/ts_12919807v040500p.pdf
+docidentifier:
+- content: ETSI TS 129 198-7 V4.5.0 (2003-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 198-7 V4.5.0 (2003-03)
 date:
 - type: published
-  value: 2003-03
+  at: 2003-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Open Service Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.5.0
-revdate: 2003-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NP-19
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: NP-19
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Open Service Access
+    content: Technical Specification

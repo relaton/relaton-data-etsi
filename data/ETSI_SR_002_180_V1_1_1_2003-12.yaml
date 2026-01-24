@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSISR002180V1.1.12003-12
+id: ETSISR002180V111200312
+schema_version: v1.4.1
 title:
-- content: Emergency communications; Requirements for communication of citizens with
+- language: en
+  script: Latn
+  content: Emergency communications; Requirements for communication of citizens with
     authorities/organizations in case of distress (emergency call handling)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18335
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/002100_002199/002180/01.01.01_60/sr_002180v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 002 180 V1.1.1 (2003-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18335
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/002100_002199/002180/01.01.01_60/sr_002180v010101p.pdf
+docidentifier:
+- content: ETSI SR 002 180 V1.1.1 (2003-12)
   type: ETSI
   primary: true
 docnumber: ETSI SR 002 180 V1.1.1 (2003-12)
 date:
 - type: published
-  value: 2003-12
+  at: 2003-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: OCG ad-hoc group on Emergency Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This present document describes the requirement's for the telecommunication's
+- language: en
+  script: Latn
+  content: "This present document describes the requirement's for the telecommunication's
     service emergency call service.\r\nThe general provisions of the emergency call
     service, the basic function of emergency call setup, recognition, forwarding and
     termination are described.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: OCG ad-hoc group on Emergency Telecommunications
+    content: Special Report

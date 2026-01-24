@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102295V1.1.12004-02
+id: ETSITS102295V111200402
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia
     (BSM) services and architectures; BSM Traffic Classes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19168
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102295/01.01.01_60/ts_102295v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 295 V1.1.1 (2004-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19168
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102295/01.01.01_60/ts_102295v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 295 V1.1.1 (2004-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 295 V1.1.1 (2004-02)
 date:
 - type: published
-  value: 2004-02
+  at: 2004-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The BSM traffic classes are defined to enable Quality of Service to be
+- language: en
+  script: Latn
+  content: The BSM traffic classes are defined to enable Quality of Service to be
     offered over the BSM. These classes are based on well known work from TIPHON and
     3GPP but include specifics that are derived from the BSM inherent architecture.
     These classes will enable to hamonize the discussion about BSM QoS, enable better
     Service Level Agreement (SLA) discussions between terrestrial and BSM operators
     and set the foundation for more quantitive performance assessment of BSMs carrying
     IP traffic.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: IP
-- content: SATELLITE
-- content: TRAFFIC
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TRAFFIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Specification

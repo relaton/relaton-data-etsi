@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103248V1.3.12019-04
+id: ETSITS103248V131201904
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); GeoNetworking; Port Numbers for the
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); GeoNetworking; Port Numbers for the
     Basic Transport Protocol (BTP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57407
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103248/01.03.01_60/ts_103248v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 248 V1.3.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57407
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103248/01.03.01_60/ts_103248v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 248 V1.3.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 248 V1.3.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transport and Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Assign new BTP port numbers for newly defined services at Facilities layer
+- language: en
+  script: Latn
+  content: Assign new BTP port numbers for newly defined services at Facilities layer
     (multimedia content dissemination service and Collective Perception service)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Transport and Network
+    content: Technical Specification

@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103181-1V1.1.12015-07
+id: ETSITR1031811V111201507
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices (SRD) using Ultra Wide Band (UWB); Technical Report
+- language: en
+  script: Latn
+  content: 'Short Range Devices (SRD) using Ultra Wide Band (UWB); Technical Report
     Part 1: UWB signal characteristics and overview CEPT/ECC and EC regulation'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33318
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/10318101/01.01.01_60/tr_10318101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 181-1 V1.1.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33318
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/10318101/01.01.01_60/tr_10318101v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 181-1 V1.1.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 181-1 V1.1.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of the document is to summarize the available information
+- language: en
+  script: Latn
+  content: "The purpose of the document is to summarize the available information
     about the main types of transmission characteristics used by UWB devices (signal
     and modulation) and give an overview of the ECC/EC regulation together with the
     ETSI HENS on UWB.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SRD
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Report

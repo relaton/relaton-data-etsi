@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100596V7.4.12000-05
+id: ETSITS100596V741200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Base Station
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Base Station
     Controller - Base Transceiver Station (BSC - BTS) interface; Layer 3 specification
     (GSM 08.58 version 7.4.1 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10174
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100596/07.04.01_60/ts_100596v070401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 596 V7.4.1 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10174
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100596/07.04.01_60/ts_100596v070401p.pdf
+docidentifier:
+- content: ETSI TS 100 596 V7.4.1 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 596 V7.4.1 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.4.1
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Updated to version 7.4.0\r\nCRs SMG#31\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Updated to version 7.4.0\r\nCRs SMG#31\r\n"
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio
+    content: Technical Specification

@@ -1,70 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102425V1.1.12025-02
+id: ETSITS102425V111202502
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Digital reference point
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Digital reference point
     for speech communication in packet based networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73676
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102425/01.01.01_60/ts_102425v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 425 V1.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73676
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102425/01.01.01_60/ts_102425v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 425 V1.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 425 V1.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of a digital reference point for speech communication in packet
+- language: en
+  script: Latn
+  content: Definition of a digital reference point for speech communication in packet
     based networks with respect to existing and future codecs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: delay
-- content: QoS
-- content: SPEECH
-- content: Vo5G
-- content: VoIP
-- content: VoLTE
-- content: VoNR
+- taxon:
+  - language: en
+    script: Latn
+    content: delay
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: Vo5G
+  - language: en
+    script: Latn
+    content: VoIP
+  - language: en
+    script: Latn
+    content: VoLTE
+  - language: en
+    script: Latn
+    content: VoNR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302404V7.1.12000-08
+id: ETSIEN302404V711200008
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); GSM Cordless
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); GSM Cordless
     Telephony System (CTS), Phase 1; Lower Layers of the CTS Radio Interface; Stage
     2; (GSM 03.52 version 7.1.1 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7984
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302400_302499/302404/07.01.01_60/en_302404v070101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 404 V7.1.1 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7984
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302400_302499/302404/07.01.01_60/en_302404v070101p.pdf
+docidentifier:
+- content: ETSI EN 302 404 V7.1.1 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 404 V7.1.1 (2000-08)
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.1
-revdate: 2000-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Stage 2 GSM 03.52 document gives an overall description of the lower
+- language: en
+  script: Latn
+  content: "This Stage 2 GSM 03.52 document gives an overall description of the lower
     layers of the radio interface for GSM based Cordless Telephony Systems (GSM-CTS).\r\nThe
     GSM-CTS system is intended to provide a cordless connection between the fixed
     network and GSM-based CTS Mobile Stations (CTS-MS) via a private CTS Fixed Part
@@ -57,19 +66,21 @@ abstract:
     is a Stage 2 document that describes the system architecture of the GSM Cordless
     Telephone Systems (GSM-CTS), i.e. the system elements, the system interfaces and
     the functional capabilities."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CTS
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: CTS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Aspects
+    content: European Standard

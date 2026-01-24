@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103389V1.2.12013-09
+id: ETSITS103389V121201309
+schema_version: v1.4.1
 title:
-- content: Railway Telecommunications (RT); Global System for Mobile communications
+- language: en
+  script: Latn
+  content: Railway Telecommunications (RT); Global System for Mobile communications
     (GSM); Usage of Session Initiation Protocol (SIP) on the Network Switching Subsystem
     (NSS) to Fixed Terminal Subsystem (FTS) interface for GSM Operation on Railways
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39878
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103389/01.02.01_60/ts_103389v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 389 V1.2.1 (2013-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39878
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103389/01.02.01_60/ts_103389v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 389 V1.2.1 (2013-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 389 V1.2.1 (2013-09)
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Scope of work to be undertaken:  Technical Specification for the usage
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken:  Technical Specification for the usage
     of Session Initiated Protocol (SIP) based interface on the interface between Network
     Switching Subsystem (NSS) and Fixed Terminal Subsystem (FTS).\r\noThe TS shall
     consider NSS architectures according 3GPP Release 99 and 3GPP Release 4 (BICN)
     on-wards.\r\nThe TS shall only cover the interface between NSS and FTS but not
     other interfaces internal to either NSS or FTS."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FTS
-- content: GSM-R
-- content: NSS
-- content: railways
-- content: SIP
+- taxon:
+  - language: en
+    script: Latn
+    content: FTS
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: NSS
+  - language: en
+    script: Latn
+    content: railways
+  - language: en
+    script: Latn
+    content: SIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Specification

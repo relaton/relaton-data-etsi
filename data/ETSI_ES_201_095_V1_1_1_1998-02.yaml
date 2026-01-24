@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201095V1.1.11998-02
+id: ETSIES201095V111199802
+schema_version: v1.4.1
 title:
-- content: Cordless Terminal Mobility (CTM); Numbering and identification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4986
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201000_201099/201095/01.01.01_60/es_201095v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 095 V1.1.1 (1998-02)
+- language: en
+  script: Latn
+  content: Cordless Terminal Mobility (CTM); Numbering and identification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4986
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201000_201099/201095/01.01.01_60/es_201095v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 095 V1.1.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 095 V1.1.1 (1998-02)
 date:
 - type: published
-  value: 1998-02
+  at: 1998-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this ES is to define the number format for subscribers\r\nto
+- language: en
+  script: Latn
+  content: "The scope of this ES is to define the number format for subscribers\r\nto
     the CTM service; the identification plan for these subscribers and\r\nthe routeing
     numbers (roaming numbers and fixed part addresses) for\r\nthe service.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CTM
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: ETSI Standard

@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC-DEC025V2.1.12019-06
+id: ETSIGRMECDEC025V211201906
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); MEC Testing Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53612
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/025/02.01.01_60/gr_MEC-DEC025v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC-DEC 025 V2.1.1 (2019-06)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); MEC Testing Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53612
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC-DEC/001_099/025/02.01.01_60/gr_MEC-DEC025v020101p.pdf
+docidentifier:
+- content: ETSI GR MEC-DEC 025 V2.1.1 (2019-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC-DEC 025 V2.1.1 (2019-06)
 date:
 - type: published
-  value: 2019-06
+  at: 2019-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Deployment and ECOsystem DEvelopment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document produced as a result of this WI will list the functionalities
+- language: en
+  script: Latn
+  content: The document produced as a result of this WI will list the functionalities
     and capabilities required by a MEC compliant implementation. In addition, the
     document will specify a testing framework defining a methodology for development
     of interoperability and/or conformance test strategies, test systems and the resulting
     test specifications for MEC standards. The document produced will be an informative
     guideline.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MEC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Deployment and ECOsystem DEvelopment
+    content: Group Report

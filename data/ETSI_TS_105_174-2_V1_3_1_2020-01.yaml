@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS105174-2V1.3.12020-01
+id: ETSITS1051742V131202001
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Broadband Deployment
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Broadband Deployment
     and Lifecycle Resource Management; Part 2: ICT Sites: Implementation of energy
     and lifecycle management practices'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56883
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/105100_105199/10517402/01.03.01_60/ts_10517402v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 105 174-2 V1.3.1 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56883
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/105100_105199/10517402/01.03.01_60/ts_10517402v010301p.pdf
+docidentifier:
+- content: ETSI TS 105 174-2 V1.3.1 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 105 174-2 V1.3.1 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Infrastructure, Physical Networks & Communication Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "EN 305 174-2 specifies a minimum set of required practices for energy
+- language: en
+  script: Latn
+  content: "EN 305 174-2 specifies a minimum set of required practices for energy
     management which are applicable to ICT sites of all sizes and business models.
     \ These are taken from a sub-set of those practices recommended by CLC/TR 50600-99-1.
     \r\n CLC/TR 50600-99-1 also contains a much wider range of recommended practices
@@ -59,20 +68,24 @@ abstract:
     reductions in energy consumption or improvements in energy efficiency or management.
     \ \r\n\r\n In addition, the present document addresses the end-of-life and maintenance
     aspects of WEEE (as in EN 305 174-8 and TS 105 174-8)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: Energy Management
-- content: ICT
-- content: Sustainability
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: Energy Management
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: Sustainability
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Infrastructure, Physical Networks & Communication Systems
+    content: Technical Specification

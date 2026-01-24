@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319532-2V1.1.12018-09
+id: ETSIEN3195322V111201809
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Registered Electronic
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Registered Electronic
     Mail (REM) Services; Part 2: Semantic contents'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47571
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319500_319599/31953202/01.01.01_60/en_31953202v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 532-2 V1.1.1 (2018-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47571
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319500_319599/31953202/01.01.01_60/en_31953202v010101p.pdf
+docidentifier:
+- content: ETSI EN 319 532-2 V1.1.1 (2018-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 532-2 V1.1.1 (2018-09)
 date:
 - type: published
-  value: 2018-09
+  at: 2018-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This document will specify semantic contents to be produced and managed
+- language: en
+  script: Latn
+  content: 'This document will specify semantic contents to be produced and managed
     in REM transactions. It will normatively refer to EN 319 522 part 2 whenever applicable
     and will specify semantics which are not common to the provision of other types
     of electronic delivery services, but specific to the provision of REM services. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-delivery services
-- content: registered e-delivery services
-- content: registered electronic mail
+- taxon:
+  - language: en
+    script: Latn
+    content: e-delivery services
+  - language: en
+    script: Latn
+    content: registered e-delivery services
+  - language: en
+    script: Latn
+    content: registered electronic mail
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

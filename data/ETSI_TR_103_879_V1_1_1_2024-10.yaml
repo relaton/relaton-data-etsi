@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103879V1.1.12024-10
+id: ETSITR103879V111202410
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Guidance
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Guidance
     on risk assessment for radio equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64285
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103879/01.01.01_60/tr_103879v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 879 V1.1.1 (2024-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64285
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103879/01.01.01_60/tr_103879v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 879 V1.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 879 V1.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This deliverable will support manufacturers by offering them guidance
+- language: en
+  script: Latn
+  content: "This deliverable will support manufacturers by offering them guidance
     with respect to understanding how risk assessment and risk reduction in the field
     of articles 3(1)(b) (EMC) and 3(2) (effective and efficient use of the radio spectrum)
     of the Radio Equipment Directive (RED) 2014/53/EU may be carried out, preferably
@@ -65,24 +74,36 @@ abstract:
     within certain categories or classes, such as privacy, cybersecurity) is excluded
     from this deliverable. \r\n\r\nFollowing groups could also be involved in this
     work item : RED CA, EUANB, ADCO RED and EMC ADCO."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Directive 2014/53/EU
-- content: EMC
-- content: Harmonised standard
-- content: OJEU
-- content: RADIO
-- content: RED
-- content: risk
-- content: risk assessment
+- taxon:
+  - language: en
+    script: Latn
+    content: Directive 2014/53/EU
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: OJEU
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RED
+  - language: en
+    script: Latn
+    content: risk
+  - language: en
+    script: Latn
+    content: risk assessment
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

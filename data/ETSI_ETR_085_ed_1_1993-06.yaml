@@ -1,64 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR085ed.11993-06
+id: ETSIETR085ed1199306
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Generic functional architecture of
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Generic functional architecture of
     transport network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1380
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/085/01_60/etr_085e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 085 ed.1 (1993-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1380
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/085/01_60/etr_085e01p.pdf
+docidentifier:
+- content: ETSI ETR 085 ed.1 (1993-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 085 ed.1 (1993-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Describe the functional architecture of transport networks in a tech-\r\nnology
+- language: en
+  script: Latn
+  content: "Describe the functional architecture of transport networks in a tech-\r\nnology
     independent way. Envisaged to be a reference description of\r\ngeneric functional
     architecture of transport networks to be taken as a\r\nbase for the development
     of a recommended set of functional architect-\r\nure standards for ATM/SDH/PDH
     n layer & mgt stds, perf anal, equ specs\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: NETWORK
-- content: SDH
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: ETSI Technical Report

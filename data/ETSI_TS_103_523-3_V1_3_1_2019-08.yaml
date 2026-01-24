@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103523-3V1.3.12019-08
+id: ETSITS1035233V131201908
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Middlebox Security Protocol; Part 3: Enterprise Transport Security'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57980
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352303/01.03.01_60/ts_10352303v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 523-3 V1.3.1 (2019-08)
+- language: en
+  script: Latn
+  content: 'CYBER; Middlebox Security Protocol; Part 3: Enterprise Transport Security'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57980
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/10352303/01.03.01_60/ts_10352303v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 523-3 V1.3.1 (2019-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 523-3 V1.3.1 (2019-08)
 date:
 - type: published
-  value: 2019-08
+  at: 2019-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2019-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Changes the well-known name field "ets" in clause in clause 4.3.8.3 in
+- language: en
+  script: Latn
+  content: Changes the well-known name field "ets" in clause in clause 4.3.8.3 in
     four places to match the field name registered with the IANA - "enterprise-transport-security"
     and adds specification references for the ETS protocol options in clause 4.3.8.1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR118551V2.0.02020-11
+id: ETSITR118551V200202011
+schema_version: v1.4.1
 title:
-- content: oneM2M API guide (oneM2M TR-0051 version 2.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61134
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118551/02.00.00_60/tr_118551v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 118 551 V2.0.0 (2020-11)
+- language: en
+  script: Latn
+  content: oneM2M API guide (oneM2M TR-0051 version 2.0.0)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61134
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118551/02.00.00_60/tr_118551v020000p.pdf
+docidentifier:
+- content: ETSI TR 118 551 V2.0.0 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 118 551 V2.0.0 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The guide will list the CRUDN messages for managing some of the main resources
+- language: en
+  script: Latn
+  content: "The guide will list the CRUDN messages for managing some of the main resources
     defined in TS-0001. It aims at providing the description and associated flow in
     basic examples.  It is foreseesn to use HTTP binding and JSON serialization as
     example. Other binding and serialization could be considered later, or in a companion
@@ -53,18 +62,18 @@ abstract:
     them to include other APIs (such as 3GPP interworking) so developers will have
     an option to write applications that can run across different platforms and specific
     implementations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Report

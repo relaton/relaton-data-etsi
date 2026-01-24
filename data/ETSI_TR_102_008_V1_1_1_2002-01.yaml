@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102008V1.1.12002-01
+id: ETSITR102008V111200201
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 3; Terms and Definitions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14069
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102008/01.01.01_60/tr_102008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 008 V1.1.1 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14069
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102008/01.01.01_60/tr_102008v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 008 V1.1.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 008 V1.1.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Requirements, charging and security matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To provide a report outlining the functional groupings
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To provide a report outlining the functional groupings
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: IP
-- content: PROTOCOL
-- content: VOICE
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: VOICE
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Requirements, charging and security matters
+    content: Technical Report

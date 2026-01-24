@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118101V2.10.02016-10
+id: ETSITS118101V2100201610
+schema_version: v1.4.1
 title:
-- content: oneM2M; Functional Architecture (oneM2M TS-0001 version 2.10.0 Release
+- language: en
+  script: Latn
+  content: oneM2M; Functional Architecture (oneM2M TS-0001 version 2.10.0 Release
     2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49516
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118101/02.10.00_60/ts_118101v021000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 101 V2.10.0 (2016-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49516
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118101/02.10.00_60/ts_118101v021000p.pdf
+docidentifier:
+- content: ETSI TS 118 101 V2.10.0 (2016-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 101 V2.10.0 (2016-10)
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.10.0
-revdate: 2016-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification describes the end-to-end oneM2M functional architecture,
+- language: en
+  script: Latn
+  content: "This specification describes the end-to-end oneM2M functional architecture,
     including the description of the functional entities and associated reference
     points.\r\noneM2M functional architecture has focus on the Service Layer aspects
     and takes Underlying Network-independent view of the end-to-end services. The
     Underlying Network is used for the transport of data and potentially for other
     services.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

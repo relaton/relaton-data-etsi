@@ -1,64 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS133120V3.0.02000-01
+id: ETSITS133120V300200001
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); 3G Security; Security
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); 3G Security; Security
     Principles and Objectives (3G TS 33.120 version 3.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8050
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/133100_133199/133120/03.00.00_60/ts_133120v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 133 120 V3.0.0 (2000-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8050
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/133100_133199/133120/03.00.00_60/ts_133120v030000p.pdf
+docidentifier:
+- content: ETSI TS 133 120 V3.0.0 (2000-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 133 120 V3.0.0 (2000-01)
 date:
 - type: published
-  value: 2000-01
+  at: 2000-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgZ2l2ZXMgdGhlIG9iamVjdGl2ZXMgYW5kIHByaW5jaXBsZXMgb2YgM0dQUCBzZWN1cml0eS4NClRoZSBwcmluY2lwbGVzIHN0YXRlIHdoYXQgaXMgdG8gYmUgcHJvdmlkZWQgYnkgM0cgc2VjdXJpdHkgYXMgY29tcGFyZWQgdG8gdGhlIHNlY3VyaXR5IG9mIHNlY29uZCBnZW5lcmF0aW9uIHN5c3RlbXMuIFRoZSBwcmluY2lwbGVzIHdpbGwgYWxzbyBlbnN1cmUgdGhhdCAzRyBzZWN1cml0eSBjYW4gc2VjdXJlIHRoZSBuZXcgc2VydmljZXMgYW5kIG5ldyBzZXJ2aWNlIGVudmlyb25tZW50cyBvZmZlcmVkIGJ5IDNHIHN5c3RlbXMuDQpUaGUgb2JqZWN0aXZlcyBnaXZlIGdlbmVyYWwsIGhpZ2ggbGV2ZWwgcmVxdWlyZW1lbnRzIGZvciAzR1BQIHNlY3VyaXR5IHdoaWNoIHdpbGwgYmUgZXhwYW5kZWQgdXBvbiBpbiAzR8KgVFPCoDIxLjEzM8KgWzFdLg0KVGhlIHByaW9yaXRpZXMgZm9yIHRoZSBpbXBsZW1lbnRhdGlvbiBvZiAzR1BQIHNlY3VyaXR5IGFyZSBhbHNvIGdpdmVuLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document gives the objectives and principles of 3GPP security.\r\nThe
+    principles state what is to be provided by 3G security as compared to the security
+    of second generation systems. The principles will also ensure that 3G security
+    can secure the new services and new service environments offered by 3G systems.\r\nThe
+    objectives give general, high level requirements for 3GPP security which will
+    be expanded upon in 3GTS21.133[1].\r\nThe priorities for the implementation of
+    3GPP security are also given.\r\n"
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

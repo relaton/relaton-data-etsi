@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300356-33V4.1.12003-07
+id: ETSIEN30035633V411200307
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7 (SS7);
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7 (SS7);
     ISDN User Part (ISUP) version 4 for the international interface; Part 33: Abstract
     Test Suite (ATS) and partial Protocol Implementation eXtra Information for Testing
     (PIXIT) proforma specification for basic services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16985
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035633/04.01.01_60/en_30035633v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 356-33 V4.1.1 (2003-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16985
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035633/04.01.01_60/en_30035633v040101p.pdf
+docidentifier:
+- content: ETSI EN 300 356-33 V4.1.1 (2003-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 356-33 V4.1.1 (2003-07)
 date:
 - type: published
-  value: 2003-07
+  at: 2003-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SPAN Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2003-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Latest comments introduction\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Latest comments introduction\r\n"
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: ISDN
-- content: ISUP
-- content: PIXIT
-- content: SS7
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: SPAN Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

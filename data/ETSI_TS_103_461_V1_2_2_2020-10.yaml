@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103461V1.2.22020-10
+id: ETSITS103461V122202010
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Domestic and in-vehicle digital radio
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Domestic and in-vehicle digital radio
     receivers; Minimum requirements and Test specifications for technologies and products
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61741
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103461/01.02.02_60/ts_103461v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 461 V1.2.2 (2020-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61741
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103461/01.02.02_60/ts_103461v010202p.pdf
+docidentifier:
+- content: ETSI TS 103 461 V1.2.2 (2020-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 461 V1.2.2 (2020-10)
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2020-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This editorial revision will fix editorial errors in Table 40, e.g. "Service2"
+- language: en
+  script: Latn
+  content: This editorial revision will fix editorial errors in Table 40, e.g. "Service2"
     is mentioned while it should be "Service1" instead.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DAB
-- content: RADIO
-- content: RECEIVER
-- content: Requirements
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

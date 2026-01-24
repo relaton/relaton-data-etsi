@@ -1,67 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300402-1ed.11995-11
+id: ETSIETS3004021ed1199511
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Data link layer; Part 1: General aspects [ITU-T
     Recommendation Q.920 (1993), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1128
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040201/01_60/ets_30040201e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 402-1 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1128
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040201/01_60/ets_30040201e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 402-1 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 402-1 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Future enhancements of ISDN D-Channel LAPD Link Access Procedures\r\napplicable
+- language: en
+  script: Latn
+  content: "Future enhancements of ISDN D-Channel LAPD Link Access Procedures\r\napplicable
     at the ISDN user-network interface including  S & Q\r\nreference point requirements.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: D-CHANNEL
-- content: DSS1
-- content: ENDORSEMENT
-- content: ISDN
-- content: LAPD
-- content: LAYER 2
-- content: PROTOCOL
-- content: QSIG
-- content: SSIG
+- taxon:
+  - language: en
+    script: Latn
+    content: D-CHANNEL
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LAPD
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: SSIG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM009-2V1.1.12022-06
+id: ETSIGSZSM0092V111202206
+schema_version: v1.4.1
 title:
-- content: 'Zero-touch network and Service Management (ZSM); Closed-Loop Automation;
+- language: en
+  script: Latn
+  content: 'Zero-touch network and Service Management (ZSM); Closed-Loop Automation;
     Part 2: Solutions for automation of E2E service and network management use cases'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58055
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/00902/01.01.01_60/gs_ZSM00902v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 009-2 V1.1.1 (2022-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58055
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/00902/01.01.01_60/gs_ZSM00902v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 009-2 V1.1.1 (2022-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 009-2 V1.1.1 (2022-06)
 date:
 - type: published
-  value: 2022-06
+  at: 2022-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item describes specification for solutions of particular E2E
+- language: en
+  script: Latn
+  content: This work item describes specification for solutions of particular E2E
     service and network automation use cases, based primarily on the generic enablers
     and architectural elements for closed loops defined in ZSM002, ZSM009-1. The solution
     will specify how the E2E management loop interacts with ZSM consumers with specifics
     for the selected use cases. The WI will make recommendations on the preferred
     option if multiple solutions are available.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: network management
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: network management
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

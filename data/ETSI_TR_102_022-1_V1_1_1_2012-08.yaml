@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102022-1V1.1.12012-08
+id: ETSITR1020221V111201208
+schema_version: v1.4.1
 title:
-- content: User Requirement Specification; Mission Critical Broadband Communication
+- language: en
+  script: Latn
+  content: User Requirement Specification; Mission Critical Broadband Communication
     Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38845
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202201/01.01.01_60/tr_10202201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 022-1 V1.1.1 (2012-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38845
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202201/01.01.01_60/tr_10202201v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 022-1 V1.1.1 (2012-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 022-1 V1.1.1 (2012-08)
 date:
 - type: published
-  value: 2012-08
+  at: 2012-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Write a URS for TC-TETRA to approve
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Write a URS for TC-TETRA to approve
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: DATA
-- content: TETRA
-- content: TETRAPOL
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: TETRAPOL
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

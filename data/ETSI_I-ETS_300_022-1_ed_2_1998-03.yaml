@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300022-1ed.21998-03
+id: ETSIIETS3000221ed2199803
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 1) (GSM); Mobile radio
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 1) (GSM); Mobile radio
     interface; Layer 3 specification; Part 1: Generic (GSM 04.08 version 3.14.0)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5884
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30002201/02_60/iets_30002201e02p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 022-1 ed.2 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5884
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30002201/02_60/iets_30002201e02p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 022-1 ed.2 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 022-1 ed.2 (1998-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The procedures currently described in this Recommendation are for the\r\ncall
+- language: en
+  script: Latn
+  content: "The procedures currently described in this Recommendation are for the\r\ncall
     control of circuit-switched connections, the control of packet-mo\r\nde communication,
     mobility management and radio resource management. T\r\nhe transport of other
     message-based information flows is a subject for\r\nfurther study.\r\n Procedures
@@ -48,23 +58,33 @@ abstract:
     1:  The term \"layer 3\" is used for the functions and protocol des\r\ncribed
     in this Recommendation.\r\n The terms \"data link layer\" and \"layer 2\" are
     used interchangeably to\r\nrefer to the layer immediately below layer 3.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE1
-- content: INTERFACE
-- content: LAYER 3
-- content: MOBILE
-- content: RADIO
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: Interim European Telecommunication Standard

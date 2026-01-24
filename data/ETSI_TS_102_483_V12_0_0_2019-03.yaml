@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102483V12.0.02019-03
+id: ETSITS102483V1200201903
+schema_version: v1.4.1
 title:
-- content: Smart cards; UICC-Terminal interface; Internet Protocol connectivity between
+- language: en
+  script: Latn
+  content: Smart cards; UICC-Terminal interface; Internet Protocol connectivity between
     UICC and terminal (Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56916
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102483/12.00.00_60/ts_102483v120000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 483 V12.0.0 (2019-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56916
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102483/12.00.00_60/ts_102483v120000p.pdf
+docidentifier:
+- content: ETSI TS 102 483 V12.0.0 (2019-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 483 V12.0.0 (2019-03)
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.0.0
-revdate: 2019-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'missing #8 CRs needed to implement release 12 before SCP#86'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'missing #8 CRs needed to implement release 12 before SCP#86'
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: PROTOCOL
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118141V5.4.12025-11
+id: ETSITS118141V541202511
+schema_version: v1.4.1
 title:
-- content: oneM2M; SensorThings Interworking (oneM2M TS-0041 version 5.4.1 Release
+- language: en
+  script: Latn
+  content: oneM2M; SensorThings Interworking (oneM2M TS-0041 version 5.4.1 Release
     5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75405
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118141/05.04.01_60/ts_118141v050401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 141 V5.4.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=75405
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118141/05.04.01_60/ts_118141v050401p.pdf
+docidentifier:
+- content: ETSI TS 118 141 V5.4.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 141 V5.4.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.4.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Develop the interworking specification between the oneM2M service layer
+- language: en
+  script: Latn
+  content: Develop the interworking specification between the oneM2M service layer
     and the OGC SensorThings API to enable seamless integration of IoT data and services,
     particularly in smart city environments.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: M2M
-- content: Sensor
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Sensor
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

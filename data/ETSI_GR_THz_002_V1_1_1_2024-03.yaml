@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRTHz002V1.1.12024-03
+id: ETSIGRTHz002V111202403
+schema_version: v1.4.1
 title:
-- content: TeraHertz technology (THz); Identification of frequency bands of interest
+- language: en
+  script: Latn
+  content: TeraHertz technology (THz); Identification of frequency bands of interest
     for THz communication systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67656
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/THz/001_099/002/01.01.01_60/gr_THz002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR THz 002 V1.1.1 (2024-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67656
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/THz/001_099/002/01.01.01_60/gr_THz002v010101p.pdf
+docidentifier:
+- content: ETSI GR THz 002 V1.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR THz 002 V1.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TeraHertz technology
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The work item will: (i) Identify frequency bands of interest; (ii) Describe
+- language: en
+  script: Latn
+  content: 'The work item will: (i) Identify frequency bands of interest; (ii) Describe
     the current regulatory situation in the frequency bands of interest; (iii) Identify
     the incumbent services to be considered for coexistence studies'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: coexistence
-- content: incumbent
-- content: spectrum
-- content: spectrum regulation
+- taxon:
+  - language: en
+    script: Latn
+    content: coexistence
+  - language: en
+    script: Latn
+    content: incumbent
+  - language: en
+    script: Latn
+    content: spectrum
+  - language: en
+    script: Latn
+    content: spectrum regulation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: TeraHertz technology
+    content: Group Report

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186014-1V3.1.12017-12
+id: ETSITS1860141V311201712
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Communication Diversion
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Communication Diversion
     (CDIV) using IP Multimedia (IM) Core Network (CN) subsystem; (3GPPTM Release 12);
     Part 1: Protocol Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52721
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601401/03.01.01_60/ts_18601401v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 014-1 V3.1.1 (2017-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52721
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601401/03.01.01_60/ts_18601401v030101p.pdf
+docidentifier:
+- content: ETSI TS 186 014-1 V3.1.1 (2017-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 014-1 V3.1.1 (2017-12)
 date:
 - type: published
-  value: 2017-12
+  at: 2017-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2017-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Provision of CDIV PICS specification based on 3GPP Release 12
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Provision of CDIV PICS specification based on 3GPP Release 12
+status:
+  stage: Published
 keyword:
-- content: CDIV
-- content: CONFORMANCE
-- content: PICS
-- content: SIP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CDIV
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103393V1.1.12016-03
+id: ETSITR103393V111201603
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Advanced Mobile Location for emergency
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Advanced Mobile Location for emergency
     calls
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47557
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103393/01.01.01_60/tr_103393v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 393 V1.1.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47557
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103393/01.01.01_60/tr_103393v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 393 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 393 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item will build on the Advanced Mobile Location initiative that
+- language: en
+  script: Latn
+  content: "This Work Item will build on the Advanced Mobile Location initiative that
     has been piloted in the UK to improve the precision and accuracy of location information
     for emergency calls.\r\nAdvanced Mobile Location (AML) allows use of native smart
     phone technology to pass (Assisted) GPS or WiFi based location data to Emergency
@@ -68,18 +77,18 @@ abstract:
     that AML does not introduce or require any new technical standards: it uses existing,
     widely available 3GPP network standards and needs only limited changes to handset
     operating systems.  \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: LOCATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: LOCATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

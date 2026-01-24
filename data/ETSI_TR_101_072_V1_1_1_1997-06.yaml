@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101072V1.1.11997-06
+id: ETSITR101072V111199706
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
     Mobile communications (GSM); DECT/GSM integration based on dual-mode terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4651
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101072/01.01.01_60/tr_101072v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 072 V1.1.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4651
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101072/01.01.01_60/tr_101072v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 072 V1.1.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 072 V1.1.1 (1997-06)
 date:
 - type: published
-  value: 1997-06
+  at: 1997-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: GSM interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To investigate radio and network aspects and clarifying the\r\npossibilities
+- language: en
+  script: Latn
+  content: "To investigate radio and network aspects and clarifying the\r\npossibilities
     as well as the problems related to dual-mode terminals.\r\nThis TR will describe
     how existing DECT and GSM standards and TBRs can\r\nform the basis for the first
     edition of TBR 39, i.e. basic dual-mode\r\nterminals that only consist of a DECT
@@ -59,21 +68,27 @@ abstract:
     equipment, i.e. P-GSM, E-GSM, R-GSM, DC\r\nS1800 or dual band GSM/DCS.\r\n The
     need for further standardization should be identified, especially\r\nthe contents
     of an eventual ETS as the basis for the first edition of\r\nTBR 39.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: GSM
-- content: NETWORK
-- content: RADIO
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: GSM interworking
+    content: Technical Report

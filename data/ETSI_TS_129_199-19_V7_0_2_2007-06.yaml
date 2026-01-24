@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129199-19V7.0.22007-06
+id: ETSITS12919919V702200706
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Open Service Access (OSA); Parlay X web services;
     Part 19: Multimedia streaming control (3GPP TS 29.199-19 version 7.0.2 Release
     7)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26972
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129100_129199/12919919/07.00.02_60/ts_12919919v070002p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 199-19 V7.0.2 (2007-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=26972
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129100_129199/12919919/07.00.02_60/ts_12919919v070002p.pdf
+docidentifier:
+- content: ETSI TS 129 199-19 V7.0.2 (2007-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 199-19 V7.0.2 (2007-06)
 date:
 - type: published
-  value: 2007-06
+  at: 2007-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: OSA (formely CN5)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.2
-revdate: 2007-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-36
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-36
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: OSA (formely CN5)
+    content: Technical Specification

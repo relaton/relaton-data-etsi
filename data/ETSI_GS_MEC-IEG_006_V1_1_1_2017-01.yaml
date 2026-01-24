@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC-IEG006V1.1.12017-01
+id: ETSIGSMECIEG006V111201701
+schema_version: v1.4.1
 title:
-- content: Mobile Edge Computing; Market Acceleration; MEC Metrics Best Practice and
+- language: en
+  script: Latn
+  content: Mobile Edge Computing; Market Acceleration; MEC Metrics Best Practice and
     Guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47908
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC-IEG/001_099/006/01.01.01_60/gs_MEC-IEG006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC-IEG 006 V1.1.1 (2017-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47908
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC-IEG/001_099/006/01.01.01_60/gs_MEC-IEG006v010101p.pdf
+docidentifier:
+- content: ETSI GS MEC-IEG 006 V1.1.1 (2017-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC-IEG 006 V1.1.1 (2017-01)
 date:
 - type: published
-  value: 2017-01
+  at: 2017-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Industry Enabling Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item (WI) will provide recommendations on metrics to measure
+- language: en
+  script: Latn
+  content: "This Work Item (WI) will provide recommendations on metrics to measure
     the improvements enabled by MEC. It will include best practice and guidelines
     on how to evaluate the results. In order to evaluate the improvements in selected
     use cases / service scenarios, it may also include examples of achieved and/or
@@ -54,18 +63,18 @@ abstract:
     The scope of the WI covers both LTE-based and future mobile networks. \r\nThe
     expected deliverable is: Group Specification of MEC Metrics Best Practices and
     Guidelines\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: KPI
-- content: MEC
+- taxon:
+  - language: en
+    script: Latn
+    content: KPI
+  - language: en
+    script: Latn
+    content: MEC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Industry Enabling Group
+    content: Group Specification

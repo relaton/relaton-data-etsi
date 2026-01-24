@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103305V1.1.12015-05
+id: ETSITR103305V111201505
+schema_version: v1.4.1
 title:
-- content: CYBER; Critical Security Controls for Effective Cyber Defence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45868
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103305/01.01.01_60/tr_103305v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 305 V1.1.1 (2015-05)
+- language: en
+  script: Latn
+  content: CYBER; Critical Security Controls for Effective Cyber Defence
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45868
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103305/01.01.01_60/tr_103305v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 305 V1.1.1 (2015-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 305 V1.1.1 (2015-05)
 date:
 - type: published
-  value: 2015-05
+  at: 2015-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Report describes a specific set of technical measures available
+- language: en
+  script: Latn
+  content: This Technical Report describes a specific set of technical measures available
     to detect, prevent, respond, and mitigate damage from the most common to the most
     advanced of cyber attacks developed and maintained by the Council of Cybersecurity.  The
     measures reflect the combined knowledge of actual attacks and effective defences.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Cyber-defence
-- content: Information assurance
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: Information assurance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

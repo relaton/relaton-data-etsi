@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101728V1.2.12002-06
+id: ETSITR101728V121200206
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Study for the specification of low pass filter
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Study for the specification of low pass filter
     section of POTS/ADSL splitters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13971
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101728/01.02.01_60/tr_101728v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 728 V1.2.1 (2002-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13971
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101728/01.02.01_60/tr_101728v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 728 V1.2.1 (2002-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 728 V1.2.1 (2002-06)
 date:
 - type: published
-  value: 2002-06
+  at: 2002-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update TR 101 728 with comments received since publication
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update TR 101 728 with comments received since publication
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ADSL
-- content: ANALOGUE
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue
+    content: Technical Report

@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTS11.40-DCSV3.3.01995-02
+id: ETSIGTS1140DCSV330199502
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 1); DCS 1800
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 1); DCS 1800
     System Simulator Conformity Specification (GSM 11.40 - DCS-1800)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1816
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/11/1140/03.03.00_60/gsmts_1140dv030300p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS 11.40-DCS V3.3.0 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1816
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/11/1140/03.03.00_60/gsmts_1140dv030300p.pdf
+docidentifier:
+- content: ETSI GTS 11.40-DCS V3.3.0 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI GTS 11.40-DCS V3.3.0 (1995-02)
 date:
 - type: published
-  value: 1995-02
+  at: 1995-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Special Mobile Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.0
-revdate: 1995-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "...."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "...."
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Special Mobile Group
+    content: GSM Technical Specification

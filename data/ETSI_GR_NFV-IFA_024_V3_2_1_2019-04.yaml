@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA024V3.2.12019-04
+id: ETSIGRNFVIFA024V321201904
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Information Modeling;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Information Modeling;
     Report on External Touchpoints related to NFV Information Model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56924
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/024/03.02.01_60/gr_NFV-IFA024v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 024 V3.2.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56924
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/024/03.02.01_60/gr_NFV-IFA024v030201p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 024 V3.2.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 024 V3.2.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item defines the touchpoints/ relations between the NFV Information
+- language: en
+  script: Latn
+  content: "This Work Item defines the touchpoints/ relations between the NFV Information
     Model (IFA015) and the models from other organisations including but not limited
     to: ONF, 3GPP, MEF, TM Forum.\r\nThe changes for Release 3 include touchpoint
     for network slicing and bugfixes\r\nThis Work Item does not change the NFV Information
@@ -54,19 +63,21 @@ abstract:
     deliverable will include the UML Information Model describing the touchpoints
     as an electronic attachment. The format of the model will be the Papyrus Open
     Source format. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: NFV
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

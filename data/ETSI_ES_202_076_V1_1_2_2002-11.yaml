@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202076V1.1.22002-11
+id: ETSIES202076V112200211
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User Interfaces; Generic spoken command vocabulary
+- language: en
+  script: Latn
+  content: Human Factors (HF); User Interfaces; Generic spoken command vocabulary
     for ICT devices and services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17697
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/202076/01.01.02_60/es_202076v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 076 V1.1.2 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17697
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/202076/01.01.02_60/es_202076v010102p.pdf
+docidentifier:
+- content: ETSI ES 202 076 V1.1.2 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 076 V1.1.2 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Creation of standards for:\r\n - Generic spoken commands vocabulary for
+- language: en
+  script: Latn
+  content: "Creation of standards for:\r\n - Generic spoken commands vocabulary for
     navigation and information retrieval based on the tape recorder and browser metaphor;\r\n
     - Generic spoken commands vocabulary for basic telephony services;\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: INTERFACE
-- content: SPEECH
-- content: TELEPHONY
-- content: USER
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: USER
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

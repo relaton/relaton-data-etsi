@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103181-3V1.1.12016-08
+id: ETSITR1031813V111201608
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices (SRD) using Ultra Wide Band (UWB); Part 3: Worldwide
+- language: en
+  script: Latn
+  content: 'Short Range Devices (SRD) using Ultra Wide Band (UWB); Part 3: Worldwide
     UWB regulations between 3,1 and 10,6 GHz'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43818
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/10318103/01.01.01_60/tr_10318103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 181-3 V1.1.1 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43818
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/10318103/01.01.01_60/tr_10318103v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 181-3 V1.1.1 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 181-3 V1.1.1 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Overview, collection of world wide UWB regulation. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Overview, collection of world wide UWB regulation. '
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Report

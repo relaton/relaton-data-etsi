@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103063V1.1.12011-07
+id: ETSITR103063V111201107
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Use Cases for Reconfigurable Radio
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Use Cases for Reconfigurable Radio
     Systems operating in IMT bands and GSM bands for intra-operator scenarios
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34213
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103063/01.01.01_60/tr_103063v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 063 V1.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34213
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103063/01.01.01_60/tr_103063v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 063 V1.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 063 V1.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SA - System Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Scope of work to be undertaken:  \r\nThis Technical Report will collect
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken:  \r\nThis Technical Report will collect
     operating network scenarios - to be described in the form of system use cases
     - for Reconfigurable Radio Systems and operating in IMT bands and GSM bands i.e.
     licensed spectrums allocated to IMT and GSM systems.\r\nUse cases will focus on
@@ -60,21 +69,27 @@ abstract:
     systems. \r\nIt is expected that the focus on such harmonized, global and regulated
     spectrum environment will help clarifying opportunities and impacts of cognitive
     radio and software defined radio systems."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CRS
-- content: GSM
-- content: IMT
-- content: SDR
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: IMT
+  - language: en
+    script: Latn
+    content: SDR
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SA - System Aspects
+    content: Technical Report

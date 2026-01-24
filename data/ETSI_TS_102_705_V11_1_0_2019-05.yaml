@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102705V11.1.02019-05
+id: ETSITS102705V1110201905
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    U21hcnQgQ2FyZHM7IFVJQ0MgQXBwbGljYXRpb24gUHJvZ3JhbW1pbmcgSW50ZXJmYWNlIGZvciBKYXZhIENhcmTihKIgZm9yIENvbnRhY3RsZXNzIEFwcGxpY2F0aW9ucyAoUmVsZWFzZSAxMSk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56877
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102705/11.01.00_60/ts_102705v110100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 705 V11.1.0 (2019-05)
+- language: en
+  script: Latn
+  content: Smart Cards; UICC Application Programming Interface for Java Card for Contactless
+    Applications (Release 11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56877
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102705/11.01.00_60/ts_102705v110100p.pdf
+docidentifier:
+- content: ETSI TS 102 705 V11.1.0 (2019-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 705 V11.1.0 (2019-05)
 date:
 - type: published
-  value: 2019-05
+  at: 2019-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.1.0
-revdate: 2019-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    IFRoZSBwcmVzZW50IGRvY3VtZW50IGRlc2NyaWJlcyB0aGUgVUlDQyBBcHBsaWNhdGlvbiBQcm9ncmFtbWluZyBJbnRlcmZhY2UgZm9yIEphdmEgQ2FyZOKEoiBmb3IgY29udGFjdGxlc3MgQXBwbGljYXRpb25zLiBJdHMgcHVycG9zZSBpcyB0byBwcm92aWRlIGFjY2VzcyBmb3IgYSBjb250YWN0bGVzcyBBcHBsZXQgdG8gdGhlIHNlcnZpY2VzIHByb3ZpZGVkIGJ5IHRoZSBIQ0kgcHJvdG9jb2wgZGVmaW5lZCBpbiBbNF0gZm9yIHRoZSBjb21tdW5pY2F0aW9uIHZpYSB0aGUgQ0xGLiBJbiB0aGUgc2NvcGUgb2YgdGhlIHByZXNlbnQgZG9jdW1lbnQgY29udGFjdGxlc3MgbWVhbnMgc3VwcG9ydCBmb3IgdGhlIFJGIFRlY2hub2xvZ2llcyByZWZlcmVuY2VkIGJ5IHRoZSBIQ0kgc3BlY2lmaWNhdGlvbiBbNF0uIExvdyBsZXZlbCBmdW5jdGlvbmFsaXR5IHRvIG1hbmFnZSBnYXRlcyBhbmQgcGlwZXMgYXMgZGVmaW5lZCBpbiB0aGUgSENJIHNwZWNpZmljYXRpb24gWzRdIGlzIG5vdCBpbiB0aGUgc2NvcGUgb2YgdGhlIHByZXNlbnQgZG9jdW1lbnQuIA0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: " The present document describes the UICC Application Programming Interface
+    for Java Card for contactless Applications. Its purpose is to provide access for
+    a contactless Applet to the services provided by the HCI protocol defined in [4]
+    for the communication via the CLF. In the scope of the present document contactless
+    means support for the RF Technologies referenced by the HCI specification [4].
+    Low level functionality to manage gates and pipes as defined in the HCI specification
+    [4] is not in the scope of the present document. \r\n"
+status:
+  stage: Published
 keyword:
-- content: API
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101445V1.1.12002-04
+id: ETSITR101445V111200204
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short-Range
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short-Range
     Devices (SRD) intended for operation in the 862 MHz to 870 MHz band; System Reference
     Document for Radio Frequency Identification (RFID) equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15884
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101445/01.01.01_60/tr_101445v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 445 V1.1.1 (2002-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15884
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101445/01.01.01_60/tr_101445v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 445 V1.1.1 (2002-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 445 V1.1.1 (2002-04)
 date:
 - type: published
-  value: 2002-04
+  at: 2002-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Preparation of an SRDoc requesting operation of RFID at UHF in the band
+- language: en
+  script: Latn
+  content: Preparation of an SRDoc requesting operation of RFID at UHF in the band
     865 to 868 MHz and a request to WG-FM for a formal compatibility study by SE24
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SHORT RANGE
-- content: SRD
-- content: SRDOC
-- content: SYSTEM
-- content: UHF
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: UHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

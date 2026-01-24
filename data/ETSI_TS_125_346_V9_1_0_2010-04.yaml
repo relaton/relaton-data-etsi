@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125346V9.1.02010-04
+id: ETSITS125346V910201004
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Introduction of the
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Introduction of the
     Multimedia Broadcast/Multicast Service (MBMS) in the Radio Access Network (RAN);
     Stage 2 (3GPP TS 25.346 version 9.1.0 Release 9)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33765
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125346/09.01.00_60/ts_125346v090100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 346 V9.1.0 (2010-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33765
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125346/09.01.00_60/ts_125346v090100p.pdf
+docidentifier:
+- content: ETSI TS 125 346 V9.1.0 (2010-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 346 V9.1.0 (2010-04)
 date:
 - type: published
-  value: 2010-04
+  at: 2010-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.1.0
-revdate: 2010-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-47
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-47
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

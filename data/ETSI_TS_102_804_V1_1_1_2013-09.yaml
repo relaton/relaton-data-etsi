@@ -1,67 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102804V1.1.12013-09
+id: ETSITS102804V111201309
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM); Access transmission
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM); Access transmission
     systems on metallic access cables; Multi-Operation DSL Performance Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31477
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102804/01.01.01_60/ts_102804v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 804 V1.1.1 (2013-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31477
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102800_102899/102804/01.01.01_60/ts_102804v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 804 V1.1.1 (2013-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 804 V1.1.1 (2013-09)
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG9iamVjdGl2ZSBvZiB0aGlzIHdvcmsgaXMgdG8gZGV2ZWxvcCBhIFRTIHRoYXQgc3BlY2lmaWVzIEV1cm9wZWFuIHBlcmZvcm1hbmNlIHJlcXVpcmVtZW50cyBmb3IgbXVsdGktbW9kZSB4RFNMIHRyYW5zY2VpdmVycy4gDQpBIG11bHRpLW1vZGUgdHJhbnNjZWl2ZXIgaXMgYSBkZXZpY2UgY2FwYWJsZSBvZiBzdXBwb3J0aW5nIG11bHRpcGxlIHhEU0wgdGVjaG5vbG9naWVzIChlLmcuIEFEU0wycGx1cywgQURTbDIsIEFEU0wgYW5kIFZEU0wyKSBhbmQgYXBwbGllcyB0byBib3RoIG5ldHdvcmsgYW5kIGN1c3RvbWVyIGVxdWlwbWVudC4NCkl0IGlzIHByb3Bvc2VkIHRoYXQgdGhlIG5ldyBUUyBzaG91bGQgYWRkcmVzcyB0aGUgZm9sbG93aW5nIGlzc3VlczoNCsK3UGVyZm9ybWFuY2Ugb2YgYSBtdWx0aS1tb2RlIHRyYW5zY2VpdmVyIGNvbXBhcmVkIHdpdGggdGhhdCBvZiBhIHNpbmdsZS1tb2RlIHRyYW5zY2VpdmVyDQrCt1Bvd2VyIGNvbnN1bXB0aW9uIG9mIGEgbXVsdGktbW9kZSB0cmFuc2NlaXZlciBjb21wYXJlZCB3aXRoIHRoYXQgb2YgYSBzaW5nbGUtbW9kZSB0cmFuc2NlaXZlcg0KwrdQZXJmb3JtYW5jZSBvZiBjYWJpbmV0LWJhc2VkIG11bHRpLW1vZGUgdHJhbnNjZWl2ZXJzDQrCt1Bvd2VyIGNvbnN1bXB0aW9uIG9mIGNhYmluZXQtYmFzZWQgbXVsdGktbW9kZSB0cmFuc2NlaXZlcnMNCsK3UGVyZm9ybWFuY2Ugb2YgZXhjaGFuZ2UtYmFzZWQgbXVsdGktbW9kZSB0cmFuc2NlaXZlcnMNClBvd2VyIGNvbnN1bXB0aW9uIGxpbWl0cyBmb3IgQnJvYWRiYW5kIHN5c3RlbXMgYXJlIGN1cnJlbnRseSBkZWZpbmVkIGluIHRoZSBFVSBDb2RlIG9mIENvbmR1Y3QuICANCkxpYWlzb24gYW5kIGNvb3BlcmF0aW9uIHdpdGggb3RoZXIgY29tcGV0ZW50IFN0YW5kYXJkcyBib2RpZXMgKHNwZWNpZmljYWxseSBFVFNJIEVFLCBJVFUtVCBRNC8xNSBhbmQgQnJvYWRiYW5kIEZvcnVtKS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The objective of this work is to develop a TS that specifies European
+    performance requirements for multi-mode xDSL transceivers. \r\nA multi-mode transceiver
+    is a device capable of supporting multiple xDSL technologies (e.g. ADSL2plus,
+    ADSl2, ADSL and VDSL2) and applies to both network and customer equipment.\r\nIt
+    is proposed that the new TS should address the following issues:\r\nPerformance
+    of a multi-mode transceiver compared with that of a single-mode transceiver\r\nPower
+    consumption of a multi-mode transceiver compared with that of a single-mode transceiver\r\nPerformance
+    of cabinet-based multi-mode transceivers\r\nPower consumption of cabinet-based
+    multi-mode transceivers\r\nPerformance of exchange-based multi-mode transceivers\r\nPower
+    consumption limits for Broadband systems are currently defined in the EU Code
+    of Conduct.  \r\nLiaison and cooperation with other competent Standards bodies
+    (specifically ETSI EE, ITU-T Q4/15 and Broadband Forum)."
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ADSL
-- content: BROADBAND
-- content: VDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: VDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Specification

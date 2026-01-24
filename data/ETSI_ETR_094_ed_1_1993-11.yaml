@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR094ed.11993-11
+id: ETSIETR094ed1199311
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Guide for the implementation
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Guide for the implementation
     of ISO/IEC 9646 Conformance Assessment Process (CAP) .
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=315
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/094/01_60/etr_094e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 094 ed.1 (1993-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=315
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/094/01_60/etr_094e01p.pdf
+docidentifier:
+- content: ETSI ETR 094 ed.1 (1993-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 094 ed.1 (1993-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing Environment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To investigate the feasibility of establishing European Standards for\r\nan
+- language: en
+  script: Latn
+  content: "To investigate the feasibility of establishing European Standards for\r\nan
     open implementation of ISO 9646 in test tools & test environment.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CAP
-- content: METHODOLOGY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CAP
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Conformance Testing Environment
+    content: ETSI Technical Report

@@ -1,63 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103953V1.1.12024-07
+id: ETSITR103953V111202407
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Guidelines for TLMSP Usage
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67983
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103953/01.01.01_60/tr_103953v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 953 V1.1.1 (2024-07)
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Guidelines for TLMSP Usage
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67983
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103953/01.01.01_60/tr_103953v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 953 V1.1.1 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 953 V1.1.1 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VExNU1AgKEVUU0kgVFMgMTAzIDUyMy0yKSBpcyBhIGZlYXR1cmUtcmljaCBwcm90b2NvbCBhbmQgaXQgY291bGQgYmUgdW5jbGVhciB0byBzb21lIHVzZXJzIGhvdyB0byBjb25maWd1cmUgaXQgaW4gZGlmZmVyZW50IHNjZW5hcmlvcywgaS5lLiB3aGVuIGRpZmZlcmVudCBhcHBsaWNhdGlvbiBsYXllciBwcm90b2NvbHMgYXJlIHVzZWQsIGFuZCB3aGVuIHVzZWQgZm9yIGRpZmZlcmVudCBzZXJ2aWNlcy4gQSBUUiBwcm92aWRpbmcgZ3VpZGVsaW5lcyBvbiB0aGUgZm9sbG93aW5nIHRvcGljcyBpcyBwcm9wb3NlZDoNCjEuCWhvdyB0byBtYXAgZGlmZmVyZW50IHBhcnRzIChzdWNoIGFzIGhlYWRlciBmaWVsZHMsIHN1Yi1wYXJ0cyBvZiBwYXlsb2FkLCBldGMpIG9mIHRoZSBhcHBsaWNhdGlvbiBsYXllciBwcm90b2NvbCBvbnRvIGRpZmZlcmVudCBUTE1TUCBjb250ZXh0cywNCjIuCWhvdyB0byBhc3NpZ24gYWNjZXNzIHJpZ2h0cyAocmVhZC93cml0ZS9kZWxldGUvaW5zZXJ0KSB0byB0aG9zZSBjb250ZXh0cywgDQozLglyZWNvbW1lbmRhdGlvbnMgb24gdXNhZ2Ugb2YgZGVsZXRpb25zIGFuZCBpbnNlcnRpb25zIGJ5IGF1dGhvcml6ZWQgbWlkZGxlYm94ZXMsIA0KNC4Jc3VpdGFibGUgZm9ybWF0IGFuZCBjb250ZW50IG9mIFRMTVNQIGF1ZGl0IGNvbnRhaW5lcnMsIA0KNS4JaG93IHRvIChpbiBtb3JlIHNwZWNpZmljIGRldGFpbCkgDQphLglhcHBseSBkeW5hbWljIGRpc2NvdmVyeSBvZiBtaWRkbGVib3hlcywNCmIuCXVzZSB0aGUgVExNU1AgYWx0ZXJuYXRpdmUgbW9kZXMgKFRMUy1mYWxsYmFjayBhbmQgVExNU1AtcHJveHlpbmcpLg0KDQpJbiBwYXJ0aWN1bGFyIHRoZSBpdGVtcyAyLTUgd2lsbCBkZXBlbmQgbm90IG9ubHkgb24gdGhlIGFwcGxpY2F0aW9uIHByb3RvY29sLCBidXQgYWxzbyBvbiBzcGVjaWZpY3Mgb2YgdGhlIHNlcnZpY2UgcnVubmluZyBvdmVyIHRoYXQgcHJvdG9jb2wgc3VjaCBhcyB0aGUgdHlwZS9mdW5jdGlvbmFsaXR5IG9mIG1pZGRsZWJveGVzIHByZXNlbnQsIHNlY3VyaXR5IHRocmVhdHMsIHJlbGV2YW50IHNlY3VyaXR5IHBvbGljaWVzLCBldGMuDQpBcyB0aGUgd29yayBwcm9ncmVzc2VzLCBvdGhlciB0b3BpY3MgY291bGQgYmUgaW5jbHVkZWQsIGFzIGlkZW50aWZpZWQuDQoNCkV4YW1wbGVzIG9mIGFwcGxpY2F0aW9uIGxheWVyIHByb3RvY29scyBpbiBzY29wZSBpbmNsdWRlIGF0IGxlYXN0OiBIVFRQLCDigKYNCkV4YW1wbGVzIG9mIHNlcnZpY2VzIGluIHNjb3BlIGluY2x1ZGVzIGF0IGxlYXN0OiBleHRlcm5hbCBhY2Nlc3MgaW50byBjb3Jwb3JhdGUgbmV0d29yaywgaW50ZXJuZXQgYWNjZXNzIGZyb20gaW5zaWRlIGNvcnBvcmF0ZSBuZXR3b3JrLCBkYXRhIGNlbnRlciB1c2FnZSwgbWFsd2FyZSBwcm90ZWN0aW9uLOKApg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TLMSP (ETSI TS 103 523-2) is a feature-rich protocol and it could be unclear
+    to some users how to configure it in different scenarios, i.e. when different
+    application layer protocols are used, and when used for different services. A
+    TR providing guidelines on the following topics is proposed:\r\n1.\thow to map
+    different parts (such as header fields, sub-parts of payload, etc) of the application
+    layer protocol onto different TLMSP contexts,\r\n2.\thow to assign access rights
+    (read/write/delete/insert) to those contexts, \r\n3.\trecommendations on usage
+    of deletions and insertions by authorized middleboxes, \r\n4.\tsuitable format
+    and content of TLMSP audit containers, \r\n5.\thow to (in more specific detail)
+    \r\na.\tapply dynamic discovery of middleboxes,\r\nb.\tuse the TLMSP alternative
+    modes (TLS-fallback and TLMSP-proxying).\r\n\r\nIn particular the items 2-5 will
+    depend not only on the application protocol, but also on specifics of the service
+    running over that protocol such as the type/functionality of middleboxes present,
+    security threats, relevant security policies, etc.\r\nAs the work progresses,
+    other topics could be included, as identified.\r\n\r\nExamples of application
+    layer protocols in scope include at least: HTTP, \r\nExamples of services in scope
+    includes at least: external access into corporate network, internet access from
+    inside corporate network, data center usage, malware protection,\r\n"
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

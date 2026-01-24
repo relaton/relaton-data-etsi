@@ -1,68 +1,103 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101953-1-1V1.1.12002-11
+id: ETSITR10195311V111200211
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Unified and Generic Testing Methods for European
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Unified and Generic Testing Methods for European
     Specific DSL splitters; Part 1: ADSL splitters for European deployment; Sub-part
     1: Specification of Testing methods for Low Pass part of ADSL/POTS splitters'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13969
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530101/01.01.01_60/tr_1019530101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 953-1-1 V1.1.1 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13969
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/1019530101/01.01.01_60/tr_1019530101v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 953-1-1 V1.1.1 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 953-1-1 V1.1.1 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHB1cnBvc2Ugb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdG8gcHJvZHVjZSBhIG11bHRpLXBhcnQgRVRTSSBUZWNobmljYWwgUmVwb3J0IChUUikgIGNvbnRhaW5pbmcgdGVzdCBzcGVjaWZpY2F0aW9ucyBmb3IgRFNMIHNwbGl0dGVycy4gVGhlIG1haW4gb2JqZWN0aXZlcyBpbiBtaW5kIGFyZTogDQrCp3RvIGNvcnJlbGF0ZSB0aGUgc3BsaXR0ZXIgcGFyYW1ldGVycyB3aXRoIHJlc3BlY3QgdG8gdGhlIHBlcmZvcm1hbmNlIG9iamVjdGl2ZXMgb2YgdGhlIERTTCwgUE9UUyBhbmQgSVNETiBzZXJ2aWNlcywgdG8gYXNzaXN0IHRoZSBvbiBnb2luZyBzdGFuZGFyZGlzYXRpb24gcHJvY2VzcyAocHJvZHVjdGlvbiBvZiB0aGUgIE11bHRpLVBhcnQgRXVyb3BlYW4gU3RhbmRhcmQgOiDigJxFdXJvcGVhbiBTcGVjaWZpYyBEU0wgU3BsaXR0ZXIgUmVxdWlyZW1lbnRz4oCdIChFUy1TcGxpdHRlcnMpKS4NCsKndG8gc3BlY2lmeSB1bmlmaWVkIGFuZCBnZW5lcmljIHRlc3RpbmcgbWV0aG9kcyBmb3IgYWxsIHNwbGl0dGVycyBiYXNlZCBvbiB0aGUgcmVxdWlyZW1lbnRzIHNwZWNpZmllZCBpbiB0aGUgVFIgMTAxIDcyOCwgVFMgMTAxIDM4OCBhbmQgVFMgMTAxIDI3MCB0YWtpbmcgaW50byBhY2NvdW50IGFkZGl0aW9uYWwgSVRVLVQgRFNMIFJlY29tbWVuZGF0aW9ucyBhbmQgcG9zc2libGUgb3RoZXIgcmVsZXZhbnQgU3RhbmRhcmRzIGFzIGZyb20gQ2VuZWxlYy4NCsKndG8gdmFsaWRhdGUgdGhlIHRlc3RpbmcgbWV0aG9kcyB1c2VkIHRvIHBlcmZvcm0gcHJhY3RpY2FsIG1lYXN1cmVtZW50IGluIGltcGxlbWVudGluZyBleGVjdXRhYmxlIHRlc3Qgc3VpdGVzIG9uIGV4aXN0aW5nIHRlc3QgcGxhdGZvcm1zIChpbiBhY2NyZWRpdGVkIGxhYnMpDQrCp3RvIHByb3ZpZGUgYXMgYW4gaW5wdXQgdG8gVE02IGFuZCBUQy1BVCB0aGUgcmVsYXRlZCB0ZXN0IHNwZWNpZmljYXRpb25zIHBvc3NpYmx5IGludGVuZGVkIHRvIGJlIGluY2x1ZGVkIHdpdGhpbiB0aGUgRVMtU3BsaXR0ZXIuDQrCp1RvIGxpYWlzZSB3aXRoIHBvc3NpYmxlIEJha2UtT2ZmIGV2ZW50cyB0byBiZSBvcmdhbml6ZWQgYnkgdGhlIEVUU0kgQmFrZS1PZmYgc3VwcG9ydCB0ZWFtLiBUaGUgb2JqZWN0aXZlIGJlaW5nIHRvIGNvbmZpcm0gc3BsaXR0ZXIgcGFyYW1ldGVycyB3aXRoIHJlc3BlY3QgdG8gc2VydmljZXMgKFBPVFMsIElTRE4sIERTTCkgcGVyZm9ybWFuY2Ugb2JqZWN0aXZlcyBvciB0byBldmFsdWF0ZSB0aGUgcGVyZm9ybWFuY2UgZGVncmFkYXRpb24gd2hlbiBpbnNlcnRpbmcgc3BsaXR0ZXJzIGluIGxvY2FsIGxvb3BzLg0KVEMtQVQgd2lsbCBjby1vcGVyYXRlIHdpdGggVE02IGFzIGFncmVlZCBkdXJpbmcgdGhlIGxhc3QgVE02IzIyIG1lZXRpbmcsIHRvIGNvbXBsZW1lbnQgdGhlaXIgYWN0aXZpdHkgb24gc3BsaXR0ZXIgdGVzdGluZyBtZXRob2RzIGluIGNvdmVyaW5nIHRoZSBMb3ctcGFzcyBzZWN0aW9uIG9mIHRoZSBBRFNML1BPVFMgYW5kIFZEU0wvUE9UUyBzcGxpdHRlcnMuIE90aGVyIGl0ZW1zIGFzIGRpc3RyaWJ1dGVkIGxvd3Bhc3MgZmlsdGVycyBtYXkgYmUgYWRkZWQgaWYgcmVxdWVzdGVkLg0KVGhlIGZvbGxvd2luZyBpdGVtcyBhcmUgaW5jbHVkZWQgd2l0aGluIHRoZSBzY29wZSBvZiB0aGUgY29uY3VycmVudCBUTTYgd29yayBpdGVtOiBIUEYgYW5kIERDIEJsb2NrIG9mIHRoZSBBRFNML1BPVFMsIEFEU0wvSVNETi1CQSwgSFBGIGFuZCBEQyBCbG9jayBvZiB0aGUgVkRTTC9QT1RTLCBWRFNML0lTRE4tQkEuIE90aGVyIHNwbGl0dGVyIHR5cGVzIG1heSBiZSBhZGRlZCBpZiByZXF1ZXN0ZWQuIA0KUGFydCAxLjEgaXMgdGhlIFNwZWNpZmljYXRpb24gb2YgVGVzdGluZyBtZXRob2RzIGZvciBMb3cgUGFzcyBwYXJ0IG9mIEFEU0wvUE9UUyBzcGxpdHRlcnMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The purpose of this work item is to produce a multi-part ETSI Technical
+    Report (TR)  containing test specifications for DSL splitters. The main objectives
+    in mind are: \r\nto correlate the splitter parameters with respect to the performance
+    objectives of the DSL, POTS and ISDN services, to assist the on going standardisation
+    process (production of the  Multi-Part European Standard : European Specific DSL
+    Splitter Requirements (ES-Splitters)).\r\nto specify unified and generic testing
+    methods for all splitters based on the requirements specified in the TR 101 728,
+    TS 101 388 and TS 101 270 taking into account additional ITU-T DSL Recommendations
+    and possible other relevant Standards as from Cenelec.\r\nto validate the testing
+    methods used to perform practical measurement in implementing executable test
+    suites on existing test platforms (in accredited labs)\r\nto provide as an input
+    to TM6 and TC-AT the related test specifications possibly intended to be included
+    within the ES-Splitter.\r\nTo liaise with possible Bake-Off events to be organized
+    by the ETSI Bake-Off support team. The objective being to confirm splitter parameters
+    with respect to services (POTS, ISDN, DSL) performance objectives or to evaluate
+    the performance degradation when inserting splitters in local loops.\r\nTC-AT
+    will co-operate with TM6 as agreed during the last TM6#22 meeting, to complement
+    their activity on splitter testing methods in covering the Low-pass section of
+    the ADSL/POTS and VDSL/POTS splitters. Other items as distributed lowpass filters
+    may be added if requested.\r\nThe following items are included within the scope
+    of the concurrent TM6 work item: HPF and DC Block of the ADSL/POTS, ADSL/ISDN-BA,
+    HPF and DC Block of the VDSL/POTS, VDSL/ISDN-BA. Other splitter types may be added
+    if requested. \r\nPart 1.1 is the Specification of Testing methods for Low Pass
+    part of ADSL/POTS splitters."
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: POTS
-- content: Splitter
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue
+    content: Technical Report

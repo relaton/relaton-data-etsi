@@ -1,63 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300340ed.11994-11
+id: ETSIETS300340ed1199411
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     for European Radio Message System (ERMES) paging receivers
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1826
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300340/01_60/ets_300340e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 340 ed.1 (1994-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1826
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300340/01_60/ets_300340e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 340 ed.1 (1994-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 340 ed.1 (1994-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for ERMES paging receivers & ancillary\r\nequipment.\r\nThe
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for ERMES paging receivers & ancillary\r\nequipment.\r\nThe
     ETS may be used to demonstrate compliance with the requirements\r\nof the EMC
     Directive 89/336/EEC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: ERMES
-- content: PAGING
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: ERMES
+  - language: en
+    script: Latn
+    content: PAGING
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

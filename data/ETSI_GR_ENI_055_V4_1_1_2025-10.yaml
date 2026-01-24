@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI055V4.1.12025-10
+id: ETSIGRENI055V411202510
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Use Cases and Requirements for
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Use Cases and Requirements for
     AI Agents Based Core Network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74386
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/055/04.01.01_60/gr_ENI055v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 055 V4.1.1 (2025-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74386
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/055/04.01.01_60/gr_ENI055v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 055 V4.1.1 (2025-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 055 V4.1.1 (2025-10)
 date:
 - type: published
-  value: 2025-10
+  at: 2025-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document studies potential use cases and new service requirements
+- language: en
+  script: Latn
+  content: The present document studies potential use cases and new service requirements
     relevant to AI Agents based core network (AI-Core). It covers the motivation,
     key concept and business values of AI-Core, identification of potential use cases,
     including business to consumer (B2C), business to business (B2B), telecom operator
     usage scenarios and the corresponding consolidated service requirements for future
     mobile communication network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 6G
-- content: AI-native
-- content: GenAI
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: 6G
+  - language: en
+    script: Latn
+    content: AI-native
+  - language: en
+    script: Latn
+    content: GenAI
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

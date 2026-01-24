@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101969V1.1.12001-05
+id: ETSITS101969V111200105
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Abstract Syntax Notation One
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Abstract Syntax Notation One
     (ASN.1) encoding rules; Specification of Encoding Control Notation (ECN) [Draft
     ITU-T Recommendation X.692]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7878
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101969/01.01.01_60/ts_101969v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 969 V1.1.1 (2001-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7878
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101969/01.01.01_60/ts_101969v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 969 V1.1.1 (2001-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 969 V1.1.1 (2001-05)
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This STF will be responsible for the development of a formal notation
+- language: en
+  script: Latn
+  content: "This STF will be responsible for the development of a formal notation
     to allow the specification of encoding rules.   \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: CODING
-- content: ENDORSEMENT
-- content: MTS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MTS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Specification

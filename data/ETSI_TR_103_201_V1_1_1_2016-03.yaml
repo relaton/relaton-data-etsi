@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103201V1.1.12016-03
+id: ETSITR103201V111201603
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Total Conversation for emergency communications;
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Total Conversation for emergency communications;
     implementation guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42909
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103201/01.01.01_60/tr_103201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 201 V1.1.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42909
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103201/01.01.01_60/tr_103201v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 201 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 201 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Describe how requirements and recommendations of TS 101 470 are fullfilled
+- language: en
+  script: Latn
+  content: "Describe how requirements and recommendations of TS 101 470 are fullfilled
     by external standards and how they can be implemented, with:\r\n- Detailed assessment
     of 3GPP and IETF standards to support Total Conversation\r\n- Description of how
     Total Conversation requirements are fulfilled in stage 2 and stage 3 specifications\r\n-
@@ -54,24 +63,36 @@ abstract:
     specifications for product/service\r\n- Description of how Total Conversation
     specification fulfils regulatory requirements\r\n- Annex - IETF and 3GPP changes
     made to support Total Conversation"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: DISABILITY
-- content: EMERGENCY
-- content: IMS
-- content: IP
-- content: Real-time text
-- content: SIP
-- content: Total conversation
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: DISABILITY
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Real-time text
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: Total conversation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

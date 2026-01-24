@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM08.04V5.0.01996-12
+id: ETSIGTSGSM0804V500199612
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Base Station System - Mobile-services
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Base Station System - Mobile-services
     Switching Centre (BSS - MSC) interface; Layer 1 specification (GSM 08.04)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5194
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/08/0804/05.00.00_60/gsmts_0804v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 08.04 V5.0.0 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5194
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/08/0804/05.00.00_60/gsmts_0804v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 08.04 V5.0.0 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 08.04 V5.0.0 (1996-12)
 date:
 - type: published
-  value: 1996-12
+  at: 1996-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
     defines the structure of the physical layer (layer 1) of the BSS-\r\nMSC interface
     for supporting traffic channels. Use of the physical lay\r\ner for supporting
     Signalling System No.7 signalling links is covered i\r\nn GSM 08.06.\r\nThe physical
@@ -54,25 +63,39 @@ abstract:
     required for transmission of bit streams on\r\nthe physical medium.\r\nFor this
     Technical Specification only digital transmission will be con\r\nsidered, the
     use of analogue transmission is a national concern.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASE STATION
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERFACE
-- content: LAYER 1
-- content: MOBILE
-- content: MSC
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSC
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

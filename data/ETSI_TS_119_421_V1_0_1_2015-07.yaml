@@ -1,68 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119421V1.0.12015-07
+id: ETSITS119421V101201507
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Policy and Security Requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Policy and Security Requirements
     for Trust Service Providers issuing Time-Stamps
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47092
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119421/01.00.01_60/ts_119421v010001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 421 V1.0.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47092
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119421/01.00.01_60/ts_119421v010001p.pdf
+docidentifier:
+- content: ETSI TS 119 421 V1.0.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 421 V1.0.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgc3BlY2lmaWVzIHBvbGljeSByZXF1aXJlbWVudHMgcmVsYXRpbmcgdG8gdGhlIG9wZXJhdGlvbiBhbmQgbWFuYWdlbWVudCBwcmFjdGljZXMgb2YgVFNQcyBpc3N1aW5nIGVsZWN0cm9uaWMgdGltZS1zdGFtcHMuDQpUaGVzZSBwb2xpY3kgcmVxdWlyZW1lbnRzIGFyZSBhcHBsaWNhYmxlIHRvIFRTUHMgaXNzdWluZyBlbGVjdHJvbmljIHRpbWUtc3RhbXBzLiAgU3VjaCBlbGVjdHJvbmljIHRpbWUtc3RhbXBzIGNhbiBiZSB1c2VkIGluIHN1cHBvcnQgb2YgZWxlY3Ryb25pYyBzaWduYXR1cmVzIG9yIHNlYWxzIG9yIGZvciBhbnkgYXBwbGljYXRpb24gcmVxdWlyaW5nIHRvIHByb3ZlIHRoYXQgYSBkYXR1bSBleGlzdGVkIGJlZm9yZSBhIHBhcnRpY3VsYXIgdGltZS4NClRoZSBwcmVzZW50IGRvY3VtZW50IGNhbiBiZSB1c2VkIGJ5IGluZGVwZW5kZW50IGJvZGllcyBhcyB0aGUgYmFzaXMgZm9yIGNvbmZpcm1pbmcgdGhhdCBhIFRTUCBjYW4gYmUgdHJ1c3RlZCBmb3IgaXNzdWluZyBlbGVjdHJvbmljIHRpbWUtc3RhbXBzLg0KVGhlIHByZXNlbnQgZG9jdW1lbnQgZG9lcyBub3Qgc3BlY2lmeToNCuKAoglwcm90b2NvbHMgdXNlZCB0byBhY2Nlc3MgdGhlIFRTVXM7DQrigKIJaG93IHRoZSByZXF1aXJlbWVudHMgaWRlbnRpZmllZCBoZXJlaW4gY2FuIGJlIGFzc2Vzc2VkIGJ5IGFuIGluZGVwZW5kZW50IGJvZHk7DQrigKIJcmVxdWlyZW1lbnRzIGZvciBpbmZvcm1hdGlvbiB0byBiZSBtYWRlIGF2YWlsYWJsZSB0byBzdWNoIGluZGVwZW5kZW50IGJvZGllczsNCuKAoglyZXF1aXJlbWVudHMgb24gc3VjaCBpbmRlcGVuZGVudCBib2RpZXMuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document specifies policy requirements relating to the operation
+    and management practices of TSPs issuing electronic time-stamps.\r\nThese policy
+    requirements are applicable to TSPs issuing electronic time-stamps.  Such electronic
+    time-stamps can be used in support of electronic signatures or seals or for any
+    application requiring to prove that a datum existed before a particular time.\r\nThe
+    present document can be used by independent bodies as the basis for confirming
+    that a TSP can be trusted for issuing electronic time-stamps.\r\nThe present document
+    does not specify:\r\n\tprotocols used to access the TSUs;\r\n\thow the requirements
+    identified herein can be assessed by an independent body;\r\n\trequirements for
+    information to be made available to such independent bodies;\r\n\trequirements
+    on such independent bodies.\r\n"
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: Time-stamping
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Time-stamping
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

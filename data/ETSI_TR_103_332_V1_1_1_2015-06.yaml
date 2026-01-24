@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103332V1.1.12015-06
+id: ETSITR103332V111201506
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Impact
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Impact
     of CENELEC EN 55032 on ETSI EMC Standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43801
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103332/01.01.01_60/tr_103332v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 332 V1.1.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43801
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103332/01.01.01_60/tr_103332v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 332 V1.1.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 332 V1.1.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To study and report on the impact of EN55032 (CISPR32) replacing EN55022
+- language: en
+  script: Latn
+  content: 'To study and report on the impact of EN55032 (CISPR32) replacing EN55022
     and other emission standards on ETSI deliverables, including the EN 301 489 series,
     EN 301 843 series and EN 300 386. The resultant Technical Report may make recommendations
     on future revision paths of ETSI deliverables currently referencing those European
     standards being superseded by EN 55032. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: Measurement
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: Measurement
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: Technical Report

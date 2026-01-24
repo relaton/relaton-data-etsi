@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104074V1.1.12025-01
+id: ETSITR104074V111202501
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Methodologies for Testing
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Methodologies for Testing
     & Validation of Network Application based services over 5G networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69079
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 074 V1.1.1 (2025-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69079
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104074/01.01.01_60/tr_104074v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 074 V1.1.1 (2025-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 074 V1.1.1 (2025-01)
 date:
 - type: published
-  value: 2025-01
+  at: 2025-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of the present document is to provide recommendations on methodologies
+- language: en
+  script: Latn
+  content: The purpose of the present document is to provide recommendations on methodologies
     for testing and validation of nApp based services over 5G networks. The present
     document includes recommendations covering the aspects of an nApp validation framework
     by providing definitions of 5G relevant KPIs for nApps, the application and network
@@ -55,20 +64,24 @@ abstract:
     on the design of the nApps and services under test. Such recommendations can be
     equally applicable to a wide range of nApp composed services, application cases
     and may also be applicable beyond 5G scenarios.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: METHODOLOGY
-- content: TESTING
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Report

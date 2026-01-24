@@ -1,65 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102680V1.1.12009-03
+id: ETSITR102680V111200903
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); SDR Reference Architecture for Mobile
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); SDR Reference Architecture for Mobile
     Device
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28795
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102680/01.01.01_60/tr_102680v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 680 V1.1.1 (2009-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28795
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102600_102699/102680/01.01.01_60/tr_102680v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 680 V1.1.1 (2009-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 680 V1.1.1 (2009-03)
 date:
 - type: published
-  value: 2009-03
+  at: 2009-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RREA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgc3R1ZHkgaXRlbSBpcyBwcm9wb3NlZCB0byBjb3ZlciBmdW5jdGlvbmFsIGFyY2hpdGVjdHVyZSBhbmQgaW50ZXJmYWNlcyBvZiBhbiBTRFIgZXF1aXBtZW50LCB3aGljaCBjYW4gb3BlcmF0ZSBtdWx0aXBsZSByYWRpb3MgaW4gcGFyYWxsZWwgYnkgc2hhcmluZyB0aGUgYmFzZWJhbmQgY29tcHV0YXRpb24sIFJGIGFuZCBzcGVjdHJ1bSByZXNvdXJjZXMgZWZmaWNpZW50bHkuICBTdWNoIGFyY2hpdGVjdHVyZSBpcyBleHBlY3RlZCB0byBwcm92aWRlIHR3byBzeXN0ZW0tbGV2ZWwgaW50ZXJmYWNlczoNCuKAok11bHRpcmFkaW8gYWNjZXNzIGludGVyZmFjZSB0aGF0IHByb3Zpc2lvbnMgYWxsIFNEUiBtdWx0aXJhZGlvIHNlcnZpY2VzIHN1Y2ggYXMgZGF0YSBjb21tdW5pY2F0aW9uIGFuZCByZWNvbmZpZ3VyYXRpb24gdG8gdGhlIGFwcGxpY2F0aW9ucyByZXNpZGluZyBpbiB0aGUgaGFuZHNldCANCuKAolVuaWZpZWQgcmFkaW8gc3lzdGVtIGludGVyZmFjZSBmb3IgaGFybW9uaXppbmcgdGhlIHdheSwgaW4gd2hpY2ggZGlmZmVyZW50IGFuZCBpbmRlcGVuZGVudGx5IHN0YW5kYXJkaXplZCByYWRpbyBzdGFja3MgY2FuIG9wZXJhdGUgc2ltdWx0YW5lb3VzbHkgdW5kZXIgYSBjb21tb24gU0RSIGNvbnRyb2wgZnJhbWV3b3Jr
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this study item is proposed to cover functional architecture
+    and interfaces of an SDR equipment, which can operate multiple radios in parallel
+    by sharing the baseband computation, RF and spectrum resources efficiently.  Such
+    architecture is expected to provide two system-level interfaces:\r\nMultiradio
+    access interface that provisions all SDR multiradio services such as data communication
+    and reconfiguration to the applications residing in the handset \r\nUnified radio
+    system interface for harmonizing the way, in which different and independently
+    standardized radio stacks can operate simultaneously under a common SDR control
+    framework"
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RREA - Reconfigurable Radio Equipment Architecture
+    content: Technical Report

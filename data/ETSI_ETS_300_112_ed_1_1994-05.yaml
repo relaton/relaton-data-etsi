@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300112ed.11994-05
+id: ETSIETS300112ed1199405
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
     on the ISDN; End-to-end protocols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=124
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300112/01_60/ets_300112e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 112 ed.1 (1994-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=124
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300112/01_60/ets_300112e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 112 ed.1 (1994-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 112 ed.1 (1994-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document specifies the upper layers of the communications protocol\r\nemployed
+- language: en
+  script: Latn
+  content: "The document specifies the upper layers of the communications protocol\r\nemployed
     in the Group 4, class 1 facsimile communication procedures\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FAX
-- content: GROUP 4
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: FAX
+  - language: en
+    script: Latn
+    content: GROUP 4
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: European Telecommunication Standard

@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300286-3ed.11997-05
+id: ETSIETS3002863ed1199705
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); User-to-User Signalling (UUS)
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); User-to-User Signalling (UUS)
     supplementary service; Digital Subscriber Signalling System No. one (DSS1) protocol;
     Part 3: Test Suite Structure and Test Purposes (TSS&TP) specification for the
     user'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3371
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/30028603/01_60/ets_30028603e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 286-3 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3371
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/30028603/01_60/ets_30028603e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 286-3 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 286-3 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Conformance test specification for the DDS1 protocol for the User-User\r\nSignalling
+- language: en
+  script: Latn
+  content: "Conformance test specification for the DDS1 protocol for the User-User\r\nSignalling
     supplementary service.\r\n - including PIXIT proforma\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: ISDN
-- content: SUPPLEMENTARY SERVICE
-- content: TSS&amp;TP
-- content: USER
-- content: UUS
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: USER
+  - language: en
+    script: Latn
+    content: UUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

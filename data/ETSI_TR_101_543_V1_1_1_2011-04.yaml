@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101543V1.1.12011-04
+id: ETSITR101543V111201104
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); RFID evaluation
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); RFID evaluation
     tests undertaken in support of M/436 Phase 1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35275
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101543/01.01.01_60/tr_101543v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 543 V1.1.1 (2011-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35275
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101543/01.01.01_60/tr_101543v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 543 V1.1.1 (2011-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 543 V1.1.1 (2011-04)
 date:
 - type: published
-  value: 2011-04
+  at: 2011-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of the tests is to evaluate the characteristics and performance
+- language: en
+  script: Latn
+  content: The purpose of the tests is to evaluate the characteristics and performance
     of RFID equipment operating at their three principal frequencies of use. The information
     to be derived from the tests is directly relevant to the work of STF 396 in preparing
     their response to EC Mandate M/436. Additionally it will provide a number of the
     experts in the STF with the opportunity to witness at first hand the operation
     of RFID in a number of defined scenarios.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: privacy
-- content: RFID
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Report

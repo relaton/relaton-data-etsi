@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIP6030V1.1.12020-10
+id: ETSIGRIP6030V111202010
+schema_version: v1.4.1
 title:
-- content: IPv6-based Vehicular Networking (V2X)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57426
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/030/01.01.01_60/gr_IP6030v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IP6 030 V1.1.1 (2020-10)
+- language: en
+  script: Latn
+  content: IPv6-based Vehicular Networking (V2X)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57426
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IP6/001_099/030/01.01.01_60/gr_IP6030v010101p.pdf
+docidentifier:
+- content: ETSI GR IP6 030 V1.1.1 (2020-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR IP6 030 V1.1.1 (2020-10)
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 integration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will look into the integration of IPv6 in Vehicular Networking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This work item will look into the integration of IPv6 in Vehicular Networking
+status:
+  stage: Published
 keyword:
-- content: IPv6
-- content: V2X
+- taxon:
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: V2X
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 integration
+    content: Group Report

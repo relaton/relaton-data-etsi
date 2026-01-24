@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103606V1.2.12024-03
+id: ETSITS103606V121202403
+schema_version: v1.4.1
 title:
-- content: Hybrid Broadcast Broadband Television; Operator Applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69610
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103606/01.02.01_60/ts_103606v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 606 V1.2.1 (2024-03)
+- language: en
+  script: Latn
+  content: Hybrid Broadcast Broadband Television; Operator Applications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69610
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103606/01.02.01_60/ts_103606v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 606 V1.2.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 606 V1.2.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Scope of work to be undertaken: 1) Extensions to address issues found
+- language: en
+  script: Latn
+  content: 'Scope of work to be undertaken: 1) Extensions to address issues found
     in early operator application deployments. 2) Extensions to support linear services
     delivered by IP including ones with the media data fetched and presented by an
     Operator Application.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DVB
-- content: HTML
-- content: INTERNET
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: HTML
+  - language: en
+    script: Latn
+    content: INTERNET
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

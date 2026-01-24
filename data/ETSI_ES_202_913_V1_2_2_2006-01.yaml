@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202913V1.2.22006-01
+id: ETSIES202913V122200601
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); POTS requirements applicable to ADSL modems
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); POTS requirements applicable to ADSL modems
     when connected to an analogue presented PSTN line
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24262
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202900_202999/202913/01.02.02_60/es_202913v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 913 V1.2.2 (2006-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24262
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202900_202999/202913/01.02.02_60/es_202913v010202p.pdf
+docidentifier:
+- content: ETSI ES 202 913 V1.2.2 (2006-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 913 V1.2.2 (2006-01)
 date:
 - type: published
-  value: 2006-01
+  at: 2006-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2006-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Review ES 202 923 v.1.1.1 addressing the technical comments received during
+- language: en
+  script: Latn
+  content: "Review ES 202 923 v.1.1.1 addressing the technical comments received during
     the vote (DC distortion and others)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: ANALOGUE
-- content: POTS
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Analogue
+    content: ETSI Standard

@@ -1,72 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSITR100287V1.2.12002-12
+id: ETSITR100287V121200212
+schema_version: v1.4.1
 title:
-- content: Television systems; Code of practice for enhanced Teletext
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16169
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/100200_100299/100287/01.02.01_60/tr_100287v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 100 287 V1.2.1 (2002-12)
+- language: en
+  script: Latn
+  content: Television systems; Code of practice for enhanced Teletext
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16169
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/100200_100299/100287/01.02.01_60/tr_100287v010201p.pdf
+docidentifier:
+- content: ETSI TR 100 287 V1.2.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 100 287 V1.2.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The former EACEM Project Team 1.4 (Data Services), the originator of the
+- language: en
+  script: Latn
+  content: The former EACEM Project Team 1.4 (Data Services), the originator of the
     ETSI standard ETR 287, prepared some changes, corrections and additions. The details
     are given in document J23d06, submitted to the 23rd meeting of JTC Broadcast.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: BROADCASTING
-- content: COP
-- content: DATA
-- content: DIGITAL
-- content: TELETEXT
-- content: TRANSMISSION
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: COP
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

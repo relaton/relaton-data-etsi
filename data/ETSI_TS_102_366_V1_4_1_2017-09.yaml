@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102366V1.4.12017-09
+id: ETSITS102366V141201709
+schema_version: v1.4.1
 title:
-- content: Digital Audio Compression (AC-3, Enhanced AC-3) Standard
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52774
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102366/01.04.01_60/ts_102366v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 366 V1.4.1 (2017-09)
+- language: en
+  script: Latn
+  content: Digital Audio Compression (AC-3, Enhanced AC-3) Standard
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52774
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102366/01.04.01_60/ts_102366v010401p.pdf
+docidentifier:
+- content: ETSI TS 102 366 V1.4.1 (2017-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 366 V1.4.1 (2017-09)
 date:
 - type: published
-  value: 2017-09
+  at: 2017-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2017-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VXBkYXRlcyB0byBFVFNJIFRTIDEwMiAzNjYsIGRlZmluaW5nIGFuIEF1ZGlvIENNQUYgTWVkaWEgUHJvZmlsZSwgYXMgc3BlY2lmaWVkIGluIElTTy9JRUMgMjMwMDAtMTk6IOKAnEluZm9ybWF0aW9uIHRlY2hub2xvZ3kg4oCTIE11bHRpbWVkaWEgYXBwbGljYXRpb24gZm9ybWF0IChNUEVHLUEpIOKAkyBQYXJ0IDE5OiBDb21tb24gbWVkaWEgYXBwbGljYXRpb24gZm9ybWF0IChDTUFGKeKAnSBhbmQgZGVmaW5pbmcgc2lnbmFsaW5nIGFjY29yZGluZyB0byBJU08vSUVDIDIzMDA5LTE6MjAxNDogIkluZm9ybWF0aW9uIHRlY2hub2xvZ3kg4oCTIER5bmFtaWMgYWRhcHRpdmUgc3RyZWFtaW5nIG92ZXIgSFRUUCAoREFTSCkg4oCTIFBhcnQgMTogTWVkaWEgcHJlc2VudGF0aW9uIGRlc2NyaXB0aW9uIGFuZCBzZWdtZW50IGZvcm1hdHMiLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Updates to ETSI TS 102 366, defining an Audio CMAF Media Profile, as specified
+    in ISO/IEC 23000-19: Information technology  Multimedia application format (MPEG-A)  Part
+    19: Common media application format (CMAF) and defining signaling according to
+    ISO/IEC 23009-1:2014: "Information technology  Dynamic adaptive streaming over
+    HTTP (DASH)  Part 1: Media presentation description and segment formats".'
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: CODING
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

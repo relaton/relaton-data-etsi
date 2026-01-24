@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM019V1.2.12025-08
+id: ETSIGSCIM019V121202508
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); handling of provenance information
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); handling of provenance information
     in NGSI-LD
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71989
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/019/01.02.01_60/gs_CIM019v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 019 V1.2.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71989
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/019/01.02.01_60/gs_CIM019v010201p.pdf
+docidentifier:
+- content: ETSI GS CIM 019 V1.2.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 019 V1.2.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'definition, specification and documentation of solutions to verify integrity,
+- language: en
+  script: Latn
+  content: 'definition, specification and documentation of solutions to verify integrity,
     and to precisely evaluate attribution and authenticity of NGSI-LD Context Information,
     throughout its lifecycle.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: digital signature
-- content: Provenance
-- content: RELIABILITY
-- content: trust
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: digital signature
+  - language: en
+    script: Latn
+    content: Provenance
+  - language: en
+    script: Latn
+    content: RELIABILITY
+  - language: en
+    script: Latn
+    content: trust
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

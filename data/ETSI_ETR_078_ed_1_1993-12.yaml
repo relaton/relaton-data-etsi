@@ -1,60 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR078ed.11993-12
+id: ETSIETR078ed1199312
+schema_version: v1.4.1
 title:
-- content: 'Maintenance: Telecommunications management network; TMN interface specification
+- language: en
+  script: Latn
+  content: 'Maintenance: Telecommunications management network; TMN interface specification
     methodology [CCITT Recommendation M.3020 (1992)]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=870
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/078/01_60/etr_078e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 078 ed.1 (1993-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=870
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/078/01_60/etr_078e01p.pdf
+docidentifier:
+- content: ETSI ETR 078 ed.1 (1993-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 078 ed.1 (1993-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A description of the process leading towards the definition of TMN\r\ninterfaces.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "A description of the process leading towards the definition of TMN\r\ninterfaces.\r\n "
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: INTERFACE
-- content: MMI
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: ETSI Technical Report

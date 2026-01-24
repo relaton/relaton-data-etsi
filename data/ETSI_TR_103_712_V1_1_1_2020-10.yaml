@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103712V1.1.12020-10
+id: ETSITR103712V111202010
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; New PtMP technologies and solutions for microwave
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; New PtMP technologies and solutions for microwave
     backhaul in 5G era
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58573
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103712/01.01.01_60/tr_103712v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 712 V1.1.1 (2020-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58573
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103712/01.01.01_60/tr_103712v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 712 V1.1.1 (2020-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 712 V1.1.1 (2020-10)
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To discuss and address the effectiveness of evolving new technologies and
+- language: en
+  script: Latn
+  content: To discuss and address the effectiveness of evolving new technologies and
     new structures, including phase array/low side lobe antenna, beam-forming, side
     lobe interference mitigation, coexistence with current networks, and radiated
     test to answer the challenges of the coming 5G backhaul network, in frequency
     bands above 50GHz and lower frequency bands where PMP/block license is allowed,
     such as 26/28/32/42 GHz.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: backhaul
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: backhaul
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

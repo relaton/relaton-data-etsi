@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300904ed.21997-12
+id: ETSIETS300904ed2199712
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Bearer Services
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Bearer Services
     (BS) supported by a GSM Public Land Mobile Network (PLMN) (GSM 02.02 version 5.3.2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5699
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300904/02_60/ets_300904e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 904 ed.2 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5699
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300904/02_60/ets_300904e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 904 ed.2 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 904 ed.2 (1997-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS defines a set of bearer\r\nservices to be provided to GSM PLMN
+- language: en
+  script: Latn
+  content: "This ETS defines a set of bearer\r\nservices to be provided to GSM PLMN
     subscribers by a GSM PLMN itself\r\nand in connection with other networks. This
     ETS should also\r\nbe used as a reference for defining the corresponding required
     mobile\r\nnetwork capabilities which are specified by means of the \"GSM PLMN\r\nconnection
@@ -49,23 +59,33 @@ abstract:
     services not included in this specification that require\r\nmodifications to the
     GSM signalling specifications should not be\r\nintroduced unilaterally by a mobile
     network operator.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102100V1.1.11999-03
+id: ETSITR102100V111199903
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Interworking framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5835
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102100/01.01.01_60/tr_102100v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 100 V1.1.1 (1999-03)
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Interworking framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5835
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102100/01.01.01_60/tr_102100v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 100 V1.1.1 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 100 V1.1.1 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interworking and Interconnection and GII/Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To review and keep NA-eiinui updated in order to have record of actual\r\nstatus
+- language: en
+  script: Latn
+  content: "To review and keep NA-eiinui updated in order to have record of actual\r\nstatus
     of ETSI Standards relevant to interconnection and interworking\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture, Interworking and Interconnection and GII/Internet
+    content: Technical Report

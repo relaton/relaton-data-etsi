@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301062-3V1.1.12000-08
+id: ETSIEN3010623V111200008
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Support
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Support
     of Virtual Private Network (VPN) applications with Private network Q reference
     point Signalling System number 1 (PSS1) information flows; Part 3: Test Suite
     Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5593
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106203/01.01.01_60/en_30106203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 062-3 V1.1.1 (2000-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5593
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30106203/01.01.01_60/en_30106203v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 062-3 V1.1.1 (2000-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 062-3 V1.1.1 (2000-08)
 date:
 - type: published
-  value: 2000-08
+  at: 2000-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSS & TP for ETS 301 062-1, NNI extension to support VPN applications\r\n
+- language: en
+  script: Latn
+  content: "TSS & TP for ETS 301 062-1, NNI extension to support VPN applications\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: ISUP
-- content: PINX
-- content: SS7
-- content: TC
-- content: TSS&amp;TP
-- content: VPN
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TC
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: VPN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Signalling
+    content: European Standard

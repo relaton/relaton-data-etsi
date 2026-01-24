@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102723-2V1.1.12012-11
+id: ETSITS1027232V111201211
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); OSI cross-layer topics; Part 2: Management
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); OSI cross-layer topics; Part 2: Management
     information base'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31013
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272302/01.01.01_60/ts_10272302v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 723-2 V1.1.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31013
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10272302/01.01.01_60/ts_10272302v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 723-2 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 723-2 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies the general approach for a management information base built
+- language: en
+  script: Latn
+  content: "Specifies the general approach for a management information base built
     with the latest version of ASN.1 and being compliant with the MIB approach of
     IEEE 802.11. Specifies common parameters. Specifies the minimum MIB for common
     parameters. \r\nInvestigates the possibility to alternatively also use XML in
     addition to ASN.1. If feasible, appropriate requirements are specified."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADAPTION
-- content: ADDRESSING
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: ADAPTION
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Specification

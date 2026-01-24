@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300351ed.11994-10
+id: ETSIETS300351ed1199410
+schema_version: v1.4.1
 title:
-- content: ETSI object identifier tree; Rules and registration procedures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1860
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300351/01_60/ets_300351e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 351 ed.1 (1994-10)
+- language: en
+  script: Latn
+  content: ETSI object identifier tree; Rules and registration procedures
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1860
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300351/01_60/ets_300351e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 351 ed.1 (1994-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 351 ed.1 (1994-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This will describe the structure of the common domain, the ETSI\r\nprocedures
+- language: en
+  script: Latn
+  content: "This will describe the structure of the common domain, the ETSI\r\nprocedures
     for allocating Object Identifiers, and a table of the\r\nvalues allocated.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: OBJECT IDENTIFIER
-- content: REGISTRATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: OBJECT IDENTIFIER
+  - language: en
+    script: Latn
+    content: REGISTRATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: European Telecommunication Standard

@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101745V8.0.02000-04
+id: ETSITS101745V800200004
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Noise suppression
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Noise suppression
     for the AMR codec; Service description; Stage 1 (GSM 02.76 version 8.0.0 Release
     1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9938
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101745/08.00.00_60/ts_101745v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 745 V8.0.0 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9938
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101745/08.00.00_60/ts_101745v080000p.pdf
+docidentifier:
+- content: ETSI TS 101 745 V8.0.0 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 745 V8.0.0 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Stage 1 description for the Noise Suppression feature for the AMR codec
+- language: en
+  script: Latn
+  content: Stage 1 description for the Noise Suppression feature for the AMR codec
     which enhances the input speech  signal corrupted by acoustic noise. In analogy
     with CCITT Recommendations I.130, Stage 1 is an overall service description, from
     the service subscriber's and user's standpoints, that views the network as a single
     entity which provides services to the user.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech Aspects
+    content: Technical Specification

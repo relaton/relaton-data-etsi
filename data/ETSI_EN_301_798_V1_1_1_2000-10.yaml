@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301798V1.1.12000-10
+id: ETSIEN301798V111200010
+schema_version: v1.4.1
 title:
-- content: Services and Protocols for Advanced Networks (SPAN); Anonymous Call Rejection
+- language: en
+  script: Latn
+  content: Services and Protocols for Advanced Networks (SPAN); Anonymous Call Rejection
     (ACR) Supplementary Service; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6618
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301700_301799/301798/01.01.01_60/en_301798v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 798 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6618
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301700_301799/301798/01.01.01_60/en_301798v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 798 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 798 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering/Addressing, Routeing and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Extract from article 8, clause 3 Telecomms Data Protection Directive:\r\n\"Where
+- language: en
+  script: Latn
+  content: "Extract from article 8, clause 3 Telecomms Data Protection Directive:\r\n\"Where
     presentation of calling line identification is offered and where the calling line
     identification is presented prior to the being established, the called subscriber
     must have the possibility via a simple means to reject incoming calls where the
     presentation of the calling line identification has been eliminated by the calling
     user or subscriber.\"\r\nApplicability: all networks i.e. PSTN, ISDN.\r\n\r\nReference
     document: Telecomms Data Protection Directive."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: PSTN
-- content: STAGE 1
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Numbering/Addressing, Routeing and Services
+    content: European Standard

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103176V1.2.12016-05
+id: ETSITS103176V121201605
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Rules of implementation; Service information
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Rules of implementation; Service information
     features
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49385
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103176/01.02.01_60/ts_103176v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 176 V1.2.1 (2016-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49385
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103176/01.02.01_60/ts_103176v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 176 V1.2.1 (2016-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 176 V1.2.1 (2016-05)
 date:
 - type: published
-  value: 2016-05
+  at: 2016-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2016-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: An extension to provide a detailed description of the requirements for
+- language: en
+  script: Latn
+  content: An extension to provide a detailed description of the requirements for
     broadcasters and receiver manufacturers to implement service list functions to
     ensure interoperability.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: CODING
-- content: DAB
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

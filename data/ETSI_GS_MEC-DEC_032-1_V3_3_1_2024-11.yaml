@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC-DEC032-1V3.3.12024-11
+id: ETSIGSMECDEC0321V331202411
+schema_version: v1.4.1
 title:
-- content: 'Multi-access Edge Computing (MEC); API Conformance Test Specification;
+- language: en
+  script: Latn
+  content: 'Multi-access Edge Computing (MEC); API Conformance Test Specification;
     Part 1: Test Requirements and Implementation Conformance Statement (ICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69078
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC-DEC/001_099/03201/03.03.01_60/gs_MEC-DEC03201v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC-DEC 032-1 V3.3.1 (2024-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69078
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC-DEC/001_099/03201/03.03.01_60/gs_MEC-DEC03201v030301p.pdf
+docidentifier:
+- content: ETSI GS MEC-DEC 032-1 V3.3.1 (2024-11)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC-DEC 032-1 V3.3.1 (2024-11)
 date:
 - type: published
-  value: 2024-11
+  at: 2024-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Deployment and ECOsystem DEvelopment
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2024-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Based on the testing methodology guidelines and framework specified in
+- language: en
+  script: Latn
+  content: Based on the testing methodology guidelines and framework specified in
     ETSI GR MEC 025, this work item updates part 1 of a multi-part conformance test
     to align with the group API specifications that currently are published or stable
     drafts. Part 1 will include the Test requirements and Implementation Conformance
     Statement (ICS).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: CONFORMANCE
-- content: MEC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Deployment and ECOsystem DEvelopment
+    content: Group Specification

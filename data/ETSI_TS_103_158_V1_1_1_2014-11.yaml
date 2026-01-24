@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103158V1.1.12014-11
+id: ETSITS103158V111201411
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); New Generation DECT;
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); New Generation DECT;
     Light Data Services; Software Update Over The Air (SUOTA); Profile Test Specification
     (PTS) and Test Case Library (TCL)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42448
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103158/01.01.01_60/ts_103158v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 158 V1.1.1 (2014-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42448
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103158/01.01.01_60/ts_103158v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 158 V1.1.1 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 158 V1.1.1 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT NewGeneration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Write a test specification to describe the protocol testing of all features
+- language: en
+  script: Latn
+  content: Write a test specification to describe the protocol testing of all features
     included in TS 102 527-4 (Light Data Services, SUOTA). This covers mandatory and
     optional features.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: INTEROPERABILITY
-- content: INTERWORKING
-- content: PACKET MODE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: DECT NewGeneration
+    content: Technical Specification

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183017V1.4.02007-08
+id: ETSITS183017V140200708
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Converged Services and Protocols for Advanced
     Networking (TISPAN); Resource and Admission Control: DIAMETER protocol for session
     based policy set-up information exchange between the Application Function (AF)
     and the Service Policy Decision Function (SPDF); Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24757
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183017/01.04.00_60/ts_183017v010400p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 017 V1.4.0 (2007-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24757
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183017/01.04.00_60/ts_183017v010400p.pdf
+docidentifier:
+- content: ETSI TS 183 017 V1.4.0 (2007-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 017 V1.4.0 (2007-08)
 date:
 - type: published
-  value: 2007-08
+  at: 2007-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.0
-revdate: 2007-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvIHByb3ZpZGUgDQrCt2EgcHJvdG9jb2wgZXZhbHVhdGlvbiBmb3IgdGhlIEdxJyByZWZlcmVuY2UgcG9pbnQgd2hpY2ggd291bGQgbWVldCB0aGUgcmVxdWlyZW1lbnRzIG9mIHhEU0wgYWNjZXNzIG5ldHdvcmsgdHlwZXMgaWRlbnRpZmllZCBieSBXRzIuDQpBIFN0YWdlIDMgZGVzY3JpcHRpb24gcHJvdG9jb2wgcHJvZmlsZSBiYXNlZCBvbiB0aGlzIGV2YWx1YXRpb24=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this work item is to provide \r\na protocol evaluation for
+    the Gq' reference point which would meet the requirements of xDSL access network
+    types identified by WG2.\r\nA Stage 3 description protocol profile based on this
+    evaluation"
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

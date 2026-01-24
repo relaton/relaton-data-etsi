@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR123039V5.0.02002-06
+id: ETSITR123039V500200206
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Interface Protocols for the Connection of Short
     Message Service Centers (SMSCs) to Short Message Entities (SMEs) (3GPP TR 23.039
     version 5.0.0 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16358
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/123000_123099/123039/05.00.00_60/tr_123039v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 123 039 V5.0.0 (2002-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16358
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/123000_123099/123039/05.00.00_60/tr_123039v050000p.pdf
+docidentifier:
+- content: ETSI TR 123 039 V5.0.0 (2002-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 123 039 V5.0.0 (2002-06)
 date:
 - type: published
-  value: 2002-06
+  at: 2002-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Services & Capabilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 2002-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: TP-16
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: TP-16
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Terminal Services & Capabilities
+    content: Technical Report

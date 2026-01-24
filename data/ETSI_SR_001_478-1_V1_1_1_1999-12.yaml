@@ -1,64 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSISR001478-1V1.1.11999-12
+id: ETSISR0014781V111199912
+schema_version: v1.4.1
 title:
-- content: 'Report on the implications of the R&TTE Directive; Part 1: Existing TBRs'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9023
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/001400_001499/00147801/01.01.01_60/sr_00147801v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 001 478-1 V1.1.1 (1999-12)
+- language: en
+  script: Latn
+  content: 'Report on the implications of the R&TTE Directive; Part 1: Existing TBRs'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9023
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/001400_001499/00147801/01.01.01_60/sr_00147801v010101p.pdf
+docidentifier:
+- content: ETSI SR 001 478-1 V1.1.1 (1999-12)
   type: ETSI
   primary: true
 docnumber: ETSI SR 001 478-1 V1.1.1 (1999-12)
 date:
 - type: published
-  value: 1999-12
+  at: 1999-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operational Co-ordination Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Report on the implications of the R&TTE Directive for existing TBRs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Report on the implications of the R&TTE Directive for existing TBRs
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: REGULATION
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Operational Co-ordination Group
+    content: Special Report

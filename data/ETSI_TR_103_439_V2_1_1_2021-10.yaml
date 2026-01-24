@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103439V2.1.12021-10
+id: ETSITR103439V211202110
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Multi-Channel Operation study; Release
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Multi-Channel Operation study; Release
     2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49984
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103439/02.01.01_60/tr_103439v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 439 V2.1.1 (2021-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49984
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103439/02.01.01_60/tr_103439v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 439 V2.1.1 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 439 V2.1.1 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop a technical report providing an overview of requirements and
+- language: en
+  script: Latn
+  content: To develop a technical report providing an overview of requirements and
     the possible solutions for Multi Channel Operations to support ITS use cases.
     In addition the technical report provides recommendations on the changes to the
     current existing standards and potential future standards needs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: ITS
-- content: LOCATION
-- content: MULTICHANNEL
-- content: SWITCHING
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: SWITCHING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Report

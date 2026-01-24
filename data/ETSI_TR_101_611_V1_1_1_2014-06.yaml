@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101611V1.1.12014-06
+id: ETSITR101611V111201406
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Testing; Conformance test specification
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Testing; Conformance test specification
     for CALM Fast Services; FNTP/FSAP/IICP validation report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38824
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101611/01.01.01_60/tr_101611v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 611 V1.1.1 (2014-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38824
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101611/01.01.01_60/tr_101611v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 611 V1.1.1 (2014-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 611 V1.1.1 (2014-06)
 date:
 - type: published
-  value: 2014-06
+  at: 2014-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The ETSI Technical Report (TR) will provide the statistics of executed
+- language: en
+  script: Latn
+  content: 'The ETSI Technical Report (TR) will provide the statistics of executed
     and validated tests which the prototype test system run against real implementations.
     Furthermore it will provide a section on the validation of the test specifications
     and base specifications.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALM
-- content: ITS
-- content: TESTING
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: CALM
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Report

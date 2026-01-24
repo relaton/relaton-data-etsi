@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR036ed.11998-05
+id: ETSITBR036ed1199805
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
     Mobile communications (GSM); DECT access to GSM Public Land Mobile Networks (PLMNs)
     for 3,1 kHz speech applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3490
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/036/01_60/tbr_036e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 036 ed.1 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3490
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/036/01_60/tbr_036e01p.pdf
+docidentifier:
+- content: ETSI TBR 036 ed.1 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 036 ed.1 (1998-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: GSM interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TBR specifies the technical characteristics to be provided by\r\nterminal
+- language: en
+  script: Latn
+  content: "This TBR specifies the technical characteristics to be provided by\r\nterminal
     equipment which is capable of connecting to a GSM network\r\n(PLMN) and which
     uses DECT for network access. The cordless\r\ntransmission for such terminal equipment
     operates  within the\r\nfrequency band 1880 - 1900 MHz.\r\n A DECT-terminal equipment
@@ -69,22 +79,30 @@ abstract:
     Note 2:\r\nWith respect to this TBR, the DECT/GSM IWP is based on the provision\r\nof
     access mappings/ interworking requirements of ETS 300 370 and the\r\ngeneral description
     of of services, capabilities and information\r\nflows of prETS 300 466.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DECT
-- content: GSM
-- content: RADIO
-- content: REGULATION
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: GSM interworking
+    content: Technical Basis for Regulation

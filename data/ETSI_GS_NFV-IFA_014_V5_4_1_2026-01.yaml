@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA014V5.4.12026-01
+id: ETSIGSNFVIFA014V541202601
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Management and Orchestration;
     Network Service Templates Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=77129
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/014/05.04.01_60/gs_NFV-IFA014v050401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 014 V5.4.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=77129
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/014/05.04.01_60/gs_NFV-IFA014v050401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 014 V5.4.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 014 V5.4.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.4.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 014 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 014 continues the development of the specification
     as part of the NFV Release 5. This edition will extend the specification to support
     improvements related to energy efficiency management. The scope of the former
     edition is summarized hereafter: \r\n\r\nNFV-IFA 014 specifies requirements and
     templates for describing Network Functions Virtualisation (NFV) Network Services
     (NSs) in the form of meta-data. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANO
-- content: NETWORK
-- content: NFV
-- content: SERVICE
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

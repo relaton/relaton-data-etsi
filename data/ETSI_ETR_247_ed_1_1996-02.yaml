@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR247ed.11996-02
+id: ETSIETR247ed1199602
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Technical report on statistical approach
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Technical report on statistical approach
     design
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3772
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/247/01_60/etr_247e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 247 ed.1 (1996-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3772
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/247/01_60/etr_247e01p.pdf
+docidentifier:
+- content: ETSI ETR 247 ed.1 (1996-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 247 ed.1 (1996-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ITU-T Recommendation G.955 [1] contains minimum requirements for the\r\nperformance
+- language: en
+  script: Latn
+  content: "ITU-T Recommendation G.955 [1] contains minimum requirements for the\r\nperformance
     between reference points S and R of the optical path, in\r\nterms of attenuation
     and dispersion, for a digital line system on\r\nsingle-mode optical fibre. When
     combined with ITU-T Recommendation\r\nG.652 [2] on the fibre characteristics,
@@ -64,18 +74,18 @@ abstract:
     ETR contains definitions of the different design approaches,\r\nstatistical dati
     forms and numerical examples for statistical design\r\nfor fibre optics systems.
     The use of this ETR is at the discretion of\r\nthe reader.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MPX
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: MPX
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Core networks, fibres and cables
+    content: ETSI Technical Report

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101572-1V1.2.12014-07
+id: ETSITS1015721V121201407
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Conformance tests; (3GPP
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Conformance tests; (3GPP
     Release 10); Interworking between SIP-I based circuit-switched core network and
     other networks; Part 1: Protocol Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43842
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10157201/01.02.01_60/ts_10157201v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 572-1 V1.2.1 (2014-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43842
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10157201/01.02.01_60/ts_10157201v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 572-1 V1.2.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 572-1 V1.2.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of PICS according the changes in the TSS&TP
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of PICS according the changes in the TSS&TP
+status:
+  stage: Published
 keyword:
-- content: PICS
-- content: SIP
-- content: SIP-I
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: SIP-I
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

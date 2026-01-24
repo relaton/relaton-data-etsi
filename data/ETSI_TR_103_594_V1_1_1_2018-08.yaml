@@ -1,68 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103594V1.1.12018-08
+id: ETSITR103594V111201808
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
     Wide Band (UWB); Technical characteristics and spectrum requirements for High-Definition
     Ground Based Synthetic Aperture Radars (HD-GBSAR) operating in 1 GHz band within
     74 GHz to 81 GHz tuning range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54051
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103594/01.01.01_60/tr_103594v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 594 V1.1.1 (2018-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54051
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103594/01.01.01_60/tr_103594v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 594 V1.1.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 594 V1.1.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIFNSZG9jIGFpbXMgdG8gcHJvdmlkZSBpbmZvcm1hdGlvbiBvbiB0aGUgaW50ZW5kZWQgYXBwbGljYXRpb25zLCB0aGUgdGVjaG5pY2FsIHBhcmFtZXRlcnMsIHRoZSByZWxhdGlvbnNoaXAgdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKDIwMTcvMTQ4My9FVSBhbmQgRVJDIFJFQyBBbm5leCA2KSBhbmQgbmV3IHJhZGlvIHNwZWN0cnVtIHJlcXVpcmVtZW50cyBmb3IgSGlnaC1EZWZpbml0aW9uIEdyb3VuZCBCYXNlZCBTeW50aGV0aWMgQXBlcnR1cmUgUmFkYXJzIChIRC1HQlNBUikuIA0KQSAxIEdIeiBiYW5kd2lkdGggaXMgcmVxdWlyZWQgYW5kIGNvdWxkIGJlIGFjY29tbW9kYXRlZCBpbiB0aGUgZnJlcXVlbmN5IHJhbmdlIGJldHdlZW4gNzQgYW5kIDgxIEdIei4NClRoZSBTUmRvYyB3aWxsIGluY2x1ZGUgbmVjZXNzYXJ5IGluZm9ybWF0aW9uIHRvIHN1cHBvcnQgdGhlIGNvLW9wZXJhdGlvbiBiZXR3ZWVuIEVUU0kgYW5kIHRoZSBFbGVjdHJvbmljIENvbW11bmljYXRpb25zIENvbW1pdHRlZSAoRUNDKSBvZiB0aGUgRXVyb3BlYW4gQ29uZmVyZW5jZSBvZiBQb3N0IGFuZCBUZWxlY29tbXVuaWNhdGlvbnMgQWRtaW5pc3RyYXRpb25zIChDRVBUKSwgaW5jbHVkaW5nOiDigKIgRGV0YWlsZWQgbWFya2V0IGluZm9ybWF0aW9uIChhbm5leCBBKTsg4oCiIFRlY2huaWNhbCBpbmZvcm1hdGlvbiAoYW5uZXggQik7IOKAoiBSZWxhdGlvbnNoaXAgdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKGFubmV4IEMpOyDigKIgUHJlbGltaW5hcnkgIGNvbXBhdGliaWxpdHkgZmVhc2liaWxpdHkgYW5hbHlzaXMgKGFubmV4IEQpLiANCkhELUdCU0FSIHJlcXVpcmVtZW50cyBpbiByZXNwZWN0IHRvIHRoZSBpbnRlbmRlZCBhcHBsaWNhdGlvbnMgd2lsbCBiZSBwcm92aWRlZCBlLmcgdG8gbWVhc3VyZSBhbmQgbW9uaXRvciB0aGUgZGVmb3JtYXRpb24gb2YgYnVpbGRpbmcgZWl0aGVyIHRvIGFzc2VzcyB0aGUgc3RhYmlsaXR5IG9mIGEgYnVpbGRpbmcsIG9yIHRvIGNvbnRyb2wgaW5zdGFiaWxpdGllcyBpbmR1Y2VkIGJ5IGV4dGVybmFsIGNhdXNlLCBzdWNoIGFzIGVhcnRocXVha2UsIHVuZGVyZ3JvdW5kIGNvbnN0cnVjdGlvbiBjbG9zZSBvciB1bmRlciB0aGUgYnVpbGRpbmcsIGV0Yy4gQW5vdGhlciBrZXkgYXBwbGljYXRpb24gaXMgbW9uaXRvcmluZyB0aGUgZGVmb3JtYXRpb24gZXZvbHV0aW9uIG9mIG5hdHVyYWwgbGFuZHNsaWRlLCB3aXRoIHRoZSBnb2FsIHRvIHByb3ZpZGUgZWFybHkgd2FybmluZyBhbGVydCBpbiBjYXNlIG9mIGZhaWx1cmUgcHJlY3Vyc29yLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The SRdoc aims to provide information on the intended applications, the
+    technical parameters, the relationship to the existing spectrum regulation (2017/1483/EU
+    and ERC REC Annex 6) and new radio spectrum requirements for High-Definition Ground
+    Based Synthetic Aperture Radars (HD-GBSAR). \r\nA 1 GHz bandwidth is required
+    and could be accommodated in the frequency range between 74 and 81 GHz.\r\nThe
+    SRdoc will include necessary information to support the co-operation between ETSI
+    and the Electronic Communications Committee (ECC) of the European Conference of
+    Post and Telecommunications Administrations (CEPT), including:  Detailed market
+    information (annex A);  Technical information (annex B);  Relationship to the
+    existing spectrum regulation (annex C);  Preliminary  compatibility feasibility
+    analysis (annex D). \r\nHD-GBSAR requirements in respect to the intended applications
+    will be provided e.g to measure and monitor the deformation of building either
+    to assess the stability of a building, or to control instabilities induced by
+    external cause, such as earthquake, underground construction close or under the
+    building, etc. Another key application is monitoring the deformation evolution
+    of natural landslide, with the goal to provide early warning alert in case of
+    failure precursor.\r\n"
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

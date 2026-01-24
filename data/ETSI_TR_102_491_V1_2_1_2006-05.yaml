@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102491V1.2.12006-05
+id: ETSITR102491V121200605
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); TETRA Enhanced
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); TETRA Enhanced
     Data Service (TEDS); System reference document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24346
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102491/01.02.01_60/tr_102491v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 491 V1.2.1 (2006-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24346
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102491/01.02.01_60/tr_102491v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 491 V1.2.1 (2006-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 491 V1.2.1 (2006-05)
 date:
 - type: published
-  value: 2006-05
+  at: 2006-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2006-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work defines the requirements for radio frequency usage for TETRA Enhanced
+- language: en
+  script: Latn
+  content: The work defines the requirements for radio frequency usage for TETRA Enhanced
     Data Service (TEDS). It includes necessary information to support the co-operation
     between ETSI and the Electronic Communications Committee (ECC) of the European
     Conference of Post and Telecommunications Administrations (CEPT).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: PACKET MODE
-- content: PMR
-- content: SRDOC
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

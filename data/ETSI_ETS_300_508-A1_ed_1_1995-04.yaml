@@ -1,64 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300508/A1ed.11995-04
+id: ETSIETS300508A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); International
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); International
     Mobile station Equipment Identities (IMEI) (GSM 02.16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3168
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300508/01_60/ets_300508e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 508/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3168
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300508/01_60/ets_300508e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 508/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 508/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON:\r\nTo allow mobile stations of different software versions to
+- language: en
+  script: Latn
+  content: "REASON:\r\nTo allow mobile stations of different software versions to
     be\r\nidentified.\r\nCONSEQUENCES OF NON-ACCEPTANCE:\r\nInability to seperately
     control different software versions.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: IMEI
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: IMEI
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

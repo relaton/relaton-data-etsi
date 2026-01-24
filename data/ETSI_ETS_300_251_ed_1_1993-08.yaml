@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300251ed.11993-08
+id: ETSIETS300251ed1199308
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); Accessibility for 64 kbit/s circuit switched international
+- language: en
+  script: Latn
+  content: Network Aspects (NA); Accessibility for 64 kbit/s circuit switched international
     end-to-end ISDN traffic relations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=550
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300251/01_60/ets_300251e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 251 ed.1 (1993-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=550
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300251/01_60/ets_300251e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 251 ed.1 (1993-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 251 ed.1 (1993-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This standard will specify the accessability of international end-to-\r\nend
+- language: en
+  script: Latn
+  content: "This standard will specify the accessability of international end-to-\r\nend
     circuit switched 64 kbit/s traffic relations between T-reference\r\npoints. The
     standard will not cover blocking at the user network\r\ninterface nor catastrophic
     situations e.g. earthquakes, Floods etc.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CIRCUIT MODE
-- content: ISDN
-- content: NETWORK
-- content: T REFERENCE POINT
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CIRCUIT MODE
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: T REFERENCE POINT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: European Telecommunication Standard

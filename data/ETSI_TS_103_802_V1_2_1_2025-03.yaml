@@ -1,71 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103802V1.2.12025-03
+id: ETSITS103802V121202503
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Objective test method
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Objective test method
     for the evaluation of echo impairments
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73686
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103802/01.02.01_60/ts_103802v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 802 V1.2.1 (2025-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73686
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103802/01.02.01_60/ts_103802v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 802 V1.2.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 802 V1.2.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Introduce an idle noise compensation for improved accuracy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Introduce an idle noise compensation for improved accuracy
+status:
+  stage: Published
 keyword:
-- content: Conversation
-- content: ECHO
-- content: impairment
-- content: instrumental
-- content: listening quality
-- content: Model
-- content: objective
-- content: prediction
-- content: test
+- taxon:
+  - language: en
+    script: Latn
+    content: Conversation
+  - language: en
+    script: Latn
+    content: ECHO
+  - language: en
+    script: Latn
+    content: impairment
+  - language: en
+    script: Latn
+    content: instrumental
+  - language: en
+    script: Latn
+    content: listening quality
+  - language: en
+    script: Latn
+    content: Model
+  - language: en
+    script: Latn
+    content: objective
+  - language: en
+    script: Latn
+    content: prediction
+  - language: en
+    script: Latn
+    content: test
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIPE012V1.1.12022-08
+id: ETSIGRIPE012V111202208
+schema_version: v1.4.1
 title:
-- content: IPv6 Enhanced innovation (IPE); IPv6-based Blockchain
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64314
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/012/01.01.01_60/gr_IPE012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IPE 012 V1.1.1 (2022-08)
+- language: en
+  script: Latn
+  content: IPv6 Enhanced innovation (IPE); IPv6-based Blockchain
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64314
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/012/01.01.01_60/gr_IPE012v010101p.pdf
+docidentifier:
+- content: ETSI GR IPE 012 V1.1.1 (2022-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR IPE 012 V1.1.1 (2022-08)
 date:
 - type: published
-  value: 2022-08
+  at: 2022-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 Enhanced innovation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Outlining the motivation for the deployment, the objectives, the technology
+- language: en
+  script: Latn
+  content: 'Outlining the motivation for the deployment, the objectives, the technology
     guidelines, the step-by-step process, the benefits, the risks, the challenges
     and the milestones on the impact of IPv6 on Blockchain '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: bitcoin
-- content: blockchain
-- content: IPv6
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: bitcoin
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 Enhanced innovation
+    content: Group Report

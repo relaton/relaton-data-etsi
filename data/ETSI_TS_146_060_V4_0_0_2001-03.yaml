@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS146060V4.0.02001-03
+id: ETSITS146060V400200103
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Enhanced Full Rate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Enhanced Full Rate
     (EFR) speech transcoding (3GPP TS 46.060 version 4.0.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13942
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/146000_146099/146060/04.00.00_60/ts_146060v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 146 060 V4.0.0 (2001-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13942
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/146000_146099/146060/04.00.00_60/ts_146060v040000p.pdf
+docidentifier:
+- content: ETSI TS 146 060 V4.0.0 (2001-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 146 060 V4.0.0 (2001-03)
 date:
 - type: published
-  value: 2001-03
+  at: 2001-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2001-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: TSG#11
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: TSG#11
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

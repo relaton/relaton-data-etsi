@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSISR001604V1.1.12012-07
+id: ETSISR001604V111201207
+schema_version: v1.4.1
 title:
-- content: Rationalised Framework for Electronic Signature Standardisation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34233
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/001600_001699/001604/01.01.01_60/sr_001604v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 001 604 V1.1.1 (2012-07)
+- language: en
+  script: Latn
+  content: Rationalised Framework for Electronic Signature Standardisation
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34233
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/001600_001699/001604/01.01.01_60/sr_001604v010101p.pdf
+docidentifier:
+- content: ETSI SR 001 604 V1.1.1 (2012-07)
   type: ETSI
   primary: true
 docnumber: ETSI SR 001 604 V1.1.1 (2012-07)
 date:
 - type: published
-  value: 2012-07
+  at: 2012-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of a rationalised framework for electronic signature standardisation
+- language: en
+  script: Latn
+  content: Definition of a rationalised framework for electronic signature standardisation
     including in annexes an inventory of eSignature standards and a gap analysis and
     future work programme.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103959V1.1.12024-07
+id: ETSITR103959V111202407
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Critical Security Controls for Effective Cyber
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Critical Security Controls for Effective Cyber
     Defence; Cloud Sector
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67999
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103959/01.01.01_60/tr_103959v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 959 V1.1.1 (2024-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67999
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103959/01.01.01_60/tr_103959v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 959 V1.1.1 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 959 V1.1.1 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Applies the latest version of the Critical Security Controls for effective
+- language: en
+  script: Latn
+  content: "Applies the latest version of the Critical Security Controls for effective
     risk control and enhanced resilience of the Cloud sector and adds mappings to
     CSA Security Controls and Cloud Data Center IOS Hardened Image implementations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cloud computing
-- content: Cyber Security
-- content: Cyber-defence
-- content: Data Centres
-- content: Information assurance
+- taxon:
+  - language: en
+    script: Latn
+    content: Cloud computing
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: Data Centres
+  - language: en
+    script: Latn
+    content: Information assurance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

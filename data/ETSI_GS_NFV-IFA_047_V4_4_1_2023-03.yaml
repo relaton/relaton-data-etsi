@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA047V4.4.12023-03
+id: ETSIGSNFVIFA047V441202303
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
     Management data analytics Service Interface and Information Model Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63972
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/047/04.04.01_60/gs_NFV-IFA047v040401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 047 V4.4.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63972
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/047/04.04.01_60/gs_NFV-IFA047v040401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 047 V4.4.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 047 V4.4.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.4.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work item will specify the service interfaces for Management Data
+- language: en
+  script: Latn
+  content: "The work item will specify the service interfaces for Management Data
     Analytics (MDA) (i.e., data analytics process) according to the recommendations
     in ETSI GR NFV-IFA 041. Normative requirements and operations information model
     applicable to interfaces exposing the MDA services to NFV-MANO and other consuming
     entities will be defined. Service interfaces are produced by architectural elements
     providing the MDA functions described in ETSI GR NFV-IFA 041.\r\nThe resulting
     deliverable will contain normative provisions."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANO
-- content: MDAF
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: MDAF
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

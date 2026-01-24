@@ -1,75 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301461V1.3.12002-11
+id: ETSIEN301461V131200211
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; High capacity fixed radio
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; High capacity fixed radio
     systems carrying SDH signals (2 x STM-1) in frequency bands with 40 MHz channel
     spacing and using Co-Channel Dual Polarized (CCDP) operation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14640
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301461/01.03.01_60/en_301461v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 461 V1.3.1 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14640
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301461/01.03.01_60/en_301461v010301p.pdf
+docidentifier:
+- content: ETSI EN 301 461 V1.3.1 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 461 V1.3.1 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Introduction of two new system types in EN 301 461:\r\n - similar to the
+- language: en
+  script: Latn
+  content: "Introduction of two new system types in EN 301 461:\r\n - similar to the
     existing (64 state based) with mask allowance for simpler RF duplexer on\r\n   single/few
     channel\r\n - derived from class 5 Grade B (128 states based) in EN 300 234 with
     40 Mhz co-polar\r\n   new C/I performance definition.\r\nThe XPIC will be considered
     a not compulsory option and the new 128 states XPIC performance will be imported
     from EN 301 127."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DFRS
-- content: DRRS
-- content: POINT-TO-POINT
-- content: RADIO
-- content: SDH
-- content: STM
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: STM
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Standard

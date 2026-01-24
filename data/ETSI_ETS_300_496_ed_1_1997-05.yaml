@@ -1,64 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300496ed.11997-05
+id: ETSIETS300496ed1199705
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Signalling System
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Signalling System
     No.7; Interworking between Broadband ISDN User Part (B-ISUP) and narrowband ISDN
     User Part (ISUP) [ITU-T Recommendation Q.2660 (1995), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2102
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300496/01_60/ets_300496e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 496 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2102
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300496/01_60/ets_300496e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 496 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 496 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Signalling interworking betzeen BISUP Release 1 and NISUP V2.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Signalling interworking betzeen BISUP Release 1 and NISUP V2.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: B-ISUP
-- content: ENDORSEMENT
-- content: INTERWORKING
-- content: ISDN
-- content: ISUP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: B-ISUP
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Signalling
+    content: European Telecommunication Standard

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101680V1.1.11999-05
+id: ETSITR101680V111199905
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); A harmonized integration of
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); A harmonized integration of
     ASN.1, TTCN and SDL
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5873
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101680/01.01.01_60/tr_101680v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 680 V1.1.1 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5873
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101680/01.01.01_60/tr_101680v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 680 V1.1.1 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 680 V1.1.1 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide a TR offering technical solutions for fully integrating ASN.1,
+- language: en
+  script: Latn
+  content: "To provide a TR offering technical solutions for fully integrating ASN.1,
     TTCN and SDL in a format that should be readily acceptable by ITU-T and ISO as
     updates to Z.105, ISO/IEC 9646-3 (version 2) and the X.680 series of recommendations.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: METHODOLOGY
-- content: MTS
-- content: SDL
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: MTS
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

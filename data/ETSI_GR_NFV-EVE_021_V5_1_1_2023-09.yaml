@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE021V5.1.12023-09
+id: ETSIGRNFVEVE021V511202309
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Evolution and Ecosystem;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Evolution and Ecosystem;
     Report on energy efficiency aspects for NFV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63502
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/021/05.01.01_60/gr_NFV-EVE021v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 021 V5.1.1 (2023-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63502
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/021/05.01.01_60/gr_NFV-EVE021v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 021 V5.1.1 (2023-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 021 V5.1.1 (2023-09)
 date:
 - type: published
-  value: 2023-09
+  at: 2023-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2023-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work item will investigate the aspects of NFV that have an impact
+- language: en
+  script: Latn
+  content: "The work item will investigate the aspects of NFV that have an impact
     on power consumption and energy efficiency, such as:\r\n- the design and runtime
     characteristics of the NFV framework, including VNF, NFVI, NFV-MANO, etc. which
     can influence energy consumption.\r\n- the deployment configuration of NFV-MANO
@@ -57,19 +66,21 @@ abstract:
     normative and/or other informative work. The work item is expected to leverage
     the work done in relevant organizations such as ETSI EE and 3GPP. The resulting
     deliverable will be informative."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Energy Efficiency
-- content: MANAGEMENT
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

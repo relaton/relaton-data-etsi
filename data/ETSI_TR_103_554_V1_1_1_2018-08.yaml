@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103554V1.1.12018-08
+id: ETSITR103554V111201808
+schema_version: v1.4.1
 title:
-- content: Rail Telecommunications (RT); Next Generation Communication System; LTE
+- language: en
+  script: Latn
+  content: Rail Telecommunications (RT); Next Generation Communication System; LTE
     radio performance simulations and evaluations in rail environment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53552
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103554/01.01.01_60/tr_103554v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 554 V1.1.1 (2018-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53552
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103554/01.01.01_60/tr_103554v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 554 V1.1.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 554 V1.1.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose is to:\r\n-Define main simulation parameters relevant to rail
+- language: en
+  script: Latn
+  content: "The purpose is to:\r\n-Define main simulation parameters relevant to rail
     environment relating to 3GPP LTE radio performance . \r\n-Collect and analyse
     the simulation results. \r\n-Identify limitations under rail specific conditions
     \    \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Report

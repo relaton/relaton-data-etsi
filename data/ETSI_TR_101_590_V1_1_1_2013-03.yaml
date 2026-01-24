@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101590V1.1.12013-03
+id: ETSITR101590V111201303
+schema_version: v1.4.1
 title:
-- content: IMS Network Testing (INT); IMS/NGN Security Testing and Robustness Benchmark
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37798
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101590/01.01.01_60/tr_101590v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 590 V1.1.1 (2013-03)
+- language: en
+  script: Latn
+  content: IMS Network Testing (INT); IMS/NGN Security Testing and Robustness Benchmark
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37798
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101590/01.01.01_60/tr_101590v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 590 V1.1.1 (2013-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 590 V1.1.1 (2013-03)
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1. Introduction to Robustness Testing\r\n2. Role of robustness testing
+- language: en
+  script: Latn
+  content: "1. Introduction to Robustness Testing\r\n2. Role of robustness testing
     in industry\r\n3. Characteristics of robustness testers and fuzzers\t\r\n4. Model-based
     and Mutation-based fuzzing\r\n5. A case study: Planning robustness testing for
     IMS service\r\n6. Test plans and certification\r\n7.\tConclusions and further
     work\t\r\n8.\tAcronyms and abbreviations\r\n9.\tReferences\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ROBUSTNESS
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ROBUSTNESS
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Report

@@ -1,60 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR139ed.11994-11
+id: ETSIETR139ed1199411
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); Radio in the Local Loop (RLL)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2028
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/139/01_60/etr_139e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 139 ed.1 (1994-11)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); Radio in the Local Loop (RLL)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2028
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/139/01_60/etr_139e01p.pdf
+docidentifier:
+- content: ETSI ETR 139 ed.1 (1994-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 139 ed.1 (1994-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: dect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: dect
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: LOCAL LOOP
-- content: RADIO
-- content: RLL
-- content: RTTH
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: LOCAL LOOP
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RLL
+  - language: en
+    script: Latn
+    content: RTTH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: DECT
+    content: ETSI Technical Report

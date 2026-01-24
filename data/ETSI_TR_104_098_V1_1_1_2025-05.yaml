@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104098V1.1.12025-05
+id: ETSITR104098V111202505
+schema_version: v1.4.1
 title:
-- content: Technical mitigation measures to protect RAS against interference from
+- language: en
+  script: Latn
+  content: Technical mitigation measures to protect RAS against interference from
     ground based vehicular radars within 77 - 81 GHz to support revision of ECC/DEC/(04)03
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73057
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104098/01.01.01_60/tr_104098v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 098 V1.1.1 (2025-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73057
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104098/01.01.01_60/tr_104098v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 098 V1.1.1 (2025-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 098 V1.1.1 (2025-05)
 date:
 - type: published
-  value: 2025-05
+  at: 2025-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To describe technical interference mitigation measures to protect RAS against
+- language: en
+  script: Latn
+  content: To describe technical interference mitigation measures to protect RAS against
     interference from ground based vehicular radars (as potential alternatives to
     protection zones). The TR is based on the existing studies in ECC report 350 and
     is focused on the open question (see LS in ERM(24)083040) on usability of protection
     zones raised by the industry during ECC discussions (FM and SRD/MG) on the public
     consultation comments for revision of ECC/DEC/(04)03.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Automotive
-- content: Interference Analysis
-- content: RADAR
+- taxon:
+  - language: en
+    script: Latn
+    content: Automotive
+  - language: en
+    script: Latn
+    content: Interference Analysis
+  - language: en
+    script: Latn
+    content: RADAR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: Technical Report

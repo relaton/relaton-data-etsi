@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR357ed.11997-01
+id: ETSIETR357ed1199701
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; GSM Electro Magnetic Compatibility
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; GSM Electro Magnetic Compatibility
     (EMC) considerations (GSM 05.90 version 5.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5288
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/357/01_60/etr_357e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 357 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5288
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/357/01_60/etr_357e01p.pdf
+docidentifier:
+- content: ETSI ETR 357 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 357 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Special Mobile Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A considerable amount of work has been conducted, mainly in the UK, to\r\ninvestigate
+- language: en
+  script: Latn
+  content: "A considerable amount of work has been conducted, mainly in the UK, to\r\ninvestigate
     the effect of wanted radio frequency transmissions from G\r\nSM MS and BTS on
     other equipment. This report aims to summarise this w\r\nork and to look at the
     implications for GSM. Since GSM EMC considerati\r\nons extend outside the GSM
     arena, it is thought essential that GSM con\r\nsiders the implications of EMC
     and produces this report.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Special Mobile Group
+    content: ETSI Technical Report

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSISR002211V1.1.12004-02
+id: ETSISR002211V111200402
+schema_version: v1.4.1
 title:
-- content: List of standards and/or specifications for electronic communications networks,
+- language: en
+  script: Latn
+  content: List of standards and/or specifications for electronic communications networks,
     services and associated facilities and services; in accordance with Article 17
     of Directive 2002/21/EC
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19255
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/002200_002299/002211/01.01.01_60/sr_002211v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 002 211 V1.1.1 (2004-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19255
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/002200_002299/002211/01.01.01_60/sr_002211v010101p.pdf
+docidentifier:
+- content: ETSI SR 002 211 V1.1.1 (2004-02)
   type: ETSI
   primary: true
 docnumber: ETSI SR 002 211 V1.1.1 (2004-02)
 date:
 - type: published
-  value: 2004-02
+  at: 2004-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Communications Networks & Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work is done in answer to mandate M/328.  M/238 invites the ESOs to
+- language: en
+  script: Latn
+  content: This work is done in answer to mandate M/328.  M/238 invites the ESOs to
     analyse the existing list of standards/specifications published in the OJEC at
     the end of 2002 in support of Article 17 of the Framework Directive (2002/21/EC).
     The objective is to propose how and if it should be adapted to encourage the harmonised
@@ -57,19 +66,21 @@ abstract:
     and associated facilities and services. The task also requests that ETSI takes
     account of the technology neutral definitions of electronic communications services
     and network that determine the scope of the new regulatory framework.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: INTERWORKING
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Communications Networks & Services
+    content: Special Report

@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183067V2.1.12009-04
+id: ETSITS183067V211200904
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Converged Services and Protocols for Advanced
     Networks (TISPAN); Mapping of multicast transport control protocols to Re - stage
     3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29309
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183067/02.01.01_60/ts_183067v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 067 V2.1.1 (2009-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29309
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183067/02.01.01_60/ts_183067v020101p.pdf
+docidentifier:
+- content: ETSI TS 183 067 V2.1.1 (2009-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 067 V2.1.1 (2009-04)
 date:
 - type: published
-  value: 2009-04
+  at: 2009-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2009-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Identify the signaling behaviours of the Transport functions BTF & RCEF
+- language: en
+  script: Latn
+  content: Identify the signaling behaviours of the Transport functions BTF & RCEF
     for the listed multicast transport control protocols (IGMP, MLD) and provide a
     mapping between these transport control protocols and TISPAN RACS Re interface
     as specified in TS 183 060 Rel-2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: NETWORK
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

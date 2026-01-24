@@ -1,74 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103801V1.1.12020-11
+id: ETSITS103801V111202011
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Subjective test methodologies
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Subjective test methodologies
     for the evaluation of echo control systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57467
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103801/01.01.01_60/ts_103801v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 801 V1.1.1 (2020-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57467
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103801/01.01.01_60/ts_103801v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 801 V1.1.1 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 801 V1.1.1 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides test methodologies for the subjective assessment
+- language: en
+  script: Latn
+  content: "The present document provides test methodologies for the subjective assessment
     of disturbances caused by echo control systems in speech communication devices.
     The listening test design takes the self-hearing of the far-end talker into account,
     which influences the assessment of perceived degradation.\r\nAdapted test procedures
     for single- and double-talk scenarios as well as a reference system with controlled
     degradation are taken into account.\r\nIn addition, guidelines for the recording
     and preparation of listening test stimuli are provided."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Conversation
-- content: Double talk
-- content: ECHO
-- content: impairment
-- content: listening quality
-- content: test
+- taxon:
+  - language: en
+    script: Latn
+    content: Conversation
+  - language: en
+    script: Latn
+    content: Double talk
+  - language: en
+    script: Latn
+    content: ECHO
+  - language: en
+    script: Latn
+    content: impairment
+  - language: en
+    script: Latn
+    content: listening quality
+  - language: en
+    script: Latn
+    content: test
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

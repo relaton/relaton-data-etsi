@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102779V1.1.12009-03
+id: ETSITR102779V111200903
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Multi-component KPI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28189
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102779/01.01.01_60/tr_102779v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 779 V1.1.1 (2009-03)
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Multi-component KPI
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28189
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102779/01.01.01_60/tr_102779v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 779 V1.1.1 (2009-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 779 V1.1.1 (2009-03)
 date:
 - type: published
-  value: 2009-03
+  at: 2009-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "It has been shown that end to end KPI results for multi-phase service
+- language: en
+  script: Latn
+  content: "It has been shown that end to end KPI results for multi-phase service
     tests (e.g. packet services) may depend on phase composition.\r\nThis WI shall
     review test methodologies and related statistical issues having the following
     interrelated goals:\r\n- Review/Identify expected \"typical end user behaviour\"\r\n-
@@ -53,21 +62,27 @@ abstract:
     Clarify statistical requirements\r\n- Provide guidelines and quantitative assessment
     of expected practical overall error margins\r\nResults of this WI are expected
     to affect TS 102-250 document parts 5 and 6 in any case, and other parts possibly."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3G
-- content: GSM
-- content: NETWORK
-- content: QoS
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: 3G
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

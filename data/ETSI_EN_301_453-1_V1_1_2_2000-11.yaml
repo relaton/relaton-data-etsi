@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301453-1V1.1.22000-11
+id: ETSIEN3014531V112200011
+schema_version: v1.4.1
 title:
-- content: 'Private Integrated Services Network (PISN); Inter-exchange signalling
+- language: en
+  script: Latn
+  content: 'Private Integrated Services Network (PISN); Inter-exchange signalling
     protocol; Diversion supplementary services [ISO/IEC 13873 (1995) modified]; Part
     1: Test Suite Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6876
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30145301/01.01.02_60/en_30145301v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 453-1 V1.1.2 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6876
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30145301/01.01.02_60/en_30145301v010102p.pdf
+docidentifier:
+- content: ETSI EN 301 453-1 V1.1.2 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 453-1 V1.1.2 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSS&TP  for Call diversion services.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TSS&TP  for Call diversion services.\r\n"
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: PISN
-- content: QSIG
-- content: SUPPLEMENTARY SERVICE
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Conformance testing
+    content: European Standard

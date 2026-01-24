@@ -1,65 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300822ed.11998-04
+id: ETSIETS300822ed1199804
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
     Digital Network (ISDN); DECT/ISDN interworking for intermediate system configuration;
     Interworking and profile specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2775
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300822/01_60/ets_300822e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 822 ed.1 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2775
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300822/01_60/ets_300822e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 822 ed.1 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 822 ed.1 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify how ISDN services can be provided over a DECT link.\r\nThis
+- language: en
+  script: Latn
+  content: "To specify how ISDN services can be provided over a DECT link.\r\nThis
     document describes the DECT intermediate system reference\r\nconfiguration which
     is used where the DECT Fixed-System (DFS) and\r\nDECT Portable-System (DPS) together
     form an intermediate system to a\r\nseparate ISDN-TE at the portable side.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: INTERWORKING
-- content: ISDN
-- content: PROFILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network aspects
+    content: European Telecommunication Standard

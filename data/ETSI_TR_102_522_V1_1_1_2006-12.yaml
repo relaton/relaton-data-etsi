@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102522V1.1.12006-12
+id: ETSITR102522V111200612
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short Range
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short Range
     Devices (SRD); Equipment for Detecting Movement; Radio equipment operating in
     the frequency range 17,1 GHz to 17,3 GHz; System Reference Document for Ground
     Based Synthetic Aperture Radar (GBSAR)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24726
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102522/01.01.01_60/tr_102522v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 522 V1.1.1 (2006-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24726
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102522/01.01.01_60/tr_102522v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 522 V1.1.1 (2006-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 522 V1.1.1 (2006-12)
 date:
 - type: published
-  value: 2006-12
+  at: 2006-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To describe the Short Range Device-GBSAR applications, including the requirements
+- language: en
+  script: Latn
+  content: To describe the Short Range Device-GBSAR applications, including the requirements
     for radio frequency usage, expected to be used by professionals, authorities (e.g.
     civil protection, rescue, fire workers) in critical-or expected to be- situations
     such as landslides, slopes, structures under static/dynamic stress etc.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADAR
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118123V3.7.32021-02
+id: ETSITS118123V373202102
+schema_version: v1.4.1
 title:
-- content: oneM2M; Home Appliances Information Model and Mapping (oneM2M TS-0023 version
+- language: en
+  script: Latn
+  content: oneM2M; Home Appliances Information Model and Mapping (oneM2M TS-0023 version
     3.7.3 Release 3)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56827
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118123/03.07.03_60/ts_118123v030703p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 123 V3.7.3 (2021-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56827
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118123/03.07.03_60/ts_118123v030703p.pdf
+docidentifier:
+- content: ETSI TS 118 123 V3.7.3 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 123 V3.7.3 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.7.3
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item is intended to examine how the release 1 oneM2M System
+- language: en
+  script: Latn
+  content: "This Work Item is intended to examine how the release 1 oneM2M System
     can be used in the home vertical domain and discover and/or study advanced features
     which the next oneM2M release(s) could support. To this end, starting from collecting
     new home domain use cases with potential requirements, including those provided
@@ -71,19 +80,21 @@ abstract:
     defined information model, which can be the new one or adoption of the existing
     one, for home appliances and the mapping with other information models from external
     organizations. The information model will be mapped to oneM2M resource(s).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

@@ -1,65 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300961ed.32000-12
+id: ETSIETS300961ed3200012
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Full rate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Full rate
     speech; Transcoding (GSM 06.10 version 5.2.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11071
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300961/03_60/ets_300961e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 961 ed.3 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11071
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300961/03_60/ets_300961e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 961 ed.3 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 961 ed.3 (2000-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CRs from SMG#32
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CRs from SMG#32
+status:
+  stage: Published
 keyword:
-- content: CODING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SPEECH
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Telecommunication Standard

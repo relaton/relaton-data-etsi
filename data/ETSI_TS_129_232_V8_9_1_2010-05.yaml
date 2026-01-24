@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129232V8.9.12010-05
+id: ETSITS129232V891201005
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Media Gateway Controller
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Media Gateway Controller
     (MGC) - Media Gateway (MGW) interface; Stage 3 (3GPP TS 29.232 version 8.9.1 Release
     8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=32718
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129200_129299/129232/08.09.01_60/ts_129232v080901p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 232 V8.9.1 (2010-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=32718
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129200_129299/129232/08.09.01_60/ts_129232v080901p.pdf
+docidentifier:
+- content: ETSI TS 129 232 V8.9.1 (2010-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 232 V8.9.1 (2010-05)
 date:
 - type: published
-  value: 2010-05
+  at: 2010-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.9.1
-revdate: 2010-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-46 + edito
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-46 + edito
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+    content: Technical Specification

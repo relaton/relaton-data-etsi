@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101878V1.1.12002-02
+id: ETSITS101878V111200202
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 3; Service Capability Definition; Service Capabilities for a simple call
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9911
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101878/01.01.01_60/ts_101878v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 878 V1.1.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9911
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101878/01.01.01_60/ts_101878v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 878 V1.1.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 878 V1.1.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Requirements, charging and security matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To establish the requirements to be supported by a simple call capability
+- language: en
+  script: Latn
+  content: "To establish the requirements to be supported by a simple call capability
     for release 3.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: SERVICE
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Requirements, charging and security matters
+    content: Technical Specification

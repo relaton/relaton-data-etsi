@@ -1,66 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102970V1.1.12013-01
+id: ETSITR102970V111201301
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Use Cases for spectrum and network
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Use Cases for spectrum and network
     usage among Public Safety, Commercial and Military domains
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37130
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102970/01.01.01_60/tr_102970v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 970 V1.1.1 (2013-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37130
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102970/01.01.01_60/tr_102970v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 970 V1.1.1 (2013-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 970 V1.1.1 (2013-01)
 date:
 - type: published
-  value: 2013-01
+  at: 2013-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Civil Security & Inter-Domain Synergies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvIGlkZW50aWZ5IGFuZCBkZWZpbmUgdGhlIHBvdGVudGlhbCBzcGVjdHJ1bSBhbmQgbmV0d29yayB1c2FnZSBhbW9uZyBQdWJsaWMgU2FmZXR5LCBDb21tZXJjaWFsIG9yIE1pbGl0YXJ5LiBEaWZmZXJlbnQgdHlwZXMgb2Ygc2VydmljZXMgZm9yIGRpZmZlcmVudCB1c2VyIG9yZ2FuaXphdGlvbnMgbWF5IGJlIHByb3ZpZGVkIHRocm91Z2ggb25lIG9yIHNldmVyYWwgbmV0d29yayBvcGVyYXRvcnMgdGhhdCBtYXkgaGF2ZSBhIGRpZmZlcmVudCBkZWdyZWUgb2YgY29udHJvbCBvdmVyIHRoZSByZXNvdXJjZXMgb2YgdGhlIG5ldHdvcmsuIFRoZSB3b3JrIGl0ZW0gaGFzIHRoZSBmb2xsb3dpbmcgb2JqZWN0aXZlczogMSkgSWRlbnRpZnkgYSB0YXhvbm9teSBvZiBzcGVjdHJ1bSBhbmQgbmV0d29yayB1c2FnZSBzb2x1dGlvbnMuIDIpIERlc2NyaWJlIHRoZSB0ZWNobmljYWwgYXJjaGl0ZWN0dXJlIG9mIGVhY2ggc29sdXRpb24uIDMpIElkZW50aWZ5IGJ1c2luZXNzIChlLmcuIFNlcnZpY2UgTGV2ZWwgQWdyZWVtZW50IGJldHdlZW4gY29uY2VybmVkIHBhcnRpZXMpIGFuZCBvcmdhbmlzYXRpb25hbCBpc3N1ZXMgd2hpY2ggY291bGQgc3VwcG9ydCBvciBoaW5kZXIgdGhlIGRldmVsb3BtZW50IG9mIGVhY2ggc29sdXRpb24uIFRoZSBmb2xsb3dpbmcgcHJpbmNpcGxlcyBzaGFsbCBiZSBvZiBwcmltYXJ5IGltcG9ydGFuY2UgaW4gdGhlIGRlZmluaXRpb24gb2YgdGhlIHdvcms6IOKAoiBFdm9sdXRpb24gcGF0aCBvZiBURVRSQSBhbmQgb3RoZXIgUHVibGljIFNhZmV0eSBuZXR3b3JrcyBmb3IgdGhlIGxvbmcgdGVybSAoPiAyMDI1KS4g4oCiIFdpdGhpbiB0aGUgZGVmaW5pdGlvbiBvZiBwb3NzaWJsZSBwcm9jZWR1cmVzLCB0aG9zZSB0aGF0IGFsbG93IFB1YmxpYyBTYWZldHkgYXBwbGljYXRpb25zIHRvIGhhdmUgcHJlY2VkZW5jZSBhbmQgc3RyaWN0IHByZS1lbXB0aW9uIG92ZXIgb3RoZXIgbm9uLVB1YmxpYy1TYWZldHkgYXBwbGljYXRpb25zIHdpbGwgYmUgc3BlY2lmaWNhbGx5IGFkZHJlc3NlZC4g4oCiIElkZW50aWZpY2F0aW9uIG9mIHRoZSBtYWluIGludGVyZmFjZXMgYmV0d2VlbiBQdWJsaWMgU2FmZXR5IG5ldHdvcmtzIGFuZCBvdGhlciBuZXR3b3JrcyB0byBzdXBwb3J0IGludGVyb3BlcmFiaWxpdHkgYXQgTVMgYW5kIEJTIGxldmVscyBhbmQgam9pbnQgcmVzb3VyY2UgbWFuYWdlbWVudC4gVGhlIG91dHB1dCBvZiB0aGUgd29yayBpdGVtIHdpbGwgYmUgYSB0ZWNobmljYWwgcmVwb3J0Lg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'The scope of this work item is to identify and define the potential spectrum
+    and network usage among Public Safety, Commercial or Military. Different types
+    of services for different user organizations may be provided through one or several
+    network operators that may have a different degree of control over the resources
+    of the network. The work item has the following objectives: 1) Identify a taxonomy
+    of spectrum and network usage solutions. 2) Describe the technical architecture
+    of each solution. 3) Identify business (e.g. Service Level Agreement between concerned
+    parties) and organisational issues which could support or hinder the development
+    of each solution. The following principles shall be of primary importance in the
+    definition of the work:  Evolution path of TETRA and other Public Safety networks
+    for the long term (> 2025).  Within the definition of possible procedures, those
+    that allow Public Safety applications to have precedence and strict pre-emption
+    over other non-Public-Safety applications will be specifically addressed.  Identification
+    of the main interfaces between Public Safety networks and other networks to support
+    interoperability at MS and BS levels and joint resource management. The output
+    of the work item will be a technical report.'
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SAFETY
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Civil Security & Inter-Domain Synergies
+    content: Technical Report

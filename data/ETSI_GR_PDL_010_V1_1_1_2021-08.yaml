@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL010V1.1.12021-08
+id: ETSIGRPDL010V111202108
+schema_version: v1.4.1
 title:
-- content: PDL Operations in Offline Mode
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62004
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/010/01.01.01_60/gr_PDL010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 010 V1.1.1 (2021-08)
+- language: en
+  script: Latn
+  content: PDL Operations in Offline Mode
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62004
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/010/01.01.01_60/gr_PDL010v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 010 V1.1.1 (2021-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 010 V1.1.1 (2021-08)
 date:
 - type: published
-  value: 2021-08
+  at: 2021-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item highlights and describes the current challenges related
+- language: en
+  script: Latn
+  content: This work item highlights and describes the current challenges related
     to data storage and ledger operations when the PDL nodes are offline (duty cycled
     or truly offline); the methodologies and techniques that can be applied to Smart
     Contracts to operate when the nodes are offline and develop secure interim storage
     and negotiation algorithms that ensure the integrity of the data feed to the PDLs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accountability
-- content: ledger
-- content: PDL
-- content: smart contract
+- taxon:
+  - language: en
+    script: Latn
+    content: accountability
+  - language: en
+    script: Latn
+    content: ledger
+  - language: en
+    script: Latn
+    content: PDL
+  - language: en
+    script: Latn
+    content: smart contract
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

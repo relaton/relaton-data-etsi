@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301213-3V1.4.12002-02
+id: ETSIEN3012133V141200202
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Point-to-multipoint equipment; Point-to-multipoint
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Point-to-multipoint equipment; Point-to-multipoint
     digital radio systems in frequency bands in the range 24,25 GHz to 29,5 GHz using
     different access methods; Part 3: Time Division Multiple Access (TDMA) methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10820
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121303/01.04.01_60/en_30121303v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 213-3 V1.4.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10820
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121303/01.04.01_60/en_30121303v010401p.pdf
+docidentifier:
+- content: ETSI EN 301 213-3 V1.4.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 213-3 V1.4.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "- to make only editorial changes to Part 3 of EN301 213, to remove all
+- language: en
+  script: Latn
+  content: "- to make only editorial changes to Part 3 of EN301 213, to remove all
     parts referring to\r\n  multicarriers TDMA in the frequency band of 24.5 to 29.5GHz
     and\r\n- revision of Notes for spectralrequirements of mixed mode modulation formats."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DRRS
-- content: MULTIPOINT
-- content: RLL
-- content: TDMA
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: RLL
+  - language: en
+    script: Latn
+    content: TDMA
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Standard

@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103264V1.1.12015-11
+id: ETSITS103264V111201511
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Smart Appliances; Reference Ontology and oneM2M Mapping
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44091
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/01.01.01_60/ts_103264v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 264 V1.1.1 (2015-11)
+- language: en
+  script: Latn
+  content: SmartM2M; Smart Appliances; Reference Ontology and oneM2M Mapping
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44091
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/103264/01.01.01_60/ts_103264v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 264 V1.1.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 264 V1.1.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The result of the European Commission Study Group on Smart Appliances
+- language: en
+  script: Latn
+  content: "The result of the European Commission Study Group on Smart Appliances
     ontologies will take into account all the interest of the relevant stakeholders.
     This work will review the Study and adapt it to the structure of an normative
     document. Additionally, it will develop the mapping to oneM2M.  \r\nTherefore
     this work has two major objectives:  \r\n1) To provide a standardize framework
     for the  Common Ontology derived from the EC Study Group on Smart Appliances \r\n2)
     To map the common ontology onto the elementary oneM2M\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: IoT
-- content: M2M
-- content: ontology
-- content: Semantic
-- content: Smart Appliance
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: Smart Appliance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301244V4.0.11998-01
+id: ETSIEN301244V401199801
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); ANSI-C code
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); ANSI-C code
     for the GSM Enhanced Full Rate (EFR) speech codec (GSM 06.53 version 4.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5705
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301244/04.00.01_60/en_301244v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 244 V4.0.1 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5705
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301244/04.00.01_60/en_301244v040001p.pdf
+docidentifier:
+- content: ETSI EN 301 244 V4.0.1 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 244 V4.0.1 (1998-01)
 date:
 - type: published
-  value: 1998-01
+  at: 1998-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 1998-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "EN created for GSM Phase2 MS type approval purposes (a\r\nrevision of
+- language: en
+  script: Latn
+  content: "EN created for GSM Phase2 MS type approval purposes (a\r\nrevision of
     GSM Phase 2+ ETS)\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Standard

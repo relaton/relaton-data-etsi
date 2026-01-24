@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302291-1V1.1.12005-07
+id: ETSIEN3022911V111200507
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices (SRD); Close Range Inductive Data Communication equipment
+- language: en
+  script: Latn
+  content: 'Short Range Devices (SRD); Close Range Inductive Data Communication equipment
     operating at 13,56 MHz; Short Range Devices (SRD); Close Range Inductive Data
     Communication equipment operating at 13,56 MHz; Part 1: Technical characteristics
     and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19782
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302200_302299/30229101/01.01.01_60/en_30229101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 291-1 V1.1.1 (2005-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19782
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302200_302299/30229101/01.01.01_60/en_30229101v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 291-1 V1.1.1 (2005-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 291-1 V1.1.1 (2005-07)
 date:
 - type: published
-  value: 2005-07
+  at: 2005-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Close Range Inductive Data Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To produce an EN based on ES 200 007 for Close Range Inductive Data Communication
+- language: en
+  script: Latn
+  content: To produce an EN based on ES 200 007 for Close Range Inductive Data Communication
     equipment operating in the 13.56MHz ISM band.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: inductive
-- content: RADIO
-- content: SHORT RANGE
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: inductive
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Close Range Inductive Data Communications
+    content: European Standard

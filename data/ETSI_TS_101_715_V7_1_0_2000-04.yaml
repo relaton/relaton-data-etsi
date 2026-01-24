@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101715V7.1.02000-04
+id: ETSITS101715V710200004
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Mobile Number Portability (MNP); Service description; Stage 1 (GSM 02.66 version
     7.1.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9937
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101715/07.01.00_60/ts_101715v070100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 715 V7.1.0 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9937
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101715/07.01.00_60/ts_101715v070100p.pdf
+docidentifier:
+- content: ETSI TS 101 715 V7.1.0 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 715 V7.1.0 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.0
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CRs TSG#7
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CRs TSG#7
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: NP
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: NP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services
+    content: Technical Specification

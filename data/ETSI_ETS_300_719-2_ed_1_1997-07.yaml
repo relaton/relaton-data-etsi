@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300719-2ed.11997-07
+id: ETSIETS3007192ed1199707
+schema_version: v1.4.1
 title:
-- content: 'Radio Equipment and Systems (RES); Private wide area paging service; Part
+- language: en
+  script: Latn
+  content: 'Radio Equipment and Systems (RES); Private wide area paging service; Part
     2: Functional characteristics and access protocol for private wide-area paging
     systems on shared channels'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4144
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30071902/01_60/ets_30071902e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 719-2 ed.1 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4144
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30071902/01_60/ets_30071902e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 719-2 ed.1 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 719-2 ed.1 (1997-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Paging Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A private wide area paging system which provides the flexibility,\r\nversatility
+- language: en
+  script: Latn
+  content: "A private wide area paging system which provides the flexibility,\r\nversatility
     and speed of an on-site paging system but covering\r\na wider area.\r\nMinimum
     performance characteristics and related methods of\r\nmeasurement for private
     wide-area paging systems. On-site paging\r\nsystems with an extended free field
@@ -56,19 +66,21 @@ abstract:
     industry that may be located at various sites within\r\nthe coverage area.\r\nAdditional
     standards/specifications may be required for equipment\r\ninteded to interface
     to the PSTN.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PAGING
-- content: PRIVATE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: PAGING
+  - language: en
+    script: Latn
+    content: PRIVATE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Paging Systems
+    content: European Telecommunication Standard

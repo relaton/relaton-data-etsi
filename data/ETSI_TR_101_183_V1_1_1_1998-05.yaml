@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101183V1.1.11998-05
+id: ETSITR101183V111199805
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Analogue ringing signals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5996
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101183/01.01.01_60/tr_101183v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 183 V1.1.1 (1998-05)
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Analogue ringing signals
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5996
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101183/01.01.01_60/tr_101183v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 183 V1.1.1 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 183 V1.1.1 (1998-05)
 date:
 - type: published
-  value: 1998-05
+  at: 1998-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Report would give details of ringing signals in use on
+- language: en
+  script: Latn
+  content: "This Technical Report would give details of ringing signals in use on
     different Public \r\nSwitched Telephone Networks for ordinary ringing signal,
     distinctive ringing and other \r\nspecial ringing signals which may be already
     in use or which are planned to be \r\nintroduced."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: PSTN
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Report

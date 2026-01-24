@@ -1,64 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR243ed.11995-11
+id: ETSIETR243ed1199511
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Interface
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Interface
     protocols for the connection of Short Message Service Centres (SMSCs) to Short
     Message Entities (SMEs) (GSM 03.39)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2310
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/243/01_60/etr_243e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 243 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2310
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/243/01_60/etr_243e01p.pdf
+docidentifier:
+- content: ETSI ETR 243 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 243 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical report (ETR) describes a range of alternative\r\ninterfaces
+- language: en
+  script: Latn
+  content: "This ETSI Technical report (ETR) describes a range of alternative\r\ninterfaces
     which may be utilised by Short Message Service Centre\r\n(SMSC), and Short Message
     Entity (SME), developers for the connection\r\nof SMEs to SMSCs.\r\nThe purpose
     of this ETR is to provide a single document within which\r\nthe various proprietary
     SMSC to SME interface standards may be\r\naccommodated as optional implementations.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Data Services
+    content: ETSI Technical Report

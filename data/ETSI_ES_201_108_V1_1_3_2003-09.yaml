@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201108V1.1.32003-09
+id: ETSIES201108V113200309
+schema_version: v1.4.1
 title:
-- content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
+- language: en
+  script: Latn
+  content: Speech Processing, Transmission and Quality Aspects (STQ); Distributed
     speech recognition; Front-end feature extraction algorithm; Compression algorithms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18820
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201100_201199/201108/01.01.03_60/es_201108v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 108 V1.1.3 (2003-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18820
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201100_201199/201108/01.01.03_60/es_201108v010103p.pdf
+docidentifier:
+- content: ETSI ES 201 108 V1.1.3 (2003-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 108 V1.1.3 (2003-09)
 date:
 - type: published
-  value: 2003-09
+  at: 2003-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Aurora Project
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 2003-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: High function speech recognition systems generally require high quality
+- language: en
+  script: Latn
+  content: High function speech recognition systems generally require high quality
     audio input. They also require substantial computing power, RAM and disk storage,
     beyond the level that is practical in handsets for mobile networks. However, most
     speech recognition systems have a feature extraction front end which performs
@@ -55,19 +64,21 @@ abstract:
     end, allowing a wide range of different speech recognition systems and applications
     to provide full support to mobile and cordless handset users. A Mel Cepstrum algorithm
     is proposed for the feature extraction.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PERFORMANCE
-- content: SPEECH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: STQ Aurora Project
+    content: ETSI Standard

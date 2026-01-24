@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103029V5.1.12013-10
+id: ETSITS103029V511201310
+schema_version: v1.4.1
 title:
-- content: IMS Network Testing (INT); IMS & EPC Interoperability test descriptions
+- language: en
+  script: Latn
+  content: IMS Network Testing (INT); IMS & EPC Interoperability test descriptions
     (3GPP Release 10)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41239
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103029/05.01.01_60/ts_103029v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 029 V5.1.1 (2013-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41239
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103029/05.01.01_60/ts_103029v050101p.pdf
+docidentifier:
+- content: ETSI TS 103 029 V5.1.1 (2013-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 029 V5.1.1 (2013-10)
 date:
 - type: published
-  value: 2013-10
+  at: 2013-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2013-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Analysis of Impacts of 3GPP Release 10 on existing IMS NNI test specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Analysis of Impacts of 3GPP Release 10 on existing IMS NNI test specifications
+status:
+  stage: Published
 keyword:
-- content: EPC
-- content: IMS
-- content: INTEROPERABILITY
-- content: INTERWORKING
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EPC
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSMEC016V3.1.12024-03
+id: ETSIGSMEC016V311202403
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Device application interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68738
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/016/03.01.01_60/gs_MEC016v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS MEC 016 V3.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Device application interface
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68738
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/MEC/001_099/016/03.01.01_60/gs_MEC016v030101p.pdf
+docidentifier:
+- content: ETSI GS MEC 016 V3.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS MEC 016 V3.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item develops a revision of ETSI GS MEC 016 to upgrade the security
+- language: en
+  script: Latn
+  content: This Work Item develops a revision of ETSI GS MEC 016 to upgrade the security
     protocols to the state-of-the-art ones, aligned with those specified in ETSI GS
     MEC 009. The work will align with existing security-relevant work from relevant
     SDOs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MEC
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MEC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Specification

@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203021-2V2.1.22006-01
+id: ETSIES2030212V212200601
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Harmonized basic attachment requirements for
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Harmonized basic attachment requirements for
     Terminals for connection to analogue interfaces of the Telephone Networks; Update
     of the technical contents of TBR 021, EN 301 437, TBR 015, TBR 017; Part 2: Basic
     transmission and protection of the network from harm'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24260
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203000_203099/20302102/02.01.02_60/es_20302102v020102p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 021-2 V2.1.2 (2006-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24260
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203000_203099/20302102/02.01.02_60/es_20302102v020102p.pdf
+docidentifier:
+- content: ETSI ES 203 021-2 V2.1.2 (2006-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 021-2 V2.1.2 (2006-01)
 date:
 - type: published
-  value: 2006-01
+  at: 2006-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.2
-revdate: 2006-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To take the technical contents of TBR 21 and EN 301 437 and present a single
+- language: en
+  script: Latn
+  content: To take the technical contents of TBR 21 and EN 301 437 and present a single
     document (possibly a consistent multi-part) in the form of a ES, according the
     guidance of TR 101 844. If easy achievable, TBR 15 and TBR 17 contents should
     also be included.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: POTS
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Analogue
+    content: ETSI Standard

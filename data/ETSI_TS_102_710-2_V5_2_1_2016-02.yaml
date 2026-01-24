@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102710-2V5.2.12016-02
+id: ETSITS1027102V521201602
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Interworking between
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Interworking between
     the IP Multimedia (IM) Core Network (CN) subsystem and Circuit Switched (CS) networks;
     Conformance Test Specification; (3GPPTM Release 10); Part 2: Test Suite Structure
     and Test Purposes (TSS&TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43848
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271002/05.02.01_60/ts_10271002v050201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 710-2 V5.2.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43848
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10271002/05.02.01_60/ts_10271002v050201p.pdf
+docidentifier:
+- content: ETSI TS 102 710-2 V5.2.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 710-2 V5.2.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The new test specification updates the current version to 3GPP Release
+- language: en
+  script: Latn
+  content: "The new test specification updates the current version to 3GPP Release
     10\r\n- Technichal changes based on the knowledge from performed tests\r\n- Techical
     change new test purposes for SIP support of charging/ISUP support of charching"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISUP
-- content: SIP
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

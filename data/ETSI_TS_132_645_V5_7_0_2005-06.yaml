@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITS132645V5.7.02005-06
+id: ETSITS132645V570200506
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); Telecommunication management;
     Configuration Management (CM); UTRAN network resources Integration Reference Point
     (IRP): Bulk CM eXtensible Markup Language (XML) file format definition (3GPP TS
     32.645 version 5.7.0 Release 5)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132645/05.07.00_60/ts_132645v050700p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 132 645 V5.7.0 (2005-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/132600_132699/132645/05.07.00_60/ts_132645v050700p.pdf
+docidentifier:
+- content: ETSI TS 132 645 V5.7.0 (2005-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 132 645 V5.7.0 (2005-06)
 date:
 - type: published
-  value: 2005-06
+  at: 2005-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecom Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.7.0
-revdate: 2005-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-28
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-28
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Telecom Management
+    content: Technical Specification

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-5V2.6.12018-06
+id: ETSITS1003925V261201806
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
     Operation (DMO); Part 5: Peripheral Equipment Interface (PEI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54003
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039205/02.06.01_60/ts_10039205v020601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-5 V2.6.1 (2018-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54003
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039205/02.06.01_60/ts_10039205v020601p.pdf
+docidentifier:
+- content: ETSI TS 100 392-5 V2.6.1 (2018-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-5 V2.6.1 (2018-06)
 date:
 - type: published
-  value: 2018-06
+  at: 2018-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.6.1
-revdate: 2018-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Corrections to EN 300 392-5 including (but not limited to):\r\n-EN30039205CR500
+- language: en
+  script: Latn
+  content: "Corrections to EN 300 392-5 including (but not limited to):\r\n-EN30039205CR500
     Corrections to final result codes and +CMSS: result codes\r\n-EN30039205CR501
     Corrections to clauses 5.3 and 5.4\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: INTERFACE
-- content: TETRA
-- content: V+D
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

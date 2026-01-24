@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102756V1.1.12008-10
+id: ETSITR102756V111200810
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference Document for revised spectrum requirements for RFID equipment and inductive
     loop systems operating in the frequency range 9 kHz to 148,5 kHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28474
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102756/01.01.01_60/tr_102756v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 756 V1.1.1 (2008-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28474
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102756/01.01.01_60/tr_102756v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 756 V1.1.1 (2008-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 756 V1.1.1 (2008-10)
 date:
 - type: published
-  value: 2008-10
+  at: 2008-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    wrdEZWZpbml0aW9uIG9mIExGIFJGSUQgc3BlY3RydW0gbWFzaw0KwrdSZXZpZXcgb2YgcG93ZXIgbGV2ZWxzIGZvciBFQVMgc3lzdGVtcyBpbiBmcmVxdWVuY3kgcmFuZ2VzIG9mIDgwIGtIeiB0byA5MCBrSHoNCg0KDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Definition of LF RFID spectrum mask\r\nReview of power levels for EAS
+    systems in frequency ranges of 80 kHz to 90 kHz\r\n\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: LF
-- content: RADIO
-- content: SHORT RANGE
-- content: SRDOC
-- content: SYSTEM
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: LF
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

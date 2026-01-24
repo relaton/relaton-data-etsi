@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSISR002777V1.1.12010-07
+id: ETSISR002777V111201007
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Test/verification procedure for emergency
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Test/verification procedure for emergency
     calls
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30429
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/002700_002799/002777/01.01.01_60/sr_002777v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 002 777 V1.1.1 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30429
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/002700_002799/002777/01.01.01_60/sr_002777v010101p.pdf
+docidentifier:
+- content: ETSI SR 002 777 V1.1.1 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI SR 002 777 V1.1.1 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In order to test (in a given environment) the emergency call/messaging
+- language: en
+  script: Latn
+  content: "In order to test (in a given environment) the emergency call/messaging
     capability of the current operator it would be favourable to have a test procedure,
     i.e. to be able to call  \"test\" address not invoking a real emergency call.
     \ Such a test could be invoked either manually or automatically (with a given
@@ -55,21 +64,27 @@ abstract:
     networks.\r\nThe aim is to investigate this matter and produce a overall functional
     architecture and specification for such a service. \r\nA list of possible directory
     number/access codes to invoke the service might also be proposed."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: CTS
-- content: EMERGENCY
-- content: LOCATION
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: CTS
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Special Report

@@ -1,69 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300472V1.4.12017-04
+id: ETSIEN300472V141201704
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Specification for conveying ITU-R System
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Specification for conveying ITU-R System
     B Teletext in DVB bitstreams
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50575
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300472/01.04.01_60/en_300472v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 472 V1.4.1 (2017-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50575
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300472/01.04.01_60/en_300472v010401p.pdf
+docidentifier:
+- content: ETSI EN 300 472 V1.4.1 (2017-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 472 V1.4.1 (2017-04)
 date:
 - type: published
-  value: 2017-04
+  at: 2017-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2017-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Changes to address typos, editorial errors and updates for clarity.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Changes to address typos, editorial errors and updates for clarity.\r\n"
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: MPEG
-- content: TELETEXT
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MPEG
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

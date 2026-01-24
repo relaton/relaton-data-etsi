@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103460V2.1.12020-10
+id: ETSITR103460V211202010
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Pre-standardization study
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Pre-standardization study
     on Misbehavior Detection; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50249
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103460/02.01.01_60/tr_103460v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 460 V2.1.1 (2020-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50249
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103460/02.01.01_60/tr_103460v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 460 V2.1.1 (2020-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 460 V2.1.1 (2020-10)
 date:
 - type: published
-  value: 2020-10
+  at: 2020-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2020-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: to realize an overview of the relevant misbehavior detection and mechanisms
+- language: en
+  script: Latn
+  content: to realize an overview of the relevant misbehavior detection and mechanisms
     suitable for C-ITS and provide a comparison of the performances of different misbehavior
     detection mechanisms. Moreover, the deliverable will provide the potential minimum
     requirements of security architecture and misbehavior detection distribution mechanisms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

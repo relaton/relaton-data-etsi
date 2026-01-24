@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103608V1.1.12019-07
+id: ETSITR103608V111201907
+schema_version: v1.4.1
 title:
-- content: SmartM2M; SAREF publication framework reinforcing the engagement of its
+- language: en
+  script: Latn
+  content: SmartM2M; SAREF publication framework reinforcing the engagement of its
     community of users
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54480
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103608/01.01.01_60/tr_103608v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 608 V1.1.1 (2019-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54480
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103608/01.01.01_60/tr_103608v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 608 V1.1.1 (2019-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 608 V1.1.1 (2019-07)
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To specify, in collaboration with the ETSI IT department, the publication
+- language: en
+  script: Latn
+  content: To specify, in collaboration with the ETSI IT department, the publication
     framework for the SAREF ontology and its extensions. The publication framework
     provides a uniform documentation website for SAREF and its extensions such that
     (1) the documentation is designed for domain experts and software developers instead
@@ -56,20 +65,24 @@ abstract:
     publication framework will enable industries to implement solutions with SAREF
     faster. It will reinforce the engagement of the community of users such that the
     SAREF developers can plan new evolution of the current and future extensions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Framework
-- content: IoT
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: Framework
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

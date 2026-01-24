@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103306V1.4.12020-03
+id: ETSITR103306V141202003
+schema_version: v1.4.1
 title:
-- content: CYBER; Global Cyber Security Ecosystem
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58896
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103306/01.04.01_60/tr_103306v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 306 V1.4.1 (2020-03)
+- language: en
+  script: Latn
+  content: CYBER; Global Cyber Security Ecosystem
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58896
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103306/01.04.01_60/tr_103306v010401p.pdf
+docidentifier:
+- content: ETSI TR 103 306 V1.4.1 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 306 V1.4.1 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item provides an update and corrections to existing TR 103 306.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This work item provides an update and corrections to existing TR 103 306.
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: Ecosystem
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: Ecosystem
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

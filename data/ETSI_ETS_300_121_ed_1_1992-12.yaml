@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300121ed.11992-12
+id: ETSIETS300121ed1199212
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Application of the ISDN User
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Application of the ISDN User
     Part (ISUP) of CCITT Signalling System No.7 for international ISDN interconnections
     (ISUP version 1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=221
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300121/01_60/ets_300121e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 121 ed.1 (1992-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=221
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300121/01_60/ets_300121e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 121 ed.1 (1992-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 121 ed.1 (1992-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify the CCITT No.7 ISUP for the international interface\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To specify the CCITT No.7 ISUP for the international interface\r\n  "
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: INTERWORKING
-- content: ISDN
-- content: ISUP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Signalling
+    content: European Telecommunication Standard

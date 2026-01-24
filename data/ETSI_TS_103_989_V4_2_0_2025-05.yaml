@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103989V4.2.02025-05
+id: ETSITS103989V420202505
+schema_version: v1.4.1
 title:
-- content: 'Publicly Available Specification (PAS); A1 interface: Test Specification
+- language: en
+  script: Latn
+  content: 'Publicly Available Specification (PAS); A1 interface: Test Specification
     (O-RAN.WG2.A1TS-R004-v04.02)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73786
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103989/04.02.00_60/ts_103989v040200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 989 V4.2.0 (2025-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73786
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103989/04.02.00_60/ts_103989v040200p.pdf
+docidentifier:
+- content: ETSI TS 103 989 V4.2.0 (2025-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 989 V4.2.0 (2025-05)
 date:
 - type: published
-  value: 2025-05
+  at: 2025-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.2.0
-revdate: 2025-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies test cases for conformance testing and interoperability
+- language: en
+  script: Latn
+  content: The present document specifies test cases for conformance testing and interoperability
     testing of the Non-RT RIC and the Near-RT RIC over the A1 interface. The updates
     in v04.02 compared to v03.00 cover editorial enhancements, updates of test applicability,
     and alignment of notation for status and feedback among the A1 specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: INTERFACE
-- content: PAS
-- content: test
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PAS
+  - language: en
+    script: Latn
+    content: test
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: Technical Specification

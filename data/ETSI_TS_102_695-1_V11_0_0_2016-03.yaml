@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102695-1V11.0.02016-03
+id: ETSITS1026951V1100201603
+schema_version: v1.4.1
 title:
-- content: 'Smart Cards; Test specification for the Host Controller Interface (HCI);
+- language: en
+  script: Latn
+  content: 'Smart Cards; Test specification for the Host Controller Interface (HCI);
     Part 1: Terminal features (Release 11)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49483
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10269501/11.00.00_60/ts_10269501v110000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 695-1 V11.0.0 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49483
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10269501/11.00.00_60/ts_10269501v110000p.pdf
+docidentifier:
+- content: ETSI TS 102 695-1 V11.0.0 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 695-1 V11.0.0 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.0.0
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Implementation of CRs approved at SCP #71\r\nThe WID description is found
+- language: en
+  script: Latn
+  content: "Implementation of CRs approved at SCP #71\r\nThe WID description is found
     in SCPtest080138"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SMART CARD
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP TEST
+    content: Technical Specification

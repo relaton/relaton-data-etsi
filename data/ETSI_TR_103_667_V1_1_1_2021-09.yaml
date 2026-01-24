@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103667V1.1.12021-09
+id: ETSITR103667V111202109
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Study on Spectrum Sharing between
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Study on Spectrum Sharing between
     ITS-G5 and LTE-V2X technologies in the 5 855 MHz-5 925 MHz band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57437
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103667/01.01.01_60/tr_103667v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 667 V1.1.1 (2021-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57437
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103667/01.01.01_60/tr_103667v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 667 V1.1.1 (2021-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 667 V1.1.1 (2021-09)
 date:
 - type: published
-  value: 2021-09
+  at: 2021-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To propose an overall framework based on combinations of co-channel and/or
+- language: en
+  script: Latn
+  content: To propose an overall framework based on combinations of co-channel and/or
     non-co-channel operation, as presented to CEPT, to address spectrum sharing between
     ITS-G5 and LTE-V2X ITS technologies enabling both technologies to use the same
     spectrum in the same geographical area. The overall framework may consist of several
     options for such combined operation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: RADIO
-- content: spectrum
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: spectrum
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: Technical Report

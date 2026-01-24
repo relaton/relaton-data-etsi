@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103154V1.1.12014-10
+id: ETSITS103154V111201410
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); System requirements for operation of
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); System requirements for operation of
     Mobile Broadband Systems in the 2 300 MHz - 2 400 MHz band under Licensed Shared
     Access (LSA)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42465
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103154/01.01.01_60/ts_103154v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 154 V1.1.1 (2014-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42465
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103154/01.01.01_60/ts_103154v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 154 V1.1.1 (2014-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 154 V1.1.1 (2014-10)
 date:
 - type: published
-  value: 2014-10
+  at: 2014-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Specification defines system requirements for operation
+- language: en
+  script: Latn
+  content: This Technical Specification defines system requirements for operation
     of Mobile Broadband Systems in the 2 300 -2 400 MHz frequency band under Licensed
     Shared Access. The requirements build on the scenarios and applications described
     in ETSI TR 103 113 - Mobile Broadband Services in the 2 300 MHz - 2 400 MHz Frequency
@@ -57,19 +66,21 @@ abstract:
     will be performed in a close liaison with the Joint Task Force ERM RRS (JTFER)
     related to EC Mandate M/512 and where applicable, additional requirements will
     also be provided by JTFER.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BWA
-- content: RADIO
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: BWA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

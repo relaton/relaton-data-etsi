@@ -1,67 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300926ed.31998-11
+id: ETSIETS300926ed3199811
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Voice Broadcast
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Voice Broadcast
     Service (VBS) - Stage 1 (GSM 02.69 version 5.2.1 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6816
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300926/03_60/ets_300926e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 926 ed.3 (1998-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6816
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300926/03_60/ets_300926e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 926 ed.3 (1998-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 926 ed.3 (1998-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\n In VBS it is optional to perform authentication immediately
+- language: en
+  script: Latn
+  content: "SUBJECT\r\n In VBS it is optional to perform authentication immediately
     at call establishment to speed-up the call establishment. Authentication may be
     delayed, but always has to be performed.\r\nThe specification does not clearly
     describe what action to take if the MS active in an VBS is leaving the VBS area.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
-- content: UIC
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: UIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

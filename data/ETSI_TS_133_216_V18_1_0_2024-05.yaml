@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS133216V18.1.02024-05
+id: ETSITS133216V1810202405
+schema_version: v1.4.1
 title:
-- content: LTE; Security Assurance Specification (SCAS) for the evolved Node B (eNB)
+- language: en
+  script: Latn
+  content: LTE; Security Assurance Specification (SCAS) for the evolved Node B (eNB)
     network product class (3GPP TS 33.216 version 18.1.0 Release 18)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70569
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/133200_133299/133216/18.01.00_60/ts_133216v180100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 133 216 V18.1.0 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70569
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/133200_133299/133216/18.01.00_60/ts_133216v180100p.pdf
+docidentifier:
+- content: ETSI TS 133 216 V18.1.0 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 133 216 V18.1.0 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 18.1.0
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#103
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#103
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

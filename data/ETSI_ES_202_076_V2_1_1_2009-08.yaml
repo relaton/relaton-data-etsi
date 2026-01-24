@@ -1,69 +1,108 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202076V2.1.12009-08
+id: ETSIES202076V211200908
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User Interfaces; Generic spoken command vocabulary
+- language: en
+  script: Latn
+  content: Human Factors (HF); User Interfaces; Generic spoken command vocabulary
     for ICT devices and services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21046
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/202076/02.01.01_60/es_202076v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 076 V2.1.1 (2009-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21046
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/202076/02.01.01_60/es_202076v020101p.pdf
+docidentifier:
+- content: ETSI ES 202 076 V2.1.1 (2009-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 076 V2.1.1 (2009-08)
 date:
 - type: published
-  value: 2009-08
+  at: 2009-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2009-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RVMgMjAyIDA3NiwgdmVyc2lvbiAxLjEuMiBzcGVjaWZpZXMgYSBtaW5pbXVtIHNldCBvZiBzcG9rZW4gY29tbWFuZHMgcmVxdWlyZWQgdG8gY29udHJvbCB0aGUgZ2VuZXJpYyBhbmQgbW9zdCBjb21tb24gZnVuY3Rpb25zIG9mIElDVCBkZXZpY2VzIGFuZCBzZXJ2aWNlcyB0aGF0IHVzZSBzcGVha2VyIGluZGVwZW5kZW50IHNwZWVjaCByZWNvZ25pdGlvbi4gSXQgc3BlY2lmaWVzIHRoZSBuZWNlc3NhcnkgYW5kIG1vc3QgY29tbW9uIHZvY2FidWxhcmllcyB0byBiZSBzdXBwb3J0ZWQgYnkgSUNUIGRldmljZXMgYW5kIHNlcnZpY2VzIGZvciB2b2ljZSBpbnB1dCwgaW5jbHVkaW5nIGNvbW1hbmQsIGNvbnRyb2wgYW5kIGVkaXRpbmcuDQpFUyAyMDIgMDc2IGlzIGFwcGxpY2FibGUgdG8gdGhlIGZ1bmN0aW9ucyByZXF1aXJlZCBmb3IgbmF2aWdhdGlvbiwgaW5mb3JtYXRpb24gcmV0cmlldmFsLCBiYXNpYyBjYWxsIGhhbmRsaW5nIGFuZCBjb25maWd1cmF0aW9uIG9mIHByZWZlcmVuY2VzLiBJdCBhbHNvIGFkZHJlc3NlcyB0aGUgbW9zdCBjb21tb24gdGVsZWNvbW11bmljYXRpb24gc2VydmljZXMuIA0KRVMgMjAyIDA3NiBzcGVjaWZpZXMgdXNlciB0ZXN0ZWQgY29tbWFuZHMgZm9yIHRoZSBsYW5ndWFnZXMgd2l0aCB0aGUgbGFyZ2VzdCBudW1iZXIgb2YgbmF0aXZlIHNwZWFrZXJzIGluIHRoZSBFdXJvcGVhbiBVbmlvbjogRW5nbGlzaCwgRnJlbmNoLCBHZXJtYW4sIEl0YWxpYW4gYW5kIFNwYW5pc2gsIGFzIHNwb2tlbiBpbiB0aGVpciByZXNwZWN0aXZlIGNvdW50cmllcy4gDQpUaGlzIHJldmlzaW9uIHNoYWxsIHByb3ZpZGUgdGhlIHNpbWlsYXIgY29tbWFuZHMgc3BlY2lmaWVkIGluIG90aGVyIEV1cm9wZWFuIGxhbmd1YWdlcyBsYW5ndWFnZXMsIGxhbmd1YWdlIHZlcnNpb25zIGFuZCBwb3NzaWJseSB1cGRhdGUgdGhlIGxpc3Qgb2YgSUNUIGNvbW1hbmRzIGFkZHJlc3NlZCAobWV0aG9kb2xvZ3kgZ3VpZGFuY2UgaXMgYWxyZWFkeSBwcm92aWRlZCkuIA0KVGhlIHByZXNlbnQgd29yayB3aWxsIHVwZGF0ZSBFUyAyMDIgMDc2IHRvIGJlIGZ1bGx5IGFwcGxpY2FibGUgdG8gdGhlIGxhbmd1YWdlcyBvZiB0aGUgRXVyb3BlYW4gVW5pb24gKEVVKSBtZW1iZXIgc3RhdGVzIGFzIG9mIEp1bmUgMjAwNCwgbmVhci10ZXJtIGVubGFyZ2VtZW50IGNhbmRpZGF0ZSBjb3VudHJpZXMgYW5kIHRoZSBvZmZpY2lhbCBsYW5ndWFnZXMgb2YgdGhlIEVGVEEgY291bnRyaWVzIGFuZCBSdXNzaWFuLg0KRnVydGhlcm1vcmUsIHRoZSB3b3JrIHdpbGwgY29uc2lkZXIgdG8gYWRkaXRpb25hbGx5IGNvdmVyIEV1cm9wZWFuIG1pbm9yaXR5IGxhbmd1YWdlcyBhbmQgbWFqb3Igbm9uIEV1cm9wZWFuIGxhbmd1YWdlcyB1c2VkIGluIEV1cm9wZS4gSW4gYWRkaXRpb24sIHRoZSBiZWxvdyBsaXN0ZWQgbGFuZ3VhZ2VzIG5vdCBjb3ZlcmVkIGJ5IHRoZSBhYm92ZSB3aWxsIGJlIGV4YW1pbmVkIGZvciBjb3ZlcmFnZToNCuKAoiBCZWxhcnVzaWFuLCBNYWNlZG9uaWFuICh0aGUgb2ZmaWNpYWwgbGFuZ3VhZ2Ugb2YgdGhlIEZvcm1lciBZdWdvc2xhdmlhbiBSZXB1YmxpYyBvZiBNYWNlZG9uaWEpLCBTZXJiaWFuIGFuZCBVa3JhaW5pYW47DQrigKIgQWxiYW5pYW47DQrigKIgTW9sZGF2aWFuOyBhbmQNCuKAoiBDcm9hdGlhbi4/DQpUaGUgd29yayB3aWxsIG5vdCBjb3ZlciBkaWFsb2d1ZSBkZXNpZ24gaXNzdWVzLCB0aGUgZnVsbCByYW5nZSBvZiBzdXBwbGVtZW50YXJ5IHRlbGVjb21tdW5pY2F0aW9ucyBzZXJ2aWNlcywgcGVyZm9ybWFuY2UgcmVsYXRlZCBpc3N1ZXMsIG5hdHVyYWwgc3Bva2VuIG51bWJlcnMgY292ZXJpbmcgbW9yZSB0aGFuIG9uZSBkaWdpdCAob3RoZXIgdGhhbiAiZG91YmxlIikgb3Igc3BlZWNoIG91dHB1dC4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "ES 202 076, version 1.1.2 specifies a minimum set of spoken commands required
+    to control the generic and most common functions of ICT devices and services that
+    use speaker independent speech recognition. It specifies the necessary and most
+    common vocabularies to be supported by ICT devices and services for voice input,
+    including command, control and editing.\r\nES 202 076 is applicable to the functions
+    required for navigation, information retrieval, basic call handling and configuration
+    of preferences. It also addresses the most common telecommunication services.
+    \r\nES 202 076 specifies user tested commands for the languages with the largest
+    number of native speakers in the European Union: English, French, German, Italian
+    and Spanish, as spoken in their respective countries. \r\nThis revision shall
+    provide the similar commands specified in other European languages languages,
+    language versions and possibly update the list of ICT commands addressed (methodology
+    guidance is already provided). \r\nThe present work will update ES 202 076 to
+    be fully applicable to the languages of the European Union (EU) member states
+    as of June 2004, near-term enlargement candidate countries and the official languages
+    of the EFTA countries and Russian.\r\nFurthermore, the work will consider to additionally
+    cover European minority languages and major non European languages used in Europe.
+    In addition, the below listed languages not covered by the above will be examined
+    for coverage:\r\n Belarusian, Macedonian (the official language of the Former
+    Yugoslavian Republic of Macedonia), Serbian and Ukrainian;\r\n Albanian;\r\n Moldavian;
+    and\r\n Croatian.?\r\nThe work will not cover dialogue design issues, the full
+    range of supplementary telecommunications services, performance related issues,
+    natural spoken numbers covering more than one digit (other than \"double\") or
+    speech output."
+status:
+  stage: Published
 keyword:
-- content: ICT
-- content: INTERFACE
-- content: SPEECH
-- content: TELEPHONY
-- content: USER
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: USER
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

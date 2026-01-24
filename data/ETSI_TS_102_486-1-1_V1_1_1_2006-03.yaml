@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102486-1-1V1.1.12006-03
+id: ETSITS10248611V111200603
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
     and Traffic Telematics (RTTT); Test specifications for Dedicated Short Range Communication
     (DSRC) transmission equipment; Part 1: DSRC data link layer: medium access and
     logical link control; Sub-Part 1: Protocol Implementation Conformance Statement
     (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18757
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/1024860101/01.01.01_60/ts_1024860101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 486-1-1 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18757
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/1024860101/01.01.01_60/ts_1024860101v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 486-1-1 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 486-1-1 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Protocol conformance testing for EN 12795, Road Transport & Traffic Telematics;
+- language: en
+  script: Latn
+  content: "Protocol conformance testing for EN 12795, Road Transport & Traffic Telematics;
     Dedicated Short Range Communications (DSRC); DSRC data link layer; medium access
     and logical link control. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSRC
-- content: LLC
-- content: MAC
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DSRC
+  - language: en
+    script: Latn
+    content: LLC
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: Technical Specification

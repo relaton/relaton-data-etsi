@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-18-1V1.7.22018-01
+id: ETSITS100392181V172201801
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
     Operation (DMO); Part 18: Air interface optimized applications; Sub-part 1: Location
     Information Protocol (LIP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54052
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003921801/01.07.02_60/ts_1003921801v010702p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-18-1 V1.7.2 (2018-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54052
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003921801/01.07.02_60/ts_1003921801v010702p.pdf
+docidentifier:
+- content: ETSI TS 100 392-18-1 V1.7.2 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-18-1 V1.7.2 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.2
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Purely editorial revision to correc the cross-reference fields in the Word
+- language: en
+  script: Latn
+  content: Purely editorial revision to correc the cross-reference fields in the Word
     document that were not updated/refreshed. Clauses affected are 6.3.76g, 6.3.76h,
     6.3.77, 6.3.78, 6.3.79, 6.3.80, 6.3.81, 6.3.82, 6.3.83, 6.3.84, 6.3.85, 6.3.86,
     6.3.87, 6.3.88, 6.3.89, 6.3.90, 6.3.91, 6.3.92, 6.3.93, 6.4.2, 6.4.3 and 6.4.4.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: LOCATION
-- content: RADIO
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

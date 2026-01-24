@@ -1,70 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103626V1.1.12020-02
+id: ETSITR103626V111202002
+schema_version: v1.4.1
 title:
-- content: Autonomic network engineering for the self-managing Future Internet (AFI);
+- language: en
+  script: Latn
+  content: Autonomic network engineering for the self-managing Future Internet (AFI);
     An Instantiation and Implementation of the Generic Autonomic Network Architecture
     (GANA) Model onto Heterogeneous Wireless Access Technologies using Cognitive Algorithms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54802
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103626/01.01.01_60/tr_103626v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 626 V1.1.1 (2020-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54802
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103626/01.01.01_60/tr_103626v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 626 V1.1.1 (2020-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 626 V1.1.1 (2020-02)
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution of Management towards Autonomic Future Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIFdvcmsgSXRlbSB3aWxsIHByb3ZpZGUgYSBtYXBwaW5nIGFuZCBldmFsdWF0aW9uIG9mIGFyY2hpdGVjdHVyYWwgY29tcG9uZW50cyBmb3IgYXV0b25vbWljIG5ldHdvcmsgbWFuYWdlbWVudCAmIGNvbnRyb2wgZGV2ZWxvcGVkL2ltcGxlbWVudGVkIGluIHRoZSBFQy1mdW5kZWQgV0lTSEZVTCBQcm9qZWN0IHRvIHRoZSBFVFNJIEFGSSBHZW5lcmljIEF1dG9ub21pYyBOZXR3b3JraW5nIEFyY2hpdGVjdHVyZSAoR0FOQSkgbW9kZWzigJRhbiBhcmNoaXRlY3R1cmFsIHJlZmVyZW5jZSBtb2RlbCBmb3IgYXV0b25vbWljIG5ldHdvcmtpbmcsIGNvZ25pdGl2ZSBuZXR3b3JraW5nIGFuZCBzZWxmLW1hbmFnZW1lbnQuIFRoZSBtYXBwaW5nIHBlcnRhaW5zIHRvIGFyY2hpdGVjdHVyYWwgY29tcG9uZW50cyBmb3IgYXV0b25vbWljIGRlY2lzaW9uLW1ha2luZyBhbmQgYXNzb2NpYXRlZCBjb250cm9sLWxvb3BzIGluIHdpcmVsZXNzIG5ldHdvcmsgYXJjaGl0ZWN0dXJlcyBhbmQgdGhlaXIgYXNzb2NpYXRlZCBtYW5hZ2VtZW50IGFuZCBjb250cm9sIGFyY2hpdGVjdHVyZXMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The Work Item will provide a mapping and evaluation of architectural components
+    for autonomic network management & control developed/implemented in the EC-funded
+    WISHFUL Project to the ETSI AFI Generic Autonomic Networking Architecture (GANA)
+    modelan architectural reference model for autonomic networking, cognitive networking
+    and self-management. The mapping pertains to architectural components for autonomic
+    decision-making and associated control-loops in wireless network architectures
+    and their associated management and control architectures.
+status:
+  stage: Published
 keyword:
-- content: Autonomic Networking
-- content: Cognition
-- content: cognitive
-- content: CONTROL
-- content: RADIO
-- content: Self-Management
+- taxon:
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: Cognition
+  - language: en
+    script: Latn
+    content: cognitive
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: Self-Management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Evolution of Management towards Autonomic Future Internet
+    content: Technical Report

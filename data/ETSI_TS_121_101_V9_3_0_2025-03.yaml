@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS121101V9.3.02025-03
+id: ETSITS121101V930202503
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Technical Specifications
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Technical Specifications
     and Technical Reports for a UTRAN-based 3GPP system (3GPP TS 21.101 version 9.3.0
     Release 9)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74658
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/121100_121199/121101/09.03.00_60/ts_121101v090300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 121 101 V9.3.0 (2025-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74658
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/121100_121199/121101/09.03.00_60/ts_121101v090300p.pdf
+docidentifier:
+- content: ETSI TS 121 101 V9.3.0 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 121 101 V9.3.0 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Technical Specification Group Services and System Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.3.0
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#107
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#107
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Technical Specification Group Services and System Aspects
+    content: Technical Specification

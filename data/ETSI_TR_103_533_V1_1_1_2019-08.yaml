@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103533V1.1.12019-08
+id: ETSITR103533V111201908
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Security; Standards Landscape and best practices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52934
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 533 V1.1.1 (2019-08)
+- language: en
+  script: Latn
+  content: SmartM2M; Security; Standards Landscape and best practices
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52934
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103533/01.01.01_60/tr_103533v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 533 V1.1.1 (2019-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 533 V1.1.1 (2019-08)
 date:
 - type: published
-  value: 2019-08
+  at: 2019-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Provide an overview of the existing Security Standards Landscape with the
+- language: en
+  script: Latn
+  content: Provide an overview of the existing Security Standards Landscape with the
     focus on usage in the IoT domains, collect best practices from national and European
     IoT initiatives/projects, and provide guidance for understanding Compliance to
     IoT Cyber Security Package. This work is expected to be developed in close collaboration
     with the European Commission Internet of Things unit E4 and Cybersecurity unit
     H1, AIOTI WG3+WG4, ETSI TC CYBER, ENISA, ECSO and related PPPs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: oneM2M
-- content: privacy
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

@@ -1,63 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300446ed.21997-03
+id: ETSIETS300446ed2199703
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for second generation Cordless Telephone (CT2) apparatus operating in
     the frequency band 864,1 MHz to 868,1 MHz, including public access services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4602
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300446/02_60/ets_300446e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 446 ed.2 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4602
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300446/02_60/ets_300446e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 446 ed.2 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 446 ed.2 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC standard for cordless telephones CT2.\r\nRevision covers
+- language: en
+  script: Latn
+  content: "Covers the EMC standard for cordless telephones CT2.\r\nRevision covers
     changes necessary to bring the ETS into line with ETR\r\n238 and make it a harmonised
     standard under the EMC Directive.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CT2
-- content: EMC
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CT2
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

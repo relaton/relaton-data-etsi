@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118132V4.0.12023-08
+id: ETSITS118132V401202308
+schema_version: v1.4.1
 title:
-- content: MAF and MEF Interface Specification (oneM2M TS-0032 version 4.0.1 Release
+- language: en
+  script: Latn
+  content: MAF and MEF Interface Specification (oneM2M TS-0032 version 4.0.1 Release
     4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68612
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118132/04.00.01_60/ts_118132v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 132 V4.0.1 (2023-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68612
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118132/04.00.01_60/ts_118132v040001p.pdf
+docidentifier:
+- content: ETSI TS 118 132 V4.0.1 (2023-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 132 V4.0.1 (2023-08)
 date:
 - type: published
-  value: 2023-08
+  at: 2023-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This specification defines the reference points Mmaf and Mmef of oneM2M
+- language: en
+  script: Latn
+  content: This specification defines the reference points Mmaf and Mmef of oneM2M
     nodes (ADN, ASN, MN, IN) with the M2M Authentication Function (MAF) and the M2M
     Enrolment Function (MEF)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103697V2.1.12022-11
+id: ETSITS103697V211202211
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Architecture; Multi-Channel Operation
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Architecture; Multi-Channel Operation
     (MCO) for Cooperative ITS (C-ITS); Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56812
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103697/02.01.01_60/ts_103697v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 697 V2.1.1 (2022-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56812
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103697/02.01.01_60/ts_103697v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 697 V2.1.1 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 697 V2.1.1 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of the MCO requirements; definition of the functional MCO architecture;
+- language: en
+  script: Latn
+  content: Definition of the MCO requirements; definition of the functional MCO architecture;
     definition of the channel management mechanisms and related interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Specification

@@ -1,73 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101294V5.0.01997-07
+id: ETSITR101294V500199707
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Subjective
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Subjective
     tests on the interoperability of the Half Rate/Full Rate/Enhanced Full Rate (HR/FR/EFR)
     speech codecs, single, tandem and tandem free operation (GSM 06.85 version 5.0.0
     Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6462
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101294/05.00.00_60/tr_101294v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 294 V5.0.0 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6462
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101294/05.00.00_60/tr_101294v050000p.pdf
+docidentifier:
+- content: ETSI TR 101 294 V5.0.0 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 294 V5.0.0 (1997-07)
 date:
 - type: published
-  value: 1997-07
+  at: 1997-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1997-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Report (TR) contains the results obtained from an internationally
+- language: en
+  script: Latn
+  content: "This Technical Report (TR) contains the results obtained from an internationally
     co-ordinated subjective evaluation conducted by four laboratories to estimate
     the performance in mobile-to-mobile connections of the GSM half, full, and enhanced
     full rate speech codecs (including the expected advantages of the Tandem Free
     Operation), in case of inter-operability in the digital cellular telecommunications
     system. These (listening-only) tests did not include the effects of Voice Activity
     Detector, Comfort Noise Insertion and the Discontinuous Transmission.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech Aspects
+    content: Technical Report

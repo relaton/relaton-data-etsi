@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103789V1.1.12023-05
+id: ETSITS103789V111202305
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD) and Ultra Wide Band (UWB); Radar related parameters
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD) and Ultra Wide Band (UWB); Radar related parameters
     and physical test setup for object detection, identification and RCS measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61958
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103789/01.01.01_60/ts_103789v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 789 V1.1.1 (2023-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61958
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103789/01.01.01_60/ts_103789v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 789 V1.1.1 (2023-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 789 V1.1.1 (2023-05)
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHB1cnBvc2Ugb2YgdGhlIGRvY3VtZW50IGlzIHRvIHN1bW1hcml6ZSBSYWRhciByZWxhdGVkIHBhcmFtZXRlcnMgZm9yIG9iamVjdCBkZXRlY3Rpb24sIGlkZW50aWZpY2F0aW9uIGFuZCBSQ1MgbWVhc3VyZW1lbnQgYW5kIHRvIGRldmVsb3AgYSBwaHlzaWNhbCB0ZXN0IHNldHVwIChlLmcuIGJhc2VkIG9uIGZpeGVkIGFuZCBtb3ZpbmcgdGFyZ2V0cyB3aXRoIHNwZWNpZmllZCBSQ1MpIHRvIHByb3ZpZGUgYSBzaW1wbGlmaWVkIHRlc3QgZm9yIHRoZSBhc3Nlc3NtZW50IG9mIFJCUyBhbmQgUkJSIHJlcXVpcmVtZW50cy4gVGhlcmVmb3JlLCBhIGNsZWFyIHNwZWNpZmljYXRpb24gaXMgbmVjZXNzYXJ5IHRvIHByb3ZpZGUgYWxsIG5lY2Vzc2FyeSBpbmZvcm1hdGlvbiB0byB0ZXN0IGhvdXNlcyB0byBydW4g4oCccmVwcm9kdWNpYmxl4oCdIGFuZCDigJxjb21wYXJhYmxl4oCdIHRlc3RzLiBGdXJ0aGVybW9yZSwgdGhlIGNvbnRlbnQgb2YgdGhlIGRvY3VtZW50IGNvdWxkIGJlIHRyYW5zZmVycmVkIGluIGZ1dHVyZSBpbnRvIEVOIDMwMyA4ODMtMi4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The purpose of the document is to summarize Radar related parameters for
+    object detection, identification and RCS measurement and to develop a physical
+    test setup (e.g. based on fixed and moving targets with specified RCS) to provide
+    a simplified test for the assessment of RBS and RBR requirements. Therefore, a
+    clear specification is necessary to provide all necessary information to test
+    houses to run reproducible and comparable tests. Furthermore, the content of the
+    document could be transferred in future into EN 303 883-2.
+status:
+  stage: Published
 keyword:
-- content: Measurement
-- content: RADAR
-- content: radiodetermination
-- content: SRD
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: radiodetermination
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Specification

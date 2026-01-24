@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301243V4.1.12000-11
+id: ETSIEN301243V411200011
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Enhanced Full
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Enhanced Full
     Rate (EFR) speech processing functions; General description (GSM 06.51 version
     4.1.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11075
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301243/04.01.01_60/en_301243v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 243 V4.1.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11075
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301243/04.01.01_60/en_301243v040101p.pdf
+docidentifier:
+- content: ETSI EN 301 243 V4.1.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 243 V4.1.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CRs from SMG#32
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CRs from SMG#32
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: MOBILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Standard

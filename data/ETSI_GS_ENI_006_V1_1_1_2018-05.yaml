@@ -1,65 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSENI006V1.1.12018-05
+id: ETSIGSENI006V111201805
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Proof of Concepts Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54509
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/006/01.01.01_60/gs_ENI006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ENI 006 V1.1.1 (2018-05)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Proof of Concepts Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54509
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/006/01.01.01_60/gs_ENI006v010101p.pdf
+docidentifier:
+- content: ETSI GS ENI 006 V1.1.1 (2018-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS ENI 006 V1.1.1 (2018-05)
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gd2lsbCBwcm9kdWNlIGEgZG9jdW1lbnQgdG8gc3BlY2lmeSBhIGZyYW1ld29yayBmb3IgdXNlIHdpdGhpbiBFVFNJIEVOSSBJU0cgdG8gY29vcmRpbmF0ZSBhbmQgcHJvbW90ZSBwdWJsaWMgZGVtb25zdHJhdGlvbnMgb2YgUHJvb2Ygb2YgQ29uY2VwdCAoUG9DKSB2YWxpZGF0aW5nIGtleSB0ZWNobmljYWwgY29tcG9uZW50cyBkZXZlbG9wZWQgaW4gRU5JLiBUaGUgb2JqZWN0aXZlIG9mIHRoZSBQb0NzIGlzIHRvIGJ1aWxkIGNvbW1lcmNpYWwgYXdhcmVuZXNzIGFuZCBjb25maWRlbmNlIGFuZCBlbmNvdXJhZ2UgZGV2ZWxvcG1lbnQgb2YgYW4gb3BlbiBlY29zeXN0ZW0gYnkgaW50ZWdyYXRpbmcgY29tcG9uZW50cyBmcm9tIGRpZmZlcmVudCBwbGF5ZXJzLiAgVGhpcyBmcmFtZXdvcmsgb3V0bGluZXM6IA0K4oCiIHJhdGlvbmFsZSBmb3IgRU5JIElTRyBQb0NzOyANCuKAoiBFTkkgSVNHIFBvQyBwcm9jZXNzIChzdWJtaXNzaW9uIGFuZCBmb3JtYXQgb2YgUG9DIFByb3Bvc2FscywgcmV2aWV3IGFuZCBhY2NlcHRhbmNlIGNyaXRlcmlhIG9mIFBvQyBwcm9wb3NhbHMsIGFuZCBFTkkgSVNHIFBvQyBSZXBvcnQgZm9ybWF0IGFuZCByZXF1aXJlbWVudHMpOyANCuKAoiBFVFNJIHN1cHBvcnQgZm9yIFBvQyB0ZWFtcy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Work Item will produce a document to specify a framework for use
+    within ETSI ENI ISG to coordinate and promote public demonstrations of Proof of
+    Concept (PoC) validating key technical components developed in ENI. The objective
+    of the PoCs is to build commercial awareness and confidence and encourage development
+    of an open ecosystem by integrating components from different players.  This framework
+    outlines: \r\n rationale for ENI ISG PoCs; \r\n ENI ISG PoC process (submission
+    and format of PoC Proposals, review and acceptance criteria of PoC proposals,
+    and ENI ISG PoC Report format and requirements); \r\n ETSI support for PoC teams."
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: Proof of Concept
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: Proof of Concept
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Specification

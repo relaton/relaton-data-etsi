@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101570-1V1.1.12012-06
+id: ETSITS1015701V111201206
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Interoperability
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Interoperability
     Testing for Maritime Digital Selective Calling (DSC) Radios; Part 1: Requirements
     catalogue'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34631
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10157001/01.01.01_60/ts_10157001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 570-1 V1.1.1 (2012-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34631
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10157001/01.01.01_60/ts_10157001v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 570-1 V1.1.1 (2012-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 570-1 V1.1.1 (2012-06)
 date:
 - type: published
-  value: 2012-06
+  at: 2012-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Interoperability tests for maritime DSC radio equipment. This work is based
+- language: en
+  script: Latn
+  content: Interoperability tests for maritime DSC radio equipment. This work is based
     on EN 300 338-1 v1.3.1, EN 300 338-2 v1.3.1, EN 300 338-3 v1.1.1, EN 300 338-4
     v1.1.1, EN 300 338-5 v1.1.1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSC
-- content: INTEROPERABILITY
-- content: MARITIME
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: DSC
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: Technical Specification

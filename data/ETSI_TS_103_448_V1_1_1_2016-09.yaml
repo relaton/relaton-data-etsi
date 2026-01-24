@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103448V1.1.12016-09
+id: ETSITS103448V111201609
+schema_version: v1.4.1
 title:
-- content: AC-4 Object Audio Renderer for Consumer Use
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50054
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103448/01.01.01_60/ts_103448v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 448 V1.1.1 (2016-09)
+- language: en
+  script: Latn
+  content: AC-4 Object Audio Renderer for Consumer Use
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50054
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103448/01.01.01_60/ts_103448v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 448 V1.1.1 (2016-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 448 V1.1.1 (2016-09)
 date:
 - type: published
-  value: 2016-09
+  at: 2016-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Standard will define a consumer object based audio renderer
+- language: en
+  script: Latn
+  content: This Technical Standard will define a consumer object based audio renderer
     for use with the AC-4 codec as specified in ETSI TS 103 190-2, and the object
     audio metadata specified therein. The renderer inputs are the object essences
     and the corresponding metadata defined in ETSI TS 103 190-2, and renders into
     outputs feeding speakers in consumer setups.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

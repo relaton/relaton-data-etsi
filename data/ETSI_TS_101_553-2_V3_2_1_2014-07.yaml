@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101553-2V3.2.12014-07
+id: ETSITS1015532V321201407
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Testing of the IBCF requirements;
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Testing of the IBCF requirements;
     (3GPP Release 9); Part 2: Test Suite Structure and Test Purposes (TSS&TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10155302/03.02.01_60/ts_10155302v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 553-2 V3.2.1 (2014-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/10155302/03.02.01_60/ts_10155302v030201p.pdf
+docidentifier:
+- content: ETSI TS 101 553-2 V3.2.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 553-2 V3.2.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The IBCF requirements are distributed in several basic specifications
+- language: en
+  script: Latn
+  content: "The IBCF requirements are distributed in several basic specifications
     and therefore in several test specifications. Hence in a test lab with a test
     service explicitly to test conformance of the IBCF functionality it is useful
     to set on a single test specification instead of a conglomerate of documents.
     \r\n- This document shall contain the Test suite structure and test purposes.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IBCF
-- content: SIP
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: IBCF
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

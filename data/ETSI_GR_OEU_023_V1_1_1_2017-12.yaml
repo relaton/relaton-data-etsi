@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIGROEU023V1.1.12017-12
+id: ETSIGROEU023V111201712
+schema_version: v1.4.1
 title:
-- content: Operational energy Efficiency for Users (OEU); Plastic Optical Fiber Plugtests
+- language: en
+  script: Latn
+  content: Operational energy Efficiency for Users (OEU); Plastic Optical Fiber Plugtests
     to determine the interoperability of networking equipment manufactured by different
     vendors
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50936
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/023/01.01.01_60/gr_OEU023v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR OEU 023 V1.1.1 (2017-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50936
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/023/01.01.01_60/gr_OEU023v010101p.pdf
+docidentifier:
+- content: ETSI GR OEU 023 V1.1.1 (2017-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR OEU 023 V1.1.1 (2017-12)
 date:
 - type: published
-  value: 2017-12
+  at: 2017-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operational energy Efficiency for Users
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document contains the Mechanical, Physical and Operational
+- language: en
+  script: Latn
+  content: "The present document contains the Mechanical, Physical and Operational
     Test Suite (MPOTS) for networking equipment relying on Plastic Optical Fiber digital
     communications for both FAST (IEEE 802.3u, 100Mbit/s) and GIGABIT (IEEE 802.3bv,
     1000Mbit/s) Ethernet data transfers along the systems interoperability specifications
@@ -55,24 +64,36 @@ abstract:
     report forms the guidelines to lead the technical organisation of the POF Plugtest
     event, in Bordeaux, France from 29th May to 2nd June 2017. This document is intended
     to be upgraded for future interoperability events\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Customer Premises Networks
-- content: FIBRE
-- content: intelligent homes &amp; buildings
-- content: INTEROPERABILITY
-- content: OPTICAL
-- content: plastic
-- content: POF
-- content: smart city
+- taxon:
+  - language: en
+    script: Latn
+    content: Customer Premises Networks
+  - language: en
+    script: Latn
+    content: FIBRE
+  - language: en
+    script: Latn
+    content: intelligent homes &amp; buildings
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: plastic
+  - language: en
+    script: Latn
+    content: POF
+  - language: en
+    script: Latn
+    content: smart city
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Operational energy Efficiency for Users
+    content: Group Report

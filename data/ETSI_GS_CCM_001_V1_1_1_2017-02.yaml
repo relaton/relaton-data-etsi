@@ -1,68 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCCM001V1.1.12017-02
+id: ETSIGSCCM001V111201702
+schema_version: v1.4.1
 title:
-- content: Compound Content Management Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49426
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CCM/001_099/001/01.01.01_60/gs_CCM001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CCM 001 V1.1.1 (2017-02)
+- language: en
+  script: Latn
+  content: Compound Content Management Specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49426
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CCM/001_099/001/01.01.01_60/gs_CCM001v010101p.pdf
+docidentifier:
+- content: ETSI GS CCM 001 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS CCM 001 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: intelligent  Compound Content Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SVNHIENDTSB3aWxsIGZhY2lsaXRhdGUgdGhlIHNtb290aCB0cmFuc2l0aW9uIGJldHdlZW4gdG9kYXnigJlzIHRlbGV2aXNpb24NCnN0YW5kYXJkcyBhbmQgdG9tb3Jyb3figJlzIHdpdGggdGhlIGRlZmluaXRpb24gb2YgYSBuZXcgdHJhbnNtaXNzaW9uDQpzeXN0ZW0gYWJsZSB0byBvZmZlciBiYWNrd2FyZHMgY29tcGF0aWJpbGl0eSB3aXRoIHRvZGF54oCZcyB0ZWxldmlzaW9uDQpzdGFuZGFyZHMgd2hpbHN0IGFsc28gcHJvdmlkaW5nIHRoZSBmdWxsIHF1YWxpdHkgZm9yIHRoZSBuZXh0IGdlbmVyYXRpb24gSGlnaA0KRHluYW1pYyBSYW5nZSAoSERSKSBhbmQgV2lkZXIgQ29sb3VyIEdhbXV0IChXQ0cpIHRlbGV2aXNpb25zLg0K4oCTIFRoZSByZXF1aXJlbWVudCB0byBub3QgY29tcHJvbWlzZSB0aGUgcXVhbGl0eSBvZiB0aGUgbGVnYWN5IHNpZ25hbCB1c2luZw0KdG9kYXnigJlzIGRpc3BsYXlzIGJ1dCB5ZXQgdG8gcHJvdmlkZSB0aGUgaGlnaGVzdCBxdWFsaXR5IEhEUi9XQ0cgcXVhbGl0eQ0Kc2lnbmFsIGZvciBhIG5ldyBnZW5lcmF0aW9uIG9mIHRlbGV2aXNpb25zIGlzIG9uZXJvdXMgYW5kIHJlcXVpcmVzIGFuYWx5c2lzDQp0byBkZXZlbG9wIGFuIG9wdGltYWwgc29sdXRpb24uDQpUaGUgZ3JvdXAgd2lsbCBzcGVjaWZ5IHRoZSB0ZWNobm9sb2d5IG5lZWRlZCBhbmQgZW5zdXJlIHRoYXQgdGhlIGNyZWF0aXZlDQppbnRlbnQgZW1iZWRkZWQgaW50byBib3RoIGxlZ2FjeSBhbmQgSERSL1dDRyBjb250ZW50IGlzIHByZXNlcnZlZCBhbmQNCnByb3BhZ2F0ZWQgdGhyb3VnaCB0aGUgYXBwcm9wcmlhdGUgaW50ZXJmYWNlcw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "ISG CCM will facilitate the smooth transition between todays television\r\nstandards
+    and tomorrows with the definition of a new transmission\r\nsystem able to offer
+    backwards compatibility with todays television\r\nstandards whilst also providing
+    the full quality for the next generation High\r\nDynamic Range (HDR) and Wider
+    Colour Gamut (WCG) televisions.\r\n The requirement to not compromise the quality
+    of the legacy signal using\r\ntodays displays but yet to provide the highest quality
+    HDR/WCG quality\r\nsignal for a new generation of televisions is onerous and requires
+    analysis\r\nto develop an optimal solution.\r\nThe group will specify the technology
+    needed and ensure that the creative\r\nintent embedded into both legacy and HDR/WCG
+    content is preserved and\r\npropagated through the appropriate interfaces"
+status:
+  stage: Published
 keyword:
-- content: CCM system
-- content: HDR
-- content: HDR Composer
-- content: HDR Metadata Embedder
-- content: UHDTV
-- content: WCG
+- taxon:
+  - language: en
+    script: Latn
+    content: CCM system
+  - language: en
+    script: Latn
+    content: HDR
+  - language: en
+    script: Latn
+    content: HDR Composer
+  - language: en
+    script: Latn
+    content: HDR Metadata Embedder
+  - language: en
+    script: Latn
+    content: UHDTV
+  - language: en
+    script: Latn
+    content: WCG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: intelligent  Compound Content Management
+    content: Group Specification

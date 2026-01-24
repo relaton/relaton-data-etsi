@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201770V4.2.42000-09
+id: ETSIES201770V424200009
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Test synchronization architectural
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Test synchronization architectural
     reference; Test synchronization protocol 1plus (TSP1+) specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5537
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201700_201799/201770/04.02.04_60/es_201770v040204p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 770 V4.2.4 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5537
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201700_201799/201770/04.02.04_60/es_201770v040204p.pdf
+docidentifier:
+- content: ETSI ES 201 770 V4.2.4 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 770 V4.2.4 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.2.4
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document specifies the Test Synchronization Protocol 1+ (TSP1+).
+- language: en
+  script: Latn
+  content: "This document specifies the Test Synchronization Protocol 1+ (TSP1+).
     The purpose of TSP1+ is to achieve functional co-ordination and timing synchronization
     between two or more Test Synchronization Architectural Elements (TSAE) involved
     in a distributed testing system.\r\nThe purpose of this standard is to specify
     the essential requirements to be met by any item of test equipment claiming to
     support TSP1+ as its distributed test synchronization protocol.\r\nThis document
     is applicable to any telecommunications test equipment implementing TSP1+."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NIT
-- content: OTE
-- content: TSP1
+- taxon:
+  - language: en
+    script: Latn
+    content: NIT
+  - language: en
+    script: Latn
+    content: OTE
+  - language: en
+    script: Latn
+    content: TSP1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Standard

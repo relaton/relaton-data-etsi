@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSISR003232V1.1.12011-02
+id: ETSISR003232V111201102
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
     Signature Profiles (PAdES); Printable Representations of Electronic Signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35241
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/003200_003299/003232/01.01.01_60/sr_003232v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 003 232 V1.1.1 (2011-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35241
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/003200_003299/003232/01.01.01_60/sr_003232v010101p.pdf
+docidentifier:
+- content: ETSI SR 003 232 V1.1.1 (2011-02)
   type: ETSI
   primary: true
 docnumber: ETSI SR 003 232 V1.1.1 (2011-02)
 date:
 - type: published
-  value: 2011-02
+  at: 2011-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The current document discusses the techniques that may be used in applying
+- language: en
+  script: Latn
+  content: The current document discusses the techniques that may be used in applying
     printable signatures to PDF documents.  It is not aimed at providing a normative
     set of requirement but rather collects together information that may at a later
     date by used to form the basis of a formal ETSI specification.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

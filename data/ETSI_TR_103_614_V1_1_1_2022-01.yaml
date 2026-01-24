@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103614V1.1.12022-01
+id: ETSITR103614V111202201
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Hearing
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Hearing
     Loop System (HLS) intended to assist the hearing impaired in the frequency range
     0 Hz to 9 kHz; System Reference Document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54483
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103614/01.01.01_60/tr_103614v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 614 V1.1.1 (2022-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54483
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103614/01.01.01_60/tr_103614v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 614 V1.1.1 (2022-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 614 V1.1.1 (2022-01)
 date:
 - type: published
-  value: 2022-01
+  at: 2022-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Define and describe Inductive loop systems intended to assist the hearing
+- language: en
+  script: Latn
+  content: Define and describe Inductive loop systems intended to assist the hearing
     impaired incorporating information requested by the EC Desk officer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Assistive Listening
-- content: audio frequency induction loop
-- content: DISABILITY
-- content: Hearing Loop System
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: Assistive Listening
+  - language: en
+    script: Latn
+    content: audio frequency induction loop
+  - language: en
+    script: Latn
+    content: DISABILITY
+  - language: en
+    script: Latn
+    content: Hearing Loop System
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

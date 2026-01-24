@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103309V1.1.12015-08
+id: ETSITR103309V111201508
+schema_version: v1.4.1
 title:
-- content: CYBER; Secure by Default - platform security technology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45961
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103309/01.01.01_60/tr_103309v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 309 V1.1.1 (2015-08)
+- language: en
+  script: Latn
+  content: CYBER; Secure by Default - platform security technology
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45961
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103309/01.01.01_60/tr_103309v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 309 V1.1.1 (2015-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 309 V1.1.1 (2015-08)
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A proposed TR to describe the following:\r\n\r\nAn approach to encourage
+- language: en
+  script: Latn
+  content: "A proposed TR to describe the following:\r\n\r\nAn approach to encourage
     development and adoption of 'secure by default' platform security technologies
     by showing how they can be used to effectively solve real business problems, and
     improve the usability of secure services.\r\n\r\nThe intended audience is decision
@@ -61,19 +70,21 @@ abstract:
     the technical community that they are needed.  This example will aim to show that
     a market for these features does exist, and that a strong case can be made for
     organisations to actively seek them out."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: Platforms
-- content: secure by default
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: Platforms
+  - language: en
+    script: Latn
+    content: secure by default
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

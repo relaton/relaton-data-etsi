@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118118V2.13.12020-12
+id: ETSITS118118V2131202012
+schema_version: v1.4.1
 title:
-- content: oneM2M Test Suite Structure and Test Purposes (oneM2M TS-0018 version 2.13.1
+- language: en
+  script: Latn
+  content: oneM2M Test Suite Structure and Test Purposes (oneM2M TS-0018 version 2.13.1
     Release 2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58219
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118118/02.13.01_60/ts_118118v021301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 118 V2.13.1 (2020-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58219
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118118/02.13.01_60/ts_118118v021301p.pdf
+docidentifier:
+- content: ETSI TS 118 118 V2.13.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 118 V2.13.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.13.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The WI defines conformance tests for oneM2M.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The WI defines conformance tests for oneM2M.
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IoT
-- content: M2M
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

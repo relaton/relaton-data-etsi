@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102874-7V1.1.12025-06
+id: ETSITR1028747V111202506
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); External Common
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); External Common
     Power Supply for Customer Premises Network and Access Equipment; Part 7: Adaptive
     and multiple output power supplies based on USB Type C connector and USB PD support'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67451
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/10287407/01.01.01_60/tr_10287407v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 874-7 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67451
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/10287407/01.01.01_60/tr_10287407v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 874-7 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 874-7 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Sustainable Digital Multiservice Communities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The deliverable will be on Universal Power Supplies based on USB Type-C
+- language: en
+  script: Latn
+  content: The deliverable will be on Universal Power Supplies based on USB Type-C
     and USB PD, aiming at a set of standard power sizes while maximising compatibility
     among the set. This power supply solution reduces e-waste and improves global
     efficiency
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Customer Premises Networks
-- content: POWER SUPPLY
+- taxon:
+  - language: en
+    script: Latn
+    content: Customer Premises Networks
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Sustainable Digital Multiservice Communities
+    content: Technical Report

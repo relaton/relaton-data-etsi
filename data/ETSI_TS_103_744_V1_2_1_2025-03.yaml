@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103744V1.2.12025-03
+id: ETSITS103744V121202503
+schema_version: v1.4.1
 title:
-- content: CYBER; Quantum-Safe Cryptography (QSC); Quantum-safe Hybrid Key Establishment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63050
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103744/01.02.01_60/ts_103744v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 744 V1.2.1 (2025-03)
+- language: en
+  script: Latn
+  content: CYBER; Quantum-Safe Cryptography (QSC); Quantum-safe Hybrid Key Establishment
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63050
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103744/01.02.01_60/ts_103744v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 744 V1.2.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 744 V1.2.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item is intended to define additional methods and architectures
+- language: en
+  script: Latn
+  content: This work item is intended to define additional methods and architectures
     for combining a quantum-safe key encapsulation method with a classical key exchange
     methods to ensure the resulting negotiated keys are as secure as the strongest
     of the individual schemes being combined.  The proposal covers how the exchanged
     elements of the methods and the associated shared secrets are combined using a
     pseudo-random function or key derivation function to define cryptographic key
     material suitable for storage or session security.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Key Exchange
-- content: Quantum Safe Cryptography
+- taxon:
+  - language: en
+    script: Latn
+    content: Key Exchange
+  - language: en
+    script: Latn
+    content: Quantum Safe Cryptography
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Specification

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES204915-11V1.1.12008-05
+id: ETSIES20491511V111200805
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Application Programming Interface (API); Part
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Application Programming Interface (API); Part
     11: Account Management SCF (Parlay 6)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23417
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/204900_204999/20491511/01.01.01_60/es_20491511v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 204 915-11 V1.1.1 (2008-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23417
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/204900_204999/20491511/01.01.01_60/es_20491511v010101p.pdf
+docidentifier:
+- content: ETSI ES 204 915-11 V1.1.1 (2008-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 204 915-11 V1.1.1 (2008-05)
 date:
 - type: published
-  value: 2008-05
+  at: 2008-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "ETSI OSA APIs Phase 4.  \r\nBased on ES 203 915 and the new requirements
+- language: en
+  script: Latn
+  content: "ETSI OSA APIs Phase 4.  \r\nBased on ES 203 915 and the new requirements
     for OSA Phase 4, to produce ES 204 915 V1.1.1. \r\nETSI OSA Phase 4 incorporates
     3GPP OSA Release 7 and is also known as Parlay 6.0."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IDL
-- content: OSA
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IDL
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Services
+    content: ETSI Standard

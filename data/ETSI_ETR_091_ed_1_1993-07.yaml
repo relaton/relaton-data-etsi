@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR091ed.11993-07
+id: ETSIETR091ed1199307
+schema_version: v1.4.1
 title:
-- content: ETSI object identifier tree; Common domain; Mobile domain
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=807
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/091/01_60/etr_091e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 091 ed.1 (1993-07)
+- language: en
+  script: Latn
+  content: ETSI object identifier tree; Common domain; Mobile domain
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=807
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/091/01_60/etr_091e01p.pdf
+docidentifier:
+- content: ETSI ETR 091 ed.1 (1993-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 091 ed.1 (1993-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the structure of the mobile services domain with the common\r\ndomain
+- language: en
+  script: Latn
+  content: "To define the structure of the mobile services domain with the common\r\ndomain
     of the ETSI object identifier sub-tree.  This is applicable to\r\nTCs SPS and
     GSM.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: MOBILE
-- content: OBJECT IDENTIFIER
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: OBJECT IDENTIFIER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: ETSI Technical Report

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102402V1.1.12005-05
+id: ETSITS102402V111200505
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Station and systems (SES); Broadband Satellite Multimedia;
+- language: en
+  script: Latn
+  content: Satellite Earth Station and systems (SES); Broadband Satellite Multimedia;
     Transparent Satellite Star - A (TSS-A); DVB-S/DVB-RCS for transparent satellites;
     Sub-family 1 (TSS-A1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22283
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102402/01.01.01_60/ts_102402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 402 V1.1.1 (2005-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22283
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102402/01.01.01_60/ts_102402v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 402 V1.1.1 (2005-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 402 V1.1.1 (2005-05)
 date:
 - type: published
-  value: 2005-05
+  at: 2005-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Definition of the first subfamily (system profile) as part of the TSS-A
+- language: en
+  script: Latn
+  content: Definition of the first subfamily (system profile) as part of the TSS-A
     family framework (see DTS/SES-00093).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: ARCHITECTURE
-- content: BROADBAND
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Specification

@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR152ed.31996-12
+id: ETSIETR152ed3199612
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); High bit-rate Digital Subscriber Line
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); High bit-rate Digital Subscriber Line
     (HDSL) transmission system on metallic local lines; HDSL core specification and
     applications for 2 048 kbit/s based access digital sections
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4584
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/152/03_60/etr_152e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 152 ed.3 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4584
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/152/03_60/etr_152e03p.pdf
+docidentifier:
+- content: ETSI ETR 152 ed.3 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 152 ed.3 (1996-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) describes a transmission technique ca\r\nlled
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) describes a transmission technique ca\r\nlled
     High bit rate Digital Subscriber Line (HDSL), as a means for the\r\ntransportation
     of several types of applications. The ETR defines the r\r\nequirements for the
     individual HDSL transmission system, the transmiss\r\nion performance, the HDSL
@@ -54,23 +64,33 @@ abstract:
     bit rate of\r\n2 320 kbit/s on one pair only. The line code of systems specified
     in t\r\nhis ETR is 2B1Q (two Binary one Quaternary). Systems using a CAP (Carr\r\nierless
     Amplitude/Phase modulation) line code are covered in annex B.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DIGITAL
-- content: HDSL
-- content: IP
-- content: LOCAL LOOP
-- content: SUBSCRIBER
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: HDSL
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: LOCAL LOOP
+  - language: en
+    script: Latn
+    content: SUBSCRIBER
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Access Networks
+    content: ETSI Technical Report

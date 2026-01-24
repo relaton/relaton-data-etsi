@@ -1,71 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302217-1V2.1.12013-07
+id: ETSIEN3022171V211201307
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Characteristics and requirements for point-to-point
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Characteristics and requirements for point-to-point
     equipment and antennas; Part 1: Overview and system-independent common characteristics'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34193
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302200_302299/30221701/02.01.01_60/en_30221701v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 217-1 V2.1.1 (2013-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34193
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302200_302299/30221701/02.01.01_60/en_30221701v020101p.pdf
+docidentifier:
+- content: ETSI EN 302 217-1 V2.1.1 (2013-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 217-1 V2.1.1 (2013-07)
 date:
 - type: published
-  value: 2013-07
+  at: 2013-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2013-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    MSkgUmVtb3ZlIHRoZSBvYnNvbGV0ZSDigJxzeXN0ZW1z4oCdIChBLjEgdGhyb3VnaCBFLjgpIG5vdGF0aW9ucyBmcm9tIFRhYmxlIDMsIGNvaGVyZW50bHkgd2l0aCBzaW1pbGFyIGFjdGlvbiBpbiBQYXJ0IDItMiBvZiB0aGUgRU4gMzAyIDIxNy4NCjIpIE1vZGlmeSB0YWJsZSAzIHdpdGggc3lzdGVtIGlkZW50aWZpY2F0aW9uIHN1bW1hcnkgYmFzZWQgb246IGEpIGZyZXF1ZW5jeSBiYW5kLCBiKSBjaGFubmVsIHNlcGFyYXRpb24sIGMpIHNwZWN0cmFsIGVmZmljaWVuY3kgY2xhc3MNCjMpIFVwZGF0ZSB1c2VyIGd1aWRlIGFjY29yZGluZ2x5Lg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "1) Remove the obsolete systems (A.1 through E.8) notations from Table
+    3, coherently with similar action in Part 2-2 of the EN 302 217.\r\n2) Modify
+    table 3 with system identification summary based on: a) frequency band, b) channel
+    separation, c) spectral efficiency class\r\n3) Update user guide accordingly."
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: DFRS
-- content: DIGITAL
-- content: DRRS
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Standard

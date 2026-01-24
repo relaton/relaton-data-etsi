@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100614V8.0.02001-02
+id: ETSITS100614V800200102
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Security management
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Security management
     (GSM 12.03 version 8.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10158
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100614/08.00.00_60/ts_100614v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 614 V8.0.0 (2001-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10158
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100614/08.00.00_60/ts_100614v080000p.pdf
+docidentifier:
+- content: ETSI TS 100 614 V8.0.0 (2001-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 614 V8.0.0 (2001-02)
 date:
 - type: published
-  value: 2001-02
+  at: 2001-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operations & Maintenance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2001-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "No CR from previous version 7.0.0 R98, hence created 8.0.0 R99 (az).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "No CR from previous version 7.0.0 R98, hence created 8.0.0 R99 (az).\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Operations & Maintenance
+    content: Technical Specification

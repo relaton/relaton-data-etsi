@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300522ed.31996-11
+id: ETSIETS300522ed3199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Network architecture
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Network architecture
     (GSM 03.02)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4454
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300522/03_60/ets_300522e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 522 ed.3 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4454
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300522/03_60/ets_300522e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 522 ed.3 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 522 ed.3 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TThe purpose of this third edition European Telecommunication Standard\r\n(ETS)
+- language: en
+  script: Latn
+  content: "TThe purpose of this third edition European Telecommunication Standard\r\n(ETS)
     is to present the possible architectures of the mobile system.\r\nClause 3 of
     this ETS contains a definition of the different functional\r\nentities needed
     to support the mobile service. In clause 4, the confi\r\nguration of a PLMN is
@@ -50,23 +60,33 @@ abstract:
     some exampl\r\nes of possible configurations are presented. Clause 5 of this ETS
     cont\r\nains a brief description of the interfaces involved which shows the pr\r\ninciple
     of the organization considered.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: NETWORK
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

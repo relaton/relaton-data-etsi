@@ -1,57 +1,65 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR090ed.21996-11
+id: ETSIETR090ed2199611
+schema_version: v1.4.1
 title:
-- content: ETSI object identifier tree; Common domain; Intelligent Network (IN) domain
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4382
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/090/02_60/etr_090e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 090 ed.2 (1996-11)
+- language: en
+  script: Latn
+  content: ETSI object identifier tree; Common domain; Intelligent Network (IN) domain
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4382
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/090/02_60/etr_090e02p.pdf
+docidentifier:
+- content: ETSI ETR 090 ed.2 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 090 ed.2 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To allocate an object identifier to CTM within the IN domain. This is\r\nrequired
+- language: en
+  script: Latn
+  content: "To allocate an object identifier to CTM within the IN domain. This is\r\nrequired
     for the CTM stage 3 description to be produced by SPS2.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: OBJECT IDENTIFIER
+- taxon:
+  - language: en
+    script: Latn
+    content: OBJECT IDENTIFIER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: IN protocols
+    content: ETSI Technical Report

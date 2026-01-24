@@ -1,63 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300765-2ed.11998-04
+id: ETSIETS3007652ed1199804
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Radio in the Local
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Radio in the Local
     Loop (RLL) Access Profile (RAP); Part 2: Advanced telephony services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4391
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30076502/01_60/ets_30076502e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 765-2 ed.1 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4391
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30076502/01_60/ets_30076502e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 765-2 ed.1 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 765-2 ed.1 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio and speech experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce an interoperability air-interface profile for\r\nDECT-RLL application:
+- language: en
+  script: Latn
+  content: "To produce an interoperability air-interface profile for\r\nDECT-RLL application:
     RAP (RLL Access Profile), based on the\r\nDECT Generic Access Profile (GAP), providing
     a minimum of\r\nservice level, i.e. the so called \"POTS\" services, and\r\noptional
     extensions including 64 kbit/s bearer service,\r\nISDN services and broadband
     packet services.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: GSM
-- content: RLL
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: RLL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio and speech experts
+    content: European Telecommunication Standard

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301113V6.3.12000-11
+id: ETSIEN301113V631200011
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
     Radio Service (GPRS); Service description; Stage 1 (GSM 02.60 version 6.3.1 Release
     1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9105
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/301113/06.03.01_60/en_301113v060301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 113 V6.3.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9105
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/301113/06.03.01_60/en_301113v060301p.pdf
+docidentifier:
+- content: ETSI EN 301 113 V6.3.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 113 V6.3.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.3.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nAllowing re-negotiation of the QoS parameters for throughput
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nAllowing re-negotiation of the QoS parameters for throughput
     during a session improves the flexibility of network operation and increases the
     quality of service perceived by the user.\r\nRequirement for the MS to inform
     the network of its GPRS class is not appropriate for the stage 1 and should be
@@ -55,18 +64,18 @@ abstract:
     of the GPRS Attach characteristics. A GPRS-Attach shall be succesfully performed
     only if the subscriber has a valid GPRS subscription.\r\n\r\nSA#05 SP-99440 SP-99479
     A021  A023 6.3.0 Class B mode of operation  GPRS Stage 1 removal of example\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Services
+    content: European Standard

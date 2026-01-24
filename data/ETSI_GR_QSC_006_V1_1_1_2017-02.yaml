@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRQSC006V1.1.12017-02
+id: ETSIGRQSC006V111201702
+schema_version: v1.4.1
 title:
-- content: Quantum-Safe Cryptography (QSC); Limits to Quantum Computing applied to
+- language: en
+  script: Latn
+  content: Quantum-Safe Cryptography (QSC); Limits to Quantum Computing applied to
     symmetric key sizes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49740
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/QSC/001_099/006/01.01.01_60/gr_QSC006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR QSC 006 V1.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49740
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/QSC/001_099/006/01.01.01_60/gr_QSC006v010101p.pdf
+docidentifier:
+- content: ETSI GR QSC 006 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR QSC 006 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SW5mb3JtYXRpb25hbCBkb2N1bWVudCB0byBleHBsYWluIHRoZSB1cHBlciBsaW1pdHMgb2YgcXVhbnR1bSBjb21wdXRpbmcgcG93ZXIgaW4gdGhlIGNvbnRleHQgb2YgY3J5cHRvZ3JhcGh5LiBBbmFseXNpcyBpcyBiYXNlZCBvbiB2ZXJ5IGNvbnNlcnZhdGl2ZSBhc3N1bXB0aW9ucywgaW4gcGFydGljdWxhciwgZXhwbGFuYXRpb24gb24gIHdoYXQgdGhlIHVwcGVyIGxpbWl0IGltcGxpZXMgZm9yIGFwcGx5aW5nIEdyb3ZlcuKAmXMgYWxnb3JpdGhtIHRvIGZpbmRpbmcgYSBzeW1tZXRyaWMga2V5LiAgICA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Informational document to explain the upper limits of quantum computing
+    power in the context of cryptography. Analysis is based on very conservative assumptions,
+    in particular, explanation on  what the upper limit implies for applying Grovers
+    algorithm to finding a symmetric key.    '
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: quantum cryptography
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Quantum Safe Cryptography
+    content: Group Report

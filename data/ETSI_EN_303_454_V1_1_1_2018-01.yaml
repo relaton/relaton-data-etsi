@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303454V1.1.12018-01
+id: ETSIEN303454V111201801
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD); Metal and object detection sensors in the frequency
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD); Metal and object detection sensors in the frequency
     range 1 kHz to 148,5 kHz; Harmonised Standard covering the essential requirements
     of article 3.2 of Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50057
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303454/01.01.01_60/en_303454v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 454 V1.1.1 (2018-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50057
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303454/01.01.01_60/en_303454v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 454 V1.1.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 454 V1.1.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Define metal and object sensor devices below 148.5kHz with related performance
+- language: en
+  script: Latn
+  content: Define metal and object sensor devices below 148.5kHz with related performance
     requirements and essential requirements in accordance with the Radio Equipment
     Directive 2014/53/EU Article 3(2). The EN will not cover devices under EN 303
     348 (Inductive loop for hearing impaired in 0- 20kHz) and inductive robotic mowers
@@ -55,20 +64,24 @@ abstract:
     detectors are working below and above 9kHz. This situation could lead to a conflict
     between EN 300330 and EN 303 660. This specific EN may be integrated into a future
     multi-part EN 300330 version.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: inductive
-- content: Measurement
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: inductive
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

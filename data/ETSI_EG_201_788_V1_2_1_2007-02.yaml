@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201788V1.2.12007-02
+id: ETSIEG201788V121200702
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Guidance
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Guidance
     for drafting an ETSI System Reference Document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24737
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201788/01.02.01_60/eg_201788v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 788 V1.2.1 (2007-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24737
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201788/01.02.01_60/eg_201788v010201p.pdf
+docidentifier:
+- content: ETSI EG 201 788 V1.2.1 (2007-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 788 V1.2.1 (2007-02)
 date:
 - type: published
-  value: 2007-02
+  at: 2007-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2007-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'General update of the guidance for drafting System Reference Documents
+- language: en
+  script: Latn
+  content: 'General update of the guidance for drafting System Reference Documents
     in order to better reflect the current practices and to fulfil the needs of CEPT.  This
     should include: Clear statement of the status of the document (e.g approved, preliminary
     information, etc.), general clean up of the Executive summary section to make
@@ -54,19 +63,21 @@ abstract:
     splitting in the case of difference of views, improvement of guidance under ECC
     actions to include timing requirements and amendments to the annexes to give better
     guidance.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRDOC
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: ETSI Guide

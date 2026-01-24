@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRQKD003V2.1.12018-03
+id: ETSIGRQKD003V211201803
+schema_version: v1.4.1
 title:
-- content: Quantum Key Distribution (QKD); Components and Internal Interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47929
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/QKD/001_099/003/02.01.01_60/gr_QKD003v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR QKD 003 V2.1.1 (2018-03)
+- language: en
+  script: Latn
+  content: Quantum Key Distribution (QKD); Components and Internal Interfaces
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47929
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/QKD/001_099/003/02.01.01_60/gr_QKD003v020101p.pdf
+docidentifier:
+- content: ETSI GR QKD 003 V2.1.1 (2018-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR QKD 003 V2.1.1 (2018-03)
 date:
 - type: published
-  value: 2018-03
+  at: 2018-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2018-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item is a preparatory action for the definition of properties
+- language: en
+  script: Latn
+  content: This work item is a preparatory action for the definition of properties
     of components and internal interfaces of QKD Systems. Irrespective of the underlying
     technologies, there are certain devices that appear in most QKD Systems. These
     are e.g. quantum physical devices like photon sources and detectors, or classical
@@ -54,18 +63,18 @@ abstract:
     subject to standardisation. Furthermore, a catalogue of relevant requirements
     for interfaces between components shall be established, to support the upcoming
     definition of internal interfaces.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: Quantum Key Distribution
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Report

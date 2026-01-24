@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300411ed.11995-05
+id: ETSIETS300411ed1199505
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Performance monitoring; Information
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Performance monitoring; Information
     model for the Network Element (NE) view
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1491
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300411/01_60/ets_300411e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 411 ed.1 (1995-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1491
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300411/01_60/ets_300411e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 411 ed.1 (1995-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 411 ed.1 (1995-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transmission Networks Management, Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Agree an information model which describes in object-oriented terms a\r\nmodel
+- language: en
+  script: Latn
+  content: "Agree an information model which describes in object-oriented terms a\r\nmodel
     for management of synchronous digital networks.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: NETWORK
-- content: PERFORMANCE
-- content: SDH
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: SDH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Transmission Networks Management, Performance
+    content: European Telecommunication Standard

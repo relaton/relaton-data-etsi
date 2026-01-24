@@ -1,78 +1,107 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT012V1.1.12018-11
+id: ETSIGRmWT012V111201811
+schema_version: v1.4.1
 title:
-- content: 5G Wireless Backhaul/X-Haul
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52902
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/012/01.01.01_60/gr_mWT012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 012 V1.1.1 (2018-11)
+- language: en
+  script: Latn
+  content: 5G Wireless Backhaul/X-Haul
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52902
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/012/01.01.01_60/gr_mWT012v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 012 V1.1.1 (2018-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 012 V1.1.1 (2018-11)
 date:
 - type: published
-  value: 2018-11
+  at: 2018-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "  \r\n\r\nThe present document provides information about the prominent
+- language: en
+  script: Latn
+  content: "  \r\n\r\nThe present document provides information about the prominent
     5G wireless backhaul/X-Haul scenarios. In addition, it shows how current microwave
     and millimetre wave transmission technologies as well as their foreseen evolution,
     in the pertinent areas of innovation, shall satisfy upcoming 5G access requirements.
     Moreover, it points out the importance of the appropriate regulation and licensing
     to ease 5G wireless backhaul/X-Haul deployments."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: Application
-- content: backhaul
-- content: fronthaul
-- content: microwave
-- content: midhaul
-- content: Millimetre wave
-- content: mWT
-- content: scenarios
-- content: TRANSMISSION
-- content: use case
-- content: X-Haul
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: backhaul
+  - language: en
+    script: Latn
+    content: fronthaul
+  - language: en
+    script: Latn
+    content: microwave
+  - language: en
+    script: Latn
+    content: midhaul
+  - language: en
+    script: Latn
+    content: Millimetre wave
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: scenarios
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: use case
+  - language: en
+    script: Latn
+    content: X-Haul
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Report

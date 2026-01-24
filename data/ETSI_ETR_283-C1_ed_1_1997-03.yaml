@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR283/C1ed.11997-03
+id: ETSIETR283C1ed1199703
+schema_version: v1.4.1
 title:
-- content: Equipment Engineering (EE); Transient voltages at Interface A on telecommunications
+- language: en
+  script: Latn
+  content: Equipment Engineering (EE); Transient voltages at Interface A on telecommunications
     direct current (dc) power distributions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5511
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/283/01_60/etr_283e01p_c1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 283/C1 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5511
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/283/01_60/etr_283e01p_c1p.pdf
+docidentifier:
+- content: ETSI ETR 283/C1 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 283/C1 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To correct formula 6 to include parameter \"l\":\r\nL = l * mu/pi * ln(d/r)\r\naccidentally
+- language: en
+  script: Latn
+  content: "To correct formula 6 to include parameter \"l\":\r\nL = l * mu/pi * ln(d/r)\r\naccidentally
     omitted from original publication.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: POWER SUPPLY
-- content: PROTECTION
-- content: TRANSIENT
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: PROTECTION
+  - language: en
+    script: Latn
+    content: TRANSIENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Technical Report

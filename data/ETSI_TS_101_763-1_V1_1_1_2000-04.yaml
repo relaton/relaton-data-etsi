@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101763-1V1.1.12000-04
+id: ETSITS1017631V111200004
+schema_version: v1.4.1
 title:
-- content: 'Broadband Radio Access Networks (BRAN); HIPERLAN Type 2; Cell based Convergence
+- language: en
+  script: Latn
+  content: 'Broadband Radio Access Networks (BRAN); HIPERLAN Type 2; Cell based Convergence
     Layer; Part 1: Common Part'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6292
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/10176301/01.01.01_60/ts_10176301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 763-1 V1.1.1 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6292
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/10176301/01.01.01_60/ts_10176301v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 763-1 V1.1.1 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 763-1 V1.1.1 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Radio Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the Common Part of the Cell based Convergence Layer.
+- language: en
+  script: Latn
+  content: "Specification of the Common Part of the Cell based Convergence Layer.
     Its task is to map ATM cells into BRAN transport units (LCH) and vice versa. In
     addition, it provides means to setup, release, handover ATM connections via a
     HIPERLAN/2 network.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ATM
-- content: BROADBAND
-- content: HIPERLAN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: HIPERLAN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Broadband Radio Access Networks
+    content: Technical Specification

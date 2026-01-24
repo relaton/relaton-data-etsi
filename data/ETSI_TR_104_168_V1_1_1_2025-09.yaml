@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104168V1.1.12025-09
+id: ETSITR104168V111202509
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Critical Security Controls for Network and Information
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Critical Security Controls for Network and Information
     Security Directive 2 (NIS2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74345
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104168/01.01.01_60/tr_104168v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 168 V1.1.1 (2025-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74345
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104168/01.01.01_60/tr_104168v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 168 V1.1.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 168 V1.1.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This new work item provides a mapping between the Critical Security Controls
+- language: en
+  script: Latn
+  content: This new work item provides a mapping between the Critical Security Controls
     and NIS2 provisions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

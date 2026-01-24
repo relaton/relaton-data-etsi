@@ -1,64 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102967V1.2.12015-11
+id: ETSITR102967V121201511
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS) ; Use cases for dynamic equipment reconfiguration
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45846
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102967/01.02.01_60/tr_102967v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 967 V1.2.1 (2015-11)
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS) ; Use cases for dynamic equipment reconfiguration
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45846
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102967/01.02.01_60/tr_102967v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 967 V1.2.1 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 967 V1.2.1 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RRS Security, Certification & Declaration of Conformity
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision in order to take into account the new RED Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision in order to take into account the new RED Directive
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: RADIO
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RRS Security, Certification & Declaration of Conformity
+    content: Technical Report

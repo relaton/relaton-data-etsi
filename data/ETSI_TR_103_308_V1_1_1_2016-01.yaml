@@ -1,65 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103308V1.1.12016-01
+id: ETSITR103308V111201601
+schema_version: v1.4.1
 title:
-- content: CYBER; Security baseline regarding LI and RD for NFV and related platforms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45886
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103308/01.01.01_60/tr_103308v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 308 V1.1.1 (2016-01)
+- language: en
+  script: Latn
+  content: CYBER; Security baseline regarding LI and RD for NFV and related platforms
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45886
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103308/01.01.01_60/tr_103308v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 308 V1.1.1 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 308 V1.1.1 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGxhd2Z1bCBpbnRlcmNlcHRpb24gY2FwYWJpbGl0eSBpcyBjYXBhYmxlIG9mIGJlaW5nIHZpcnR1YWxpc2VkIGJ1dCB0aGUgbGVnYWwgYW5kIHBoeXNpY2FsIGNoYWxsZW5nZXMgb2YgZG9pbmcgc28gbXVzdCBiZSB0YWtlbiBpbnRvIGFjY291bnQuIFRoZSBpbml0aWFsIHN0dWR5IGlzIGZvY3VzZWQgb24gdGhlIExJIGFzcGVjdHMuVGhlIGNoYWxsZW5nZSBmb3IgYm90aCBMYXdmdWwgSW50ZXJjZXB0aW9uIGFuZCBORlYgYXMgYSBjb21tdW5pdHkgaXMgdGhhdCBpdCBpcyBuZWNlc3NhcnkgdG8gZXN0YWJsaXNoIHRoZSBmdW5kYW1lbnRhbCBzZWN1cml0eSBwcmluY2lwbGVzIGZvciBnZW5lcmljIHBsYXRmb3JtcyB1cG9uIHdoaWNoIHRoZSByZWxhdGVkIGdyb3VwcyBjYW4gYnVpbGQuIFRoZXJlIGlzIGFuIHVyZ2VudCByZXF1aXJlbWVudCB0byBlc3RhYmxpc2ggYSBtaW5pbXVtIHNldCBvZiBzZWN1cml0eSBwcmluY2lwbGVzIGZvciBnZW5lcmljIHRlbGVjb21tdW5pY2F0aW9ucyBwbGF0Zm9ybXMgdGhhdCB3aWxsIGFsbG93IHRoZSB2aXJ0dWFsaXNlZCBuZXR3b3JrIGZ1bmN0aW9ucyB0byB1dGlsaXNlIHRoZSBmZWF0dXJlcyBuZWNlc3NhcnkgdG8gYWZmb3JkIHRoZW0gYXBwcm9wcmlhdGUgcHJvdGVjdGlvbiBhbmQgYXQgdGhlIHNhbWUgdGltZSBhbGxvdyB0byB1bmRlcnRha2UgYXBwcm9wcmlhdGUgYWN0aXZpdGllcyAoTEksIGZyYXVkIG1hbmFnZW1lbnQsIGN5YmVyIGRlZmVuc2UpLiBFc3RhYmxpc2hpbmcgc3VjaCBhIGJhc2VsaW5lIHdpbGwgaGVscCB0aGUgaW5kdXN0cnkgYXMgYSB3aG9sZSB0byBiZSBiZXR0ZXIgcHJvdGVjdGVkIGFnYWluc3QgQ3liZXIgdGhyZWF0cy5UaGVyZSBpcyBubyBvdmVybGFwIHdpdGggb3RoZXIgd29yayBlLmcuIFNFQ0FNIOKAkyBpbiBmYWN0IHRoZSB3b3JrIGlzIGludGVuZGVkIHRvIGJlIGNvbXBsZW1lbnRhcnkuIFRoZSBmb2N1cyBvZiB0aGlzIHdvcmsgaXRlbSBpcyBvbiB0aGUgTkZWIGluZnJhc3RydWN0dXJlIGFuZCBub3QgdmlydHVhbCBuZXR3b3JrIGZ1bmN0aW9ucy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The lawful interception capability is capable of being virtualised but
+    the legal and physical challenges of doing so must be taken into account. The
+    initial study is focused on the LI aspects.The challenge for both Lawful Interception
+    and NFV as a community is that it is necessary to establish the fundamental security
+    principles for generic platforms upon which the related groups can build. There
+    is an urgent requirement to establish a minimum set of security principles for
+    generic telecommunications platforms that will allow the virtualised network functions
+    to utilise the features necessary to afford them appropriate protection and at
+    the same time allow to undertake appropriate activities (LI, fraud management,
+    cyber defense). Establishing such a baseline will help the industry as a whole
+    to be better protected against Cyber threats.There is no overlap with other work
+    e.g. SECAM  in fact the work is intended to be complementary. The focus of this
+    work item is on the NFV infrastructure and not virtual network functions.
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Lawful Interception
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

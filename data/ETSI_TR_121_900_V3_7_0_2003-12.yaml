@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR121900V3.7.02003-12
+id: ETSITR121900V370200312
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); Technical Specification Group working methods
     (3GPP TR 21.900 version 3.7.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20088
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121900/03.07.00_60/tr_121900v030700p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 121 900 V3.7.0 (2003-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20088
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121900/03.07.00_60/tr_121900v030700p.pdf
+docidentifier:
+- content: ETSI TR 121 900 V3.7.0 (2003-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 121 900 V3.7.0 (2003-12)
 date:
 - type: published
-  value: 2003-12
+  at: 2003-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Technical Specification Group - Services and System Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.7.0
-revdate: 2003-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-22
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-22
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Technical Specification Group - Services and System Aspects
+    content: Technical Report

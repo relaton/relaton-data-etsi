@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101601V1.2.12013-02
+id: ETSITS101601V121201302
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and radio spectrum matters (ERM); The specification
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and radio spectrum matters (ERM); The specification
     and implementation of design changes to interrogators and specification of the
     test plan for the Preliminary Tests and the Trial; Modification of interrogators
     and specification of test plans for the Preliminary Tests and Trial
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41245
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101601/01.02.01_60/ts_101601v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 601 V1.2.1 (2013-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41245
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101601/01.02.01_60/ts_101601v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 601 V1.2.1 (2013-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 601 V1.2.1 (2013-02)
 date:
 - type: published
-  value: 2013-02
+  at: 2013-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of the modifications to the hardware and firmware of two
+- language: en
+  script: Latn
+  content: Specification of the modifications to the hardware and firmware of two
     interrogators to be used in the tests. Specification of the acceptance tests for
     the modified interrogators. Preparation of the test plan for the preliminary tests
     and the trial at an operational site.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DAA
-- content: ER-GSM
-- content: RADIO
-- content: RFID
+- taxon:
+  - language: en
+    script: Latn
+    content: DAA
+  - language: en
+    script: Latn
+    content: ER-GSM
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: Technical Specification

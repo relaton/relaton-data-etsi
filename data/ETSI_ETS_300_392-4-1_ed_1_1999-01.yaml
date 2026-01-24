@@ -1,60 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300392-4-1ed.11999-01
+id: ETSIETS30039241ed1199901
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 4: Gateways
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 4: Gateways
     basic operation; Sub-part 1: Public Switched Telephone Network (PSTN)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2375
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003920401/01_60/ets_3003920401e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 392-4-1 ed.1 (1999-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2375
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003920401/01_60/ets_3003920401e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 392-4-1 ed.1 (1999-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 392-4-1 ed.1 (1999-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the PSTN gateway to provide Public services to TETRA users.\r\n
+- language: en
+  script: Latn
+  content: "To define the PSTN gateway to provide Public services to TETRA users.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PSTN
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network aspects
+    content: European Telecommunication Standard

@@ -1,67 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101392V6.0.01998-10
+id: ETSITS101392V600199810
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
     interworking between ISDN supplementary services; Application Service Element
     (ASE) and Mobile Application Part (MAP) protocols (GSM 09.13 version 6.0.0 Release
     1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6805
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101392/06.00.00_60/ts_101392v060000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 392 V6.0.0 (1998-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6805
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101392/06.00.00_60/ts_101392v060000p.pdf
+docidentifier:
+- content: ETSI TS 101 392 V6.0.0 (1998-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 392 V6.0.0 (1998-10)
 date:
 - type: published
-  value: 1998-10
+  at: 1998-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.0
-revdate: 1998-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgVGVjaG5pY2FsIFNwZWNpZmljYXRpb24gaXMgdG8gcHJvdmlkZSBhIHNwZWNpZmljYXRpb24gZm9yIGludGVyd29ya2luZyBiZXR3ZWVuIHRoZSBJU0ROIEFwcGxpY2F0aW9uIFNlcnZpY2UgRWxlbWVudCAoQVNFKSBwcm90b2NvbCBmb3Igc3VwcGxlbWVudGFyeSBzZXJ2aWNlcyBhbmQgdGhlIE1vYmlsZSBBcHBsaWNhdGlvbiBQYXJ0IChNQVApIHByb3RvY29sIG9uIE1BUCBELWludGVyZmFjZSBwcm90b2NvbCBmb3IgaGFuZGxpbmcgb2Ygc3VwcGxlbWVudGFyeSBzZXJ2aWNlcyB3aXRoaW4gdGhlIGRpZ2l0YWwgY2VsbHVsYXIgdGVsZWNvbW11bmljYXRpb25zIHN5c3RlbSAoUGhhc2XCoDIrKS4gVGhpcyB2ZXJzaW9uIG9mIHRoZSBzcGVjaWZpY2F0aW9uIGluY2x1ZGVzIHRoZSBpbnRlcndvcmtpbmcgZm9yIHRoZSBDYWxsIENvbXBsZXRpb24gdG8gQnVzeSBTdWJzY3JpYmVyIChDQ0JTKSBzZXJ2aWNlIGJldHdlZW4gdGhlIElTRE4gQ0NCUy1BU0UgYW5kIE1BUC4gDQpUaGUgTUFQIHByb3RvY29sIGZvciBDQ0JTIHNlcnZpY2UgaXMgc3BlY2lmaWVkIGluIEdTTSAwOS4wMi4gVGhlIElTRE4gQ0NCUy1BU0UgcHJvdG9jb2wgaXMgc3BlY2lmaWVkIGluIEVUUyAzMDAgMzU2LTE4LiBUaGUgSVNETiBDQ0JTLUFTRSBwcm90b2NvbCBpcyBhbHNvIGNvbW1vbmx5IHJlZmVycmVkIHRvIGFzIHRoZSBTU0FQIHByb3RvY29sIGluIEdTTSAwMy45My4gVGhpcyBzcGVjaWZpY2F0aW9uIGNsYXJpZmllcyB0aGUgaW50ZXJ3b3JraW5nIHdpdGhpbiB0aGUgSExSIGJldHdlZW4gdGhlc2UgcHJvdG9jb2xzIGZvciB0aGUgQ2FsbCBDb21wbGV0aW9uIHRvIEJ1c3kgU3Vic2NyaWJlciAoQ0NCUykgc2VydmljZS4NClNlY3Rpb24gNCBkZXNjcmliZXMgdGhlIG1hcHBpbmcgYmV0d2VlbiBNQVAgYXBwbGljYXRpb24gbGF5ZXIgbWVzc2FnZXMgYW5kIFNTQVAgYXBwbGljYXRpb24gbGF5ZXIgbWVzc2FnZXMgDQpTZWN0aW9uIDUgZGVzY3JpYmVzIHRoZSBtYXBwaW5nIGJldHdlZW4gTUFQIG1lc3NhZ2UgcGFyYW1ldGVycyBhbmQgU1NBUCBtZXNzYWdlIHBhcmFtZXRlcnMuDQpTZWN0aW9uIDYgZGVzY3JpYmVzIHRoZSBTQ0NQIGxheWVyIGFkZHJlc3NpbmcgZm9yIG1lc3NhZ2VzIG9uIHRoZSBTU0FQIGludGVyZmFjZS4gSXQgYWxzbyBkZXNjcmliZXMgdGhlIG1hcHBpbmcgb2YgdGhlIG1lc3NhZ2VzIGF0IHRoZSBUQyB0cmFuc2FjdGlvbiBzdWJsYXllciBiZXR3ZWVuIHRoZSBNQVAgRCBhbmQgU1NBUCBpbnRlcmZhY2VzLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this Technical Specification is to provide a specification
+    for interworking between the ISDN Application Service Element (ASE) protocol for
+    supplementary services and the Mobile Application Part (MAP) protocol on MAP D-interface
+    protocol for handling of supplementary services within the digital cellular telecommunications
+    system (Phase2+). This version of the specification includes the interworking
+    for the Call Completion to Busy Subscriber (CCBS) service between the ISDN CCBS-ASE
+    and MAP. \r\nThe MAP protocol for CCBS service is specified in GSM 09.02. The
+    ISDN CCBS-ASE protocol is specified in ETS 300 356-18. The ISDN CCBS-ASE protocol
+    is also commonly referred to as the SSAP protocol in GSM 03.93. This specification
+    clarifies the interworking within the HLR between these protocols for the Call
+    Completion to Busy Subscriber (CCBS) service.\r\nSection 4 describes the mapping
+    between MAP application layer messages and SSAP application layer messages \r\nSection
+    5 describes the mapping between MAP message parameters and SSAP message parameters.\r\nSection
+    6 describes the SCCP layer addressing for messages on the SSAP interface. It also
+    describes the mapping of the messages at the TC transaction sublayer between the
+    MAP D and SSAP interfaces.\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

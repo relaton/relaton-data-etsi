@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103844V1.1.12023-11
+id: ETSITR103844V111202311
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Digital Twins and Standardization Opportunities in ETSI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63608
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103844/01.01.01_60/tr_103844v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 844 V1.1.1 (2023-11)
+- language: en
+  script: Latn
+  content: SmartM2M; Digital Twins and Standardization Opportunities in ETSI
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63608
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103844/01.01.01_60/tr_103844v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 844 V1.1.1 (2023-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 844 V1.1.1 (2023-11)
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "With reference to Digital Twins:\r\n-Analysis the major characteristics
+- language: en
+  script: Latn
+  content: "With reference to Digital Twins:\r\n-Analysis the major characteristics
     and architectures \r\n-Identification major functionalities, \r\n-selection of
     the candidate communication functionalities for standardization\r\n-Collection,
     identification and Definition of uses cases for IoT and in particular industrial
     IoT\r\n-Identification of potential requirements"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Digital Twins
-- content: IoT
-- content: oneM2M
-- content: ontology
+- taxon:
+  - language: en
+    script: Latn
+    content: Digital Twins
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

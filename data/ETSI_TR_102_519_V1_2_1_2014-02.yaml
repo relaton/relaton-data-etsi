@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102519V1.2.12014-02
+id: ETSITR102519V121201402
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Lawful Interception of public Wireless LAN Internet
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Lawful Interception of public Wireless LAN Internet
     Access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43832
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102519/01.02.01_60/tr_102519v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 519 V1.2.1 (2014-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43832
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102519/01.02.01_60/tr_102519v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 519 V1.2.1 (2014-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 519 V1.2.1 (2014-02)
 date:
 - type: published
-  value: 2014-02
+  at: 2014-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2014-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision according to the CR process.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision according to the CR process.
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: INTERNET
-- content: IP
-- content: Lawful Interception
-- content: SECURITY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

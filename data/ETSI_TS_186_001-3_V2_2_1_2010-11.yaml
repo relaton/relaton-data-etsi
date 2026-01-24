@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186001-3V2.2.12010-11
+id: ETSITS1860013V221201011
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Network Integration Testing; Part 3: Test Suite
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Network Integration Testing; Part 3: Test Suite
     Structure and Test Purposes (TSS&TP) for SIP-SIP'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34186
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600103/02.02.01_60/ts_18600103v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 001-3 V2.2.1 (2010-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34186
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18600103/02.02.01_60/ts_18600103v020201p.pdf
+docidentifier:
+- content: ETSI TS 186 001-3 V2.2.1 (2010-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 001-3 V2.2.1 (2010-11)
 date:
 - type: published
-  value: 2010-11
+  at: 2010-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2010-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update of Network Integration Testing (NIT) test purposes taking into
+- language: en
+  script: Latn
+  content: "Update of Network Integration Testing (NIT) test purposes taking into
     account the results from the validation sessions against IMS core network equipment\r\n\r\nPart
     3: Test Suite Structure and Test Purposes (TSS&TP)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: SIP
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

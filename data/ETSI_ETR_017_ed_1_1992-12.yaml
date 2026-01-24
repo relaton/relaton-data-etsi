@@ -1,61 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR017ed.11992-12
+id: ETSIETR017ed1199212
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Requirements for the attachment of Data Terminal
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Requirements for the attachment of Data Terminal
     Equipment comprising CCITT V. series type interfaces to data circuit-terminating
     equipment for low and medium data signalling rates
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=170
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/017/01_60/etr_017e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 017 ed.1 (1992-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=170
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/017/01_60/etr_017e01p.pdf
+docidentifier:
+- content: ETSI ETR 017 ed.1 (1992-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 017 ed.1 (1992-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: General Terminal  Access Requirements
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Common technical requirements for attachment to V-series interfaces\r\n
+- language: en
+  script: Latn
+  content: "Common technical requirements for attachment to V-series interfaces\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CTE
-- content: DTE
-- content: RATE
+- taxon:
+  - language: en
+    script: Latn
+    content: CTE
+  - language: en
+    script: Latn
+    content: DTE
+  - language: en
+    script: Latn
+    content: RATE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: General Terminal  Access Requirements
+    content: ETSI Technical Report

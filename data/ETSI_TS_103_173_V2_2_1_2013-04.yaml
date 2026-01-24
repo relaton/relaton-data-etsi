@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103173V2.2.12013-04
+id: ETSITS103173V221201304
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); CAdES Baseline Profile
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41927
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103173/02.02.01_60/ts_103173v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 173 V2.2.1 (2013-04)
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); CAdES Baseline Profile
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41927
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103173/02.02.01_60/ts_103173v020201p.pdf
+docidentifier:
+- content: ETSI TS 103 173 V2.2.1 (2013-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 173 V2.2.1 (2013-04)
 date:
 - type: published
-  value: 2013-04
+  at: 2013-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2013-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision to CAdES profile to use new archive time-stamp v3 and ats-hash-index
+- language: en
+  script: Latn
+  content: Revision to CAdES profile to use new archive time-stamp v3 and ats-hash-index
     attributes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CAdES
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

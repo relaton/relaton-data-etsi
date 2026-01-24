@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202196-5V1.2.12005-02
+id: ETSIES2021965V121200502
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Application Programming Interface (API); Test
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Application Programming Interface (API); Test
     Suite Structure and Test Purposes (TSS&TP); Part 5: User interactions SCF (Parlay
     3)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19620
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202100_202199/20219605/01.02.01_60/es_20219605v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 196-5 V1.2.1 (2005-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19620
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202100_202199/20219605/01.02.01_60/es_20219605v010201p.pdf
+docidentifier:
+- content: ETSI ES 202 196-5 V1.2.1 (2005-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 196-5 V1.2.1 (2005-02)
 date:
 - type: published
-  value: 2005-02
+  at: 2005-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2005-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Produce updated test specification for ETSI OSA, V1.1.1.\r\nTest specification
+- language: en
+  script: Latn
+  content: "Produce updated test specification for ETSI OSA, V1.1.1.\r\nTest specification
     to cover application side interfaces."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: OSA
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Testing
+    content: ETSI Standard

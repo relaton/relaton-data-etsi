@@ -1,63 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS136423V11.9.02015-04
+id: ETSITS136423V1190201504
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 Application
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 Application
     Protocol (X2AP) (3GPP TS 36.423 version 11.9.0 Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47001
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/136400_136499/136423/11.09.00_60/ts_136423v110900p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 136 423 V11.9.0 (2015-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47001
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/136400_136499/136423/11.09.00_60/ts_136423v110900p.pdf
+docidentifier:
+- content: ETSI TS 136 423 V11.9.0 (2015-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 136 423 V11.9.0 (2015-04)
 date:
 - type: published
-  value: 2015-04
+  at: 2015-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.9.0
-revdate: 2015-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-67
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-67
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

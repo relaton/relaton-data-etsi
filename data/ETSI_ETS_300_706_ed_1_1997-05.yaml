@@ -1,60 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300706ed.11997-05
+id: ETSIETS300706ed1199705
+schema_version: v1.4.1
 title:
-- content: Enhanced Teletext specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3303
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300706/01_60/ets_300706e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 706 ed.1 (1997-05)
+- language: en
+  script: Latn
+  content: Enhanced Teletext specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3303
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300706/01_60/ets_300706e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 706 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 706 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Enhanced Teletext specification.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Enhanced Teletext specification.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DATA
-- content: TELETEXT
-- content: TRANSMISSION
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Telecommunication Standard

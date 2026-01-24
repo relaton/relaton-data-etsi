@@ -1,63 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300683ed.11997-06
+id: ETSIETS300683ed1199706
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for Short Range Devices (SRD) operating on frequencies between 9 kHz
     and 25 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1828
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300683/01_60/ets_300683e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 683 ed.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1828
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300683/01_60/ets_300683e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 683 ed.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 683 ed.1 (1997-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for short range equipment.\r\nThe ETS together
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for short range equipment.\r\nThe ETS together
     with ETS 300 220-1\r\nmay be used to demonstrate compliance with the requirements\r\nof
     the EMC Directive 89/336/EEC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: RADIO
-- content: SHORT RANGE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

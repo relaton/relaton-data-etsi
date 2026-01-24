@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201187V1.1.11999-03
+id: ETSIES201187V111199903
+schema_version: v1.4.1
 title:
-- content: 2-wire analogue voice band interfaces; Loop Disconnect (LD) dialling specific
+- language: en
+  script: Latn
+  content: 2-wire analogue voice band interfaces; Loop Disconnect (LD) dialling specific
     requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6301
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201100_201199/201187/01.01.01_60/es_201187v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 187 V1.1.1 (1999-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6301
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201100_201199/201187/01.01.01_60/es_201187v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 187 V1.1.1 (1999-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 187 V1.1.1 (1999-03)
 date:
 - type: published
-  value: 1999-03
+  at: 1999-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Standard (ES) specifies the technical characteristics (electrical
+- language: en
+  script: Latn
+  content: "This ETSI Standard (ES) specifies the technical characteristics (electrical
     interface requirements) to be provided by Terminal Equipment (TE) to be connected
     to a 2-wire analogue interface of the PSTN at which network addressing is intended
     to be performed by means of loop disconnect signalling, insofar as they are particular
     to the loop disconnect signalling function.\r\nReference document: prTBR21"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ACCESS
-- content: ANALOGUE
-- content: PSTN
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: ETSI Standard

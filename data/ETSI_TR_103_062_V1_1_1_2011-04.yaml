@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103062V1.1.12011-04
+id: ETSITR103062V111201104
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS) Use Cases and Scenarios for Software
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS) Use Cases and Scenarios for Software
     Defined Radio (SDR) Reference Architecture for Mobile Device
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34132
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103062/01.01.01_60/tr_103062v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 062 V1.1.1 (2011-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34132
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103062/01.01.01_60/tr_103062v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 062 V1.1.1 (2011-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 062 V1.1.1 (2011-04)
 date:
 - type: published
-  value: 2011-04
+  at: 2011-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SA - System Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this work item is to define a refined set of scenarios and
+- language: en
+  script: Latn
+  content: "The scope of this work item is to define a refined set of scenarios and
     requirements beyond those indicated in ETSI TR 102 680. In particular, this work
     item will prepare further work within Working Group 2 on the role of the various
     building blocks of the SDR Reference Architecture for Mobile Device as defined
@@ -69,20 +78,24 @@ abstract:
     mobile device, and device end user, and makes selection of radio applications
     according to these policies, preferences, and information available; \r\nNetworking
     stack user, which uses the SDR radio computer to transmit and receive user data."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CRS
-- content: RADIO
-- content: SDR
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDR
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: SA - System Aspects
+    content: Technical Report

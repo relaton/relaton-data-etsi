@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103125V1.1.12012-11
+id: ETSITR103125V111201211
+schema_version: v1.4.1
 title:
-- content: CLOUD; SLAs for Cloud services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38854
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103125/01.01.01_60/tr_103125v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 125 V1.1.1 (2012-11)
+- language: en
+  script: Latn
+  content: CLOUD; SLAs for Cloud services
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38854
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103125/01.01.01_60/tr_103125v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 125 V1.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 125 V1.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CLOUD
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The document aims to review previous work on SLAs including ETSI guides
+- language: en
+  script: Latn
+  content: 'The document aims to review previous work on SLAs including ETSI guides
     from TC USER and contributions from EuroCIO, etc, and to derive potential requirements
     for cloud specific SLA standards '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: SLA
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: SLA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: CLOUD
+    content: Technical Report

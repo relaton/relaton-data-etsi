@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103277V1.1.12014-11
+id: ETSITR103277V111201411
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Coding Guidelines for
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Coding Guidelines for
     TTCN-3 Libraries Based on the Example of the SIP and IMS TTCN-3 Libraries
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42981
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103277/01.01.01_60/tr_103277v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 277 V1.1.1 (2014-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42981
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103277/01.01.01_60/tr_103277v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 277 V1.1.1 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 277 V1.1.1 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update required to take into account changes in TTCN-3 libraries introduced
+- language: en
+  script: Latn
+  content: "Update required to take into account changes in TTCN-3 libraries introduced
     by TC MTS.  Alignment of SIP and IMS TTCN-3 libraries is urgently required to
     make consistent the test specifications already produced.  \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: INT
-- content: SIP
-- content: TTCN-3
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: INT
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TTCN-3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Report

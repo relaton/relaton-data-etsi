@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201915-9V1.4.12003-07
+id: ETSIES2019159V141200307
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Application Programming Interface (API); Part
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Application Programming Interface (API); Part
     9: Generic Messaging SCF (Parlay 3)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17750
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201900_201999/20191509/01.04.01_60/es_20191509v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 915-9 V1.4.1 (2003-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17750
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201900_201999/20191509/01.04.01_60/es_20191509v010401p.pdf
+docidentifier:
+- content: ETSI ES 201 915-9 V1.4.1 (2003-07)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 915-9 V1.4.1 (2003-07)
 date:
 - type: published
-  value: 2003-07
+  at: 2003-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Applications Interfaces for Service Providers and Network Operators
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2003-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Maintenance update of ES 201 915 v.1.3.1.  Updated document will also
+- language: en
+  script: Latn
+  content: "Maintenance update of ES 201 915 v.1.3.1.  Updated document will also
     be known as Parlay 3.3. \r\nOnly those parts requiring modification will be updated
     ( most parts require maintenance fixes )"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IDL
-- content: OSA
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IDL
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Applications Interfaces for Service Providers and Network Operators
+    content: ETSI Standard

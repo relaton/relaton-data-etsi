@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129171V11.4.02016-01
+id: ETSITS129171V1140201601
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; Location Services (LCS); LCS Application
     Protocol (LCS-AP) between the Mobile Management Entity (MME) and Evolved Serving
     Mobile Location Centre (E-SMLC); SLs interface (3GPP TS 29.171 version 11.4.0
     Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48125
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129171/11.04.00_60/ts_129171v110400p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 171 V11.4.0 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48125
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129171/11.04.00_60/ts_129171v110400p.pdf
+docidentifier:
+- content: ETSI TS 129 171 V11.4.0 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 171 V11.4.0 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.4.0
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-70
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-70
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+    content: Technical Specification

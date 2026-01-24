@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102089V1.1.11998-12
+id: ETSITR102089V111199812
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Selection of a specific terminal
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Selection of a specific terminal
     or terminal function
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6901
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102089/01.01.01_60/tr_102089v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 089 V1.1.1 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6901
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102089/01.01.01_60/tr_102089v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 089 V1.1.1 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 089 V1.1.1 (1998-12)
 date:
 - type: published
-  value: 1998-12
+  at: 1998-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TR proposes the implementation of services which allow the selection
+- language: en
+  script: Latn
+  content: "This TR proposes the implementation of services which allow the selection
     of a specific called terminal based on information provided by the calling party
     or from the dialled number. The work is based on TDs presented during the ATA#4
     meeting.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MSN
-- content: PROTOCOL
-- content: PSTN
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: MSN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Report

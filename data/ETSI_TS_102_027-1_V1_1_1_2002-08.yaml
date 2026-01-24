@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102027-1V1.1.12002-08
+id: ETSITS1020271V111200208
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Technology Compliance Specification; Draft IETF SIP RFC2543bis-04; Part 1: Test
     Suite Structure and Test Purposes (TSS&TP) specification;'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15114
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10202701/01.01.01_60/ts_10202701v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 027-1 V1.1.1 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15114
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10202701/01.01.01_60/ts_10202701v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 027-1 V1.1.1 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 027-1 V1.1.1 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Verification, demonstration and implementation matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Design of Test Suite Structure and implementation of Test Purposes for
+- language: en
+  script: Latn
+  content: Design of Test Suite Structure and implementation of Test Purposes for
     conformance testing of an draft IETF SIP RFC2543bis-04 protocol implementation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: SIP
-- content: TELEPHONY
-- content: TESTING
-- content: TSS&amp;TP
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TIPHON Verification, demonstration and implementation matters
+    content: Technical Specification

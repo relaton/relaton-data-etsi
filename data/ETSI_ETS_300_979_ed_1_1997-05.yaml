@@ -1,68 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300979ed.11997-05
+id: ETSIETS300979ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; In-band control of remote transcoders
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; In-band control of remote transcoders
     and rate adaptors for half rate traffic channels (GSM 08.61 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4980
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300979/01_60/ets_300979e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 979 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4980
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300979/01_60/ets_300979e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 979 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 979 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) describes the protocol\r\nbetween
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) describes the protocol\r\nbetween
     the Base Transceiver Station (BTS) and the remote Transcoder/R\r\nate Adaption
     Unit (TRAU) for speech and data on half rate traffic chan\r\nnel (TCH/H).\r\nThe
     protocol is specified for 8 kbit/s and 16 kbit/s submultiplexing s\r\ncheme.\r\nThis
     ETS should be considered together with the GSM 06 series, GSM 04.\r\n21 (Rate
     Adaption on the MS BSS Interface) and GSM 08.20 (Rate Adaptio\r\nn on the BTS/MSC
     Interface).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADAPTION
-- content: CODING
-- content: CONTROL
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: RATE
+- taxon:
+  - language: en
+    script: Latn
+    content: ADAPTION
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: RATE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

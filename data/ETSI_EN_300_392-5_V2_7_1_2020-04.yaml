@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300392-5V2.7.12020-04
+id: ETSIEN3003925V271202004
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D) and Direct Mode
     Operation (DMO); Part 5: Peripheral Equipment Interface (PEI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56351
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039205/02.07.01_60/en_30039205v020701p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 392-5 V2.7.1 (2020-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56351
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039205/02.07.01_60/en_30039205v020701p.pdf
+docidentifier:
+- content: ETSI EN 300 392-5 V2.7.1 (2020-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 392-5 V2.7.1 (2020-04)
 date:
 - type: published
-  value: 2020-04
+  at: 2020-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.7.1
-revdate: 2020-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Publication of TS 100 392-5 as an EN, as requested by TB TCCE.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Publication of TS 100 392-5 as an EN, as requested by TB TCCE.
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: INTERFACE
-- content: TETRA
-- content: V+D
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: European Standard

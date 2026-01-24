@@ -1,67 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300646-1ed.11997-05
+id: ETSIETS3006461ed1199705
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Digital
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Digital
     cellular telecommunications system (Phase 2); Application of ISDN User Part (ISUP)
     version 2 for the ISDN-Public Land Mobile Network (PLMN) signalling interface;
     Part 1: Protocol specification (GSM 09.12 version 4.1.1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3516
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30064601/01_60/ets_30064601e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 646-1 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3516
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30064601/01_60/ets_30064601e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 646-1 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 646-1 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Application of ISUP v2 for the ISDN-PLMN signalling interface.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Application of ISUP v2 for the ISDN-PLMN signalling interface.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: DCS
-- content: GSM
-- content: INTERWORKING
-- content: ISDN
-- content: ISUP
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: DCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Signalling
+    content: European Telecommunication Standard

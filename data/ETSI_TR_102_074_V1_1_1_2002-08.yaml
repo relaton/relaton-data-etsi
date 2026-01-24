@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102074V1.1.12002-08
+id: ETSITR102074V111200208
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Mixed mode operation in MultiPoint (MP) Time Division
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Mixed mode operation in MultiPoint (MP) Time Division
     Multiple Access (TDMA) Fixed Wireless Access (FWA) systems; Intersystems co-existence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12925
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102074/01.01.01_60/tr_102074v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 074 V1.1.1 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12925
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102074/01.01.01_60/tr_102074v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 074 V1.1.1 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 074 V1.1.1 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To further assess the rationale (pros/cons) and status of  mixed  mode
+- language: en
+  script: Latn
+  content: "To further assess the rationale (pros/cons) and status of  mixed  mode
     operation   in P-MP systems (with the specific example of  EN 301 213-3 most stringent
     mask requirement in mind ), \r\nEnvisage various situations, produce conclusions
     and recommendations"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FWA
-- content: MODULATION
-- content: POINT-TO-MULTIPOINT
-- content: TDMA
+- taxon:
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: MODULATION
+  - language: en
+    script: Latn
+    content: POINT-TO-MULTIPOINT
+  - language: en
+    script: Latn
+    content: TDMA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

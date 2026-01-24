@@ -1,66 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300061-4ed.11997-05
+id: ETSIETS3000614ed1199705
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Subaddressing (SUB) supplementary
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Subaddressing (SUB) supplementary
     service; Digital Subscriber Signalling System No. one (DSS1) protocol; Part 4:
     Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information
     for Testing (PIXIT) proforma specification for the user'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3360
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30006104/01_60/ets_30006104e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 061-4 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3360
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30006104/01_60/ets_30006104e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 061-4 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 061-4 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Conformance test specification for the DSS1 protocol for the\r\nSubaddressing
+- language: en
+  script: Latn
+  content: "Conformance test specification for the DSS1 protocol for the\r\nSubaddressing
     (SUB)\r\nSupplementary service.\r\n- including PIXIT proforma\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: DSS1
-- content: ISDN
-- content: PIXIT
-- content: SUB
-- content: SUPPLEMENTARY SERVICE
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SUB
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

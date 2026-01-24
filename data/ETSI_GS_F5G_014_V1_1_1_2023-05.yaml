@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSF5G014V1.1.12023-05
+id: ETSIGSF5G014V111202305
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); F5G Network Architecture Release
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); F5G Network Architecture Release
     2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64321
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/014/01.01.01_60/gs_F5G014v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS F5G 014 V1.1.1 (2023-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64321
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/014/01.01.01_60/gs_F5G014v010101p.pdf
+docidentifier:
+- content: ETSI GS F5G 014 V1.1.1 (2023-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS F5G 014 V1.1.1 (2023-05)
 date:
 - type: published
-  value: 2023-05
+  at: 2023-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 5th Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gd2lsbCBzcGVjaWZ5IHRoZSBlbmQgdG8gZW5kIG5ldHdvcmsgYXJjaGl0ZWN0dXJlcywgZmVhdHVyZXMgYW5kIHJlbGF0ZWQgbmV0d29yayBkZXZpY2VzL2VsZW1lbnRz4oCZIHJlcXVpcmVtZW50cyBmb3IgRjVHLCBpbmNsdWRpbmcgb24tcHJlbWlzZXMsIEFjY2VzcywgSVAgYW5kIFRyYW5zcG9ydCBOZXR3b3Jrcy4gVGhpcyBkb2N1bWVudCB3aWxsIGRlZmluZSBuZXcgZmVhdHVyZXMgYW5kIGVuaGFuY2UgZXhpc3Rpbmcgb25lcy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This Work Item will specify the end to end network architectures, features
+    and related network devices/elements requirements for F5G, including on-premises,
+    Access, IP and Transport Networks. This document will define new features and
+    enhance existing ones.
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: F5G
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: F5G
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: 5th Generation Fixed Network
+    content: Group Specification

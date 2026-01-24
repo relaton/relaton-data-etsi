@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101220V11.2.02017-11
+id: ETSITS101220V1120201711
+schema_version: v1.4.1
 title:
-- content: Smart Cards; ETSI numbering system for telecommunication application providers
+- language: en
+  script: Latn
+  content: Smart Cards; ETSI numbering system for telecommunication application providers
     (Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54014
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101220/11.02.00_60/ts_101220v110200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 220 V11.2.0 (2017-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54014
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101220/11.02.00_60/ts_101220v110200p.pdf
+docidentifier:
+- content: ETSI TS 101 220 V11.2.0 (2017-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 220 V11.2.0 (2017-11)
 date:
 - type: published
-  value: 2017-11
+  at: 2017-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.2.0
-revdate: 2017-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Implementation of CRs after SCP #80'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Implementation of CRs after SCP #80'
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: ID
-- content: SMART CARD
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

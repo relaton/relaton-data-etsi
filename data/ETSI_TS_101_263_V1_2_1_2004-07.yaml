@@ -1,70 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101263V1.2.12004-07
+id: ETSITS101263V121200407
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Passive optical components; Fibre optic
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Passive optical components; Fibre optic
     mechanical splices for single-mode optical fibre communications systems for indoor
     and outdoor applications; Common requirements and conformance testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20525
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101263/01.02.01_60/ts_101263v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 263 V1.2.1 (2004-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20525
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101263/01.02.01_60/ts_101263v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 263 V1.2.1 (2004-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 263 V1.2.1 (2004-07)
 date:
 - type: published
-  value: 2004-07
+  at: 2004-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Cabled fibres and passive optical components
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    dGVzdCBhbmQgbWVhc3VyZW1lbnQgcHJvY2VkdXJlcyBhY2NvcmRpbmcgdG8gbm9ybSByZWZlcmVuY2VzIDYxMzAwIHNlcmllcy4gQ29uc2lkZXJhdGlvbiBvbmx5IG9mIGRpc3BlcnNpb24gdW5zaGlmdGVkIGZpYnJlIElFQyA2MDc5My0yLTUwIEIxLjEuIE5lZWQgZm9yIHJlZmVyZW5jZSB0byBPcHRpY2FsIGludGVyZmFjZSBzaGFsbCBiZSBjbGFyaWZpZWQuIEluY2x1ZGUgcmVmZXJlbmNlIHRvIElFQyA2MTMwMC0zLTI4OiBUcmFuc2llbnQgbG9zcyB0byBiZSBtZWFzdXJlZCAgaW4g4oCcNC40IFZpYnJhdGlvbiB0ZXN04oCdDQoNClRvIHN0dWR5IGFuZCBwcmVwYXJlIGZvciBhbiBFUyBvbiBtZWNoYW5pY2FsIHNwbGljZXMgZm9yIG1vbm9tb2RlDQpvcHRpY2FsIGZpYnJlIGNvbW11bmljYXRpb25zIHN5c3RlbXMu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "test and measurement procedures according to norm references 61300 series.
+    Consideration only of dispersion unshifted fibre IEC 60793-2-50 B1.1. Need for
+    reference to Optical interface shall be clarified. Include reference to IEC 61300-3-28:
+    Transient loss to be measured  in 4.4 Vibration test\r\n\r\nTo study and prepare
+    for an ES on mechanical splices for monomode\r\noptical fibre communications systems."
+status:
+  stage: Published
 keyword:
-- content: FIBRE
-- content: MONOMODE
-- content: OPTICAL
-- content: TESTING
-- content: TRANSMISSION
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: FIBRE
+  - language: en
+    script: Latn
+    content: MONOMODE
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TM Cabled fibres and passive optical components
+    content: Technical Specification

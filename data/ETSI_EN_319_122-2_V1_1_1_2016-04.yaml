@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319122-2V1.1.12016-04
+id: ETSIEN3191222V111201604
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
     Part 2: Extended CAdES signatures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39474
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319100_319199/31912202/01.01.01_60/en_31912202v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 122-2 V1.1.1 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39474
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319100_319199/31912202/01.01.01_60/en_31912202v010101p.pdf
+docidentifier:
+- content: ETSI EN 319 122-2 V1.1.1 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 122-2 V1.1.1 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This part specifies CAdES digital signatures. CAdES signatures are built
+- language: en
+  script: Latn
+  content: "This part specifies CAdES digital signatures. CAdES signatures are built
     on CMS signatures as specified in [i.7], by incorporation of signed and unsigned
     attributes, which fulfil certain common requirements (such as the long term validity
     of digital signatures, for instance) in a number of use cases.\r\nThe present
@@ -55,20 +64,24 @@ abstract:
     baseline signatures specified in part 1 of ETSI EN 319 122.\r\nCAdES digital signatures
     specified in the two parts of ETSI EN 319 122 aim at supporting electronic signatures
     in different regulatory frameworks.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: CAdES
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

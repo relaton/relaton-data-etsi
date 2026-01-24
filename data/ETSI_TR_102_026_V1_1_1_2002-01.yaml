@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102026V1.1.12002-01
+id: ETSITR102026V111200201
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Study of the use of TTCN-3 for SIP and for OSP test specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12650
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102026/01.01.01_60/tr_102026v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 026 V1.1.1 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12650
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102026/01.01.01_60/tr_102026v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 026 V1.1.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 026 V1.1.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Verification, demonstration and implementation matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Study of using TTCN-3 for specifying tests for SIP. This TR should describe
+- language: en
+  script: Latn
+  content: Study of using TTCN-3 for specifying tests for SIP. This TR should describe
     the technical approach used including experiences of implementing the tests on
     a real test platform. It will include example test purposes and TTCN-3 tests.
     However, it will not define a complete SIP conformance test suite but should lay
     the foundations for producing one in the future if required.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IP
-- content: TESTING
-- content: TTCN
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Verification, demonstration and implementation matters
+    content: Technical Report

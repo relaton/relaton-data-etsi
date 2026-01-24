@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102972V1.1.12009-10
+id: ETSITR102972V111200910
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User Interfaces; Generic user interface elements for
+- language: en
+  script: Latn
+  content: Human Factors (HF); User Interfaces; Generic user interface elements for
     3G/UMTS mobile devices, services and applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21045
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102972/01.01.01_60/tr_102972v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 972 V1.1.1 (2009-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21045
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102972/01.01.01_60/tr_102972v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 972 V1.1.1 (2009-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 972 V1.1.1 (2009-10)
 date:
 - type: published
-  value: 2009-10
+  at: 2009-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Based on EG 202 132, the present work will develop user experience and
+- language: en
+  script: Latn
+  content: Based on EG 202 132, the present work will develop user experience and
     human factors guidelines and recommendations, specifically applied to 3G/UMTS
     solutions, to improve the user experience of deployment and use of 3G/UMTS mobile
     terminals, services and applications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: ICT
-- content: INTERFACE
-- content: MMI
-- content: MOBILE
-- content: SERVICE
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

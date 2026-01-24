@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR133908V4.0.02001-09
+id: ETSITR133908V400200109
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Security Algorithms
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Security Algorithms
     Group of Experts (SAGE); General report on the design, specification and evaluation
     of 3GPP standard confidentiality and integrity algorithms (3GPP TR 33.908 version
     4.0.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13708
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133908/04.00.00_60/tr_133908v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 133 908 V4.0.0 (2001-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13708
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133908/04.00.00_60/tr_133908v040000p.pdf
+docidentifier:
+- content: ETSI TR 133 908 V4.0.0 (2001-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 133 908 V4.0.0 (2001-09)
 date:
 - type: published
-  value: 2001-09
+  at: 2001-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2001-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: TSG#11
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: TSG#11
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: CONFIDENTIALITY
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104041V11.0.02025-03
+id: ETSITS104041V1100202503
+schema_version: v1.4.1
 title:
-- content: Publicly Available Specification (PAS); O-RAN Slicing Architecture; (O-RAN.WG1.Slicing-Architectue-R003-v11.00)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104041/11.00.00_60/ts_104041v110000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 041 V11.0.0 (2025-03)
+- language: en
+  script: Latn
+  content: Publicly Available Specification (PAS); O-RAN Slicing Architecture; (O-RAN.WG1.Slicing-Architectue-R003-v11.00)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104041/11.00.00_60/ts_104041v110000p.pdf
+docidentifier:
+- content: ETSI TS 104 041 V11.0.0 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 041 V11.0.0 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.0.0
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies the high level O-RAN slicing related use
+- language: en
+  script: Latn
+  content: The present document specifies the high level O-RAN slicing related use
     cases, requirements and architecture. While some of the requirements are derived
     from use cases, some of the relevant SDO requirements are captured as they have
     impact on O-RAN functions. Along with requirements and reference slicing architecture,
     slicing related impact to O-RAN functions and interfaces are also captured.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: PAS
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: PAS
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: Technical Specification

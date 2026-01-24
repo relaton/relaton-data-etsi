@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119144-2V1.1.12012-03
+id: ETSITS1191442V111201203
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
     Signature (PAdES) Testing Compliance & Interoperability; Part 2: Test Suite for
     PAdES interoperability test events'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34230
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914402/01.01.01_60/ts_11914402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 144-2 V1.1.1 (2012-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34230
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914402/01.01.01_60/ts_11914402v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 144-2 V1.1.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 144-2 V1.1.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "a) To prepare the first remote interoperability event for PAdES (ETSI
+- language: en
+  script: Latn
+  content: "a) To prepare the first remote interoperability event for PAdES (ETSI
     TS 102 778) signature formats.\r\nb) To produce an ETSI Technical Specification
     on PAdES signatures interoperability."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: INTEROPERABILITY
-- content: PAdES
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

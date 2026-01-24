@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202106V2.1.12003-11
+id: ETSIEG202106V211200311
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Guidelines for the use of
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Guidelines for the use of
     formal SDL as a descriptive tool
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9935
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202106/02.01.01_60/eg_202106v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 106 V2.1.1 (2003-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9935
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202106/02.01.01_60/eg_202106v020101p.pdf
+docidentifier:
+- content: ETSI EG 202 106 V2.1.1 (2003-11)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 106 V2.1.1 (2003-11)
 date:
 - type: published
-  value: 2003-11
+  at: 2003-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2003-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of the decsriptive SDL guidelines to take into consideration
+- language: en
+  script: Latn
+  content: "Revision of the decsriptive SDL guidelines to take into consideration
     the changes to ITU-T Recommendations Z.100 (SDL), Z.105 (ASN.1 with SDL) and Z.120
     (MSC) revisions published in 2000 and the contents of Z.109 (SDL and UML).\r\n\r\n
     \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: METHODOLOGY
-- content: MSC
-- content: SDL
-- content: TESTING
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: MSC
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

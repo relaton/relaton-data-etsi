@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303406V1.1.12017-02
+id: ETSIEN303406V111201702
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD); Social Alarms Equipment operating in the frequency
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD); Social Alarms Equipment operating in the frequency
     range 25 MHz to 1 000 MHz; Harmonised Standard covering the essential requirements
     of article 3.2 of Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47950
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303406/01.01.01_60/en_303406v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 406 V1.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47950
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303406/01.01.01_60/en_303406v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 406 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 406 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Harmonised Standard will take into account the ongoing work for new
+- language: en
+  script: Latn
+  content: This Harmonised Standard will take into account the ongoing work for new
     EN 300 220 multipart and the work already done in DEN/ERM-TG28-523 draft material
     as appropriate, including its predecessor DEN/ERM-TG28-499 (prEN 303 131) resolution
     of ENAP comments. This HEN encompasses Social Alarms when operating outside of
     the designated frequency band 869,2-869,25 MHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALARM
-- content: Harmonised standard
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: ALARM
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

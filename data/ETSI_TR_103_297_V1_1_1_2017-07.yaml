@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103297V1.1.12017-07
+id: ETSITR103297V111201707
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); SC-FDMA based radio waveform
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); SC-FDMA based radio waveform
     technology for Ku/Ka band satellite service
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43816
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103297/01.01.01_60/tr_103297v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 297 V1.1.1 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43816
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103297/01.01.01_60/tr_103297v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 297 V1.1.1 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 297 V1.1.1 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The proposed WI aims at assessing the performance of a SC-FDMA-based radio
+- language: en
+  script: Latn
+  content: The proposed WI aims at assessing the performance of a SC-FDMA-based radio
     waveform over geostationary satellites in Ku/Ka band. Moreover, it aims at defining
     an evaluation framework for performance comparison with existing waveform technologies
     (e.g. DVB-S2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: FDMA
-- content: SATELLITE
-- content: Wideband
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: FDMA
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: Wideband
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

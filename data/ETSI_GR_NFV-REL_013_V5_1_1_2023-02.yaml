@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-REL013V5.1.12023-02
+id: ETSIGRNFVREL013V511202302
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Reliability; Report on
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Reliability; Report on
     cognitive use of operations data for reliability
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61989
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-REL/001_099/013/05.01.01_60/gr_NFV-REL013v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-REL 013 V5.1.1 (2023-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61989
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-REL/001_099/013/05.01.01_60/gr_NFV-REL013v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-REL 013 V5.1.1 (2023-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-REL 013 V5.1.1 (2023-02)
 date:
 - type: published
-  value: 2023-02
+  at: 2023-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reliability & Availability
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2023-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item aims at studying how operations data (KPIs, metrics, alarm
+- language: en
+  script: Latn
+  content: This work item aims at studying how operations data (KPIs, metrics, alarm
     notifications, event logs, debug information) can be exploited to ensure the availability
     and reliability of NFV-MANO and of the network services it manages using data
     analysis/data driven techniques. This includes, among others, the use of machine
@@ -57,18 +66,18 @@ abstract:
     and/or changes of deployment flavours) and online (to identify appropriate LCM
     operations and policy changes in order to achieve the intended service availability
     objectives).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AVAILABILITY
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: AVAILABILITY
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Reliability & Availability
+    content: Group Report

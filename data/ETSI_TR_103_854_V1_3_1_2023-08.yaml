@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103854V1.3.12023-08
+id: ETSITR103854V131202308
+schema_version: v1.4.1
 title:
-- content: 'LEA support services; Interfaces for Lawful Disclosure of vehicle-related
+- language: en
+  script: Latn
+  content: 'LEA support services; Interfaces for Lawful Disclosure of vehicle-related
     data: scenarios, examples and recommendations'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69091
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103854/01.03.01_60/tr_103854v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 854 V1.3.1 (2023-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69091
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103854/01.03.01_60/tr_103854v010301p.pdf
+docidentifier:
+- content: ETSI TR 103 854 V1.3.1 (2023-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 854 V1.3.1 (2023-08)
 date:
 - type: published
-  value: 2023-08
+  at: 2023-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2023-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document describes interfaces which consist of requests (from
+- language: en
+  script: Latn
+  content: "The present document describes interfaces which consist of requests (from
     a Law Enforcement Agency system) for vehicle-related data, and the responses (e.g.
     from an industry system) to those requests. The present document describes some
     usage scenarios, and also puts forward some examples for this interface. The present
     document includes a recommendation for the details of how the LEA/Industry interface
     could work.\r\nThis revision is to provide an update to the annex and example
     questions."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: SECURITY
-- content: trust
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

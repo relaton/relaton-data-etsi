@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101562-3V1.1.12012-02
+id: ETSITR1015623V111201202
+schema_version: v1.4.1
 title:
-- content: 'PowerLine Telecommunications (PLT); MIMO PLT; Part 3: Setup and Statistical
+- language: en
+  script: Latn
+  content: 'PowerLine Telecommunications (PLT); MIMO PLT; Part 3: Setup and Statistical
     Results of MIMO PLT Channel and Noise Measurements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33399
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10156203/01.01.01_60/tr_10156203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 562-3 V1.1.1 (2012-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33399
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10156203/01.01.01_60/tr_10156203v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 562-3 V1.1.1 (2012-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 562-3 V1.1.1 (2012-02)
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: MIMO PLT channel transfer measurements and statistical analysis taking
+- language: en
+  script: Latn
+  content: MIMO PLT channel transfer measurements and statistical analysis taking
     into account such matters as earthing variation, country variation, operator differences,
     phasing and distribution topologies, domestic, industrial and housing types along
     with local network loading.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MIMO
-- content: NOISE
-- content: Powerline
+- taxon:
+  - language: en
+    script: Latn
+    content: MIMO
+  - language: en
+    script: Latn
+    content: NOISE
+  - language: en
+    script: Latn
+    content: Powerline
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Report

@@ -1,74 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102704V1.2.12012-03
+id: ETSITR102704V121201203
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference Document; Short Range Devices (SRD); Radar sensors for non-automotive;
     ground based vehicular applications in the 76 GHz to 77 GHz frequency range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37165
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102704/01.02.01_60/tr_102704v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 704 V1.2.1 (2012-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37165
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102704/01.02.01_60/tr_102704v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 704 V1.2.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 704 V1.2.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based on CEPT/ ECC discussions and feedback, also in view of first results
+- language: en
+  script: Latn
+  content: "Based on CEPT/ ECC discussions and feedback, also in view of first results
     of the public funded project MOSARIM, there is a need to revise the TR.  \r\nMain
     actions:      - update application scenarios and type of applications \r\n                         -
     update ETSI and ECC actions \r\n                         - update chapters on
     interference situation and consider\r\n                          -MOSARIM findings
     \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EHF
-- content: RADAR
-- content: RADIO
-- content: SRD
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: EHF
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: Technical Report

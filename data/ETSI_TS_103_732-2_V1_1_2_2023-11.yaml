@@ -1,67 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103732-2V1.1.22023-11
+id: ETSITS1037322V112202311
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Consumer Mobile Device; Part 2: Biometric Authentication Protection
+- language: en
+  script: Latn
+  content: 'CYBER; Consumer Mobile Device; Part 2: Biometric Authentication Protection
     Profile Module'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69550
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/10373202/01.01.02_60/ts_10373202v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 732-2 V1.1.2 (2023-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69550
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/10373202/01.01.02_60/ts_10373202v010102p.pdf
+docidentifier:
+- content: ETSI TS 103 732-2 V1.1.2 (2023-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 732-2 V1.1.2 (2023-11)
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2023-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHB1cnBvc2Ugb2YgdGhpcyBXSSBpcyB0byBtb3ZlIHRoZSBiaW9tZXRyaWMgYXV0aGVudGljYXRpb24gZnJvbSBUUyAxMDMgNzMyIHYxLjEuMSB0byBhIHNlcGFyYXRlIG1vZHVsZS4NClRoZSB3b3JrIGFsc28gZm9jdXNlcyBvbiB0aGUgZm9sbG93aW5nIGFzcGVjdHM6DQrigKJJdGVyYXRlIHJlcXVpcmVtZW50cyBmb3IgY2xhcml0eTsNCuKAomluY2x1ZGUgZmVlZGJhY2sgZnJvbSBsYWJvcmF0b3JpZXMgYW5kIHZlbmRvcnMgcGVyZm9ybWluZyBjdXJyZW50IGV2YWx1YXRpb25zOw0K4oCiQ2hhbmdlcyBkdWUgdG8gdGhlIFBQIGNlcnRpZmljYXRpb24gcHJvY2Vzcy4NCkFkZGl0aW9uYWwgY2hhbmdlcyBtYXkgYmUgY29uc2lkZXJlZCBhcyBuZWVkZWQgdG8gZW5zdXJlIGNvbnNpc3RlbmN5IHdpdGhpbiB0aGUgZG9jdW1lbnQgYW5kIHdpdGggcGFydCAxLg0KVGhlIFdJIHdpbGwgYWxzbyBjb25zaWRlciBhbnkgY2hhbmdlcyB3aGljaCBtYXkgYmUgbmVjZXNzYXJ5IHRvIHN1cHBvcnQgYSBwb3NzaWJsZSBHU01BIGNlcnRpZmljYXRpb24gc2NoZW1lIGJhc2VkIG9uIFRTIDEwMyA3MzIuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The purpose of this WI is to move the biometric authentication from TS
+    103 732 v1.1.1 to a separate module.\r\nThe work also focuses on the following
+    aspects:\r\nIterate requirements for clarity;\r\ninclude feedback from laboratories
+    and vendors performing current evaluations;\r\nChanges due to the PP certification
+    process.\r\nAdditional changes may be considered as needed to ensure consistency
+    within the document and with part 1.\r\nThe WI will also consider any changes
+    which may be necessary to support a possible GSMA certification scheme based on
+    TS 103 732.\r\n"
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: MOBILE
-- content: privacy
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

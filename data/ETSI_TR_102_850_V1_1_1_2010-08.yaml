@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102850V1.1.12010-08
+id: ETSITR102850V111201008
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Analysis of Mobile Device Functionality
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Analysis of Mobile Device Functionality
     for PWS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31872
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102850/01.01.01_60/tr_102850v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 850 V1.1.1 (2010-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31872
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102850/01.01.01_60/tr_102850v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 850 V1.1.1 (2010-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 850 V1.1.1 (2010-08)
 date:
 - type: published
-  value: 2010-08
+  at: 2010-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The TR shall describe the functionality of mobile devices for a PWS and
+- language: en
+  script: Latn
+  content: The TR shall describe the functionality of mobile devices for a PWS and
     requirements for configuring this service, in order to provide citizens with a
     device capable of displaying and alerting of PWS messages and a consistent and
     easy access to the PWS itself.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADMINISTRATION
-- content: BROADCAST
-- content: CBS
-- content: EMERGENCY
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADMINISTRATION
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CBS
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

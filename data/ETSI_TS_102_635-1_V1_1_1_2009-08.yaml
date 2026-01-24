@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102635-1V1.1.12009-08
+id: ETSITS1026351V111200908
+schema_version: v1.4.1
 title:
-- content: 'Digital Audio Broadcasting (DAB); Middleware; Part 1: System aspects'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27743
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10263501/01.01.01_60/ts_10263501v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 635-1 V1.1.1 (2009-08)
+- language: en
+  script: Latn
+  content: 'Digital Audio Broadcasting (DAB); Middleware; Part 1: System aspects'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27743
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/10263501/01.01.01_60/ts_10263501v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 635-1 V1.1.1 (2009-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 635-1 V1.1.1 (2009-08)
 date:
 - type: published
-  value: 2009-08
+  at: 2009-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document defines a platform-independent environment, where
+- language: en
+  script: Latn
+  content: "The present document defines a platform-independent environment, where
     executable applications can be signalled, transferred to receivers, and executed.\r\nThe
     present document defines formats of file resources relevant to the applications,
     protocols for downloading applications, ways to designate resources on broadcast
@@ -53,19 +62,21 @@ abstract:
     and detailed interfaces among receiver platform, broadcast and communication networks,
     and the applications.\r\nIn combination with platform specific parts of this standard,
     a complete definition of the environment for applications is produced."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

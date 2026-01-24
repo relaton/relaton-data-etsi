@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103305-2V1.1.12016-08
+id: ETSITR1033052V111201608
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Critical Security Controls for Effective Cyber Defence; Part 2:
+- language: en
+  script: Latn
+  content: 'CYBER; Critical Security Controls for Effective Cyber Defence; Part 2:
     Measurement and auditing'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50124
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/10330502/01.01.01_60/tr_10330502v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 305-2 V1.1.1 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50124
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/10330502/01.01.01_60/tr_10330502v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 305-2 V1.1.1 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 305-2 V1.1.1 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document is intended as an evolving repository for measurement
+- language: en
+  script: Latn
+  content: The present document is intended as an evolving repository for measurement
     and auditing of Critical Security Control implementations.  The CSC are a specific
     set of technical measures available to detect, prevent, respond, and mitigate
     damage from the most common to the most advanced of cyber attacks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Cyber-defence
-- content: Information assurance
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: Information assurance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

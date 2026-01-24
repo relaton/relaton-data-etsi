@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA026V3.4.12020-06
+id: ETSIGSNFVIFA026V341202006
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
     Architecture enhancement for Security Management Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58550
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/026/03.04.01_60/gs_NFV-IFA026v030401p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 026 V3.4.1 (2020-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58550
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/026/03.04.01_60/gs_NFV-IFA026v030401p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 026 V3.4.1 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 026 V3.4.1 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.4.1
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 026 conducts NFV Release 3 maintenance. It corrects
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 026 conducts NFV Release 3 maintenance. It corrects
     errors, ambiguities, misalignments, and applies editorial modifications (i.e.
     Corrections of category F and D as described in ETSI TWPs Annex L). This edition
     does not add or modify features, nor does it extend the scope of the former Release
@@ -55,22 +64,30 @@ abstract:
     and the LI Controller in ETSI GR NFV-SEC 011. The present document identifies
     the extensions to the NFV-MANO architecture related to security management and
     monitoring. Multiple trust domains are considered."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: orchestration
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: orchestration
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

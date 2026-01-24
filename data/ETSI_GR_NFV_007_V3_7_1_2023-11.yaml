@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV007V3.7.12023-11
+id: ETSIGRNFV007V371202311
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Release Description; Release 3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67533
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV/001_099/007/03.07.01_60/gr_NFV007v030701p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV 007 V3.7.1 (2023-11)
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Release Description; Release 3
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67533
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV/001_099/007/03.07.01_60/gr_NFV007v030701p.pdf
+docidentifier:
+- content: ETSI GR NFV 007 V3.7.1 (2023-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV 007 V3.7.1 (2023-11)
 date:
 - type: published
-  value: 2023-11
+  at: 2023-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Functions Virtualisation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.7.1
-revdate: 2023-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will create a single GR to document the edition 3.7.1 of
+- language: en
+  script: Latn
+  content: This work item will create a single GR to document the edition 3.7.1 of
     ETSI NFV release 3. This GR lists and defines the features forming this release
     and their relation to work items. It also documents the versions of the related
     published specifications and reports. This document provides an overview of edition
     3.7.1 and is intended to help the user as an entry point to ETSI NFV documentation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: release
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: release
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Network Functions Virtualisation
+    content: Group Report

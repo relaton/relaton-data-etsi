@@ -1,63 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300008-1ed.21997-01
+id: ETSIETS3000081ed2199701
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Message
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Message
     Transfer Part (MTP) to support international interconnection; Part 1: Protocol
     specification [ITU-T Recommendations Q.701 (1993), Q.702 (1988), Q.703 to Q.706
     (1993), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2799
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30000801/02_60/ets_30000801e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 008-1 ed.2 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2799
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30000801/02_60/ets_30000801e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 008-1 ed.2 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 008-1 ed.2 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Rebase ETS 300 008 on ITU-T White Book, combine with (stopped)\r\nprAmendments
+- language: en
+  script: Latn
+  content: "Rebase ETS 300 008 on ITU-T White Book, combine with (stopped)\r\nprAmendments
     1&2, and rectify problems in White Book.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: ISDN
-- content: MTP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MTP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: European Telecommunication Standard

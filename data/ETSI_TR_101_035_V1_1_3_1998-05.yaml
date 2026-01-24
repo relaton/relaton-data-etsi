@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101035V1.1.31998-05
+id: ETSITR101035V113199805
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH)
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH)
     aspects regarding Digital Radio Relay Systems (DRRS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6633
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101035/01.01.03_60/tr_101035v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 035 V1.1.3 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6633
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101035/01.01.03_60/tr_101035v010103p.pdf
+docidentifier:
+- content: ETSI TR 101 035 V1.1.3 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 035 V1.1.3 (1998-05)
 date:
 - type: published
-  value: 1998-05
+  at: 1998-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1998-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Re-issued to correct editorial error in clause 2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Re-issued to correct editorial error in clause 2.
+status:
+  stage: Published
 keyword:
-- content: DRRS
-- content: SDH
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: SDH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

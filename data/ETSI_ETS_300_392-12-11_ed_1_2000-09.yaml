@@ -1,62 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300392-12-11ed.12000-09
+id: ETSIETS3003921211ed1200009
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
     services stage 3; Sub-part 11: Call Waiting (CW)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4106
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003921211/01_60/ets_3003921211e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 392-12-11 ed.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4106
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/3003921211/01_60/ets_3003921211e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 392-12-11 ed.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 392-12-11 ed.1 (2000-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the Stage 3 requirements of TETRA SS Call Waiting\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To define the Stage 3 requirements of TETRA SS Call Waiting\r\n  "
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: RADIO
-- content: SPEECH
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network aspects
+    content: European Telecommunication Standard

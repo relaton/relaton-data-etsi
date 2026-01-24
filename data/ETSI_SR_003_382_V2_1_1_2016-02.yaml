@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSISR003382V2.1.12016-02
+id: ETSISR003382V211201602
+schema_version: v1.4.1
 title:
-- content: Cloud Standards Coordination Phase 2; Cloud Computing Standards and Open
+- language: en
+  script: Latn
+  content: Cloud Standards Coordination Phase 2; Cloud Computing Standards and Open
     Source; Optimizing the relationship between standards and Open Source in Cloud
     Computing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47104
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/003300_003399/003382/02.01.01_60/sr_003382v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 003 382 V2.1.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47104
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/003300_003399/003382/02.01.01_60/sr_003382v020101p.pdf
+docidentifier:
+- content: ETSI SR 003 382 V2.1.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI SR 003 382 V2.1.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work done in CSC Phase 1 did not address the relationship with Open
+- language: en
+  script: Latn
+  content: "The work done in CSC Phase 1 did not address the relationship with Open
     Source. However, Open Source is an important contributing element to Cloud Computing
     and participants to CSC Phase 1 have considered it essential to understand what
     the relationship can be between Open Source and standards and vice-versa. The
@@ -58,19 +67,21 @@ abstract:
     how standards and Open Source are interworking in the field of Cloud Computing,
     outline the Open Source results of interest for standardisation and identify additional
     challenges."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: Cloud computing
-- content: Open Source Software
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: Cloud computing
+  - language: en
+    script: Latn
+    content: Open Source Software
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Network Technologies
+    content: Special Report

@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300758-3ed.11997-04
+id: ETSIETS3007583ed1199704
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
     Digital Network (ISDN); DECT/ISDN interworking for end system configuration; Profile
     Test Specification (PTS); Part 3: Profile Specific Test Specification (PSTS) for
     Fixed radio Termination (FT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3944
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30075803/01_60/ets_30075803e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 758-3 ed.1 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3944
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30075803/01_60/ets_30075803e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 758-3 ed.1 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 758-3 ed.1 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Profile Test Specifications (PTS) for testing if an equipment complies\r\nwith
+- language: en
+  script: Latn
+  content: "Profile Test Specifications (PTS) for testing if an equipment complies\r\nwith
     the DECT/ISDN interworking profile. The DECT/ISDN PTS is based on\r\nthe GAP test
     specification and the DECT CI conformance testing\r\nspecification, and includes
     Profile Specific Test Specifications\r\n(PSTS).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: INTERWORKING
-- content: ISDN
-- content: PTS
-- content: RADIO
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PTS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Testing aspects
+    content: European Telecommunication Standard

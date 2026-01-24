@@ -1,66 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203474V1.1.12018-03
+id: ETSIES203474V111201803
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Interfacing of renewable energy or distributed
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Interfacing of renewable energy or distributed
     power sources to 400 VDC distribution systems powering Information and Communication
     Technology (ICT) equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43366
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203400_203499/203474/01.01.01_60/es_203474v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 474 V1.1.1 (2018-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43366
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203400_203499/203474/01.01.01_60/es_203474v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 474 V1.1.1 (2018-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 474 V1.1.1 (2018-03)
 date:
 - type: published
-  value: 2018-03
+  at: 2018-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGRlbGl2ZXJhYmxlIGFpbXMgYXQgZGVmaW5pbmcgaW50ZXJmYWNlIGFuZCBhcmNoaXRlY3R1cmUgZm9yIGluamVjdGluZyByZW5ld2FibGUgZW5lcmd5IGFuZCBkaXN0cmlidXRlZCBwb3dlciBzb3VyY2VzIChnZW5lcmF0b3JzIHN1Y2ggYXMgZ2FzIGZ1ZWwgY2VsbCwgZXh0ZXJuYWwgREMgbWljcm9ncmlkLCDigKYpIGludG8gYW4gdXAgdG8gNDAwViBwb3dlciBzeXN0ZW0gYXMgZGVmaW5lZCBpbiBJVFUtVCBMLmFyY2hpdGVjdHVyZSBhbmQgY29tcGxpYW50IHdpdGggRVRTSSBFTiAzMDAgMTMyLTMtMS4NCg0KVGhlIHNjb3BlIGNvdmVycyBkaWZmZXJlbnQgaXRlbXM6IA0KLUdlbmVyYWwgcG93ZXIgYXJjaGl0ZWN0dXJlcywgd2l0aCBvciB3aXRob3V0IDQ4ViBhbmQgQUMgZGlzdHJpYnV0aW9uIGluIHNpdGVzIA0KLVdoaWNoIGNvbmRpdGlvbnMgdG8gbWFpbnRhaW4gdXAgdG8gNDAwViBwb3dlciBzeXN0ZW0gc3RhYmlsaXR5LCByZWxpYWJpbGl0eSwgcHJvcGVyIGJhdHRlcnkgY2hhcmdlIGFuZCBtYW5hZ2VtZW50LCBsaWdodG5pbmcgcHJvdGVjdGlvbiBjb29yZGluYXRpb24sIEVNQyBhbmQgdHJhbnNpZW50IGxpbWl0cw0KLVNwZWNpZmljYXRpb24gb2YgcHJvcGVyIHBvd2VyIHNpemluZyANCi1JbnRlcmZhY2UgYmV0d2VlbiB0aGUgREMgcG93ZXIgc3lzdGVtIGFuZCB0aGUgZXh0ZXJuYWwgc291cmNlcyAocmVuZXdhYmxlIGVuZXJneSwgbG9jYWwgZnVlbCBjZWxscywgZGlzdHJpYnV0ZWQgICBwb3dlciBvZiBhIERDIG1pY3JvLWdyaWQpDQotUmVxdWlyZW1lbnQgZm9yIGNvbnRyb2wtbW9uaXRvcmluZy1tZXRlcmluZw0KLUFzc2Vzc21lbnQgb2YgcGVyZm9ybWFuY2VzOiBBQyBncmlkIGVuZXJneSBzYXZpbmcsIHJlbGlhYmlsaXR5LCBmbGV4aWJpbGl0eSwgIGVudmlyb25tZW50YWwgaW1wYWN0LCDigKYNCg0KSXQgZG9lcyBub3QgaW5jbHVkZSB0aGUgZGV0YWlsZWQgc3BlY2lmaWNhdGlvbiBhbmQgc2l6aW5nIG9mIHJlbmV3YWJsZSBnZW5lcmF0b3JzLCBmdWVsIGNlbGxzIGFuZCBvZiBkaXN0cmlidXRlZCBwb3dlciBzb3VyY2VzLg0KDQotLS0tLS0gSm9pbnQgYWN0aXZpdHkgd2l0aCBJVFUtVCBTRzUvV1AzIGluIFNRMTkvNSB3aXRoIHJlZmVyZW5jZSBMLnJlbmV3YWJsZSAtLS0tLS0t
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The deliverable aims at defining interface and architecture for injecting
+    renewable energy and distributed power sources (generators such as gas fuel cell,
+    external DC microgrid, ) into an up to 400V power system as defined in ITU-T L.architecture
+    and compliant with ETSI EN 300 132-3-1.\r\n\r\nThe scope covers different items:
+    \r\n-General power architectures, with or without 48V and AC distribution in sites
+    \r\n-Which conditions to maintain up to 400V power system stability, reliability,
+    proper battery charge and management, lightning protection coordination, EMC and
+    transient limits\r\n-Specification of proper power sizing \r\n-Interface between
+    the DC power system and the external sources (renewable energy, local fuel cells,
+    distributed   power of a DC micro-grid)\r\n-Requirement for control-monitoring-metering\r\n-Assessment
+    of performances: AC grid energy saving, reliability, flexibility,  environmental
+    impact, \r\n\r\nIt does not include the detailed specification and sizing of renewable
+    generators, fuel cells and of distributed power sources.\r\n\r\n------ Joint activity
+    with ITU-T SG5/WP3 in SQ19/5 with reference L.renewable -------"
+status:
+  stage: Published
 keyword:
-- content: POWER SUPPLY
-- content: renewable
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: renewable
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS185006V2.3.12009-05
+id: ETSITS185006V231200905
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Customer Devices architecture and Reference Points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28417
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/185000_185099/185006/02.03.01_60/ts_185006v020301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 185 006 V2.3.1 (2009-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28417
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/185000_185099/185006/02.03.01_60/ts_185006v020301p.pdf
+docidentifier:
+- content: ETSI TS 185 006 V2.3.1 (2009-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 185 006 V2.3.1 (2009-05)
 date:
 - type: published
-  value: 2009-05
+  at: 2009-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN NGN Home Networking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.3.1
-revdate: 2009-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: provide maintenance to the TS 185 006 document defining will define the
+- language: en
+  script: Latn
+  content: provide maintenance to the TS 185 006 document defining will define the
     Stage 2 Customer Devices specifications, including architectural building blocks
     to be included in the customer Devices  to support the interworking with NGN architecture,
     both for the transport layers (NASS, RACS) and for the service layer. The WI will
@@ -57,18 +66,18 @@ abstract:
     perform, as first step, a categorisation of the different user equipment with
     reference to the type of service supported and the different levels of implementation
     of the related functionalities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN NGN Home Networking
+    content: Technical Specification

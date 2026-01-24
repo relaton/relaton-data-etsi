@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SOL015V1.2.12020-12
+id: ETSIGSNFVSOL015V121202012
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Protocols and Data Models; Specification
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Protocols and Data Models; Specification
     of Patterns and Conventions for RESTful NFV-MANO APIs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59479
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/015/01.02.01_60/gs_NFV-SOL015v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SOL 015 V1.2.1 (2020-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59479
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/015/01.02.01_60/gs_NFV-SOL015v010201p.pdf
+docidentifier:
+- content: ETSI GS NFV-SOL 015 V1.2.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SOL 015 V1.2.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-SOL 015 conducts maintenance. It corrects errors,
+- language: en
+  script: Latn
+  content: "This revision of NFV-SOL 015 conducts maintenance. It corrects errors,
     ambiguities, misalignments, and applies editorial modifications. This edition
     may add or modify specified features necessary for the specification of RESTful
     based NFV-MANO APIs. The scope of the former edition is summarized hereafter:\r\n\r\nNFV-SOL
@@ -55,22 +64,30 @@ abstract:
     The document defines provisions to be followed by the ETSI NFV Industry Specification
     Group (ISG) when creating RESTful NFV-MANO API specifications. The provisions
     do not apply to implementations."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: DATA
-- content: MANO
-- content: Model
-- content: NFV
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: Model
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Solutions
+    content: Group Specification

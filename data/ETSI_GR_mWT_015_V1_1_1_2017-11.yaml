@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT015V1.1.12017-11
+id: ETSIGRmWT015V111201711
+schema_version: v1.4.1
 title:
-- content: Frequency Bands and Carrier Aggregation Systems; Band and Carrier Aggregation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49518
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/015/01.01.01_60/gr_mWT015v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 015 V1.1.1 (2017-11)
+- language: en
+  script: Latn
+  content: Frequency Bands and Carrier Aggregation Systems; Band and Carrier Aggregation
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49518
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/015/01.01.01_60/gr_mWT015v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 015 V1.1.1 (2017-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 015 V1.1.1 (2017-11)
 date:
 - type: published
-  value: 2017-11
+  at: 2017-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Purpose of this work item is informative to produce an overview on Bands
+- language: en
+  script: Latn
+  content: "Purpose of this work item is informative to produce an overview on Bands
     or/and Carrier Aggregation systems (BCA) in fixed service operating in same or
     different frequency bands (considering both microwave  and millimetre wave spectrum)
     \r\n- Definition of BCA system and possible arrangements \r\n- Relevant applications
@@ -53,20 +62,24 @@ abstract:
     Network planning analysis \r\n- Overview and analysis on regulation and  provisions
     given in today Regulations and administration approach \r\n- Identification of
     corrective actions if any."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: FWA
-- content: mWT
-- content: POINT-TO-POINT
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Report

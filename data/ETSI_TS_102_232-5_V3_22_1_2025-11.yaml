@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102232-5V3.22.12025-11
+id: ETSITS1022325V3221202511
+schema_version: v1.4.1
 title:
-- content: 'Lawful Interception (LI); Handover Interface and Service-Specific Details
+- language: en
+  script: Latn
+  content: 'Lawful Interception (LI); Handover Interface and Service-Specific Details
     (SSD) for IP delivery; Part 5: Service-specific details for IP Multimedia services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76097
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223205/03.22.01_60/ts_10223205v032201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 232-5 V3.22.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76097
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223205/03.22.01_60/ts_10223205v032201p.pdf
+docidentifier:
+- content: ETSI TS 102 232-5 V3.22.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 232-5 V3.22.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.22.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document specifies interception of Internet Protocol (IP) Multimedia
+- language: en
+  script: Latn
+  content: "This document specifies interception of Internet Protocol (IP) Multimedia
     (MM) Services based on the Session Initiation Protocol (SIP) and Real Time Transport
     Protocol (RTP) and Message Session Relay Protocol (MSRP) and IP MM services as
     described by the ITU-T Recommendations H.323 [6] and H.248 [7].\r\nThis revision
     is to improve the IRI sequence text."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: IP
-- content: Lawful Interception
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

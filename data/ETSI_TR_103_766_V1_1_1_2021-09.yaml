@@ -1,72 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103766V1.1.12021-09
+id: ETSITR103766V111202109
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Pre-standardization study on co-channel
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Pre-standardization study on co-channel
     co-existence between IEEETM- and 3GPP- based ITS technologies in the 5 855 MHz-5
     925 MHz frequency band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56944
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103766/01.01.01_60/tr_103766v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 766 V1.1.1 (2021-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56944
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103766/01.01.01_60/tr_103766v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 766 V1.1.1 (2021-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 766 V1.1.1 (2021-09)
 date:
 - type: published
-  value: 2021-09
+  at: 2021-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To carry out studies on the feasibility of co-channel co-existence between
+- language: en
+  script: Latn
+  content: "To carry out studies on the feasibility of co-channel co-existence between
     ITS-G5 and LTE-V2X technologies based on solutions presented to CEPT.\r\nTo define
     methodologies and metrics required for performing the studies and evaluating the
     performance of the solutions studied.\r\nTo find co-channel co-existence methods
     which enable both technologies to use the same frequency channel in the same geographical
     area while meeting the metrics defined.\r\nThis TR shall classify co-channel co-existence
     methods depending on the observed metrics."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: coexistence
-- content: ITS
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: coexistence
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Intelligent Transport Systems
+    content: Technical Report

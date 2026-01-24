@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103097V2.1.12021-10
+id: ETSITS103097V211202110
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Security header and certificate
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Security header and certificate
     formats; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54528
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103097/02.01.01_60/ts_103097v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 097 V2.1.1 (2021-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54528
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103097/02.01.01_60/ts_103097v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 097 V2.1.1 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 097 V2.1.1 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item intends to update TS 103 097 to allow the alternative use
+- language: en
+  script: Latn
+  content: This work item intends to update TS 103 097 to allow the alternative use
     of IEEE 1609.2 implicit certificates as authorization tickets and to consider
     additional requirements and corrections on the specification of the secure data
     structures considering the needs of BSA use cases for ITS Release 2 and outcomes
     from the Revised TVRA.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: privacy
-- content: PROTOCOL
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300020-3ed.21996-12
+id: ETSIIETS3000203ed2199612
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 1) (GSM); Mobile station
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 1) (GSM); Mobile station
     conformance test system; Part 3: DCS 1 800 mobile station conformity specification
     (GSM 11.10-DCS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4465
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30002003/02_60/iets_30002003e02p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 020-3 ed.2 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4465
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30002003/02_60/iets_30002003e02p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 020-3 ed.2 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 020-3 ed.2 (1996-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "These are the technical characteristics and methods of measurement for\r\nmobile
+- language: en
+  script: Latn
+  content: "These are the technical characteristics and methods of measurement for\r\nmobile
     stations, for the Pan European Personal CommunicationDigital M\r\nobile Radio
     System standardized by the ETSI Technical Committee \"Speci\r\nal Mobile Group\"
     (SMG).\r\nIn these specifications, a GSM(DCS 1 800) Mobile Station can be:\r\n-\ta
@@ -60,21 +70,27 @@ abstract:
     9001 800 MHz band with a channel separation\r\nof 200 kHz and carrying 8 full
     rate traffic channels or 16 half rate c\r\nhannels per carrier according to the
     TDMA principle.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DCS
-- content: GSM
-- content: GSM_PHASE1
-- content: MOBILE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: Interim European Telecommunication Standard

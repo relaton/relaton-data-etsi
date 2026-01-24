@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS148020V5.2.02002-12
+id: ETSITS148020V520200212
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Rate Adaptation
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Rate Adaptation
     on the Base Station System - Mobile Service Switching Centre (BSS-MSC) Interface
     (3GPP TS 48.020 version 5.2.0 Release 5)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18179
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/148000_148099/148020/05.02.00_60/ts_148020v050200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 148 020 V5.2.0 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18179
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/148000_148099/148020/05.02.00_60/ts_148020v050200p.pdf
+docidentifier:
+- content: ETSI TS 148 020 V5.2.0 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 148 020 V5.2.0 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interworking (with external networks)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.2.0
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NP-18
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: NP-18
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Interworking (with external networks)
+    content: Technical Specification

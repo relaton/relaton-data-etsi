@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119134-1V1.1.12016-06
+id: ETSITR1191341V111201606
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); XAdES digital signatures
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); XAdES digital signatures
     - Testing Conformance and Interoperability; Part 1: Overview'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39415
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119100_119199/11913401/01.01.01_60/tr_11913401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 134-1 V1.1.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39415
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119100_119199/11913401/01.01.01_60/tr_11913401v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 134-1 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 134-1 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document will provide test suites for testing interoperability of
+- language: en
+  script: Latn
+  content: "This document will provide test suites for testing interoperability of
     signatures compliant with XAdES mother specification and XAdES Baseline Profile.
     It will also define a test suite for testinb comformity of XAdES signatures against
     XAdES mother specification and XAdES Baseline Profile.\r\n\r\nTest suites for
@@ -56,23 +65,33 @@ abstract:
     suites for testing conformity will take into account ETSI TS 119 134-5 v1.1.1
     \"Conformance Testing for XAdES Baseline Profile\".\r\n\r\nThis part 1 provides
     an overview of the series.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
-- content: TESTING
-- content: XAdES
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: XAdES
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

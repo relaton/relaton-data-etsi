@@ -1,59 +1,67 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR145ed.11994-10
+id: ETSIETR145ed1199410
+schema_version: v1.4.1
 title:
-- content: Network Aspects (NA); European frame relay services; General information
+- language: en
+  script: Latn
+  content: Network Aspects (NA); European frame relay services; General information
     and standardization overview
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2188
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/145/01_60/etr_145e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 145 ed.1 (1994-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2188
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/145/01_60/etr_145e01p.pdf
+docidentifier:
+- content: ETSI ETR 145 ed.1 (1994-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 145 ed.1 (1994-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Description of scenarios for European Frame Relay Services\r\nIncludes:\r\n-
+- language: en
+  script: Latn
+  content: "Description of scenarios for European Frame Relay Services\r\nIncludes:\r\n-
     public network only\r\n- private network only\r\n- scenarios including public
     and private networks\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FRAME RELAY
+- taxon:
+  - language: en
+    script: Latn
+    content: FRAME RELAY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: ETSI Technical Report

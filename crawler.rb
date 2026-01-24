@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
-require "relaton_etsi"
+require "fileutils"
+
+require "relaton/etsi/data_fetcher"
 
 FileUtils.rm_rf "data"
 FileUtils.rm Dir.glob("index*")
 
-RelatonEtsi::DataFetcher.fetch
+Relaton::Etsi::DataFetcher.fetch

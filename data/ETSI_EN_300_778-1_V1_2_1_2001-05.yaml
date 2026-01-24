@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300778-1V1.2.12001-05
+id: ETSIEN3007781V121200105
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Analogue access to the Public Switched Telephone
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Analogue access to the Public Switched Telephone
     Network (PSTN); Protocol over the local loop for display and related services;
     Terminal Equipment requirements; Part 1: On-hook data transmission'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10805
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300700_300799/30077801/01.02.01_60/en_30077801v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 778-1 V1.2.1 (2001-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10805
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300700_300799/30077801/01.02.01_60/en_30077801v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 778-1 V1.2.1 (2001-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 778-1 V1.2.1 (2001-05)
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of the access requirements for terminal equipment intended\r\nto
+- language: en
+  script: Latn
+  content: "Definition of the access requirements for terminal equipment intended\r\nto
     receive data provided by the method described in EN 300 659-1 and -3."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLIP
-- content: PSTN
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: AT Features
+    content: European Standard

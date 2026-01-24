@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIES200677V1.2.11998-03
+id: ETSIES200677V121199803
+schema_version: v1.4.1
 title:
-- content: Public Switched Telephone Network (PSTN); Requirements for handset telephony
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5300
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/200600_200699/200677/01.02.01_60/es_200677v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 200 677 V1.2.1 (1998-03)
+- language: en
+  script: Latn
+  content: Public Switched Telephone Network (PSTN); Requirements for handset telephony
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5300
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/200600_200699/200677/01.02.01_60/es_200677v010201p.pdf
+docidentifier:
+- content: ETSI ES 200 677 V1.2.1 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 200 677 V1.2.1 (1998-03)
 date:
 - type: published
-  value: 1998-03
+  at: 1998-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1998-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of the ammendment to this I-ETS is to correct the technical
+- language: en
+  script: Latn
+  content: "The purpose of the ammendment to this I-ETS is to correct the technical
     and editorial errors raised as a result of V 109. Where the existing\r\nscope
     shall not be altered from:\r\n\"This I-ETS specifies those electro-acoustical
     characteristics that a handset telephony terminal should fulfill to ensure the
@@ -66,21 +75,27 @@ abstract:
     designed for use in hostile environments;\r\n-key systems or Private Automatic
     Branch eXchange (PABX) system dependent terminals;\r\n-telephones using non-linear
     or time variant signal processing techniques.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACOUSTIC
-- content: ANALOGUE
-- content: PSTN
-- content: TELEPHONY
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACOUSTIC
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: ETSI Standard

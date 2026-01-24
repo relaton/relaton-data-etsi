@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300385ed.11996-02
+id: ETSIETS300385ed1199602
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for digital fixed radio links and ancillary equipment with data rates
     at around 2 Mbit/s and above
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1829
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300385/01_60/ets_300385e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 385 ed.1 (1996-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1829
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300385/01_60/ets_300385e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 385 ed.1 (1996-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 385 ed.1 (1996-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for fixed link equipment.\r\nThe ETS may be
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for fixed link equipment.\r\nThe ETS may be
     used to demonstrate compliance with the requirements\r\nof the EMC Directive 89/336/EEC.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: EMC
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

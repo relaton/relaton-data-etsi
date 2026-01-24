@@ -1,65 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR118546V4.0.02022-04
+id: ETSITR118546V400202204
+schema_version: v1.4.1
 title:
-- content: 'oneM2M: Study on Public Warning Service Enabler (oneM2M TR-0046 v4.0.0
+- language: en
+  script: Latn
+  content: 'oneM2M: Study on Public Warning Service Enabler (oneM2M TR-0046 v4.0.0
     Release 4)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63035
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118546/04.00.00_60/tr_118546v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 118 546 V4.0.0 (2022-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63035
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118546/04.00.00_60/tr_118546v040000p.pdf
+docidentifier:
+- content: ETSI TR 118 546 V4.0.0 (2022-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 118 546 V4.0.0 (2022-04)
 date:
 - type: published
-  value: 2022-04
+  at: 2022-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2022-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgV0kgaXMgdGhlIHN0dWR5IG9uIHB1YmxpYyB3YXJuaW5nIHNlcnZpY2UgZW5hYmxlciBvZiBvbmVNMk0gc3lzdGVtLiBJdCB3b3VsZCBiZSBmdXJ0aGVyIGV4dGVuZGVkIHRvIHRoZSBub3JtYXRpdmUgd29yayBvbmNlIHRoZSBmaXJzdCBpbmZvcm1hdGl2ZSBzdHVkeSBpcyBmaW5pc2hlZC4gVGhlIHB1YmxpYyB3YXJuaW5nIHNlcnZpY2Ugd2lsbCBiZSBwcm92aWRlZCBieSBhdXRob3JpdGllcyAoZS5nLiBnb3Zlcm5tZW50KSB0aGF0IHRoZXkgY2FuIHNlbmQgd2FybmluZyBpbmZvcm1hdGlvbiB0byB0aGluZ3MgYXMgd2VsbCBhcyBodW1hbiBiZWluZ3MgaW4gZGlzYXN0ZXIgYXJlYXMuIFRoZXJlZm9yZSwgdGhvc2UgdGhpbmdzIGNhbiBwcm9wZXJseSBwZXJmb3JtIGFjdGlvbnMgdG8gcHJvdGVjdCBwZW9wbGUgYW5kIHJlZHVjZSBzY2FsZSBvZiBkYW1hZ2VzLiBFLmcuIGxvY2sgdGhlIGdhcyBwaXBlcyBpbiBjaXRpZXMuIFRvIGVuYWJsZSB0aGlzIHNlcnZpY2Ugb3ZlciBvbmVNMk0gc3lzdGVtLCB0aGUgc3R1ZHkgaW5jbHVkZXMgZm9sbG93aW5nIHRlY2huaWNhbCBzY29wZS4gDQrCt0Nhc2Ugc3R1ZGllcyBvZiBleGlzdGluZyBwdWJsaWMgd2FybmluZyBzeXN0ZW1zLg0KwrdVc2UgY2FzZXMgYW5kIHBvdGVudGlhbCByZXF1aXJlbWVudHMgZm9yIGF1dG9tYXRlZCBvciBpbnRlbGxpZ2VudCBkZXZpY2VzIHRoYXQgcmUtYWN0IGVtZXJnZW5jeS4NCsK3QXJjaGl0ZWN0dXJlIGFuYWx5c2lzIGZvciB0aGUgbmV3IHVzZSBjYXNlcyBhbmQgcmVxdWlyZW1lbnRzIHdpdGggY3VycmVudCBvbmVNMk0gc3lzdGVtLg0KwrdTZWN1cml0eSBpbXBhY3RzIGFuYWx5c2lzLg0KwrdBYnN0cmFjdCBkYXRhIG1vZGVscyBmb3IgcHVibGljIHdhcm5pbmcgc2VydmljZXMuDQrCt1NlbWFudGljIGludGVyd29ya2luZyBiZXR3ZWVuIHRoZSBkYXRhIG1vZGVscyBhbmQgZXh0ZW5kZWQgb25lTTJNIG9udG9sb2d5Lg0KDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this WI is the study on public warning service enabler of
+    oneM2M system. It would be further extended to the normative work once the first
+    informative study is finished. The public warning service will be provided by
+    authorities (e.g. government) that they can send warning information to things
+    as well as human beings in disaster areas. Therefore, those things can properly
+    perform actions to protect people and reduce scale of damages. E.g. lock the gas
+    pipes in cities. To enable this service over oneM2M system, the study includes
+    following technical scope. \r\nCase studies of existing public warning systems.\r\nUse
+    cases and potential requirements for automated or intelligent devices that re-act
+    emergency.\r\nArchitecture analysis for the new use cases and requirements with
+    current oneM2M system.\r\nSecurity impacts analysis.\r\nAbstract data models for
+    public warning services.\r\nSemantic interworking between the data models and
+    extended oneM2M ontology.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: Public Safety
-- content: SAFETY
+- taxon:
+  - language: en
+    script: Latn
+    content: Public Safety
+  - language: en
+    script: Latn
+    content: SAFETY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Report

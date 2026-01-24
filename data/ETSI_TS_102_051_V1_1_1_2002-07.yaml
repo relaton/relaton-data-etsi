@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102051V1.1.12002-07
+id: ETSITS102051V111200207
+schema_version: v1.4.1
 title:
-- content: ENUM Administration in Europe
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14414
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/102051/01.01.01_60/ts_102051v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 051 V1.1.1 (2002-07)
+- language: en
+  script: Latn
+  content: ENUM Administration in Europe
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14414
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/102051/01.01.01_60/ts_102051v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 051 V1.1.1 (2002-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 051 V1.1.1 (2002-07)
 date:
 - type: published
-  value: 2002-07
+  at: 2002-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services, Applications, Numbering, Naming and Addressing (SANNA)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Development of a set of basic principles that should be adhered to maximise
+- language: en
+  script: Latn
+  content: Development of a set of basic principles that should be adhered to maximise
     benefits from publicly available ENUM implementations within Europe.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: enum
+- taxon:
+  - language: en
+    script: Latn
+    content: enum
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services, Applications, Numbering, Naming and Addressing (SANNA)
+    content: Technical Specification

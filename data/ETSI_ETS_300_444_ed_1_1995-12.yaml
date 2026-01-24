@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300444ed.11995-12
+id: ETSIETS300444ed1199512
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Generic Access Profile
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Generic Access Profile
     (GAP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2241
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300444/01_60/ets_300444e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 444 ed.1 (1995-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2241
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300444/01_60/ets_300444e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 444 ed.1 (1995-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 444 ed.1 (1995-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based on the ETS 300 175 (DECT CI), to develop a  Generic Access\r\nProfile
+- language: en
+  script: Latn
+  content: "Based on the ETS 300 175 (DECT CI), to develop a  Generic Access\r\nProfile
     (GAP). This profile shall consist of protocol functions that\r\nare common to
     get access to different fixed networks with the\r\nprovision of mobility. The
     profile shall have a focus on speech.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DECT
-- content: GENERIC
-- content: PROFILE
-- content: RADIO
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: DECT
+    content: European Telecommunication Standard

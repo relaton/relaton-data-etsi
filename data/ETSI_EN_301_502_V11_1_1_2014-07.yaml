@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301502V11.1.12014-07
+id: ETSIEN301502V1111201407
+schema_version: v1.4.1
 title:
-- content: Global System for Mobile communications (GSM); Harmonized EN for Base Station
+- language: en
+  script: Latn
+  content: Global System for Mobile communications (GSM); Harmonized EN for Base Station
     Equipment covering the essential requirements of article 3.2 of the R&TTE Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41931
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301500_301599/301502/11.01.01_60/en_301502v110101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 502 V11.1.1 (2014-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41931
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301500_301599/301502/11.01.01_60/en_301502v110101p.pdf
+docidentifier:
+- content: ETSI EN 301 502 V11.1.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 502 V11.1.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.1.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Introduce changes included from 3GPP Rel-10/11, especially the support
+- language: en
+  script: Latn
+  content: Introduce changes included from 3GPP Rel-10/11, especially the support
     of Medium Range / Local Area multicarrier BTS in 3GPP Rel-11. Include reference
     to the Rel-11 version of ETSI TS 151 021 (3GPP TS 51.021).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASE STATION
-- content: cellular
-- content: GSM
-- content: MCBTS
+- taxon:
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: cellular
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MCBTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: European Standard

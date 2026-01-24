@@ -1,78 +1,117 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRmWT025V1.1.12021-03
+id: ETSIGRmWT025V111202103
+schema_version: v1.4.1
 title:
-- content: 'Wireless Backhaul Network and Services Automation: SDN SBI YANG models'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58664
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/025/01.01.01_60/gr_mWT025v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR mWT 025 V1.1.1 (2021-03)
+- language: en
+  script: Latn
+  content: 'Wireless Backhaul Network and Services Automation: SDN SBI YANG models'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58664
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/mWT/001_099/025/01.01.01_60/gr_mWT025v010101p.pdf
+docidentifier:
+- content: ETSI GR mWT 025 V1.1.1 (2021-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR mWT 025 V1.1.1 (2021-03)
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimetre Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGV0YWlsZWQgZGVzY3JpcHRpb24gb2YgdXNlIGNhc2VzIHVuZGVyIGEg4oCcY2xvc2UtdG8taW1wbGVtZW50YXRpb27igJ0gYXBwcm9hY2ggZm9yIHdpcmVsZXNzIGJhY2toYXVsIG5ldHdvcmtzLiBBbmFseXNpcywgZm9jdXNlZCBvbiBmdW5jdGlvbmFsaXRpZXMgcmVsYXRlZCB0byBuZXR3b3JrICYgc2VydmljZXMgYXV0b21hdGlvbiBvZiBhIHZhcmlldHkgb2YgWUFORyBkYXRhIG1vZGVscyB0byBiZSBpbXBsZW1lbnRlZCBvbiBhIGRlZGljYXRlZCBTRE4gc291dGhib3VuZCBpbnRlcmZhY2Uu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Detailed description of use cases under a close-to-implementation approach
+    for wireless backhaul networks. Analysis, focused on functionalities related to
+    network & services automation of a variety of YANG data models to be implemented
+    on a dedicated SDN southbound interface.
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: automation
-- content: backhaul
-- content: data models
-- content: fronthaul
-- content: microwave
-- content: midhaul
-- content: Millimetre wave
-- content: mWT
-- content: SBI
-- content: SDN
-- content: Southbound Interface
-- content: TRANSMISSION
-- content: use case
-- content: X-Haul
-- content: YANG
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: backhaul
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: fronthaul
+  - language: en
+    script: Latn
+    content: microwave
+  - language: en
+    script: Latn
+    content: midhaul
+  - language: en
+    script: Latn
+    content: Millimetre wave
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: SBI
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: Southbound Interface
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: use case
+  - language: en
+    script: Latn
+    content: X-Haul
+  - language: en
+    script: Latn
+    content: YANG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: millimetre Wave Transmission
+    content: Group Report

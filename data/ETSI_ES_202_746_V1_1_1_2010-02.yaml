@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202746V1.1.12010-02
+id: ETSIES202746V111201002
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Personalization and User Profile Management; User Profile
+- language: en
+  script: Latn
+  content: Human Factors (HF); Personalization and User Profile Management; User Profile
     Preferences and Information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22438
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202700_202799/202746/01.01.01_60/es_202746v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 746 V1.1.1 (2010-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22438
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202700_202799/202746/01.01.01_60/es_202746v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 746 V1.1.1 (2010-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 746 V1.1.1 (2010-02)
 date:
 - type: published
-  value: 2010-02
+  at: 2010-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBTVEYgd2lsbCBzdGFuZGFyZGl6ZSBhIHJ1bGUgZGVmaW5pdGlvbiBsYW5ndWFnZSBmb3IgZGVmaW5pbmcgYXV0b21hdGljIGFjdGl2YXRpb24gb2YgcHJvZmlsZXMsIGEgc2V0IG9mIGNvbXBvbmVudHMgKGluY2x1ZGluZyBhdHRyaWJ1dGVzLCBvcGVyYXRpb25zIGFuZCByZWxhdGlvbnMpIGFuZCBhIGNvbW1vbiB0ZXJtaW5vbG9neSByZWxhdGVkIHRvIHVzZXIgcHJvZmlsZSBtYW5hZ2VtZW50LiBUaGUgd29yayB3aWxsIGJ1aWxkIG9uIHJlc3VsdHMgZnJvbSBTVEYyNjUgb24g4oCcVXNlciBQcm9maWxlIE1hbmFnZW1lbnTigJ0uIFdpdGggdGhlIGdvYWwgb2Ygb2J0YWluaW5nIG1heGltdW0gYmVuZWZpdHMgZm9yIHVzZXJzLCBwcm9maWxlcyB3b3VsZCBub3QgYmUgbGltaXRlZCB0byBjb3ZlciB0b2RheSdzIElDVCBtYXJrZXQsIGJ1dCB3b3VsZCBhbHNvIGVtYnJhY2UgdWJpcXVpdG91cyBzZXJ2aWNlcyBhbmQgYXBwbGljYXRpb25zLCBhbmQgYmUgYWJsZSB0byBjb21tdW5pY2F0ZSB3aXRoIGEgd2lkZSByYW5nZSBvZiBkZXZpY2VzIGluIGRpZ2l0YWwgaG9tZXMvYnVpbGRpbmdzLiANClRoZSBkZWxpdmVyYWJsZSB3aWxsIGJlIGFuIEVUU0kgU3RhbmRhcmQgdGhhdCB3aWxsIHN0YW5kYXJkaXplOg0KLSBvYmplY3RzIChpbmNsdWRpbmcgc2V0dGluZ3MsIHZhbHVlcywgb3BlcmF0aW9ucyBhbmQgcmVsYXRpb25zKSByZWxhdGVkIHRvIHVzZXIgcHJvZmlsZSBtYW5hZ2VtZW50Ow0KLSBydWxlIGRlZmluaXRpb24gbGFuZ3VhZ2UgZm9yIGRlZmluaW5nIGF1dG9tYXRpYyBhY3RpdmF0aW9uIG9mIHByb2ZpbGVzOw0KLSBjb21tb24gdGVybWlub2xvZ3ku
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This STF will standardize a rule definition language for defining automatic
+    activation of profiles, a set of components (including attributes, operations
+    and relations) and a common terminology related to user profile management. The
+    work will build on results from STF265 on User Profile Management. With the goal
+    of obtaining maximum benefits for users, profiles would not be limited to cover
+    today's ICT market, but would also embrace ubiquitous services and applications,
+    and be able to communicate with a wide range of devices in digital homes/buildings.
+    \r\nThe deliverable will be an ETSI Standard that will standardize:\r\n- objects
+    (including settings, values, operations and relations) related to user profile
+    management;\r\n- rule definition language for defining automatic activation of
+    profiles;\r\n- common terminology."
+status:
+  stage: Published
 keyword:
-- content: PROFILE
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

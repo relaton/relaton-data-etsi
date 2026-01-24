@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301222V1.1.11999-07
+id: ETSIEN301222V111199907
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Co-ordination channels associated with
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Co-ordination channels associated with
     Digital Satellite News Gathering (DSNG)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5461
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/301222/01.01.01_60/en_301222v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 222 V1.1.1 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5461
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/301222/01.01.01_60/en_301222v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 222 V1.1.1 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 222 V1.1.1 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Voice coding, multiplexing, channel coding and modulation for communication
+- language: en
+  script: Latn
+  content: Voice coding, multiplexing, channel coding and modulation for communication
     channels for Digital Satellite News Gathering (DSNG) applications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: SNG
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: SNG
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

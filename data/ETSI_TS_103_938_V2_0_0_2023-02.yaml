@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103938V2.0.02023-02
+id: ETSITS103938V200202302
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
     of Applications; Local Dynamic Map (LDM); Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67962
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103938/02.00.00_60/ts_103938v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 938 V2.0.0 (2023-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67962
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103938/02.00.00_60/ts_103938v020000p.pdf
+docidentifier:
+- content: ETSI TS 103 938 V2.0.0 (2023-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 938 V2.0.0 (2023-02)
 date:
 - type: published
-  value: 2023-02
+  at: 2023-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Transport Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2023-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Baseline Release 2 version of LDM specification, previously published
+- language: en
+  script: Latn
+  content: "Baseline Release 2 version of LDM specification, previously published
     as EN 302 895 V1.1.1 (Release 1)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: ITS
-- content: MANAGEMENT
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Intelligent Transport Systems
+    content: Technical Specification

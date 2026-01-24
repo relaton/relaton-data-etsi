@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSISR001544V1.1.12011-03
+id: ETSISR001544V111201103
+schema_version: v1.4.1
 title:
-- content: Small and Medium-sized Enterprises (SMEs) in Standardization; Understanding
+- language: en
+  script: Latn
+  content: Small and Medium-sized Enterprises (SMEs) in Standardization; Understanding
     and supporting SME involvement in ICT standardization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35647
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/001500_001599/001544/01.01.01_60/sr_001544v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 001 544 V1.1.1 (2011-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35647
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/001500_001599/001544/01.01.01_60/sr_001544v010101p.pdf
+docidentifier:
+- content: ETSI SR 001 544 V1.1.1 (2011-03)
   type: ETSI
   primary: true
 docnumber: ETSI SR 001 544 V1.1.1 (2011-03)
 date:
 - type: published
-  value: 2011-03
+  at: 2011-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Board
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document presents a summary of the main findings and results
+- language: en
+  script: Latn
+  content: "The present document presents a summary of the main findings and results
     of ETSI STF 376, on a pro-active approach to SME participation in Standardization.
     \r\nETSI STF 376, co-financed by the European Commission and EFTA and reporting
     to the ETSI Board, has conducted a study into SME participation in ICT standardization,
@@ -57,17 +66,15 @@ abstract:
     from a survey and from the case studies.  It also proposes a number of tools and
     best practices which have been researched and which should support a greater level
     of SME participation in ICT standardization."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SME
+- taxon:
+  - language: en
+    script: Latn
+    content: SME
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Board
+    content: Special Report

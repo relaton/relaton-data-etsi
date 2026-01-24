@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101311V1.1.12001-06
+id: ETSITR101311V111200106
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 3; Service Independent requirements definition; Transport Plane
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6365
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101311/01.01.01_60/tr_101311v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 311 V1.1.1 (2001-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6365
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101311/01.01.01_60/tr_101311v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 311 V1.1.1 (2001-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 311 V1.1.1 (2001-06)
 date:
 - type: published
-  value: 2001-06
+  at: 2001-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Requirements, charging and security matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This report collects requirements on the transport plane (comprising the
+- language: en
+  script: Latn
+  content: "This report collects requirements on the transport plane (comprising the
     transport abstraction layer and the services it derives from the underlying network
     abstraction layer and any associated physical networks) for the TIPHON service.
     This service  comprises of interworked voice and voice-band communication for
@@ -55,20 +64,24 @@ abstract:
     abstraction layer that have not been design issues when IP was created. This document
     captures the TIPHON requirements that have been created in the several working
     groups as well as interaction between those requirements.\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: TRANSPORT
-- content: VOICE
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: TRANSPORT
+  - language: en
+    script: Latn
+    content: VOICE
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Requirements, charging and security matters
+    content: Technical Report

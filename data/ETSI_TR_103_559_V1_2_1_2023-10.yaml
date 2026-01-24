@@ -1,80 +1,113 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103559V1.2.12023-10
+id: ETSITR103559V121202310
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Best practices for robust
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Best practices for robust
     network QoS benchmark testing and scoring
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66527
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103559/01.02.01_60/tr_103559v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 559 V1.2.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66527
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103559/01.02.01_60/tr_103559v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 559 V1.2.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 559 V1.2.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides best practices for robust network QoS benchmark
+- language: en
+  script: Latn
+  content: "The present document provides best practices for robust network QoS benchmark
     testing and ranking.\r\nThis revision covers but is not limited to:\r\n- Consideration
     of recent standards for speech quality prediction as Recommendations ITU-T P.565.1
     and P.863 ed.3\r\n- Revising and/or superseding outdated information and examples\r\n-
     Including information and examples reflecting emerging 5G networks"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3G
-- content: Benchmarking
-- content: DATA
-- content: GSM
-- content: LTE
-- content: NETWORK
-- content: QoE
-- content: QoS
-- content: scoring
-- content: SERVICE
-- content: SPEECH
-- content: VIDEO
-- content: ViLTE
-- content: VoLTE
+- taxon:
+  - language: en
+    script: Latn
+    content: 3G
+  - language: en
+    script: Latn
+    content: Benchmarking
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: QoE
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: scoring
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: VIDEO
+  - language: en
+    script: Latn
+    content: ViLTE
+  - language: en
+    script: Latn
+    content: VoLTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

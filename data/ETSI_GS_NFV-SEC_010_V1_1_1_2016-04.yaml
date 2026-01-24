@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-SEC010V1.1.12016-04
+id: ETSIGSNFVSEC010V111201604
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); NFV Security; Report on Retained
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); NFV Security; Report on Retained
     Data problem statement and requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47630
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/010/01.01.01_60/gs_NFV-SEC010v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-SEC 010 V1.1.1 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47630
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/010/01.01.01_60/gs_NFV-SEC010v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-SEC 010 V1.1.1 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-SEC 010 V1.1.1 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The aim of this work item is to provide a problem statement and articulate
+- language: en
+  script: Latn
+  content: "The aim of this work item is to provide a problem statement and articulate
     the existing requirements for Retained Data in the context of NFV. \r\nThe present
     document examines the core underlying requirements for Retained Data such as those
     presented by ETSI TC LI (TS 102 656 and TS 102 657).\r\n The present document
     aims to identify solutions or mitigations to the problems identified."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: privacy
-- content: Retained Data
-- content: SAFETY
-- content: SECURITY
-- content: usability
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: Retained Data
+  - language: en
+    script: Latn
+    content: SAFETY
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: usability
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Security
+    content: Group Specification

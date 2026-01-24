@@ -1,74 +1,97 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103183V1.1.12012-10
+id: ETSITR103183V111201210
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Global Navigation Satellite
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Global Navigation Satellite
     Systems (GNSS) based applications and standardisation needs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39349
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103183/01.01.01_60/tr_103183v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 183 V1.1.1 (2012-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39349
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103183/01.01.01_60/tr_103183v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 183 V1.1.1 (2012-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 183 V1.1.1 (2012-10)
 date:
 - type: published
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Analyse the various type of GNSS based applications that could require
+- language: en
+  script: Latn
+  content: 'Analyse the various type of GNSS based applications that could require
     navigation, communication or a combination of both technologies and any relevant
     standardisation activities. Conclude with the identification of the potential
     areas for further standardisation. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GNSS
-- content: LOCATION
-- content: MSS
-- content: NAVIGATION
-- content: PERFORMANCE
-- content: RECEIVER
-- content: SATELLITE
-- content: SYSTEM
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: GNSS
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: MSS
+  - language: en
+    script: Latn
+    content: NAVIGATION
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

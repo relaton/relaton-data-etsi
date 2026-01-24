@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129163V7.28.02013-09
+id: ETSITS129163V7280201309
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; Interworking between the IP Multimedia
     (IM) Core Network (CN) subsystem and Circuit Switched (CS) networks (3GPP TS 29.163
     version 7.28.0 Release 7)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43170
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129163/07.28.00_60/ts_129163v072800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 163 V7.28.0 (2013-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43170
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129100_129199/129163/07.28.00_60/ts_129163v072800p.pdf
+docidentifier:
+- content: ETSI TS 129 163 V7.28.0 (2013-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 163 V7.28.0 (2013-09)
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interworking with external networks (formely CN3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.28.0
-revdate: 2013-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CP-61
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CP-61
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Interworking with external networks (formely CN3)
+    content: Technical Specification

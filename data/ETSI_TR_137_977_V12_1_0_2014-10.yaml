@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR137977V12.1.02014-10
+id: ETSITR137977V1210201410
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; Universal Terrestrial
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; Universal Terrestrial
     Radio Access (UTRA) and Evolved Universal Terrestrial Radio Access (E-UTRA); Verification
     of radiated multi-antenna reception performance of User Equipment (UE) (3GPP TR
     37.977 version 12.1.0 Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45660
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/137900_137999/137977/12.01.00_60/tr_137977v120100p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 137 977 V12.1.0 (2014-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45660
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/137900_137999/137977/12.01.00_60/tr_137977v120100p.pdf
+docidentifier:
+- content: ETSI TR 137 977 V12.1.0 (2014-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 137 977 V12.1.0 (2014-10)
 date:
 - type: published
-  value: 2014-10
+  at: 2014-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.1.0
-revdate: 2014-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-63
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-63
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Report

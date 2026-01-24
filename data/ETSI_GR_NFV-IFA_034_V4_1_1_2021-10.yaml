@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA034V4.1.12021-10
+id: ETSIGRNFVIFA034V411202110
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Management and Orchestration;
     Report on Architectural enhancement for VNF License Management support and use
     of VNF licenses
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55729
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/034/04.01.01_60/gr_NFV-IFA034v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 034 V4.1.1 (2021-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=55729
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/034/04.01.01_60/gr_NFV-IFA034v040101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 034 V4.1.1 (2021-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 034 V4.1.1 (2021-10)
 date:
 - type: published
-  value: 2021-10
+  at: 2021-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2021-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will study the enhancements required in the architectural
+- language: en
+  script: Latn
+  content: This work item will study the enhancements required in the architectural
     framework of NFV-MANO for the VNF License Management support and use of VNF Licenses.
     The work will analyze the recommendations made in NFV-EVE010 and provide recommendations
     for the necessary enhancements of the existing IFA specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: License schemes
-- content: MANAGEMENT
-- content: NFV
-- content: VNF
+- taxon:
+  - language: en
+    script: Latn
+    content: License schemes
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: VNF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

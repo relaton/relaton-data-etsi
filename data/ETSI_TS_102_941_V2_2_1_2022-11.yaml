@@ -1,67 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102941V2.2.12022-11
+id: ETSITS102941V221202211
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Trust and Privacy Management;
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Trust and Privacy Management;
     Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64382
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102941/02.02.01_60/ts_102941v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 941 V2.2.1 (2022-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64382
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102941/02.02.01_60/ts_102941v020201p.pdf
+docidentifier:
+- content: ETSI TS 102 941 V2.2.1 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 941 V2.2.1 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VG8gaW5zZXJ0IGEgbWlzc2luZyBjbGF1c2UgZnJvbSBWIDEuNC4xOiAgNi40IOKAnEdlbmVyYXRpb24gYW5kIGRpc3RyaWJ1dGlvbiBvZiBUTE0gLyBSQ0EgTGluayBDZXJ0aWZpY2F0ZXPigJ0gd2hpY2ggaGFkIGJlZW4gaW5zZXJ0ZWQgaW4gVjEuNC4xIChiYXNlZCBvbiB0aGUgQ1BPQyB3b3JrKSBidXQgd2FzIG1pc3NlZCBpbiBWLjIuMS4x
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'To insert a missing clause from V 1.4.1:  6.4 Generation and distribution
+    of TLM / RCA Link Certificates which had been inserted in V1.4.1 (based on the
+    CPOC work) but was missed in V.2.1.1'
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: ITS
-- content: MANAGEMENT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

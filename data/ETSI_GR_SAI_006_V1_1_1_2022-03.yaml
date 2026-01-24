@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRSAI006V1.1.12022-03
+id: ETSIGRSAI006V111202203
+schema_version: v1.4.1
 title:
-- content: Securing ArtificiaI Intelligence (SAI); The role of hardware in security
+- language: en
+  script: Latn
+  content: Securing ArtificiaI Intelligence (SAI); The role of hardware in security
     of AI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60132
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/006/01.01.01_60/gr_SAI006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR SAI 006 V1.1.1 (2022-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60132
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/SAI/001_099/006/01.01.01_60/gr_SAI006v010101p.pdf
+docidentifier:
+- content: ETSI GR SAI 006 V1.1.1 (2022-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR SAI 006 V1.1.1 (2022-03)
 date:
 - type: published
-  value: 2022-03
+  at: 2022-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To prepare a report that identifies the role of hardware, both specialised
+- language: en
+  script: Latn
+  content: To prepare a report that identifies the role of hardware, both specialised
     and general-purpose, in the security of AI. This will address the mitigations
     available in hardware to prevent attacks (as identified in SAI-005) and also address
     the general requirements on hardware to support SAI (expanding from SAI-004, SAI-002,
@@ -55,18 +64,18 @@ abstract:
     and industrial experience in hardware security for AI. In addition, the report
     will address vulnerabilities or weaknesses introduced by hardware that may amplify
     attack vectors on AI.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: Cybersecurity
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: Cybersecurity
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Securing Artificial Intelligence
+    content: Group Report

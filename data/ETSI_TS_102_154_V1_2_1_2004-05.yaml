@@ -1,75 +1,98 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102154V1.2.12004-05
+id: ETSITS102154V121200405
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Implementation guidelines for the use
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Implementation guidelines for the use
     of Video and Audio Coding in Contribution and Primary Distribution Applications
     based on the MPEG-2 Transport Stream
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14948
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102154/01.02.01_60/ts_102154v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 154 V1.2.1 (2004-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14948
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102154/01.02.01_60/ts_102154v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 154 V1.2.1 (2004-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 154 V1.2.1 (2004-05)
 date:
 - type: published
-  value: 2004-05
+  at: 2004-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of the document in a backwards compatible manner in order to maintain
+- language: en
+  script: Latn
+  content: Revision of the document in a backwards compatible manner in order to maintain
     a maximum degree of commonality that is practical between the representation of
     audio and video content in broadcast systems and those based on IP networks identified
     in work item DTR/JTC-DVB-124.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: CONTRIBUTION
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: MPEG
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CONTRIBUTION
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MPEG
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

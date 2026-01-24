@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSISR003391V2.1.12016-02
+id: ETSISR003391V211201602
+schema_version: v1.4.1
 title:
-- content: Cloud Standards Coordination Phase 2; Interoperability and Security in
+- language: en
+  script: Latn
+  content: Cloud Standards Coordination Phase 2; Interoperability and Security in
     Cloud Computing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47105
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/003300_003399/003391/02.01.01_60/sr_003391v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 003 391 V2.1.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47105
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/003300_003399/003391/02.01.01_60/sr_003391v020101p.pdf
+docidentifier:
+- content: ETSI SR 003 391 V2.1.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI SR 003 391 V2.1.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Security was one of the points of attention of CSC Phase 1. Though the
+- language: en
+  script: Latn
+  content: "Security was one of the points of attention of CSC Phase 1. Though the
     availability of Cloud Computing standards related to security and their level
     of maturity were considered as relatively good, some areas of concern were remaining,
     in particular with respect to the proof of conformance (seen as a moving target).
@@ -54,19 +63,21 @@ abstract:
     under this prism. The objective will be to provide users with an updated view
     of the interplay between standards, conformance and regulation and consequently,
     how they can shape their decisions in this space."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cloud computing
-- content: INTEROPERABILITY
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cloud computing
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Network Technologies
+    content: Special Report

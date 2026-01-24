@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100394-4-6V1.1.12000-10
+id: ETSITS10039446V111200010
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Conformance testing specification;
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Conformance testing specification;
     Part 4: Protocol testing specification for Direct Mode Operation (DMO); Sub-part
     6: Abstract Test Suite (ATS) for Direct Mode Repeater (DM-REP) type 1'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11721
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003940406/01.01.01_60/ts_1003940406v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 394-4-6 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11721
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/1003940406/01.01.01_60/ts_1003940406v010101p.pdf
+docidentifier:
+- content: ETSI TS 100 394-4-6 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 394-4-6 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Air Interface / Radio aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Protocol conformance testing (TTCN) for mobile stations\r\nto be used
+- language: en
+  script: Latn
+  content: "Protocol conformance testing (TTCN) for mobile stations\r\nto be used
     for Direct Mode operation\r\n \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ATS
-- content: DMO
-- content: PROTOCOL
-- content: RADIO
-- content: TESTING
-- content: TETRA
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: DMO
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Air Interface / Radio aspects
+    content: Technical Specification

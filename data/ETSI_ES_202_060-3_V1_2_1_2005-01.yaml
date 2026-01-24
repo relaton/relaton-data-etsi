@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202060-3V1.2.12005-01
+id: ETSIES2020603V121200501
+schema_version: v1.4.1
 title:
-- content: 'Short Message Service (SMS) for fixed networks; Network Based Solution
+- language: en
+  script: Latn
+  content: 'Short Message Service (SMS) for fixed networks; Network Based Solution
     (NBS); Part 3: Integrated Services Digital Network (ISDN) access protocol'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21161
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/20206003/01.02.01_60/es_20206003v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 060-3 V1.2.1 (2005-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21161
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/20206003/01.02.01_60/es_20206003v010201p.pdf
+docidentifier:
+- content: ETSI ES 202 060-3 V1.2.1 (2005-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 060-3 V1.2.1 (2005-01)
 date:
 - type: published
-  value: 2005-01
+  at: 2005-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2005-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Incorporate  the corrections and modifications  to the ASN.1 modules contained
+- language: en
+  script: Latn
+  content: Incorporate  the corrections and modifications  to the ASN.1 modules contained
     in ES 202 060-3 as specified in Change Requests CR00n and CR00m
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSS1
-- content: FUNCTIONAL
-- content: ISDN
-- content: PROTOCOL
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: ETSI Standard

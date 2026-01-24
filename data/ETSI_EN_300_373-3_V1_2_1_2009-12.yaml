@@ -1,55 +1,64 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300373-3V1.2.12009-12
+id: ETSIEN3003733V121200912
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Maritime
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Maritime
     mobile transmitters and receivers for use in the MF and HF bands; Part 3: Harmonized
     EN covering essential requirements under article 3.3(e) of the R&TTE Directive;
     Equipment with integrated or associated equipment for Class E Digital Selective
     Calling (DSC)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28839
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30037303/01.02.01_60/en_30037303v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 373-3 V1.2.1 (2009-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28839
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30037303/01.02.01_60/en_30037303v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 373-3 V1.2.1 (2009-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 373-3 V1.2.1 (2009-12)
 date:
 - type: published
-  value: 2009-12
+  at: 2009-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document states the minimum requirements for radio transmitters
+- language: en
+  script: Latn
+  content: "The present document states the minimum requirements for radio transmitters
     and receivers, for use on ships, operating in either the Medium Frequency (MF)
     only or in the Medium and High Frequency (MF/HF) bands allocated in the International
     Telecommunications Union (ITU) Radio Regulations [1], to the Maritime Mobile Service
@@ -84,22 +93,30 @@ abstract:
     dangerous or unsafe as a result of the application of the tests called for herein.\r\nThe
     present document does not address the testing of ancillary equipment on a stand-alone
     basis, i.e. separately from the radio equipment with which it is to be used.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MARITIME
-- content: MOBILE
-- content: RADIO
-- content: REGULATION
-- content: SELCALL
-- content: TELEPHONY
+- taxon:
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SELCALL
+  - language: en
+    script: Latn
+    content: TELEPHONY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: European Standard

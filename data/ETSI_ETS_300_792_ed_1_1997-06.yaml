@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300792ed.11997-06
+id: ETSIETS300792ed1199706
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Global System for
     Mobile communications (GSM); DECT/GSM Interworking Profile (IWP); Implementation
     of facsimile group 3
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3711
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300792/01_60/ets_300792e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 792 ed.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3711
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300792/01_60/ets_300792e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 792 ed.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 792 ed.1 (1997-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: GSM interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify how facsimile group 3 shall be implemented in the\r\nDECT/GSM
+- language: en
+  script: Latn
+  content: "To specify how facsimile group 3 shall be implemented in the\r\nDECT/GSM
     interworking profile, based upon the DECT/Data F.2\r\nprofile.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: FAX
-- content: GSM
-- content: PROFILE
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: FAX
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: PROFILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: GSM interworking
+    content: European Telecommunication Standard

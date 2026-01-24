@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118113V1.0.02016-03
+id: ETSITS118113V100201603
+schema_version: v1.4.1
 title:
-- content: oneM2M; Interoperability Testing (oneM2M TS-0013 version 1.0.0 Release
+- language: en
+  script: Latn
+  content: oneM2M; Interoperability Testing (oneM2M TS-0013 version 1.0.0 Release
     1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47622
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118113/01.00.00_60/ts_118113v010000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 113 V1.0.0 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47622
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118113/01.00.00_60/ts_118113v010000p.pdf
+docidentifier:
+- content: ETSI TS 118 113 V1.0.0 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 113 V1.0.0 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.0
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: a work item to produce an Interoperability Testing Specification of  the
+- language: en
+  script: Latn
+  content: a work item to produce an Interoperability Testing Specification of  the
     oneM2M primitives defined in TS-0001 and TS-0004
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IoT
-- content: M2M
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

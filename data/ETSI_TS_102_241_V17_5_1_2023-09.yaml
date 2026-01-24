@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102241V17.5.12023-09
+id: ETSITS102241V1751202309
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC Application Programming Interface (UICC API) for Java
+- language: en
+  script: Latn
+  content: Smart Cards; UICC Application Programming Interface (UICC API) for Java
     Card (TM) (Release 17)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69137
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102241/17.05.01_60/ts_102241v170501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 241 V17.5.1 (2023-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69137
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102241/17.05.01_60/ts_102241v170501p.pdf
+docidentifier:
+- content: ETSI TS 102 241 V17.5.1 (2023-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 241 V17.5.1 (2023-09)
 date:
 - type: published
-  value: 2023-09
+  at: 2023-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.5.1
-revdate: 2023-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Editorial publications, adding 2 bytes "FFFF" in Annex C in Table C.1a
+- language: en
+  script: Latn
+  content: Editorial publications, adding 2 bytes "FFFF" in Annex C in Table C.1a
     removed during the pre-processing.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: secure element
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: secure element
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET-TEC
+    content: Technical Specification

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202912-6V1.1.12003-02
+id: ETSIES2029126V111200302
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Short Message Service (SMS) for PSTN/ISDN;
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Short Message Service (SMS) for PSTN/ISDN;
     Test Suites for SMS User Based Solution; Part 6: Abstract Test Suite (ATS) user
     side for Data Link Layer (DLL) Protocol 2'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15175
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202900_202999/20291206/01.01.01_60/es_20291206v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 912-6 V1.1.1 (2003-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15175
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202900_202999/20291206/01.01.01_60/es_20291206v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 912-6 V1.1.1 (2003-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 912-6 V1.1.1 (2003-02)
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of ATS User Based Solution (UBS)  for Protocol 2 Data Link
+- language: en
+  script: Latn
+  content: Specification of ATS User Based Solution (UBS)  for Protocol 2 Data Link
     Layer
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: PIXIT
-- content: PSTN
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Features
+    content: ETSI Standard

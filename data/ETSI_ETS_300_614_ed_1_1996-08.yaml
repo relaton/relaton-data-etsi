@@ -1,63 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300614ed.11996-08
+id: ETSIETS300614ed1199608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Security management
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Security management
     (GSM 12.03)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1791
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300614/01_60/ets_300614e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 614 ed.1 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1791
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300614/01_60/ets_300614e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 614 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 614 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operations & Maintenance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBFdXJvcGVhbiBUZWxlY29tbXVuaWNhdGlvbiBTdGFuZGFyZCAoRVRTKSBkZXNjcmliZXMgdGhlDQptYW5hZ2VtZW50IG9mIHRoZSBzZWN1cml0eSByZWxhdGVkIGFzcGVjdHMgaW4gdGhlIEdTTS9EQ1MgUExNTi4gVGhlDQptYW5hZ2VtZW50IG9mIHRoZSByZWxldmFudCBzZWN1cml0eSBzZXJ2aWNlcyBpcyBhZGRyZXNzZWQgd2l0aCByZXNwZWN0DQp0byB0aGUgZm9sbG93aW5nIGFzcGVjdHM6DQrigJMgT3ZlcnZpZXcgb2YgdGhlIHNlY3VyaXR5IGZlYXR1cmVzOw0K4oCTIERlc2NyaXB0aW9uIG9mIHRoZSByZWxldmFudCBtYW5hZ2VtZW50IHByb2NlZHVyZXM7DQrigJMgTW9kZWxpbmcgdXNpbmcgdGhlIG9iamVjdCBvcmllbnRlZCBwYXJhZGlnbS4NCiBUaGUgZGVmaW5pdGlvbnMgYW5kIGRlc2NyaXB0aW9ucyBvZiB0aGUgc2VjdXJpdHkgZmVhdHVyZXMgYW5kDQptZWNoYW5pc21zIGFyZSBjb250YWluZWQgaW4gdGhlIHNwZWNpZmljYXRpb25zIG9mIHRoZSB1bmRlcmx5aW5nDQpwcm9jZWR1cmVzIGFuZCBhcmUgbm90IGRlZmluZWQgaW4gdGhpcyBFVFMuIFJlZmVyZW5jZXMgdG8gYXBwcm9wcmlhdGUNCkdTTS9EQ1Mgc3BlY2lmaWNhdGlvbnMgaGF2ZSBiZWVuIG1hZGUgdGhyb3VnaG91dCB0aGUgRVRTLCB3aGVyZQ0KbmVjZXNzYXJ5LiBJc3N1ZXMgcmVsYXRpbmcgdG8gdGhlIHNlY3VyaXR5IG9mIG1hbmFnZW1lbnQgKGUuZy4gZmlsZQ0KdHJhbnNmZXIgc2VjdXJpdHksIGRhdGFiYXNlIHNlY3VyaXR5LCBpbnRlciBvcGVyYXRvciBzZWN1cml0eSwgZXRjLikNCmFyZSBub3QgY292ZXJlZCBpbiB0aGlzIEVUUy4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) describes the\r\nmanagement
+    of the security related aspects in the GSM/DCS PLMN. The\r\nmanagement of the
+    relevant security services is addressed with respect\r\nto the following aspects:\r\n
+    Overview of the security features;\r\n Description of the relevant management
+    procedures;\r\n Modeling using the object oriented paradigm.\r\n The definitions
+    and descriptions of the security features and\r\nmechanisms are contained in the
+    specifications of the underlying\r\nprocedures and are not defined in this ETS.
+    References to appropriate\r\nGSM/DCS specifications have been made throughout
+    the ETS, where\r\nnecessary. Issues relating to the security of management (e.g.
+    file\r\ntransfer security, database security, inter operator security, etc.)\r\nare
+    not covered in this ETS.\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Operations & Maintenance
+    content: European Telecommunication Standard

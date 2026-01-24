@@ -1,68 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSISR019510V1.1.12017-05
+id: ETSISR019510V111201705
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Scoping study and framework
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Scoping study and framework
     for standardization of long-term data preservation services, including preservation
     of/with digital signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47561
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/019500_019599/019510/01.01.01_60/sr_019510v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 019 510 V1.1.1 (2017-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47561
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/019500_019599/019510/01.01.01_60/sr_019510v010101p.pdf
+docidentifier:
+- content: ETSI SR 019 510 V1.1.1 (2017-05)
   type: ETSI
   primary: true
 docnumber: ETSI SR 019 510 V1.1.1 (2017-05)
 date:
 - type: published
-  value: 2017-05
+  at: 2017-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG9iamVjdGl2ZSBvZiB0aGlzIHdvcmsgaXRlbSBpcyB0byBzcGVjaWZ5IHRoZSBnZW5lcmFsIHJlcXVpcmVtZW50cyB3aXRoIHJlc3BlY3QgdG8gbG9uZy10ZXJtIGRhdGEgcHJlc2VydmF0aW9uIGFuZCBjbGVhcmx5IGlkZW50aWZ5IHdoaWNoIGFyZSB0aGUg4oCcb2JqZWN0c+KAnSB3aG9zZSBwcmVzZXJ2YXRpb24gZmFsbHMgaW4gdGhlIHNjb3BlIG9mIGEgcHJlc2VydmF0aW9uIHNlcnZpY2UgYXMgZGVmaW5lZCBieSB0aGUgUmVndWxhdGlvbiAoRVUpIE5vLiA5MTAvMjAxNCBhbmQgd2hpY2ggb2JqZWN0cyBhcmUgb3V0c2lkZSB0aGUgc2NvcGUgb2YgdGhlIFJlZ3VsYXRpb24gYnV0IHdvcnRoIHRvIGJlIGNvbnNpZGVyZWQsIHRoZSBzZXQgb2YgcHJvY2Vzc2VzIGFuZCB0ZWNobm9sb2dpZXMgdG8gYmUgc3VwcG9ydGVkIGJ5IGEgcHJlc2VydmF0aW9uIHNlcnZpY2UgcHJvdmlkZXIgYW5kIHRoZSBkaWZmZXJlbnQgdHlwZXMgb2YgcHJlc2VydmF0aW9uIHNlcnZpY2UgcHJvdmlkZXIsIGEgY2F0YWxvZ3VlIG9mIGV4aXN0aW5nIHNwZWNpZmljYXRpb25zIGFuZCBzdGFuZGFyZHMsIGEgbGlzdCBvZiB3ZWxsLWVzdGFibGlzaGVkIGFuZCBhY3RpdmUgY29tbXVuaXRpZXMgaW4gdGhlIGZpZWxkcyBvZiBhcmNoaXZhbCBhbmQgcHJlc2VydmF0aW9uIChwb3NzaWJsZSBjYW5kaWRhdGVzIGZvciBsaWFpc29ucykgYW5kIGFuIGV4dGVuc2lvbiB0byB0aGUgUmF0aW9uYWxpc2VkIEZyYW1ld29yayAoUkYpIHNwZWNpZmljYWxseSB0YXJnZXRlZCB0byBkYXRhIHByZXNlcnZhdGlvbiBzZXJ2aWNlcyBhbmQgcHJvdmlkZXJzIHRvIGlkZW50aWZ5IGFueSBhZGRpdGlvbmFsIHN0YW5kYXJkIG9yIHRlY2huaWNhbCBzcGVjaWZpY2F0aW9uIGJleW9uZCB0aG9zZSBhbHJlYWR5IHNwZWNpZmllZCBieSBSRi4gVGhlIFNjb3Bpbmcgc3R1ZHkgYW5kIGZyYW1ld29yayBmb3Igc3RhbmRhcmRpemF0aW9uIHdpbGwgYmUgc3VwcG9ydGluZyB0aGUgKHF1YWxpZmllZCkgcHJlc2VydmF0aW9uIHNlcnZpY2VzIGFzIHBlciBSZWd1bGF0aW9uIChFVSkgTm8gOTEwLzIwMTQgYW5kIGFsc28gcHJlc2VydmF0aW9uIHNlcnZpY2VzIHdpdGggYSBicm9hZGVyIHNjb3BlIGZvciBpbmR1c3RyeSBhdCB0aGUgSW50ZXJuYXRpb25hbCBsZXZlbC4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The objective of this work item is to specify the general requirements
+    with respect to long-term data preservation and clearly identify which are the
+    objects whose preservation falls in the scope of a preservation service as defined
+    by the Regulation (EU) No. 910/2014 and which objects are outside the scope of
+    the Regulation but worth to be considered, the set of processes and technologies
+    to be supported by a preservation service provider and the different types of
+    preservation service provider, a catalogue of existing specifications and standards,
+    a list of well-established and active communities in the fields of archival and
+    preservation (possible candidates for liaisons) and an extension to the Rationalised
+    Framework (RF) specifically targeted to data preservation services and providers
+    to identify any additional standard or technical specification beyond those already
+    specified by RF. The Scoping study and framework for standardization will be supporting
+    the (qualified) preservation services as per Regulation (EU) No 910/2014 and also
+    preservation services with a broader scope for industry at the International level.
+status:
+  stage: Published
 keyword:
-- content: electronic preservation
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: electronic preservation
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

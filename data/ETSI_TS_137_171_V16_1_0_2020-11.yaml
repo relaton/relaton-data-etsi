@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS137171V16.1.02020-11
+id: ETSITS137171V1610202011
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Universal Terrestrial
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Universal Terrestrial
     Radio Access (UTRA) and Evolved UTRA (E-UTRA); User Equipment (UE) performance
     requirements for Radio Access Technology (RAT) Independent Positioning Enhancements
     (3GPP TS 37.171 version 16.1.0 Release 16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61887
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/137100_137199/137171/16.01.00_60/ts_137171v160100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 137 171 V16.1.0 (2020-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61887
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/137100_137199/137171/16.01.00_60/ts_137171v160100p.pdf
+docidentifier:
+- content: ETSI TS 137 171 V16.1.0 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 137 171 V16.1.0 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.1.0
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#89-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#89-e
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Specification

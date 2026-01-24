@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103434V1.1.12017-09
+id: ETSITS103434V111201709
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM); Transcoding of
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM); Transcoding of
     HD and UHD video over powerline network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47099
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103434/01.01.01_60/ts_103434v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 434 V1.1.1 (2017-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47099
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103434/01.01.01_60/ts_103434v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 434 V1.1.1 (2017-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 434 V1.1.1 (2017-09)
 date:
 - type: published
-  value: 2017-09
+  at: 2017-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of the transcoding of HD and UHD video over powerline networks
+- language: en
+  script: Latn
+  content: Specification of the transcoding of HD and UHD video over powerline networks
     for improvement of the network coverage.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Powerline
-- content: VDSL2
+- taxon:
+  - language: en
+    script: Latn
+    content: Powerline
+  - language: en
+    script: Latn
+    content: VDSL2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Specification

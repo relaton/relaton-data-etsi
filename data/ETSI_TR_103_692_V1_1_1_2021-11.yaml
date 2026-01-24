@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103692V1.1.12021-11
+id: ETSITR103692V111202111
+schema_version: v1.4.1
 title:
-- content: CYBER; State management for stateful authentication mechanisms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58982
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103692/01.01.01_60/tr_103692v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 692 V1.1.1 (2021-11)
+- language: en
+  script: Latn
+  content: CYBER; State management for stateful authentication mechanisms
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58982
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103692/01.01.01_60/tr_103692v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 692 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 692 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This technical report proposes to investigate the security issues for
+- language: en
+  script: Latn
+  content: "This technical report proposes to investigate the security issues for
     managing state in, and for the appropriateness of using, stateful hash-based signature
     schemes in different deployment environments. This report does not intend to investigate
     such usage in specific hardware or software products. This report will investigate
@@ -61,18 +70,18 @@ abstract:
     use-cases as well as inappropriate use-cases will be given. Following, the report
     intends to give guidance on how to best mitigate the identified potential vulnerabilities
     and security risks associated with state management. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: digital signature
-- content: Quantum Safe Cryptography
+- taxon:
+  - language: en
+    script: Latn
+    content: digital signature
+  - language: en
+    script: Latn
+    content: Quantum Safe Cryptography
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Report

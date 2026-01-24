@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119132-3V1.1.12021-01
+id: ETSITS1191323V111202101
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); XAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); XAdES digital signatures;
     Part 3: Incorporation of Evidence Record Syntax (ERS) mechanisms in XAdES'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47972
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11913203/01.01.01_60/ts_11913203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 132-3 V1.1.1 (2021-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47972
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11913203/01.01.01_60/ts_11913203v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 132-3 V1.1.1 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 132-3 V1.1.1 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To generate:  1)  The specification of mechanisms for incorporating Evicence
+- language: en
+  script: Latn
+  content: 'To generate:  1)  The specification of mechanisms for incorporating Evicence
     Record Syntax (RFC 4998 and RFC 6283) into a XAdES signature as an alternative
     Proof Of Existance to xadesv141:ArchiveTimeStmap.  2) The specification of how
     the new mechanisms should be managed for being incorporated into XAdES signatures
@@ -55,21 +64,27 @@ abstract:
     signatures.   Also to include  the new aforementioned mechanisms into the repertoire
     of XAdES levels signatures already defined (this can imply the definition of a
     new level)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
-- content: XAdES
-- content: XML
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: XAdES
+  - language: en
+    script: Latn
+    content: XML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103534-2V1.1.12019-10
+id: ETSITR1035342V111201910
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; Teaching material; Part 2: Privacy'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54046
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10353402/01.01.01_60/tr_10353402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 534-2 V1.1.1 (2019-10)
+- language: en
+  script: Latn
+  content: 'SmartM2M; Teaching material; Part 2: Privacy'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54046
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10353402/01.01.01_60/tr_10353402v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 534-2 V1.1.1 (2019-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 534-2 V1.1.1 (2019-10)
 date:
 - type: published
-  value: 2019-10
+  at: 2019-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Develop teaching materials on IoT Privacysuch as an electronic textbook
+- language: en
+  script: Latn
+  content: Develop teaching materials on IoT Privacysuch as an electronic textbook
     and a set of slides, lectures / workshops with developers and operational managers
     to initiate a  widespread dissemination of the developed teaching materials
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: oneM2M
-- content: privacy
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101196V1.1.11997-12
+id: ETSITR101196V111199712
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Interaction channel for Cable TV distribution
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Interaction channel for Cable TV distribution
     systems (CATV); Guidelines for the use of ETS 300 800
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5390
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101196/01.01.01_60/tr_101196v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 196 V1.1.1 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5390
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101196/01.01.01_60/tr_101196v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 196 V1.1.1 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 196 V1.1.1 (1997-12)
 date:
 - type: published
-  value: 1997-12
+  at: 1997-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Hybrid Fibre Coax (HFC) networks are a sub-class of Cable Television (CATV)
+- language: en
+  script: Latn
+  content: "Hybrid Fibre Coax (HFC) networks are a sub-class of Cable Television (CATV)
     networks in which the subscribers are divided into groups by using optical transmission
     technology in the trunk network.\r\nThe CATV infrastructures can support the implementation
     of the Return Channel for interactive services suitable for DVB broadcasting systems.
     CATV can be used to implement interactive services in the DVB environment, providing
     a bi-directional communication path between the user terminal and the service
     provider."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

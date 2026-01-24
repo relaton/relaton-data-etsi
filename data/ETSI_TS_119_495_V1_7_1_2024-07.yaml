@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119495V1.7.12024-07
+id: ETSITS119495V171202407
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Trust Infrastructures (ESI); Sector Specific
+- language: en
+  script: Latn
+  content: Electronic Signatures and Trust Infrastructures (ESI); Sector Specific
     Requirements; Certificate Profiles and TSP Policy Requirements for Open Banking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69119
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119495/01.07.01_60/ts_119495v010701p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 495 V1.7.1 (2024-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69119
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119495/01.07.01_60/ts_119495v010701p.pdf
+docidentifier:
+- content: ETSI TS 119 495 V1.7.1 (2024-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 495 V1.7.1 (2024-07)
 date:
 - type: published
-  value: 2024-07
+  at: 2024-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.7.1
-revdate: 2024-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1. Adaptation of changes resulting from ETSI EN 319 412-4 V1.3.0 (2023-06).\r\n2.
+- language: en
+  script: Latn
+  content: "1. Adaptation of changes resulting from ETSI EN 319 412-4 V1.3.0 (2023-06).\r\n2.
     Adaptation of changes resulting from updates to (Qualified) Certificate Policies
     for Website authentication in EN 319 411-1 and 319 411-2.\r\n3. Update the qualified
     certificate policies for website authentication recommended for PSD2 and the need
@@ -56,23 +65,33 @@ abstract:
     for use with Web browsers as a backup under PSD3.\r\n4. Review requirements and
     potential changes in the context of Payment Services Directive (PSD3),  Payment
     Services Regulation (PSR),  financial data access (FIDA)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: extended validation certificat
-- content: Payment
-- content: Public key
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: extended validation certificat
+  - language: en
+    script: Latn
+    content: Payment
+  - language: en
+    script: Latn
+    content: Public key
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Specification

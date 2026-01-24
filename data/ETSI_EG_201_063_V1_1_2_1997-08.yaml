@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201063V1.1.21997-08
+id: ETSIEG201063V112199708
+schema_version: v1.4.1
 title:
-- content: Multimedia Terminals and Applications (MTA); End-to-end protocols for multimedia
+- language: en
+  script: Latn
+  content: Multimedia Terminals and Applications (MTA); End-to-end protocols for multimedia
     information retrieval services; Application walkthrough in a DAVIC system
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4190
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201063/01.01.02_60/eg_201063v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 063 V1.1.2 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4190
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201063/01.01.02_60/eg_201063v010102p.pdf
+docidentifier:
+- content: ETSI EG 201 063 V1.1.2 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 063 V1.1.2 (1997-08)
 date:
 - type: published
-  value: 1997-08
+  at: 1997-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminals & Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1997-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The use of MHEG-5 on top of Digital Storage Media Command and Control\r\n(DSM-CC)
+- language: en
+  script: Latn
+  content: "The use of MHEG-5 on top of Digital Storage Media Command and Control\r\n(DSM-CC)
     in a Digital Audio Visual Council (DAVIC) system will be\r\nproved by a walkthrough
     in a DAVIC system.  MHEG-5 and DSM-CC must\r\nprovide the necessary functionality
     for DAVIC 1.0 applications.  The\r\naim of this activity is to identify remaining
     gaps within MHEG-5 and\r\nDSM-CC which are needed to support a DAVIC system.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MHEG
-- content: MMI
-- content: MULTIMEDIA
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: MHEG
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Multimedia Terminals & Applications
+    content: ETSI Guide

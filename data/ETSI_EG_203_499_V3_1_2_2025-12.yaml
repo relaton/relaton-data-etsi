@@ -1,71 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203499V3.1.22025-12
+id: ETSIEG203499V312202512
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76583
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203400_203499/203499/03.01.02_60/eg_203499v030102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 499 V3.1.2 (2025-12)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=76583
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203400_203499/203499/03.01.02_60/eg_203499v030102p.pdf
+docidentifier:
+- content: ETSI EG 203 499 V3.1.2 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 499 V3.1.2 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.2
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In the Spanish translation of \"ejection pin hole\" (Table 1G, Index D.7)\r\nreplace
+- language: en
+  script: Latn
+  content: "In the Spanish translation of \"ejection pin hole\" (Table 1G, Index D.7)\r\nreplace
     \"orificio de la bandera de tarjetas\"\r\nby \"orificio de la bandeja de tarjetas\""
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: device
-- content: End-user
-- content: ICT
-- content: INTERFACE
-- content: localisation
-- content: TELEPHONY
-- content: terminology
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: device
+  - language: en
+    script: Latn
+    content: End-user
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: localisation
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: terminology
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

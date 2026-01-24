@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL008V1.1.12021-09
+id: ETSIGRPDL008V111202109
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Research and Innovation Landscape
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61560
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/008/01.01.01_60/gr_PDL008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 008 V1.1.1 (2021-09)
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Research and Innovation Landscape
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61560
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/008/01.01.01_60/gr_PDL008v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 008 V1.1.1 (2021-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 008 V1.1.1 (2021-09)
 date:
 - type: published
-  value: 2021-09
+  at: 2021-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'RaIPS (Research and Innovation for PDL Standardisation) - This document
+- language: en
+  script: Latn
+  content: 'RaIPS (Research and Innovation for PDL Standardisation) - This document
     will show the current research and innovation programmes related to permissioned
     distributed ledgers, distributed digital ledger technologies and blockchain with
     the goal of identifying advanced technologies and innovative research results
     relevant or '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: blockchain
-- content: PDL
-- content: survey
+- taxon:
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: PDL
+  - language: en
+    script: Latn
+    content: survey
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

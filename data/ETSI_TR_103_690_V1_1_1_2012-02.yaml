@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103690V1.1.12012-02
+id: ETSITR103690V111201202
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); eWarrant Interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33428
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103690/01.01.01_60/tr_103690v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 690 V1.1.1 (2012-02)
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); eWarrant Interface
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33428
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103690/01.01.01_60/tr_103690v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 690 V1.1.1 (2012-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 690 V1.1.1 (2012-02)
 date:
 - type: published
-  value: 2012-02
+  at: 2012-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide a generic ETSI Report for requests for handover and delivery
+- language: en
+  script: Latn
+  content: "To provide a generic ETSI Report for requests for handover and delivery
     of real-time or stored information referred to as an eWarrant Implementation Interface.
     \ The eII is not intended to replace existing implementation-specific provisions
     such as for RDHI.  \r\nThis work will be carried out in liaison with the OASIS
     LegalXML TC\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: eWarrant
-- content: Interception
-- content: RETENTION
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: eWarrant
+  - language: en
+    script: Latn
+    content: Interception
+  - language: en
+    script: Latn
+    content: RETENTION
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

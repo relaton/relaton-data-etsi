@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102180V1.5.12015-07
+id: ETSITR102180V151201507
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Basis of requirements for communication
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Basis of requirements for communication
     of individuals with authorities/organizations in case of distress (Emergency call
     handling)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41969
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102180/01.05.01_60/tr_102180v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 180 V1.5.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41969
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102180/01.05.01_60/tr_102180v010501p.pdf
+docidentifier:
+- content: ETSI TR 102 180 V1.5.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 180 V1.5.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Good practice guidelines for emergency call (including location) from IP-PBXs.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Good practice guidelines for emergency call (including location) from IP-PBXs.
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: LOCATION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: LOCATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

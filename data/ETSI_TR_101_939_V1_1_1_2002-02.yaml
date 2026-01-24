@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101939V1.1.12002-02
+id: ETSITR101939V111200202
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Multipoint-to-Multipoint systems; Requirements for
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Multipoint-to-Multipoint systems; Requirements for
     broadband multipoint-to-multipoint radio systems operating in the 24,25 GHz to
     29,5 GHz band and in the available bands within the 31,0 GHz to 33,4 GHz frequency
     range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10818
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101939/01.01.01_60/tr_101939v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 939 V1.1.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10818
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101939/01.01.01_60/tr_101939v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 939 V1.1.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 939 V1.1.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Point-to-Mulipoint Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Technical Report on Broadband Multipoint-to-Multipoint radio systems, including
+- language: en
+  script: Latn
+  content: Technical Report on Broadband Multipoint-to-Multipoint radio systems, including
     requirements for operation in the 24.25 GHz to 29.5GHz band and in available bands
     within the 31.0-33.4 GHz frequency range.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: DRRS
-- content: MULTIPOINT
-- content: MWS
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: MWS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Point-to-Mulipoint Systems
+    content: Technical Report

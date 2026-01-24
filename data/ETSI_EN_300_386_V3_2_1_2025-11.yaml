@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300386V3.2.12025-11
+id: ETSIEN300386V321202511
+schema_version: v1.4.1
 title:
-- content: Telecommunication network equipment; Harmonised Standard for ElectroMagnetic
+- language: en
+  script: Latn
+  content: Telecommunication network equipment; Harmonised Standard for ElectroMagnetic
     Compatibility (EMC) requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68579
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/300386/03.02.01_60/en_300386v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 386 V3.2.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68579
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/300386/03.02.01_60/en_300386v030201p.pdf
+docidentifier:
+- content: ETSI EN 300 386 V3.2.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 386 V3.2.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To modify the standard, where applicable, to resolve the comments received
+- language: en
+  script: Latn
+  content: "To modify the standard, where applicable, to resolve the comments received
     by EU Commission (including rejection letter in ERMEMC(23)069010) and in particular:\r\n-
     clarify clauses with unclear statements\r\n- consider to modify the reference
     to EN 55032 following the discussion with EU Desk Officer on the justification
@@ -56,20 +65,24 @@ abstract:
     length\r\n- Clarify the exclusion of RF conducted immunity test on ports with
     cables not intended to be longer than 3 m\r\nFurthermore, investigation will be
     carried out for the audio demodulated level for immunity testing"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: Harmonised standard
-- content: NETWORK
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

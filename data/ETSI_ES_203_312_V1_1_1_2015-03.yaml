@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203312V1.1.12015-03
+id: ETSIES203312V111201503
+schema_version: v1.4.1
 title:
-- content: Integrated broadband cable telecommunication networks (CABLE); Cabinet
+- language: en
+  script: Latn
+  content: Integrated broadband cable telecommunication networks (CABLE); Cabinet
     DOCSIS (C-DOCSIS) System Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45860
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203300_203399/203312/01.01.01_60/es_203312v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 312 V1.1.1 (2015-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45860
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203300_203399/203312/01.01.01_60/es_203312v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 312 V1.1.1 (2015-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 312 V1.1.1 (2015-03)
 date:
 - type: published
-  value: 2015-03
+  at: 2015-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ES describes a method for distributed deployment and centralized
+- language: en
+  script: Latn
+  content: "This ES describes a method for distributed deployment and centralized
     control of a DOCSIS cable broadband access system, referred to as \"C-DOCSIS\".
     It has been developed to meet the operability and manageability requirements for
     cable networks that offer a variety of high-bandwidth services and provide QoS
@@ -57,23 +66,33 @@ abstract:
     and control interfaces between these modules for each of those architectures.
     It also defines general device requirements for the different distributed CMTS
     architectures."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: CMTS
-- content: DATA
-- content: DOCSIS
-- content: HFC
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: CMTS
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DOCSIS
+  - language: en
+    script: Latn
+    content: HFC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: ETSI Standard

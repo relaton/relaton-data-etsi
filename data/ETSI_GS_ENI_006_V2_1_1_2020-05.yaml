@@ -1,65 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSENI006V2.1.12020-05
+id: ETSIGSENI006V211202005
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Proof of Concepts Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57071
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/006/02.01.01_60/gs_ENI006v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ENI 006 V2.1.1 (2020-05)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Proof of Concepts Framework
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57071
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/006/02.01.01_60/gs_ENI006v020101p.pdf
+docidentifier:
+- content: ETSI GS ENI 006 V2.1.1 (2020-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS ENI 006 V2.1.1 (2020-05)
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2020-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gc3BlY2lmaWVzIGEgZnJhbWV3b3JrIGZvciB1c2Ugd2l0aGluIEVUU0kgRU5JIElTRyB0byBjb29yZGluYXRlIGFuZCBwcm9tb3RlIHB1YmxpYyBkZW1vbnN0cmF0aW9ucyBvZiBQcm9vZiBvZiBDb25jZXB0IChQb0MpIHZhbGlkYXRpbmcga2V5IHRlY2huaWNhbCBjb21wb25lbnRzIGRldmVsb3BlZCBpbiBFTkkuDQoNClRoZSBvYmplY3RpdmUgZm9yIHRoZSBQb0NzIGlzIHRvIGJ1aWxkIGNvbW1lcmNpYWwgYXdhcmVuZXNzIGFuZCBjb25maWRlbmNlIGFuZCBlbmNvdXJhZ2UgZGV2ZWxvcG1lbnQgb2YgYW4gb3BlbiBlY29zeXN0ZW0gYnkgaW50ZWdyYXRpbmcgY29tcG9uZW50cyBmcm9tIGRpZmZlcmVudCBwbGF5ZXJzLiANCg0KVGhpcyBmcmFtZXdvcmsgb3V0bGluZXM6DQrigKJyYXRpb25hbGUgZm9yIEVOSSBJU0cgUG9DczsNCuKAokVOSSBJU0cgUG9DIHByb2Nlc3M7DQrigKJzdWJtaXNzaW9uLCBmb3JtYXQgYW5kIGNyaXRlcmlhIGZvciBFTkkgSVNHIFBvQyBQcm9wb3NhbHM7DQrigKJyZXZpZXcgYW5kIGFjY2VwdGFuY2UgY3JpdGVyaWEgb2YgUG9DIFByb3Bvc2FsczsNCuKAokVOSSBJU0cgUG9DIFJlcG9ydCBmb3JtYXQgYW5kIGlzc3VlczsNCuKAokVUU0kgc3VwcG9ydCBmb3IgUG9DIHRlYW0uDQoNClRoZSBwcmVzZW50IHB1YmxpY2F0aW9uIGlzIHJldmlzZWQgdG8gaW5jbHVkZTsgZS5nLjoNCuKAonRoZSBFTkkgU3lzdGVtIEFyY2hpdGVjdHVyZSwNCuKAonRoZSBFTkkgbmV3IGlzc3VlcyBhbmQgVXNlIENhc2VzLA0K4oCidGhlIEVOSSBtZWFzdXJhYmlsaXR5IGNyaXRlcmlhLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This Work Item specifies a framework for use within ETSI ENI ISG to coordinate
+    and promote public demonstrations of Proof of Concept (PoC) validating key technical
+    components developed in ENI.\r\n\r\nThe objective for the PoCs is to build commercial
+    awareness and confidence and encourage development of an open ecosystem by integrating
+    components from different players. \r\n\r\nThis framework outlines:\r\nrationale
+    for ENI ISG PoCs;\r\nENI ISG PoC process;\r\nsubmission, format and criteria for
+    ENI ISG PoC Proposals;\r\nreview and acceptance criteria of PoC Proposals;\r\nENI
+    ISG PoC Report format and issues;\r\nETSI support for PoC team.\r\n\r\nThe present
+    publication is revised to include; e.g.:\r\nthe ENI System Architecture,\r\nthe
+    ENI new issues and Use Cases,\r\nthe ENI measurability criteria."
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: Proof of Concept
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: Proof of Concept
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Specification

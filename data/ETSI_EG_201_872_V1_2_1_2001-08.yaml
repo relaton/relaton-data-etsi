@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201872V1.2.12001-08
+id: ETSIEG201872V121200108
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Methodological approach to
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Methodological approach to
     the use of object-orientation in the standards making process
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13383
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201800_201899/201872/01.02.01_60/eg_201872v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 872 V1.2.1 (2001-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13383
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201800_201899/201872/01.02.01_60/eg_201872v010201p.pdf
+docidentifier:
+- content: ETSI EG 201 872 V1.2.1 (2001-08)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 872 V1.2.1 (2001-08)
 date:
 - type: published
-  value: 2001-08
+  at: 2001-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Addition of a new annex containing a summary of the UML symbols used within
+- language: en
+  script: Latn
+  content: Addition of a new annex containing a summary of the UML symbols used within
     the main body of the document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: PROTOCOL
-- content: TESTING
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

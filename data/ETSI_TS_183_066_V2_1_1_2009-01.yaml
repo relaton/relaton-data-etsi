@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183066V2.1.12009-01
+id: ETSITS183066V211200901
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Network Attachment Sub-System (NASS); a4 interface based
     on the DIAMETER protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28791
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183066/02.01.01_60/ts_183066v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 066 V2.1.1 (2009-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28791
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183066/02.01.01_60/ts_183066v020101p.pdf
+docidentifier:
+- content: ETSI TS 183 066 V2.1.1 (2009-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 066 V2.1.1 (2009-01)
 date:
 - type: published
-  value: 2009-01
+  at: 2009-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2009-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the DIAMETER profile for the a4 interface between the
+- language: en
+  script: Latn
+  content: "Specification of the DIAMETER profile for the a4 interface between the
     User Access Authorization Function (UAAF) and Connectivity Session Location and
     Repository Function (CLF).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

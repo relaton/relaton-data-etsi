@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITR143901V18.0.02024-05
+id: ETSITR143901V1800202405
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Feasibility
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Feasibility
     Study on generic access to A/Gb interface (3GPP TR 43.901 version 18.0.0 Release
     18)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71182
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/143900_143999/143901/18.00.00_60/tr_143901v180000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 143 901 V18.0.0 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=71182
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/143900_143999/143901/18.00.00_60/tr_143901v180000p.pdf
+docidentifier:
+- content: ETSI TR 143 901 V18.0.0 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 143 901 V18.0.0 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Technical Specification Group Radio Access Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 18.0.0
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#103
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#103
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Technical Specification Group Radio Access Network
+    content: Technical Report

@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202103V1.1.11999-05
+id: ETSIEG202103V111199905
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Guide for the use of the second
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Guide for the use of the second
     edition of TTCN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6359
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202103/01.01.01_60/eg_202103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 103 V1.1.1 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6359
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202103/01.01.01_60/eg_202103v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 103 V1.1.1 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 103 V1.1.1 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce a guide which presents the options available for the use of
+- language: en
+  script: Latn
+  content: "To produce a guide which presents the options available for the use of
     TTCN. This will identify the advantages and disadvantages of particular approaches
     so that an informed decision can be made by any TB/WG embarking on the development
     of a new testing standard.\r\n\r\nThe guide will also give advice on the use of
     TTCN for performance and real-time testing.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: PERFORMANCE
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Guide

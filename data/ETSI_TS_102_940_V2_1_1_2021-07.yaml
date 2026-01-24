@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102940V2.1.12021-07
+id: ETSITS102940V211202107
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; ITS communications security
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; ITS communications security
     architecture and security management; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59261
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102940/02.01.01_60/ts_102940v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 940 V2.1.1 (2021-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59261
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102900_102999/102940/02.01.01_60/ts_102940v020101p.pdf
+docidentifier:
+- content: ETSI TS 102 940 V2.1.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 940 V2.1.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NWI (19)051008 aims to incorporate appropriate parts of the upcoming IEEE
+- language: en
+  script: Latn
+  content: NWI (19)051008 aims to incorporate appropriate parts of the upcoming IEEE
     1609.2.1 into TS 102 941. Our analysis shows that also architectural aspects may
     be affected by these suiteable parts of IEEE 1609.2.1. TS 102940 shall be opened
     to include optional architectural variants if required by the revised TS 102941
     and to consider additional requirements and corrections on the PKI architecture
     and ITS-S communication security requirements considering the needs of new use
     cases for ITS Release 2 and outcomes from the Revised TVRA.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: ITS
-- content: MANAGEMENT
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

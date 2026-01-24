@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS187001V3.9.12014-07
+id: ETSITS187001V391201407
+schema_version: v1.4.1
 title:
-- content: Network Technologies (NTECH); NGN SECurity (SEC); Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41217
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187001/03.09.01_60/ts_187001v030901p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 187 001 V3.9.1 (2014-07)
+- language: en
+  script: Latn
+  content: Network Technologies (NTECH); NGN SECurity (SEC); Requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41217
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/187000_187099/187001/03.09.01_60/ts_187001v030901p.pdf
+docidentifier:
+- content: ETSI TS 187 001 V3.9.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 187 001 V3.9.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.9.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The current structure of TS 187 001 is not fully aligned to that of the
+- language: en
+  script: Latn
+  content: The current structure of TS 187 001 is not fully aligned to that of the
     TVRA and is hard to identify the suite of services being offered to NGN users.
     It is proposed to restructure the document and to provide verification of each
     requirement to the TVRA analysis and to the sub-system that the requirements apply
     to.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Technologies
+    content: Technical Specification

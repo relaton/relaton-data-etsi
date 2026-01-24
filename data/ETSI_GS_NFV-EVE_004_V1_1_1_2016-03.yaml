@@ -1,66 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-EVE004V1.1.12016-03
+id: ETSIGSNFVEVE004V111201603
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Virtualisation Technologies; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Virtualisation Technologies; Report
     on the application of Different Virtualisation Technologies in the NFV Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44586
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/004/01.01.01_60/gs_NFV-EVE004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-EVE 004 V1.1.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44586
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-EVE/001_099/004/01.01.01_60/gs_NFV-EVE004v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-EVE 004 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-EVE 004 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    QWx0aG91Z2ggdGhlIE5GViBhcmNoaXRlY3R1cmUgaXMgbm90IHRpZWQgdG8gaHlwZXJ2aXNvci1iYXNlZCBzb2x1dGlvbnMsIHRoZSBkZXRhaWxlZCBzcGVjaWZpY2F0aW9ucyAoZS5nLiBNQU5PKSBhcmUgYmlhc2VkIHRvd2FyZHMgdGhlc2Ugc29sdXRpb25zLiAgVGhlIGh5cGVydmlzb3IgYXBwcm9hY2ggaGFzIHNvbWUgY29zdCBpbiB0ZXJtcyBvZiBlZmZpY2llbmN5IGFuZCB0aGUgc2NhbGFiaWxpdHkgbWF5IG5vdCBiZSBzdWZmaWNpZW50IGZvciBjYXNlcyB3aGVyZSBhIGh1Z2UgbnVtYmVyIG9mIHZpcnR1YWxpc2F0aW9uIGNvbnRhaW5lcnMgbmVlZCB0byBiZSBkZXBsb3llZCBhbmQgbWFuYWdlZC4gIA0KDQpUaGUgc2NvcGUgb2YgdGhpcyB3b3JrIGl0ZW0gaXMgdHdvZm9sZDogDQogLSBJZGVudHRpZnkgdGhlIGltcGFjdCBvZiB1c2luZyBhbHRlcm5hdGl2ZSB2aXJ0dWFsaXNhdGlvbiB0ZWNobm9sb2dpZXMgb24gdGhlIE5GViBmcmFtZXdvcmsgYW5kIHNwZWNpZmljYXRpb25zLCBhbmQgcHJvcG9zZSBhcHByb3ByaWF0ZSBjaGFuZ2VzLiANCi0gUHJvdmlkZSBhbiBhbmFseXNpcyBvZiB0aGUgcHJvcyBhbmQgY29ucyBvZiB0aGVzZSBhbHRlcm5hdGl2ZSB0ZWNobm9sb2dpZXMgIEFsdGVybmF0aXZlIHZpcnR1YWxpc2F0aW9uIHRlY2hub2xvZ2llcyB0byBiZSBjb25zaWRlcmVkIGluY2x1ZGUg4oCTIGJ1dCBhcmUgbm90IGxpbWl0ZWQgdG8g4oCTIHRoZSBmb2xsb3dpbmcgb25lczogDQoJIC0gQ29udGFpbmVyLWJhc2VkIG9wZXJhdGluZyBzeXN0ZW0gdmlydHVhbGl6YXRpb24gc3VjaCBhcyBMWEMgDQoJLSBIaWdoZXIgbGF5ZXIgY29udGFpbmVyIHRlY2hub2xvZ3kgc3VjaCBhcyBKYXZhIHZpcnR1YWwgbWFjaGluZXMgIA0KDQpUaGUgZGVsaXZlcmFibGUgd2lsbCBjb250YWluIGluZm9ybWF0aXZlIG1hdGVyaWFsIG9ubHksIGluY2x1ZGluZyByZWNvbW1lbmRhdGlvbnMgb24gaG93IHRvIG1vZGlmeSBvdGhlciBFVFNJIE5GViBzcGVjaWZpY2F0aW9ucyB0byBjb3ZlciBOb24gaHlwZXJ2aXNvci1iYXNlZCB2aXJ0dWFsaXNhdGlvbi4gVGhlc2UgbW9kaWZpY2F0aW9ucyBhcmUgZXhwZWN0ZWQgdG8gYmUgcGVyZm9ybWVkIHVuZGVyIHNlcGFyYXRlIHdvcmsgaXRlbXMuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Although the NFV architecture is not tied to hypervisor-based solutions,
+    the detailed specifications (e.g. MANO) are biased towards these solutions.  The
+    hypervisor approach has some cost in terms of efficiency and the scalability may
+    not be sufficient for cases where a huge number of virtualisation containers need
+    to be deployed and managed.  \r\n\r\nThe scope of this work item is twofold: \r\n
+    - Identtify the impact of using alternative virtualisation technologies on the
+    NFV framework and specifications, and propose appropriate changes. \r\n- Provide
+    an analysis of the pros and cons of these alternative technologies  Alternative
+    virtualisation technologies to be considered include  but are not limited to  the
+    following ones: \r\n\t - Container-based operating system virtualization such
+    as LXC \r\n\t- Higher layer container technology such as Java virtual machines
+    \ \r\n\r\nThe deliverable will contain informative material only, including recommendations
+    on how to modify other ETSI NFV specifications to cover Non hypervisor-based virtualisation.
+    These modifications are expected to be performed under separate work items.\r\n"
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: NFV
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Specification

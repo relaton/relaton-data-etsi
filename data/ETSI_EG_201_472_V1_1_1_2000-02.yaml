@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201472V1.1.12000-02
+id: ETSIEG201472V111200002
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Usability evaluation for the design of telecommunication
+- language: en
+  script: Latn
+  content: Human Factors (HF); Usability evaluation for the design of telecommunication
     systems, services and terminals
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201400_201499/201472/01.01.01_60/eg_201472v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 472 V1.1.1 (2000-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201400_201499/201472/01.01.01_60/eg_201472v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 472 V1.1.1 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 472 V1.1.1 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    Rm9sbG93aW5nIHdvcmsgaW4gRXVyb3BlYW4gUHJvamVjdCBVU0lOQUNUUywgVEMgSEYgd29yayBhbmQgb3RoZXJzOg0KVG8gcmV2aWV3IHRoZSBjdXJyZW50IHN0YW5kYXJkcyBvbiBodW1hbiBjZW50cmVkIGRlc2lnbiBhcHByb2FjaCAoSVNPIDEzNDA3KSBhbmQgcHJvcG9zZSB0aGVtIGFzIGEgcmVjb21tZW5kYXRpb24gZm9yIHRoZSBkZXNpZ24gb2YgdGVsZWNvbW11bmljYXRpb25zIHN5c3RlbXMsIHRlcm1pbmFscyBhbmQgc2VydmljZXMuwrdUbyByZXZpZXcgdGhlIHN0YXRlIG9mIHRoZSBhcnQgaW4gdXNhYmlsaXR5IGFzc2Vzc21lbnQgdGVjaG5pcXVlcywgc3VtbWFyaXppbmcgYWxsIHRoZSBuZXcgbWV0aG9kcyBhcHBlYXJlZCBzaW5jZSB0aGUgcHVibGljYXRpb24gb2YgRVRSIDA5NSwgYW5kICB1cGRhdGUgYWxsIHRoZSAgaW5mb3JtYXRpb24gaW4gRVRSIDA5NS4NClRvIHByb3ZpZGUgZGlyZWN0bHkgdXNhYmxlIG1hdGVyaWFsIGZvciB0aGUgZXZhbHVhdGlvbiBvZiBhIHJhbmdlIG9mIHRlbGVjb21tdW5pY2F0aW9ucyBzZXJ2aWNlczogZm9yIGluc3RhbmNlLCBxdWVzdGlvbnMgd2hpY2ggY291bGQgYmUgdXNlZCBpbiBxdWVzdGlvbm5haXJlcywgYW5kIHdoaWNoIGhhdmUgYmVlbiB0ZXN0ZWQgdG8gYmUgdXNlZnVsIGluIGRpZmZlcmVudCB0cmlhbHMuDQpSZWZlcmVuY2UgZG9jdW1lbnRzOkVUUiAwOTUsIElTTyAxMzQwNy4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Following work in European Project USINACTS, TC HF work and others:\r\nTo
+    review the current standards on human centred design approach (ISO 13407) and
+    propose them as a recommendation for the design of telecommunications systems,
+    terminals and services.To review the state of the art in usability assessment
+    techniques, summarizing all the new methods appeared since the publication of
+    ETR 095, and  update all the  information in ETR 095.\r\nTo provide directly usable
+    material for the evaluation of a range of telecommunications services: for instance,
+    questions which could be used in questionnaires, and which have been tested to
+    be useful in different trials.\r\nReference documents:ETR 095, ISO 13407.\r\n"
+status:
+  stage: Published
 keyword:
-- content: SERVICE
-- content: SYSTEM
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

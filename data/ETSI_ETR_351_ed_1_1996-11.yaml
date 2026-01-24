@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR351ed.11996-11
+id: ETSIETR351ed1199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Technical performance objectives
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Technical performance objectives
     (GSM 03.05 version 5.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5179
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/351/01_60/etr_351e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 351 ed.1 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5179
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/351/01_60/etr_351e01p.pdf
+docidentifier:
+- content: ETSI ETR 351 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 351 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) contains technical performance object\r\nives
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) contains technical performance object\r\nives
     that should be met for the fixed infrastructure of GSM PLMNs. Con\r\ncerning transmission
     delay for the PLMN in clause 4, the requirements\r\nshould also be met by GSM
     Mobile Stations (MS)s.\r\nThese performance design objectives are applicable to
@@ -49,22 +59,30 @@ abstract:
     designing GSM PLMNs and by Administrations or Recognized Private Op\r\nerating
     Agencies (RPOA)s in evaluating a specific design or for compar\r\ning different
     designs for potential use in the Administration s or RPO\r\nA s intended implementation.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PERFORMANCE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Aspects
+    content: ETSI Technical Report

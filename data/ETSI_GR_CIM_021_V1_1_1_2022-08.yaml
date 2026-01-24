@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM021V1.1.12022-08
+id: ETSIGRCIM021V111202208
+schema_version: v1.4.1
 title:
-- content: cross-cutting Context Information Management (CIM); usage of external data
+- language: en
+  script: Latn
+  content: cross-cutting Context Information Management (CIM); usage of external data
     models with NGSI-LD API
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63597
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/021/01.01.01_60/gr_CIM021v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 021 V1.1.1 (2022-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63597
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/021/01.01.01_60/gr_CIM021v010101p.pdf
+docidentifier:
+- content: ETSI GR CIM 021 V1.1.1 (2022-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 021 V1.1.1 (2022-08)
 date:
 - type: published
-  value: 2022-08
+  at: 2022-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: selection of relevant and representative knowledge organisation systems,
+- language: en
+  script: Latn
+  content: selection of relevant and representative knowledge organisation systems,
     to provide an illustrative basis of data schemas and vocabularies relevant to
     be used in a NGSI-LD context. Illustration of their use with the NGSI-LD API in
     complex environments, such as system-of-system models for Digital Twins. Provide
     recommendations for changes or enhancements to the NGSI-LD specification (API
     and data model).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: data models
-- content: Digital Twins
-- content: NGSI-LD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: Digital Twins
+  - language: en
+    script: Latn
+    content: NGSI-LD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

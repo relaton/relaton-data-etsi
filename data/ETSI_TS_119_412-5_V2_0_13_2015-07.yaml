@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119412-5V2.0.132015-07
+id: ETSITS1194125V2013201507
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
     Part 5: QCStatements'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47098
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941205/02.00.13_60/ts_11941205v020013p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 412-5 V2.0.13 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47098
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941205/02.00.13_60/ts_11941205v020013p.pdf
+docidentifier:
+- content: ETSI TS 119 412-5 V2.0.13 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 412-5 V2.0.13 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.13
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document defines specific QCStatement for the qcStatements
+- language: en
+  script: Latn
+  content: "The present document defines specific QCStatement for the qcStatements
     extension as defined in RFC 3739, including requirements for their use in EU qualified
     certificates. Some of these QCStatements can be used for other forms of certificate.\r\nThe
     QCStatements defined in the present document can be used in combination with any
@@ -54,20 +63,24 @@ abstract:
     QCStatements may be applied to regulatory environments outside the EU. Other requirements
     are specific to Regulation (EU) No 910/2014 but may be adapted for other regulatory
     environments."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

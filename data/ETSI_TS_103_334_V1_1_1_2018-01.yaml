@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103334V1.1.12018-01
+id: ETSITS103334V111201801
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Transmission requirements
     for wearable wireless terminals from a QoS perspective as perceived by the user
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46660
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103334/01.01.01_60/ts_103334v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 334 V1.1.1 (2018-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46660
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103334/01.01.01_60/ts_103334v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 334 V1.1.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 334 V1.1.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop methodologies, test arrangements, and requirements for the evaluation
+- language: en
+  script: Latn
+  content: To develop methodologies, test arrangements, and requirements for the evaluation
     of speech communication performance of wearable devices from the user perspective.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SPEECH
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

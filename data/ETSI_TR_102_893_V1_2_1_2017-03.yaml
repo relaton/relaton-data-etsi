@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102893V1.2.12017-03
+id: ETSITR102893V121201703
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Security; Threat, Vulnerability and
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Security; Threat, Vulnerability and
     Risk Analysis (TVRA)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35784
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102893/01.02.01_60/tr_102893v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 893 V1.2.1 (2017-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35784
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102893/01.02.01_60/tr_102893v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 893 V1.2.1 (2017-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 893 V1.2.1 (2017-03)
 date:
 - type: published
-  value: 2017-03
+  at: 2017-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2017-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update to address those threats arising from consideration of the network
+- language: en
+  script: Latn
+  content: Update to address those threats arising from consideration of the network
     and transport protocols (e.g. GeoNet, IP). In addition address any updates arising
     from update of the BSA.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: authentication
-- content: authorization
-- content: CONFIDENTIALITY
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: authentication
+  - language: en
+    script: Latn
+    content: authorization
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

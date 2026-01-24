@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201980V3.2.12012-06
+id: ETSIES201980V321201206
+schema_version: v1.4.1
 title:
-- content: Digital Radio Mondiale (DRM); System Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37763
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201900_201999/201980/03.02.01_60/es_201980v030201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 980 V3.2.1 (2012-06)
+- language: en
+  script: Latn
+  content: Digital Radio Mondiale (DRM); System Specification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37763
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201900_201999/201980/03.02.01_60/es_201980v030201p.pdf
+docidentifier:
+- content: ETSI ES 201 980 V3.2.1 (2012-06)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 980 V3.2.1 (2012-06)
 date:
 - type: published
-  value: 2012-06
+  at: 2012-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.1
-revdate: 2012-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A minor revision to accommodate the extension of DRM's frequency range
+- language: en
+  script: Latn
+  content: A minor revision to accommodate the extension of DRM's frequency range
     and reflect some operational experience.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DRM
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

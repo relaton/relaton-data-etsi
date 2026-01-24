@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102143V1.1.12003-05
+id: ETSITS102143V111200305
+schema_version: v1.4.1
 title:
-- content: Services and Protocols for Advanced Networks (SPAN); MTP/SCCP/SSCOP and
+- language: en
+  script: Latn
+  content: Services and Protocols for Advanced Networks (SPAN); MTP/SCCP/SSCOP and
     SIGTRAN (Transport of SS7 over IP); Signalling connection control part User Adaptation
     layer (SUA) [Endorsement of SIGTRAN-SUA-14 (December 2002), modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12134
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102143/01.01.01_60/ts_102143v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 143 V1.1.1 (2003-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12134
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/102143/01.01.01_60/ts_102143v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 143 V1.1.1 (2003-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 143 V1.1.1 (2003-05)
 date:
 - type: published
-  value: 2003-05
+  at: 2003-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To endorse and constrain where relevant the SIGTRAN (IETF) RFC on SUA.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To endorse and constrain where relevant the SIGTRAN (IETF) RFC on SUA.
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: MTP
-- content: SCCP
-- content: SIGTRAN
-- content: SS7
-- content: SUA
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MTP
+  - language: en
+    script: Latn
+    content: SCCP
+  - language: en
+    script: Latn
+    content: SIGTRAN
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: SUA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: Technical Specification

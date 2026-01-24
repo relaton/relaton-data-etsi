@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102794V1.1.12010-12
+id: ETSITR102794V111201012
+schema_version: v1.4.1
 title:
-- content: Media Content Distribution (MCD); 3D Gaming Graphics Delivery Overview
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33362
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102794/01.01.01_60/tr_102794v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 794 V1.1.1 (2010-12)
+- language: en
+  script: Latn
+  content: Media Content Distribution (MCD); 3D Gaming Graphics Delivery Overview
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33362
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102794/01.01.01_60/tr_102794v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 794 V1.1.1 (2010-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 794 V1.1.1 (2010-12)
 date:
 - type: published
-  value: 2010-12
+  at: 2010-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media Content Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Carry out a requirement study on the standardization requirements for
+- language: en
+  script: Latn
+  content: "Carry out a requirement study on the standardization requirements for
     3D Gaming Graphics Delivery. The advantage will be that an ETSI MCD view on the
     topic is created. It also positions the ETSI MCD community for actual standardization.\r\nThe
     TR includes Use cases, requirements, overview of potential solutions and a gap
@@ -54,19 +63,21 @@ abstract:
     of specialized 3D models.\r\nThe TR's conclusions should assist in the definition
     of a new Work Items provided this is necessary and ETSI MCD is the right body.
     (A decision on a TS is then taken only if the gap analysis is positive)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Content
-- content: PROTOCOL
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: Content
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Media Content Distribution
+    content: Technical Report

@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103625V1.3.12023-03
+id: ETSITS103625V131202303
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Transporting Handset Location to PSAPs
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Transporting Handset Location to PSAPs
     for Emergency Communications - Advanced Mobile Location
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67981
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103625/01.03.01_60/ts_103625v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 625 V1.3.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67981
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/103625/01.03.01_60/ts_103625v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 625 V1.3.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 625 V1.3.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Minor editorial changes related with the use of Country Codes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Minor editorial changes related with the use of Country Codes.
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: handset
-- content: LOCATION
-- content: MOBILE
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: handset
+  - language: en
+    script: Latn
+    content: LOCATION
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Specification

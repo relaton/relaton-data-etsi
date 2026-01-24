@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103529V1.1.12018-08
+id: ETSITR103529V111201808
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; IoT over Cloud back-ends: A Proof of Concept'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52910
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103529/01.01.01_60/tr_103529v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 529 V1.1.1 (2018-08)
+- language: en
+  script: Latn
+  content: 'SmartM2M; IoT over Cloud back-ends: A Proof of Concept'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52910
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103529/01.01.01_60/tr_103529v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 529 V1.1.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 529 V1.1.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Deep description of one use case supporting the architecture for Virtualized
+- language: en
+  script: Latn
+  content: "Deep description of one use case supporting the architecture for Virtualized
     IoT: Horizontal Scalability at run time.\r\nDescription of the proof of concept
     for Horizontal Scalability of an IoT Service Layer at run time (oneM2M based).
     Code/Proof of Concept Documentation"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: IoT
-- content: open source
-- content: Proof of Concept
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: open source
+  - language: en
+    script: Latn
+    content: Proof of Concept
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

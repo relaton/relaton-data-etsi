@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101051V1.1.11999-02
+id: ETSITR101051V111199902
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Report of the CATG applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4292
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101051/01.01.01_60/tr_101051v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 051 V1.1.1 (1999-02)
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Report of the CATG applications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4292
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101051/01.01.01_60/tr_101051v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 051 V1.1.1 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 051 V1.1.1 (1999-02)
 date:
 - type: published
-  value: 1999-02
+  at: 1999-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Study the benefit of the application of different validation methods\r\nin
+- language: en
+  script: Latn
+  content: "Study the benefit of the application of different validation methods\r\nin
     experiments with cooperating STCs SMG 3, SPS 3 & BTC. Introduction\r\nof formal\r\nmodelling
     and validation methods to new draft\r\nspecifications.\r\nThe result will be used
     to propose a validation methodology for ETSI\r\nfunctional specifications based
     on SDL.\r\nPart 3 - Core INAP CS2 experiment\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: SDL
-- content: TESTING
-- content: TTCN
-- content: VALIDATION
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
+  - language: en
+    script: Latn
+    content: VALIDATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

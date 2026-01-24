@@ -1,73 +1,108 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301469-3V1.1.12000-10
+id: ETSIEN3014693V111200010
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
     Service (DPRS) Test Case Library (TCL); Part 3: Abstract Test Suite (ATS) - Medium
     Access Control (MAC) layer - Fixed radio Termination (FT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6935
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30146903/01.01.01_60/en_30146903v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 469-3 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6935
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30146903/01.01.01_60/en_30146903v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 469-3 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 469-3 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkcmFmdCBFdXJvcGVhbiBOb3JtIChFTikgY29udGFpbnMgdGhlIEFic3RyYWN0IFRlc3QgU3VpdGUgKEFUUykgc3BlY2lmaWNhdGlvbiBmb3IgdGVzdGluZyBvZiB0aGUgRGlnaXRhbCBFbmhhbmNlZCBDb3JkbGVzcyBUZWxlY29tbXVuaWNhdGlvbnMgKERFQ1QpIERFQ1QgUGFja2V0IFJhZGlvIFNlcnZpY2UgKERQUlMpIE1lZGl1bSBBY2Nlc3MgQ29udHJvbCAoTUFDKSBsYXllciBhdCB0aGUgRml4ZWQgcmFkaW8gVGVybWluYXRpb24gKEZUKS4NClRoZSBvYmplY3RpdmUgb2YgdGhpcyB0ZXN0IHNwZWNpZmljYXRpb24gaXMgdG8gcHJvdmlkZSBhIGJhc2lzIGZvciBjb25mb3JtYW5jZSB0ZXN0cyBmb3IgREVDVCBlcXVpcG1lbnQgZ2l2aW5nIGEgaGlnaCBwcm9iYWJpbGl0eSBvZiBhaXIgaW50ZXJmYWNlIGludGVyLW9wZXJhYmlsaXR5IGJldHdlZW4gZGlmZmVyZW50IG1hbnVmYWN0dXJlcidzIERFQ1QgZXF1aXBtZW50Lg0KVGhlIElTTyBzdGFuZGFyZCBmb3IgdGhlIG1ldGhvZG9sb2d5IG9mIGNvbmZvcm1hbmNlIHRlc3RpbmcgKElTTy9JRUMgOTY0Ni0xIGFuZCBJU08vSUVDwqA5NjQ2LTIpIGFzIHdlbGwgYXMgdGhlIEVUU0kgcnVsZXMgZm9yIGNvbmZvcm1hbmNlIHRlc3RpbmcgKEVUU8KgMzAwwqA0MDYpIGFyZSB1c2VkIGFzIGEgYmFzaXMgZm9yIHRoZSB0ZXN0IG1ldGhvZG9sb2d5Lg0KQW5uZXggQSBwcm92aWRlcyB0aGUgVHJlZSBhbmQgVGFidWxhciBDb21iaW5lZCBOb3RhdGlvbiAoVFRDTikgcGFydCBvZiB0aGlzIEFUUy4NCkFubmV4IEIgcHJvdmlkZXMgdGhlIHNwZWNpZmljYXRpb24gb2YgdGhlIHBhcmFsbGVsIHRlc3QgY29tcG9uZW50IExUX01BQy4NCkFubmV4IEMgcHJvdmlkZXMgdGhlIFBhcnRpYWwgUHJvdG9jb2wgSW1wbGVtZW50YXRpb24gRXh0cmEgSW5mb3JtYXRpb24gZm9yIFRlc3RpbmcgKFBJWElUKSBQcm9mb3JtYSBvZiB0aGlzIEFUUy4NCkFubmV4IEQgcHJvdmlkZXMgdGhlIFByb3RvY29sIENvbmZvcm1hbmNlIFRlc3QgUmVwb3J0IChQQ1RSKSBQcm9mb3JtYSBvZiB0aGlzIEFUUy4NClJlZmVyZW5jZSBkb2N1bWVudHMgYW5kIHdvcms6IEVUUyAzMDAgMTc1OyBFVFMgMzAwIDQzNTsgRVRTIDMwMCA2NTE7IEVUUyAzMDAgNjk5OyBFVFMgMzAwIDcwMTsgRVRTIDMwMCA0OTc7IEVOIDMwMSA2NDkuDQoNCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This draft European Norm (EN) contains the Abstract Test Suite (ATS) specification
+    for testing of the Digital Enhanced Cordless Telecommunications (DECT) DECT Packet
+    Radio Service (DPRS) Medium Access Control (MAC) layer at the Fixed radio Termination
+    (FT).\r\nThe objective of this test specification is to provide a basis for conformance
+    tests for DECT equipment giving a high probability of air interface inter-operability
+    between different manufacturer's DECT equipment.\r\nThe ISO standard for the methodology
+    of conformance testing (ISO/IEC 9646-1 and ISO/IEC9646-2) as well as the ETSI
+    rules for conformance testing (ETS300406) are used as a basis for the test methodology.\r\nAnnex
+    A provides the Tree and Tabular Combined Notation (TTCN) part of this ATS.\r\nAnnex
+    B provides the specification of the parallel test component LT_MAC.\r\nAnnex C
+    provides the Partial Protocol Implementation Extra Information for Testing (PIXIT)
+    Proforma of this ATS.\r\nAnnex D provides the Protocol Conformance Test Report
+    (PCTR) Proforma of this ATS.\r\nReference documents and work: ETS 300 175; ETS
+    300 435; ETS 300 651; ETS 300 699; ETS 300 701; ETS 300 497; EN 301 649.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: ATS_GR FILE
-- content: ATS_MP FILE
-- content: DATA
-- content: DECT
-- content: DPRS
-- content: MAC
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: ATS_GR FILE
+  - language: en
+    script: Latn
+    content: ATS_MP FILE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: DPRS
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Testing aspects
+    content: European Standard

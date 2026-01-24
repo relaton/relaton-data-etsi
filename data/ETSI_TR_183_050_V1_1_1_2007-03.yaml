@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183050V1.1.12007-03
+id: ETSITR183050V111200703
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Register of assigned protocol numbers and names
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25238
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183050/01.01.01_60/tr_183050v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 050 V1.1.1 (2007-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25238
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183050/01.01.01_60/tr_183050v010101p.pdf
+docidentifier:
+- content: ETSI TR 183 050 V1.1.1 (2007-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 050 V1.1.1 (2007-03)
 date:
 - type: published
-  value: 2007-03
+  at: 2007-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To contain the record of assignment of names, numbers and identifiers used
+- language: en
+  script: Latn
+  content: To contain the record of assignment of names, numbers and identifiers used
     in TISPAN protocols, managed by TISPAN, and which are required to be globally
     unique.  In particular, it contains the assignments and sub-structure of ASN.1
     Object Identifier trees assigned to TISPAN, and the assignments and sub-structure
     of any URI or URN schemes which TISPAN manages
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: ID
-- content: NAME
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: NAME
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

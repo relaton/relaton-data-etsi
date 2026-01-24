@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103371V1.1.12015-08
+id: ETSITS103371V111201508
+schema_version: v1.4.1
 title:
-- content: Network Technologies (NTECH); Autonomic network engineering for the self-managing
+- language: en
+  script: Latn
+  content: Network Technologies (NTECH); Autonomic network engineering for the self-managing
     Future Internet (AFI); Proofs of Concept Framework
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44166
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103371/01.01.01_60/ts_103371v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 371 V1.1.1 (2015-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44166
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103371/01.01.01_60/ts_103371v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 371 V1.1.1 (2015-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 371 V1.1.1 (2015-08)
 date:
 - type: published
-  value: 2015-08
+  at: 2015-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution of Management towards Autonomic Future Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGV2ZWxvcCBhIGZyYW1ld29yayB0byBjb29yZGluYXRlIGFuZCBwcm9tb3RlIHB1YmxpYyBkZW1vbnN0cmF0aW9ucyBvZiBQcm9vZnMgb2YgQ29uY2VwdCAoUG9DKSBwbGF0Zm9ybXMgaWxsdXN0cmF0aW5nIGtleSBhc3BlY3RzIG9mIOKAnEF1dG9ub21pYyBuZXR3b3JrIGVuZ2luZWVyaW5nIGZvciB0aGUgc2VsZi1tYW5hZ2luZyBGdXR1cmUgSW50ZXJuZXQgKEFGSSk7IEdlbmVyaWMgQXV0b25vbWljIE5ldHdvcmsgQXJjaGl0ZWN0dXJlIChHQU5BKSBzcGVjaWZpY2F0aW9uLiBUaGUgUG9DcyBhcmUgc2NvcGVkIGFyb3VuZCB0aGUgdXNlIGNhc2VzICBhcyBkZWZpbmVkIGluIHRoZSBBRkkgIlNjZW5hcmlvcywgVXNlIENhc2VzIGFuZCBSZXF1aXJlbWVudHMgZm9yIEF1dG9ub21pYy9TZWxmLU1hbmFnaW5nIEZ1dHVyZSBJbnRlcm5ldOKAnSBzcGVjaWZpY2F0aW9uLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Develop a framework to coordinate and promote public demonstrations of
+    Proofs of Concept (PoC) platforms illustrating key aspects of Autonomic network
+    engineering for the self-managing Future Internet (AFI); Generic Autonomic Network
+    Architecture (GANA) specification. The PoCs are scoped around the use cases  as
+    defined in the AFI "Scenarios, Use Cases and Requirements for Autonomic/Self-Managing
+    Future Internet specification.
+status:
+  stage: Published
 keyword:
-- content: Autonomic Networking
-- content: Proof of Concept
-- content: Self-Management
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: Proof of Concept
+  - language: en
+    script: Latn
+    content: Self-Management
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Evolution of Management towards Autonomic Future Internet
+    content: Technical Specification

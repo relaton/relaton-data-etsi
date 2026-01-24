@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201671V1.1.11999-07
+id: ETSIES201671V111199907
+schema_version: v1.4.1
 title:
-- content: Telecommunications security; Lawful Interception (LI); Handover interface
+- language: en
+  script: Latn
+  content: Telecommunications security; Lawful Interception (LI); Handover interface
     for the lawful interception of telecommunications traffic
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201600_201699/201671/01.01.01_60/es_201671v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 671 V1.1.1 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201600_201699/201671/01.01.01_60/es_201671v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 671 V1.1.1 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 671 V1.1.1 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Standard describes the handover interface for Lawful Interce\r\nption\r\nbetween
+- language: en
+  script: Latn
+  content: "This ETSI Standard describes the handover interface for Lawful Interce\r\nption\r\nbetween
     Network Operators/Service Providers/Access Providers and Law E\r\nnforcement\r\nAgencies.
     The interface will support the delivery of 64 kbit/s speech\r\nand data.\r\nTC
     remarks: This document will be the first of a set of interface desc\r\nriptions.
@@ -55,21 +64,27 @@ abstract:
     with the requirements of the Law Enforcement Ag\r\nencies, as given in ETR 331,
     and the requirements for the network func\r\ntions, as given in DE/SEC-002311.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: HANDOVER
-- content: INTERFACE
-- content: SECURITY
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Security
+    content: ETSI Standard

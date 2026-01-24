@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSENI019V3.1.12023-06
+id: ETSIGSENI019V311202306
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Representing, Inferring, and
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Representing, Inferring, and
     Proving Knowledge in ENI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62591
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/019/03.01.01_60/gs_ENI019v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ENI 019 V3.1.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62591
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ENI/001_099/019/03.01.01_60/gs_ENI019v030101p.pdf
+docidentifier:
+- content: ETSI GS ENI 019 V3.1.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS ENI 019 V3.1.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The purpose of the present document is to define the ENI information model.
+- language: en
+  script: Latn
+  content: The purpose of the present document is to define the ENI information model.
     The present document will also provide at least two different examples of how
     to derive technology-specific data models from the ENI information model. Finally,
     it will explain how ontologies can be incorporated to augment, enhance, and specify
     meaning and different relationships between modelled entities. This latter is
     critical to provide semantic reasoning. The present document  is specific to and
     enhances the current ENI System Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data models
-- content: INFORMATION MODEL
-- content: ontology
-- content: semantic reasoning
+- taxon:
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: semantic reasoning
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Specification

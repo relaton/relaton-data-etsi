@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301021V1.6.12003-07
+id: ETSIEN301021V161200307
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-multipoint equipment; Time Division Multiple
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-multipoint equipment; Time Division Multiple
     Access (TDMA); Point-to-multipoint digital radio systems in frequency bands in
     the range 3 GHz to 11 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15484
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/301021/01.06.01_60/en_301021v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 021 V1.6.1 (2003-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15484
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/301021/01.06.01_60/en_301021v010601p.pdf
+docidentifier:
+- content: ETSI EN 301 021 V1.6.1 (2003-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 021 V1.6.1 (2003-07)
 date:
 - type: published
-  value: 2003-07
+  at: 2003-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Point-to-Mulipoint Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2003-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Incorporate necessary modification to extend the current scope of the std.
+- language: en
+  script: Latn
+  content: Incorporate necessary modification to extend the current scope of the std.
     to cover TDMA/OFDMA (OFDM is already covered in the previous revision.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DRRS
-- content: MULTIPOINT
-- content: RADIO
-- content: TDMA
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TDMA
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Point-to-Mulipoint Systems
+    content: European Standard

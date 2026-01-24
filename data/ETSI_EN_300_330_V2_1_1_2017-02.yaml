@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300330V2.1.12017-02
+id: ETSIEN300330V211201702
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD); Radio equipment in the frequency range 9 kHz
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD); Radio equipment in the frequency range 9 kHz
     to 25 MHz and inductive loop systems in the frequency range 9 kHz to 30 MHz; Harmonised
     Standard covering the essential requirements of article 3.2 of Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46716
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/300330/02.01.01_60/en_300330v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 330 V2.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46716
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/300330/02.01.01_60/en_300330v020101p.pdf
+docidentifier:
+- content: ETSI EN 300 330 V2.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 330 V2.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work includes \r\n- merging of current versions of part 1 and 2.
+- language: en
+  script: Latn
+  content: "This work includes \r\n- merging of current versions of part 1 and 2.
     \ \r\n- Revision of current standard parts to cover the essential requirements
     of article 3.2 of the RE-D.  \r\n- Clarifications in the measurement procedure
     and of the regulation framework. \r\n-  the inclusion of possible missing elements
@@ -56,21 +65,27 @@ abstract:
     to be established to evaluate the current situation and possible future use of
     radio applications in the frequency range below 9 kHz. This TR will be propaedeutic
     then for the possible subsequent full standardisation activity. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: RFID
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

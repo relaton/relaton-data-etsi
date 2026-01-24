@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM08.52V5.0.01996-12
+id: ETSIGTSGSM0852V500199612
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Base Station Controller - Base
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Base Station Controller - Base
     Transceiver Station (BSC - BTS) interface; Interface principles (GSM 08.52)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5198
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/08/0852/05.00.00_60/gsmts_0852v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 08.52 V5.0.0 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5198
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/08/0852/05.00.00_60/gsmts_0852v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 08.52 V5.0.0 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 08.52 V5.0.0 (1996-12)
 date:
 - type: published
-  value: 1996-12
+  at: 1996-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The use and general aspects of the A-bis interface are given in GSM 08\r\n.51.\r\nThis
+- language: en
+  script: Latn
+  content: "The use and general aspects of the A-bis interface are given in GSM 08\r\n.51.\r\nThis
     Global System for Mobile communications Technical Specification (\r\nGTS) gives
     the principle basis for the rest of the specifications spec\r\nifying the interface
     between the Base Station Controller (BSC), and th\r\ne Base Transceiver Station
@@ -57,24 +66,36 @@ abstract:
     BSCs and BTSs/TRXs from different manufacturers.\r\nIn order to keep the BTS as
     simple as possible, BTS contains only thos\r\ne functions which have to reside
     close to the radio interface.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASE STATION
-- content: CONTROL
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERFACE
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

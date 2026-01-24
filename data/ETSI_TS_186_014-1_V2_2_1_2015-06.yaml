@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS186014-1V2.2.12015-06
+id: ETSITS1860141V221201506
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Communication Diversion
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Communication Diversion
     (CDIV) using IP Multimedia (IM) Core Network (CN) subsystem; 3GPPTM Release 10;
     Part 1: Protocol Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44540
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601401/02.02.01_60/ts_18601401v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 186 014-1 V2.2.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44540
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/186000_186099/18601401/02.02.01_60/ts_18601401v020201p.pdf
+docidentifier:
+- content: ETSI TS 186 014-1 V2.2.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 186 014-1 V2.2.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Provision of CDIV PICS specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Provision of CDIV PICS specification
+status:
+  stage: Published
 keyword:
-- content: CDIV
-- content: PICS
-- content: SIP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CDIV
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

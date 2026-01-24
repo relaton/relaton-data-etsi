@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104112V1.2.12025-07
+id: ETSITR104112V121202507
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Collection of test cases for Lawful Interception
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Collection of test cases for Lawful Interception
     and Lawful Disclosure
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74980
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104112/01.02.01_60/tr_104112v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 112 V1.2.1 (2025-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74980
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104100_104199/104112/01.02.01_60/tr_104112v010201p.pdf
+docidentifier:
+- content: ETSI TR 104 112 V1.2.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 112 V1.2.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides an informative basis for LI and LD related
+- language: en
+  script: Latn
+  content: "The present document provides an informative basis for LI and LD related
     testing procedures, thus giving an international and inter-organizational understanding
     about applicable tests. By using the present document, communication and examination
     of tests is simplified by creating an equal understanding and structure of testing,
     regardless of time and organization. The test cases and test scenario components
     describe as many use cases as possible.\r\n\r\nThis revision is provide: Adding
     XML examples to the Forge."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Lawful Disclosure
-- content: Lawful Interception
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Lawful Disclosure
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

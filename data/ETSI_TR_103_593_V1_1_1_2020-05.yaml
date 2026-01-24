@@ -1,67 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103593V1.1.12020-05
+id: ETSITR103593V111202005
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Transmission characteristics; Technical
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Transmission characteristics; Technical
     characteristics for radiodetermination equipment for ground based vehicular applications
     within the frequency range 77 GHz to 81 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54026
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103593/01.01.01_60/tr_103593v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 593 V1.1.1 (2020-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54026
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103593/01.01.01_60/tr_103593v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 593 V1.1.1 (2020-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 593 V1.1.1 (2020-05)
 date:
 - type: published
-  value: 2020-05
+  at: 2020-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGRvY3VtZW50IHdpbGwgcHJvdmlkZSBpbmZvcm1hdGlvbiBvbiB0aGUgZXhpc3RpbmcgYW5kIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKEVDQy9ERUMoMDQpMDMgYW5kIDIwMDQvNTQ1L0VDKSBhbmQgcmVmbGVjdGluZyB0aGUgV1JDMTUgZGVjaXNpb24gKFJSIGZvb3Rub3RlIDUuNTU5QiBhbmQgSVRVLVIgcmVjb21tZW5kYXRpb24gTS4yMDU3IGFuZCBJVFUtUiByZXBvcnQgTS4yMzIyKSBvbiBhdXRvbW90aXZlIHJhZGFyIChBSS4xLjE4KS4gVGhlIGN1cnJlbnQgcmVndWxhdGlvbiBzaG91bGQgYmUgcmV2aWV3ZWQgaW4gdGhlIGxpZ2h0IG9mIHRoZSByZXN1bHRzIG9mIFdSQzE1LiANClRoZSBkb2N1bWVudCB3aWxsIGluY2x1ZGUgbmVjZXNzYXJ5IGluZm9ybWF0aW9uIHRvIHN1cHBvcnQgdGhlIGNvLW9wZXJhdGlvbiBiZXR3ZWVuIEVUU0kgYW5kIHRoZSBFbGVjdHJvbmljIENvbW11bmljYXRpb25zIENvbW1pdHRlZSAoRUNDKSBvZiB0aGUgRXVyb3BlYW4gQ29uZmVyZW5jZSBvZiBQb3N0IGFuZCBUZWxlY29tbXVuaWNhdGlvbnMgQWRtaW5pc3RyYXRpb25zIChDRVBUKSwgaW5jbHVkaW5nOiDigKIgRGV0YWlsZWQgbWFya2V0IGluZm9ybWF0aW9uIChhbm5leCBBKTsg4oCiIFRlY2huaWNhbCBpbmZvcm1hdGlvbiAoYW5uZXggQik7IOKAoiBSZWxhdGlvbiB0byBleGlzdGluZyBzcGVjdHJ1bSByZWd1bGF0aW9uIChhbm5leCBDKTsg4oCiIEV4cGVjdGVkIGNvbXBhdGliaWxpdHkgaXNzdWVzIChhbm5leCBEKS4gDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The document will provide information on the existing and intended applications,
+    the technical parameters, the relation to the existing spectrum regulation (ECC/DEC(04)03
+    and 2004/545/EC) and reflecting the WRC15 decision (RR footnote 5.559B and ITU-R
+    recommendation M.2057 and ITU-R report M.2322) on automotive radar (AI.1.18).
+    The current regulation should be reviewed in the light of the results of WRC15.
+    \r\nThe document will include necessary information to support the co-operation
+    between ETSI and the Electronic Communications Committee (ECC) of the European
+    Conference of Post and Telecommunications Administrations (CEPT), including:  Detailed
+    market information (annex A);  Technical information (annex B);  Relation to existing
+    spectrum regulation (annex C);  Expected compatibility issues (annex D). \r\n"
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: radiodetermination
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: radiodetermination
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

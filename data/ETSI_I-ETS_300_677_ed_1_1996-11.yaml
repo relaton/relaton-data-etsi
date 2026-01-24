@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300677ed.11996-11
+id: ETSIIETS300677ed1199611
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=887
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300677/01_60/iets_300677e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 677 ed.1 (1996-11)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=887
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300677/01_60/iets_300677e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 677 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 677 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To standardise the electro-acoustical characteristics for analogue\r\nhandset
+- language: en
+  script: Latn
+  content: "To standardise the electro-acoustical characteristics for analogue\r\nhandset
     telephony terminals\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACOUSTIC
-- content: ANALOGUE
-- content: PSTN
-- content: TELEPHONY
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACOUSTIC
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: Interim European Telecommunication Standard

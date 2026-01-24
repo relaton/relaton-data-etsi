@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101867V1.1.12000-11
+id: ETSITS101867V111200011
+schema_version: v1.4.1
 title:
-- content: Powerline Telecommunications (PLT); Coexistence of Access and In-House
+- language: en
+  script: Latn
+  content: Powerline Telecommunications (PLT); Coexistence of Access and In-House
     Powerline Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10760
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101867/01.01.01_60/ts_101867v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 867 V1.1.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10760
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101867/01.01.01_60/ts_101867v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 867 V1.1.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 867 V1.1.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "As title.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "As title.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: INTERFACE
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Specification

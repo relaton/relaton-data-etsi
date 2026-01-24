@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102175V1.1.12003-03
+id: ETSITR102175V111200303
+schema_version: v1.4.1
 title:
-- content: PowerLine Telecommunications (PLT); Channel characterization and measurement
+- language: en
+  script: Latn
+  content: PowerLine Telecommunications (PLT); Channel characterization and measurement
     methods
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17785
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102175/01.01.01_60/tr_102175v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 175 V1.1.1 (2003-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17785
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102175/01.01.01_60/tr_102175v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 175 V1.1.1 (2003-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 175 V1.1.1 (2003-03)
 date:
 - type: published
-  value: 2003-03
+  at: 2003-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To be used for recording the measurment setup and method related issues
+- language: en
+  script: Latn
+  content: To be used for recording the measurment setup and method related issues
     for the STF222.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMISSION
-- content: METHODOLOGY
+- taxon:
+  - language: en
+    script: Latn
+    content: EMISSION
+  - language: en
+    script: Latn
+    content: METHODOLOGY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Report

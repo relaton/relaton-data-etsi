@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303423V1.3.12021-07
+id: ETSIEN303423V131202107
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Electrical and electronic household and
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Electrical and electronic household and
     office equipment; Measurement of networked standby power consumption of Interconnecting
     equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58901
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303400_303499/303423/01.03.01_60/en_303423v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 423 V1.3.1 (2021-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58901
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303400_303499/303423/01.03.01_60/en_303423v010301p.pdf
+docidentifier:
+- content: ETSI EN 303 423 V1.3.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 423 V1.3.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Environmental Engineering
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of EN 303423 to resolve EU Commission comments in document EE(19)056018
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of EN 303423 to resolve EU Commission comments in document EE(19)056018
+status:
+  stage: Published
 keyword:
-- content: Customer Premises Networks
-- content: Energy Efficiency
-- content: NETWORK
-- content: Power Measurement
+- taxon:
+  - language: en
+    script: Latn
+    content: Customer Premises Networks
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: Power Measurement
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Environmental Engineering
+    content: European Standard

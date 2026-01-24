@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103890V1.1.12023-10
+id: ETSITR103890V111202310
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Design of a generic approach
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Design of a generic approach
     to test network performance for OTT conversational voice applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66192
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103890/01.01.01_60/tr_103890v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 890 V1.1.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66192
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103890/01.01.01_60/tr_103890v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 890 V1.1.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 890 V1.1.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides information on designing generic OTT clients
+- language: en
+  script: Latn
+  content: "The present document provides information on designing generic OTT clients
     based on most commonly used codec/client technology (standardised, open source)
     to enable an on device, fully controllable testing of a single OTT voice client
     version using a fully accessible KPIs set. The present document provides a framework
@@ -58,21 +67,27 @@ abstract:
     scores) running generic buffer simultaneously with real app. Jitter buffer / client
     within the context of each use case, type of OTT application\r\n-Framework/rules
     for data driven proof that generic mimic the real apps\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 4G
-- content: 5G
-- content: OTT voice applications
-- content: OTT voice generic clients
-- content: QoS
+- taxon:
+  - language: en
+    script: Latn
+    content: 4G
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: OTT voice applications
+  - language: en
+    script: Latn
+    content: OTT voice generic clients
+  - language: en
+    script: Latn
+    content: QoS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

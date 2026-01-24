@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103307V1.5.12023-10
+id: ETSITS103307V151202310
+schema_version: v1.4.1
 title:
-- content: CYBER; Security Aspects for LI and RD Interfaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69118
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103307/01.05.01_60/ts_103307v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 307 V1.5.1 (2023-10)
+- language: en
+  script: Latn
+  content: CYBER; Security Aspects for LI and RD Interfaces
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69118
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103307/01.05.01_60/ts_103307v010501p.pdf
+docidentifier:
+- content: ETSI TS 103 307 V1.5.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 307 V1.5.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The scope of the specification will remaining unchanged. The scope of
+- language: en
+  script: Latn
+  content: 'The scope of the specification will remaining unchanged. The scope of
     this work is to add text to A.3 around choosing filenames. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Lawful Interception
-- content: Retained Data
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: Retained Data
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

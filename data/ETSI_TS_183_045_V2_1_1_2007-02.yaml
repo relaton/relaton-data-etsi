@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183045V2.1.12007-02
+id: ETSITS183045V211200702
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Direct Communication Service Capability; SIP Protocol Specification;
     (OMA-TS-POC_ControlPlane-V1, modified and OMA-TS-PoC_UserPlane-V1, modified and
     OMA-TS-PoC_XDM-V1, modified)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22951
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183045/02.01.01_60/ts_183045v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 045 V2.1.1 (2007-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22951
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183045/02.01.01_60/ts_183045v020101p.pdf
+docidentifier:
+- content: ETSI TS 183 045 V2.1.1 (2007-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 045 V2.1.1 (2007-02)
 date:
 - type: published
-  value: 2007-02
+  at: 2007-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2007-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of the protocol requirements, signalling flows, parameters
+- language: en
+  script: Latn
+  content: Specification of the protocol requirements, signalling flows, parameters
     and protocol details for the realisation of a Push2Talk-like service in an TISPAN
     NGN environment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: PROTOCOL
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

@@ -1,64 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR126911V5.1.02003-03
+id: ETSITR126911V510200303
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    RGlnaXRhbCBjZWxsdWxhciB0ZWxlY29tbXVuaWNhdGlvbnMgc3lzdGVtIChQaGFzZSAyKyk7IFVuaXZlcnNhbCBNb2JpbGUgVGVsZWNvbW11bmljYXRpb25zIFN5c3RlbSAoVU1UUyk7IENvZGVjIGZvciBDaXJjdWl0IHN3aXRjaGVkIE11bHRpbWVkaWEgVGVsZXBob255IFNlcnZpY2U7VGVybWluYWwgSW1wbGVtZW50b3LigJlzIEd1aWRlICgzR1BQIFRSIDI2LjkxMSB2ZXJzaW9uIDUuMS4wIFJlbGVhc2UgNSk=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18476
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/126900_126999/126911/05.01.00_60/tr_126911v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 126 911 V5.1.0 (2003-03)
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+    Telecommunications System (UMTS); Codec for Circuit switched Multimedia Telephony
+    Service;Terminal Implementors Guide (3GPP TR 26.911 version 5.1.0 Release 5)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18476
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/126900_126999/126911/05.01.00_60/tr_126911v050100p.pdf
+docidentifier:
+- content: ETSI TR 126 911 V5.1.0 (2003-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 126 911 V5.1.0 (2003-03)
 date:
 - type: published
-  value: 2003-03
+  at: 2003-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 2003-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-19
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-19
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Codec
+    content: Technical Report

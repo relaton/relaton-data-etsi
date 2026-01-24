@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182025V2.1.12008-09
+id: ETSITS182025V211200809
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Business trunking; Architecture and functional description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25086
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182025/02.01.01_60/ts_182025v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 025 V2.1.1 (2008-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25086
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182025/02.01.01_60/ts_182025v020101p.pdf
+docidentifier:
+- content: ETSI TS 182 025 V2.1.1 (2008-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 025 V2.1.1 (2008-09)
 date:
 - type: published
-  value: 2008-09
+  at: 2008-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2008-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Describe the architecture and functionality required for business trunking,
+- language: en
+  script: Latn
+  content: Describe the architecture and functionality required for business trunking,
     i.e. required to provide multimedia services to IP PBXs beyond those required
     in support of pure transit scenarios.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: FUNCTIONAL
-- content: TRUNKING
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: TRUNKING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Specification

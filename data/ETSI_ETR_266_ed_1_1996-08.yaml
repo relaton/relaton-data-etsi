@@ -1,59 +1,69 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR266ed.11996-08
+id: ETSIETR266ed1199608
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Test Purpose style guide
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2574
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/266/01_60/etr_266e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 266 ed.1 (1996-08)
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Test Purpose style guide
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2574
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/266/01_60/etr_266e01p.pdf
+docidentifier:
+- content: ETSI ETR 266 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 266 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To describe how test purposes should be specified for\r\nconformance testing
+- language: en
+  script: Latn
+  content: "To describe how test purposes should be specified for\r\nconformance testing
     before an Abstractt Test Suite (ATS) is written\r\nin TTCN. (E.g. vocabulary,
     structure, ...)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Technical Report

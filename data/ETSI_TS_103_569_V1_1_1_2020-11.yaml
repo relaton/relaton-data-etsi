@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103569V1.1.12020-11
+id: ETSITS103569V111202011
+schema_version: v1.4.1
 title:
-- content: ElectroMagnetic Compatibility (EMC) standard for radio equipment and services;
+- language: en
+  script: Latn
+  content: ElectroMagnetic Compatibility (EMC) standard for radio equipment and services;
     Study into extending the upper limit of the range of radiated emissions requirements
     up to 40 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51274
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103569/01.01.01_60/ts_103569v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 569 V1.1.1 (2020-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51274
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103569/01.01.01_60/ts_103569v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 569 V1.1.1 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 569 V1.1.1 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To extend the frequency range from 6 Ghz at present up to 40 GHz for ICT
+- language: en
+  script: Latn
+  content: To extend the frequency range from 6 Ghz at present up to 40 GHz for ICT
     equipment EMC standardization.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: EMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: EMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: Technical Specification

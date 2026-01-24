@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202109V1.1.12003-01
+id: ETSIES202109V111200301
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Security; Synchronization mechanism
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Security; Synchronization mechanism
     for end-to-end encryption
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16178
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202100_202199/202109/01.01.01_60/es_202109v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 109 V1.1.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16178
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202100_202199/202109/01.01.01_60/es_202109v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 109 V1.1.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 109 V1.1.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TETRA Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Cretation of a new document from clause 7 of each of EN 300 392-7 and EN
+- language: en
+  script: Latn
+  content: Cretation of a new document from clause 7 of each of EN 300 392-7 and EN
     300 396-6.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: DATA
-- content: DMO
-- content: SECURITY
-- content: SPEECH
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DMO
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TETRA Security
+    content: ETSI Standard

@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR058ed.11993-01
+id: ETSIETR058ed1199301
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Technical requirements for Packet Switched Public
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Technical requirements for Packet Switched Public
     Data Network (PSPDN) indirect access (Based on CCITT Recommendation X.28)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1134
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/058/01_60/etr_058e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 058 ed.1 (1993-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1134
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/058/01_60/etr_058e01p.pdf
+docidentifier:
+- content: ETSI ETR 058 ed.1 (1993-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 058 ed.1 (1993-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: General Terminal  Access Requirements
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "X.28 access to PSPDNs\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "X.28 access to PSPDNs\r\n  "
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: PACKET MODE
-- content: PDN
-- content: PSPDN
-- content: X.28
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: PDN
+  - language: en
+    script: Latn
+    content: PSPDN
+  - language: en
+    script: Latn
+    content: X.28
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: General Terminal  Access Requirements
+    content: ETSI Technical Report

@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA038V4.1.12021-11
+id: ETSIGRNFVIFA038V411202111
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 4; Architectural Framework;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Architectural Framework;
     Report on network connectivity for container-based VNF
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58463
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/038/04.01.01_60/gr_NFV-IFA038v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 038 V4.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58463
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/038/04.01.01_60/gr_NFV-IFA038v040101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 038 V4.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 038 V4.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will study and report about the necessary capabilities of
+- language: en
+  script: Latn
+  content: This work item will study and report about the necessary capabilities of
     the NFV framework to support the management of network connectivity, and its associated
     network resources, for VNFs based on containers. Examples of study include the
     support of multiple network interfaces per container, management of cluster nodes
     network and external VNF connectivity. The produced deliverable is expected to
     provide use cases, solutions and recommendations for normative work. The resulting
     deliverable of this work item will be informative.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Container
-- content: NETWORK
-- content: NFV
-- content: VNF
+- taxon:
+  - language: en
+    script: Latn
+    content: Container
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: VNF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

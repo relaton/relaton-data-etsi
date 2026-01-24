@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101552V1.0.02014-03
+id: ETSITR101552V100201403
+schema_version: v1.4.1
 title:
-- content: Guidance for the application of conformity assessment to accessibility
+- language: en
+  script: Latn
+  content: Guidance for the application of conformity assessment to accessibility
     requirements for public procurement of ICT products and services in Europe
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43383
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101552/01.00.00_60/tr_101552v010000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 552 V1.0.0 (2014-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43383
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101552/01.00.00_60/tr_101552v010000p.pdf
+docidentifier:
+- content: ETSI TR 101 552 V1.0.0 (2014-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 552 V1.0.0 (2014-03)
 date:
 - type: published
-  value: 2014-03
+  at: 2014-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.0
-revdate: 2014-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This Technical Report (TR) incorporates all information and documentation
+- language: en
+  script: Latn
+  content: 'This Technical Report (TR) incorporates all information and documentation
     needed in the frame of the procurement process in order to allow conveying the
     assessment of accessibility via conformity with the functional accessibility requirements
     contained in EN 301 549 (see clause 2, i), regardless of whether self-declaration,
@@ -56,15 +65,10 @@ abstract:
     for accessibility as part of contract management in the post-award stage. It is
     also useful in the pre-procurement research phase as well as during the contract
     negotiations. Finally it may be consulted by bidders preparing an offer.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

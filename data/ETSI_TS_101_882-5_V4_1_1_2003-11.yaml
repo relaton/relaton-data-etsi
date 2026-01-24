@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101882-5V4.1.12003-11
+id: ETSITS1018825V411200311
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON)
     Release 4; Protocol Framework Definition; Part 5: Transport control service'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18271
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/10188205/04.01.01_60/ts_10188205v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 882-5 V4.1.1 (2003-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18271
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/10188205/04.01.01_60/ts_10188205v040101p.pdf
+docidentifier:
+- content: ETSI TS 101 882-5 V4.1.1 (2003-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 882-5 V4.1.1 (2003-11)
 date:
 - type: published
-  value: 2003-11
+  at: 2003-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Call control matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2003-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To provide a meta-protocol for the control of transport resources in the
+- language: en
+  script: Latn
+  content: To provide a meta-protocol for the control of transport resources in the
     transport domain.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: INTERFACE
-- content: IP
-- content: META-PROTOCOL
-- content: PROTOCOL
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: META-PROTOCOL
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TIPHON Call control matters
+    content: Technical Specification

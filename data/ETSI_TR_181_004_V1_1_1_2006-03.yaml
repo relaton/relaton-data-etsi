@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR181004V1.1.12006-03
+id: ETSITR181004V111200603
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Generic capabilities and their use to develop services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21144
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/181000_181099/181004/01.01.01_60/tr_181004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 181 004 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21144
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/181000_181099/181004/01.01.01_60/tr_181004v010101p.pdf
+docidentifier:
+- content: ETSI TR 181 004 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 181 004 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The aim of this work will be to produce an analysis of the current work
+- language: en
+  script: Latn
+  content: The aim of this work will be to produce an analysis of the current work
     on NGN Generic capabilities and to propose some use to provide services. The result
     will allow to define some recommendations for the content of NGN Releases.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Report

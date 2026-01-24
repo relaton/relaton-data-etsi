@@ -1,69 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103427V1.1.12019-11
+id: ETSITS103427V111201911
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Framework of Internet
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Framework of Internet
     related performance measurements [Recommendation ITU-T Q.3960 (2016)]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48470
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103427/01.01.01_60/ts_103427v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 427 V1.1.1 (2019-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48470
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103427/01.01.01_60/ts_103427v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 427 V1.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 427 V1.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Framework for e2e internet related measurements for fixed and mobile networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Framework for e2e internet related measurements for fixed and mobile networks
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: Measurement
-- content: NETWORK
-- content: PERFORMANCE
-- content: QoE
-- content: QoS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: Measurement
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: QoE
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

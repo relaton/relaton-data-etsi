@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202488-2V1.1.12003-09
+id: ETSIES2024882V111200309
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Second Generation Transmission Systems for
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Second Generation Transmission Systems for
     Interactive Cable Television Services - IP Cable Modems; Part 2: Radio frequency
     interface specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18265
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202400_202499/20248802/01.01.01_60/es_20248802v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 488-2 V1.1.1 (2003-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18265
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202400_202499/20248802/01.01.01_60/es_20248802v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 488-2 V1.1.1 (2003-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 488-2 V1.1.1 (2003-09)
 date:
 - type: published
-  value: 2003-09
+  at: 2003-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Standard defines the second generation of radio-frequency interface
+- language: en
+  script: Latn
+  content: "This ETSI Standard defines the second generation of radio-frequency interface
     specifications for high-speed data-over-cable systems in Europe. This document
     may  be based on, but not limited to,  ITU-T SG9 J.122  Recommendation. The work
     is to be developed in coordination with other interested Technical Bodies, such
@@ -56,23 +65,33 @@ abstract:
     IP cable modems.  This second generation provides for advanced coding and adds
     higher order modulation capabilities, while maintaining backwards compatibility
     with the first generation [ES 201 488]."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DATA
-- content: IP
-- content: IPCable
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Digital
+    content: ETSI Standard

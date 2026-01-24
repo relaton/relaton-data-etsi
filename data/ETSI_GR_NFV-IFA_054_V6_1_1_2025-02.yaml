@@ -1,65 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA054V6.1.12025-02
+id: ETSIGRNFVIFA054V611202502
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 6; Architecture; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 6; Architecture; Report
     on architectural support for NFV evolution
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68597
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/054/06.01.01_60/gr_NFV-IFA054v060101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 054 V6.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68597
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/054/06.01.01_60/gr_NFV-IFA054v060101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 054 V6.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 054 V6.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHdvcmsgaXRlbSBhbmFseXplcyB0aGUgZ2FwcyBiZXR3ZWVuIGN1cnJlbnQgTkZWLU1BTk8gYXJjaGl0ZWN0dXJlIGFzIHNwZWNpZmllZCBpbiBFVFNJIEdTIE5GVi0wMDYgKHY0LjQuMSkgYW5kIGl0cyBzdXBwb3J0IGZvciBuZXcgc2NlbmFyaW9zIGluIE5GViBiYXNlZCB0ZWxjbyBjbG91ZCBldm9sdXRpb24gZWxhYm9yYXRlZCBieSBORlYgd2hpdGVwYXBlciAyMDIzIOKAnEV2b2x2aW5nIE5GViB0b3dhcmRzIHRoZSBuZXh0IGRlY2FkZeKAnSwgc3VjaCBhcyBuZXcgdHlwZXMgb2YgdmlydHVhbGlzYXRpb24gdGVjaG5vbG9naWVzLCBoZXRlcm9nZW5vdXMgaW5mcmFzdHJ1Y3R1cmUsIGh5cGVyLWRpc3RyaWJ1dGVkIGVkZ2UgZGVwbG95bWVudC4gDQpUbyBhY2hpZXZlIGFyY2hpdGVjdHVyYWwgb2JqZWN0aXZlcyBzdWNoIGFzIHNpbXBsaWZpY2F0aW9uLCBleHRlbnNpYmlsaXR5LCBvcHRpbWl6YXRpb24gb2YgZnVuY3Rpb25hbGl0eSBsYXlvdXQgYW5kIGJhY2t3YXJkIGNvbXBhdGliaWxpdHksIGFyY2hpdGVjdHVyYWwgY2hhbmdlIHByb3Bvc2FscyBkZXJpdmVkIGZyb20gY3VycmVudCBORlYtTUFOTyBhcmNoaXRlY3R1cmUgd2lsbCBiZSBpbnZlc3RpZ2F0ZWQgYW5kIGV2YWx1YXRlZCB0byByZXNvbHZlIHRoZSBpZGVudGlmaWVkIGdhcHMsIGlmIGFueS4gDQpEZXNpZ24gYW5kIGFuYWx5c2lzIG9mIGFyY2hpdGVjdHVyYWwgY2hhbmdlIHByb3Bvc2FscyB3aWxsIHRha2UgdGhlIHJlY29tbWVuZGF0aW9ucyBmcm9tIGFjdGl2aXRpZXMgcmVsYXRlZCB0byBhcmNoaXRlY3R1cmFsIGZlYXR1cmUgd29yayAoc3VjaCBhcyBSZWxlYXNlIDUgRkVBVDIzIG9uIE1BTk8gU0JBKSBpbnRvIGFjY291bnQgdG8gYXZvaWQgcG90ZW50aWFsIGR1cGxpY2F0ZWQgb3IgY29uZmxpY3Rpbmcgb2JqZWN0aXZlcyBvZiBhcmNoaXRlY3R1cmFsIGNoYW5nZXMuDQpUaGUgd29yayBpdGVtIGFwcGxpZXMgdG8gYWxsIGZlYXR1cmVzIGFuZCBkZWxpdmVycyByZWNvbW1lbmRhdGlvbnMgZm9yIGZ1dHVyZSBub3JtYXRpdmUgd29yayBvZiBORlYtTUFOTyBhcmNoaXRlY3R1cmUgYWRhcHRpdmUgdG8gdGVsY28gY2xvdWQgZXZvbHV0aW9uLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The work item analyzes the gaps between current NFV-MANO architecture
+    as specified in ETSI GS NFV-006 (v4.4.1) and its support for new scenarios in
+    NFV based telco cloud evolution elaborated by NFV whitepaper 2023 Evolving NFV
+    towards the next decade, such as new types of virtualisation technologies, heterogenous
+    infrastructure, hyper-distributed edge deployment. \r\nTo achieve architectural
+    objectives such as simplification, extensibility, optimization of functionality
+    layout and backward compatibility, architectural change proposals derived from
+    current NFV-MANO architecture will be investigated and evaluated to resolve the
+    identified gaps, if any. \r\nDesign and analysis of architectural change proposals
+    will take the recommendations from activities related to architectural feature
+    work (such as Release 5 FEAT23 on MANO SBA) into account to avoid potential duplicated
+    or conflicting objectives of architectural changes.\r\nThe work item applies to
+    all features and delivers recommendations for future normative work of NFV-MANO
+    architecture adaptive to telco cloud evolution."
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: NFV evolution
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: NFV evolution
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201488-1V1.2.22003-10
+id: ETSIES2014881V122200310
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Data Over Cable Systems; Part 1: General'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18380
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201400_201499/20148801/01.02.02_60/es_20148801v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 488-1 V1.2.2 (2003-10)
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Data Over Cable Systems; Part 1: General'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18380
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201400_201499/20148801/01.02.02_60/es_20148801v010202p.pdf
+docidentifier:
+- content: ETSI ES 201 488-1 V1.2.2 (2003-10)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 488-1 V1.2.2 (2003-10)
 date:
 - type: published
-  value: 2003-10
+  at: 2003-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2003-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: " To continue the work forward on the ES 201 488, previously primed in
+- language: en
+  script: Latn
+  content: " To continue the work forward on the ES 201 488, previously primed in
     JTC Broadcast, by moving this activity into AT-Digital.  The ES 201 488 ETSI Standard
     defines the radio-frequency interface specification and Baseline Privacy-Plus
     Interface Specification for high-speed data-over-cable systems in Europe.  A major
     goal of this new work item will be to maintain the existing harmonization and
     alignment of the ES 201 488  with similar specifications in CableLabs/SCTE (DOCSIS
     1.1) and the ITU-T (J.112)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DATA
-- content: IP
-- content: IPCable
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Digital
+    content: ETSI Standard

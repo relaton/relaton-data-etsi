@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP003V1.1.12017-03
+id: ETSIGRNGP003V111201703
+schema_version: v1.4.1
 title:
-- content: NGP Next Generation Protocol; Packet Routing Technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50123
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/003/01.01.01_60/gr_NGP003v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 003 V1.1.1 (2017-03)
+- language: en
+  script: Latn
+  content: NGP Next Generation Protocol; Packet Routing Technologies
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50123
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/003/01.01.01_60/gr_NGP003v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 003 V1.1.1 (2017-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 003 V1.1.1 (2017-03)
 date:
 - type: published
-  value: 2017-03
+  at: 2017-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on identifying and evaluating routing technologies
+- language: en
+  script: Latn
+  content: This work item focuses on identifying and evaluating routing technologies
     that are likely to be suitable for NGP. The work aims to produce a report detailing
     candidate technologies and showing how each serves the scenarios set out in Work
     Item NGP-001 (Scenario definitions)and how it fits into the framework set out
     in 3GPP TR 23.799.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Flexilink
-- content: M2CNP
-- content: Next Generation Protocol
-- content: RINA
+- taxon:
+  - language: en
+    script: Latn
+    content: Flexilink
+  - language: en
+    script: Latn
+    content: M2CNP
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: RINA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

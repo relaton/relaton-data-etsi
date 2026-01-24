@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM07.07V5.0.01996-07
+id: ETSIGTSGSM0707V500199607
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); AT command
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); AT command
     set for GSM Mobile Equipment (ME) (GSM 07.07)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4735
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/07/0707/05.00.00_60/gsmts_0707v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 07.07 V5.0.0 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4735
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/07/0707/05.00.00_60/gsmts_0707v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 07.07 V5.0.0 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 07.07 V5.0.0 (1996-07)
 date:
 - type: published
-  value: 1996-07
+  at: 1996-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunications Standard (ETS) specifies a profile of\r\nAT
+- language: en
+  script: Latn
+  content: "This European Telecommunications Standard (ETS) specifies a profile of\r\nAT
     commands and recommends that this profile be used for controlling\r\nMobile Equipment
     (ME) functions and GSM network services from a\r\nTerminal Equipment (TE) through
     Terminal Adaptor (TA). The command\r\nprefix +C is reserved for Digital Cellular
@@ -66,29 +75,51 @@ abstract:
     TA and ME integrated under the TE cover as a single entity.\r\n The commands described
     in this ETS may be observed on the link between\r\nthe TE and the TA. However,
     most of the commands retrieve information\r\nabout the ME, not about the TA.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: CBS
-- content: CELL
-- content: DCE
-- content: DTE
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERFACE
-- content: MOBILE
-- content: PLMN
-- content: PLUS
-- content: RADIO
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CBS
+  - language: en
+    script: Latn
+    content: CELL
+  - language: en
+    script: Latn
+    content: DCE
+  - language: en
+    script: Latn
+    content: DTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: PLUS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Data Services
+    content: GSM Technical Specification

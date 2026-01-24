@@ -1,63 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR011ed.11993-10
+id: ETSITCRTR011ed1199310
+schema_version: v1.4.1
 title:
-- content: Business Telecommunications (BT); Private Telecommunications Network (PTN)
+- language: en
+  script: Latn
+  content: Business Telecommunications (BT); Private Telecommunications Network (PTN)
     internal mobility Private user mobility and cordless terminal mobility General
     principles and service aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=513
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/011/01_60/tcrtr_011e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 011 ed.1 (1993-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=513
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/011/01_60/tcrtr_011e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 011 ed.1 (1993-10)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 011 ed.1 (1993-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Private Networking Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Identification and description of functions required to support mobile\r\nusers
+- language: en
+  script: Latn
+  content: "Identification and description of functions required to support mobile\r\nusers
     in a PTN (e.g. roaming, routing and modified/ new supplementary\r\nservices, signalling).
     \ Will provide the basis for the identification\r\nof ETS/ETRs required 1992-93
     time frame.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CT
-- content: MOBILITY
-- content: PISN
+- taxon:
+  - language: en
+    script: Latn
+    content: CT
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PISN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Private Networking Aspects
+    content: Technical Committee Reference Technical Report

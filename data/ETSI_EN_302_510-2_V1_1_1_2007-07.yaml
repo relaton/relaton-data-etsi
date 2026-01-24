@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302510-2V1.1.12007-07
+id: ETSIEN3025102V111200707
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Radio
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Radio
     equipment in the frequency range 30 MHz to 37,5 MHz for Ultra Low Power Active
     Medical Membrane Implants and Accessories; Part 2: Harmonized EN covering essential
     requirements of article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20964
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302500_302599/30251002/01.01.01_60/en_30251002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 510-2 V1.1.1 (2007-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20964
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302500_302599/30251002/01.01.01_60/en_30251002v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 510-2 V1.1.1 (2007-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 510-2 V1.1.1 (2007-07)
 date:
 - type: published
-  value: 2007-07
+  at: 2007-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Wireless Medical Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: EN xxx XXX -1 and -2 will be developed to address a new technology in the
+- language: en
+  script: Latn
+  content: EN xxx XXX -1 and -2 will be developed to address a new technology in the
     medical field that will enhance the quality of life for afflicted patients and,
     in many cases, potentially save their life.  This technology is a radically new
     concept for providing highly accurate real time vascular blood pressure level
@@ -58,20 +67,24 @@ abstract:
     tested to show conformance with the applicable legislation under any existing
     ETSI standards owing to the frequency range, the method of energy coupling, tissue
     absorption, and other factors.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: REGULATION
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Wireless Medical Devices
+    content: European Standard

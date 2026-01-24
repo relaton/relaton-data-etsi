@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103590V1.1.12018-09
+id: ETSITR103590V111201809
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Study of Super Wideband
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Study of Super Wideband
     Codec in DECT for narrowband, wideband and super-wideband audio communication
     including options of low delay audio connections (<= 10 ms framing)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53491
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103590/01.01.01_60/tr_103590v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 590 V1.1.1 (2018-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53491
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103590/01.01.01_60/tr_103590v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 590 V1.1.1 (2018-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 590 V1.1.1 (2018-09)
 date:
 - type: published
-  value: 2018-09
+  at: 2018-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Enhanced Cordless Telecommunications (DECT)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This technical report aims a definition of technical needed updates to
+- language: en
+  script: Latn
+  content: "This technical report aims a definition of technical needed updates to
     the DECT standard to enable narrowband (NB), wideband (WB) and super wideband
     (SWB) audio call in existing DECT slot formats. All needed change requests should
     be listed and defined for the different DECT layers to enable high quality audio
@@ -55,19 +64,21 @@ abstract:
     be defined.\r\n\r\nIn the Technical Report should also be studied and defined
     the need of CRC for the B-field and if FEC is needed or could improve the audio
     quality in some use cases for NB, WB and SWB."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: DECT
-- content: Superwideband
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: Superwideband
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital Enhanced Cordless Telecommunications (DECT)
+    content: Technical Report

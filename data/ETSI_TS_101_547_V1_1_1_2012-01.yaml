@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101547V1.1.12012-01
+id: ETSITS101547V111201201
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Frame Compatible Plano-stereoscopic 3DTV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35682
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101500_101599/101547/01.01.01_60/ts_101547v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 547 V1.1.1 (2012-01)
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Frame Compatible Plano-stereoscopic 3DTV
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35682
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101500_101599/101547/01.01.01_60/ts_101547v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 547 V1.1.1 (2012-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 547 V1.1.1 (2012-01)
 date:
 - type: published
-  value: 2012-01
+  at: 2012-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document specifies the delivery system for frame compatible
+- language: en
+  script: Latn
+  content: The present document specifies the delivery system for frame compatible
     plano-stereoscopic 3DTV services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3DTV
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: 3DTV
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

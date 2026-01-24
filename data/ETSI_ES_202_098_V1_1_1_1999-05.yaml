@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202098V1.1.11999-05
+id: ETSIES202098V111199905
+schema_version: v1.4.1
 title:
-- content: Telecommunications Management Network (TMN); Information model for a VC
+- language: en
+  script: Latn
+  content: Telecommunications Management Network (TMN); Information model for a VC
     transport system using a 34 Mbit/s PDH transmission system in accordance with
     ITU-T Recommendation G.832;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6109
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202000_202099/202098/01.01.01_60/es_202098v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 098 V1.1.1 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6109
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202000_202099/202098/01.01.01_60/es_202098v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 098 V1.1.1 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 098 V1.1.1 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunications Management Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: " Generation of Modelling Architecture and Information Model for the VC
+- language: en
+  script: Latn
+  content: " Generation of Modelling Architecture and Information Model for the VC
     Transport System\r\n\r\nReference documents: ITU-T Rec.G.832, G.774, ETS 300 304,
     ETS 300 371"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: NE
-- content: PDH
-- content: Q3 INTERFACE
-- content: SDH
-- content: TMN
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NE
+  - language: en
+    script: Latn
+    content: PDH
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Telecommunications Management Network
+    content: ETSI Standard

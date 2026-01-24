@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300607-1V7.2.12000-09
+id: ETSIEN3006071V721200009
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Station
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2+) (GSM); Mobile Station
     (MS) conformance specification; Part 1: Conformance specification (GSM 11.10-1
     version 7.2.1 Release 1998)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9874
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300600_300699/30060701/07.02.01_60/en_30060701v070201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 607-1 V7.2.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9874
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300600_300699/30060701/07.02.01_60/en_30060701v070201p.pdf
+docidentifier:
+- content: ETSI EN 300 607-1 V7.2.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 607-1 V7.2.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.2.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CR SMG#31
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CR SMG#31
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: MS
-- content: RADIO
-- content: UIC
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: European Standard

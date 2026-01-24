@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR121910V3.0.02000-07
+id: ETSITR121910V300200007
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Multi-mode User Equipment
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Multi-mode User Equipment
     (UE) issues; Categories principles and procedures (3G TR 21.910 version 3.0.0
     Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11295
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121910/03.00.00_60/tr_121910v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 121 910 V3.0.0 (2000-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11295
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/121900_121999/121910/03.00.00_60/tr_121910v030000p.pdf
+docidentifier:
+- content: ETSI TR 121 910 V3.0.0 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 121 910 V3.0.0 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Services & Capabilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TR 21.910 identifies multi-mode User Equipments categories and describes
+- language: en
+  script: Latn
+  content: "TR 21.910 identifies multi-mode User Equipments categories and describes
     the consequences on roaming capabilities and service availability (e.g. handover)
     of such multi-mode UEs while roaming in various regions implemented with various
     network configurations. The latter objective consists of case studies for each
@@ -73,17 +82,15 @@ abstract:
     only terminals, circuit switched only terminal, dual capability terminals.\r\nThe
     present report is built on and references specifications/reports being produced
     in 3GPP or within other relevant foras e.g. ETSI SMG.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Mobile Terminal Services & Capabilities
+    content: Technical Report

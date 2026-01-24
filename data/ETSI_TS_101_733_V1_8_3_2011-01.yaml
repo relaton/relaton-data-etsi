@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101733V1.8.32011-01
+id: ETSITS101733V183201101
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); CMS Advanced Electronic
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); CMS Advanced Electronic
     Signatures (CAdES)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34720
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101733/01.08.03_60/ts_101733v010803p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 733 V1.8.3 (2011-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34720
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101733/01.08.03_60/ts_101733v010803p.pdf
+docidentifier:
+- content: ETSI TS 101 733 V1.8.3 (2011-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 733 V1.8.3 (2011-01)
 date:
 - type: published
-  value: 2011-01
+  at: 2011-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.8.3
-revdate: 2011-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Clarification of conformance requirements for BES signatures.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Clarification of conformance requirements for BES signatures.\r\n"
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

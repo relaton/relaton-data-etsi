@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103745V1.1.12025-04
+id: ETSITS103745V111202504
+schema_version: v1.4.1
 title:
-- content: Requirements for the shared use of spectrum between Urban Rail and Road
+- language: en
+  script: Latn
+  content: Requirements for the shared use of spectrum between Urban Rail and Road
     Intelligent Transport Systems (ITS) operating in the 5 875 MHz to 5 925 MHz frequency
     range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59449
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103745/01.01.01_60/ts_103745v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 745 V1.1.1 (2025-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59449
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103745/01.01.01_60/ts_103745v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 745 V1.1.1 (2025-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 745 V1.1.1 (2025-04)
 date:
 - type: published
-  value: 2025-04
+  at: 2025-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Joint Task Force ITS RT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify a technical solution and its related minimum requirements for
+- language: en
+  script: Latn
+  content: "To specify a technical solution and its related minimum requirements for
     the shared  use of the 5875-5925 MHz frequency band by Road-ITS and Urban Rail
     ITS for safety related applications:\r\n(1) Taking into account the requirements
     of Urban Rail ITS;\r\n(2) Considering the outcome of the ETSI TR 103 580  on investigations
     to identify potential solutions to protect Urban Rail ITS in 5915-5925 MHz."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Joint Task Force ITS RT
+    content: Technical Specification

@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-IFA049V5.3.12025-09
+id: ETSIGSNFVIFA049V531202509
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74289
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/049/05.03.01_60/gs_NFV-IFA049v050301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-IFA 049 V5.3.1 (2025-09)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74289
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/049/05.03.01_60/gs_NFV-IFA049v050301p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 049 V5.3.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-IFA 049 V5.3.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.3.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision of NFV-IFA 049 continues the development of the specification
+- language: en
+  script: Latn
+  content: "This revision of NFV-IFA 049 continues the development of the specification
     as part of the NFV Release 5. This edition will add requirements to support the
     Release 5 features. The scope of the former edition is summarized hereafter:\r\n\r\nNFV-IFA
     049 specifies: \r\nRegarding the VNF generic OAM functions and other PaaS Services,
@@ -58,22 +67,30 @@ abstract:
     interface requirements of interfaces produced by the PSM and PSR (as functionally
     specified in ETSI GS NFV-IFA 010), and their interface operations and associated
     information modelling.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: INTERFACE
-- content: MANAGEMENT
-- content: NFV
-- content: OAM
-- content: VNF
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: OAM
+  - language: en
+    script: Latn
+    content: VNF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Specification

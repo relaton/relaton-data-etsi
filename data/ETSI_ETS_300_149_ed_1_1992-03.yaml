@@ -1,58 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300149ed.11992-03
+id: ETSIETS300149ed1199203
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Videotex Audio syntax
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300149/01_60/ets_300149e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 149 ed.1 (1992-03)
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Videotex Audio syntax
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300149/01_60/ets_300149e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 149 ed.1 (1992-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 149 ed.1 (1992-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify an Audio Syntax for Videotex.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To specify an Audio Syntax for Videotex.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: TERMINAL
-- content: VIDEOTEX
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VIDEOTEX
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+    content: European Telecommunication Standard

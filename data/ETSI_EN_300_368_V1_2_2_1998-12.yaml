@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300368V1.2.21998-12
+id: ETSIEN300368V122199812
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Explicit Call Transfer (ECT)
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Explicit Call Transfer (ECT)
     supplementary service; Functional capabilities and information flows
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6660
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/300368/01.02.02_60/en_300368v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 368 V1.2.2 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6660
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/300368/01.02.02_60/en_300368v010202p.pdf
+docidentifier:
+- content: ETSI EN 300 368 V1.2.2 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 368 V1.2.2 (1998-12)
 date:
 - type: published
-  value: 1998-12
+  at: 1998-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1998-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To reflect changes in service description and in DSS1 protocol: 1) Remove
+- language: en
+  script: Latn
+  content: "To reflect changes in service description and in DSS1 protocol: 1) Remove
     requirement for one call to be placed on hold. TD16 to SPS1 Prague (03/98) refers
     and gives proposed changes; 2) Reflect changes in Q.82.7. Unnumbered TD to Prague
     refers.\r\nSupporting organizations: SGCS Ltd., GTP Ltd., KPN, BT."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ECT
-- content: ISDN
-- content: ISUP
-- content: STAGE 2
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ECT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: STAGE 2
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Signalling
+    content: European Standard

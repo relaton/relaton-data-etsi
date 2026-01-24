@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR043ed.11998-05
+id: ETSITBR043ed1199805
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Very Small Aperture Terminal
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Very Small Aperture Terminal
     (VSAT) transmit-only, transmit-and-receive, receive-only satellite earth stations
     operating in the 4 GHz and 6 GHz frequency bands
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4674
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/043/01_60/tbr_043e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 043 ed.1 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4674
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/043/01_60/tbr_043e01p.pdf
+docidentifier:
+- content: ETSI TBR 043 ed.1 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 043 ed.1 (1998-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Earth Stations & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TBR specifies those technical requirements under Articles 4.1 to\r\n4.5
+- language: en
+  script: Latn
+  content: "This TBR specifies those technical requirements under Articles 4.1 to\r\n4.5
     of Council Directive 93/97/EEC that apply to satellite earth\r\nstation equipment
     that is capable of operation in the following\r\nfrequency ranges:\r\n -\t3,625
     to 4,200 GHz (Space to Earth, shared);\r\n-\t5,850 to 6,425 GHz (Earth to Space,
@@ -59,20 +69,24 @@ abstract:
     of whether the satellite earth station equipment provides\r\nadditional interfaces,
     telecommunications services or functions.\r\nHowever additional TBRs may also
     apply.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: REGULATION
-- content: SATELLITE
-- content: VSAT
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: VSAT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Satellite Earth Stations & Systems
+    content: Technical Basis for Regulation

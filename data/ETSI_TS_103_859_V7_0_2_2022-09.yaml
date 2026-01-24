@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103859V7.0.22022-09
+id: ETSITS103859V702202209
+schema_version: v1.4.1
 title:
-- content: Publicly Available Specification (PAS); O-RAN Fronthaul Control, User and
+- language: en
+  script: Latn
+  content: Publicly Available Specification (PAS); O-RAN Fronthaul Control, User and
     Synchronization Plane Specification v7.02; (ORAN-WG4.CUS.0-v07.02)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63967
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103859/07.00.02_60/ts_103859v070002p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 859 V7.0.2 (2022-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63967
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103859/07.00.02_60/ts_103859v070002p.pdf
+docidentifier:
+- content: ETSI TS 103 859 V7.0.2 (2022-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 859 V7.0.2 (2022-09)
 date:
 - type: published
-  value: 2022-09
+  at: 2022-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Standards Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.2
-revdate: 2022-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UEFTIHByb2Nlc3MgZm9yIGFkb3B0aW9uIG9mIE8tUkFOIHNwZWNpZmljYXRpb24g4oCcTy1SQU4gRnJvbnRoYXVsIENvbnRyb2wsIFVzZXIgYW5kIFN5bmNocm9uaXphdGlvbiBQbGFuZSBTcGVjaWZpY2F0aW9uIHY3LjAyLSBOb3YgMjAyMShPUkFOLVdHNC5DVVMuMC12MDcuMDIp4oCd
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: PAS process for adoption of O-RAN specification O-RAN Fronthaul Control,
+    User and Synchronization Plane Specification v7.02- Nov 2021(ORAN-WG4.CUS.0-v07.02)
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: fronthaul
-- content: INTERFACE
-- content: PAS
-- content: SYNCHRONIZATION
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: fronthaul
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PAS
+  - language: en
+    script: Latn
+    content: SYNCHRONIZATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Standards Group
+    content: Technical Specification

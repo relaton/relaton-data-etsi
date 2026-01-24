@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSE4P006V1.1.12021-05
+id: ETSIGSE4P006V111202105
+schema_version: v1.4.1
 title:
-- content: Europe for Privacy-Preserving Pandemic Protection (E4P); Device-Based Mechanisms
+- language: en
+  script: Latn
+  content: Europe for Privacy-Preserving Pandemic Protection (E4P); Device-Based Mechanisms
     for pandemic contact tracing systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59491
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/E4P/001_099/006/01.01.01_60/gs_E4P006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS E4P 006 V1.1.1 (2021-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59491
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/E4P/001_099/006/01.01.01_60/gs_E4P006v010101p.pdf
+docidentifier:
+- content: ETSI GS E4P 006 V1.1.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS E4P 006 V1.1.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Europe for Privacy-Preserving Pandemic Protection
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document specifies  various Proximity Detection Methods for Pandemic
+- language: en
+  script: Latn
+  content: This document specifies  various Proximity Detection Methods for Pandemic
     contact tracing systems, including proximity detection mechanisms of contacts,
     anonymous identification of contacts, storage requirements for proximity data
     of contacts. Methods are clarified in sufficient technical detail such that means
@@ -55,25 +64,39 @@ abstract:
     work item. The initial version of this document may be revised several times as
     additional methods are added, e.g. including methods which are gaining consensus
     in non-European countries.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Covid
-- content: eHealth
-- content: emergency services
-- content: Identity
-- content: MOBILITY
-- content: Pandemic
-- content: privacy
-- content: SECURITY
-- content: smartphone
+- taxon:
+  - language: en
+    script: Latn
+    content: Covid
+  - language: en
+    script: Latn
+    content: eHealth
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: Identity
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: Pandemic
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: smartphone
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Europe for Privacy-Preserving Pandemic Protection
+    content: Group Specification

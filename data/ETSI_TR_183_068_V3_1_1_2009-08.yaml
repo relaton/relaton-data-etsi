@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183068V3.1.12009-08
+id: ETSITR183068V311200908
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networks (TISPAN); Guidelines on using Ia H.248 profile for control of Border
     Gateway Functions (BGF); Border Gateway Guidelines
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29362
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183068/03.01.01_60/tr_183068v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 068 V3.1.1 (2009-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29362
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183068/03.01.01_60/tr_183068v030101p.pdf
+docidentifier:
+- content: ETSI TR 183 068 V3.1.1 (2009-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 068 V3.1.1 (2009-08)
 date:
 - type: published
-  value: 2009-08
+  at: 2009-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2009-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "General guidelines on using Ia H.248 profile versions 2 and 3 for BGF
+- language: en
+  script: Latn
+  content: "General guidelines on using Ia H.248 profile versions 2 and 3 for BGF
     control:\r\n-BGF operation modes\r\n-Applicability of statistics\r\n-Transferring
     informative Annexes from the existing Ia profile specifications\r\nEtc."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GATEWAY
-- content: H.248
-- content: SIP
+- taxon:
+  - language: en
+    script: Latn
+    content: GATEWAY
+  - language: en
+    script: Latn
+    content: H.248
+  - language: en
+    script: Latn
+    content: SIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

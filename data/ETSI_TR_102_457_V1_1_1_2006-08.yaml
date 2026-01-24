@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102457V1.1.12006-08
+id: ETSITR102457V111200608
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Study on the electromagnetic radiated
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Study on the electromagnetic radiated
     field in fixed radio systems for environmental issues
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12924
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102457/01.01.01_60/tr_102457v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 457 V1.1.1 (2006-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12924
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102457/01.01.01_60/tr_102457v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 457 V1.1.1 (2006-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 457 V1.1.1 (2006-08)
 date:
 - type: published
-  value: 2006-08
+  at: 2006-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Antennas
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To review all the documentations regarding the hazard for fixed radio systems
+- language: en
+  script: Latn
+  content: To review all the documentations regarding the hazard for fixed radio systems
     and to provide some guidelines for the evaluation of the electromagnetic field
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ANTENNA
-- content: DFRS
-- content: DRRS
-- content: EMC
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TM Antennas
+    content: Technical Report

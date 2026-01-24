@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS122003V10.0.02011-05
+id: ETSITS122003V1000201105
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Universal Mobile
     Telecommunications System (UMTS); LTE; Circuit Teleservices supported by a Public
     Land Mobile Network (PLMN) (3GPP TS 22.003 version 10.0.0 Release 10)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35916
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/122000_122099/122003/10.00.00_60/ts_122003v100000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 122 003 V10.0.0 (2011-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35916
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/122000_122099/122003/10.00.00_60/ts_122003v100000p.pdf
+docidentifier:
+- content: ETSI TS 122 003 V10.0.0 (2011-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 122 003 V10.0.0 (2011-05)
 date:
 - type: published
-  value: 2011-05
+  at: 2011-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 10.0.0
-revdate: 2011-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-51
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-51
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services
+    content: Technical Specification

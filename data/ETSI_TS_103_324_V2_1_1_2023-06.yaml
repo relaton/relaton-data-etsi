@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103324V2.1.12023-06
+id: ETSITS103324V211202306
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
     of Applications; Collective Perception Service; Release 2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46541
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103324/02.01.01_60/ts_103324v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 324 V2.1.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46541
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103324/02.01.01_60/ts_103324v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 324 V2.1.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 324 V2.1.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify the Cooperative Perception Service (CPS) in support of ITS
+- language: en
+  script: Latn
+  content: "To specify the Cooperative Perception Service (CPS) in support of ITS
     applications. This includes the definition of syntax and semantics of the data
     and messages to increase the awareness of the environment in the cooperative manner.
     In addition, it specifies the facilities layer protocol in support of such cooperative
     perception. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Specification

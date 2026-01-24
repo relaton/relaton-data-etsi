@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSQKD011V1.1.12016-05
+id: ETSIGSQKD011V111201605
+schema_version: v1.4.1
 title:
-- content: 'Quantum Key Distribution (QKD); Component characterization: characterizing
+- language: en
+  script: Latn
+  content: 'Quantum Key Distribution (QKD); Component characterization: characterizing
     optical components for QKD systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43376
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/011/01.01.01_60/gs_QKD011v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS QKD 011 V1.1.1 (2016-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43376
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/QKD/001_099/011/01.01.01_60/gs_QKD011v010101p.pdf
+docidentifier:
+- content: ETSI GS QKD 011 V1.1.1 (2016-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS QKD 011 V1.1.1 (2016-05)
 date:
 - type: published
-  value: 2016-05
+  at: 2016-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum Key Distribution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document will give specifications and procedures for the characterisation
+- language: en
+  script: Latn
+  content: This document will give specifications and procedures for the characterisation
     of optical components for use in QKD systems.  Examples of specific tests and
     procedures for performing such tests will be given.  Particular attention will
     be given to active optical components such as optical sources and single photon
     detectors due to their importance in determining the security of a QKD system.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Communications module
-- content: quantum cryptography
-- content: Quantum Key Distribution
+- taxon:
+  - language: en
+    script: Latn
+    content: Communications module
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: Quantum Key Distribution
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Quantum Key Distribution
+    content: Group Specification

@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101985V1.1.22002-11
+id: ETSITR101985V112200211
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia;
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Broadband Satellite Multimedia;
     IP over Satellite
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17723
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101985/01.01.02_60/tr_101985v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 985 V1.1.2 (2002-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17723
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101985/01.01.02_60/tr_101985v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 985 V1.1.2 (2002-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 985 V1.1.2 (2002-11)
 date:
 - type: published
-  value: 2002-11
+  at: 2002-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2002-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of TR 101 985 V1.1.1 to correct some incorrect references.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision of TR 101 985 V1.1.1 to correct some incorrect references.
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: BROADBAND
-- content: IP
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Broadband Satellite Multimedia
+    content: Technical Report

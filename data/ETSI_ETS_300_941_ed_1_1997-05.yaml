@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300941ed.11997-05
+id: ETSIETS300941ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Mobile radio interface layer
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Mobile radio interface layer
     3; Supplementary services specification; General aspects (GSM 04.10 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5086
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300941/01_60/ets_300941e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 941 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5086
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300941/01_60/ets_300941e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 941 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 941 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In this ETS the general aspects of the specification of supplementary\r\nservices
+- language: en
+  script: Latn
+  content: "In this ETS the general aspects of the specification of supplementary\r\nservices
     at the layer 3 radio interface are given.\r\nGSM 04.8x and 04.9x-series specify
     the\r\nprocedures used at the radio interface (reference point Um as defined\r\ninGSM
     04.02) for normal operation,\r\nregistration, erasure, activation, deactivation,
@@ -53,26 +63,42 @@ abstract:
     services is described in\r\nGSM 03.11 and GSM 03.8x and 03.9x-series.\r\nThe procedures
     for Call Control, Mobility Management and Radio\r\nResource management at the
     layer 3 radio interface are defined in\r\nGSM 04.07 and GSM 04.08.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GENERIC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERFACE
-- content: LAYER 3
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

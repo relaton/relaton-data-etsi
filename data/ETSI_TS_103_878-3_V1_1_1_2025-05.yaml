@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103878-3V1.1.12025-05
+id: ETSITS1038783V111202505
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Network Interoperability
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Network Interoperability
     Test Description for IPv6-only services over 5G; Part 3: Abstract Test suite'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64978
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10387803/01.01.01_60/ts_10387803v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 878-3 V1.1.1 (2025-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64978
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10387803/01.01.01_60/ts_10387803v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 878-3 V1.1.1 (2025-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 878-3 V1.1.1 (2025-05)
 date:
 - type: published
-  value: 2025-05
+  at: 2025-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Test description of IPv6-only service test scenarios over 5G. provide
+- language: en
+  script: Latn
+  content: "Test description of IPv6-only service test scenarios over 5G. provide
     monitoring points and test specifications in prose details with focus on different
     interworking and interoperability interfaces when \r\n1.\tUE IPv6 address allocation
     in 5G core network.\r\n2.\tDNS/DNS64 address allocation.\r\n3.   NAT64 prefix
     discovery .\r\n4.   Access of Internet IPv4 and IPv6 servers.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: ATS
-- content: IPv6
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: IPv6
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

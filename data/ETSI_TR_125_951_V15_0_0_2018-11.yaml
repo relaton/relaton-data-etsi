@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR125951V15.0.02018-11
+id: ETSITR125951V1500201811
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); FDD Base Station (BS)
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); FDD Base Station (BS)
     classification (3GPP TR 25.951 version 15.0.0 Release 15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56865
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125951/15.00.00_60/tr_125951v150000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 125 951 V15.0.0 (2018-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56865
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/125900_125999/125951/15.00.00_60/tr_125951v150000p.pdf
+docidentifier:
+- content: ETSI TR 125 951 V15.0.0 (2018-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 125 951 V15.0.0 (2018-11)
 date:
 - type: published
-  value: 2018-11
+  at: 2018-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.0.0
-revdate: 2018-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#81
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#81
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Report

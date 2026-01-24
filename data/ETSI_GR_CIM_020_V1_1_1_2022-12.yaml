@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM020V1.1.12022-12
+id: ETSIGRCIM020V111202212
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); NGSI-LD; Guidelines for the deployment
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); NGSI-LD; Guidelines for the deployment
     of Smart City and Communities data platforms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63596
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/020/01.01.01_60/gr_CIM020v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 020 V1.1.1 (2022-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63596
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/020/01.01.01_60/gr_CIM020v010101p.pdf
+docidentifier:
+- content: ETSI GR CIM 020 V1.1.1 (2022-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 020 V1.1.1 (2022-12)
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: guidelines for the deployment of Smart City and Communities data platforms
+- language: en
+  script: Latn
+  content: guidelines for the deployment of Smart City and Communities data platforms
     based on NGSI-LD context information management and its integration with other
     platform services (i.e. LOD publication, GIS interaction, IoT layer).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERACTION
-- content: INTEROPERABILITY
-- content: NGSI-LD
-- content: Platforms
-- content: smart city
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: NGSI-LD
+  - language: en
+    script: Latn
+    content: Platforms
+  - language: en
+    script: Latn
+    content: smart city
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

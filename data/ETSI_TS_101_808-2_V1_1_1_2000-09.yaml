@@ -1,72 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101808-2V1.1.12000-09
+id: ETSITS1018082V111200009
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Wireless Relay Station
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Wireless Relay Station
     (WRS); Test Case Library (TCL); Part 2: Abstract Test Suite (ATS) for Medium Access
     Control (MAC) layer - Cordless Radio Fixed Part Portable radio Termination (CRFP_PT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10113
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/10180802/01.01.01_60/ts_10180802v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 808-2 V1.1.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10113
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/10180802/01.01.01_60/ts_10180802v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 808-2 V1.1.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 808-2 V1.1.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "tests related to Wireless Relay Stations (WRS)  based on the new edition
+- language: en
+  script: Latn
+  content: "tests related to Wireless Relay Stations (WRS)  based on the new edition
     of ETS 300 700.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: ATS_GR FILE
-- content: ATS_MP FILE
-- content: DECT
-- content: MAC
-- content: TCL
-- content: TESTING
-- content: WRS
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: ATS_GR FILE
+  - language: en
+    script: Latn
+    content: ATS_MP FILE
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: MAC
+  - language: en
+    script: Latn
+    content: TCL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: WRS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Testing aspects
+    content: Technical Specification

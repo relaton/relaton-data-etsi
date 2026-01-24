@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102317V1.1.12004-06
+id: ETSITR102317V111200406
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Process and tool for maintenance
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Process and tool for maintenance
     of ETSI deliverables
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20307
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102317/01.01.01_60/tr_102317v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 317 V1.1.1 (2004-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20307
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102317/01.01.01_60/tr_102317v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 317 V1.1.1 (2004-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 317 V1.1.1 (2004-06)
 date:
 - type: published
-  value: 2004-06
+  at: 2004-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Documents software tools and processes used in the creation of ESI maintenance
+- language: en
+  script: Latn
+  content: Documents software tools and processes used in the creation of ESI maintenance
     report TR 102 046.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

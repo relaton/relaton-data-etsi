@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300218ed.11993-01
+id: ETSIETS300218ed1199301
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Syntax-based videotex lower
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Syntax-based videotex lower
     layer protocols for ISDN packet mode (CCITT Recommendation X.31 Case A and Case
     B)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=519
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300218/01_60/ets_300218e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 218 ed.1 (1993-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=519
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300218/01_60/ets_300218e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 218 ed.1 (1993-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 218 ed.1 (1993-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specify how to use the end to end protocol of ETS 300 223 in the case\r\nof
+- language: en
+  script: Latn
+  content: "Specify how to use the end to end protocol of ETS 300 223 in the case\r\nof
     ISDN packet mode\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: LOWER LAYER
-- content: PACKET MODE
-- content: VIDEOTEX
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LOWER LAYER
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: VIDEOTEX
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+    content: European Telecommunication Standard

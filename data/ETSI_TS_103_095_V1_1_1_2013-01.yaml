@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103095V1.1.12013-01
+id: ETSITS103095V111201301
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Radio Reconfiguration related Architecture
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Radio Reconfiguration related Architecture
     for Mobile Devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39311
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103095/01.01.01_60/ts_103095v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 095 V1.1.1 (2013-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39311
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103000_103099/103095/01.01.01_60/ts_103095v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 095 V1.1.1 (2013-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 095 V1.1.1 (2013-01)
 date:
 - type: published
-  value: 2013-01
+  at: 2013-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RREA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Technical Specification will define the architecture for reconfiguring
+- language: en
+  script: Latn
+  content: This Technical Specification will define the architecture for reconfiguring
     the radios in mobile devices. The work will be based on the Use Cases defined
     in ETSI TR 103 062 ("Use Cases and Scenarios for SDR Reference Architecture for
     Mobile Device"), ETSI TR 102 839 ("Multiradio Interface for Software Defined Radio
@@ -54,19 +63,21 @@ abstract:
     for Baseband Interfaces for Unified Radio Applications of Mobile Device") and
     the requirements defined in ETSI TS 102 969 ("Radio Reconfiguration related Requirements
     for Mobile Devices").
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: MOBILE
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: RREA - Reconfigurable Radio Equipment Architecture
+    content: Technical Specification

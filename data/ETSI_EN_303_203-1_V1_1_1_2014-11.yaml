@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303203-1V1.1.12014-11
+id: ETSIEN3032031V111201411
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Medical Body Area Network Systems (MBANSs) operating in the
     2 483,5 MHz to 2 500 MHz range; Part 1: Technical characteristics and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42922
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303200_303299/30320301/01.01.01_60/en_30320301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 203-1 V1.1.1 (2014-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42922
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303200_303299/30320301/01.01.01_60/en_30320301v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 203-1 V1.1.1 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 203-1 V1.1.1 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Wireless Medical Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present standard specifies technical characteristics and test methods
+- language: en
+  script: Latn
+  content: "The present standard specifies technical characteristics and test methods
     for  Medical Body Area Network Systems operating in the 2483,5 MHz to 2500 MHz
     range.\r\nThe standard will address the request by CEPT WGFM in document ERM(13)49b017,
     that to improve compatibility between MBANS and LP-AMI adequate spectrum sharing
     mechanisms will be investigated."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HEALTH
-- content: NETWORK
-- content: RADIO
-- content: SRD
-- content: SYSTEM
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Wireless Medical Devices
+    content: European Standard

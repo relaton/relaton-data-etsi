@@ -1,48 +1,58 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300586ed.21995-07
+id: ETSIETS300586ed2199507
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Use of the
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Use of the
     V series Data Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE)
     interface at the Mobile Station (MS) for Mobile Termination (MT) configuration
     (GSM 07.06)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3462
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300586/02_60/ets_300586e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 586 ed.2 (1995-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3462
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300586/02_60/ets_300586e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 586 ed.2 (1995-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 586 ed.2 (1995-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This technical specification describes an optional protocol for use at\r\nthe
+- language: en
+  script: Latn
+  content: "This technical specification describes an optional protocol for use at\r\nthe
     \ R  reference point (the DTE/DCE interface) allowing a terminal\r\nequipment
     (TE2) to configure the mobile terminal (MT) using the  V\r\nseries interface only.\r\nThe
     protocol across the `DTE/DCE interface may use character mode or\r\nblock mode
@@ -50,27 +60,45 @@ abstract:
     this technical specification is implemented then the character mode\r\nprotocol
     must be implemented whereas the block mode protocol is\r\noptional within this
     specification.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIGURATION
-- content: DCE
-- content: DTE
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERFACE
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIGURATION
+  - language: en
+    script: Latn
+    content: DCE
+  - language: en
+    script: Latn
+    content: DTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

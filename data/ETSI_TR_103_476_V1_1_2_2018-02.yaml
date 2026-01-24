@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103476V1.1.22018-02
+id: ETSITR103476V112201802
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Circular Economy (CE) in Information and
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Circular Economy (CE) in Information and
     Communication Technology (ICT); Definition of approaches, concepts and metrics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52941
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103476/01.01.02_60/tr_103476v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 476 V1.1.2 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52941
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103476/01.01.02_60/tr_103476v010102p.pdf
+docidentifier:
+- content: ETSI TR 103 476 V1.1.2 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 476 V1.1.2 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gZm9jdXNlcyBvbiBJQ1QgbmV0d29yayBpbmZyYXN0cnVjdHVyZSBnb29kcy4gVGhpcyBXb3JrIEl0ZW0gaXMgcGFydCBvZiB0aGUgcHJvZ3JhbW1lIG9mIHdvcmsgb2YgRVUgbWFuZGF0ZSBNLzU0MyDigJxNYXRlcmlhbCBlZmZpY2llbmN54oCdLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This work item focuses on ICT network infrastructure goods. This Work Item
+    is part of the programme of work of EU mandate M/543 Material efficiency.
+status:
+  stage: Published
 keyword:
-- content: e-waste management
+- taxon:
+  - language: en
+    script: Latn
+    content: e-waste management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: Technical Report

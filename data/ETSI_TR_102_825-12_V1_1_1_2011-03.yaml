@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102825-12V1.1.12011-03
+id: ETSITR10282512V111201103
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Content Protection and Copy Management
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Content Protection and Copy Management
     (DVB-CPCM); Part 12: CPCM Implementation Guidelines'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28173
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/10282512/01.01.01_60/tr_10282512v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 825-12 V1.1.1 (2011-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28173
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/10282512/01.01.01_60/tr_10282512v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 825-12 V1.1.1 (2011-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 825-12 V1.1.1 (2011-03)
 date:
 - type: published
-  value: 2011-03
+  at: 2011-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "CPCM is a system for Content Protection & Copy Management of commercial
+- language: en
+  script: Latn
+  content: "CPCM is a system for Content Protection & Copy Management of commercial
     digital content delivered to consumer products and home networks. CPCM manages
     content usage from acquisition into the CPCM system until final consumption, or
     export from the CPCM system, in accordance with the particular usage rules of
@@ -61,18 +70,18 @@ abstract:
     System Adaptation Layers - normative\r\nPart [10] CPCM Acquisition, Consumption
     and Export Mappings - normative\r\nPart [11] CPCM Content management scenarios
     - informative\r\nPart [13] CPCM Compliance Framework - informative"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: DVB
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DVB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

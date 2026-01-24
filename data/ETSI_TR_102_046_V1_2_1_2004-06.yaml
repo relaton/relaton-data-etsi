@@ -1,64 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102046V1.2.12004-06
+id: ETSITR102046V121200406
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Maintenance report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19348
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102046/01.02.01_60/tr_102046v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 046 V1.2.1 (2004-06)
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Maintenance report
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19348
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102046/01.02.01_60/tr_102046v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 046 V1.2.1 (2004-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 046 V1.2.1 (2004-06)
 date:
 - type: published
-  value: 2004-06
+  at: 2004-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Maintenance of ETSI standards from EESSI phase 2 and 3.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Maintenance of ETSI standards from EESSI phase 2 and 3.
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

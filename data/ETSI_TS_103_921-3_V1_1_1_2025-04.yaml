@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103921-3V1.1.12025-04
+id: ETSITS1039213V111202504
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); 5G NAS Conformance Testing
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); 5G NAS Conformance Testing
     for the N1 interface; (3GPPTM Release 16); Part 3: Abstract Test Suite (ATS) and
     partial Protocol Implementation eXtra Information for Testing (PIXIT) pro forma
     specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66832
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10392103/01.01.01_60/ts_10392103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 921-3 V1.1.1 (2025-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66832
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10392103/01.01.01_60/ts_10392103v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 921-3 V1.1.1 (2025-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 921-3 V1.1.1 (2025-04)
 date:
 - type: published
-  value: 2025-04
+  at: 2025-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Conformance Test Specifications for the NGAP and 5G NAS protocols over
+- language: en
+  script: Latn
+  content: Conformance Test Specifications for the NGAP and 5G NAS protocols over
     the N2 and N1 reference points.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: CONFORMANCE
-- content: PIXIT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: PIXIT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

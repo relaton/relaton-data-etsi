@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS137571-3V15.6.02020-04
+id: ETSITS1375713V1560202004
+schema_version: v1.4.1
 title:
-- content: 'Universal Mobile Telecommunications System (UMTS); LTE; Universal Terrestrial
+- language: en
+  script: Latn
+  content: 'Universal Mobile Telecommunications System (UMTS); LTE; Universal Terrestrial
     Radio Access (UTRA) and Evolved UTRA (E-UTRA) and Evolved Packet Core (EPC); User
     Equipment (UE) conformance specification for UE positioning; Part 3: Implementation
     Conformance Statement (ICS) (3GPP TS 37.571-3 version 15.6.0 Release 15)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59324
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/137500_137599/13757103/15.06.00_60/ts_13757103v150600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 137 571-3 V15.6.0 (2020-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59324
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/137500_137599/13757103/15.06.00_60/ts_13757103v150600p.pdf
+docidentifier:
+- content: ETSI TS 137 571-3 V15.6.0 (2020-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 137 571-3 V15.6.0 (2020-04)
 date:
 - type: published
-  value: 2020-04
+  at: 2020-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Terminal Conformance Testing (formely T1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.6.0
-revdate: 2020-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#87-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#87-e
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Mobile Terminal Conformance Testing (formely T1)
+    content: Technical Specification

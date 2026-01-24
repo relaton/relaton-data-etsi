@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102316V1.1.12004-03
+id: ETSITR102316V111200403
+schema_version: v1.4.1
 title:
-- content: Electromagnetic Compatibility and Radio Spectrum Matters (ERM); Ultra Low
+- language: en
+  script: Latn
+  content: Electromagnetic Compatibility and Radio Spectrum Matters (ERM); Ultra Low
     Power Animal Implantable Devices (ULP-AID) operating in the frequency band 315
     kHz to 600 kHz; System Reference Document
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19778
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102316/01.01.01_60/tr_102316v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 316 V1.1.1 (2004-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19778
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/102316/01.01.01_60/tr_102316v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 316 V1.1.1 (2004-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 316 V1.1.1 (2004-03)
 date:
 - type: published
-  value: 2004-03
+  at: 2004-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: System Reference Document for 315 kHz - 600 kHz ULP-AMI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: System Reference Document for 315 kHz - 600 kHz ULP-AMI
+status:
+  stage: Published
 keyword:
-- content: inductive
-- content: MF
-- content: RADIO
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: inductive
+  - language: en
+    script: Latn
+    content: MF
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

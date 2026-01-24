@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102422V1.1.12005-04
+id: ETSITR102422V111200504
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS) IMS Network Integration Testing
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS) IMS Network Integration Testing
     Infrastructure Testing Methodology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22222
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102422/01.01.01_60/tr_102422v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 422 V1.1.1 (2005-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22222
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102422/01.01.01_60/tr_102422v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 422 V1.1.1 (2005-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 422 V1.1.1 (2005-04)
 date:
 - type: published
-  value: 2005-04
+  at: 2005-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGVmaW5lIHRoZSBJTVMgTmV0d29yayBJbnRlZ3JhdGlvbiBUZXN0aW5nIEluZnJhc3RydWN0dXJlLg0KRm9yIHRoZSBkZWZpbml0aW9uIG9mICBhIGNvbXBsZXRlIElNUyBOZXR3b3JrIEludGVncmF0aW9uIFRlc3RpbmcgSW5mcmFzdHJ1Y3R1cmUgd2lsbCBiZSBuZWNlc3NhcnkgdG8gZGVmaW5lIE5ldHdvcmsgQ29uZmlndXJhdGlvbnMgd2hlcmUgdGhlIG5vZGVzIGludm9sdmVkIGludGVyd29yayB0aHJvdWdoICB0aGUgdmFyaW91cyBpbnRlcmZhY2VzIChlLmcuICBJdVBTLCBNdywgTWcsIE1yLCBNaSwgTWosIE1rLCBhbmQgQ3gpLiANClBDTyBhbmQgUE8gd2lsbCBiZSBkZWZpbmVkIGZvciBjb25maWd1cmF0aW9ucyBkZWFsaW5nIHdpdGg6DQotIFNpbmdsZSBPcGVyYXRvcuKAmXMgTmV0d29yayBBcmNoaXRlY3R1cmUNCi0gTXVsdGlwbGUgT3BlcmF0b3Jz4oCZIE5ldHdvcmsgQXJjaGl0ZWN0dXJlDQotIFJvYW1pbmcgQ29uZmlndXJhdGlvbnM=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Define the IMS Network Integration Testing Infrastructure.\r\nFor the
+    definition of  a complete IMS Network Integration Testing Infrastructure will
+    be necessary to define Network Configurations where the nodes involved interwork
+    through  the various interfaces (e.g.  IuPS, Mw, Mg, Mr, Mi, Mj, Mk, and Cx).
+    \r\nPCO and PO will be defined for configurations dealing with:\r\n- Single Operators
+    Network Architecture\r\n- Multiple Operators Network Architecture\r\n- Roaming
+    Configurations"
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: NETWORK
-- content: NIT
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NIT
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNFV-TST002V1.1.12016-10
+id: ETSIGSNFVTST002V111201610
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Testing Methodology; Report on
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing Methodology; Report on
     NFV Interoperability Testing Methodology
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46043
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/002/01.01.01_60/gs_NFV-TST002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NFV-TST 002 V1.1.1 (2016-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46043
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/002/01.01.01_60/gs_NFV-TST002v010101p.pdf
+docidentifier:
+- content: ETSI GS NFV-TST 002 V1.1.1 (2016-10)
   type: ETSI
   primary: true
 docnumber: ETSI GS NFV-TST 002 V1.1.1 (2016-10)
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item covers the analysis of the NFV interoperability methodology
+- language: en
+  script: Latn
+  content: "This work item covers the analysis of the NFV interoperability methodology
     landscape and suggests a framework to be addressed. \r\n\r\nSpecifically, the
     work item will:\r\n-\tAnalyze pre-existent work on NFV interoperability testing
     methodology from NFV ISG work, PoCs, other SDOs, open source projects, general
@@ -59,20 +68,24 @@ abstract:
     methodology developed already externally by other industry forums and standards
     bodies such as, for example, IETF\r\n-\tInterface work items by other NFV ISG
     working groups"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: METHODOLOGY
-- content: NFV
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Specification

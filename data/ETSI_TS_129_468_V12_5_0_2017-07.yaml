@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129468V12.5.02017-07
+id: ETSITS129468V1250201707
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; Group Communication
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; Group Communication
     System Enablers for LTE (GCSE_LTE); MB2 reference point; Stage 3 (3GPP TS 29.468
     version 12.5.0 Release 12)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53211
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129400_129499/129468/12.05.00_60/ts_129468v120500p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 468 V12.5.0 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53211
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129400_129499/129468/12.05.00_60/ts_129468v120500p.pdf
+docidentifier:
+- content: ETSI TS 129 468 V12.5.0 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 468 V12.5.0 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interworking with external networks (formely CN3)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 12.5.0
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CT#76
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CT#76
+status:
+  stage: Published
 keyword:
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Interworking with external networks (formely CN3)
+    content: Technical Specification

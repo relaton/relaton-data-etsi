@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103481V14.0.02022-12
+id: ETSITS103481V1400202212
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Test specification for the Remote APDU structure for UICC
+- language: en
+  script: Latn
+  content: Smart Cards; Test specification for the Remote APDU structure for UICC
     based applications; UICC features (Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103481/14.00.00_60/ts_103481v140000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 481 V14.0.0 (2022-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103481/14.00.00_60/ts_103481v140000p.pdf
+docidentifier:
+- content: ETSI TS 103 481 V14.0.0 (2022-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 481 V14.0.0 (2022-12)
 date:
 - type: published
-  value: 2022-12
+  at: 2022-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET TEST
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.0.0
-revdate: 2022-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Implemantation of CRs after SET#107
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Implemantation of CRs after SET#107
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: REMOTE
-- content: SMART CARD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: REMOTE
+  - language: en
+    script: Latn
+    content: SMART CARD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET TEST
+    content: Technical Specification

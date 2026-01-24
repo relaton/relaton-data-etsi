@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103493V1.1.12019-02
+id: ETSITR103493V111201902
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Wireless Power Transmission (WPT) systems
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Wireless Power Transmission (WPT) systems
     operating below 30 MHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50901
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103493/01.01.01_60/tr_103493v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 493 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50901
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103493/01.01.01_60/tr_103493v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 493 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 493 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop an SRdoc describing the typical WPT use cases incl. the related
+- language: en
+  script: Latn
+  content: To develop an SRdoc describing the typical WPT use cases incl. the related
     technical requirements, like activity factor and power level. This SRdoc is not
     intended to cover wireless charging for electric vehicles (or electric hybrid
     vehicles) which is covered by TR 103 409.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRDOC
-- content: WPT
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: WPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

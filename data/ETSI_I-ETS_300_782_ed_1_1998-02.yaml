@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300782ed.11998-02
+id: ETSIIETS300782ed1199802
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Functional and system parameters for
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Functional and system parameters for
     single-mode optical fibre pigtailed fixed attenuators
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2479
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300782/01_60/iets_300782e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 782 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2479
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300782/01_60/iets_300782e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 782 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 782 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Core networks, fibres and cables
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Interim European Telcommunication Standard (I-ETS) applies to\r\noptical
+- language: en
+  script: Latn
+  content: "This Interim European Telcommunication Standard (I-ETS) applies to\r\noptical
     fibre pigtailed fixed attenuators to be used in single-mode\r\noptical fibre transmission
     networks and which are designed to be\r\nspliced into the optical path.This includes
     splices which are\r\nfabricated to produce an attenuation and which are fitted
@@ -53,20 +63,24 @@ abstract:
     calibration errors.\r\n The optical attenuator is: \"A passive optical component
     which produces\r\na controlled signal attenuation when inserted in an optical
     path.\"\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FIBRE
-- content: OPTICAL
-- content: PON
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: FIBRE
+  - language: en
+    script: Latn
+    content: OPTICAL
+  - language: en
+    script: Latn
+    content: PON
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: TM Core networks, fibres and cables
+    content: Interim European Telecommunication Standard

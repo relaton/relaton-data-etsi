@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM014V1.1.12024-03
+id: ETSIGSZSM014V111202403
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); ZSM security aspects
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63040
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/014/01.01.01_60/gs_ZSM014v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 014 V1.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); ZSM security aspects
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63040
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/014/01.01.01_60/gs_ZSM014v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 014 V1.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 014 V1.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work item will specify new capabilities (so called security capabilities)
+- language: en
+  script: Latn
+  content: The work item will specify new capabilities (so called security capabilities)
     of the ZSM framework architecture to support automatic/zero-touch security controls
     for ZSM framework to align with zero-touch objective, applicable end-to-end and
     per management domain.  The set of security capabilities will be specified as
@@ -59,21 +68,27 @@ abstract:
     services/functions.  Related work from standard development organizations, open
     source projects and other sources will be considered and re-used, where applicable,
     in the development of the specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: closed control loop
-- content: NETWORK
-- content: SECURITY
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: closed control loop
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR118517V2.0.02016-09
+id: ETSITR118517V200201609
+schema_version: v1.4.1
 title:
-- content: oneM2M; Home Domain Abstract Information Model (oneM2M TR-0017 version
+- language: en
+  script: Latn
+  content: oneM2M; Home Domain Abstract Information Model (oneM2M TR-0017 version
     2.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49514
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118517/02.00.00_60/tr_118517v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 118 517 V2.0.0 (2016-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49514
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/118500_118599/118517/02.00.00_60/tr_118517v020000p.pdf
+docidentifier:
+- content: ETSI TR 118 517 V2.0.0 (2016-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 118 517 V2.0.0 (2016-09)
 date:
 - type: published
-  value: 2016-09
+  at: 2016-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2016-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item is intended to examine how the release 1 oneM2M System
+- language: en
+  script: Latn
+  content: "This Work Item is intended to examine how the release 1 oneM2M System
     can be used in the home vertical domain and discover and/or study advanced features
     which the next oneM2M release(s) could support. To this end, starting from collecting
     new home domain use cases with potential requirements, including those provided
@@ -66,18 +75,18 @@ abstract:
     Model is defined. The Home Domain Abstract Information Model Technical Report
     also intends to define how the developed Abstract Information Model for a device
     could be represented in the CSEs of the oneM2M System."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Report

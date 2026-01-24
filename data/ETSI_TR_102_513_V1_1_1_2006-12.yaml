@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102513V1.1.12006-12
+id: ETSITR102513V111200612
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Feasibility Study into the Implications
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Feasibility Study into the Implications
     of Operating Public Safety Sector (PSS) TEDS using the proposed "Tuning Range"
     concept in the 410 MHz to 430 MHz and 450 MHz to 470 MHz frequency bands
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24586
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102513/01.01.01_60/tr_102513v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 513 V1.1.1 (2006-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24586
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102513/01.01.01_60/tr_102513v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 513 V1.1.1 (2006-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 513 V1.1.1 (2006-12)
 date:
 - type: published
-  value: 2006-12
+  at: 2006-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TETRA and Critical Communications Evolution
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Feasibility study into the impact of PSS TEDS operating in 380,0 MHz -
+- language: en
+  script: Latn
+  content: Feasibility study into the impact of PSS TEDS operating in 380,0 MHz -
     399,9 MHz and 410,0 MHz - 430,0 MHz bands.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TETRA and Critical Communications Evolution
+    content: Technical Report

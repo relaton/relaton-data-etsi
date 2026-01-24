@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119412-3V1.0.12015-07
+id: ETSITS1194123V101201507
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Certificate Profiles;
     Part 3: Certificate profile for certificates issued to legal persons'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47096
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941203/01.00.01_60/ts_11941203v010001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 412-3 V1.0.1 (2015-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47096
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11941203/01.00.01_60/ts_11941203v010001p.pdf
+docidentifier:
+- content: ETSI TS 119 412-3 V1.0.1 (2015-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 412-3 V1.0.1 (2015-07)
 date:
 - type: published
-  value: 2015-07
+  at: 2015-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.0.1
-revdate: 2015-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies a certificate profile for certificates
+- language: en
+  script: Latn
+  content: "The present document specifies a certificate profile for certificates
     issued to legal persons. The profile defined in the present document builds on
     requirements defined in part 2 of 119 412.\r\nThe present document supports the
     requirements of EU qualified certificates as specified in the Regulation (EU)
     No 910/2014 as well as other forms of certificate."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: PROFILE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

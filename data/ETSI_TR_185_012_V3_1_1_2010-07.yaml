@@ -1,66 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR185012V3.1.12010-07
+id: ETSITR185012V311201007
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Feasibility study of security mechanisms for customer premises
     networks connected to TISPAN NGN
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28414
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/185000_185099/185012/03.01.01_60/tr_185012v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 185 012 V3.1.1 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28414
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/185000_185099/185012/03.01.01_60/tr_185012v030101p.pdf
+docidentifier:
+- content: ETSI TR 185 012 V3.1.1 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 185 012 V3.1.1 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN NGN Home Networking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG9iamVjdGl2ZSBvZiB0aGlzIFdJIGlzIHRvIHNwZWNpZnkgdGhlIG1haW4gc2VjdXJpdHkgbWVjaGFuaXNtcyB0byBiZSBpbXBsZW1lbnRlZCBpbiB0aGUgY3VzdG9tZXIgcHJlbWlzZXMgbmV0d29yayAoZWl0aGVyIGluIHRoZSBDdXN0b21lciBOZXR3b3JrIEdhdGV3YXkgb3IgaW4gdGhlIEN1c3RvbWVyIE5ldHdvcmsgRGV2aWNlcykgdG8gc3VwcG9ydCB0aGUgb3ZlcmFsbCBlbmQgdG8gZW5kIHNlY3VyaXR5IGFyY2hpdGVjdHVyZSBmb3IgdGhlIE5HTiByZWxlYXNlIDMuIFRoaXMgV0kgd2lsbCBhZG9wdCBhcyBhIHN0YXJ0aW5nIHBvaW50IHRoZSBjb250ZW50cyBvZiB0aGUgVFIxODUgMDA4IOKAnCBBbmFseXNpcyBvZiBzZWN1cml0eSBtZWNoYW5pc21zIGZvciBjdXN0b21lciBuZXR3b3JrcyBjb25uZWN0ZWQgdG8gVElTUEFOIE5HTiBSMiAgYW5kIHdpbGwgZGVmaW5lIHRoZSBzZWN1cml0eSBtZWNoYW5pc21zIHRha2luZyBpbnRvIGFjY2NvdW50IHRoZSBpbXBsZW1lbnRhdGlvbiByZWNvbW1lbmRhdGlvbnMgY29udGFpbmVkIGluIHRoYXQgVFIuIFRoZSBhY3Rpdml0eSB3aWxsIGJlIHBlcmZvcm1lZCBpbiBjbG9zZSByZWxhdGlvbnNoaXAgd2l0aCBXRzcuPz8/Pz8=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The objective of this WI is to specify the main security mechanisms to
+    be implemented in the customer premises network (either in the Customer Network
+    Gateway or in the Customer Network Devices) to support the overall end to end
+    security architecture for the NGN release 3. This WI will adopt as a starting
+    point the contents of the TR185 008  Analysis of security mechanisms for customer
+    networks connected to TISPAN NGN R2  and will define the security mechanisms taking
+    into acccount the implementation recommendations contained in that TR. The activity
+    will be performed in close relationship with WG7.?????
+status:
+  stage: Published
 keyword:
-- content: GATEWAY
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GATEWAY
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN NGN Home Networking
+    content: Technical Report

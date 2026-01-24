@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE010V3.1.12017-12
+id: ETSIGRNFVEVE010V311201712
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Licensing Management;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Licensing Management;
     Report on License Management for NFV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50639
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/010/03.01.01_60/gr_NFV-EVE010v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 010 V3.1.1 (2017-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50639
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/010/03.01.01_60/gr_NFV-EVE010v030101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 010 V3.1.1 (2017-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 010 V3.1.1 (2017-12)
 date:
 - type: published
-  value: 2017-12
+  at: 2017-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2017-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item studies the features needed within the NFV-MANO framework
+- language: en
+  script: Latn
+  content: This Work Item studies the features needed within the NFV-MANO framework
     to support license management for NFV. In this version, focus is made on the software
     licenses for VNFs. A set of use cases related to VNF licenses in the NFV environment
     are described, analyzed and used to understand the issues and produce recommendations
     regarding support for license management within the NFV architectural and NFV-MANO
     frameworks.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: License schemes
-- content: MANAGEMENT
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: License schemes
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

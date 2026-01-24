@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRPDL029V1.1.12025-02
+id: ETSIGRPDL029V111202502
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Distributed Autonomous Organization
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Distributed Autonomous Organization
     (DAO)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70022
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/029/01.01.01_60/gr_PDL029v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR PDL 029 V1.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70022
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/PDL/001_099/029/01.01.01_60/gr_PDL029v010101p.pdf
+docidentifier:
+- content: ETSI GR PDL 029 V1.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR PDL 029 V1.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Define a DAO. Define minimum requirements to operate a DAO. Propose a solution
+- language: en
+  script: Latn
+  content: Define a DAO. Define minimum requirements to operate a DAO. Propose a solution
     for operating a DAO in a hybrid environment with multiple chain types and code
     bases. Study governance in a multi-chain environment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data interoperability
-- content: data models
-- content: PDL
+- taxon:
+  - language: en
+    script: Latn
+    content: data interoperability
+  - language: en
+    script: Latn
+    content: data models
+  - language: en
+    script: Latn
+    content: PDL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Report

@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118124V3.2.22021-02
+id: ETSITS118124V322202102
+schema_version: v1.4.1
 title:
-- content: oneM2M; OCF Interworking (oneM2M TS-0024 version 3.2.2 Release 3)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56826
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118124/03.02.02_60/ts_118124v030202p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 124 V3.2.2 (2021-02)
+- language: en
+  script: Latn
+  content: oneM2M; OCF Interworking (oneM2M TS-0024 version 3.2.2 Release 3)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56826
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118124/03.02.02_60/ts_118124v030202p.pdf
+docidentifier:
+- content: ETSI TS 118 124 V3.2.2 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 124 V3.2.2 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.2
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Work Item is intended to study  the continuation and integration
+- language: en
+  script: Latn
+  content: "This Work Item is intended to study  the continuation and integration
     of some HGI Smart Home activities to oneM2M, following the (PT2) HGI announcement
     of its closure by June 2016.\r\nThis interworking scenario allows for interworking
     between OCF devices and oneM2M entities purely based on the common understanding
@@ -54,19 +63,21 @@ abstract:
     by OCF devices (OCF servers) can be exposed to oneM2M entities or vice versa.
     The oneM2M entities do not need to be aware of any details of the OCF protocols
     or interfaces.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300969ed.21998-05
+id: ETSIETS300969ed2199805
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Half rate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Half rate
     speech; Half rate speech transcoding (GSM 06.20 version 5.1.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6241
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300969/02_60/ets_300969e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 969 ed.2 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6241
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300969/02_60/ets_300969e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 969 ed.2 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 969 ed.2 (1998-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunications Standard (ETS) specifies the speech c\r\nodec
+- language: en
+  script: Latn
+  content: "This European Telecommunications Standard (ETS) specifies the speech c\r\nodec
     to be used for the GSM half rate channel. It also specifies the t\r\nest methods
     to be used to verify that the codec implementation complie\r\ns with this ETS.\r\nThe
     requirements are mandatory for the codec to be used either in GSM\r\nMobile Stations
     (MS)s or Base Station Systems (BSS)s that utilize the\r\nhalf rate GSM speech
     traffic channel.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: CODING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Telecommunication Standard

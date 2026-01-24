@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102749V1.2.12011-06
+id: ETSITR102749V121201106
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short Range
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Short Range
     Devices (SRD); Test Report Template for testing to EN 300 220-2 V2.3.1 (R&TTE)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35261
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102749/01.02.01_60/tr_102749v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 749 V1.2.1 (2011-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35261
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102749/01.02.01_60/tr_102749v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 749 V1.2.1 (2011-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 749 V1.2.1 (2011-06)
 date:
 - type: published
-  value: 2011-06
+  at: 2011-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2011-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To take into account comments from ERM(10)0342
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To take into account comments from ERM(10)0342
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SHORT RANGE
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: Technical Report

@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300008ed.11991-12
+id: ETSIETS300008ed1199112
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Signalling System No.7; Message
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Signalling System No.7; Message
     Transfer Part (MTP) to support international interconnection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=127
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300008/01_60/ets_300008e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 008 ed.1 (1991-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=127
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300008/01_60/ets_300008e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 008 ed.1 (1991-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 008 ed.1 (1991-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: INTERWORKING
-- content: ISDN
-- content: MTP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MTP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: European Telecommunication Standard

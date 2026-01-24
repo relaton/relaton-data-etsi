@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102121V1.2.12005-11
+id: ETSITR102121V121200511
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Guidance for power distribution to telecommunication
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Guidance for power distribution to telecommunication
     and datacom equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22499
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102121/01.02.01_60/tr_102121v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 121 V1.2.1 (2005-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22499
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102121/01.02.01_60/tr_102121v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 121 V1.2.1 (2005-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 121 V1.2.1 (2005-11)
 date:
 - type: published
-  value: 2005-11
+  at: 2005-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2005-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document gives guidance on installation, connection and operation
+- language: en
+  script: Latn
+  content: "This document gives guidance on installation, connection and operation
     of power supply systems for telecommunications / datacom installations and equipments.
     Also considered are items of equipment with their own power supply, which are
     connected to form installation.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: POWER SUPPLY
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EE Power Supply
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103815V1.1.12024-01
+id: ETSITS103815V111202401
+schema_version: v1.4.1
 title:
-- content: CYBER; Cyber Security for Consumer Internet of Things; Requirements for
+- language: en
+  script: Latn
+  content: CYBER; Cyber Security for Consumer Internet of Things; Requirements for
     Residential Smart Door Locking Devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59530
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103815/01.01.01_60/ts_103815v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 815 V1.1.1 (2024-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59530
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/103815/01.01.01_60/ts_103815v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 815 V1.1.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 815 V1.1.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document specifies requirements and  guidelines for cyber security,
+- language: en
+  script: Latn
+  content: This document specifies requirements and  guidelines for cyber security,
     credential related security, electromechanical security and mechanical security
     (e.g. refering to existing CEN standards) of consumer residential connected smart
     door locking devices. This document builds on EN 303 645 for cyber security requirements,
@@ -55,20 +64,24 @@ abstract:
     and mechanical security. The document includes both product security performance
     requirements and test methodology. The intent is to provide an appropriate level
     of assurance.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: IoT
-- content: SECURITY
-- content: Smart Appliance
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Smart Appliance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

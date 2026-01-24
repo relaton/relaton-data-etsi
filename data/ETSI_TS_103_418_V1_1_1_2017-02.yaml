@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103418V1.1.12017-02
+id: ETSITS103418V111201702
+schema_version: v1.4.1
 title:
-- content: Railway Telecommunications (RT); SMS to Railway numbering plan in roaming
+- language: en
+  script: Latn
+  content: Railway Telecommunications (RT); SMS to Railway numbering plan in roaming
     environment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49434
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103418/01.01.01_60/ts_103418v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 418 V1.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49434
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103418/01.01.01_60/ts_103418v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 418 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 418 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RGVzY3JpcHRpb24gb2YgU01TIEZBIGluIHJvYW1pbmcgZW52aXJvbm1lbnQNCuKAoglDYWxsIEZsb3dzLCANCuKAoglGaWVsZCB1c2FnZSAoRlRTLCBTTVNDLE1TKQ0K4oCiCUZvcm1hdCBkZWZpbml0aW9uIA0K4oCiCVZSUyANCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Description of SMS FA in roaming environment\r\n\tCall Flows, \r\n\tField
+    usage (FTS, SMSC,MS)\r\n\tFormat definition \r\n\tVRS \r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM-R
-- content: railways
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM-R
+  - language: en
+    script: Latn
+    content: railways
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Specification

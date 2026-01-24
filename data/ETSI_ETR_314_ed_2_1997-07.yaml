@@ -1,59 +1,67 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR314ed.21997-07
+id: ETSIETR314ed2199707
+schema_version: v1.4.1
 title:
-- content: Intellectual Property Rights (IPRs); Essential, or potentially Essential,
+- language: en
+  script: Latn
+  content: Intellectual Property Rights (IPRs); Essential, or potentially Essential,
     IPRs notified to ETSI in respect of ETSI standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5556
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/314/02_60/etr_314e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 314 ed.2 (1997-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5556
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/314/02_60/etr_314e02p.pdf
+docidentifier:
+- content: ETSI ETR 314 ed.2 (1997-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 314 ed.2 (1997-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intellectual Property Rights Committee
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR identifies, patents and patent applications in respect of the\r\nIPRs
+- language: en
+  script: Latn
+  content: "This ETR identifies, patents and patent applications in respect of the\r\nIPRs
     which have been notified to ETSI as being Essential, or\r\npotentially Essential,
     to ETSI Standards.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IPR
+- taxon:
+  - language: en
+    script: Latn
+    content: IPR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Intellectual Property Rights Committee
+    content: ETSI Technical Report

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSORI002-1V1.3.12013-05
+id: ETSIGSORI0021V131201305
+schema_version: v1.4.1
 title:
-- content: 'Open Radio equipment Interface (ORI); ORI Interface Specification; Part
+- language: en
+  script: Latn
+  content: 'Open Radio equipment Interface (ORI); ORI Interface Specification; Part
     1: Low Layers (Release 1)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41988
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ORI/001_099/00201/01.03.01_60/gs_ORI00201v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ORI 002-1 V1.3.1 (2013-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41988
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ORI/001_099/00201/01.03.01_60/gs_ORI00201v010301p.pdf
+docidentifier:
+- content: ETSI GS ORI 002-1 V1.3.1 (2013-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS ORI 002-1 V1.3.1 (2013-05)
 date:
 - type: published
-  value: 2013-05
+  at: 2013-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Open Radio equipment Interface
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2013-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The scope of this work item is to provide necessary Release 1 clarifications
+- language: en
+  script: Latn
+  content: The scope of this work item is to provide necessary Release 1 clarifications
     to cover some gaps found in the RE behaviour, and also to ensure that the text
     is forward compatible with Release 2 ORI specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: E-UTRA
-- content: INTERFACE
-- content: RADIO
-- content: UTRA
+- taxon:
+  - language: en
+    script: Latn
+    content: E-UTRA
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UTRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Open Radio equipment Interface
+    content: Group Specification

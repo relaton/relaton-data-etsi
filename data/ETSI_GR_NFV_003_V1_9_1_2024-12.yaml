@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV003V1.9.12024-12
+id: ETSIGRNFV003V191202412
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Terminology for Main Concepts in
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Terminology for Main Concepts in
     NFV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70069
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV/001_099/003/01.09.01_60/gr_NFV003v010901p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV 003 V1.9.1 (2024-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70069
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV/001_099/003/01.09.01_60/gr_NFV003v010901p.pdf
+docidentifier:
+- content: ETSI GR NFV 003 V1.9.1 (2024-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV 003 V1.9.1 (2024-12)
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Functions Virtualisation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.9.1
-revdate: 2024-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkb2N1bWVudCBpbnRlbmRzIHRvIHByb3ZpZGUgdGVybXMgYW5kIGRlZmluaXRpb25zIGZvciBjb25jZXB0dWFsIGVudGl0aWVzIHdpdGggdGhlIHNjb3BlIG9mIHRoZSBORlYgd29yaywgaW4gb3JkZXIgdG8gYWNoaWV2ZSBhIOKAnGNvbW1vbiBsYW5ndWFnZeKAnSBhY3Jvc3MgYWxsIHRoZSBORlYgd29ya2luZyBncm91cHMgYW5kIGZvciB3aWRlciBpbmR1c3RyeSBkaXNjdXNzaW9ucyBvbiB0aGlzIHRvcGljLiBJdCBzaG91bGQgYmUgbm90ZWQsIHRoYXQgdGVybWlub2xvZ3ksIGFyY2hpdGVjdHVyZSBhbmQgcmVxdWlyZW1lbnRzIHZlcnkgbXVjaCBkZXBlbmQgb24gZWFjaCBvdGhlciwgYW5kIHRoYXQgdGhpcyBkb2N1bWVudCBtYXkgbmVlZCB0byBiZSByZXZpc2VkIHRvIGFsaWduIHdpdGggdGhlIGNvbnRlbnQgb2YgdmFyaW91cyBncm91cCBzcGVjaWZpY2F0aW9ucyBhbmQgaXRlcmF0aW9ucyBvZiB0aGUgZG9jdW1lbnRzIHByb2R1Y2VkIGJ5IHRoZSBJU0cu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This document intends to provide terms and definitions for conceptual entities
+    with the scope of the NFV work, in order to achieve a common language across all
+    the NFV working groups and for wider industry discussions on this topic. It should
+    be noted, that terminology, architecture and requirements very much depend on
+    each other, and that this document may need to be revised to align with the content
+    of various group specifications and iterations of the documents produced by the
+    ISG.
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: terminology
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: terminology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Network Functions Virtualisation
+    content: Group Report

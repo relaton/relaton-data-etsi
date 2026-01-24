@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS136355V15.6.02020-01
+id: ETSITS136355V1560202001
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); LTE Positioning
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); LTE Positioning
     Protocol (LPP) (3GPP TS 36.355 version 15.6.0 Release 15)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59140
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/136300_136399/136355/15.06.00_60/ts_136355v150600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 136 355 V15.6.0 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59140
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/136300_136399/136355/15.06.00_60/ts_136355v150600p.pdf
+docidentifier:
+- content: ETSI TS 136 355 V15.6.0 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 136 355 V15.6.0 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio layer 2 specification and Radio layer 3 RR specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 15.6.0
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#86
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#86
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio layer 2 specification and Radio layer 3 RR specification
+    content: Technical Specification

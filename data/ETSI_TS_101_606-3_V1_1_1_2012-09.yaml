@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101606-3V1.1.12012-09
+id: ETSITS1016063V111201209
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); Diameter Conformance testing for Gx interface;
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); Diameter Conformance testing for Gx interface;
     Part 3: Abstract Test Suite (ATS) and partial Protocol Implementation eXtra Information
     for Testing (PIXIT) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38350
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160603/01.01.01_60/ts_10160603v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 606-3 V1.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38350
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/10160603/01.01.01_60/ts_10160603v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 606-3 V1.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 606-3 V1.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Production of ATS&PIXIT:\r\nOne test case per test purpose will be developed
+- language: en
+  script: Latn
+  content: "Production of ATS&PIXIT:\r\nOne test case per test purpose will be developed
     in TTCN-3 as described in the ETSI ES 210 873 series.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: Diameter
-- content: PIXIT
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: PIXIT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

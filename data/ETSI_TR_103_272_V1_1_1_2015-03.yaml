@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103272V1.1.12015-03
+id: ETSITR103272V111201503
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Hybrid FSS satellite/terrestrial
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Hybrid FSS satellite/terrestrial
     network architecture for high speed broadband access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41309
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103272/01.01.01_60/tr_103272v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 272 V1.1.1 (2015-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41309
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103272/01.01.01_60/tr_103272v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 272 V1.1.1 (2015-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 272 V1.1.1 (2015-03)
 date:
 - type: published
-  value: 2015-03
+  at: 2015-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Propose and analyse an hybrid FSS satellite/terrestrial network architecture
+- language: en
+  script: Latn
+  content: Propose and analyse an hybrid FSS satellite/terrestrial network architecture
     for high speed broadband access. The document will also identify existing standards
     that have to be changed and additional standards that have to be created for enabling
     this kind of architectures.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: SATELLITE
-- content: TERRESTRIAL
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TERRESTRIAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

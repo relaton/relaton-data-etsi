@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183057V2.1.12008-07
+id: ETSITR183057V211200807
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Feasibility study on Out-of-band DTMF
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25815
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183057/02.01.01_60/tr_183057v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 057 V2.1.1 (2008-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25815
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183057/02.01.01_60/tr_183057v020101p.pdf
+docidentifier:
+- content: ETSI TR 183 057 V2.1.1 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 057 V2.1.1 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Develop a feasibility Study at evaluating the technical solutions for
+- language: en
+  script: Latn
+  content: "Develop a feasibility Study at evaluating the technical solutions for
     Out-of-band DTMF sending.  \r\nDerive the required changes to TISPAN IMS and IMS-based
     PES specifications. Cooperate with 3GPP as appropriate if changes to their specifications
     are required"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DTMF
-- content: OUTBAND
+- taxon:
+  - language: en
+    script: Latn
+    content: DTMF
+  - language: en
+    script: Latn
+    content: OUTBAND
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

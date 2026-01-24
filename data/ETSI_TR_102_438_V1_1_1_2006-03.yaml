@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102438V1.1.12006-03
+id: ETSITR102438V111200603
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Application of Electronic
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Application of Electronic
     Signature Standards in Europe
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23308
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102438/01.01.01_60/tr_102438v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 438 V1.1.1 (2006-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23308
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102438/01.01.01_60/tr_102438v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 438 V1.1.1 (2006-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 438 V1.1.1 (2006-03)
 date:
 - type: published
-  value: 2006-03
+  at: 2006-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A number of initiatives to provide support to the Directives that apply
+- language: en
+  script: Latn
+  content: "A number of initiatives to provide support to the Directives that apply
     electronic signatures and have their roots in Directive 1999/93/EC [1], among
     which Directive 2001/115/EC [2] addressing invoicing in respect of value added
     tax.\r\nThese initiatives concern: e-invoicing, e-procurement, e-authentication.
@@ -57,19 +66,21 @@ abstract:
     the CEN Workshop El-sign to optimise interoperability.\r\nThe present document
     presents the results of this work to assist in the harmonization of the use of
     election signature standards across Europe\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

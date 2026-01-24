@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI004V2.2.12021-12
+id: ETSIGRENI004V221202112
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Terminology for Main Concepts
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Terminology for Main Concepts
     in ENI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58904
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/004/02.02.01_60/gr_ENI004v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 004 V2.2.1 (2021-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58904
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/004/02.02.01_60/gr_ENI004v020201p.pdf
+docidentifier:
+- content: ETSI GR ENI 004 V2.2.1 (2021-12)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 004 V2.2.1 (2021-12)
 date:
 - type: published
-  value: 2021-12
+  at: 2021-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2021-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIFdJIHdpbGwgcHJvdmlkZSB0ZXJtcyBhbmQgZGVmaW5pdGlvbnMgdXNlZCB3aXRoaW4gdGhlIHNjb3BlIG9mIHRoZSBJU0cgRU5JLCBpbiBvcmRlciB0byBhY2hpZXZlIGEgImNvbW1vbiBsYW5ndWFnZSIgYWNyb3NzIGFsbCB0aGUgSVNHIEVOSSBkb2N1bWVudGF0aW9uLiBUaGlzIHdvcmsgaXRlbSB3aWxsIGJlIHVwZGF0ZWQgd2l0aCB0aGUgZ2VuZXJhbCB0ZXJtaW5vbG9neSByZXF1aXJlZCBhcyB0aGUgRU5JIHNwZWNpZmljYXRpb25zIGRldmVsb3AuIA0KSW4gUmVsZWFzZSAyIHRoZSBXSSB3aWxsIGFkZDogDQrigKIJRGVmaW5pdGlvbiBvZiB0ZXJtcyBmb3IgRXh0ZXJuYWwgUmVmZXJlbmNlIFBvaW50cw0K4oCiCURlZmluaXRpb24gb2YgdGVybXMgZm9yIEFQSXMgZm9yIGVhY2ggRXh0ZXJuYWwgUmVmZXJlbmNlIFBvaW50DQrigKIJRGVmaW5pdGlvbiBvZiB0ZXJtcyBmb3IgSW50ZXJmYWNlcyBmb3IgZWFjaCBBUEkNCuKAoglEZWZpbml0aW9uIG9mIHRlcm1zIGZvciBmb3JtYWwgc2VtYW50aWNzDQrigKIJRGVmaW5pdGlvbiBvZiB0ZXJtcyBmb3IgY29nbml0aW9uIHByb2Nlc3Nlcw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The WI will provide terms and definitions used within the scope of the
+    ISG ENI, in order to achieve a \"common language\" across all the ISG ENI documentation.
+    This work item will be updated with the general terminology required as the ENI
+    specifications develop. \r\nIn Release 2 the WI will add: \r\n\tDefinition of
+    terms for External Reference Points\r\n\tDefinition of terms for APIs for each
+    External Reference Point\r\n\tDefinition of terms for Interfaces for each API\r\n\tDefinition
+    of terms for formal semantics\r\n\tDefinition of terms for cognition processes"
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: NETWORK
-- content: terminology
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: terminology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

@@ -1,78 +1,105 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNIN001V1.1.12021-03
+id: ETSIGRNIN001V111202103
+schema_version: v1.4.1
 title:
-- content: 'Non-IP Networking (NIN); Problem statement: networking with TCP/IP in
+- language: en
+  script: Latn
+  content: 'Non-IP Networking (NIN); Problem statement: networking with TCP/IP in
     the 2020s'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59339
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NIN/001_099/001/01.01.01_60/gr_NIN001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NIN 001 V1.1.1 (2021-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59339
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NIN/001_099/001/01.01.01_60/gr_NIN001v010101p.pdf
+docidentifier:
+- content: ETSI GR NIN 001 V1.1.1 (2021-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR NIN 001 V1.1.1 (2021-03)
 date:
 - type: published
-  value: 2021-03
+  at: 2021-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Non-IP Networking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document will describe the shortcomings of TCP/IP for mobile
+- language: en
+  script: Latn
+  content: "The present document will describe the shortcomings of TCP/IP for mobile
     networks and ways in which new networks can provide a better service.\r\nRelevant
     previous standards include ISO/IEC TR 29181-1 and GS NGP 001, 012, and 013\r\nTopics
     covered will include: efficient use of spectrum; efficient forwarding; naming
     and addressing (including for mobility); QoS; security, privacy, and ease of management;
     and migration from current technology."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Autonomic Networking
-- content: Core Network
-- content: Fixed networks
-- content: Intelligence-defined Network
-- content: INTERNET
-- content: LAYER 3
-- content: Network monitoring
-- content: Network Performance
-- content: Network scenarios
-- content: Next Generation Protocol
-- content: non 3GPP access
+- taxon:
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: Core Network
+  - language: en
+    script: Latn
+    content: Fixed networks
+  - language: en
+    script: Latn
+    content: Intelligence-defined Network
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: Network monitoring
+  - language: en
+    script: Latn
+    content: Network Performance
+  - language: en
+    script: Latn
+    content: Network scenarios
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: non 3GPP access
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Non-IP Networking
+    content: Group Report

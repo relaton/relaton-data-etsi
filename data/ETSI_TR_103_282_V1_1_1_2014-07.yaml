@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103282V1.1.12014-07
+id: ETSITR103282V111201407
+schema_version: v1.4.1
 title:
-- content: Network Technologies (NTECH); ENUM/ENUM-like options for Number Portability
+- language: en
+  script: Latn
+  content: Network Technologies (NTECH); ENUM/ENUM-like options for Number Portability
     and actual use cases
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41213
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103282/01.01.01_60/tr_103282v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 282 V1.1.1 (2014-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41213
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103282/01.01.01_60/tr_103282v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 282 V1.1.1 (2014-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 282 V1.1.1 (2014-07)
 date:
 - type: published
-  value: 2014-07
+  at: 2014-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    dG8gcHJvZHVjZSBhIFRlY2huaWNhbCBSZXBvcnQgd2hpY2ggYWltcyB0byBkZXNjcmliZToNCuKAoglOdW1iZXIgUG9ydGFiaWxpdHkgT3B0aW9ucyBpbmNsdWRpbmcgRU5VTSBzb2x1dGlvbiwNCuKAoglFTlVNIE9wdGlvbnMvU29sdXRpb25zIGZvciBOdW1iZXIgUG9ydGFiaWxpdHksDQrigKIJVXNlIENhc2VzIG9mIEVOVU0vRU5VTS1saWtlIE9wdGlvbnMgZm9yIE51bWJlciBQb3J0YWJpbGl0eSBhbmQsDQrigKIJVXNlIENhc2VzIG9mIEVOVU0gUm91dGluZyBPcHRpb25zIGZvciBOdW1iZXIgUG9ydGFiaWxpdHkuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "to produce a Technical Report which aims to describe:\r\n\tNumber Portability
+    Options including ENUM solution,\r\n\tENUM Options/Solutions for Number Portability,\r\n\tUse
+    Cases of ENUM/ENUM-like Options for Number Portability and,\r\n\tUse Cases of
+    ENUM Routing Options for Number Portability.\r\n"
+status:
+  stage: Published
 keyword:
-- content: DNS
-- content: enum
-- content: NP
+- taxon:
+  - language: en
+    script: Latn
+    content: DNS
+  - language: en
+    script: Latn
+    content: enum
+  - language: en
+    script: Latn
+    content: NP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Network Technologies
+    content: Technical Report

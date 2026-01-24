@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102021-12V1.1.12012-08
+id: ETSITR10202112V111201208
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); User Requirement Specification TETRA
     Release 2.1; Part 12: Direct Mode Operation (DMO)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31963
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202112/01.01.01_60/tr_10202112v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 021-12 V1.1.1 (2012-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31963
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/10202112/01.01.01_60/tr_10202112v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 021-12 V1.1.1 (2012-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 021-12 V1.1.1 (2012-08)
 date:
 - type: published
-  value: 2012-08
+  at: 2012-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Capturing DMO related new user requirements for Release 2.1 based on results
+- language: en
+  script: Latn
+  content: Capturing DMO related new user requirements for Release 2.1 based on results
     from workshops and user consultations.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DMO
-- content: Requirements
-- content: TETRA
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: DMO
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE User Requirements / Services
+    content: Technical Report

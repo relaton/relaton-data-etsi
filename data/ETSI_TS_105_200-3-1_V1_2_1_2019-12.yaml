@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS105200-3-1V1.2.12019-12
+id: ETSITS10520031V121201912
+schema_version: v1.4.1
 title:
-- content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Energy management;
+- language: en
+  script: Latn
+  content: 'Access, Terminals, Transmission and Multiplexing (ATTM); Energy management;
     Operational infrastructures; Implementation of Global KPIs; Part 3: ICT Sites;
     Sub-part 1: DCEM'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54712
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/105200_105299/1052000301/01.02.01_60/ts_1052000301v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 105 200-3-1 V1.2.1 (2019-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54712
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/105200_105299/1052000301/01.02.01_60/ts_1052000301v010201p.pdf
+docidentifier:
+- content: ETSI TS 105 200-3-1 V1.2.1 (2019-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 105 200-3-1 V1.2.1 (2019-12)
 date:
 - type: published
-  value: 2019-12
+  at: 2019-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Infrastructure, Physical Networks & Communication Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2019-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The reporting of Global KPIs in accordance with EN 305 200-3-1 requires
+- language: en
+  script: Latn
+  content: "The reporting of Global KPIs in accordance with EN 305 200-3-1 requires
     the collection of data to enable the calculation of the following aspects \r\n-
     Objective KPI relating to the total energy consumption (KPIEC); \r\n- Objective
     KPI relating to the use of energy performance (KPIEP) which combines KPIEC with
@@ -57,20 +66,24 @@ abstract:
     200-3-1 providing a framework for, and detailing, the implementation procedures
     including any necessary techniques for estimation of energy consumption together
     with constants to be employed for weighting and banding purposes."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: Energy Management
-- content: ICT
-- content: Sustainability
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: Energy Management
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: Sustainability
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Infrastructure, Physical Networks & Communication Systems
+    content: Technical Specification

@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR161ed.11995-02
+id: ETSIETR161ed1199502
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Functional description
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Functional description
     of Virtual Path (VP) cross-connect
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1971
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/161/01_60/etr_161e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 161 ed.1 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1971
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/161/01_60/etr_161e01p.pdf
+docidentifier:
+- content: ETSI ETR 161 ed.1 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 161 ed.1 (1995-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Describe in a first step the network elements of an ATM cross-\r\nconnected
+- language: en
+  script: Latn
+  content: "Describe in a first step the network elements of an ATM cross-\r\nconnected
     network\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: B-ISDN
-- content: BROADBAND
-- content: CROSS CONNECT
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CROSS CONNECT
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Broadband Networks
+    content: ETSI Technical Report

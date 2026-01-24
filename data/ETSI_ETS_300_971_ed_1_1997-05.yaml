@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300971ed.11997-05
+id: ETSIETS300971ed1199705
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Half rate speech; Comfort noise
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Half rate speech; Comfort noise
     aspects for the half rate speech traffic channels (GSM 06.22 version 5.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300971/01_60/ets_300971e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 971 ed.1 (1997-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300971/01_60/ets_300971e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 971 ed.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 971 ed.1 (1997-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) gives the detailed requ\r\nirements
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) gives the detailed requ\r\nirements
     for the correct operation of the background acoustic noise ev\r\naluation, noise
     parameter encoding/decoding and comfort noise generati\r\non in GSM Mobile Stations
     (MS)s and Base Station Systems (BSS)s during\r\nDiscontinuous Transmission (DTX)
@@ -54,21 +64,27 @@ abstract:
     traffic ch\r\nannel.\r\nThe receiver requirements are mandatory for implementation
     in all GSM\r\nBSSs capable of supporting the half rate speech traffic channel,
     the t\r\nransmitter requirements are only for those where downlink DTX will be\r\nused.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CODEC
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: NOISE
-- content: SPEECH
+- taxon:
+  - language: en
+    script: Latn
+    content: CODEC
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: NOISE
+  - language: en
+    script: Latn
+    content: SPEECH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Speech Aspects
+    content: European Telecommunication Standard

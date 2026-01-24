@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG284004V1.1.22007-09
+id: ETSIEG284004V112200709
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Incorporating Universal Communications Identifier (UCI) support
     into the specification of Next Generation Networks (NGN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21139
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/284000_284099/284004/01.01.02_60/eg_284004v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 284 004 V1.1.2 (2007-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21139
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/284000_284099/284004/01.01.02_60/eg_284004v010102p.pdf
+docidentifier:
+- content: ETSI EG 284 004 V1.1.2 (2007-09)
   type: ETSI
   primary: true
 docnumber: ETSI EG 284 004 V1.1.2 (2007-09)
 date:
 - type: published
-  value: 2007-09
+  at: 2007-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Numbering Addressing and routing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2007-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To document at least the following:\r\n- how UCI maps to requirements
+- language: en
+  script: Latn
+  content: "To document at least the following:\r\n- how UCI maps to requirements
     for NGN\r\n- how the PUA and SA fit into the TISPAN IMS architecture\r\n- required
     SIP protocol extensions\r\n- the format and structure of the UCI identifier\r\n-
     the security and privacy aspects of UCI\r\n- how ENUM may be used for UCI\r\nAny
     required changes to IETF defined identifiers or to 3GPP defined identifiers should
     be worked through the respective concerned organisation.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SIP
-- content: UCI
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: UCI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: TISPAN Numbering Addressing and routing
+    content: ETSI Guide

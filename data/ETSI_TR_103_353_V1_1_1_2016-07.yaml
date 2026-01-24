@@ -1,68 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103353V1.1.12016-07
+id: ETSITR103353V111201607
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Environmental impact of satellite
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Environmental impact of satellite
     broadband network; Full LCA (Life Cycle Assessment)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103353/01.01.01_60/tr_103353v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 353 V1.1.1 (2016-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103353/01.01.01_60/tr_103353v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 353 V1.1.1 (2016-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 353 V1.1.1 (2016-07)
 date:
 - type: published
-  value: 2016-07
+  at: 2016-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    RnVsbCBsaWZlIGN5Y2xlIGFzc2Vzc21lbnQgKExDQSkgZm9yIGEgc2F0ZWxsaXRlIGJyb2FkYmFuZCBuZXR3b3JrLiBUaGlzIHZlcnNpb24gb25seSBjb3ZlcnMgR0hHIGVtaXNzaW9ucyBhbmQgZG9lcyBub3QgY292ZXIgb3RoZXIgZW52aXJvbm1lbnRhbCBpbXBhY3RzIHN1Y2ggYXMgd2F0ZXIgcXVhbGl0eSBvciBvem9uZSBkZXBsZXRpb24uIEFsc28gZG9lcyBub3QgY292ZXIgZW52aXJvbm1lbnRhbCBpbXBhY3Qgb2Ygc2NhcmNlIHJlc291cmNlcyBzdWNoIGFzIHNwZWN0cnVtIHV0aWxpc2F0aW9uIG9yIG9yYml0YWwgcG9zaXRpb25zLiBSZWZlcmVuY2VzOiBUUyAxMDMgMTk5IOKAnEVudmlyb25tZW50YWwgRW5naW5lZXJpbmcgKEVFKTsgTGlmZSBDeWNsZSBBc3Nlc3NtZW50IChMQ0EpIG9mIElDVCBlcXVpcG1lbnQsIG5ldHdvcmtzIGFuZCBzZXJ2aWNlc+KAnS4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Full life cycle assessment (LCA) for a satellite broadband network. This
+    version only covers GHG emissions and does not cover other environmental impacts
+    such as water quality or ozone depletion. Also does not cover environmental impact
+    of scarce resources such as spectrum utilisation or orbital positions. References:
+    TS 103 199 Environmental Engineering (EE); Life Cycle Assessment (LCA) of ICT
+    equipment, networks and services.'
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: Energy Efficiency
-- content: ENVIRONMENT
-- content: LCA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: ENVIRONMENT
+  - language: en
+    script: Latn
+    content: LCA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: Technical Report

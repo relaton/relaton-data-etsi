@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300684ed.11997-01
+id: ETSIETS300684ed1199701
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     standard for commercially available amateur radio equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2261
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300684/01_60/ets_300684e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 684 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2261
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300684/01_60/ets_300684e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 684 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 684 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers EMC assessment of amateur radio equipment which is\r\ncommercially
+- language: en
+  script: Latn
+  content: "Covers EMC assessment of amateur radio equipment which is\r\ncommercially
     available on the market.\r\nThe ETS may be used to demonstrate compliance with
     the requirements\r\nof the EMC Directive 89/336/EEC.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AMATEUR
-- content: EMC
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AMATEUR
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

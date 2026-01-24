@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202504-15V1.1.12008-05
+id: ETSIES20250415V111200805
+schema_version: v1.4.1
 title:
-- content: 'Open Service Access (OSA); Parlay X Web Services; Part 15: Message Broadcast
+- language: en
+  script: Latn
+  content: 'Open Service Access (OSA); Parlay X Web Services; Part 15: Message Broadcast
     (Parlay X3)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25121
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202500_202599/20250415/01.01.01_60/es_20250415v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 504-15 V1.1.1 (2008-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25121
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202500_202599/20250415/01.01.01_60/es_20250415v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 504-15 V1.1.1 (2008-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 504-15 V1.1.1 (2008-05)
 date:
 - type: published
-  value: 2008-05
+  at: 2008-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: New ParlayX specification to cover Message Broadcast, based on requirements
+- language: en
+  script: Latn
+  content: New ParlayX specification to cover Message Broadcast, based on requirements
     in ES 201 988-4, corresponding to 3GPP TS 29.199-15 Rel-7
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: OSA
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: OSA
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Services
+    content: ETSI Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183064V2.1.12008-10
+id: ETSITS183064V211200810
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Dedicated IPTV subsystem stage 3 specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27303
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183064/02.01.01_60/ts_183064v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 064 V2.1.1 (2008-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27303
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183064/02.01.01_60/ts_183064v020101p.pdf
+docidentifier:
+- content: ETSI TS 183 064 V2.1.1 (2008-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 064 V2.1.1 (2008-10)
 date:
 - type: published
-  value: 2008-10
+  at: 2008-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2008-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of dedicated subsystem IPTV stage 3 to support IPTV services
+- language: en
+  script: Latn
+  content: Specification of dedicated subsystem IPTV stage 3 to support IPTV services
     based on the architecture and stage 2 information flows described in TS 182 028.
     Specifications of the scope of IPTV for further specification of new or enhanced
     Protocol specifications. This specification will describe the Procedures on the
@@ -54,19 +63,21 @@ abstract:
     for existing protocols. Interactions with other subsystems and common areas between
     dedicated and IMS based subsystems will be considered. Applicability of existing
     IPTV protocols and ongoing work in other SDOs will be considered
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IP
-- content: STAGE 3
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Specification

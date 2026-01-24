@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103438V1.1.12019-02
+id: ETSITR103438V111201902
+schema_version: v1.4.1
 title:
-- content: User Group; User centric approach in Digital Ecosystem
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47208
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103438/01.01.01_60/tr_103438v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 438 V1.1.1 (2019-02)
+- language: en
+  script: Latn
+  content: User Group; User centric approach in Digital Ecosystem
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47208
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103438/01.01.01_60/tr_103438v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 438 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 438 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The goal of this TR is to consider Digital Ecosystem through user's point
+- language: en
+  script: Latn
+  content: "The goal of this TR is to consider Digital Ecosystem through user's point
     of view under the following two directions:\r\n- identification of user's needs
     such as QoS, security, usability, flexibility, Service Level Objectives (SLO)\r\n-
     study impact of technical implementations related to user's requirements/concerns"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
-- content: QoS
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: User Group
+    content: Technical Report

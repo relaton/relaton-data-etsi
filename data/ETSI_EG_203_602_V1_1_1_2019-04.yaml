@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203602V1.1.12019-04
+id: ETSIEG203602V111201904
+schema_version: v1.4.1
 title:
-- content: 'User Group; User Centric Approach: Guidance for users; Best practices
+- language: en
+  script: Latn
+  content: 'User Group; User Centric Approach: Guidance for users; Best practices
     to interact in the Digital Ecosystem'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52879
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203600_203699/203602/01.01.01_60/eg_203602v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 602 V1.1.1 (2019-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52879
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203600_203699/203602/01.01.01_60/eg_203602v010101p.pdf
+docidentifier:
+- content: ETSI EG 203 602 V1.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 602 V1.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will define  guidance to the user in order to build his/her
+- language: en
+  script: Latn
+  content: This work item will define  guidance to the user in order to build his/her
     own service composition with the expected and relevant quality of experience (QoE)
     and to ensure his/her data privacy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: QoE
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: QoE
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: User Group
+    content: ETSI Guide

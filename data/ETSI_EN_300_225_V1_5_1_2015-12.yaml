@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300225V1.5.12015-12
+id: ETSIEN300225V151201512
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Technical
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Technical
     characteristics and methods of measurement for survival craft portable VHF radiotelephone
     apparatus
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46681
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300200_300299/300225/01.05.01_60/en_300225v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 225 V1.5.1 (2015-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46681
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300200_300299/300225/01.05.01_60/en_300225v010501p.pdf
+docidentifier:
+- content: ETSI EN 300 225 V1.5.1 (2015-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 225 V1.5.1 (2015-12)
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2015-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: revision of the standard in order to align it with current IMO requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: revision of the standard in order to align it with current IMO requirements
+status:
+  stage: Published
 keyword:
-- content: GMDSS
-- content: MARITIME
-- content: RADIO
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: GMDSS
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: European Standard

@@ -1,64 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300329ed.21997-06
+id: ETSIETS300329ed2199706
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); ElectroMagnetic Compatibility (EMC)
     for Digital Enhanced Cordless Telecommunications (DECT) equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4434
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300329/02_60/ets_300329e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 329 ed.2 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4434
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/300329/02_60/ets_300329e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 329 ed.2 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 329 ed.2 (1997-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Covers the EMC requirements for DECT equipment.\r\nThis amendment makes
+- language: en
+  script: Latn
+  content: "Covers the EMC requirements for DECT equipment.\r\nThis amendment makes
     the neseccary modifications to bring ETS 300 329\r\ninto line with the policy
     described in ETR 238.\r\nThis ETS is intended to become a Harmonised Standard,
     the reference of\r\nwhich is intended to be published in the Official Journal
     of the\r\nEuropean Communities referencing the EMC Directive.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: EMC
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EMC
+    content: European Telecommunication Standard

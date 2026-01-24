@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR035ed.11995-11
+id: ETSITCRTR035ed1199511
+schema_version: v1.4.1
 title:
-- content: Security Algorithms Group of Experts (SAGE); Rules for the management of
+- language: en
+  script: Latn
+  content: Security Algorithms Group of Experts (SAGE); Rules for the management of
     the Baras algorithm
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3293
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/035/01_60/tcrtr_035e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 035 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3293
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/035/01_60/tcrtr_035e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 035 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 035 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security Algorithms Group of Experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define procedures for the management of and rules for the\r\ndistribution
+- language: en
+  script: Latn
+  content: "To define procedures for the management of and rules for the\r\ndistribution
     of the Baras cryptographic algorithm which was designed\r\nby ETSI SAGE for use
     in audiovisual systems.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: MANAGEMENT
-- content: SECURITY
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Security Algorithms Group of Experts
+    content: Technical Committee Reference Technical Report

@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103761V1.1.12022-05
+id: ETSITR103761V111202205
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); Methodologies for E2E
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Methodologies for E2E
     Testing & Validation of Vertical Applications over 5G & Beyond networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59575
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103761/01.01.01_60/tr_103761v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 761 V1.1.1 (2022-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59575
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103761/01.01.01_60/tr_103761v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 761 V1.1.1 (2022-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 761 V1.1.1 (2022-05)
 date:
 - type: published
-  value: 2022-05
+  at: 2022-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document will describe a survey and  review of the existing methodologies
+- language: en
+  script: Latn
+  content: "This document will describe a survey and  review of the existing methodologies
     for Testing and Validation of vertical applications designed for leveraging the
     potential of 5G&Beyond networks, in order to identify existing gaps in such methodologies
     and propose solutions to cover them.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: Core Network
-- content: METHODOLOGY
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: Core Network
+  - language: en
+    script: Latn
+    content: METHODOLOGY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Report

@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300481ed.11996-07
+id: ETSIETS300481ed1199607
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); B-Channel
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); B-Channel
     Aggregation Unit (CAU); Procedures and terminal requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2129
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300481/01_60/ets_300481e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 481 ed.1 (1996-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2129
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300481/01_60/ets_300481e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 481 ed.1 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 481 ed.1 (1996-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Audiovisual and Voice Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define protocols and related requirements whereby a number of ISDN\r\nB-channels
+- language: en
+  script: Latn
+  content: "To define protocols and related requirements whereby a number of ISDN\r\nB-channels
     may be synchronised and aggregated to represent a single\r\nbit stream for any
     application, whether audiovisual or more general\r\ndata application.\r\n (Liaison
     with ETSI STC BTC4 required.)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MULTICHANNEL
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Audiovisual and Voice Terminals
+    content: European Telecommunication Standard

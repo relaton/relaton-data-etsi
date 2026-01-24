@@ -1,67 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103166V1.1.12011-09
+id: ETSITR103166V111201109
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Satellite Emergency Communications
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Satellite Emergency Communications
     (SatEC); Emergency Communication Cell over Satellite (ECCS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29310
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103166/01.01.01_60/tr_103166v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 166 V1.1.1 (2011-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29310
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103166/01.01.01_60/tr_103166v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 166 V1.1.1 (2011-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 166 V1.1.1 (2011-09)
 date:
 - type: published
-  value: 2011-09
+  at: 2011-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U2NvcGU6IGluIGl0cyBpbml0aWFsIHJlcG9ydCwgU2F0RUMgd29ya2luZyBncm91cCBvdXRsaW5lcyB0aGUgY29uY2VwdCBvZiBhbiBFbWVyZ2VuY3kgQ29tbXVuaWNhdGlvbiBDZWxsIG92ZXIgU2F0ZWxsaXRlLiBUaGlzIFdJIGludGVuZHMgdG8gZGVzY3JpYmUgdGhlIGNvbmNlcHQgbW9yZSBzcGVjaWZpY2FsbHkuIFRoZSBwdXJwb3NlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvIHNwZWNpZnkgZm9yIHRoZSBFQ0NTOg0KIC0gaXRzIHBoeXNpY2FsIGFyY2hpdGVjdHVyZSAoZS5nLiBkaWZmZXJlbnQgdHlwZXMgb2YgYWNjZXNzIHBvaW50cywgY29tcHV0ZXJzLCBzYXRlbGxpdGUgdGVybWluYWxzLCBjb25uZWN0b3JzLCBldGPigKYpLCANCiAtIGl0cyBmdW5jdGlvbmFsIGFyY2hpdGVjdHVyZSAoZS5nLiBjYWNoaW5nLCBzZWN1cml0eSwgVm9JUCBvciBXRUIgc2VydmVycywgUW9TIGF3YXJlIHNjaGVkdWxpbmcsIHJhZGlvIHJlc291cmNlIG1hbmFnZW1lbnQsIGV0YyksDQogLSB0aGUgc3VwcG9ydGVkIHNlcnZpY2VzIChlLmcuIGRhdGEsIHZvaWNlLCBmYXhlcywgR1BTIHBvc2l0aW9uaW5nLCBMb2NhdGlvbiBCYXNlZCBTZXJ2aWNlcywgZXRj4oCmKSwNCiAtIGl0cyB0YXJnZXRlZCBwZXJmb3JtYW5jZXMgKGUuZy4gdGhyb3VnaHB1dCwgdHJhbnNtaXNzaW9uIGRlbGF5LCBwb3dlciBjb25zdW1wdGlvbiwgYXV0b25vbXksIHRpbWUgdG8gZGVwbG95LCBldGMuLi4pLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Scope: in its initial report, SatEC working group outlines the concept
+    of an Emergency Communication Cell over Satellite. This WI intends to describe
+    the concept more specifically. The purpose of this work item is to specify for
+    the ECCS:\r\n - its physical architecture (e.g. different types of access points,
+    computers, satellite terminals, connectors, etc), \r\n - its functional architecture
+    (e.g. caching, security, VoIP or WEB servers, QoS aware scheduling, radio resource
+    management, etc),\r\n - the supported services (e.g. data, voice, faxes, GPS positioning,
+    Location Based Services, etc),\r\n - its targeted performances (e.g. throughput,
+    transmission delay, power consumption, autonomy, time to deploy, etc...)."
+status:
+  stage: Published
 keyword:
-- content: EMERGENCY
-- content: LOCAL LOOP
-- content: RADIO
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: LOCAL LOOP
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Satellite Emergency Communications
+    content: Technical Report

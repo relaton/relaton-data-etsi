@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102791V1.2.12013-08
+id: ETSITR102791V121201308
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference Document; Short Range Devices (SRD); Technical characteristics of wireless
     aids for hearing impaired people operating in the VHF and UHF frequency range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41256
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102791/01.02.01_60/tr_102791v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 791 V1.2.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41256
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102791/01.02.01_60/tr_102791v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 791 V1.2.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 791 V1.2.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Scope of work to be undertaken: update current TR 102 791 with technical
+- language: en
+  script: Latn
+  content: 'Scope of work to be undertaken: update current TR 102 791 with technical
     information on a digital spectrum efficient system contained in ERMTG17 WG(12)000013'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: HEARING AID
-- content: SRD
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: HEARING AID
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

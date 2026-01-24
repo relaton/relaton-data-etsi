@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR182030V3.1.12011-05
+id: ETSITR182030V311201105
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN based IPTV mapping or interconnect between IPTV systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31440
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182030/03.01.01_60/tr_182030v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 182 030 V3.1.1 (2011-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31440
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/182000_182099/182030/03.01.01_60/tr_182030v030101p.pdf
+docidentifier:
+- content: ETSI TR 182 030 V3.1.1 (2011-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 182 030 V3.1.1 (2011-05)
 date:
 - type: published
-  value: 2011-05
+  at: 2011-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2011-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specify the enhancement for existing NGN-based IPTV functional architecture
+- language: en
+  script: Latn
+  content: "Specify the enhancement for existing NGN-based IPTV functional architecture
     (IMS based IPTV, NGN integrated IPTV) and its features.\r\nThe resulting architecture
     aims:\r\n-Provide mapping or interworking between TISPAN NGN based IPTV architecture
     and 3GPP MBMS/PSS (IMS based or non-IMS based MBMS/PSS)\r\n-consider IPTV work
@@ -54,22 +63,30 @@ abstract:
     relation with ITU-T IMS/non-IMS based IPTV)\r\n-consider support for providing
     selected TISPAN IPTV services to mobile UE over existing mobile access networks\r\n-consider
     IPTV interconnection models from stage 2 specification\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: IMS
-- content: interconnection
-- content: INTERWORKING
-- content: IP
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: interconnection
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Report

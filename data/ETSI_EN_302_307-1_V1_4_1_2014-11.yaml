@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302307-1V1.4.12014-11
+id: ETSIEN3023071V141201411
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Second generation framing structure,
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Second generation framing structure,
     channel coding and modulation systems for Broadcasting, Interactive Services,
     News Gathering and other broadband satellite applications; Part 1: DVB-S2'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44129
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302300_302399/30230701/01.04.01_60/en_30230701v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 307-1 V1.4.1 (2014-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44129
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302300_302399/30230701/01.04.01_60/en_30230701v010401p.pdf
+docidentifier:
+- content: ETSI EN 302 307-1 V1.4.1 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 307-1 V1.4.1 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The existing DVB-S2 specification becomes a multipart document, with Part
+- language: en
+  script: Latn
+  content: 'The existing DVB-S2 specification becomes a multipart document, with Part
     2 describing the S2 extensions (S2X). The necessary changes for Part 1 (DVB-S2)
     are included in this new version. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BSS
-- content: DIGITAL
-- content: DVB
-- content: MODULATION
-- content: SATELLITE
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BSS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MODULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Standard

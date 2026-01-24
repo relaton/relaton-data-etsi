@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITS126245V17.0.02022-05
+id: ETSITS126245V1700202205
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Transparent
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); LTE; 5G; Transparent
     end-to-end Packet switched Streaming Service (PSS); Timed text format (3GPP TS
     26.245 version 17.0.0 Release 17)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=65697
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126245/17.00.00_60/ts_126245v170000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 126 245 V17.0.0 (2022-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=65697
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/126200_126299/126245/17.00.00_60/ts_126245v170000p.pdf
+docidentifier:
+- content: ETSI TS 126 245 V17.0.0 (2022-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 126 245 V17.0.0 (2022-05)
 date:
 - type: published
-  value: 2022-05
+  at: 2022-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 17.0.0
-revdate: 2022-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#95-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#95-e
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Codec
+    content: Technical Specification

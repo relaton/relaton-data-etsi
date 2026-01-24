@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103652-3V1.1.22021-06
+id: ETSITS1036523V112202106
+schema_version: v1.4.1
 title:
-- content: 'Reconfigurable Radio Systems (RRS); evolved Licensed Shared Access (eLSA);
+- language: en
+  script: Latn
+  content: 'Reconfigurable Radio Systems (RRS); evolved Licensed Shared Access (eLSA);
     Part 3: Information elements and protocols for the interface between eLSA Controller
     (eLC) and eLSA Repository (eLR)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63041
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365203/01.01.02_60/ts_10365203v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 652-3 V1.1.2 (2021-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63041
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103600_103699/10365203/01.01.02_60/ts_10365203v010102p.pdf
+docidentifier:
+- content: ETSI TS 103 652-3 V1.1.2 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 652-3 V1.1.2 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reconfigurable Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: editorial changes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: editorial changes
+status:
+  stage: Published
 keyword:
-- content: LSA spectrum resource
-- content: NETWORK
-- content: PROTOCOL
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: LSA spectrum resource
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Reconfigurable Radio Systems
+    content: Technical Specification

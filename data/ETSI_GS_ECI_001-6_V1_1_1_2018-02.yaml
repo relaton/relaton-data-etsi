@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSECI001-6V1.1.12018-02
+id: ETSIGSECI0016V111201802
+schema_version: v1.4.1
 title:
-- content: "Embedded Common Interface (ECI) for exchangeable CA/DRM solutions;\r\n
+- language: en
+  script: Latn
+  content: "Embedded Common Interface (ECI) for exchangeable CA/DRM solutions;\r\n
     Part 6: Trust Environment"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44108
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/00106/01.01.01_60/gs_ECI00106v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ECI 001-6 V1.1.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44108
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ECI/001_099/00106/01.01.01_60/gs_ECI00106v010101p.pdf
+docidentifier:
+- content: ETSI GS ECI 001-6 V1.1.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI GS ECI 001-6 V1.1.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Embedded Common Interface for exchangeable CA/DRM solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Subject of this Work Item is Part 6 of a multi-part deliverable covering
+- language: en
+  script: Latn
+  content: Subject of this Work Item is Part 6 of a multi-part deliverable covering
     the Trust Environment, related to the Embedded Common Interface for exchangeable
     CA/DRM solutions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CA
-- content: DRM
-- content: trust
+- taxon:
+  - language: en
+    script: Latn
+    content: CA
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: trust
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Embedded Common Interface for exchangeable CA/DRM solutions
+    content: Group Specification

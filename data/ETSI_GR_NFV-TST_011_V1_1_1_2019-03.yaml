@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-TST011V1.1.12019-03
+id: ETSIGRNFVTST011V111201903
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Testing; Test Domain and Description
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing; Test Domain and Description
     Language Recommendations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54716
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/011/01.01.01_60/gr_NFV-TST011v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-TST 011 V1.1.1 (2019-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54716
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/011/01.01.01_60/gr_NFV-TST011v010101p.pdf
+docidentifier:
+- content: ETSI GR NFV-TST 011 V1.1.1 (2019-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-TST 011 V1.1.1 (2019-03)
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The report will propose a model of the NFV test domain and recommend requirements
+- language: en
+  script: Latn
+  content: "The report will propose a model of the NFV test domain and recommend requirements
     for a test Domain Specific Language (DSL) to manipulate it. The description will
     include an NFV test automation ecosystem that facilitates interaction among NFV
     suppliers and operators, based on the DevOps principles outlined in TST006.  \r\nThe
@@ -61,19 +70,21 @@ abstract:
     \r\n- Abstraction of test data \r\n- Decoupling of test case from the test environment
     \r\n- Use of test resource abstractions in place of concrete test resources  \r\n-
     Dynamic allocation of concrete test resources"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Language
-- content: NFV
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Language
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Report

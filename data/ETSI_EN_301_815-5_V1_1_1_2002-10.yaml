@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301815-5V1.1.12002-10
+id: ETSIEN3018155V111200210
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; Quality of Service class and parameters
     indication at call/connection establishment; Part 5: Test Suite Structure and
     Test Purposes (TSS&TP) specification for the network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12768
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/30181505/01.01.01_60/en_30181505v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 815-5 V1.1.1 (2002-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12768
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/30181505/01.01.01_60/en_30181505v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 815-5 V1.1.1 (2002-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 815-5 V1.1.1 (2002-10)
 date:
 - type: published
-  value: 2002-10
+  at: 2002-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Test specification for protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Test specification for protocol
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: DSS2
-- content: NETWORK
-- content: QUALITY
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

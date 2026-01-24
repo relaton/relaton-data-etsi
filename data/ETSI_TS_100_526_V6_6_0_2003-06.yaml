@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100526V6.6.02003-06
+id: ETSITS100526V660200306
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Organization of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Organization of
     Subscriber Data (3GPP TS 03.08 version 6.6.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18943
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100526/06.06.00_60/ts_100526v060600p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 526 V6.6.0 (2003-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18943
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100526/06.06.00_60/ts_100526v060600p.pdf
+docidentifier:
+- content: ETSI TS 100 526 V6.6.0 (2003-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 526 V6.6.0 (2003-06)
 date:
 - type: published
-  value: 2003-06
+  at: 2003-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/GTP/BCH/SS
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.6.0
-revdate: 2003-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: NP-20
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: NP-20
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/GTP/BCH/SS
+    content: Technical Specification

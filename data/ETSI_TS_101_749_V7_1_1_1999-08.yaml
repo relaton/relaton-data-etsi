@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101749V7.1.11999-08
+id: ETSITS101749V711199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Immediate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Immediate
     Service Termination (IST) Service description - Stage 1 (GSM 02.32 version 7.1.1
     Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6341
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101749/07.01.01_60/ts_101749v070101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 749 V7.1.1 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6341
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101700_101799/101749/07.01.01_60/ts_101749v070101p.pdf
+docidentifier:
+- content: ETSI TS 101 749 V7.1.1 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 749 V7.1.1 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.1.1
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nIST stage 1\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nIST stage 1\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security Group
+    content: Technical Specification

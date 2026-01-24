@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201013V1.1.11997-04
+id: ETSIEG201013V111199704
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Definitions, abbreviations and symbols
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3388
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201013/01.01.01_60/eg_201013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 013 V1.1.1 (1997-04)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Definitions, abbreviations and symbols
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3388
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201000_201099/201013/01.01.01_60/eg_201013v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 013 V1.1.1 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 013 V1.1.1 (1997-04)
 date:
 - type: published
-  value: 1997-04
+  at: 1997-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunication Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This TCR-TR provides the preferred definitions of human factors\r\nrelated
+- language: en
+  script: Latn
+  content: "This TCR-TR provides the preferred definitions of human factors\r\nrelated
     terms as well as keywords, abbreviations and symbols in\r\nTC HF documents.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CHARACTER
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARACTER
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Telecommunication Services
+    content: ETSI Guide

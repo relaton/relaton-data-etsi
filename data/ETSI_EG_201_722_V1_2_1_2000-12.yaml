@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201722V1.2.12000-12
+id: ETSIEG201722V121200012
+schema_version: v1.4.1
 title:
-- content: Intelligent Network (IN); Service provider access requirements; Enhanced
+- language: en
+  script: Latn
+  content: Intelligent Network (IN); Service provider access requirements; Enhanced
     telephony services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10747
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201722/01.02.01_60/eg_201722v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 722 V1.2.1 (2000-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10747
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201700_201799/201722/01.02.01_60/eg_201722v010201p.pdf
+docidentifier:
+- content: ETSI EG 201 722 V1.2.1 (2000-12)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 722 V1.2.1 (2000-12)
 date:
 - type: published
-  value: 2000-12
+  at: 2000-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Overall Network and System Architecture (ONSA)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2000-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This second version of EG 201 722 incorporates changes and clarifications
+- language: en
+  script: Latn
+  content: This second version of EG 201 722 incorporates changes and clarifications
     into the existing document based on responses received from working groups attempting
     to implement the requirements and to correct any detected errors.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: IN
-- content: NNI
-- content: PROTOCOL
-- content: TELEPHONY
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: NNI
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Overall Network and System Architecture (ONSA)
+    content: ETSI Guide

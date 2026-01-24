@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS104008V1.1.12026-01
+id: ETSITS104008V111202601
+schema_version: v1.4.1
 title:
-- content: Methods for Testing & Specification (MTS); Continuous Auditing Based Conformity
+- language: en
+  script: Latn
+  content: Methods for Testing & Specification (MTS); Continuous Auditing Based Conformity
     Assessment for AI-enabled systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68039
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104008/01.01.01_60/ts_104008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 104 008 V1.1.1 (2026-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68039
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104008/01.01.01_60/ts_104008v010101p.pdf
+docidentifier:
+- content: ETSI TS 104 008 V1.1.1 (2026-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 104 008 V1.1.1 (2026-01)
 date:
 - type: published
-  value: 2026-01
+  at: 2026-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods of Testing and Specification Artificial Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2026-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document covers the Continuous Auditing Based Conformity Assessment
+- language: en
+  script: Latn
+  content: The present document covers the Continuous Auditing Based Conformity Assessment
     (CABCA) process for AI-enabled systems, including its definition, principles,
     tasks and benefits compared to traditional "point-in-time" certifications. CABCA
     is examplified in an MLOps setup, which involves the assessment of ML artifacts
     like data sets, model architecture, parameters and metrics.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AI
-- content: assessment
-- content: conformity
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AI
+  - language: en
+    script: Latn
+    content: assessment
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Methods of Testing and Specification Artificial Intelligence
+    content: Technical Specification

@@ -1,81 +1,108 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302092-1V1.2.21999-11
+id: ETSIEN3020921V122199911
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN) and Broadband Private
     Integrated Services Network (B-PISN); Digital Subscriber Signalling System No.
     two (DSS2), Broadband Inter-Exchange Signalling (B-QSIG), and Signalling System
     No. 7 (SS7); Call control in a separated call and bearer control environment;
     Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5063
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209201/01.02.02_60/en_30209201v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 092-1 V1.2.2 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5063
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/30209201/01.02.02_60/en_30209201v010202p.pdf
+docidentifier:
+- content: ETSI EN 302 092-1 V1.2.2 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 092-1 V1.2.2 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband ISDN, Layer 3
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of procedures, operations, messages, call parameters, ca\r\nll
+- language: en
+  script: Latn
+  content: "Specification of procedures, operations, messages, call parameters, ca\r\nll
     states and timers for establishing, maintaining and releasing a cal\r\nl in the
     context of separation of call control and bearer control at i\r\nnterface at SB,
     coincident SB and TB or QB.\r\n This WPS is an update of an earlier WPS drafted
     in March 1996, work is\r\ncarried out in cooperation with ECMA TC 32 TG 15\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BEARER
-- content: B-ISDN
-- content: B-ISUP
-- content: B-QSIG
-- content: BROADBAND
-- content: DSS2
-- content: ISDN
-- content: ISUP
-- content: PROTOCOL
-- content: QSIG
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: B-ISUP
+  - language: en
+    script: Latn
+    content: B-QSIG
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Broadband ISDN, Layer 3
+    content: European Standard

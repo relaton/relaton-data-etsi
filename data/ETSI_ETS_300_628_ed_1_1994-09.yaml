@@ -1,63 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300628ed.11994-09
+id: ETSIETS300628ed1199409
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Alphabets
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Alphabets
     and language-specific information (GSM 03.38)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2657
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300628/01_60/ets_300628e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 628 ed.1 (1994-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2657
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300628/01_60/ets_300628e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 628 ed.1 (1994-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 628 ed.1 (1994-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Coding and structure of alphabets and languages used in e.g. the short\r\nMessage
+- language: en
+  script: Latn
+  content: "Coding and structure of alphabets and languages used in e.g. the short\r\nMessage
     Service (SMS) and unstructured SS data.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CHARACTER
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARACTER
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

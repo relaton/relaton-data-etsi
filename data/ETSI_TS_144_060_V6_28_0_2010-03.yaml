@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITS144060V6.28.02010-03
+id: ETSITS144060V6280201003
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); General Packet Radio
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); General Packet Radio
     Service (GPRS); Mobile Station (MS) - Base Station System (BSS) interface; Radio
     Link Control / Medium Access Control (RLC/MAC) protocol (3GPP TS 44.060 version
     6.28.0 Release 6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33969
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/144000_144099/144060/06.28.00_60/ts_144060v062800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 144 060 V6.28.0 (2010-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33969
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/144000_144099/144060/06.28.00_60/ts_144060v062800p.pdf
+docidentifier:
+- content: ETSI TS 144 060 V6.28.0 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 144 060 V6.28.0 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Protocol aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.28.0
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: GP-45
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: GP-45
+status:
+  stage: Published
 keyword:
-- content: GSM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Protocol aspects
+    content: Technical Specification

@@ -1,67 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300403-6ed.11997-01
+id: ETSIETS3004036ed1199701
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Signalling network layer for circuit-mode basic
     call control; Part 6: Test Suite Structure and Test Purposes (TSS&TP) specification
     for the network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3032
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040306/01_60/ets_30040306e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 403-6 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3032
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30040306/01_60/ets_30040306e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 403-6 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 403-6 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSS&TP\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TSS&TP\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: CCS
-- content: DSS1
-- content: ISDN
-- content: LAYER 3
-- content: NETWORK
-- content: SSIG
-- content: STAGE 3
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SSIG
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Digital access signalling
+    content: European Telecommunication Standard

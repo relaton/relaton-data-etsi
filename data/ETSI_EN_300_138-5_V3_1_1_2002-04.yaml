@@ -1,71 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300138-5V3.1.12002-04
+id: ETSIEN3001385V311200204
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Close User Group (CUG) supplementary service;
     Part 5: Test Suite Structure and Test Purposes (TSS&TP) specification for the
     network'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12632
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300100_300199/30013805/03.01.01_60/en_30013805v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 138-5 V3.1.1 (2002-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12632
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300100_300199/30013805/03.01.01_60/en_30013805v030101p.pdf
+docidentifier:
+- content: ETSI EN 300 138-5 V3.1.1 (2002-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 138-5 V3.1.1 (2002-04)
 date:
 - type: published
-  value: 2002-04
+  at: 2002-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2002-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To handle comments and incorporate appropriate corrections into the ATS
+- language: en
+  script: Latn
+  content: To handle comments and incorporate appropriate corrections into the ATS
     of DSS1 L2.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CUG
-- content: DSS1
-- content: ISDN
-- content: NETWORK
-- content: SUPPLEMENTARY SERVICE
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: CUG
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

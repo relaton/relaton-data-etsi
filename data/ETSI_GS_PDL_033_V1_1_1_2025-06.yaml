@@ -1,72 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSPDL033V1.1.12025-06
+id: ETSIGSPDL033V111202506
+schema_version: v1.4.1
 title:
-- content: Permissioned Distributed Ledger (PDL); Smart Contracts; System Architecture
+- language: en
+  script: Latn
+  content: Permissioned Distributed Ledger (PDL); Smart Contracts; System Architecture
     and Functional Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73071
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/033/01.01.01_60/gs_PDL033v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS PDL 033 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73071
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/PDL/001_099/033/01.01.01_60/gs_PDL033v010101p.pdf
+docidentifier:
+- content: ETSI GS PDL 033 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS PDL 033 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Permissioned Distributed Ledger
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Combine PDL-004 (GR) and PDL-011 (GS) into a new GS: Expand on newer smart
+- language: en
+  script: Latn
+  content: 'Combine PDL-004 (GR) and PDL-011 (GS) into a new GS: Expand on newer smart
     contract platforms and languages. Incorporate recent developments in smart contract
     security. Discuss advancements in smart contract scalability. regulatory developments.
     implementations and use cases. oracle solutions. governance models for smart contract
     upgrades. privacy-preserving . composability. emerging standards. environmental
     impacts. testing and certification. gas optimization.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: blockchain
-- content: PDL
-- content: policies
-- content: SLA
-- content: smart contract
+- taxon:
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: PDL
+  - language: en
+    script: Latn
+    content: policies
+  - language: en
+    script: Latn
+    content: SLA
+  - language: en
+    script: Latn
+    content: smart contract
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Permissioned Distributed Ledger
+    content: Group Specification

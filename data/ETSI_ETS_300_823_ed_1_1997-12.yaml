@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300823ed.11997-12
+id: ETSIETS300823ed1199712
+schema_version: v1.4.1
 title:
-- content: Universal Personal Telecommunication (UPT); UPT phase 2; Functional specification
+- language: en
+  script: Latn
+  content: Universal Personal Telecommunication (UPT); UPT phase 2; Functional specification
     of the interface of a UPT Integrated Circuit Card (ICC) and Public Switched Telephone
     Network (PSTN), Integrated Services Digital Network (ISDN) and Global System for
     Mobile communications (GSM) terminals (one pass and multiple pass authentication)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3817
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300823/01_60/ets_300823e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 823 ed.1 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3817
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300823/01_60/ets_300823e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 823 ed.1 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 823 ed.1 (1997-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Intelligence and Universal Mobility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS describes the mechanical, electrical and logical interface\r\nbetween
+- language: en
+  script: Latn
+  content: "This ETS describes the mechanical, electrical and logical interface\r\nbetween
     card and the mentioned terminals. This includes the\r\nspecification of card data
     and operations as well as of the\r\nnecessary terminal functions for the communication
     between card\r\nand terminals.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: GSM
-- content: ISDN
-- content: PSTN
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Intelligence and Universal Mobility
+    content: European Telecommunication Standard

@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183070V3.1.12009-08
+id: ETSITR183070V311200908
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networks (TISPAN); Resource and Admission Control Sub-System (RACS); Rr interface
     based on the ANCP protocol
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29058
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183070/03.01.01_60/tr_183070v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 070 V3.1.1 (2009-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29058
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183070/03.01.01_60/tr_183070v030101p.pdf
+docidentifier:
+- content: ETSI TR 183 070 V3.1.1 (2009-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 070 V3.1.1 (2009-08)
 date:
 - type: published
-  value: 2009-08
+  at: 2009-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2009-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Study of the applicability of the ANCP protocol to the Rr interface between
+- language: en
+  script: Latn
+  content: "Study of the applicability of the ANCP protocol to the Rr interface between
     Generic Resource Admission Control Function (x-RACF) instances.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: NETWORK
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

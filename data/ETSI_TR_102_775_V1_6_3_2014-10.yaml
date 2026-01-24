@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102775V1.6.32014-10
+id: ETSITR102775V163201410
+schema_version: v1.4.1
 title:
-- content: Speech and multimediaTransmission Quality (STQ); Guidance on objectives
+- language: en
+  script: Latn
+  content: Speech and multimediaTransmission Quality (STQ); Guidance on objectives
     for Quality related Parameters at VoIP Segment-Connection Points; A support to
     NGN transmission planners
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45983
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102775/01.06.03_60/tr_102775v010603p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 775 V1.6.3 (2014-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45983
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102775/01.06.03_60/tr_102775v010603p.pdf
+docidentifier:
+- content: ETSI TR 102 775 V1.6.3 (2014-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 775 V1.6.3 (2014-10)
 date:
 - type: published
-  value: 2014-10
+  at: 2014-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.3
-revdate: 2014-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision due to editorial correction.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Revision due to editorial correction.
+status:
+  stage: Published
 keyword:
-- content: PLANNING
-- content: QUALITY
-- content: TRANSMISSION
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: PLANNING
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

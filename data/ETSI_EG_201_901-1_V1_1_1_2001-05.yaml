@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201901-1V1.1.12001-05
+id: ETSIEG2019011V111200105
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Network integration
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Network integration
     testing; End-to-end testing; Part 1: Test Suite Structure and Test Purposes (TSS&TP)
     specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10888
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201900_201999/20190101/01.01.01_60/eg_20190101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 901-1 V1.1.1 (2001-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10888
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201900_201999/20190101/01.01.01_60/eg_20190101v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 901-1 V1.1.1 (2001-05)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 901-1 V1.1.1 (2001-05)
 date:
 - type: published
-  value: 2001-05
+  at: 2001-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSS&TP for B-ISDN end-to-end testing including CS1, CS2 and interworking
+- language: en
+  script: Latn
+  content: "TSS&TP for B-ISDN end-to-end testing including CS1, CS2 and interworking
     with N-ISDN (based on EURESCOM P613 results)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: B-ISDN
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: ETSI Guide

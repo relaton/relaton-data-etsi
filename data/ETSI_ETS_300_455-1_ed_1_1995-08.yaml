@@ -1,64 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300455-1ed.11995-08
+id: ETSIETS3004551ed1199508
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Broadband Virtual
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Broadband Virtual
     Path Service (BVPS); Part 1: BVPS for Permanent communications (BVPS-P)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1982
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30045501/01_60/ets_30045501e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 455-1 ed.1 (1995-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1982
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30045501/01_60/ets_30045501e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 455-1 ed.1 (1995-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 455-1 ed.1 (1995-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: User Interfaces, Services and Charging
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Description of a semi-permanent virtual path bearer service in B-ISDN.\r\n
+- language: en
+  script: Latn
+  content: "Description of a semi-permanent virtual path bearer service in B-ISDN.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: BEARER
-- content: B-ISDN
-- content: BROADBAND
-- content: ISDN
-- content: SERVICE
-- content: STAGE 1
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: BEARER
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: STAGE 1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: User Interfaces, Services and Charging
+    content: European Telecommunication Standard

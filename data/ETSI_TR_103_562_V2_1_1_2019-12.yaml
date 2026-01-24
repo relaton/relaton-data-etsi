@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103562V2.1.12019-12
+id: ETSITR103562V211201912
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Vehicular Communications; Basic Set
     of Applications; Analysis of the Collective Perception Service (CPS); Release
     2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53495
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.01_60/tr_103562v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 562 V2.1.1 (2019-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53495
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103562/02.01.01_60/tr_103562v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 562 V2.1.1 (2019-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 562 V2.1.1 (2019-12)
 date:
 - type: published
-  value: 2019-12
+  at: 2019-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The deliverable intends to  clarify the technical concepts related to
+- language: en
+  script: Latn
+  content: 'The deliverable intends to  clarify the technical concepts related to
     the exchange of  sensor information between ITS-Ss and will be used as a baseline
     for the specification of CPS in ETSI TS 103 324 '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: NETWORK
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Report

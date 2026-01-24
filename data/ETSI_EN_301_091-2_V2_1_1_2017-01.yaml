@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301091-2V2.1.12017-01
+id: ETSIEN3010912V211201701
+schema_version: v1.4.1
 title:
-- content: 'Short Range Devices; Transport and Traffic Telematics (TTT); Radar equipment
+- language: en
+  script: Latn
+  content: 'Short Range Devices; Transport and Traffic Telematics (TTT); Radar equipment
     operating in the 76 GHz to 77 GHz range; Harmonised Standard covering the essential
     requirements of article 3.2 of Directive 2014/53/EU; Part 2: Fixed infrastructure
     radar equipment'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46652
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30109102/02.01.01_60/en_30109102v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 091-2 V2.1.1 (2017-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46652
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30109102/02.01.01_60/en_30109102v020101p.pdf
+docidentifier:
+- content: ETSI EN 301 091-2 V2.1.1 (2017-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 091-2 V2.1.1 (2017-01)
 date:
 - type: published
-  value: 2017-01
+  at: 2017-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2017-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: HEN for fixed infrastructure TTT applications operating in the 76 GHz to
+- language: en
+  script: Latn
+  content: HEN for fixed infrastructure TTT applications operating in the 76 GHz to
     77 GHz range. Standard part for the essential requirements of article 3.2 of the
     RE-D.  Clarification in the measurement procedure for scanning antennas.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADAR
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: European Standard

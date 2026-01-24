@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125104V11.12.02016-01
+id: ETSITS125104V11120201601
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Base Station (BS) radio
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Base Station (BS) radio
     transmission and reception (FDD) (3GPP TS 25.104 version 11.12.0 Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48067
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125100_125199/125104/11.12.00_60/ts_125104v111200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 104 V11.12.0 (2016-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=48067
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125100_125199/125104/11.12.00_60/ts_125104v111200p.pdf
+docidentifier:
+- content: ETSI TS 125 104 V11.12.0 (2016-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 104 V11.12.0 (2016-01)
 date:
 - type: published
-  value: 2016-01
+  at: 2016-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.12.0
-revdate: 2016-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-70
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-70
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Specification

@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300696ed.11996-03
+id: ETSIETS300696ed1199603
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
     Cordless Terminal Incoming Call additional network feature
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2447
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300696/01_60/ets_300696e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 696 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2447
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300696/01_60/ets_300696e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 696 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 696 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Stage 3 of incoming Cordless Terminal Mobility (CTM) call handling at\r\nQ.
+- language: en
+  script: Latn
+  content: "Stage 3 of incoming Cordless Terminal Mobility (CTM) call handling at\r\nQ.
     Stages 1 and 2 being produced bt BTC1/PT43. See ENV 41005 for\r\ndefinition of
     stage 3. See ENV 41004 for definition of Q reference\r\npoint. To contain PICS
     proforma.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: CTM
-- content: PISN
-- content: QSIG
+- taxon:
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Telecommunication Standard

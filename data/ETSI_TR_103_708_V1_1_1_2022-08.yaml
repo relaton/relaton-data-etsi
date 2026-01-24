@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103708V1.1.12022-08
+id: ETSITR103708V111202208
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58838
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103708/01.01.01_60/tr_103708v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 708 V1.1.1 (2022-08)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Real-Time Text (RTT) in Multiparty Conference Calling
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58838
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103708/01.01.01_60/tr_103708v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 708 V1.1.1 (2022-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 708 V1.1.1 (2022-08)
 date:
 - type: published
-  value: 2022-08
+  at: 2022-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document will establish user guidelines for RTT conference
+- language: en
+  script: Latn
+  content: "The present document will establish user guidelines for RTT conference
     call interfaces, and will identifying technical support needed to implement the
     guidelines.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: HF
-- content: ICT
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: ICT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Human Factors
+    content: Technical Report

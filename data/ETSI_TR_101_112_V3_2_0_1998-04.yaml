@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101112V3.2.01998-04
+id: ETSITR101112V320199804
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Selection procedures
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Selection procedures
     for the choice of radio transmission technologies of the UMTS (UMTS 30.03 version
     3.2.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6577
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101112/03.02.00_60/tr_101112v030200p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 112 V3.2.0 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6577
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101112/03.02.00_60/tr_101112v030200p.pdf
+docidentifier:
+- content: ETSI TR 101 112 V3.2.0 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 112 V3.2.0 (1998-04)
 date:
 - type: published
-  value: 1998-04
+  at: 1998-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.0
-revdate: 1998-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nModification of cell sizes in the Vehicular environment for
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nModification of cell sizes in the Vehicular environment for
     high bit rate services\r\nMethodology for the evaluation ofguard bands between
     operators\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: INTERFACE
-- content: RADIO
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio
+    content: Technical Report

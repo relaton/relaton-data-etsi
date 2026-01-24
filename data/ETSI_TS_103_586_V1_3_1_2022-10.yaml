@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103586V1.3.12022-10
+id: ETSITS103586V131202210
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Liquid cooling solutions for Information
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Liquid cooling solutions for Information
     and Communication Technology (ICT) infrastructure equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66178
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103586/01.03.01_60/ts_103586v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 586 V1.3.1 (2022-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66178
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103586/01.03.01_60/ts_103586v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 586 V1.3.1 (2022-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 586 V1.3.1 (2022-10)
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Environmental Conditions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2022-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: revision in order to change name of pPUE parameter in order to avoid confusion
+- language: en
+  script: Latn
+  content: revision in order to change name of pPUE parameter in order to avoid confusion
     with standards for data centers e.g. EN 50600 series.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: cooling capacity
-- content: Energy Efficiency
+- taxon:
+  - language: en
+    script: Latn
+    content: cooling capacity
+  - language: en
+    script: Latn
+    content: Energy Efficiency
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EE Environmental Conditions
+    content: Technical Specification

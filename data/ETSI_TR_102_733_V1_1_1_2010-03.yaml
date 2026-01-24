@@ -1,64 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102733V1.1.12010-03
+id: ETSITR102733V111201003
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); System Aspects for Public Safety
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28801
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102733/01.01.01_60/tr_102733v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 733 V1.1.1 (2010-03)
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); System Aspects for Public Safety
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28801
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102733/01.01.01_60/tr_102733v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 733 V1.1.1 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 733 V1.1.1 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: PS - Public Safety
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHNjb3BlIG9mIHRoaXMgd29yayBpdGVtIGlzIHRvIGRlZmluZSB0aGUgc3lzdGVtIGRlc2lnbiBvZiB0aGUgUlJTLCB3aGljaCBpbmNsdWRlIHRoZSBmb2xsb3dpbmcgYWN0aXZpdGllczogDQrCt0RlZmluaXRpb24gb2YgdGhlIHN5c3RlbSBkZXNpZ24gYW5kIGFyY2hpdGVjdHVyZSBvZiBSUlMgaW4gUHVibGljIFNhZmV0eSBkb21haW4gb24gdGhlIGJhc2lzIG9mIHVzZXJzIHJlcXVpcmVtZW50cy4NCsK3SW52ZXN0aWdhdGUgdGhlIHJlc3VsdHMgcHJvZHVjZWQgYnkgdGhlIFRDIFJSUyBXb3JraW5nIEdyb3VwIFN5c3RlbSBBc3BlY3RzIGFuZCBhZGFwdCB0aGVtIHRvIHRoZSBQdWJsaWMgU2FmZXR5IGRvbWFpbi4NClRoZSBvdXRwdXQgb2YgdGhlIHdvcmsgaXRlbSB3aWxsIGJlIGEgZmVhc2liaWxpdHkgc3R1ZHkgaW4gdGhlIGZvcm0gb2YgYSB0ZWNobmljYWwgcmVwb3J0Lg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The scope of this work item is to define the system design of the RRS,
+    which include the following activities: \r\nDefinition of the system design and
+    architecture of RRS in Public Safety domain on the basis of users requirements.\r\nInvestigate
+    the results produced by the TC RRS Working Group System Aspects and adapt them
+    to the Public Safety domain.\r\nThe output of the work item will be a feasibility
+    study in the form of a technical report."
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: PS - Public Safety
+    content: Technical Report

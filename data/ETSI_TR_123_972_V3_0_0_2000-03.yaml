@@ -1,66 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR123972V3.0.02000-03
+id: ETSITR123972V300200003
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Circuit Switched Multimedia
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Circuit Switched Multimedia
     Telephony (3G TR 23.972 version 3.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9807
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/123900_123999/123972/03.00.00_60/tr_123972v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 123 972 V3.0.0 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9807
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/123900_123999/123972/03.00.00_60/tr_123972v030000p.pdf
+docidentifier:
+- content: ETSI TR 123 972 V3.0.0 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 123 972 V3.0.0 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "requirements and working assumptions for multimedia for release 99. The
+- language: en
+  script: Latn
+  content: "requirements and working assumptions for multimedia for release 99. The
     description is at a level of detail which is required in the detailed procedure
     design in N1 and N3. \r\nTo cover the CS as well as the PS multimedia services;
     however, with focus on CS. Applies to UMTS as well as GSM.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MM/CC/SM (lu)
+    content: Technical Report

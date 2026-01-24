@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNGP002V1.1.12017-05
+id: ETSIGSNGP002V111201705
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocols (NGP); Self-Organizing Control and Management
+- language: en
+  script: Latn
+  content: Next Generation Protocols (NGP); Self-Organizing Control and Management
     Planes
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49578
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NGP/001_099/002/01.01.01_60/gs_NGP002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NGP 002 V1.1.1 (2017-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49578
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NGP/001_099/002/01.01.01_60/gs_NGP002v010101p.pdf
+docidentifier:
+- content: ETSI GS NGP 002 V1.1.1 (2017-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS NGP 002 V1.1.1 (2017-05)
 date:
 - type: published
-  value: 2017-05
+  at: 2017-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on making network self-organizing, both control
+- language: en
+  script: Latn
+  content: This work item focuses on making network self-organizing, both control
     plane and management plane. The self-organizing characteristics include self-configuration,
     self-optimization, self-protection, self-healing, and self-learning, etc. The
     aim is to make the network be able to adapt to unpredictable changes while hiding
     intrinsic complexity from operators and users. Both protocol-oriented close-loop
     mechanisms and machine learning mechanisms, which may also require support by
     new protocols, are in the scope of technical proposals.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Management Plane
-- content: Next Generation Protocol
-- content: Self-Management
-- content: Self-organizing
+- taxon:
+  - language: en
+    script: Latn
+    content: Management Plane
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: Self-Management
+  - language: en
+    script: Latn
+    content: Self-organizing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Specification

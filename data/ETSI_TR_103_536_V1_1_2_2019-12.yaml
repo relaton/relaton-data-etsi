@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103536V1.1.22019-12
+id: ETSITR103536V112201912
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Strategic/technical approach on how to achieve interoperability/interworking
+- language: en
+  script: Latn
+  content: SmartM2M; Strategic/technical approach on how to achieve interoperability/interworking
     of existing standardized IoT Platforms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58935
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103536/01.01.02_60/tr_103536v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 536 V1.1.2 (2019-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58935
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103536/01.01.02_60/tr_103536v010102p.pdf
+docidentifier:
+- content: ETSI TR 103 536 V1.1.2 (2019-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 536 V1.1.2 (2019-12)
 date:
 - type: published
-  value: 2019-12
+  at: 2019-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2019-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Develop an approach on how to achieve interoperability/interworking of
+- language: en
+  script: Latn
+  content: 'Develop an approach on how to achieve interoperability/interworking of
     existing standardized IoT Platforms (e.g. AllJoyn, IoTivity, IPSO Framework, Thread),
     e.g. using oneM2M interworking framework. This work will include technical as
     well as strategic aspects and aims at engagement with SDOs and Alliances at working
     level based on the AIOTI HLA. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IoT
-- content: IoT platforms
-- content: oneM2M
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: IoT platforms
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

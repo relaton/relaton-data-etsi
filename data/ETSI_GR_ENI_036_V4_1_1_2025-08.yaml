@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI036V4.1.12025-08
+id: ETSIGRENI036V411202508
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Space-Ground Cooperative Network
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Space-Ground Cooperative Network
     Slicing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68551
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/036/04.01.01_60/gr_ENI036v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 036 V4.1.1 (2025-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68551
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/036/04.01.01_60/gr_ENI036v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 036 V4.1.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 036 V4.1.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This GR intends to demonstrate the network slicing interconnectivity and
+- language: en
+  script: Latn
+  content: This GR intends to demonstrate the network slicing interconnectivity and
     service guarantee capability between ground mobile communication network and satellite
     network under the framework of space-ground cooperative network slicing. This
     GR mainly describes the architecture of space-ground cooperative network slicing,
@@ -56,18 +65,18 @@ abstract:
     This GR will encompass research and investigation activities that will address
     static network environment at the first stage. Subsequent efforts may extend the
     work into dynamic network environment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NETWORK
-- content: Slicing
+- taxon:
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: Slicing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

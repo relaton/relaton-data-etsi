@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301025-3V1.5.12013-09
+id: ETSIEN3010253V151201309
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); VHF radiotelephone
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); VHF radiotelephone
     equipment for general communications and associated equipment for Class "D" Digital
     Selective Calling (DSC); Part 3: Harmonized EN covering the essential requirements
     of article 3.3(e) of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39513
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30102503/01.05.01_60/en_30102503v010501p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 025-3 V1.5.1 (2013-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39513
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30102503/01.05.01_60/en_30102503v010501p.pdf
+docidentifier:
+- content: ETSI EN 301 025-3 V1.5.1 (2013-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 025-3 V1.5.1 (2013-09)
 date:
 - type: published
-  value: 2013-09
+  at: 2013-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.5.1
-revdate: 2013-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision of the standard in order to refer to specific clauses of 300 338-3
+- language: en
+  script: Latn
+  content: Revision of the standard in order to refer to specific clauses of 300 338-3
     that are required to implement the functionalities described by the EC Decision
     for article 3.3(e)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSC
-- content: MARITIME
-- content: RADIO
-- content: TRAFFIC
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: DSC
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TRAFFIC
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: European Standard

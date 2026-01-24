@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201104V1.1.11998-01
+id: ETSIES201104V111199801
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Human factors requirements for a European Telephony
+- language: en
+  script: Latn
+  content: Human Factors (HF); Human factors requirements for a European Telephony
     Numbering Space (ETNS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5555
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201100_201199/201104/01.01.01_60/es_201104v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 104 V1.1.1 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5555
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201100_201199/201104/01.01.01_60/es_201104v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 104 V1.1.1 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 104 V1.1.1 (1998-01)
 date:
 - type: published
-  value: 1998-01
+  at: 1998-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The identification of the Human Factors issues in the creation of a Eu\r\nropean
+- language: en
+  script: Latn
+  content: "The identification of the Human Factors issues in the creation of a Eu\r\nropean
     Numbering Space and the creation of recommendations foraddressi\r\nng those issues.
     The recommendations will be targeted at those who nee\r\nd to implement and test
     a European Numbering Space.\r\n Issues that have been identified during the production
@@ -54,24 +63,36 @@ abstract:
     related to\r\nnumber portability, the way in which European Numbers can be identifi\r\ned
     and how users can identify their costs, the effect of call delays,l\r\ninguistic
     difficulties with European services, and the need for usabil\r\nity testing.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: CLIP
-- content: HF
-- content: MIGRATION
-- content: PORTABILITY
-- content: SERVICE
-- content: UNI
-- content: UR
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: CLIP
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: MIGRATION
+  - language: en
+    script: Latn
+    content: PORTABILITY
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: UNI
+  - language: en
+    script: Latn
+    content: UR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119122-3V1.1.12017-01
+id: ETSITS1191223V111201701
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures;
     Part 3: Incorporation of Evidence Record Syntax (ERS) mechanisms in CAdES'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11912203/01.01.01_60/ts_11912203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 122-3 V1.1.1 (2017-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11912203/01.01.01_60/ts_11912203v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 122-3 V1.1.1 (2017-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 122-3 V1.1.1 (2017-01)
 date:
 - type: published
-  value: 2017-01
+  at: 2017-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To generate: \r\n1) The specification of mechanisms able to incorporate
+- language: en
+  script: Latn
+  content: "To generate: \r\n1) The specification of mechanisms able to incorporate
     Evidence Record Syntax (RFC 4998 and RFC 6283) within a CAdES signature as an
     alternative Proof Of Existence to archive-time-stamp-v3.\r\n2) The specification
     of how the new mechanisms will be managed for being incorporated to CAdES signatures
@@ -56,21 +65,27 @@ abstract:
     archive time-stamp attributes will be specified.  Also to include  the new aforementioned
     mechanisms into the repertoire of CAdES levels signatures already defined (this
     can imply the definition of a new level)."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: CAdES
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

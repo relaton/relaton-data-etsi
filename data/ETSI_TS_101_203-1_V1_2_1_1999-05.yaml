@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101203-1V1.2.11999-05
+id: ETSITS1012031V121199905
+schema_version: v1.4.1
 title:
-- content: 'Identification card systems; Telecommunications IC cards and terminals;
+- language: en
+  script: Latn
+  content: 'Identification card systems; Telecommunications IC cards and terminals;
     Test methods and conformance testing for EN 726-3; Part 1: Implementation Conformance
     Statement (ICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7865
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/10120301/01.02.01_60/ts_10120301v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 203-1 V1.2.1 (1999-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7865
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/10120301/01.02.01_60/ts_10120301v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 203-1 V1.2.1 (1999-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 203-1 V1.2.1 (1999-05)
 date:
 - type: published
-  value: 1999-05
+  at: 1999-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Pay Terminals & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 1999-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This new version takes into account comments received during the CEN enquiry
+- language: en
+  script: Latn
+  content: This new version takes into account comments received during the CEN enquiry
     on prEN13343.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: ICS
-- content: PICS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: ICS
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Pay Terminals & Systems
+    content: Technical Specification

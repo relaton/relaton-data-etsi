@@ -1,62 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR174ed.11995-04
+id: ETSIETR174ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Interworking
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Interworking
     aspects of the Subscriber Identity Module - Mobile Equipment (SIM - ME) interface
     between Phase 1 and Phase 2 (GSM 09.91)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3455
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/174/01_60/etr_174e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 174 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3455
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/174/01_60/etr_174e01p.pdf
+docidentifier:
+- content: ETSI ETR 174 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 174 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IC Card Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To clarify how interworking can be obtained between Phase 1\r\nmobile
+- language: en
+  script: Latn
+  content: "To clarify how interworking can be obtained between Phase 1\r\nmobile
     equipment and Phase 2 SIMs and vice versa.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERWORKING
-- content: SIM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: SIM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: IC Card Aspects
+    content: ETSI Technical Report

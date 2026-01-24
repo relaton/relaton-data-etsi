@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101790V1.4.12009-07
+id: ETSITR101790V141200907
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Interaction channel for Satellite Distribution
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Interaction channel for Satellite Distribution
     Systems; Guidelines for the use of EN 301 790
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29336
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101790/01.04.01_60/tr_101790v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 790 V1.4.1 (2009-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29336
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101790/01.04.01_60/tr_101790v010401p.pdf
+docidentifier:
+- content: ETSI TR 101 790 V1.4.1 (2009-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 790 V1.4.1 (2009-07)
 date:
 - type: published
-  value: 2009-07
+  at: 2009-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2009-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Update to account for new structure with mobility being covered in a separate
+- language: en
+  script: Latn
+  content: "Update to account for new structure with mobility being covered in a separate
     TS. Also updates for regenerative and mesh networks as well as a series of maintenance
     issues.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: DIGITAL
-- content: DVB
-- content: SATELLITE
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: SATELLITE
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

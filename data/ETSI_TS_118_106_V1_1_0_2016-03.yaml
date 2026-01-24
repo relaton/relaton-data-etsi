@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118106V1.1.02016-03
+id: ETSITS118106V110201603
+schema_version: v1.4.1
 title:
-- content: oneM2M; Management Enablement (BBF) (oneM2M TS-0006 version 1.1.4 Release
+- language: en
+  script: Latn
+  content: oneM2M; Management Enablement (BBF) (oneM2M TS-0006 version 1.1.4 Release
     1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47610
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118106/01.01.00_60/ts_118106v010100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 106 V1.1.0 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47610
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118106/01.01.00_60/ts_118106v010100p.pdf
+docidentifier:
+- content: ETSI TS 118 106 V1.1.0 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 106 V1.1.0 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.0
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this WI includes: \r\nCollect and describe the state-of-the-art
+- language: en
+  script: Latn
+  content: "The scope of this WI includes: \r\nCollect and describe the state-of-the-art
     technologies (e.g. OMA DM and BBF TR069) that are relevant to oneM2M management
     capabilities (the work area includes remote entity provisioning, diagnostics or
     upgrade) as specified by oneM2M Requirement TS release 1; this step includes the
@@ -56,18 +65,18 @@ abstract:
     aspects;\r\nEvaluate the possibility of leveraging all or part of those technologies
     by oneM2M to enable its management capability.\r\nDeliver the technical report
     collecting all the study results as mentioned above.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

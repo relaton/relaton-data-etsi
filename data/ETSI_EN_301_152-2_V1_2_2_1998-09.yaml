@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301152-2V1.2.21998-09
+id: ETSIEN3011522V122199809
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1) extension;
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1) extension;
     Intelligent Network Application Protocol (INAP); Customised Applications for Mobile
     network Enhanced Logic (CAMEL); Part 2: Protocol Implementation Conformance Statement
     (PICS) proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5286
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/30115202/01.02.02_60/en_30115202v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 152-2 V1.2.2 (1998-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5286
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/30115202/01.02.02_60/en_30115202v010202p.pdf
+docidentifier:
+- content: ETSI EN 301 152-2 V1.2.2 (1998-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 152-2 V1.2.2 (1998-09)
 date:
 - type: published
-  value: 1998-09
+  at: 1998-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1998-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: PICS proforma for part 1.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: PICS proforma for part 1.
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: INAP
-- content: ISDN
-- content: MOBILE
-- content: PICS
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PICS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Intelligent Network
+    content: European Standard

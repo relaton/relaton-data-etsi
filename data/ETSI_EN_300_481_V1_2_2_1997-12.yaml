@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300481V1.2.21997-12
+id: ETSIEN300481V122199712
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); B-Channel
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Integrated Services Digital Network (ISDN); B-Channel
     Aggregation Unit (CAU); Procedures and terminal requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5305
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/300481/01.02.02_60/en_300481v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 481 V1.2.2 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5305
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/300481/01.02.02_60/en_300481v010202p.pdf
+docidentifier:
+- content: ETSI EN 300 481 V1.2.2 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 481 V1.2.2 (1997-12)
 date:
 - type: published
-  value: 1997-12
+  at: 1997-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminals & Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1997-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of the amendment to this ETS is to correct the\r\nerrors in
+- language: en
+  script: Latn
+  content: "The purpose of the amendment to this ETS is to correct the\r\nerrors in
     the published document following the PE 82 and subsequent\r\nV99. Where the existing
     scope shall not be altered from \"This ETS\r\ndefines protocols for the operation
     of a Channel Aggregation Unit\r\neffecting synchronisation and aggregation of
@@ -62,19 +71,21 @@ abstract:
     or\r\n56 kbit/s.The number of aggregated channels may be varied dynamically\r\nduring
     asession. Procedures are given for dealing with faults,\r\nincluding loss of channels
     and slip. Call control is outside the\r\nscope of this ETS.\"\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MULTICHANNEL
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MULTICHANNEL
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Multimedia Terminals & Applications
+    content: European Standard

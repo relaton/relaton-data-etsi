@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM09.08V5.1.01997-04
+id: ETSIGTSGSM0908V510199704
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Application
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Application
     of the Base Station System Application Part (BSSAP) on the E-interface (GSM 09.08)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5571
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/09/0908/05.01.00_60/gsmts_0908v050100p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 09.08 V5.1.0 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5571
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/09/0908/05.01.00_60/gsmts_0908v050100p.pdf
+docidentifier:
+- content: ETSI GTS GSM 09.08 V5.1.0 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 09.08 V5.1.0 (1997-04)
 date:
 - type: published
-  value: 1997-04
+  at: 1997-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.0
-revdate: 1997-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
     describes the subset of Base Station System Application Part (BSS\r\nAP) messages
     and procedures, defined in GSM 08.06 and GSM 08.08, which\r\nis used on the E-interface.
     A general description can be found in GSM\r\n03.02 and GSM 03.09.\r\nFor the initiation
@@ -55,24 +64,36 @@ abstract:
     BSSMAP procedures are used. DTAP is\r\nused for the transfer of connection management
     and mobility managemen\r\nt messages between the MS and the controlling MSC.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BSS
-- content: BSSAP
-- content: E-INTERFACE
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BSS
+  - language: en
+    script: Latn
+    content: BSSAP
+  - language: en
+    script: Latn
+    content: E-INTERFACE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

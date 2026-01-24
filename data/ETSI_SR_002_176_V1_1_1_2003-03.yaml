@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSISR002176V1.1.12003-03
+id: ETSISR002176V111200303
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Algorithms and Parameters
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Algorithms and Parameters
     for Secure Electronic Signatures
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18277
-  type: src
-- content: http://www.etsi.org/deliver/etsi_sr/002100_002199/002176/01.01.01_60/sr_002176v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI SR 002 176 V1.1.1 (2003-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18277
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_sr/002100_002199/002176/01.01.01_60/sr_002176v010101p.pdf
+docidentifier:
+- content: ETSI SR 002 176 V1.1.1 (2003-03)
   type: ETSI
   primary: true
 docnumber: ETSI SR 002 176 V1.1.1 (2003-03)
 date:
 - type: published
-  value: 2003-03
+  at: 2003-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: In response to a need of ESI and CEN ISSS E SIGN WS, an Algorithms paper
+- language: en
+  script: Latn
+  content: In response to a need of ESI and CEN ISSS E SIGN WS, an Algorithms paper
     was created by an informal group within EESSI. In order to provide an official
     reference to this document the EESSI steering committee, with the agreement of
     the chairman of the informal group which has created the document, has requested
     TC ESI to adopt it and publish it as an ESI Special Report.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Special Report
     abbreviation: SR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Special Report

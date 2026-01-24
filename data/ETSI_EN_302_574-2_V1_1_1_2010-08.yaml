@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302574-2V1.1.12010-08
+id: ETSIEN3025742V111201008
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Harmonised Standard for satellite
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Harmonised Standard for satellite
     earth stations for MSS operating in the 2 GHz frequency bands; Part 2: User Equipment
     (UE) for wideband systems: covering the essential requirements of article 3.2
     of the Directive 2014/53/EU'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24293
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302500_302599/30257402/01.01.01_60/en_30257402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 574-2 V1.1.1 (2010-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24293
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302500_302599/30257402/01.01.01_60/en_30257402v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 574-2 V1.1.1 (2010-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 574-2 V1.1.1 (2010-08)
 date:
 - type: published
-  value: 2010-08
+  at: 2010-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES WG on Mobile Satellite Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Harmonized Standard for two-way communications in the S-bands specifies
+- language: en
+  script: Latn
+  content: This Harmonized Standard for two-way communications in the S-bands specifies
     the essential requirements due to the R&TTE (article 3.2) Directive for Satellite
     Earth Station Terminals operating as part of a satellite network. These Earth
     Stations (or the satellite part of multi mode terminals) operate in the frequency
@@ -56,20 +65,24 @@ abstract:
     to 2200 MHz (space-to-earth) and 1980 to 2010 MHz (earth-to-space) . During the
     drafting of the Harmonized Standard the work should consider EN 301 908 and review
     its applicability to S-UMTS.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: IMT-2000
-- content: MOBILE
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: IMT-2000
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: SES WG on Mobile Satellite Systems
+    content: European Standard

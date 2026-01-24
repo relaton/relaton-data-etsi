@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303360V1.1.12017-02
+id: ETSIEN303360V111201702
+schema_version: v1.4.1
 title:
-- content: Short Range Devices; Transport and Traffic Telematics (TTT); Radar equipment
+- language: en
+  script: Latn
+  content: Short Range Devices; Transport and Traffic Telematics (TTT); Radar equipment
     operating in the 76 GHz to 77 GHz range; Harmonised Standard covering the essential
     requirements of article 3.2 of Directive 2014/53/EU; Obstacle Detection Radars
     for Use on Manned Rotorcraft
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46655
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303300_303399/303360/01.01.01_60/en_303360v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 360 V1.1.1 (2017-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46655
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303300_303399/303360/01.01.01_60/en_303360v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 360 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 360 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Automotive and surveillance radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "EN covering the technical requirements and measurement procedures for
+- language: en
+  script: Latn
+  content: "EN covering the technical requirements and measurement procedures for
     Heliborne Obstacle Detection Radar equipment operating in the 76 GHz to 77 GHz
     range.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADAR
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Automotive and surveillance radar
+    content: European Standard

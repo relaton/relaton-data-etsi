@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM004V1.1.22020-06
+id: ETSIGSCIM004V112202006
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); Application Programming Interface
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); Application Programming Interface
     (API)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59454
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/004/01.01.02_60/gs_CIM004v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 004 V1.1.2 (2020-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59454
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/004/01.01.02_60/gs_CIM004v010102p.pdf
+docidentifier:
+- content: ETSI GS CIM 004 V1.1.2 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 004 V1.1.2 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this Group Specification is the (preliminary) definition
+- language: en
+  script: Latn
+  content: "The purpose of this Group Specification is the (preliminary) definition
     of a standard API for Context Information Management (CIM-API) enabling close
     to real-time access to information coming from many different sources (not only
     IoT). The document shall define how such an API enables applications to perform
@@ -61,22 +70,30 @@ abstract:
     Specification shall be compatible with an example data model published at the
     same time (see Work Item MOD0), so that implementers of appropriate software can
     efficiently test and compare results and interoperability.  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: ARCHITECTURE
-- content: GAP
-- content: INFORMATION MODEL
-- content: INTEROPERABILITY
-- content: smart city
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: GAP
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: smart city
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

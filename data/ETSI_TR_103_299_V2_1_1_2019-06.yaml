@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103299V2.1.12019-06
+id: ETSITR103299V211201906
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport System (ITS); Cooperative Adaptive Cruise Control
+- language: en
+  script: Latn
+  content: Intelligent Transport System (ITS); Cooperative Adaptive Cruise Control
     (CACC); Pre-standardization study
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45854
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103299/02.01.01_60/tr_103299v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 299 V2.1.1 (2019-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45854
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103299/02.01.01_60/tr_103299v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 299 V2.1.1 (2019-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 299 V2.1.1 (2019-06)
 date:
 - type: published
-  value: 2019-06
+  at: 2019-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Application Requirements and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To describe the relevant C-ACC use cases enabled by Cooperative ITS, considering
+- language: en
+  script: Latn
+  content: "To describe the relevant C-ACC use cases enabled by Cooperative ITS, considering
     the current state-of-the-art. To review the existing ITS standards in light of
     the described use cases. To identify and describe features at the ITS application
     and/or facilities layer to support the use cases. To make recommendations for
     further specifications for existing standards revision or new standard development.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Autonomic Networking
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: Autonomic Networking
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Application Requirements and Services
+    content: Technical Report

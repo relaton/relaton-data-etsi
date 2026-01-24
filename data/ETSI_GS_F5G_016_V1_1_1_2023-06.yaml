@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSF5G016V1.1.12023-06
+id: ETSIGSF5G016V111202306
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); Data Models of Telemetry for Access
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); Data Models of Telemetry for Access
     Network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64320
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/016/01.01.01_60/gs_F5G016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS F5G 016 V1.1.1 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64320
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/016/01.01.01_60/gs_F5G016v010101p.pdf
+docidentifier:
+- content: ETSI GS F5G 016 V1.1.1 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS F5G 016 V1.1.1 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 5th Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will specify the data models for Telemetry in the Access
+- language: en
+  script: Latn
+  content: This Work Item will specify the data models for Telemetry in the Access
     Network including both configuration and collection, referring to F5G-0011 Telemetry
     and provding typical examples.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: F5G
-- content: TELEMETRY
-- content: YANG
+- taxon:
+  - language: en
+    script: Latn
+    content: F5G
+  - language: en
+    script: Latn
+    content: TELEMETRY
+  - language: en
+    script: Latn
+    content: YANG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: 5th Generation Fixed Network
+    content: Group Specification

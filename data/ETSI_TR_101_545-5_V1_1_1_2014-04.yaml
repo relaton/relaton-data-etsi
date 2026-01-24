@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101545-5V1.1.12014-04
+id: ETSITR1015455V111201404
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); Second Generation DVB Interactive Satellite
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); Second Generation DVB Interactive Satellite
     System (DVB-RCS2); Part 5: Guidelines for the Implementation and Use of TS 101
     545-3'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41962
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10154505/01.01.01_60/tr_10154505v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 545-5 V1.1.1 (2014-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41962
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10154505/01.01.01_60/tr_10154505v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 545-5 V1.1.1 (2014-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 545-5 V1.1.1 (2014-04)
 date:
 - type: published
-  value: 2014-04
+  at: 2014-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document provides the necessary implementation guidelines for the
+- language: en
+  script: Latn
+  content: This document provides the necessary implementation guidelines for the
     Higher Layer Satellite for RCS-2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DVB
-- content: INTERACTION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

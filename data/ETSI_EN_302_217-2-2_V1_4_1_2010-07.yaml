@@ -1,74 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302217-2-2V1.4.12010-07
+id: ETSIEN30221722V141201007
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Characteristics and requirements for point-to-point
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Characteristics and requirements for point-to-point
     equipment and antennas; Part 2-2: Digital systems operating in frequency bands
     where frequency co-ordination is applied; Harmonized EN covering the essential
     requirements of article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30989
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302200_302299/3022170202/01.04.01_60/en_3022170202v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 217-2-2 V1.4.1 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30989
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302200_302299/3022170202/01.04.01_60/en_3022170202v010401p.pdf
+docidentifier:
+- content: ETSI EN 302 217-2-2 V1.4.1 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 217-2-2 V1.4.1 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SW5jbHVkZSB1bmlmaWVkIHNwZWN0cnVtIG1hc2tzIGZvciBjbGFzc2VzIDIgYW5kIDRMIGZvciBhbGwgY2hhbm5lbCBzZXBhcmF0aW9ucyAoMSw3NS8zLDUvNy8xNC8yOC81NiBNSHopLiBUb2dldGhlciB3aXRoIHRoZSBhbHJlYWR5IHVuaWZpZWQgb25lcyBmb3IgY2xhc3NlcyA0SCwgNUEsIDVCIGFuZCA2QSB0aGV5IHdvdWxkIGJlIG1vdmVkIGluIHRoZSBtYWluIGJvZHkgb2YgdGhlIEVOLg0KT3RoZXIg4oCcb2xkZXLigJ0gbWFza3MsIGFmdGVyIGNvbnNpZGVyYXRpb24gZm9yIHRoZWlyIHBvc3NpYmxlIGNvbXBsZXRlIHJlbW92YWwsIHdpbGwgcmVtYWluIGluIHRoZSBhbm5leGVzIG9ubHkgYXMg4oCcc3BlY2lhbOKAnSBjYXNlcy4NCkV4dGVuZCBjbGFzcyA2IHN5c3RlbXMgdG8gNyBhbmQgMTQgTUh6IGNoYW5uZWxzLg0KSW50cm9kdWNlIHN5c3RlbSBwYXJhbWV0ZXJzIGZvciB0aGUgNDIgR0h6IG5ld2x5IG1hZGUgYXZhaWxhYmxlIGZvciBQLVAgb3BlcmF0aW9ucy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Include unified spectrum masks for classes 2 and 4L for all channel separations
+    (1,75/3,5/7/14/28/56 MHz). Together with the already unified ones for classes
+    4H, 5A, 5B and 6A they would be moved in the main body of the EN.\r\nOther older
+    masks, after consideration for their possible complete removal, will remain in
+    the annexes only as special cases.\r\nExtend class 6 systems to 7 and 14 MHz channels.\r\nIntroduce
+    system parameters for the 42 GHz newly made available for P-P operations."
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: DFRS
-- content: DIGITAL
-- content: DRRS
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
-- content: REGULATION
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: European Standard

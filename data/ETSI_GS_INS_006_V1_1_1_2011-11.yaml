@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSINS006V1.1.12011-11
+id: ETSIGSINS006V111201111
+schema_version: v1.4.1
 title:
-- content: Identity and access management for Networks and Services; Study to Identify
+- language: en
+  script: Latn
+  content: Identity and access management for Networks and Services; Study to Identify
     the need for a Global, Distributed Discovery Mechanism
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34617
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/INS/001_099/006/01.01.01_60/gs_INS006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS INS 006 V1.1.1 (2011-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34617
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/INS/001_099/006/01.01.01_60/gs_INS006v010101p.pdf
+docidentifier:
+- content: ETSI GS INS 006 V1.1.1 (2011-11)
   type: ETSI
   primary: true
 docnumber: ETSI GS INS 006 V1.1.1 (2011-11)
 date:
 - type: published
-  value: 2011-11
+  at: 2011-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Identity and access management for Networks and Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This study will focus on gap analysis for global distributed discovery
+- language: en
+  script: Latn
+  content: This study will focus on gap analysis for global distributed discovery
     of identifiers, providers and capabilities.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CONTROL
-- content: ID
-- content: MANAGEMENT
-- content: NETWORK
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Identity and access management for Networks and Services
+    content: Group Specification

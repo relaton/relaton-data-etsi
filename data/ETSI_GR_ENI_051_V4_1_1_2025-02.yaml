@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI051V4.1.12025-02
+id: ETSIGRENI051V411202502
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Study on AI Agents based Next-generation
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Study on AI Agents based Next-generation
     Network Slicing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72234
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/051/04.01.01_60/gr_ENI051v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 051 V4.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72234
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/051/04.01.01_60/gr_ENI051v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 051 V4.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 051 V4.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document analyses and studies potential ENI activities on
+- language: en
+  script: Latn
+  content: "The present document analyses and studies potential ENI activities on
     6G native AI capabilities. ENI has a strong focus on providing cognitive capabilities
     to improve the user experience of the operator. The present document covers the
     areas and needs for new technical projects using 6G native AI capabilities. This
@@ -57,20 +66,24 @@ abstract:
     the present document to explain the operation of this system. However, this is
     not a limiting case, and the system described in the present document is intended
     to serve a large variety of CN use cases.\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 6G
-- content: GenAI
-- content: LLM
-- content: Native AI
+- taxon:
+  - language: en
+    script: Latn
+    content: 6G
+  - language: en
+    script: Latn
+    content: GenAI
+  - language: en
+    script: Latn
+    content: LLM
+  - language: en
+    script: Latn
+    content: Native AI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

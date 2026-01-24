@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300392-2V2.5.22005-11
+id: ETSIEN3003922V252200511
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 2: Air
     Interface (AI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19867
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039202/02.05.02_60/en_30039202v020502p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 392-2 V2.5.2 (2005-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19867
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30039202/02.05.02_60/en_30039202v020502p.pdf
+docidentifier:
+- content: ETSI EN 300 392-2 V2.5.2 (2005-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 392-2 V2.5.2 (2005-11)
 date:
 - type: published
-  value: 2005-11
+  at: 2005-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.5.2
-revdate: 2005-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "-  Inclusion of Change Request results into the standard;\r\n- Addition
+- language: en
+  script: Latn
+  content: "-  Inclusion of Change Request results into the standard;\r\n- Addition
     of location information transport protocol;\r\n- Addition of Air to Ground service
     support;\r\n- Study on C/I value update.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: European Standard

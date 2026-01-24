@@ -1,64 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300166ed.11993-08
+id: ETSIETS300166ed1199308
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Physical and electrical characteristics
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Physical and electrical characteristics
     of hierarchical digital interfaces for equipment using the 2 048 kbit/s - based
     plesiochronous or synchronous digital hierarchies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=295
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300166/01_60/ets_300166e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 166 ed.1 (1993-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=295
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300166/01_60/ets_300166e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 166 ed.1 (1993-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 166 ed.1 (1993-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the physical & electrical characteristics of 64, 2048\r\n8448,
+- language: en
+  script: Latn
+  content: "Specification of the physical & electrical characteristics of 64, 2048\r\n8448,
     34368, 139264, 155520 kbit/s traffic interfaces & 2048 kHz\r\nsynchronisation
     interface.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: LAYER 1
-- content: NNI
-- content: PDH
-- content: SDH
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: NNI
+  - language: en
+    script: Latn
+    content: PDH
+  - language: en
+    script: Latn
+    content: SDH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Telecommunication Standard

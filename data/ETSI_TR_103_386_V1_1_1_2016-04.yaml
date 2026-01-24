@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103386V1.1.12016-04
+id: ETSITR103386V111201604
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specifications (MTS) Deployment of Model-Based
+- language: en
+  script: Latn
+  content: Methods for Testing and Specifications (MTS) Deployment of Model-Based
     Automated Testing Infrastructure in a Cloud
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46561
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103386/01.01.01_60/tr_103386v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 386 V1.1.1 (2016-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46561
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103386/01.01.01_60/tr_103386v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 386 V1.1.1 (2016-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 386 V1.1.1 (2016-04)
 date:
 - type: published
-  value: 2016-04
+  at: 2016-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical Report shall deliver case study based on practical experience:
+- language: en
+  script: Latn
+  content: "Technical Report shall deliver case study based on practical experience:
     \r\n-\tfor the deployment of MBT automated testing infrastructure as TPaaS (Test
     Platform as a Service);\r\n-\tfor the deployment of (3rd-party) test methods for
     automated test suite generation, scheduling, execution, and test arbitration within
     TPaaS;\r\n-\tfor the definition and use of Domain Specific Language (DSL)  for
     developing SUT models and Test models that are compliant with the test methods
     used within TPaaS.  \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CLOUD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103289-1V2.1.12016-07
+id: ETSITS1032891V211201607
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
     testing for Cx and Dx interfaces; (3GPPTM Release 10); Part 1: Protocol Implementation
     Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47185
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10328901/02.01.01_60/ts_10328901v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 289-1 V2.1.1 (2016-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47185
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10328901/02.01.01_60/ts_10328901v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 289-1 V2.1.1 (2016-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 289-1 V2.1.1 (2016-07)
 date:
 - type: published
-  value: 2016-07
+  at: 2016-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Conformance Test Specifications for the Diameter Protocol over the Cx and
+- language: en
+  script: Latn
+  content: Conformance Test Specifications for the Diameter Protocol over the Cx and
     the Dx reference points
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFORMANCE
-- content: Diameter
-- content: PICS
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

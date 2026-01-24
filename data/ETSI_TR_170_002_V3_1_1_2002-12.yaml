@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR170002V3.1.12002-12
+id: ETSITR170002V311200212
+schema_version: v1.4.1
 title:
-- content: Project MESA; Service Specification Group - Services and Applications;
+- language: en
+  script: Latn
+  content: Project MESA; Service Specification Group - Services and Applications;
     Definitions, symbols and abbreviations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13348
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/170000_170099/170002/03.01.01_60/tr_170002v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 170 002 V3.1.1 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13348
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/170000_170099/170002/03.01.01_60/tr_170002v030101p.pdf
+docidentifier:
+- content: ETSI TR 170 002 V3.1.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 170 002 V3.1.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MESA Services and Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Project Mesa definitions and acronymns
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Project Mesa definitions and acronymns
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: RADIO
-- content: SYMBOLS
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SYMBOLS
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MESA Services and Applications
+    content: Technical Report

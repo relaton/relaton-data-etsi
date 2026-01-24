@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS151026V4.0.02002-01
+id: ETSITS151026V400200201
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); GSM Repeater Equipment
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); GSM Repeater Equipment
     Specification (3GPP TS 51.026 version 4.0.0 Release 4)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15539
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/151000_151099/151026/04.00.00_60/ts_151026v040000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 151 026 V4.0.0 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15539
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/151000_151099/151026/04.00.00_60/ts_151026v040000p.pdf
+docidentifier:
+- content: ETSI TS 151 026 V4.0.0 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 151 026 V4.0.0 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Base station testing and O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.0
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Geran#7
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Geran#7
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Base station testing and O&M
+    content: Technical Specification

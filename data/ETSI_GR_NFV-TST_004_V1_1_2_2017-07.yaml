@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-TST004V1.1.22017-07
+id: ETSIGRNFVTST004V112201707
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Testing; Guidelines for Test Plan
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing; Guidelines for Test Plan
     on Path Implementation through NFVI
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53593
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/004/01.01.02_60/gr_NFV-TST004v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-TST 004 V1.1.2 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53593
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/004/01.01.02_60/gr_NFV-TST004v010102p.pdf
+docidentifier:
+- content: ETSI GR NFV-TST 004 V1.1.2 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-TST 004 V1.1.2 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item  provides guidelines for test plans that assess different
+- language: en
+  script: Latn
+  content: "This work item  provides guidelines for test plans that assess different
     approaches to defining SDN Applications, different ways of arranging and federating
     SDN Controllers, and arrangements of network switching/forwarding functions (both
     physical and virtual) to create the various path-implementations between and among
@@ -60,20 +69,24 @@ abstract:
     uncover combinations which are non-interoperable, and these should be noted.  (See
     NFV(15)FTR011r2 for more information, including SDOs/areas of collaboration outside
     this scope.)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: NFVI
-- content: SDN
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
+  - language: en
+    script: Latn
+    content: SDN
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Report

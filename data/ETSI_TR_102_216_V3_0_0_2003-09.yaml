@@ -1,65 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102216V3.0.02003-09
+id: ETSITR102216V300200309
+schema_version: v1.4.1
 title:
-- content: Smart cards; Vocabulary for Smart Card Platform specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18815
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102216/03.00.00_60/tr_102216v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 216 V3.0.0 (2003-09)
+- language: en
+  script: Latn
+  content: Smart cards; Vocabulary for Smart Card Platform specifications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18815
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102200_102299/102216/03.00.00_60/tr_102216v030000p.pdf
+docidentifier:
+- content: ETSI TR 102 216 V3.0.0 (2003-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 216 V3.0.0 (2003-09)
 date:
 - type: published
-  value: 2003-09
+  at: 2003-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - {}
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2003-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'A technical report along the lines of ETSI TR 121 905: "Universal Mobile
+- language: en
+  script: Latn
+  content: 'A technical report along the lines of ETSI TR 121 905: "Universal Mobile
     Telecommunications System (UMTS); Vocabulary for 3GPP Specifications " will be
     produced to cover terms and acronyms that are common across and generally useful
     in SCP specifications.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ''
+    content: Technical Report

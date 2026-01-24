@@ -1,64 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118112V2.2.22020-03
+id: ETSITS118112V222202003
+schema_version: v1.4.1
 title:
-- content: oneM2M; Base Ontology (oneM2M TS-0012 version 2.2.2 Release 2A)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53410
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118112/02.02.02_60/ts_118112v020202p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 112 V2.2.2 (2020-03)
+- language: en
+  script: Latn
+  content: oneM2M; Base Ontology (oneM2M TS-0012 version 2.2.2 Release 2A)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53410
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118112/02.02.02_60/ts_118112v020202p.pdf
+docidentifier:
+- content: ETSI TS 118 112 V2.2.2 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 112 V2.2.2 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.2
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gcHJvdmlkZXMgYSBwbGFuIHdoYXQgbmVlZHMgdG8gYmUgZG9uZSB0byBlbmhhbmNlIHRoZSBvbmVNMk0gU3lzdGVtIHRvIGludGVyd29yayB3aXRoIC0gbm90IG9uZU0yTSBiYXNlZCAtIEFyZWEgTmV0d29ya3MgYW5kIHRoZWlyIGRldmljZXMgKHN1YnNlcXVlbnRseSBjYWxsZWQgJ2ludGVyd29ya2VkIHN5c3RlbXMnKQ0KVGhlIHRhcmdldCBvZiB0aGlzIFdJIGlzIGEgJ2dlbmVyaWMnIHdheSBob3cgc3VjaCBpbnRlcndvcmtpbmcgY2FuIGJlIGFjY29tcGxpc2hlZCBmb3IgYW55IGtpbmQgb2YgaW50ZXJ3b3JrZWQgc3lzdGVtIHdpdGggc21hbGwgYWRkaXRpb25hbCBzdGFuZGFyZGl6YXRpb24vc3BlY2lmaWNhdGlvbiBlZmZvcnQgaW4gb25lTTJNIGFuZCBmb3IgYW55IHNwZWNpZmljIGludGVyd29ya2VkIHN5c3RlbS4gDQpJdCBhbHNvIHN0cml2ZXMgZm9yIG1pbmltYWwgbmVlZCBvZiBhZG1pbmlzdHJhdGl2ZSBjb25maWd1cmF0aW9uIGFuZCBmb3IgcGx1Zy1hbmQtcGxheSAobWluaW1hbCBtYW51YWwgY3VzdG9taXphdGlvbiBuZWVkKSBhcyBmYXIgYXMgcG9zc2libGUuDQpHZW5lcmljIEludGVyd29ya2luZyBjb3VsZCBiZSB1dGlsaXplZCBmb3Ig4oCcRGV2aWNlIEFic3RyYWN0aW9u4oCdLiANClRoZSBXSSBpcyBiYXNlZCBvbiBSZWwtMSB3b3JrIGNvbnRhaW5lZCBpbiBUUi0wMDA3IGJ5IHV0aWxpemluZyBzZW1hbnRpYyBkZXNjcmlwdGlvbiBvZiB0aGUgaW50ZXJ3b3JrZWQgc3lzdGVtLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This work item provides a plan what needs to be done to enhance the oneM2M
+    System to interwork with - not oneM2M based - Area Networks and their devices
+    (subsequently called 'interworked systems')\r\nThe target of this WI is a 'generic'
+    way how such interworking can be accomplished for any kind of interworked system
+    with small additional standardization/specification effort in oneM2M and for any
+    specific interworked system. \r\nIt also strives for minimal need of administrative
+    configuration and for plug-and-play (minimal manual customization need) as far
+    as possible.\r\nGeneric Interworking could be utilized for Device Abstraction.
+    \r\nThe WI is based on Rel-1 work contained in TR-0007 by utilizing semantic description
+    of the interworked system."
+status:
+  stage: Published
 keyword:
-- content: M2M
-- content: ontology
+- taxon:
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: ontology
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

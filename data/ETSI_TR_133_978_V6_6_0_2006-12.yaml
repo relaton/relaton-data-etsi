@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR133978V6.6.02006-12
+id: ETSITR133978V660200612
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Security aspects of
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Security aspects of
     early IP Multimedia Subsystem (IMS) (3GPP TR 33.978 version 6.6.0 Release 6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25729
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133978/06.06.00_60/tr_133978v060600p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 133 978 V6.6.0 (2006-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25729
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/133900_133999/133978/06.06.00_60/tr_133978v060600p.pdf
+docidentifier:
+- content: ETSI TR 133 978 V6.6.0 (2006-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 133 978 V6.6.0 (2006-12)
 date:
 - type: published
-  value: 2006-12
+  at: 2006-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.6.0
-revdate: 2006-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-34
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-34
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security
+    content: Technical Report

@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319403-1V2.3.12020-06
+id: ETSIEN3194031V231202006
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Trust Service Provider
     Conformity Assessment; Part 1: Requirements for conformity assessment bodies assessing
     Trust Service Providers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56885
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319400_319499/31940301/02.03.01_60/en_31940301v020301p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 403-1 V2.3.1 (2020-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56885
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319400_319499/31940301/02.03.01_60/en_31940301v020301p.pdf
+docidentifier:
+- content: ETSI EN 319 403-1 V2.3.1 (2020-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 403-1 V2.3.1 (2020-06)
 date:
 - type: published
-  value: 2020-06
+  at: 2020-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.3.1
-revdate: 2020-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work item is to update EN 319 403 to:\r\n   \r\na)\tTake into account
+- language: en
+  script: Latn
+  content: "This work item is to update EN 319 403 to:\r\n   \r\na)\tTake into account
     practical experience of Conformity Assessment Bodies in applying EN 319 403, including:\r\ni.\tDetailed
     audit time 7.4.2    \r\nii.\tClarify certification decision 7.6 b)    \r\niii.\tModify
     7.10 (changes affecting certification)    \r\niv.\tModify competencies for review
@@ -57,21 +66,27 @@ abstract:
     that can be taken into account in auditing an overall TSP service\r\n   \r\nc)\tConsider
     role relationship TS 119 403-2 for publicly trusted services and TS 119 403-3
     and whether these should be mandated\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

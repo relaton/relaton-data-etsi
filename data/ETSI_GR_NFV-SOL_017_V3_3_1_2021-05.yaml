@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-SOL017V3.3.12021-05
+id: ETSIGRNFVSOL017V331202105
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 3; Protocols and Data Models;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Protocols and Data Models;
     Report on protocol and data model solutions for Multi-site Connectivity Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58013
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-SOL/001_099/017/03.03.01_60/gr_NFV-SOL017v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-SOL 017 V3.3.1 (2021-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58013
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-SOL/001_099/017/03.03.01_60/gr_NFV-SOL017v030301p.pdf
+docidentifier:
+- content: ETSI GR NFV-SOL 017 V3.3.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-SOL 017 V3.3.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The work item will analyse the network connectivity protocols and data
+- language: en
+  script: Latn
+  content: 'The work item will analyse the network connectivity protocols and data
     model solutions that are available in the industry (as specified by other organizations)
     and analyse the extent to which these solutions address the functional, interface
     and descriptor requirements specified in ETSI GS NFV-IFA 032 and partly in ETSI
@@ -54,21 +63,27 @@ abstract:
     item will conclude with a set of recommendations about the stage 3 specification
     work required for addressing the above mentioned requirements set. The deliverable
     will be informative. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
-- content: NFVI
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Solutions
+    content: Group Report

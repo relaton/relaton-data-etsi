@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS181014V2.0.02007-11
+id: ETSITS181014V200200711
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Requirements for network transport capabilities to support
     IPTV services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24711
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181014/02.00.00_60/ts_181014v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 181 014 V2.0.0 (2007-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24711
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/181000_181099/181014/02.00.00_60/ts_181014v020000p.pdf
+docidentifier:
+- content: ETSI TS 181 014 V2.0.0 (2007-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 181 014 V2.0.0 (2007-11)
 date:
 - type: published
-  value: 2007-11
+  at: 2007-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2007-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "From the characteristics of IPTV services, including Broadcast TV and
+- language: en
+  script: Latn
+  content: "From the characteristics of IPTV services, including Broadcast TV and
     Video on Demand, as specified by other organisations such as the DVB, derive the
     impacts on the TISPAN NGN transport layer and specify the network requirements,
     as relates to the transport layer, to support these services, taking terminal
     capabilities into account.\r\nNote: This specification will not lead to specification
     of a solution that precludes any other non-DVB solution. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: IP
-- content: TV
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: TV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Services
+    content: Technical Specification

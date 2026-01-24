@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201803-2-1V1.1.12002-10
+id: ETSIES20180321V111200210
+schema_version: v1.4.1
 title:
-- content: 'Dynamic synchronous Transfer Mode (DTM); Part 2: System characteristics;
+- language: en
+  script: Latn
+  content: 'Dynamic synchronous Transfer Mode (DTM); Part 2: System characteristics;
     Sub-part 1: Data link aspects'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10834
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201800_201899/2018030201/01.01.01_60/es_2018030201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 803-2-1 V1.1.1 (2002-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10834
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201800_201899/2018030201/01.01.01_60/es_2018030201v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 803-2-1 V1.1.1 (2002-10)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 803-2-1 V1.1.1 (2002-10)
 date:
 - type: published
-  value: 2002-10
+  at: 2002-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Addressing and channel management.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Addressing and channel management.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: DTM
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: DTM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: ETSI Standard

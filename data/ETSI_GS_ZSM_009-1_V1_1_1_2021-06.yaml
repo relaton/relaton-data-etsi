@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSZSM009-1V1.1.12021-06
+id: ETSIGSZSM0091V111202106
+schema_version: v1.4.1
 title:
-- content: 'Zero-touch network and Service Management (ZSM); Closed-Loop Automation;
+- language: en
+  script: Latn
+  content: 'Zero-touch network and Service Management (ZSM); Closed-Loop Automation;
     Part 1: Enablers'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58053
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/00901/01.01.01_60/gs_ZSM00901v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS ZSM 009-1 V1.1.1 (2021-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58053
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/ZSM/001_099/00901/01.01.01_60/gs_ZSM00901v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 009-1 V1.1.1 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS ZSM 009-1 V1.1.1 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item describes how to enable closed-loop automation based on
+- language: en
+  script: Latn
+  content: This work item describes how to enable closed-loop automation based on
     the ZSM architectural framework. The work item specifies how to automatically
     deploy and configure closed loops involving both the E2E service management domain
     and the management domains. Closed loops running within the managed entities are
@@ -55,20 +64,24 @@ abstract:
     and/or other forms of inputs to steer their behaviour, and (iii) interactions
     between closed loops and external entities. The deliverable will specify stage-2
     generic enablers and flexible procedures for closed-loop automation.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: MANAGEMENT
-- content: NETWORK
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Specification

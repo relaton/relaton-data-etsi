@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300433ed.11995-11
+id: ETSIETS300433ed1199511
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); Double Side Band (DSB) and/or Single
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); Double Side Band (DSB) and/or Single
     Side Band (SSB) amplitude modulated Citizens Band (CB) radio equipment; Technical
     characteristics and methods of measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2236
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300433/01_60/ets_300433e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 433 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2236
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300433/01_60/ets_300433e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 433 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 433 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio Equipment & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1W (carrier power) DSB AM & 4W (PEP) SSB AM.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "1W (carrier power) DSB AM & 4W (PEP) SSB AM.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: AM
-- content: CB
-- content: DSB
-- content: RADIO
-- content: SSB
+- taxon:
+  - language: en
+    script: Latn
+    content: AM
+  - language: en
+    script: Latn
+    content: CB
+  - language: en
+    script: Latn
+    content: DSB
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SSB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio Equipment & Systems
+    content: European Telecommunication Standard

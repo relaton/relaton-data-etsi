@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSF5G027V1.1.12025-12
+id: ETSIGSF5G027V111202512
+schema_version: v1.4.1
 title:
-- content: Fifth Generation Fixed Network (F5G); F5G Advanced End-to-End Management
+- language: en
+  script: Latn
+  content: Fifth Generation Fixed Network (F5G); F5G Advanced End-to-End Management
     and Control; Release 4
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69125
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/027/01.01.01_60/gs_F5G027v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS F5G 027 V1.1.1 (2025-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69125
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/F5G/001_099/027/01.01.01_60/gs_F5G027v010101p.pdf
+docidentifier:
+- content: ETSI GS F5G 027 V1.1.1 (2025-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS F5G 027 V1.1.1 (2025-12)
 date:
 - type: published
-  value: 2025-12
+  at: 2025-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fifth Generation Fixed Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will specify the end to end management and control architecture
+- language: en
+  script: Latn
+  content: This Work Item will specify the end to end management and control architecture
     and its related interfaces for the F5G Advanced networks, to enable the resource
     orchestration, service provisioning and service assurance across Customer Premises
     Network, Access Network and Aggregation Network.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: F5G Advanced
-- content: MANAGEMENT
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: F5G Advanced
+  - language: en
+    script: Latn
+    content: MANAGEMENT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Fifth Generation Fixed Network
+    content: Group Specification

@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIES283039-3V1.1.22007-06
+id: ETSIES2830393V112200706
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Specification of protocols required to support the NGN Overload
     Control Architecture; Part 3: Overload and Congestion Control for H.248 MG/MGC'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25487
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/283000_283099/28303903/01.01.02_60/es_28303903v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 283 039-3 V1.1.2 (2007-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25487
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/283000_283099/28303903/01.01.02_60/es_28303903v010102p.pdf
+docidentifier:
+- content: ETSI ES 283 039-3 V1.1.2 (2007-06)
   type: ETSI
   primary: true
 docnumber: ETSI ES 283 039-3 V1.1.2 (2007-06)
 date:
 - type: published
-  value: 2007-06
+  at: 2007-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2007-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Provide revision of   ETSI ES 283 039-3 with the following objectives:\r\n-
+- language: en
+  script: Latn
+  content: "Provide revision of   ETSI ES 283 039-3 with the following objectives:\r\n-
     to add the IANA registered package identity\r\n- This is a Release 1 Maintenance
     WI."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: ETSI Standard

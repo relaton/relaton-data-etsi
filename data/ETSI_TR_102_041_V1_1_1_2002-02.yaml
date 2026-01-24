@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102041V1.1.12002-02
+id: ETSITR102041V111200202
+schema_version: v1.4.1
 title:
-- content: Signature Policies Report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15500
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102041/01.01.01_60/tr_102041v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 041 V1.1.1 (2002-02)
+- language: en
+  script: Latn
+  content: Signature Policies Report
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15500
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102000_102099/102041/01.01.01_60/tr_102041v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 041 V1.1.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 041 V1.1.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document gives guidance on the technical, organisational and
+- language: en
+  script: Latn
+  content: The present document gives guidance on the technical, organisational and
     legal issues related to a signature policy. This document can best be seen in
     conjunction with published documents ETSI TS 101 733 and ETSI ES 201 733 upon
     which it builds.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

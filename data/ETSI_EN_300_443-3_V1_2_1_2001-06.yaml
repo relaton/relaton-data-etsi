@@ -1,74 +1,95 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300443-3V1.2.12001-06
+id: ETSIEN3004433V121200106
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; B-ISDN user-network interface layer
     3 specification for basic call/bearer control; Part 3: Test Suite Structure and
     Test Purposes (TSS&TP) specification for the user'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11052
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/30044303/01.02.01_60/en_30044303v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 443-3 V1.2.1 (2001-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11052
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/30044303/01.02.01_60/en_30044303v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 443-3 V1.2.1 (2001-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 443-3 V1.2.1 (2001-06)
 date:
 - type: published
-  value: 2001-06
+  at: 2001-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Peer-to-Peer Control Protocol (PTPCP)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To produce a new edition of the standard aligned with the new version of
+- language: en
+  script: Latn
+  content: To produce a new edition of the standard aligned with the new version of
     the protocol standard endorsing ITU-Tamendments 2 to 4 and to correct other possible
     errors, based on contributions.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: B-ISDN
-- content: BROADBAND
-- content: DSS2
-- content: LAYER 3
-- content: TSS&amp;TP
-- content: UNI
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: UNI
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Peer-to-Peer Control Protocol (PTPCP)
+    content: European Standard

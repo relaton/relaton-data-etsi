@@ -1,68 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103779V1.1.12022-05
+id: ETSITS103779V111202205
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Requirements and Guidelines for cross-domain data usability of
+- language: en
+  script: Latn
+  content: SmartM2M; Requirements and Guidelines for cross-domain data usability of
     IoT devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61435
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 779 V1.1.1 (2022-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61435
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103700_103799/103779/01.01.01_60/ts_103779v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 779 V1.1.1 (2022-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 779 V1.1.1 (2022-05)
 date:
 - type: published
-  value: 2022-05
+  at: 2022-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    4oCiCXRvIGRlZmluZSBtaW5pbXVtIHJlcXVpcmVtZW50cyBmb3IgZGF0YSBhbmQgc2VydmljZXMgdXNhYmlsaXR5IG9uIHByb2Zlc3Npb25hbCBhbmQgZ2VuZXJhbCBwdWJsaWMgSW9UIGRldmljZXMgYW5kIHBsYXRmb3Jtcywgd2hldGhlciB0aGV5IGFyZSBjcml0aWNhbCBvciBub3QNCuKAogl0byBkZXZlbG9wIGEgaG9yaXpvbnRhbCBjcm9zcy1kb21haW4gc3BlY2lmaWNhdGlvbiBlbmNvbXBhc3NpbmcgdGhlc2UgcmVxdWlyZW1lbnRz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "\tto define minimum requirements for data and services usability on professional
+    and general public IoT devices and platforms, whether they are critical or not\r\n\tto
+    develop a horizontal cross-domain specification encompassing these requirements"
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: data usability
-- content: IoT
-- content: oneM2M
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: data usability
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

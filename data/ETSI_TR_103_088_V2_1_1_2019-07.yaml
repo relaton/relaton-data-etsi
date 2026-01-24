@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103088V2.1.12019-07
+id: ETSITR103088V211201907
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Using the
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); Using the
     EN 301 489 series of EMC standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47930
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103088/02.01.01_60/tr_103088v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 088 V2.1.1 (2019-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47930
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103088/02.01.01_60/tr_103088v020101p.pdf
+docidentifier:
+- content: ETSI TR 103 088 V2.1.1 (2019-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 088 V2.1.1 (2019-07)
 date:
 - type: published
-  value: 2019-07
+  at: 2019-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: A report detailing the differences between the different versions with
+- language: en
+  script: Latn
+  content: A report detailing the differences between the different versions with
     the EN 301 489 series. Also guidance on choosing the appropriate part in the EN
     301 489 series to be used in conjunction with part 1. The aim is to reduce the
     number of revisions of these harmonised stanadards caused by revisions to annex
     A in parts 2 to 34. This version is focused upon the RED versions of the EN 301
     489 series
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: Technical Report

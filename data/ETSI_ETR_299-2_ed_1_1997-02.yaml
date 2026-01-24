@@ -1,49 +1,59 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR299-2ed.11997-02
+id: ETSIETR2992ed1199702
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Digital Subscriber Signalling
     System No. one (DSS1) protocol; Network Integration Testing (NIT); ISDN end-to-end
     testing; Part 2: Implementation Conformance Statement (ICS) proforma, Abstract
     Test Suite (ATS) and partial Implementation eXtra Information for Testing (IXIT)
     proforma specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3887
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/29902/01_60/etr_29902e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 299-2 ed.1 (1997-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3887
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/29902/01_60/etr_29902e01p.pdf
+docidentifier:
+- content: ETSI ETR 299-2 ed.1 (1997-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 299-2 ed.1 (1997-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document specifies the PICS proforma, the Abstract test suite\r\n(ATS)
+- language: en
+  script: Latn
+  content: "This document specifies the PICS proforma, the Abstract test suite\r\n(ATS)
     and the partial Protocol Implementation eXtra Information for\r\nTesting (PIXIT)
     proforma for the network side of the T reference point\r\nor coincident S and
     T reference point for the pan-European Integrated\r\nServices Digital Network
@@ -56,24 +66,36 @@ abstract:
     interfaces, network side.\r\nBoth bearer services (and associated teleservices)
     and supplementary\r\nservices are checked for interworking capability and compatibility,
     in\r\nthe pan-European ISDN.\t\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATS
-- content: BASIC
-- content: DSS1
-- content: ICS
-- content: ISDN
-- content: PIXIT
-- content: SUPPLEMENTARY SERVICE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ATS
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: ICS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PIXIT
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Conformance Testing
+    content: ETSI Technical Report

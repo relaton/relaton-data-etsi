@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103421V1.1.12017-04
+id: ETSITR103421V111201704
+schema_version: v1.4.1
 title:
-- content: CYBER; Network Gateway Cyber Defence
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49505
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103421/01.01.01_60/tr_103421v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 421 V1.1.1 (2017-04)
+- language: en
+  script: Latn
+  content: CYBER; Network Gateway Cyber Defence
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49505
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103421/01.01.01_60/tr_103421v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 421 V1.1.1 (2017-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 421 V1.1.1 (2017-04)
 date:
 - type: published
-  value: 2017-04
+  at: 2017-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The work item aims at improving cyber security by initially identifying,
+- language: en
+  script: Latn
+  content: The work item aims at improving cyber security by initially identifying,
     then advancing changes to technology standards.  Potential changes would be aimed
     at technology protocols such as the Internet Protocol stack, but could be anywhere
     or of any form. The work will be looking practically and fundamentally at what
     changes could be made that would equip network gateways with information or tools
     to be even more effective.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Information assurance
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Information assurance
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Report

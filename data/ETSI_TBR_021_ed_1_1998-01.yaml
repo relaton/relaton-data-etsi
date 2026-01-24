@@ -1,64 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR021ed.11998-01
+id: ETSITBR021ed1199801
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Attachment requirements for pan-European approval
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Attachment requirements for pan-European approval
     for connection to the analogue Public Switched Telephone Networks (PSTNs) of TE
     (excluding TE supporting the voice telephony service) in which network addressing,
     if provided, is by means of Dual Tone Multi Frequency (DTMF) signalling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2914
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/021/01_60/tbr_021e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 021 ed.1 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2914
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/021/01_60/tbr_021e01p.pdf
+docidentifier:
+- content: ETSI TBR 021 ed.1 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 021 ed.1 (1998-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue Terminals & Access
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Technical characteristics (electrical and mechanical interface requirements
+- language: en
+  script: Latn
+  content: "Technical characteristics (electrical and mechanical interface requirements
     and access protocol) which is : \r\na) intended for pan-European approval,and
     \r\nb) capable of connection with two physical wires to the analogue PSTN in Europe,
     but \r\nc) excluding terminal equipment that is capable of carrying the voice
     telephony justified case in Article 4(g) of Directive 91/263/EEC\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Analogue Terminals & Access
+    content: Technical Basis for Regulation

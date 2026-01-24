@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119403V1.1.12012-03
+id: ETSITS119403V111201203
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Trust Service Provider
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Trust Service Provider
     Conformity Assessment - General requirements and guidance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31409
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119403/01.01.01_60/ts_119403v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 403 V1.1.1 (2012-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31409
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/119403/01.01.01_60/ts_119403v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 403 V1.1.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 403 V1.1.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification will supersede CEN CWA 14172:2004 which has expired
+- language: en
+  script: Latn
+  content: "This specification will supersede CEN CWA 14172:2004 which has expired
     to provide requirement and guidance on conformance assessment of:\r\nCSPs including
     CSPs issuing qualified and other forms of certificate, CSPs providing services
     in support of electronic signatures (e.g. time-stamping) \r\nAn annex to the document
     will provide an example auditor report including checklist for Qualified Certificates
     issued in accordance with TS 101 456."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

@@ -1,73 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302062V1.1.12003-01
+id: ETSIEN302062V111200301
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point equipment; High capacity digital radio
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point equipment; High capacity digital radio
     relay systems carrying STM-4, 4 x STM-1 or 2 x STM-1 signals in bands with 55/56
     MHz channel spacing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9335
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302000_302099/302062/01.01.01_60/en_302062v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 062 V1.1.1 (2003-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9335
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302000_302099/302062/01.01.01_60/en_302062v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 062 V1.1.1 (2003-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 062 V1.1.1 (2003-01)
 date:
 - type: published
-  value: 2003-01
+  at: 2003-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TM Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Define a new standard for high capacity radio systems suitable for 2xSTM-1,
+- language: en
+  script: Latn
+  content: "Define a new standard for high capacity radio systems suitable for 2xSTM-1,
     4 x STM-1 capacities with baseband interfaces of STM-1 and STM-4.  The systems
     use high order modulation with co-channel dual-polarized (CCDP) operation for
     the 4xSTM-1 payload capacity. The channel spacing is 55/56 MHz.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DFRS
-- content: DIGITAL
-- content: DRRS
-- content: POINT-TO-POINT
-- content: RADIO
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: TM Fixed Radio Systems
+    content: European Standard

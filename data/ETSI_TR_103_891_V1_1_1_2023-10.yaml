@@ -1,70 +1,105 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103891V1.1.12023-10
+id: ETSITR103891V111202310
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Parametric non-intrusive
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Parametric non-intrusive
     QoS evaluation of Cloud Gaming Services over RTP/UDP streaming
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66193
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103891/01.01.01_60/tr_103891v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 891 V1.1.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66193
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103891/01.01.01_60/tr_103891v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 891 V1.1.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 891 V1.1.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: STQ Mobile
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvcG9zZXMgbGV2ZXJhZ2luZyBhbmQgaW1wcm92aW5nIHRoZSBleGlzdGluZyBJVFUtVCBSZWNvbW1lbmRhdGlvbnMgUDEyMDEgKFAxMjAxLjEsIFAxMjAxLjIpIGFuZCBHMTA3MiwgYW5kIEVUU0kgVFIgMTAzIDcwMiB0byBwcm92aWRlIFFvUyBwYXJhbWV0ZXJzIGZvciB1c2VycyB3aG8gZXhwZXJpZW5jZSBDbG91ZCBHYW1pbmcgU2VydmljZXMgb3ZlciBSVFAvVURQIHN0cmVhbWluZy4gSW4gcGFydGljdWxhciwgdGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvcG9zZXMgdG8gZXh0ZW5kIHRoZSBHMTA3MiBtb2RlbCwgd2hpY2ggcHJlZGljdHMgdGhlIGV4cGVjdGVkIFFvUy9NT1MgZm9yIGdpdmVuIG5ldHdvcmsgY29uZGl0aW9ucywgdG8gdGhlIHNpbmdsZSB1c2VyIGFuYWx5c2lzIGFsbG93ZWQgYnkgbm9uLWludHJ1c2l2ZSBwYXNzaXZlIG1vbml0b3JpbmcgYW5kIHByb3ZpZGVkIGJ5IGZlZWRpbmcgc3VjaCBtb2RlbCB3aXRoIG1lYXN1cmVkIG9yIGVzdGltYXRlZCBlbmQtdXNlciBwYWNrZXQgbG9zcywgcm91bmQtdHJpcCB0aW1lLCB2aWRlbyBiaXRyYXRlLCBmcmFtZXJhdGUsIGFuZCBpbmZvcm1hdGlvbiBkZXJpdmVkIGZyb20gdGhlIGdhbWUgcGxhdGZvcm0gY2FwYWJpbGl0aWVzIGFuZCBzdHJlYW1pbmcgZGF0YS4gTW9yZW92ZXIsIGluIGFkZGl0aW9uIHRvIEguMjY0IGNoYXJhY3Rlcml6YXRpb24gcHJvdmlkZWQgYnkgRzEwNzIsIHRoZSBwcmVzZW50IGRvY3VtZW50IHByb3Bvc2VzIHRvIGFkZHJlc3MgSC4yNjUgYW5kIFZQOSB2aWRlbyBjb2RlY3MgYW5kIGF1ZGlvIGNoYXQuDQoNClRoZSBpZGVudGlmaWVkIFFvUyBwYXJhbWV0ZXJzIHdpbGwgcmVmZXIgdG8gdGhlIGZvbGxvd2luZyBjYXRlZ29yaWVzIHdpdGggdGhlIGFpbSBhbHNvIHRvIGFkZHJlc3MgYW4gZWZmZWN0aXZlIFJvb3QgQ2F1c2UgQW5hbHlzaXM6DQotU2VydmljZSBDZW50cmljIChTdWJzY3JpYmVyIElQIGFkZHJlc3MsIENsb3VkIGdhbWluZyBQbGF0Zm9ybSBOYW1lLCDigKYpDQoNCi1DbG91ZCBHYW1pbmcgU2Vzc2lvbiAoUGxhdGZvcm0gU3RhcnQgVGltZSwgR2FtZSBTdGFydCBUaW1lLCBTdHJlYW1pbmcgU3RhcnQgVGltZSwgUGxheSBTdGFydCBUaW1lLCBTdHJlYW1pbmcgRW5kIFRpbWUsIFN0cmVhbWluZyBEdXJhdGlvbiwg4oCmKQ0KDQotTWVkaWEgKE1PUywgQXVkaW8vVmlkZW8gQml0cmF0ZSwgVmlkZW8gRnJhbWVyYXRlLCBBdWRpby9WaWRlbyBQYWNrZXRzLCBBdWRpby9WaWRlbyBEb3dubGluay9VcGxpbmsgYnl0ZXMsIOKApi4pDQoNCi1UcmFuc3BvcnQgKE5ldHdvcmsgUm91bmQgVHJpcCBUaW1lLCBQYWNrZXQgTG9zcyBSYXRlLCBQYWNrZXQgcmV0cmFuc21pc3Npb24sIFNlcnZlciBhZGRyZXNzZXMsIFNlcnZlciBwb3J0cywgU1NSQywg4oCmKQ0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document proposes leveraging and improving the existing ITU-T
+    Recommendations P1201 (P1201.1, P1201.2) and G1072, and ETSI TR 103 702 to provide
+    QoS parameters for users who experience Cloud Gaming Services over RTP/UDP streaming.
+    In particular, the present document proposes to extend the G1072 model, which
+    predicts the expected QoS/MOS for given network conditions, to the single user
+    analysis allowed by non-intrusive passive monitoring and provided by feeding such
+    model with measured or estimated end-user packet loss, round-trip time, video
+    bitrate, framerate, and information derived from the game platform capabilities
+    and streaming data. Moreover, in addition to H.264 characterization provided by
+    G1072, the present document proposes to address H.265 and VP9 video codecs and
+    audio chat.\r\n\r\nThe identified QoS parameters will refer to the following categories
+    with the aim also to address an effective Root Cause Analysis:\r\n-Service Centric
+    (Subscriber IP address, Cloud gaming Platform Name, )\r\n\r\n-Cloud Gaming Session
+    (Platform Start Time, Game Start Time, Streaming Start Time, Play Start Time,
+    Streaming End Time, Streaming Duration, )\r\n\r\n-Media (MOS, Audio/Video Bitrate,
+    Video Framerate, Audio/Video Packets, Audio/Video Downlink/Uplink bytes, .)\r\n\r\n-Transport
+    (Network Round Trip Time, Packet Loss Rate, Packet retransmission, Server addresses,
+    Server ports, SSRC, )\r\n"
+status:
+  stage: Published
 keyword:
-- content: 4G
-- content: 5G
-- content: Cloud Gaming
-- content: QoE
-- content: QoS
-- content: SERVICE
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: 4G
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: Cloud Gaming
+  - language: en
+    script: Latn
+    content: QoE
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: STQ Mobile
+    content: Technical Report

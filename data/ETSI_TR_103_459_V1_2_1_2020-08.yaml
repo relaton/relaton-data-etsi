@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103459V1.2.12020-08
+id: ETSITR103459V121202008
+schema_version: v1.4.1
 title:
-- content: Rail Telecommunications (RT); Future Rail Mobile Communication System (FRMCS);
+- language: en
+  script: Latn
+  content: Rail Telecommunications (RT); Future Rail Mobile Communication System (FRMCS);
     Study on system architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57394
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103459/01.02.01_60/tr_103459v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 459 V1.2.1 (2020-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57394
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103459/01.02.01_60/tr_103459v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 459 V1.2.1 (2020-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 459 V1.2.1 (2020-08)
 date:
 - type: published
-  value: 2020-08
+  at: 2020-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2020-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of the deliverable to further refine FRMCS functional and system
+- language: en
+  script: Latn
+  content: "Revision of the deliverable to further refine FRMCS functional and system
     architecture in order to deliver communication services to rail applications.\r\nThis
     will be achieved by :\r\n\r\n1.\tMapping URS Applications and use cases to a list
     of required FRMCS system functions \r\n2.\tFurther refinement of the FRMCS functional
@@ -57,19 +66,21 @@ abstract:
     including 3GPP interfaces within the FRMCS system and on the boundaries.\r\n5.\tInterfacing
     dispatcher services, recording system as well as external networks and interworking
     with legacy system \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: FRMCS
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: FRMCS
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Report

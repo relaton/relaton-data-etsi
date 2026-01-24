@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182019V3.1.22011-09
+id: ETSITS182019V312201109
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Content Delivery Network (CDN) Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37766
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182019/03.01.02_60/ts_182019v030102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 019 V3.1.2 (2011-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37766
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182019/03.01.02_60/ts_182019v030102p.pdf
+docidentifier:
+- content: ETSI TS 182 019 V3.1.2 (2011-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 019 V3.1.2 (2011-09)
 date:
 - type: published
-  value: 2011-09
+  at: 2011-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.2
-revdate: 2011-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: editorial re-publication to insert back correct figure B.2.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: editorial re-publication to insert back correct figure B.2.1
+status:
+  stage: Published
 keyword:
-- content: CDN
-- content: IPTV
+- taxon:
+  - language: en
+    script: Latn
+    content: CDN
+  - language: en
+    script: Latn
+    content: IPTV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Specification

@@ -1,59 +1,69 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR115ed.21994-01
+id: ETSIETR115ed2199401
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); General concerns for the parties involved during
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); General concerns for the parties involved during
     the telecommunication integrated circuit card life-cycle
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2916
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/115/02_60/etr_115e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 115 ed.2 (1994-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2916
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/115/02_60/etr_115e02p.pdf
+docidentifier:
+- content: ETSI ETR 115 ed.2 (1994-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 115 ed.2 (1994-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Card Terminal
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To give guidelines to card issuers and application suppliers to ensure\r\ninteroperability
+- language: en
+  script: Latn
+  content: "To give guidelines to card issuers and application suppliers to ensure\r\ninteroperability
     of different services\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Card Terminal
+    content: ETSI Technical Report

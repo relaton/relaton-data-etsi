@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101319V1.6.41998-12
+id: ETSITS101319V164199812
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Signalling for basic calls from a H.323 terminal to a terminal in a Switched-Circuit
     Network (SCN)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5875
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101319/01.06.04_60/ts_101319v010604p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 319 V1.6.4 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5875
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101300_101399/101319/01.06.04_60/ts_101319v010604p.pdf
+docidentifier:
+- content: ETSI TS 101 319 V1.6.4 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 319 V1.6.4 (1998-12)
 date:
 - type: published
-  value: 1998-12
+  at: 1998-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Call control matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.4
-revdate: 1998-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document provides a high level description of information flows n\r\needed
+- language: en
+  script: Latn
+  content: "This document provides a high level description of information flows n\r\needed
     to handle basic calls from an H.323 terminal to a PSTN/ISDN/GSM\r\nterminal\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: INTERNET
-- content: IP
-- content: SIGNALLING
-- content: TELEPHONY
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: SIGNALLING
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Call control matters
+    content: Technical Specification

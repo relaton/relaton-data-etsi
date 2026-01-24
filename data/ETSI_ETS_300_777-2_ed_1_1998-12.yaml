@@ -1,67 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300777-2ed.11998-12
+id: ETSIETS3007772ed1199812
+schema_version: v1.4.1
 title:
-- content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
+- language: en
+  script: Latn
+  content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
     retrieval services; Part 2: Use of Digital Storage Media Command and Control (DSM-CC)
     for basic multimedia applications'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4205
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077702/01_60/ets_30077702e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 777-2 ed.1 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4205
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077702/01_60/ets_30077702e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 777-2 ed.1 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 777-2 ed.1 (1998-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminal Application Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS will specify a subset of ISO/IEC 13816-6 (DSM-CC) for basic multimedia
+- language: en
+  script: Latn
+  content: "This ETS will specify a subset of ISO/IEC 13816-6 (DSM-CC) for basic multimedia
     applications using MHEG-5.  The subset will encompass DSM-CC User-User (U-U) primitives
     for communication between client and server.  It will include a mapping of MHEG-5
     to DSM-CC.\r\nNote: DSM-CC is a session layer protocol covering establishment
     and management of end-to-end sessions.  Basic multimedia applications include
     (eg, as defined by DAVIC) Television distribution, near Video on Demand, Video
     on Demand and Teleshopping."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MHEG
-- content: MULTIMEDIA
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MHEG
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Multimedia Terminal Application Architecture
+    content: European Telecommunication Standard

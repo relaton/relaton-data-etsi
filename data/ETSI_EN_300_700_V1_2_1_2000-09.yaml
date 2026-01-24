@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300700V1.2.12000-09
+id: ETSIEN300700V121200009
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Wireless Relay Station
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Wireless Relay Station
     (WRS)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6925
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300700_300799/300700/01.02.01_60/en_300700v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 700 V1.2.1 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6925
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300700_300799/300700/01.02.01_60/en_300700v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 700 V1.2.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 700 V1.2.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio and speech experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Scope: \" To specify utilisation of the inherent DECT relay capability
+- language: en
+  script: Latn
+  content: "Scope: \" To specify utilisation of the inherent DECT relay capability
     to\r\nprovide RFPs with wireless connection to the CCFP. These new\r\ntypes of
     base stations is called Wireless Relay Stations (WRS).\r\nThis ETS specifies the
     requirements for the WRS. \"\r\nUpdate according to change requests and including
     in an annex specification of a CRFP interworking with GAP\r\n\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: REPEATER
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: REPEATER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Radio and speech experts
+    content: European Standard

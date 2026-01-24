@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101973-2V1.1.12002-12
+id: ETSITR1019732V111200212
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Public Switched Telephone Network; Support
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Public Switched Telephone Network; Support
     of legacy terminals by BroadBand IP equipment; Listing of the most relevant features
     and functionalities; Part 2: Analogue PSTN terminals'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17228
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/10197302/01.01.01_60/tr_10197302v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 973-2 V1.1.1 (2002-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=17228
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/10197302/01.01.01_60/tr_10197302v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 973-2 V1.1.1 (2002-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 973-2 V1.1.1 (2002-12)
 date:
 - type: published
-  value: 2002-12
+  at: 2002-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access and Terminals
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To produce a multi-part Technical Report studying and collating the functional
+- language: en
+  script: Latn
+  content: To produce a multi-part Technical Report studying and collating the functional
     technical characteristics supported by PSTNs across the wider European market,  in
     order to provide guidance to developers of Broadband IP equipment (e.g. IPCablecom
     embedded MTA, FWA subscriber units etc.) that support an analogue PSTN terminal
     and/or ISDN terminal.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: BROADBAND
-- content: IP
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Access and Terminals
+    content: Technical Report

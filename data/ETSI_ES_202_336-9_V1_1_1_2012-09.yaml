@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202336-9V1.1.12012-09
+id: ETSIES2023369V111201209
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); Monitoring and Control Interface for Infrastructure
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); Monitoring and Control Interface for Infrastructure
     Equipment (Power, Cooling and Building Environment Systems used in Telecommunication
     Networks); Part 9: Alternative Power Systems'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29303
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/20233609/01.01.01_60/es_20233609v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 336-9 V1.1.1 (2012-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29303
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/20233609/01.01.01_60/es_20233609v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 336-9 V1.1.1 (2012-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 336-9 V1.1.1 (2012-09)
 date:
 - type: published
-  value: 2012-09
+  at: 2012-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2012-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Establish a minimum set of information necessary for outdoor installations
+- language: en
+  script: Latn
+  content: Establish a minimum set of information necessary for outdoor installations
     as is recognized that the full set of information request from part2 to part 8  are
     not applicable to outdoor installation on cabinet
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: INTERFACE
-- content: POWER
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: POWER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Standard

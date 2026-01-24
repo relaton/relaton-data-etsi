@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103503V1.2.12018-10
+id: ETSITR103503V121201810
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Procedures for Multimedia
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Procedures for Multimedia
     Transmission Quality Testing with Parallel Task including Subjective Testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54498
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103503/01.02.01_60/tr_103503v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 503 V1.2.1 (2018-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54498
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103503/01.02.01_60/tr_103503v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 503 V1.2.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 503 V1.2.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To develop methodologies and test arrangements for the evaluation of multimedia
+- language: en
+  script: Latn
+  content: "To develop methodologies and test arrangements for the evaluation of multimedia
     communication performance from the perspective of user under parallel physical
     and/or mental load (dual-task testing).\r\nThis revision is to include new test
     results."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assessment
-- content: listening quality
-- content: parallel task
+- taxon:
+  - language: en
+    script: Latn
+    content: assessment
+  - language: en
+    script: Latn
+    content: listening quality
+  - language: en
+    script: Latn
+    content: parallel task
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

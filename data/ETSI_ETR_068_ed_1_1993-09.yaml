@@ -1,60 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR068ed.11993-09
+id: ETSIETR068ed1199309
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); European standardization situation of telecommunications
+- language: en
+  script: Latn
+  content: Human Factors (HF); European standardization situation of telecommunications
     facilities for people with special needs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1093
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/001_099/068/01_60/etr_068e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 068 ed.1 (1993-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1093
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/001_099/068/01_60/etr_068e01p.pdf
+docidentifier:
+- content: ETSI ETR 068 ed.1 (1993-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 068 ed.1 (1993-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: People with Special Needs
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Overview of standardization situation with respect to people with\r\nspecial
+- language: en
+  script: Latn
+  content: "Overview of standardization situation with respect to people with\r\nspecial
     needs and creation of a model as a basis of further research\r\nand standardization
     activities for telecommunication facilities\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FACILITY
-- content: MMI
+- taxon:
+  - language: en
+    script: Latn
+    content: FACILITY
+  - language: en
+    script: Latn
+    content: MMI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: People with Special Needs
+    content: ETSI Technical Report

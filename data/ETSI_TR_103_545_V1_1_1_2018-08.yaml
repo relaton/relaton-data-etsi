@@ -1,67 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103545V1.1.12018-08
+id: ETSITR103545V111201808
+schema_version: v1.4.1
 title:
-- content: SmartM2M; Pilot test definition and guidelines for testing cooperation
+- language: en
+  script: Latn
+  content: SmartM2M; Pilot test definition and guidelines for testing cooperation
     between oneM2M and Ag equipment standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52896
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103545/01.01.01_60/tr_103545v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 545 V1.1.1 (2018-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52896
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103545/01.01.01_60/tr_103545v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 545 V1.1.1 (2018-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 545 V1.1.1 (2018-08)
 date:
 - type: published
-  value: 2018-08
+  at: 2018-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIG9iamVjdGl2ZSBvZiB0aGlzIFRSIGlzIHRvIHByb3ZpZGUgdGhlIG5lY2Vzc2FyeSBpbnB1dCBmb3IgYSBQbHVndGVzdMKuIGV2ZW50IHRvIHZhbGlkYXRlIHRoZSBwb3NzaWJsZSBjb29wZXJhdGlvbiBiZXR3ZWVuIHRoZSBvbmVNMk0gcGxhdGZvcm0gYW5kIEFFRiBJU09CVVMgc3RhbmRhcmRzIGltcGxlbWVudGVkIGJldHdlZW4gYSB0cmFjdG9yIGFuZCBpdHMgaW1wbGVtZW50IChhbiBpbXBsZW1lbnQgaXMgYSBtYWNoaW5lIHVzdWFsbHkgdHJhaWxlZCBiZWhpbmQgdGhlIHRyYWN0b3IgYW5kIHBlcmZvcm1pbmcgYSBzcGVjaWZpYyBhZ3JpY3VsdHVyYWwgdGFzaykuIFRoZSB1c2UgY2FzZSB3b3VsZCBpbmNsdWRlIGEgdHJhY3RvciBlbnRlcmluZyBhIHJvYWQgZnJvbSB0aGUgZmllbGRzLiBUaGUgY29sbGFib3JhdGlvbiBvZiBBZ3JpIElvVCBhbmQgdGhlIG9uZU0yTSBwbGF0Zm9ybSB3b3VsZCBlbmFibGUgdG8gdHJpZ2dlciB0aGUgdHJhbnNtaXNzaW9uIG9mIGFuIGFsYXJtIHRvIHRoZSBjYXJzIG9uIHRoZSByb2FkLiBFVFNJIFRDIElUUyBzdGFuZGFyZHMsIHN1Y2ggYXMgRU4gMzAyIDYzNy0zIChEZWNlbnRyYWxpemVkIEVudmlyb25tZW50YWwgTm90aWZpY2F0aW9uIEJhc2ljIFNlcnZpY2UpIGFyZSBhbHNvIGV4cGVjdGVkIHRvIGJlIHBhcnQgb2YgdGhpcyBjb29wZXJhdGlvbiBpbiB0aGUgdXNlIGNhc2UgdG8gYmUgZGVtb25zdHJhdGVkLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The objective of this TR is to provide the necessary input for a Plugtest
+    event to validate the possible cooperation between the oneM2M platform and AEF
+    ISOBUS standards implemented between a tractor and its implement (an implement
+    is a machine usually trailed behind the tractor and performing a specific agricultural
+    task). The use case would include a tractor entering a road from the fields. The
+    collaboration of Agri IoT and the oneM2M platform would enable to trigger the
+    transmission of an alarm to the cars on the road. ETSI TC ITS standards, such
+    as EN 302 637-3 (Decentralized Environmental Notification Basic Service) are also
+    expected to be part of this cooperation in the use case to be demonstrated.
+status:
+  stage: Published
 keyword:
-- content: ALARM
-- content: ITS
-- content: M2M
-- content: oneM2M
+- taxon:
+  - language: en
+    script: Latn
+    content: ALARM
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: oneM2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

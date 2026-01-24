@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118102V3.1.22021-01
+id: ETSITS118102V312202101
+schema_version: v1.4.1
 title:
-- content: oneM2M Requirements (oneM2M TS-0002 version 3.1.2 Release 3)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56816
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118102/03.01.02_60/ts_118102v030102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 102 V3.1.2 (2021-01)
+- language: en
+  script: Latn
+  content: oneM2M Requirements (oneM2M TS-0002 version 3.1.2 Release 3)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56816
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118102/03.01.02_60/ts_118102v030102p.pdf
+docidentifier:
+- content: ETSI TS 118 102 V3.1.2 (2021-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 102 V3.1.2 (2021-01)
 date:
 - type: published
-  value: 2021-01
+  at: 2021-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.2
-revdate: 2021-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This present document contains an informative functional role model and
+- language: en
+  script: Latn
+  content: "This present document contains an informative functional role model and
     \ normative technical requirements for oneM2M.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202336-4V1.1.12013-03
+id: ETSIES2023364V111201303
+schema_version: v1.4.1
 title:
-- content: 'Environmental Engineering (EE); Monitoring and Control Interface for Infrastructure
+- language: en
+  script: Latn
+  content: 'Environmental Engineering (EE); Monitoring and Control Interface for Infrastructure
     Equipment (Power, Cooling and Building Environment Systems used in Telecommunication
     Networks); Part 4: AC distribution power system control and monitoring information
     model'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25591
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202300_202399/20233604/01.01.01_60/es_20233604v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 336-4 V1.1.1 (2013-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25591
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202300_202399/20233604/01.01.01_60/es_20233604v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 336-4 V1.1.1 (2013-03)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 336-4 V1.1.1 (2013-03)
 date:
 - type: published
-  value: 2013-03
+  at: 2013-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document applies to monitoring of power and cooling systems
+- language: en
+  script: Latn
+  content: The present document applies to monitoring of power and cooling systems
     for telecommunication installations and equipment. This part 4 is the data description
     of AC distribution power systems equipment. It provides the information tables,
     the DTD description and XML files. This description is based on generic recommendation
     of part 1 core document.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: INTERFACE
-- content: MANAGEMENT
-- content: POWER
-- content: SYSTEM
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: POWER
+  - language: en
+    script: Latn
+    content: SYSTEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Standard

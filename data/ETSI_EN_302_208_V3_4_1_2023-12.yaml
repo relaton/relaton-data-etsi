@@ -1,69 +1,110 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302208V3.4.12023-12
+id: ETSIEN302208V341202312
+schema_version: v1.4.1
 title:
-- content: Radio Frequency Identification Equipment operating in the band 865 MHz
+- language: en
+  script: Latn
+  content: Radio Frequency Identification Equipment operating in the band 865 MHz
     to 868 MHz with power levels up to 2 W and in the band 915 MHz to 921 MHz with
     power levels up to 4 W; Harmonised Standard for access to radio spectrum
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62501
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302200_302299/302208/03.04.01_60/en_302208v030401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 208 V3.4.1 (2023-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62501
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302200_302299/302208/03.04.01_60/en_302208v030401p.pdf
+docidentifier:
+- content: ETSI EN 302 208 V3.4.1 (2023-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 208 V3.4.1 (2023-12)
 date:
 - type: published
-  value: 2023-12
+  at: 2023-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM RF Identification Devices
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.4.1
-revdate: 2023-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U2NvcGUgb2Ygd29yayB0byBiZSB1bmRlcnRha2VuOiBUbyBjbGFyaWZ5IHRoZSBmb2xsb3dpbmcgbWF0dGVyczogIA0KMS4gVGhlIGhhcm1vbmlzZWQgc3RhbmRhcmQgdXNlcyB2YWd1ZSB0ZXJtcyBpbiBkaWZmZXJlbnQgcGFydHMuIEluIHBhcnRpY3VsYXIgaW4gDQphLiBOb3RlIDEgb2YgdGhlIHNjb3BlOiDigJxUaGUgdGVybSBmcmVxdWVuY3kgYmFuZCBpcyB0eXBpY2FsbHkgdXNlZCBmb3IgcmVmZXJlbmNlIHRvIGRlZGljYXRlZCBiYW5kcyBhcyBkZXNjcmliZWQgaW4gQ0VQVC9FUkMvUkVDIDcwLTAzIFtpLjldLCB3aGlsZSBmcmVxdWVuY3kgcmFuZ2UgaXMgdXNlZCBpbiB0aGUgb3RoZXIgY2FzZXMu4oCdIA0KYi4gVGFibGUgMWI6IOKAnENhdGVnb3J5IEkgaXMgYSBoaWdoIHBlcmZvcm1hbmNlIGxldmVsIG9mIGludGVycm9nYXRvciwgdHlwaWNhbGx5IHVzZWQgd2hlcmUgdGhlIGRpc3RhbmNlIGJldHdlZW4gdGhlIFJGSUQgaW50ZXJyb2dhdG9yIGFuZCBSRklEIHRhZ3MgaXMgb2Z0ZW4gZ3JlYXRlciB0aGFuIDEwIG0gb3IgaW4gY2hhbGxlbmdpbmcgUkYgcHJvcGFnYXRpb24gZW52aXJvbm1lbnRzOyBlLmcuIGxhcmdlIHF1YW50aXR5IG9mIFJGSUQgdGFncyBpbiBjbG9zZSBwcm94aW1pdHkgdG8gZWFjaCBvdGhlciBvciBtb3VudGVkIG9uIG1ldGFscywgbGlxdWlkcywgZXRjLiBBbiBleGFtcGxlIG9mIGFuIGludGVycm9nYXRvciBpbiB0aGlzIHBlcmZvcm1hbmNlIGNsYXNzIGlzIGEgZml4ZWQgbW91bnRlZCBpbnRlcnJvZ2F0b3Igc2l0dWF0ZWQgYXQgYSBkb2NrIGRvb3Igb2YgYSB3YXJlaG91c2Ugb3IgbWFudWZhY3R1cmluZyBmYWNpbGl0eS7igJ0gDQpjLiBUYWJsZSAxYjog4oCcQ2F0ZWdvcnkgSUkgaXMgYSBwZXJmb3JtYW5jZSBsZXZlbCBvZiBpbnRlcnJvZ2F0b3IsIHR5cGljYWxseSB1c2VkIGZvciBnZW5lcmFsIHB1cnBvc2UgYXBwbGljYXRpb25zIGFuZCB3aGVyZSB0aGUgZGlzdGFuY2UgYmV0d2VlbiB0aGUgUkZJRCBpbnRlcnJvZ2F0b3IgYW5kIFJGSUQgdGFncyBpcyB0eXBpY2FsbHkgbG93ZXIgdGhhbiBmb3IgY2F0ZWdvcnkgSS4gQW4gZXhhbXBsZSBvZiBhbiBpbnRlcnJvZ2F0b3IgaW4gdGhpcyBwZXJmb3JtYW5jZSBjbGFzcyBpcyBhIGhhbmRoZWxkIGludGVycm9nYXRvciB1c2VkIGluIGEgcmV0YWlsIHN0b3JlLuKAnSANCmQuIFRhYmxlIDFiOiDigJxDYXRlZ29yeSBJSUkgaXMgYSBwZXJmb3JtYW5jZSBsZXZlbCBvZiBpbnRlcnJvZ2F0b3IsIHR5cGljYWxseSB1c2VkIGZvciB2ZXJ5IHNob3J0IHJhbmdlIGFwcGxpY2F0aW9uIHdoZXJlIHRoZSBkaXN0YW5jZSBiZXR3ZWVuIHRoZSBSRklEIGludGVycm9nYXRvciBhbmQgUkZJRCB0YWdzIGlzIHNpZ25pZmljYW50bHkgbG93ZXIgdGhhbiBmb3IgY2F0ZWdvcnkgSSBvciB0aGUgUkYgaW50ZWdyYXRvciBwb3dlciBpcyBjb25maW5lZCB0byBhIHNtYWxsIGFyZWEuIEFuIGV4YW1wbGUgb2YgYW4gaW50ZXJyb2dhdG9yIGluIHRoaXMgcGVyZm9ybWFuY2UgY2xhc3MgaXMgYW4gUkZJRCB0YWcgcHJpbnRlciBvciBuZWFybHkgY29udGFjdCByZWFkZXIu4oCdIA0KZS4gQ2xhdXNlIDUuNS43LjE6IOKAnEEgc21hbGwgcXVhbnRpdHkgb2YgdGFncyAodHlwaWNhbGx5IHVwIHRvIDMpIHNoYWxsIGJlIHBvc2l0aW9uZWQgd2l0aGluIHRoZSBpbnRlcnJvZ2F0aW9uIGZpZWxkIG9mIHRoZSBpbnRlcnJvZ2F0b3Iu4oCdICBUaGVzZSB0ZXJtcyBhcmUgYWxsIHN1YmplY3RpdmUgYW5kIGNhbiBnaXZlIHJvb20gdG8gdmVyeSBkaXZlcnNlIGludGVycHJldGF0aW9ucy4gIFRoZXkgY2FuIGFmZmVjdCB0aGUgdGVzdHMgb3IgdGhlIGNhdGVnb3Jpc2F0aW9uLCBoZW5jZSB0aGUgcmVxdWVzdGVkIHBlcmZvcm1hbmNlLCBvZiB0aGUgZXF1aXBtZW50LiANCjIuIEluIFRhYmxlIDIsIG9uZSBiYW5kIGluIHRoZSBmaXJzdCBjb2x1bW4gaXMgbm90IGFsaWduZWQgdG8gUkVDIDc0LTAxLCB3aGljaCByZXF1aXJlcyBpbmNyZWFzZWQgcHJvdGVjdGlvbiB1bnRpbCA2OTQgTUh6LCBub3QgNjkyIE1Iei4gIDMuIFRvIGFsaWduIHRoZSBuZXcgcmV2aXNpb24gd2l0aCBFUkMgUkVDIDc0LTAxLg0KMy4gRmlndXJlIDggaW4gdGhlIHB1Ymxpc2hlZCBzdGFuZGFyZCBJIG5vdCBhcyBpbiB0aGUgYXBwcm92ZWQgZG9jdW1lbnQgZnJvbSBFUk0gYW5kIEVSTSBURzM0IGFuZCBpbiBwYXJ0aWN1bGFyIGRvZXMgbm90IGNvbnNpZGVyIHRoZSBuZXcgVGFibGUgMiBjaGFuZ2VzIGR1ZSB0byBSRUMgNzQtMDEgYXMgYWJvdmUuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken: To clarify the following matters:  \r\n1.
+    The harmonised standard uses vague terms in different parts. In particular in
+    \r\na. Note 1 of the scope: The term frequency band is typically used for reference
+    to dedicated bands as described in CEPT/ERC/REC 70-03 [i.9], while frequency range
+    is used in the other cases. \r\nb. Table 1b: Category I is a high performance
+    level of interrogator, typically used where the distance between the RFID interrogator
+    and RFID tags is often greater than 10 m or in challenging RF propagation environments;
+    e.g. large quantity of RFID tags in close proximity to each other or mounted on
+    metals, liquids, etc. An example of an interrogator in this performance class
+    is a fixed mounted interrogator situated at a dock door of a warehouse or manufacturing
+    facility. \r\nc. Table 1b: Category II is a performance level of interrogator,
+    typically used for general purpose applications and where the distance between
+    the RFID interrogator and RFID tags is typically lower than for category I. An
+    example of an interrogator in this performance class is a handheld interrogator
+    used in a retail store. \r\nd. Table 1b: Category III is a performance level of
+    interrogator, typically used for very short range application where the distance
+    between the RFID interrogator and RFID tags is significantly lower than for category
+    I or the RF integrator power is confined to a small area. An example of an interrogator
+    in this performance class is an RFID tag printer or nearly contact reader. \r\ne.
+    Clause 5.5.7.1: A small quantity of tags (typically up to 3) shall be positioned
+    within the interrogation field of the interrogator.  These terms are all subjective
+    and can give room to very diverse interpretations.  They can affect the tests
+    or the categorisation, hence the requested performance, of the equipment. \r\n2.
+    In Table 2, one band in the first column is not aligned to REC 74-01, which requires
+    increased protection until 694 MHz, not 692 MHz.  3. To align the new revision
+    with ERC REC 74-01.\r\n3. Figure 8 in the published standard I not as in the approved
+    document from ERM and ERM TG34 and in particular does not consider the new Table
+    2 changes due to REC 74-01 as above.\r\n"
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: ID
-- content: RADIO
-- content: RFID
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM RF Identification Devices
+    content: European Standard

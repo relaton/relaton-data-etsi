@@ -1,63 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSITR136931V11.0.02012-10
+id: ETSITR136931V1100201210
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); Radio Frequency
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access (E-UTRA); Radio Frequency
     (RF) requirements for LTE Pico Node B (3GPP TR 36.931 version 11.0.0 Release 11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41006
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/136900_136999/136931/11.00.00_60/tr_136931v110000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 136 931 V11.0.0 (2012-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=41006
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/136900_136999/136931/11.00.00_60/tr_136931v110000p.pdf
+docidentifier:
+- content: ETSI TR 136 931 V11.0.0 (2012-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 136 931 V11.0.0 (2012-10)
 date:
 - type: published
-  value: 2012-10
+  at: 2012-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 11.0.0
-revdate: 2012-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SP-57
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SP-57
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Report

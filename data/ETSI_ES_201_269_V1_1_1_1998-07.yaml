@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201269V1.1.11998-07
+id: ETSIES201269V111199807
+schema_version: v1.4.1
 title:
-- content: Service provisioning in access networks;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4845
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201200_201299/201269/01.01.01_60/es_201269v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 269 V1.1.1 (1998-07)
+- language: en
+  script: Latn
+  content: Service provisioning in access networks;
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4845
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201200_201299/201269/01.01.01_60/es_201269v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 269 V1.1.1 (1998-07)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 269 V1.1.1 (1998-07)
 date:
 - type: published
-  value: 1998-07
+  at: 1998-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunications Management Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This will produce an ensemble of DE/TM-02209 for service provisioning.\r\n
+- language: en
+  script: Latn
+  content: "This will produce an ensemble of DE/TM-02209 for service provisioning.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: MANAGEMENT
-- content: NETWORK
-- content: TMN
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Telecommunications Management Network
+    content: ETSI Standard

@@ -1,64 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSmWT004V1.1.12016-06
+id: ETSIGSmWT004V111201606
+schema_version: v1.4.1
 title:
-- content: millimetre Wave Transmission (mWT); V-band street level interference analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46544
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/004/01.01.01_60/gs_mWT004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS mWT 004 V1.1.1 (2016-06)
+- language: en
+  script: Latn
+  content: millimetre Wave Transmission (mWT); V-band street level interference analysis
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46544
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/004/01.01.01_60/gs_mWT004v010101p.pdf
+docidentifier:
+- content: ETSI GS mWT 004 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI GS mWT 004 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UHVycG9zZSBvZiB0aGlzIFdvcmsgSXRlbSBpcyBpbmZvcm1hdGl2ZSB0byBpbnZlc3RpZ2F0ZSB0aGUgZmVhc2liaWxpdHkgb2YgdXNpbmcgdW5saWNlbnNlZCBiYW5kIGJ5IGFuYWx5c2luZyBpbnRlcmZlcmVuY2UgbGV2ZWxzIGluIGNvLWNoYW5uZWwgYW5kIGFkamFjZW50IGNoYW5uZWxzIGluIGRlbnNlIGRlcGxveWVtZW50IG9mIFBQIHJhZGlvIGF0IHRoZSBzdHJlZXQgbGV2ZWwgdGFraW5nIGludG8gY29uc2lkZXJhdGlvbnMgZXF1aXBtZW50IGNoYXJhY3RlcmlzdGljcywgY2FwYWNpdGllcyBhbmQgQlcgcmVxdWlyZW1lbnRzLCBzdGFuZGFyZHMtIGF2YWlsYWJsZSBjaGFubmVscywgYW50ZW5uYXMg4oCTIGF2YWlsYWJsZSBzdGFuZGFyZHMgYW5kIHByb3BhZ2F0aW9uIDogb3h5Z2VuIGFic29ycHRpb24g4oCTIGxvc3MgYW5kIG1vZGVsaW5nLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Purpose of this Work Item is informative to investigate the feasibility
+    of using unlicensed band by analysing interference levels in co-channel and adjacent
+    channels in dense deployement of PP radio at the street level taking into considerations
+    equipment characteristics, capacities and BW requirements, standards- available
+    channels, antennas  available standards and propagation : oxygen absorption  loss
+    and modeling.'
+status:
+  stage: Published
 keyword:
-- content: mWT
-- content: V-band
+- taxon:
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: V-band
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Specification

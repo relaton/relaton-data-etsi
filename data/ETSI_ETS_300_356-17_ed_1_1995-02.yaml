@@ -1,65 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300356-17ed.11995-02
+id: ETSIETS30035617ed1199502
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; ISDN
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; ISDN
     User Part (ISUP) version 2 for the international interface; Part 17: Call Waiting
     (CW) supplementary service [ITU-T Recommendation Q.733, section 1 (1992), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=211
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30035617/01_60/ets_30035617e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 356-17 ed.1 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=211
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30035617/01_60/ets_30035617e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 356-17 ed.1 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 356-17 ed.1 (1995-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: ''
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: ''
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: CW
-- content: ENDORSEMENT
-- content: ISDN
-- content: ISUP
-- content: SS7
-- content: STAGE 3
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: CW
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: STAGE 3
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Signalling
+    content: European Telecommunication Standard

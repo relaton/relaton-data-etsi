@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSCIM047V1.1.22024-12
+id: ETSIGSCIM047V112202412
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); OpenAPI Specification for NGSI-LD
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); OpenAPI Specification for NGSI-LD
     API
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73747
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/047/01.01.02_60/gs_CIM047v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI GS CIM 047 V1.1.2 (2024-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73747
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/CIM/001_099/047/01.01.02_60/gs_CIM047v010102p.pdf
+docidentifier:
+- content: ETSI GS CIM 047 V1.1.2 (2024-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS CIM 047 V1.1.2 (2024-12)
 date:
 - type: published
-  value: 2024-12
+  at: 2024-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2024-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'OpenAPI is a popular standard for building REST APIs in a language-agnostic
+- language: en
+  script: Latn
+  content: 'OpenAPI is a popular standard for building REST APIs in a language-agnostic
     way. OpenAPI specifications can improve the documentation of the API, and they
     can also be used to generate stub code for clients and servers in multiple programming
     languages. Having an OpenAPI specification for the NGSI-LD API would help developers
     implement NGSI-LD in their applications. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: NGSI-LD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: NGSI-LD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Specification

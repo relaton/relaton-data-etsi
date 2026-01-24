@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301087V5.4.11999-04
+id: ETSIEN301087V541199904
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2 and Phase 2+) (GSM);
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2 and Phase 2+) (GSM);
     Base Station System (BSS) equipment specification; Radio aspects (GSM 11.21 version
     5.4.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7333
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/301087/05.04.01_60/en_301087v050401p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 087 V5.4.1 (1999-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7333
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/301087/05.04.01_60/en_301087v050401p.pdf
+docidentifier:
+- content: ETSI EN 301 087 V5.4.1 (1999-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 087 V5.4.1 (1999-04)
 date:
 - type: published
-  value: 1999-04
+  at: 1999-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Base Station System (BSS) Testing  (GSM 11.20)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.4.1
-revdate: 1999-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nReduction of Half Rate Speech (TCH/HS) number of samples\r\nClarification
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nReduction of Half Rate Speech (TCH/HS) number of samples\r\nClarification
     on conformance requirements for testcases 6.7/6.8\r\nAddition to chap. 4.10.5
     to define a BTS with separated antenna ports\r\nErroneous frame indication performance\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASE STATION
-- content: GSM
-- content: GSM_PHASE2
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Base Station System (BSS) Testing  (GSM 11.20)
+    content: European Standard

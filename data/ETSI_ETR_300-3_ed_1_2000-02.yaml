@@ -1,59 +1,69 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR300-3ed.12000-02
+id: ETSIETR3003ed1200002
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Designers''
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Designers''
     guide; Part 3: Direct Mode Operation (DMO)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4325
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/30003/01_60/etr_30003e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 300-3 ed.1 (2000-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4325
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/30003/01_60/etr_30003e01p.pdf
+docidentifier:
+- content: ETSI ETR 300-3 ed.1 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 300-3 ed.1 (2000-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TETRA User Requirements / Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A guide to TETRA-specific features, radio network planning aspects\r\nand
+- language: en
+  script: Latn
+  content: "A guide to TETRA-specific features, radio network planning aspects\r\nand
     the features which affect the traffic capacity.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: TETRA User Requirements / Services
+    content: ETSI Technical Report

@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103930V1.1.12025-01
+id: ETSITR103930V111202501
+schema_version: v1.4.1
 title:
-- content: Guide for the development of Harmonised Standards falling under article
+- language: en
+  script: Latn
+  content: Guide for the development of Harmonised Standards falling under article
     3.2 of the Radio Equipment Directive (RED); Meteorological and Primary Radars
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67492
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103930/01.01.01_60/tr_103930v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 930 V1.1.1 (2025-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67492
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103900_103999/103930/01.01.01_60/tr_103930v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 930 V1.1.1 (2025-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 930 V1.1.1 (2025-01)
 date:
 - type: published
-  value: 2025-01
+  at: 2025-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Maritime and radio amateur activities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To provide guidelines for the development of Harmonised Standards under
+- language: en
+  script: Latn
+  content: To provide guidelines for the development of Harmonised Standards under
     article 3.2 of the RED for meteorological, primary ATC as well as river and non-SOLAS
     monostatic radars, notably the applicable technical requirements as defined in
     the ETSI guide EG 203 336.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AERONAUTICAL
-- content: MARITIME
-- content: RADAR
-- content: radio parameters
+- taxon:
+  - language: en
+    script: Latn
+    content: AERONAUTICAL
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: radio parameters
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Maritime and radio amateur activities
+    content: Technical Report

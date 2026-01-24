@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203259V1.1.12015-01
+id: ETSIES203259V111201501
+schema_version: v1.4.1
 title:
-- content: Integrated broadband cable telecommunication networks (CABLE); Converged
+- language: en
+  script: Latn
+  content: Integrated broadband cable telecommunication networks (CABLE); Converged
     Cable Access Platform; Operational Support System Interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43326
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203200_203299/203259/01.01.01_60/es_203259v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 259 V1.1.1 (2015-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43326
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203200_203299/203259/01.01.01_60/es_203259v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 259 V1.1.1 (2015-01)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 259 V1.1.1 (2015-01)
 date:
 - type: published
-  value: 2015-01
+  at: 2015-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document defines the requirements necessary for the Configuration,
+- language: en
+  script: Latn
+  content: "This document defines the requirements necessary for the Configuration,
     Fault Management, and Performance Management of the Converged Cable Access Platform
     (CCAP) system. The intent of this specification is to define a common, cross-vendor
     set of functionality for the configuration and management of CCAPs.\r\nThis specification
@@ -56,22 +65,30 @@ abstract:
     based largely upon existing industry standard management objects found in DOCSIS
     CMTSs and Universal EQAMs. In addition, this specification defines the standard
     Event Messaging requirements of a CCAP system."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DOCSIS
-- content: IPCable
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DOCSIS
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: ETSI Standard

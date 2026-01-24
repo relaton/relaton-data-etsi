@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102532V1.2.12012-11
+id: ETSITR102532V121201211
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); The use of alternative energy solutions
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); The use of alternative energy solutions
     in telecommunication installations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31026
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102532/01.02.01_60/tr_102532v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 532 V1.2.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31026
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102532/01.02.01_60/tr_102532v010201p.pdf
+docidentifier:
+- content: ETSI TR 102 532 V1.2.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 532 V1.2.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Environmental Engineering
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Practical tips and guidelines for the application of alternative energy
+- language: en
+  script: Latn
+  content: Practical tips and guidelines for the application of alternative energy
     solutions (both for powering and cooling) to telecommunication networks, based
     or real deployments and experience available up to now, will be added to the existing
     TR (in annexes). Also the issue of disposal of waste materials and LCA analysis
     related to alternative energy solutions (e.g. batteries) will be developed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: POWER
-- content: POWER SUPPLY
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Environmental Engineering
+    content: Technical Report

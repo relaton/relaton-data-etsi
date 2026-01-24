@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201488V1.1.12000-11
+id: ETSIES201488V111200011
+schema_version: v1.4.1
 title:
-- content: Data-Over-Cable Service Interface Specifications Radio Frequency Interface
+- language: en
+  script: Latn
+  content: Data-Over-Cable Service Interface Specifications Radio Frequency Interface
     Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9087
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201400_201499/201488/01.01.01_60/es_201488v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 488 V1.1.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9087
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201400_201499/201488/01.01.01_60/es_201488v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 488 V1.1.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 488 V1.1.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Bi-directional systems for HFC (Hybrid Fibre Coax) cable plant are evolving
+- language: en
+  script: Latn
+  content: "Bi-directional systems for HFC (Hybrid Fibre Coax) cable plant are evolving
     to support an ever wider range of services, including enhanced broadcast, interactive
     broadcast, data communication and telecommunications.\r\nIn this context, many
     cable operators and manufacturers are requesting that ETSI study Ref. 1, a  cable
     modem specification. \r\nRef. 1: Data Over Cable Service Interface Specification
     (ITU-T J.112 Annex B), with an extension to comply with ETS 300 429 (essentially
     the ITU-T J Series Supplement).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: CABLE
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

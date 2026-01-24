@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRETI001V1.1.12021-06
+id: ETSIGRETI001V111202106
+schema_version: v1.4.1
 title:
-- content: Encrypted Traffic Integration (ETI); Problem Statement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59506
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ETI/001_099/001/01.01.01_60/gr_ETI001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ETI 001 V1.1.1 (2021-06)
+- language: en
+  script: Latn
+  content: Encrypted Traffic Integration (ETI); Problem Statement
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59506
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ETI/001_099/001/01.01.01_60/gr_ETI001v010101p.pdf
+docidentifier:
+- content: ETSI GR ETI 001 V1.1.1 (2021-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR ETI 001 V1.1.1 (2021-06)
 date:
 - type: published
-  value: 2021-06
+  at: 2021-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Encrypted Traffic Integration
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The intent of this work item is to identify the problem of when traffic
+- language: en
+  script: Latn
+  content: The intent of this work item is to identify the problem of when traffic
     is encrypted and to examine how it impacts the various stakeholders. This will
     consider both positive aspects and negative impacts (e.g. end-to-end privacy and
     confidentiality versus masking of data necessary for signalling optimisation).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONFIDENTIALITY
-- content: Network Measurement
-- content: Network monitoring
-- content: Network Performance
+- taxon:
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: Network Measurement
+  - language: en
+    script: Latn
+    content: Network monitoring
+  - language: en
+    script: Latn
+    content: Network Performance
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Encrypted Traffic Integration
+    content: Group Report

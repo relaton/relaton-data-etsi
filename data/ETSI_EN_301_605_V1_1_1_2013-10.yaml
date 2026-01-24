@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301605V1.1.12013-10
+id: ETSIEN301605V111201310
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Earthing and bonding of 400 VDC data and
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Earthing and bonding of 400 VDC data and
     telecom (ICT) equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38244
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301600_301699/301605/01.01.01_60/en_301605v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 605 V1.1.1 (2013-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38244
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301600_301699/301605/01.01.01_60/en_301605v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 605 V1.1.1 (2013-10)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 605 V1.1.1 (2013-10)
 date:
 - type: published
-  value: 2013-10
+  at: 2013-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Earthing and bonding requirements for 400Vdc datacom / telecommunication
+- language: en
+  script: Latn
+  content: 'Earthing and bonding requirements for 400Vdc datacom / telecommunication
     equipment. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BONDING
-- content: EARTHING
-- content: POWER
+- taxon:
+  - language: en
+    script: Latn
+    content: BONDING
+  - language: en
+    script: Latn
+    content: EARTHING
+  - language: en
+    script: Latn
+    content: POWER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: EE Power Supply
+    content: European Standard

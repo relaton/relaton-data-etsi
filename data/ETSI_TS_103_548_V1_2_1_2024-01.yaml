@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103548V1.2.12024-01
+id: ETSITS103548V121202401
+schema_version: v1.4.1
 title:
-- content: SmartM2M; SAREF reference ontology patterns
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63055
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103548/01.02.01_60/ts_103548v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 548 V1.2.1 (2024-01)
+- language: en
+  script: Latn
+  content: SmartM2M; SAREF reference ontology patterns
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63055
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103548/01.02.01_60/ts_103548v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 548 V1.2.1 (2024-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 548 V1.2.1 (2024-01)
 date:
 - type: published
-  value: 2024-01
+  at: 2024-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2024-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'to specify the set of SAREF reference ontology patterns for the modelling
+- language: en
+  script: Latn
+  content: 'to specify the set of SAREF reference ontology patterns for the modelling
     and the description of any kind of applications-related data/information/systems.
     The SAREF reference ontology patterns can be instantiated in different verticals
     to provide the SAREF suite of ontologies a homogeneous and predictable structure,
@@ -53,23 +62,33 @@ abstract:
     the core of the following ontologies: W3C&OGC SOSA (Sensing, Observation, Sampling
     and Actuation) and SSN (Semantic Sensor Network), QUDT (Quantity, Unit, Dimension
     and Type).'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: INTEROPERABILITY
-- content: IoT
-- content: oneM2M
-- content: ontology
-- content: SAREF
-- content: Semantic
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: ontology
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

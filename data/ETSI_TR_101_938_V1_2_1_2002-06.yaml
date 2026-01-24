@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101938V1.2.12002-06
+id: ETSITR101938V121200206
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Electronically steerable antennas; Multipoint (MP)
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Electronically steerable antennas; Multipoint (MP)
     antennas; Fixed Wireless Access (FWA) radio systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15571
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101938/01.02.01_60/tr_101938v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 938 V1.2.1 (2002-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15571
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101938/01.02.01_60/tr_101938v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 938 V1.2.1 (2002-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 938 V1.2.1 (2002-06)
 date:
 - type: published
-  value: 2002-06
+  at: 2002-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To create a TR with general requirements for electronically steerable
+- language: en
+  script: Latn
+  content: "To create a TR with general requirements for electronically steerable
     antennas for MP applications.\r\n\r\nThe present revision is produced because
     a wrong version of the document was\r\nby mistake published in TR 101 938 v1.1.1.
     The present document cancels and replaces\r\nthe previous version (v1.1.1) in
     whole.\r\nThe v1.1.1 will be withdrawn"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: MULTIPOINT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

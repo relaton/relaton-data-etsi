@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101046V5.7.01999-08
+id: ETSITS101046V570199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Customised
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Customised
     Applications for Mobile network Enhanced Logic (CAMEL); CAMEL Application Part
     (CAP) specification (GSM 09.78 version 5.7.0 Release 1996)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8697
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101046/05.07.00_60/ts_101046v050700p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 046 V5.7.0 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8697
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101046/05.07.00_60/ts_101046v050700p.pdf
+docidentifier:
+- content: ETSI TS 101 046 V5.7.0 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 046 V5.7.0 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.7.0
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nDefinition of CAP SSN replaced by a reference to GSM 03.03\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nDefinition of CAP SSN replaced by a reference to GSM 03.03\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

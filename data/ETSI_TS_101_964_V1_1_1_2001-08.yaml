@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101964V1.1.12001-08
+id: ETSITS101964V111200108
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); Control Channel for SMATV/MATV distribution
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); Control Channel for SMATV/MATV distribution
     systems; Baseline Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14089
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101964/01.01.01_60/ts_101964v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 964 V1.1.1 (2001-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14089
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101964/01.01.01_60/ts_101964v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 964 V1.1.1 (2001-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 964 V1.1.1 (2001-08)
 date:
 - type: published
-  value: 2001-08
+  at: 2001-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The Control Channel specification for SMATV/MATV distribution systems (based
+- language: en
+  script: Latn
+  content: The Control Channel specification for SMATV/MATV distribution systems (based
     on EN 300 743) is intended to provide remote control of the head-end device from
     the user's terminal through a set of commands in a closed in-building environment
     for the delivery of broadcast services. Provision for interactive services is
     out of the scope of this specification.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: CONTROL
-- content: DIGITAL
-- content: DVB
-- content: SMATV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: SMATV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

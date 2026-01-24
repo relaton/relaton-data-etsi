@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101298V7.0.11999-08
+id: ETSITS101298V701199908
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
     Radio Service (GPRS); Base Station System (BSS) - Serving GPRS Support Node (SGSN)
     interface; Gb interface Layer 1 (GSM 08.14 version 7.0.1 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8101
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101298/07.00.01_60/ts_101298v070001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 298 V7.0.1 (1999-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8101
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101298/07.00.01_60/ts_101298v070001p.pdf
+docidentifier:
+- content: ETSI TS 101 298 V7.0.1 (1999-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 298 V7.0.1 (1999-08)
 date:
 - type: published
-  value: 1999-08
+  at: 1999-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.1
-revdate: 1999-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nANSI references\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nANSI references\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: PACKET MODE
-- content: RADIO
-- content: SERVICE
-- content: STAGE 2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: STAGE 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio
+    content: Technical Specification

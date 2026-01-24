@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100596V6.3.01999-11
+id: ETSITS100596V630199911
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Base Station
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Base Station
     Controller - Base Transceiver Station (BSC - BTS) interface; Layer 3 specification
     (GSM 08.58 version 6.3.0 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9204
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100596/06.03.00_60/ts_100596v060300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 596 V6.3.0 (1999-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9204
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100500_100599/100596/06.03.00_60/ts_100596v060300p.pdf
+docidentifier:
+- content: ETSI TS 100 596 V6.3.0 (1999-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 596 V6.3.0 (1999-11)
 date:
 - type: published
-  value: 1999-11
+  at: 1999-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.3.0
-revdate: 1999-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nIntroduction of NLN status bit\r\nSUBJECT\r\nMultislot support\r\nMobile
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nIntroduction of NLN status bit\r\nSUBJECT\r\nMultislot support\r\nMobile
     assisted frequency allocation\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Radio
+    content: Technical Specification

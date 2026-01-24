@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102927V1.1.12010-11
+id: ETSITR102927V111201011
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Packet Loss Concealment
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Packet Loss Concealment
     (PLC) performance measurement setup for home networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34624
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102927/01.01.01_60/tr_102927v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 927 V1.1.1 (2010-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34624
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102927/01.01.01_60/tr_102927v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 927 V1.1.1 (2010-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 927 V1.1.1 (2010-11)
 date:
 - type: published
-  value: 2010-11
+  at: 2010-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Scope of work to be undertaken:  Concerning PLC measurement, the document
+- language: en
+  script: Latn
+  content: 'Scope of work to be undertaken:  Concerning PLC measurement, the document
     presents a detailed and practical description of the corresponding test setup
     and procedure.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: QUALITY
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

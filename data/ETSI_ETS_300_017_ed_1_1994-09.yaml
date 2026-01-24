@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300017ed.11994-09
+id: ETSIETS300017ed1199409
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); Test procedures for Teletex
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1301
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300017/01_60/ets_300017e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 017 ed.1 (1994-09)
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); Test procedures for Teletex
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1301
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300017/01_60/ets_300017e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 017 ed.1 (1994-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 017 ed.1 (1994-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of test procedures for examining the conformance of an\r\nimplementation
+- language: en
+  script: Latn
+  content: "Definition of test procedures for examining the conformance of an\r\nimplementation
     of the protocols with the specification of these\r\nprotocols\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: TELETEX
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: TELETEX
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: European Telecommunication Standard

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101040V1.1.11997-05
+id: ETSITS101040V111199705
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Security; Lawful Interception (LI) interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5547
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101040/01.01.01_60/ts_101040v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 040 V1.1.1 (1997-05)
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Security; Lawful Interception (LI) interface
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5547
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101000_101099/101040/01.01.01_60/ts_101040v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 040 V1.1.1 (1997-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 040 V1.1.1 (1997-05)
 date:
 - type: published
-  value: 1997-05
+  at: 1997-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define an interface to allow Lawful Interception of all TETRA traff\r\nic
+- language: en
+  script: Latn
+  content: "To define an interface to allow Lawful Interception of all TETRA traff\r\nic
     and signalling.\r\nThe requirements and stage 1 definitions are to be included
     in this ed\r\nition.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: SECURITY
-- content: TETRA
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

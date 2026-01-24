@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS183036V3.7.12021-02
+id: ETSITS183036V371202102
+schema_version: v1.4.1
 title:
-- content: Core Network and Interoperability Testing (INT); ISDN/SIP interworking;
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); ISDN/SIP interworking;
     Protocol specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59552
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183036/03.07.01_60/ts_183036v030701p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 183 036 V3.7.1 (2021-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59552
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/183000_183099/183036/03.07.01_60/ts_183036v030701p.pdf
+docidentifier:
+- content: ETSI TS 183 036 V3.7.1 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 183 036 V3.7.1 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.7.1
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of chapters 5.2.5.2.3 and 5.2.5.2.4 \t\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Revision of chapters 5.2.5.2.3 and 5.2.5.2.4 \t\r\n"
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: INTERWORKING
-- content: ISDN
-- content: SIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

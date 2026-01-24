@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITR119411-5V1.1.12023-01
+id: ETSITR1194115V111202301
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Policy and security requirements
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Policy and security requirements
     for Trust Service Providers issuing certificates; Part 5: Guidelines for the coexistence
     of web browser and EU trust controls'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66167
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/119400_119499/11941105/01.01.01_60/tr_11941105v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 119 411-5 V1.1.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66167
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/119400_119499/11941105/01.01.01_60/tr_11941105v010101p.pdf
+docidentifier:
+- content: ETSI TR 119 411-5 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 119 411-5 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Guidelines for the coexistence of web browser and EU trust controls based
+- language: en
+  script: Latn
+  content: Guidelines for the coexistence of web browser and EU trust controls based
     on the CA/Browser Forum baseline requirements and ETSI standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: ELECTRONIC SIGNATURE
-- content: extended validation certificat
-- content: INTERNET
-- content: Public key
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: extended validation certificat
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: Public key
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

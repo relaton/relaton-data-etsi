@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR183056V2.1.12009-02
+id: ETSITR183056V211200902
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Feasibility study on new methods for Overlap Sending
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25814
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183056/02.01.01_60/tr_183056v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 183 056 V2.1.1 (2009-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25814
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/183000_183099/183056/02.01.01_60/tr_183056v020101p.pdf
+docidentifier:
+- content: ETSI TR 183 056 V2.1.1 (2009-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 183 056 V2.1.1 (2009-02)
 date:
 - type: published
-  value: 2009-02
+  at: 2009-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2009-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This TR will investigate new methods for providing overlap sending originating
+- language: en
+  script: Latn
+  content: This TR will investigate new methods for providing overlap sending originating
     from PSTN devices. The expectation is that such methods would save on processing
     that the present method for overlap sending deploys. It is also the aim of this
     investigation is to fully backward compatible, have no impact upon the SIP signalling
     protocols, and have a minimal impact upon the existing SIP nodes.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: SIGNALLING
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: SIGNALLING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: Technical Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102310V6.2.02005-09
+id: ETSITS102310V620200509
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Extensible Authentication Protocol support in the UICC (Release
+- language: en
+  script: Latn
+  content: Smart Cards; Extensible Authentication Protocol support in the UICC (Release
     6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23512
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102310/06.02.00_60/ts_102310v060200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 310 V6.2.0 (2005-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23512
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102310/06.02.00_60/ts_102310v060200p.pdf
+docidentifier:
+- content: ETSI TS 102 310 V6.2.0 (2005-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 310 V6.2.0 (2005-09)
 date:
 - type: published
-  value: 2005-09
+  at: 2005-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.2.0
-revdate: 2005-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "EAP is a general authentication framework, which supports multiple authentication
+- language: en
+  script: Latn
+  content: "EAP is a general authentication framework, which supports multiple authentication
     methods and is widely used in multiple technologies and contexts.\r\nIn this context,
     this Work Item aims to produce the necessary outputs to  run EAP on the UICC and
     to provide mechanisms to:\r\n-Enable any UICC application to carry out a particular
@@ -54,19 +63,21 @@ abstract:
     between the supplicant software in the terminal EAP layer and this specific UICC
     application.\r\nSecurity issues of this work item will be done in close cooperation
     with SCP WG2."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CARD
-- content: PROTOCOL
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-TEC
+    content: Technical Specification

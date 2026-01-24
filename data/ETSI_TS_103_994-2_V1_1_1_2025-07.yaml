@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103994-2V1.1.12025-07
+id: ETSITS1039942V111202507
+schema_version: v1.4.1
 title:
-- content: 'Cyber Security (CYBER); Privileged Access Workstations; Part 2: Connectivity'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72060
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10399402/01.01.01_60/ts_10399402v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 994-2 V1.1.1 (2025-07)
+- language: en
+  script: Latn
+  content: 'Cyber Security (CYBER); Privileged Access Workstations; Part 2: Connectivity'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72060
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/10399402/01.01.01_60/ts_10399402v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 994-2 V1.1.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 994-2 V1.1.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To describe a set of best practice concepts for Privilege Access Workstations
+- language: en
+  script: Latn
+  content: "To describe a set of best practice concepts for Privilege Access Workstations
     (PAWs) that would benefit the Telecoms Industry, amongst others. PAWs can mitigate
     a large number of security threats and can reduce the attack surface of an Operator,
     their vendors and service providers. Standardisation of these concepts will provide
@@ -53,17 +62,15 @@ abstract:
     help to create a common understanding for implementation. \r\nThis work item is
     part 2 dealing with connectivity and key design concepts and is a follow on from
     Privilege Access Workstation Part 1: Physical Device.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

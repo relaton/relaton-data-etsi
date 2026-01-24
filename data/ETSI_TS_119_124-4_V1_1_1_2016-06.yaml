@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119124-4V1.1.12016-06
+id: ETSITS1191244V111201606
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); CAdES digital signatures
     - Testing Conformance and Interoperability; Part 4: Testing Conformance of CAdES
     baseline signatures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39494
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11912404/01.01.01_60/ts_11912404v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 124-4 V1.1.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39494
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11912404/01.01.01_60/ts_11912404v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 124-4 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 124-4 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This multi-part document will provide test suites for testing interoperability
+- language: en
+  script: Latn
+  content: "This multi-part document will provide test suites for testing interoperability
     of signatures compliant with CAdES core specification and CAdES Baseline Profile.
     It will also define a test suite for testing conformance of CAdES signatures against
     CAdES core specification and CAdES Baseline Profile.\r\n\r\nTest suites for testing
@@ -59,23 +68,33 @@ abstract:
     against the CAdES specification. It will allow developing a tool that can automatically
     check that a CAdES signature is fully compliant with the relevant aforementioned
     specifications, without claiming any statement on its validity."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CAdES
-- content: CONFORMANCE
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CAdES
+  - language: en
+    script: Latn
+    content: CONFORMANCE
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

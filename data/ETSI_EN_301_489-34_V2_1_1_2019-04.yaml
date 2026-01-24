@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301489-34V2.1.12019-04
+id: ETSIEN30148934V211201904
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47054
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148934/02.01.01_60/
-  type: pdf
-docid:
-- id: ETSI EN 301 489-34 V2.1.1 (2019-04)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47054
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/30148934/02.01.01_60/
+docidentifier:
+- content: ETSI EN 301 489-34 V2.1.1 (2019-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 489-34 V2.1.1 (2019-04)
 date:
 - type: published
-  value: 2019-04
+  at: 2019-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision to update the references and bring the HS in line with the requirements
+- language: en
+  script: Latn
+  content: Revision to update the references and bring the HS in line with the requirements
     of the RE-D
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: Harmonised standard
-- content: MOBILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

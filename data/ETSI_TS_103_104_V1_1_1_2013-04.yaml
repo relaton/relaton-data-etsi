@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103104V1.1.12013-04
+id: ETSITS103104V111201304
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); Interoperability Test Specification
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); Interoperability Test Specification
     for CoAP Binding of ETSI M2M Primitives
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39424
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103104/01.01.01_60/ts_103104v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 104 V1.1.1 (2013-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39424
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103104/01.01.01_60/ts_103104v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 104 V1.1.1 (2013-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 104 V1.1.1 (2013-04)
 date:
 - type: published
-  value: 2013-04
+  at: 2013-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'Specification of interoperability Test Descriptions (TDs) for the CoAP
+- language: en
+  script: Latn
+  content: 'Specification of interoperability Test Descriptions (TDs) for the CoAP
     binding as specified in Annex D of ETSI TS 102 921. The focus will be on testing
     the binding on the mId interface. Test Descriptions will cover CoAP protocol specification
     as needed. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

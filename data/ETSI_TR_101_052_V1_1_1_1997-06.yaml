@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101052V1.1.11997-06
+id: ETSITR101052V111199706
+schema_version: v1.4.1
 title:
-- content: Security Algorithms Group of Experts (SAGE); Rules for the management of
+- language: en
+  script: Latn
+  content: Security Algorithms Group of Experts (SAGE); Rules for the management of
     the TETRA standard authentication and key management algorithm set TAA1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3874
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101052/01.01.01_60/tr_101052v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 052 V1.1.1 (1997-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3874
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/101052/01.01.01_60/tr_101052v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 052 V1.1.1 (1997-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 052 V1.1.1 (1997-06)
 date:
 - type: published
-  value: 1997-06
+  at: 1997-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security Algorithms Group of Experts
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Design of a standard  set of air interface authentication and key\r\nmanagement
+- language: en
+  script: Latn
+  content: "Design of a standard  set of air interface authentication and key\r\nmanagement
     algorithms TAA1 for TETRA (MI work item SAGE-00011-2;\r\nConfidential document
     for the Custodian) and production of a TC-TR\r\ndescribing the rules for management
     of this algorithm set\r\n(SAGE-00011-1).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ALGORITHM
-- content: SECURITY
-- content: TAA1
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TAA1
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Security Algorithms Group of Experts
+    content: Technical Report

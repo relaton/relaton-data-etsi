@@ -1,69 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102314-1V1.2.12006-04
+id: ETSITS1023141V121200604
+schema_version: v1.4.1
 title:
-- content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 1: Overview'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22841
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10231401/01.02.01_60/ts_10231401v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 314-1 V1.2.1 (2006-04)
+- language: en
+  script: Latn
+  content: 'Fixed network Multimedia Messaging Service (F-MMS); Part 1: Overview'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22841
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10231401/01.02.01_60/ts_10231401v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 314-1 V1.2.1 (2006-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 314-1 V1.2.1 (2006-04)
 date:
 - type: published
-  value: 2006-04
+  at: 2006-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2006-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Structure of the F-MMS document series; together with the references to
+- language: en
+  script: Latn
+  content: Structure of the F-MMS document series; together with the references to
     the various parts. The goal of this Work Item is to update ETSI TS 102 314-1 V1.1.2
     (2004-12) after finalizing the MMS via IP documents.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: ISDN
-- content: MMS
-- content: PSTN
-- content: SMS
-- content: xDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MMS
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SMS
+  - language: en
+    script: Latn
+    content: xDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: AT Features
+    content: Technical Specification

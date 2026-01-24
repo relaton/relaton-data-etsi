@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRZSM015V1.1.12024-02
+id: ETSIGRZSM015V111202402
+schema_version: v1.4.1
 title:
-- content: Zero-touch network and Service Management (ZSM); Network Digital Twin
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64372
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ZSM 015 V1.1.1 (2024-02)
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Network Digital Twin
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64372
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ZSM/001_099/015/01.01.01_60/gr_ZSM015v010101p.pdf
+docidentifier:
+- content: ETSI GR ZSM 015 V1.1.1 (2024-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR ZSM 015 V1.1.1 (2024-02)
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This report will describe the Network Digital Twin concept,  investigate
+- language: en
+  script: Latn
+  content: "This report will describe the Network Digital Twin concept,  investigate
     its applicability for automation of  zero-touch network and service management
     and introduce existing, emerging and future scenarios that can benefit from it.\r\nPrinciples
     and functionality needed  to support and utilize the Network Digital Twin for
@@ -55,19 +64,21 @@ abstract:
     identify existing specifications and solutions (both ETSI and external ones) that
     can be leveraged to maximize synergies. Collaboration with other SDOs (e.g. in
     IRTF NMRG, ITU-T SG13) will be recommended when appropriate."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: automation
-- content: Digital Twins
-- content: network management
+- taxon:
+  - language: en
+    script: Latn
+    content: automation
+  - language: en
+    script: Latn
+    content: Digital Twins
+  - language: en
+    script: Latn
+    content: network management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Zero-touch network and Service Management
+    content: Group Report

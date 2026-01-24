@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103557V1.3.12020-03
+id: ETSITS103557V131202003
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Methods for reproducing
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Methods for reproducing
     reverberation for communication device measurements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58659
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103557/01.03.01_60/ts_103557v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 557 V1.3.1 (2020-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58659
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103557/01.03.01_60/ts_103557v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 557 V1.3.1 (2020-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 557 V1.3.1 (2020-03)
 date:
 - type: published
-  value: 2020-03
+  at: 2020-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2020-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This work specifies methodologies for simulating reverberation conditions,
+- language: en
+  script: Latn
+  content: "This work specifies methodologies for simulating reverberation conditions,
     including speech signals, characteristic transfer functions and geometric relations
     of talkers and devices, as well as the control of room acoustic parameters. Such
     methodologies are to be used for the measurement of communication devices.\r\nThis
     revision is to add additional impulse responses to the database and clearly defining
     DUT positioning within reproduction environment."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QUALITY
-- content: Reverberation
-- content: Simulation
-- content: SPEECH
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: QUALITY
+  - language: en
+    script: Latn
+    content: Reverberation
+  - language: en
+    script: Latn
+    content: Simulation
+  - language: en
+    script: Latn
+    content: SPEECH
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

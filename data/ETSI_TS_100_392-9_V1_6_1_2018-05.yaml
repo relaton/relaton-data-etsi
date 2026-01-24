@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100392-9V1.6.12018-05
+id: ETSITS1003929V161201805
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 9: General
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 9: General
     requirements for supplementary services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54004
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039209/01.06.01_60/ts_10039209v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 392-9 V1.6.1 (2018-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54004
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100300_100399/10039209/01.06.01_60/ts_10039209v010601p.pdf
+docidentifier:
+- content: ETSI TS 100 392-9 V1.6.1 (2018-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 392-9 V1.6.1 (2018-05)
 date:
 - type: published
-  value: 2018-05
+  at: 2018-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2018-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Support of SIP/IP as transport media for ISI APDUs. The current standard
+- language: en
+  script: Latn
+  content: "Support of SIP/IP as transport media for ISI APDUs. The current standard
     EN300 392-09 describes the use of PSS1/E1 as transport media for ISI APDUs. The
     standard shall be made transport layer independent.\r\nIt is also proposed to
     publish the next version of this standard as a TS so that it can be published
     together with all other \"IP-ISI\" standards."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SUPPLEMENTARY SERVICE
-- content: TETRA
-- content: V+D
+- taxon:
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TETRA
+  - language: en
+    script: Latn
+    content: V+D
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TCCE Air Interface and Network Protocols
+    content: Technical Specification

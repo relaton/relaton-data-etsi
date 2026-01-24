@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101662-1V1.1.21999-07
+id: ETSITR1016621V112199907
+schema_version: v1.4.1
 title:
-- content: 'Internet Access; V5.2 controlled Internet access in the Access Network
+- language: en
+  script: Latn
+  content: 'Internet Access; V5.2 controlled Internet access in the Access Network
     (AN), phase 1; Part 1: Interface Specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6104
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/10166201/01.01.02_60/tr_10166201v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 662-1 V1.1.2 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6104
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/10166201/01.01.02_60/tr_10166201v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 662-1 V1.1.2 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 662-1 V1.1.2 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Networks and Service Node Interfaces
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "(Draft scope, which will be refined in the March 98 SPS3 meeting.)\r\nTo
+- language: en
+  script: Latn
+  content: "(Draft scope, which will be refined in the March 98 SPS3 meeting.)\r\nTo
     define the V5 functionality in LE and AN to support routing of internet (dial-up)
     traffic in \r\nthe AN to an internet acces interface. For phase 1 the functionality
     is limited to a routeing \r\nwithout signaling between LE and the internet access
@@ -54,21 +63,27 @@ abstract:
     of this work item, although some requirements for this \r\ninterface may evolve
     from this activity.\r\nSupporting members: Siemens, Ericsson, Kycebtm, Alcatel
     (ES)"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AN
-- content: INTERNET
-- content: IP
-- content: LE
-- content: V5 INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: AN
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: LE
+  - language: en
+    script: Latn
+    content: V5 INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Access Networks and Service Node Interfaces
+    content: Technical Report

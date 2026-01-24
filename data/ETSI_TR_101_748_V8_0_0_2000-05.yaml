@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101748V8.0.02000-05
+id: ETSITR101748V800200005
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Abbreviations
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Abbreviations
     and acronyms (GSM 01.04 version 8.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10357
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101748/08.00.00_60/tr_101748v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 748 V8.0.0 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10357
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101748/08.00.00_60/tr_101748v080000p.pdf
+docidentifier:
+- content: ETSI TR 101 748 V8.0.0 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 748 V8.0.0 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: May 2000-05-10 Version 8.0.0 V8.0.0 created for R99
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: May 2000-05-10 Version 8.0.0 V8.0.0 created for R99
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Services & Facilities
+    content: Technical Report

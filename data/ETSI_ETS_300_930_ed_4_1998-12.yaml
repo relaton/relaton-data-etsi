@@ -1,65 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300930ed.41998-12
+id: ETSIETS300930ed4199812
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Functions
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Functions
     related to Mobile Station (MS) in idle mode and group receive mode (GSM 03.22
     version 5.3.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6819
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300930/04_60/ets_300930e04p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 930 ed.4 (1998-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6819
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300930/04_60/ets_300930e04p.pdf
+docidentifier:
+- content: ETSI ETS 300 930 ed.4 (1998-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 930 ed.4 (1998-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nPLMN selection and group receive mode\r\nDefinition of criteria
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nPLMN selection and group receive mode\r\nDefinition of criteria
     for a suitable cell for group receive mode\r\nLocation update in group receive
     mode\r\nMonitoring of BCCH data of neighbour cells in group receice mode\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

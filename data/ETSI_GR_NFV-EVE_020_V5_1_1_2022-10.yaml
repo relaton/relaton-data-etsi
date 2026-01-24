@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE020V5.1.12022-10
+id: ETSIGRNFVEVE020V511202210
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Evolution and Ecosystem;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Evolution and Ecosystem;
     Report on NFV support for Network Function Connectivity eXtensions
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59460
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/020/05.01.01_60/gr_NFV-EVE020v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 020 V5.1.1 (2022-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59460
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/020/05.01.01_60/gr_NFV-EVE020v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 020 V5.1.1 (2022-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 020 V5.1.1 (2022-10)
 date:
 - type: published
-  value: 2022-10
+  at: 2022-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2022-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will study network function connectivity extensions scenarios,
+- language: en
+  script: Latn
+  content: This work item will study network function connectivity extensions scenarios,
     considering combination of computing and network integration for NFV. This will
     include the implementation of Dyncast at the NFVI level and the exposure, following
     a model-based approach of the infrastructure network, (e.g., focusing mainly on
@@ -54,20 +63,24 @@ abstract:
     of existing NFV templates to support and make use of the concept of extended network
     connectivity capabilities will be analysed as well (e.g., NSD, VNFD),  further
     exploring their impact on the NFV-MANO components.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANO
-- content: NETWORK
-- content: NFV
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

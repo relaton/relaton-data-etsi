@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302372-1V1.2.12011-02
+id: ETSIEN3023721V121201102
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     Range Devices (SRD); Equipment for Detection and Movement; Tanks Level Probing
     Radar (TLPR) operating in the frequency bands 5,8 GHz, 10 GHz, 25 GHz, 61 GHz
     and 77 GHz; Part 1: Technical characteristics and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33336
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302300_302399/30237201/01.02.01_60/en_30237201v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 372-1 V1.2.1 (2011-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33336
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302300_302399/30237201/01.02.01_60/en_30237201v010201p.pdf
+docidentifier:
+- content: ETSI EN 302 372-1 V1.2.1 (2011-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 372-1 V1.2.1 (2011-02)
 date:
 - type: published
-  value: 2011-02
+  at: 2011-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Tank Level Probing Radar
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2011-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1.review method of measurement, especially for radiated measurements at
+- language: en
+  script: Latn
+  content: "1.review method of measurement, especially for radiated measurements at
     frequencies above 40 GHz.\r\n2.amendments, updates and clarifications needed.\r\n3.clarify
     measurement uncertainty open questions currently not addressed in existing version
     of the standard."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EHF
-- content: RADAR
-- content: REGULATION
-- content: SHF
-- content: SHORT RANGE
-- content: TESTING
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: EHF
+  - language: en
+    script: Latn
+    content: RADAR
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SHF
+  - language: en
+    script: Latn
+    content: SHORT RANGE
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Tank Level Probing Radar
+    content: European Standard

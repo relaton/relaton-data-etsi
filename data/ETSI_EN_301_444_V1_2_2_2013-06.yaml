@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301444V1.2.22013-06
+id: ETSIEN301444V122201306
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Harmonized EN for Land Mobile
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Harmonized EN for Land Mobile
     Earth Stations (LMES) operating in the 1,5 GHz and 1,6 GHz bands providing voice
     and/or data communications covering essential requirements of article 3.2 of the
     R&TTE directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42502
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301444/01.02.02_60/en_301444v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 444 V1.2.2 (2013-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42502
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301444/01.02.02_60/en_301444v010202p.pdf
+docidentifier:
+- content: ETSI EN 301 444 V1.2.2 (2013-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 444 V1.2.2 (2013-06)
 date:
 - type: published
-  value: 2013-06
+  at: 2013-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Satellite Communications and Navigation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 2013-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "<Editorial Correction>\r\nTo update the frequency range in Table 1a, in
+- language: en
+  script: Latn
+  content: "<Editorial Correction>\r\nTo update the frequency range in Table 1a, in
     clause 1. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: LMES
-- content: REGULATION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: LMES
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Satellite Communications and Navigation
+    content: European Standard

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101297V7.3.02000-03
+id: ETSITS101297V730200003
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); General Packet
     Radio Service (GPRS); Mobile Station (MS) - Serving GPRS Support Node (SGSN);
     Subnetwork Dependent Convergence Protocol (SNDCP) (GSM 04.65 version 7.3.0 Release
     1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9787
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101297/07.03.00_60/ts_101297v070300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 297 V7.3.0 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9787
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101200_101299/101297/07.03.00_60/ts_101297v070300p.pdf
+docidentifier:
+- content: ETSI TS 101 297 V7.3.0 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 297 V7.3.0 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.3.0
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CR N#6, SMG#31
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CR N#6, SMG#31
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: PACKET MODE
-- content: RADIO
-- content: SERVICE
-- content: STAGE 2
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: STAGE 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

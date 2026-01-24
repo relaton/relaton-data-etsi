@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRRIS002V1.2.12025-02
+id: ETSIGRRIS002V121202502
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Intelligent Surfaces (RIS); Technological challenges, architecture
+- language: en
+  script: Latn
+  content: Reconfigurable Intelligent Surfaces (RIS); Technological challenges, architecture
     and impact on standardization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70397
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/RIS/001_099/002/01.02.01_60/gr_RIS002v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI GR RIS 002 V1.2.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70397
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/RIS/001_099/002/01.02.01_60/gr_RIS002v010201p.pdf
+docidentifier:
+- content: ETSI GR RIS 002 V1.2.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR RIS 002 V1.2.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reconfigurable Intelligent Surfaces
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The scope of the work item is to: a) analyze and describe technological
+- language: en
+  script: Latn
+  content: 'The scope of the work item is to: a) analyze and describe technological
     challenges in terms of deploying RIS as a new network node b) analyze potential
     impacts to network architecture, protocol architecture, and framework of RIS controlling
     c) produce a set of recommendations for requirements and potential impact to specifications
     to support RIS as a new feature. The deliverable will be an informative report. '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: RIS
-- content: standardization impacts
-- content: technological challenge
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: RIS
+  - language: en
+    script: Latn
+    content: standardization impacts
+  - language: en
+    script: Latn
+    content: technological challenge
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Reconfigurable Intelligent Surfaces
+    content: Group Report

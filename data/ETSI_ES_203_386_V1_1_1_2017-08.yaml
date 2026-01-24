@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203386V1.1.12017-08
+id: ETSIES203386V111201708
+schema_version: v1.4.1
 title:
-- content: Integrated broadband cable telecommunication networks (CABLE); Embedded
+- language: en
+  script: Latn
+  content: Integrated broadband cable telecommunication networks (CABLE); Embedded
     Router
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203300_203399/203386/01.01.01_60/es_203386v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 386 V1.1.1 (2017-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203300_203399/203386/01.01.01_60/es_203386v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 386 V1.1.1 (2017-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 386 V1.1.1 (2017-08)
 date:
 - type: published
-  value: 2017-08
+  at: 2017-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification defines a core set of features that enable multiple
+- language: en
+  script: Latn
+  content: "This specification defines a core set of features that enable multiple
     subscriber devices to gain access to operator provided high-speed data service
     using DOCSIS. This core set of features allows for both IPv4- and IPv6-enabled
     devices to gain connectivity to the Internet.\r\nThe eRouter is specified as an
@@ -55,22 +64,30 @@ abstract:
     in this specification includes the ability to provision multiple CPE devices,
     a description of how to forward data to and from CPE devices, and also the ability
     to forward IP Multicast traffic to CPE devices."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CABLE
-- content: DOCSIS
-- content: IPv4
-- content: IPv6
-- content: MODEM
-- content: router
+- taxon:
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DOCSIS
+  - language: en
+    script: Latn
+    content: IPv4
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: router
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: ETSI Standard

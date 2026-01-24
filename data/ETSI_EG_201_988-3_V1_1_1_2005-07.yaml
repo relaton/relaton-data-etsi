@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201988-3V1.1.12005-07
+id: ETSIEG2019883V111200507
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Service Provider Access; Open Service Access for API requirements;
     Part 3: Version 3'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19678
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201900_201999/20198803/01.01.01_60/eg_20198803v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 988-3 V1.1.1 (2005-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19678
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201900_201999/20198803/01.01.01_60/eg_20198803v010101p.pdf
+docidentifier:
+- content: ETSI EG 201 988-3 V1.1.1 (2005-07)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 988-3 V1.1.1 (2005-07)
 date:
 - type: published
-  value: 2005-07
+  at: 2005-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update of previous EG 201 899 to include mapping of open service access
+- language: en
+  script: Latn
+  content: Update of previous EG 201 899 to include mapping of open service access
     API Version 1 against SPA Requirements from EG 201 722 revision 2, EG 201 807
     and EG 201 897.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: ARCHITECTURE
-- content: INTERFACE
-- content: UML
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: UML
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: ETSI Guide

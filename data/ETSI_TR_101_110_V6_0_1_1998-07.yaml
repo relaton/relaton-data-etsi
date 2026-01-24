@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101110V6.0.11998-07
+id: ETSITR101110V601199807
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Characterisation,
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Characterisation,
     test methods and quality assessment for handsfree Mobile Stations (MSs) (GSM 03.58
     version 6.0.1 Release 1997)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6978
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101110/06.00.01_60/tr_101110v060001p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 110 V6.0.1 (1998-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6978
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101110/06.00.01_60/tr_101110v060001p.pdf
+docidentifier:
+- content: ETSI TR 101 110 V6.0.1 (1998-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 110 V6.0.1 (1998-07)
 date:
 - type: published
-  value: 1998-07
+  at: 1998-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.1
-revdate: 1998-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Publication as version 6.0.1 after SMG#26
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Publication as version 6.0.1 after SMG#26
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech Aspects
+    content: Technical Report

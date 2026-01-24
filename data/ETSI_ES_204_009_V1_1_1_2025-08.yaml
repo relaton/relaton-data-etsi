@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSIES204009V1.1.12025-08
+id: ETSIES204009V111202508
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Requirements for interoperable total conversation services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63786
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/204000_204099/204009/01.01.01_60/es_204009v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 204 009 V1.1.1 (2025-08)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Requirements for interoperable total conversation services
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63786
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/204000_204099/204009/01.01.01_60/es_204009v010101p.pdf
+docidentifier:
+- content: ETSI ES 204 009 V1.1.1 (2025-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 204 009 V1.1.1 (2025-08)
 date:
 - type: published
-  value: 2025-08
+  at: 2025-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides detailed functional, service and accessibility
+- language: en
+  script: Latn
+  content: The present document provides detailed functional, service and accessibility
     requirements from the Human Factors perspective for the implementation of and
     compliance with the European Accessibility Act which requires the provision of
     Interoperable Total Conversation (InToCo) services avoiding proprietary solutions
@@ -60,23 +69,33 @@ abstract:
     by the EAA, are implemented in a manner that accounts for the Human Factors aspects.
     As such the ES complements other standards developed in the area, such as EN 301
     549 or EMTEL TS 101 470.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: accessibility
-- content: HF
-- content: ICT
-- content: procurement
-- content: RELAY
-- content: SERVICE
-- content: Total conversation
+- taxon:
+  - language: en
+    script: Latn
+    content: accessibility
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: ICT
+  - language: en
+    script: Latn
+    content: procurement
+  - language: en
+    script: Latn
+    content: RELAY
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: Total conversation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

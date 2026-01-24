@@ -1,67 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300505ed.31998-01
+id: ETSIETS300505ed3199801
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Mobile Station
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Mobile Station
     (MS) features (GSM 02.07 version 4.8.2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5703
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300505/03_60/ets_300505e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 505 ed.3 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5703
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300505/03_60/ets_300505e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 505 ed.3 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 505 ed.3 (1998-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The purpose of this ETS is to define mobile station features and to cl\r\nassify
+- language: en
+  script: Latn
+  content: "The purpose of this ETS is to define mobile station features and to cl\r\nassify
     them according to their type and whether they are mandatory or\r\noptional. The
     MS features detailed in this Specification do not repres\r\nent an exhaustive
     list. Those MS features which are subject to Type Ap\r\nproval are described in
     GSM 11.10.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

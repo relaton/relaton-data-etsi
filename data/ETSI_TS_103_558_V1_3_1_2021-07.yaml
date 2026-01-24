@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103558V1.3.12021-07
+id: ETSITS103558V131202107
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); Methods for objective
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); Methods for objective
     assessment of listening effort
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61890
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103558/01.03.01_60/ts_103558v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 558 V1.3.1 (2021-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61890
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103558/01.03.01_60/ts_103558v010301p.pdf
+docidentifier:
+- content: ETSI TS 103 558 V1.3.1 (2021-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 558 V1.3.1 (2021-07)
 date:
 - type: published
-  value: 2021-07
+  at: 2021-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2021-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies methods, results and analysis of subjective
+- language: en
+  script: Latn
+  content: "The present document specifies methods, results and analysis of subjective
     tests for listening effort (and eventually listening quality) at electrical interfaces
     of speech communications, taking into account the effects of noise that originates
     from the transmission chain or from the send side, and of different impairments
@@ -54,19 +63,21 @@ abstract:
     are considered.\r\nThis revision of the present document is to add the annex E
     on the results of the STF 590 dealing with subjective tests on listening effort.
     A revision of the algorithmic part of TS 103 558 may be needed.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assessment
-- content: listening effort
-- content: Model
+- taxon:
+  - language: en
+    script: Latn
+    content: assessment
+  - language: en
+    script: Latn
+    content: listening effort
+  - language: en
+    script: Latn
+    content: Model
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Specification

@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101892V1.1.12001-01
+id: ETSITS101892V111200101
+schema_version: v1.4.1
 title:
-- content: Telecommunications Management Network (TMN); Protocol and interface service
+- language: en
+  script: Latn
+  content: Telecommunications Management Network (TMN); Protocol and interface service
     requirements;
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9294
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101892/01.01.01_60/ts_101892v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 892 V1.1.1 (2001-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9294
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101800_101899/101892/01.01.01_60/ts_101892v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 892 V1.1.1 (2001-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 892 V1.1.1 (2001-01)
 date:
 - type: published
-  value: 2001-01
+  at: 2001-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Generic Objects Modelling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document identifies the protocol and management requirements not presently
+- language: en
+  script: Latn
+  content: "The document identifies the protocol and management requirements not presently
     met by the Corba specifications and recommendation of a profile for use within
     the TMN. It identified requirements not presently met by the Corba specifications
     and reccomends a profile for use within the TMN.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: MANAGEMENT
-- content: PROTOCOL
-- content: Q3 INTERFACE
-- content: TMN
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: Q3 INTERFACE
+  - language: en
+    script: Latn
+    content: TMN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Generic Objects Modelling
+    content: Technical Specification

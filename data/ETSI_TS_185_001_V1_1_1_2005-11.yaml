@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS185001V1.1.12005-11
+id: ETSITS185001V111200511
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Next Generation Network (NGN); Quality of Service (QoS) Framework
     and Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21134
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/185000_185099/185001/01.01.01_60/ts_185001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 185 001 V1.1.1 (2005-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21134
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/185000_185099/185001/01.01.01_60/ts_185001v010101p.pdf
+docidentifier:
+- content: ETSI TS 185 001 V1.1.1 (2005-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 185 001 V1.1.1 (2005-11)
 date:
 - type: published
-  value: 2005-11
+  at: 2005-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN QoS
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This deliverable specifies all the QoS requirements independently of the
+- language: en
+  script: Latn
+  content: This deliverable specifies all the QoS requirements independently of the
     NGN Release.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: QoS
-- content: QUALITY
+- taxon:
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: QUALITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN QoS
+    content: Technical Specification

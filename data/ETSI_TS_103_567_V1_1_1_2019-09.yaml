@@ -1,67 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103567V1.1.12019-09
+id: ETSITS103567V111201909
+schema_version: v1.4.1
 title:
-- content: Requirements on signal interferer handling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52899
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103567/01.01.01_60/ts_103567v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 567 V1.1.1 (2019-09)
+- language: en
+  script: Latn
+  content: Requirements on signal interferer handling
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52899
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103500_103599/103567/01.01.01_60/ts_103567v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 567 V1.1.1 (2019-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 567 V1.1.1 (2019-09)
 date:
 - type: published
-  value: 2019-09
+  at: 2019-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VFMgd2lsbCBzcGVjaWZ5Og0K4oCiCVByZXBhcmF0aW9uIG9mIGdlbmVyaWMgdGV4dCB3aGljaCBjb3VsZCBiZSB1c2VkIGluIEVUU0kgSEVODQrigKIJUHJlcGFyYXRpb24gb2YgYSBzb2x1dGlvbi90ZXh0IHRoYXQgdGhlIG1hbnVmYWN0dXJlciBpcyBhYmxlIHRvIHByb3ZpZGUgdGhlIGluZm9ybWF0aW9uIHRvOiB0ZXN0LWhvdXNlcywgaW5zaWRlIHRoZSBEb0Ms4oCmDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TS will specify:\r\n\tPreparation of generic text which could be used
+    in ETSI HEN\r\n\tPreparation of a solution/text that the manufacturer is able
+    to provide the information to: test-houses, inside the DoC,\r\n"
+status:
+  stage: Published
 keyword:
-- content: Interference Analysis
-- content: RADIO
-- content: RECEIVER
-- content: Requirements
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: Interference Analysis
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: Requirements
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Specification

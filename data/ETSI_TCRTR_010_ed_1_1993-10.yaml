@@ -1,61 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR010ed.11993-10
+id: ETSITCRTR010ed1199310
+schema_version: v1.4.1
 title:
-- content: Business Telecommunications (BT); Provision of connections for interconnecting
+- language: en
+  script: Latn
+  content: Business Telecommunications (BT); Provision of connections for interconnecting
     Private Telecommunication Network Exchanges (PTNXs)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=500
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/010/01_60/tcrtr_010e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 010 ed.1 (1993-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=500
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/010/01_60/tcrtr_010e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 010 ed.1 (1993-10)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 010 ed.1 (1993-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Private Networking Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the means of providing connections between PTNXs through\r\nIntervening
+- language: en
+  script: Latn
+  content: "To define the means of providing connections between PTNXs through\r\nIntervening
     Networks (IVN), with an emphasis on public ISDN IVN, to\r\nbe used in the so called
     \ overlay  network scenarios\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERWORKING
-- content: PINX
-- content: PISN
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: PISN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Private Networking Aspects
+    content: Technical Committee Reference Technical Report

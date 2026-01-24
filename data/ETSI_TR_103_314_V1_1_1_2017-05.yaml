@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103314V1.1.12017-05
+id: ETSITR103314V111201705
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
     Wide Band (UWB); Technical characteristics for SRD equipment using Ultra Wide
     Band Sensor technology (UWB) based on amended mitigation techniques for UWB
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46026
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103314/01.01.01_60/tr_103314v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 314 V1.1.1 (2017-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46026
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103314/01.01.01_60/tr_103314v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 314 V1.1.1 (2017-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 314 V1.1.1 (2017-05)
 date:
 - type: published
-  value: 2017-05
+  at: 2017-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based on ETSI TR 103 181-1 and -2 the present document provides information
+- language: en
+  script: Latn
+  content: "Based on ETSI TR 103 181-1 and -2 the present document provides information
     on \r\n- existing mitigation techniques\r\n- equivalent mitigation techniques
     and\r\n- proposes new mitigation techniques for UWB. \r\n\r\nIn addition the document
     will propose test procedures for the possible inclusion in relevant HENs. \r\n\r\nThe
@@ -55,18 +64,18 @@ abstract:
     ETSI and the \r\nElectronic Communications Committee (ECC) of the European Conference
     of Post and Telecommunications Administrations (CEPT), \r\nincluding all technical
     information. "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

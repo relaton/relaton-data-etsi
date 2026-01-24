@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301668-1V1.1.32000-07
+id: ETSIEN3016681V113200007
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1) extension;
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1) extension;
     Intelligent Network Application Protocol (INAP); Part 1: Protocol specification
     for Camel Phase 2'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4611
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301600_301699/30166801/01.01.03_60/en_30166801v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 668-1 V1.1.3 (2000-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4611
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301600_301699/30166801/01.01.03_60/en_30166801v010103p.pdf
+docidentifier:
+- content: ETSI EN 301 668-1 V1.1.3 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 668-1 V1.1.3 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce a version of INAP for CS2 Extension in order to cover the\r\nprotocol
+- language: en
+  script: Latn
+  content: "To produce a version of INAP for CS2 Extension in order to cover the\r\nprotocol
     procedures for the Camel Phase 2 requirements suitable for\r\nimplementation in
     Europe. Close co-operation must be ensured with SMG3\r\nwith regard to Camel Phase
     2 requirements.\r\nThe specification should also address aspects of interaction
     between\r\nIN structured networks. The Camel Phase 2 defintions should be fully\r\ncompatible
     with the existing CS1 INAP.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: INAP
-- content: ISDN
-- content: MOBILE
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Intelligent Network
+    content: European Standard

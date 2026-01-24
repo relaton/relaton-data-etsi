@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTS03.20V3.3.21995-01
+id: ETSIGTS0320V332199501
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 1); Security
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 1); Security
     related Network Functions (GSM 03.20)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2053
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/03/0320/03.03.02_60/gsmts_0320sv030302p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS 03.20 V3.3.2 (1995-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2053
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/03/0320/03.03.02_60/gsmts_0320sv030302p.pdf
+docidentifier:
+- content: ETSI GTS 03.20 V3.3.2 (1995-01)
   type: ETSI
   primary: true
 docnumber: ETSI GTS 03.20 V3.3.2 (1995-01)
 date:
 - type: published
-  value: 1995-01
+  at: 1995-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.2
-revdate: 1995-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "...."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "...."
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE1
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE1
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102780V1.1.12009-02
+id: ETSITR102780V111200902
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Security; Guide to the use
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Security; Guide to the use
     of methods in development of ETSI security standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28548
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102780/01.01.01_60/tr_102780v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 780 V1.1.1 (2009-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28548
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102780/01.01.01_60/tr_102780v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 780 V1.1.1 (2009-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 780 V1.1.1 (2009-02)
 date:
 - type: published
-  value: 2009-02
+  at: 2009-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To provide a Technical Report giving a guide to the availability and use
+- language: en
+  script: Latn
+  content: "To provide a Technical Report giving a guide to the availability and use
     of security methods documents from ETSI. In addition the report should identify
     those documents that are primarily generic that could become wholly generic guidance
     with some editing (technical as well as purely editorial). In many cases there
@@ -55,18 +64,18 @@ abstract:
     future work can be done to rationalise the duplication and give a concise and
     complete set of security standard development guidance documents\r\nInput  to
     be integrated to style of MTS MBS and other guidance documents."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

@@ -1,66 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIPE007V1.1.12023-01
+id: ETSIGRIPE007V111202301
+schema_version: v1.4.1
 title:
-- content: IPv6 Enhanced innovation (IPE); IPv6-based 5G for Connected and Automated
+- language: en
+  script: Latn
+  content: IPv6 Enhanced innovation (IPE); IPv6-based 5G for Connected and Automated
     Mobility
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63016
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/007/01.01.01_60/gr_IPE007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IPE 007 V1.1.1 (2023-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63016
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/007/01.01.01_60/gr_IPE007v010101p.pdf
+docidentifier:
+- content: ETSI GR IPE 007 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR IPE 007 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 Enhanced innovation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    QW5hbHlzZSB0aGUgcmVxdWlyZW1lbnRzIG9mIElQdjYgZm9yIHRoZSA1RyBmb3IgQ29ubmVjdGVkIGFuZCBBdXRvbWF0ZWQgTW9iaWxpdHkgd2l0aCBjb250cmlidXRpb25zIGZyb20gdGhlIG11bHRpdHVkZSBFdXJvcGVhbiBDb21taXNzaW9uIDVHIGZvciBDQU0gZnVuZGVkIHByb2plY3RzIGluIGV4Y2VzcyBvZiAxNTAgTeKCrCBhbmQgdGhlIHB1Ymxpc2hlZCBJUHY2IGZvciBWMlggZnJvbSB0aGUgcHJldmlvdXMgSVA2IElTRy4gVXNlIGNhc2VzIGZyb20gdGhlIEVVIHByb2plY3RzIHdpdGggY3Jvc3MtYm9yZGVyIHBpbG90cyB0byBkZWZpbmUgdGhlIHNlc3Npb24gY29udGludWl0eSBiZXR3ZWVuIGFuZCB3aGVuIGNyb3NzaW5nIGRpZmZlcmVudCBuZXR3b3JrcyB3aWxsIGJlIGFuIGVzc2VudGlhbCBuZXR3b3JraW5nIGNhcGFiaWxpdHkgaW4gdGhlIGZ1dHVyZS4gIA==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'Analyse the requirements of IPv6 for the 5G for Connected and Automated
+    Mobility with contributions from the multitude European Commission 5G for CAM
+    funded projects in excess of 150 M and the published IPv6 for V2X from the previous
+    IP6 ISG. Use cases from the EU projects with cross-border pilots to define the
+    session continuity between and when crossing different networks will be an essential
+    networking capability in the future.  '
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: IPv6
-- content: mobility support
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: IPv6
+  - language: en
+    script: Latn
+    content: mobility support
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 Enhanced innovation
+    content: Group Report

@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRIPE006V1.1.12022-11
+id: ETSIGRIPE006V111202211
+schema_version: v1.4.1
 title:
-- content: IPv6 Enhanced innovation (IPE); IPv6 and Cloud using DataBlockMatrix for
+- language: en
+  script: Latn
+  content: IPv6 Enhanced innovation (IPE); IPv6 and Cloud using DataBlockMatrix for
     Food Supply Chain Tracking and Tracing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62559
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/006/01.01.01_60/gr_IPE006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR IPE 006 V1.1.1 (2022-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62559
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/IPE/001_099/006/01.01.01_60/gr_IPE006v010101p.pdf
+docidentifier:
+- content: ETSI GR IPE 006 V1.1.1 (2022-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR IPE 006 V1.1.1 (2022-11)
 date:
 - type: published
-  value: 2022-11
+  at: 2022-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IPv6 Enhanced innovation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "\r\nDefine the requirements needed to specify the deployment of IPv6 and
+- language: en
+  script: Latn
+  content: "\r\nDefine the requirements needed to specify the deployment of IPv6 and
     Cloud adopting the NIST DataBlockMatrix for Food Supply Chain Tracking and Tracing
     while providing privacy and erasing values obviates need for ordering guarantees
     through consensus algorithms.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: blockchain
-- content: CLOUD
-- content: IPv6
+- taxon:
+  - language: en
+    script: Latn
+    content: blockchain
+  - language: en
+    script: Latn
+    content: CLOUD
+  - language: en
+    script: Latn
+    content: IPv6
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: IPv6 Enhanced innovation
+    content: Group Report

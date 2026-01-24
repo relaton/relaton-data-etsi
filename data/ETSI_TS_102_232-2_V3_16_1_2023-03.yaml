@@ -1,74 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102232-2V3.16.12023-03
+id: ETSITS1022322V3161202303
+schema_version: v1.4.1
 title:
-- content: 'Lawful Interception (LI); Handover Interface and Service-Specific Details
+- language: en
+  script: Latn
+  content: 'Lawful Interception (LI); Handover Interface and Service-Specific Details
     (SSD) for IP delivery; Part 2: Service-specific details for messaging services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68020
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223202/03.16.01_60/ts_10223202v031601p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 232-2 V3.16.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68020
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/10223202/03.16.01_60/ts_10223202v031601p.pdf
+docidentifier:
+- content: ETSI TS 102 232-2 V3.16.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 232-2 V3.16.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.16.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This specification contains a stage 1 like description of the interception
+- language: en
+  script: Latn
+  content: "This specification contains a stage 1 like description of the interception
     information in relation to the process of sending and receiving asynchronous messages.
     The present document also contains a stage 2 like description of when Intercept
     Related Information (IRI) and Content of Communication (CC) need to be sent, and
     what information it needs to contain.\r\nThis revision is to add total recipients
     and update references."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMAIL
-- content: HANDOVER
-- content: INTERFACE
-- content: IP
-- content: Lawful Interception
-- content: SECURITY
-- content: TRAFFIC
+- taxon:
+  - language: en
+    script: Latn
+    content: EMAIL
+  - language: en
+    script: Latn
+    content: HANDOVER
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: Lawful Interception
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TRAFFIC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Specification

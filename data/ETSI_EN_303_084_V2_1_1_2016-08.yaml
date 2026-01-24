@@ -1,71 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303084V2.1.12016-08
+id: ETSIEN303084V211201608
+schema_version: v1.4.1
 title:
-- content: Ground Based Augmentation System (GBAS) VHF ground-air Data Broadcast (VDB);
+- language: en
+  script: Latn
+  content: Ground Based Augmentation System (GBAS) VHF ground-air Data Broadcast (VDB);
     Technical characteristics and methods of measurement for ground-based equipment;
     Harmonised Standard covering the essential requirements of article 3.2 of the
     Directive 2014/53/EU
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46581
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303000_303099/303084/02.01.01_60/en_303084v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 084 V2.1.1 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46581
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303000_303099/303084/02.01.01_60/en_303084v020101p.pdf
+docidentifier:
+- content: ETSI EN 303 084 V2.1.1 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 084 V2.1.1 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: JOINED TASK FORCE ERM AERO
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Minimum revision necessary for RED compliance
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Minimum revision necessary for RED compliance
+status:
+  stage: Published
 keyword:
-- content: AERONAUTICAL
-- content: AM
-- content: DSB
-- content: Harmonised standard
-- content: RADIO
-- content: TESTING
-- content: VHF
+- taxon:
+  - language: en
+    script: Latn
+    content: AERONAUTICAL
+  - language: en
+    script: Latn
+    content: AM
+  - language: en
+    script: Latn
+    content: DSB
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: JOINED TASK FORCE ERM AERO
+    content: European Standard

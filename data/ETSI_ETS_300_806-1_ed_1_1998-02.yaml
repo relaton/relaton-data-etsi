@@ -1,67 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300806-1ed.11998-02
+id: ETSIETS3008061ed1199802
+schema_version: v1.4.1
 title:
-- content: 'Private Integrated Services Network (PISN); Inter-exchange signalling
+- language: en
+  script: Latn
+  content: 'Private Integrated Services Network (PISN); Inter-exchange signalling
     protocol; Generic functional protocol for the support of supplementary services;
     Part 1: Test Suite Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2290
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/30080601/01_60/ets_30080601e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 806-1 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2290
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/30080601/01_60/ets_30080601e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 806-1 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 806-1 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Conformance Test Specification (TTCN) for the protocol for layer 3\r\ngeneric
+- language: en
+  script: Latn
+  content: "Conformance Test Specification (TTCN) for the protocol for layer 3\r\ngeneric
     functional protocol for the support of supplementary services\r\nbetween exchanges
     of private integrated services networks for the\r\ncontrol of circuit-switched.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: LAYER 3
-- content: PINX
-- content: PISN
-- content: QSIG
-- content: SUPPLEMENTARY SERVICE
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: PINX
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Telecommunication Standard

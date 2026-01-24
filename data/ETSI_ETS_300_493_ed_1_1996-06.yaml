@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300493ed.11996-06
+id: ETSIETS300493ed1199606
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH)
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH)
     information model of the Sub Network Connection Protection (SNCP) for the Network
     Element (NE) view
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2552
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300493/01_60/ets_300493e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 493 ed.1 (1996-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2552
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300493/01_60/ets_300493e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 493 ed.1 (1996-06)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 493 ed.1 (1996-06)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transmission Networks Management, Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This final draft European Telecommunication Standard (ETS) addresses\r\nthe
+- language: en
+  script: Latn
+  content: "This final draft European Telecommunication Standard (ETS) addresses\r\nthe
     management of the automatic protection switching within network\r\nelement at
     the high and low order path layers. It covers the Sub\r\nNetwork Connection Protection
     (SNCP) as described in ITU-T\r\nRecommendations G.803 [2] and G.841 [4].\r\nThis
@@ -64,25 +74,39 @@ abstract:
     domain\r\nvisible at the element manager to element interface and is only\r\nconcerned
     with information available within that domain. Information\r\nproper to the domain
     of a network level management processris not\r\nincluded within this model.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: INTERFACE
-- content: MANAGEMENT
-- content: NE
-- content: NETWORK
-- content: PROTECTION
-- content: PROTOCOL
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: NE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PROTECTION
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Transmission Networks Management, Performance
+    content: European Telecommunication Standard

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103675V1.1.12020-12
+id: ETSITR103675V111202012
+schema_version: v1.4.1
 title:
-- content: 'SmartM2M; AI for IoT: A Proof of Concept'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57867
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103675/01.01.01_60/tr_103675v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 675 V1.1.1 (2020-12)
+- language: en
+  script: Latn
+  content: 'SmartM2M; AI for IoT: A Proof of Concept'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57867
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103675/01.01.01_60/tr_103675v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 675 V1.1.1 (2020-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 675 V1.1.1 (2020-12)
 date:
 - type: published
-  value: 2020-12
+  at: 2020-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Detailed description of the use cases design and implementation; instructions
+- language: en
+  script: Latn
+  content: Detailed description of the use cases design and implementation; instructions
     for the (re-)creation of the prototypes from the selected framework and components;
     lessons learned.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: artificial intelligence
-- content: IoT
-- content: oneM2M
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

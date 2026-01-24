@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103210V1.1.12013-10
+id: ETSITR103210V111201310
+schema_version: v1.4.1
 title:
-- content: Speech and multimedia Transmission Quality (STQ); End-to-End Jitter Transmission
+- language: en
+  script: Latn
+  content: Speech and multimedia Transmission Quality (STQ); End-to-End Jitter Transmission
     Planning Requirements for Real Time Services in an NGN context
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42511
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103210/01.01.01_60/tr_103210v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 210 V1.1.1 (2013-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42511
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103200_103299/103210/01.01.01_60/tr_103210v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 210 V1.1.1 (2013-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 210 V1.1.1 (2013-10)
 date:
 - type: published
-  value: 2013-10
+  at: 2013-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Speech and multimedia Transmission Quality
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present report provides guidance on the jitter that need to be considered
+- language: en
+  script: Latn
+  content: The present report provides guidance on the jitter that need to be considered
     at the Segment-connection of Voice over IP (VoIP) services and voice band data
     (VBD) services in an NGN. The document provides guidance on jitter objectives
     for voice and data parameters.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: jitter buffer
-- content: QoS
+- taxon:
+  - language: en
+    script: Latn
+    content: jitter buffer
+  - language: en
+    script: Latn
+    content: QoS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Speech and multimedia Transmission Quality
+    content: Technical Report

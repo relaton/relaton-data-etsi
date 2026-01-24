@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101197V1.2.12002-02
+id: ETSITS101197V121200202
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); DVB SimulCrypt; Head-end architecture
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); DVB SimulCrypt; Head-end architecture
     and synchronization
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14609
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101197/01.02.01_60/ts_101197v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 197 V1.2.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14609
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101100_101199/101197/01.02.01_60/ts_101197v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 197 V1.2.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 197 V1.2.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: V1.1.1 of the document need to be corrected following work in the SimulCrypt
+- language: en
+  script: Latn
+  content: V1.1.1 of the document need to be corrected following work in the SimulCrypt
     sub-group of  DVB-TM, and there is a non-controversial simplification of the MIB
     in the specifications.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

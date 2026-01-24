@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300288V1.2.12001-07
+id: ETSIEN300288V121200107
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); 64 kbit/s digital unrestricted leased line with
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); 64 kbit/s digital unrestricted leased line with
     octet integrity (D64U); Network interface presentation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11116
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300200_300299/300288/01.02.01_60/en_300288v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 288 V1.2.1 (2001-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11116
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300200_300299/300288/01.02.01_60/en_300288v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 288 V1.2.1 (2001-07)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 288 V1.2.1 (2001-07)
 date:
 - type: published
-  value: 2001-07
+  at: 2001-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2001-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision to improve the safety related text following a liaison for TC
+- language: en
+  script: Latn
+  content: "Revision to improve the safety related text following a liaison for TC
     Safety.\r\nSpecification of the public network side of the interface and test
     procedures for compliance."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: INTERFACE
-- content: LEASED LINE
-- content: ONP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: LEASED LINE
+  - language: en
+    script: Latn
+    content: ONP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Digital
+    content: European Standard

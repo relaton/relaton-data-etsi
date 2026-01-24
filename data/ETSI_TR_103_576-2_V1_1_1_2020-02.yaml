@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103576-2V1.1.12020-02
+id: ETSITR1035762V111202002
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Pre-standardization study on ITS
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Pre-standardization study on ITS
     architecture; Part 2: Interoperability among heterogeneous ITS systems and backward
     compatibility'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53998
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10357602/01.01.01_60/tr_10357602v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 576-2 V1.1.1 (2020-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53998
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/10357602/01.01.01_60/tr_10357602v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 576-2 V1.1.1 (2020-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 576-2 V1.1.1 (2020-02)
 date:
 - type: published
-  value: 2020-02
+  at: 2020-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture and Cross Layer
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The study item intends to investigate how to obtain Interoperability and
+- language: en
+  script: Latn
+  content: The study item intends to investigate how to obtain Interoperability and
     backward compatibility when implementing future ITS architectures with the existing
     ETSI ITS specifications. This study item will elaborate the definitions of interoperability
     and backward compatibility
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: ITS
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: ITS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Architecture and Cross Layer
+    content: Technical Report

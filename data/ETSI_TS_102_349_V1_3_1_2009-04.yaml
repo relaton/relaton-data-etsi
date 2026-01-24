@@ -1,67 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102349V1.3.12009-04
+id: ETSITS102349V131200904
+schema_version: v1.4.1
 title:
-- content: Digital Radio Mondiale (DRM); Receiver Status and Control Interface (RSCI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28512
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102349/01.03.01_60/ts_102349v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 349 V1.3.1 (2009-04)
+- language: en
+  script: Latn
+  content: Digital Radio Mondiale (DRM); Receiver Status and Control Interface (RSCI)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28512
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102349/01.03.01_60/ts_102349v010301p.pdf
+docidentifier:
+- content: ETSI TS 102 349 V1.3.1 (2009-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 349 V1.3.1 (2009-04)
 date:
 - type: published
-  value: 2009-04
+  at: 2009-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2009-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Clarify the differences in data content between MDI and RSCI bit streams.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Clarify the differences in data content between MDI and RSCI bit streams.
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: CONTROL
-- content: DIGITAL
-- content: DRM
-- content: INTERFACE
-- content: REMOTE
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: REMOTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

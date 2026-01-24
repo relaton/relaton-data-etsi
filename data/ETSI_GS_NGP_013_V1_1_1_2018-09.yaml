@@ -1,75 +1,102 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSNGP013V1.1.12018-09
+id: ETSIGSNGP013V111201809
+schema_version: v1.4.1
 title:
-- content: 'Next Generation Protocols (NGP); Flexilink: efficient deterministic packet
+- language: en
+  script: Latn
+  content: 'Next Generation Protocols (NGP); Flexilink: efficient deterministic packet
     forwarding in user plane for NGP; Packet formats and forwarding mechanisms'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54481
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/NGP/001_099/013/01.01.01_60/gs_NGP013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS NGP 013 V1.1.1 (2018-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54481
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/NGP/001_099/013/01.01.01_60/gs_NGP013v010101p.pdf
+docidentifier:
+- content: ETSI GS NGP 013 V1.1.1 (2018-09)
   type: ETSI
   primary: true
 docnumber: ETSI GS NGP 013 V1.1.1 (2018-09)
 date:
 - type: published
-  value: 2018-09
+  at: 2018-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: User plane packet formats and forwarding mechanisms for 5G core and fixed
+- language: en
+  script: Latn
+  content: User plane packet formats and forwarding mechanisms for 5G core and fixed
     and wireless access networks, based on the requirements documented in NGP GS 012
     and taking technologies from NGP GR 003 as appropriate.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3GPP Access
-- content: Core Network
-- content: Fixed networks
-- content: Flexilink
-- content: IP
-- content: MPLS
-- content: Next Generation Protocol
-- content: non 3GPP access
-- content: NR
-- content: QoS
-- content: SWITCHING
+- taxon:
+  - language: en
+    script: Latn
+    content: 3GPP Access
+  - language: en
+    script: Latn
+    content: Core Network
+  - language: en
+    script: Latn
+    content: Fixed networks
+  - language: en
+    script: Latn
+    content: Flexilink
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MPLS
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: non 3GPP access
+  - language: en
+    script: Latn
+    content: NR
+  - language: en
+    script: Latn
+    content: QoS
+  - language: en
+    script: Latn
+    content: SWITCHING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Specification

@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101886V1.1.12002-02
+id: ETSITR101886V111200202
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Requirements Definition Study; Real time aspects of a resolution service
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10418
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101886/01.01.01_60/tr_101886v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 886 V1.1.1 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10418
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101886/01.01.01_60/tr_101886v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 886 V1.1.1 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 886 V1.1.1 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Naming and address translation issues
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To outline the real-time service to be provided by a Resolution Service
+- language: en
+  script: Latn
+  content: "To outline the real-time service to be provided by a Resolution Service
     that provides contact IDs from E.164 numbers (This outline would then be converted
     into  a fromal service capability description by WG1)\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADDRESSING
-- content: ID
-- content: IP
-- content: NETWORK
-- content: SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: ADDRESSING
+  - language: en
+    script: Latn
+    content: ID
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Naming and address translation issues
+    content: Technical Report

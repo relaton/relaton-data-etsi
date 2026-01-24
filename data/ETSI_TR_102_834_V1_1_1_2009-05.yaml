@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102834V1.1.12009-05
+id: ETSITR102834V111200905
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference Document; Technical Characteristics for airborne Ultra-WideBand (UWB)
     applications operating in the frequency bands from 3,1 GHz to 4,8 GHz and 6 GHz
     to 8,5 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30878
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102834/01.01.01_60/tr_102834v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 834 V1.1.1 (2009-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30878
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102800_102899/102834/01.01.01_60/tr_102834v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 834 V1.1.1 (2009-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 834 V1.1.1 (2009-05)
 date:
 - type: published
-  value: 2009-05
+  at: 2009-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document is intended to describe the spectrum requirements for the
+- language: en
+  script: Latn
+  content: "The document is intended to describe the spectrum requirements for the
     use of wireless distribution systems using UWB technology in airborne platforms.
     Applications range from location and tracking, command and control, entertainment
     and communications. \r\nThe document will also provide information on possible
     mitigation factors.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Report

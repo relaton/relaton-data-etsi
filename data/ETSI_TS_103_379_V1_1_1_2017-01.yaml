@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103379V1.1.12017-01
+id: ETSITS103379V111201701
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Information elements and protocols
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Information elements and protocols
     for the interface between LSA Controller (LC) and LSA Repository (LR) for operation
     of Licensed Shared Access (LSA) in the 2 300 MHz - 2 400 MHz band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47638
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103379/01.01.01_60/ts_103379v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 379 V1.1.1 (2017-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47638
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/103379/01.01.01_60/ts_103379v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 379 V1.1.1 (2017-01)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 379 V1.1.1 (2017-01)
 date:
 - type: published
-  value: 2017-01
+  at: 2017-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUZWNobmljYWwgU3BlY2lmaWNhdGlvbiBkZWZpbmVzIHRoZSBjb250ZW50IG9mIHRoZSBMU0EgU3BlY3RydW0gUmVzb3VyY2UgQXZhaWxhYmlsaXR5IEluZm9ybWF0aW9uIChMU1JBSSkgYW5kIHRoZSBwcm90b2NvbHMgb24gdGhlIGludGVyZmFjZSBiZXR3ZWVuIExTQSBDb250cm9sbGVyIChMQykgYW5kIExTQSBSZXBvc2l0b3J5IChMUiksIHRoZSBzby1jYWxsZWQgTFNBMS4gQm90aCwgdGhlIExTUkFJIGNvbnRlbnQgYW5kIHRoZSBMU0ExIHByb3RvY29scywgaGF2ZSBiZWVuIGlkZW50aWZpZWQgYXMgc3RhbmRhcmRpc2F0aW9uIGNhbmRpZGF0ZXMgZm9sbG93aW5nIHRoZSBUQyBSUlMgd29yayBmbG93IHJlY29tbWVuZGF0aW9uICjigJxQcm90b2NvbCBhbmQgSW50ZXJmYWNlcyBTcGVjaWZpY2F0aW9uIChUUynigJ0pLiBUaGUgd29yayB3aWxsIGJlIGJhc2VkIG9uIHRoZSBTeXN0ZW0gUmVxdWlyZW1lbnRzIGRlZmluZWQgaW4gRVRTSSBUUyAxMDMgMTU0IChTeXN0ZW0gcmVxdWlyZW1lbnRzIGZvciBvcGVyYXRpb24gb2YgTW9iaWxlIEJyb2FkYmFuZCBTeXN0ZW1zIGluIHRoZSAyIDMwMCBNSHogLSAyIDQwMCBNSHogYmFuZCB1bmRlciBMaWNlbnNlZCBTaGFyZWQgQWNjZXNzIChMU0EpKSBhbmQgdGhlIFN5c3RlbSBBcmNoaXRlY3R1cmUgYW5kIEhpZ2ggTGV2ZWwgUHJvY2VkdXJlcyBkZWZpbmVkIGluIEVUU0kgVFMgMTAzIDIzNSAoUlJTIFJlY29uZmlndXJhYmxlIFJhZGlvIFN5c3RlbXMgKFJSUyk7IFN5c3RlbSBBcmNoaXRlY3R1cmUgYW5kIEhpZ2ggTGV2ZWwgUHJvY2VkdXJlcyBmb3Igb3BlcmF0aW9uIG9mIExpY2Vuc2VkIFNoYXJlZCBBY2Nlc3MgKExTQSkgaW4gdGhlIDIzMDAgTUh6LTI0MDAgTUh6IGJhbmQpLiBBcHBsaWNhdGlvbiB0byBvdGhlciBiYW5kcyBpcyBub3QgcHJlY2x1ZGVkIGFuZCBkZXBlbmRzIG9uIGZ1dHVyZSByZWd1bGF0b3J5IGRlY2lzaW9ucy4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This Technical Specification defines the content of the LSA Spectrum Resource
+    Availability Information (LSRAI) and the protocols on the interface between LSA
+    Controller (LC) and LSA Repository (LR), the so-called LSA1. Both, the LSRAI content
+    and the LSA1 protocols, have been identified as standardisation candidates following
+    the TC RRS work flow recommendation (Protocol and Interfaces Specification (TS)).
+    The work will be based on the System Requirements defined in ETSI TS 103 154 (System
+    requirements for operation of Mobile Broadband Systems in the 2 300 MHz - 2 400
+    MHz band under Licensed Shared Access (LSA)) and the System Architecture and High
+    Level Procedures defined in ETSI TS 103 235 (RRS Reconfigurable Radio Systems
+    (RRS); System Architecture and High Level Procedures for operation of Licensed
+    Shared Access (LSA) in the 2300 MHz-2400 MHz band). Application to other bands
+    is not precluded and depends on future regulatory decisions.
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Specification

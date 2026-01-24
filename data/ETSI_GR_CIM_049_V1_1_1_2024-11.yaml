@@ -1,65 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM049V1.1.12024-11
+id: ETSIGRCIM049V111202411
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); Usage of geo-information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69098
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/049/01.01.01_60/gr_CIM049v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 049 V1.1.1 (2024-11)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); Usage of geo-information
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69098
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/049/01.01.01_60/gr_CIM049v010101p.pdf
+docidentifier:
+- content: ETSI GR CIM 049 V1.1.1 (2024-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 049 V1.1.1 (2024-11)
 date:
 - type: published
-  value: 2024-11
+  at: 2024-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBXb3JrIEl0ZW0gcmVwb3J0cyBhYm91dCB0aGUgdXNhZ2Ugb2YgT0dDIFdGUyBhbmQgT0dDIEFQSSBhcyB3ZWxsIGFzIElOU1BJUkUgZGlyZWN0aXZl4oCZcyByZXF1aXJlbWVudHMuIEZ1cnRoZXJtb3JlLCBpdCByZXBvcnRzIGFib3V0IHdoYXQgc3RhbmRhcmQtYmFzZWQgZW5jb2Rpbmcgc3VjaCBhcyBHZW9KU09OLCBHTUwsIEdlb1BhY2thZ2UsIENpdHlHTUwgYW5kIElGQyBhcmUgY3VycmVudGx5IHVzZWQgaW4gc21hcnQgY29tbXVuaXRpZXMsIGRldGFpbGluZyB0aGUgY292ZXJhZ2Uu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This Work Item reports about the usage of OGC WFS and OGC API as well as
+    INSPIRE directives requirements. Furthermore, it reports about what standard-based
+    encoding such as GeoJSON, GML, GeoPackage, CityGML and IFC are currently used
+    in smart communities, detailing the coverage.
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: NGSI-LD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: NGSI-LD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

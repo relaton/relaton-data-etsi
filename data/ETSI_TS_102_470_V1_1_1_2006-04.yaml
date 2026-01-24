@@ -1,69 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102470V1.1.12006-04
+id: ETSITS102470V111200604
+schema_version: v1.4.1
 title:
-- content: 'Digital Video Broadcasting (DVB); IP Datacast over DVB-H: Program Specific
+- language: en
+  script: Latn
+  content: 'Digital Video Broadcasting (DVB); IP Datacast over DVB-H: Program Specific
     Information (PSI)/Service Information (SI)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23816
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102470/01.01.01_60/ts_102470v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 470 V1.1.1 (2006-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23816
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102470/01.01.01_60/ts_102470v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 470 V1.1.1 (2006-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 470 V1.1.1 (2006-04)
 date:
 - type: published
-  value: 2006-04
+  at: 2006-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGZvY3VzIG9mIHRoZSBwcmVzZW50IGRvY3VtZW50ICBpcyBvbiBQU0kvU0kgdGFibGVzIGFuZCBkZXNjcmlwdG9ycyB1c2VkIGluIElQREMgaW4gRFZCLUggU3lzdGVtcy4NClRhYmxlcyBhbmQgZGVzY3JpcHRvcnMgYXJlIGludHJvZHVjZWQsIGFuZCB0aGVpciB1c2FnZSBpcyBkZXNjcmliZWQuDQpUaGUgZG9jdW1lbnQgZGVmaW5lcyB0aGUgc2V0IG9mIFBTSS9TSSBkYXRhIGFuIElQREMgRFZCLUggUmVjZWl2ZXIgbWF5IGV4cGVjdCB0byBiZSBhdmFpbGFibGUgb24gYW4gSVBEQyBEVkItSCBCZWFyZXIgKGRhdGEgdHJhbnNtaXNzaW9uIGJhc2ViYW5kKSBhbmQgdGhlIElQREMgRFZCLUggTmV0d29yayBpcyBleHBlY3RlZCB0byBtYWtlIGF2YWlsYWJsZSBvbiB0aGUgSVBEQyBEVkItSCBCZWFyZXIuDQpUaGUgc2NvcGUgb2YgdGhpcyDigJxQU0kvU0kgZm9yIElQREMgaW4gRFZCLUggU3lzdGVtc+KAnSBpcyB0byBzdXBwb3J0IGNvaGVyZW50IGFuZCBpbnRlcm9wZXJhYmxlIHNpZ25hbGxpbmcgb24gZGF0YSBsaW5rIGxheWVyIG9uIGFsbCBJUERDIERWQi1IIE5ldHdvcmtzDQpUaGlzIGRvY3VtZW50IGRyYXdzIGZyb20gYSBudW1iZXIgb2YgZXhpc3Rpbmcgc3BlY2lmaWNhdGlvbnMgbGlzdGVkIGluIGNsYXVzZSAyLiBJbiBjYXNlIG9mIGFtYmlndWl0eSB0aGVzZSBvcmlnaW5hbCBkb2N1bWVudHMgc2hhbGwgYmUgY29uc2lkZXJlZCBhcyBhdXRob3JpdGF0aXZl
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The focus of the present document  is on PSI/SI tables and descriptors
+    used in IPDC in DVB-H Systems.\r\nTables and descriptors are introduced, and their
+    usage is described.\r\nThe document defines the set of PSI/SI data an IPDC DVB-H
+    Receiver may expect to be available on an IPDC DVB-H Bearer (data transmission
+    baseband) and the IPDC DVB-H Network is expected to make available on the IPDC
+    DVB-H Bearer.\r\nThe scope of this PSI/SI for IPDC in DVB-H Systems is to support
+    coherent and interoperable signalling on data link layer on all IPDC DVB-H Networks\r\nThis
+    document draws from a number of existing specifications listed in clause 2. In
+    case of ambiguity these original documents shall be considered as authoritative"
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: IP
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

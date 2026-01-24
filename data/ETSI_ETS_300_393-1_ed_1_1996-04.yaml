@@ -1,62 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300393-1ed.11996-04
+id: ETSIETS3003931ed1199604
+schema_version: v1.4.1
 title:
-- content: 'Terrestrial Trunked Radio (TETRA); Packet Data Optimized (PDO); Part 1:
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Packet Data Optimized (PDO); Part 1:
     General network design'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6715
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30039301/01_60/ets_30039301e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 393-1 ed.1 (1996-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6715
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30039301/01_60/ets_30039301e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 393-1 ed.1 (1996-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 393-1 ed.1 (1996-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Terrestrial Trunked Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Analysis of predicted needs for services on digital trunked systems\r\nfor
+- language: en
+  script: Latn
+  content: "Analysis of predicted needs for services on digital trunked systems\r\nfor
     packet mode data in Europe; definition of services to be provided;\r\nanalysis
     of spectrum requirements; characteristics of relevant inter-\r\nfaces.\r\n Contains:
     TETRA 03 - series\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: PACKET MODE
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Terrestrial Trunked Radio
+    content: European Telecommunication Standard

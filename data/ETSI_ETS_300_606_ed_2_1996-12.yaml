@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300606ed.21996-12
+id: ETSIETS300606ed2199612
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Signalling
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Signalling
     interworking for supplementary services (GSM 09.11)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4619
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300606/02_60/ets_300606e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 606 ed.2 (1996-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4619
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300606/02_60/ets_300606e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 606 ed.2 (1996-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 606 ed.2 (1996-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) provides a detailed spe\r\ncification
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) provides a detailed spe\r\ncification
     for interworking between the A-interface protocol and the M\r\nobile Application
     Part for handling of supplementary services. The MAP\r\ninterfaces of interest
     are the B-, C-, D- and E-interfaces.\r\nThe A-, C-, D- and E-interfaces are physical
@@ -65,20 +75,24 @@ abstract:
     realization of supplementary services;\r\n-\tGSM 04.10p GSM 04.80, GSM 04.8x and
     GSM 04.9x-series,\t\r\nfor radio path signalling procedures for supplementary
     services;\r\n-\tGSM 09.02 (MAP).\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERWORKING
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

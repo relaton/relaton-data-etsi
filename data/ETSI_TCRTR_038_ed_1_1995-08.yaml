@@ -1,59 +1,67 @@
 ---
-schema-version: v1.2.9
-id: ETSITCRTR038ed.11995-08
+id: ETSITCRTR038ed1199508
+schema_version: v1.4.1
 title:
-- content: Security Techniques Advisory Group (STAG); A guide to the ETSI security
+- language: en
+  script: Latn
+  content: Security Techniques Advisory Group (STAG); A guide to the ETSI security
     standards policy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1888
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/038/01_60/tcrtr_038e01p.pdf
-  type: pdf
-docid:
-- id: ETSI TCRTR 038 ed.1 (1995-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1888
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tcrtr/001_099/038/01_60/tcrtr_038e01p.pdf
+docidentifier:
+- content: ETSI TCRTR 038 ed.1 (1995-08)
   type: ETSI
   primary: true
 docnumber: ETSI TCRTR 038 ed.1 (1995-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To identify & provide an introduction to the set of reports that will\r\nform
+- language: en
+  script: Latn
+  content: "To identify & provide an introduction to the set of reports that will\r\nform
     the ETSI security standards policy, & also provide guidelines on\r\nhow these
     reports should be used.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Committee Reference Technical Report
     abbreviation: TCRTR
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Committee Reference Technical Report

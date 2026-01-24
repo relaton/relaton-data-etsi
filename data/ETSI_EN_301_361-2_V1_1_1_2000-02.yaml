@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301361-2V1.1.12000-02
+id: ETSIEN3013612V111200002
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); Integrated Services
     Digital Network (ISDN); ISDN Mobility protocol Interworking specification Profile
     (IMIP); Part 2: DECT/ISDN interworking for Global System for Mobile communications
     (GSM) support'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3496
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301300_301399/30136102/01.01.01_60/en_30136102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 361-2 V1.1.1 (2000-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3496
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301300_301399/30136102/01.01.01_60/en_30136102v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 361-2 V1.1.1 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 361-2 V1.1.1 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This standard specifies a set of technical requiremens for Digital Enhanced
+- language: en
+  script: Latn
+  content: "This standard specifies a set of technical requiremens for Digital Enhanced
     Cordless Telecommunications (DECT) Fixed Parts (FP) supporting connection, via
     an ISDN interface, to a network supporting terminal mobility.\r\nPart 1 of this
     standard (DEN/DECT-030126) specifies the interworking procedures between the DECT
@@ -56,24 +65,36 @@ abstract:
     to support CTM mobility.\r\nThis Part 2 of this standard specifies the interworking
     procedures between the DECT air interface and the mobility management protocols
     defined for an enhanced ISDN interface, to support GSM mobility.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CTM
-- content: DECT
-- content: GSM
-- content: ISDN
-- content: MOBILITY
-- content: PROFILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network aspects
+    content: European Standard

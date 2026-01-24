@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR307ed.11996-08
+id: ETSIETR307ed1199608
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH);
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Synchronous Digital Hierarchy (SDH);
     SDH project status report for 1995
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4052
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/307/01_60/etr_307e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 307 ed.1 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4052
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/307/01_60/etr_307e01p.pdf
+docidentifier:
+- content: ETSI ETR 307 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 307 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Transmission & Multiplexing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR provides a current overview of work recognized as already\r\ndone
+- language: en
+  script: Latn
+  content: "This ETR provides a current overview of work recognized as already\r\ndone
     or in progress within the ETSI TC TM on issues covering the\r\nSynchronous Digital
     Hierarchy (SDH) and also it searches for\r\ncompatibility with other future, current
     and past technologies and\r\nhierarchies. The ETR shall in future describe all
@@ -51,18 +61,18 @@ abstract:
     Protocols, and Interfaces being on\r\nthe boundary with SDH or using SDH networks
     are: NA, BTC, and TE.\r\n NOTE:\tThe TC list is exhaustive and will be updated
     with any new TC\r\nrecognized.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SDH
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Transmission & Multiplexing
+    content: ETSI Technical Report

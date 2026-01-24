@@ -1,72 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203385V1.1.12014-11
+id: ETSIES203385V111201411
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q0FCTEU7IERPQ1NJU8KuIExheWVyIDIgVmlydHVhbCBQcml2YXRlIE5ldHdvcmtpbmc=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42488
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203300_203399/203385/01.01.01_60/es_203385v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 385 V1.1.1 (2014-11)
+- language: en
+  script: Latn
+  content: CABLE; DOCSIS Layer 2 Virtual Private Networking
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42488
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203300_203399/203385/01.01.01_60/es_203385v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 385 V1.1.1 (2014-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 385 V1.1.1 (2014-11)
 date:
 - type: published
-  value: 2014-11
+  at: 2014-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2014-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Requirements on both CMTSs and CMs in order to implement a DOCSIS Layer-2
+- language: en
+  script: Latn
+  content: Requirements on both CMTSs and CMs in order to implement a DOCSIS Layer-2
     Virtual Private Network (DOCSIS L2VPN) feature.  The L2VPN feature allows cable
     operators to offer a Layer 2 Transparent LAN Service (TLS) to commercial enterprises.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DATA
-- content: IP
-- content: IPCable
-- content: L2VPN
-- content: MODEM
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: L2VPN
+  - language: en
+    script: Latn
+    content: MODEM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: ETSI Standard

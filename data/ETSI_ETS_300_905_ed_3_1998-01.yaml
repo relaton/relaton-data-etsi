@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300905ed.31998-01
+id: ETSIETS300905ed3199801
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Teleservices
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Teleservices
     supported by a GSM Public Land Mobile Network (PLMN) (GSM 02.03 version 5.3.2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5700
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300905/03_60/ets_300905e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 905 ed.3 (1998-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5700
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300905/03_60/ets_300905e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 905 ed.3 (1998-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 905 ed.3 (1998-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services & Facilities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS describe and defines a\r\nrecommended set of Teleservices to
+- language: en
+  script: Latn
+  content: "This ETS describe and defines a\r\nrecommended set of Teleservices to
     be supported by a GSM PLMN in\r\nconnection with other networks as a basis for
     defining the network\r\ncapabilities required.\r\nTeleservices not included in
     this specification should not be\r\nintroduced unilateraly by a mobile network
     operator, if the provision\r\nof this service requires that the GSM signalling
     specifications are\r\nmodified.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: VOCABULARY
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: VOCABULARY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Services & Facilities
+    content: European Telecommunication Standard

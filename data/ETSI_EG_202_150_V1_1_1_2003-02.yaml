@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202150V1.1.12003-02
+id: ETSIEG202150V111200302
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); "Common
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); "Common
     Text" for Application Forms/Short Equipment Description Forms
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13381
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202150/01.01.01_60/eg_202150v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 150 V1.1.1 (2003-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13381
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202100_202199/202150/01.01.01_60/eg_202150v010101p.pdf
+docidentifier:
+- content: ETSI EG 202 150 V1.1.1 (2003-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 150 V1.1.1 (2003-02)
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Land Mobile Radio A
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2003-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Assemble \"Common Text\" to be used in Application Forms / Short Equipment
+- language: en
+  script: Latn
+  content: "Assemble \"Common Text\" to be used in Application Forms / Short Equipment
     Description Forms\r\nProvide a document in EG Format."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: RECEIVER
-- content: REPORT
-- content: TESTING
-- content: TRANSMITTER
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: REPORT
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TRANSMITTER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Land Mobile Radio A
+    content: ETSI Guide

@@ -1,62 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR168ed.11995-01
+id: ETSIETR168ed1199501
+schema_version: v1.4.1
 title:
-- content: Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
+- language: en
+  script: Latn
+  content: Broadband Integrated Services Digital Network (B-ISDN); Digital Subscriber
     Signalling System No. two (DSS2) protocol; Guidelines for the interpretation of
     ETS 300 443-1 (ITU-T Recommendation Q.2931)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2707
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/100_199/168/01_60/etr_168e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 168 ed.1 (1995-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2707
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/100_199/168/01_60/etr_168e01p.pdf
+docidentifier:
+- content: ETSI ETR 168 ed.1 (1995-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 168 ed.1 (1995-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital access signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "B-ISDN UNI layer 3 signalling protocol for basic call\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "B-ISDN UNI layer 3 signalling protocol for basic call\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: B-ISDN
-- content: DSS2
-- content: LAYER 3
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: DSS2
+  - language: en
+    script: Latn
+    content: LAYER 3
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Digital access signalling
+    content: ETSI Technical Report

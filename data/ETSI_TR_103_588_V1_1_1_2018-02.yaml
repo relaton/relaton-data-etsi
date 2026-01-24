@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103588V1.1.12018-02
+id: ETSITR103588V111201802
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Feasibility study on temporary spectrum
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Feasibility study on temporary spectrum
     access for local high-quality wireless networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50966
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103588/01.01.01_60/tr_103588v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 588 V1.1.1 (2018-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50966
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103588/01.01.01_60/tr_103588v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 588 V1.1.1 (2018-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 588 V1.1.1 (2018-02)
 date:
 - type: published
-  value: 2018-02
+  at: 2018-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This new Work Item focuses on creating a feasibility study and a related
+- language: en
+  script: Latn
+  content: This new Work Item focuses on creating a feasibility study and a related
     technical report that will address the different technical possibilities for local
     high-quality wireless networks (nomadic or fixed) to access spectrum temporarily
     on a shared basis. Application domains envisaged for such networks are typically
@@ -62,19 +71,21 @@ abstract:
     frameworks, e.g. Licensed Shared Access, Spectrum Access System, etc., are appropriate
     for localized, high-QoS systems and to identify possible enhancements and/or alternatives
     on the technical solutions as appropriate.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SYSTEM
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SYSTEM
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Report

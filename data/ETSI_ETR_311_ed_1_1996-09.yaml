@@ -1,65 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR311ed.11996-09
+id: ETSIETR311ed1199609
+schema_version: v1.4.1
 title:
-- content: Universal Personal Telecommunication (UPT); Requirements, services and
+- language: en
+  script: Latn
+  content: Universal Personal Telecommunication (UPT); Requirements, services and
     information for UPT management
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3210
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/311/01_60/etr_311e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 311 ed.1 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3210
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/311/01_60/etr_311e01p.pdf
+docidentifier:
+- content: ETSI ETR 311 ed.1 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 311 ed.1 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document specifies UPT specific management services with emphasis\r\non
+- language: en
+  script: Latn
+  content: "The document specifies UPT specific management services with emphasis\r\non
     the service management level, covering the functional areas:\r\n- tailoring, i.e.
     adapting UPT to the communications needs of the user\r\n- service profile management\r\n-
     interworking\r\n- charging for UPT services\r\n- provisioning of UPT services.\r\n
     It also contains a provisional Information Model to support further\r\ndiscussion
     and work on this item.\r\n The document will serve as a case study for the definition
     of\r\nspecifications for IN according to the TMN principles.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: IN
-- content: TMN
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Network Aspects
+    content: ETSI Technical Report

@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102240V9.1.02011-12
+id: ETSITS102240V910201112
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC Application Programming Interface and Loader Requirements;
+- language: en
+  script: Latn
+  content: Smart Cards; UICC Application Programming Interface and Loader Requirements;
     Service description; (Release 9)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38357
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102240/09.01.00_60/ts_102240v090100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 240 V9.1.0 (2011-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38357
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102240/09.01.00_60/ts_102240v090100p.pdf
+docidentifier:
+- content: ETSI TS 102 240 V9.1.0 (2011-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 240 V9.1.0 (2011-12)
 date:
 - type: published
-  value: 2011-12
+  at: 2011-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SCP-REQ
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 9.1.0
-revdate: 2011-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Late implementation of the CR contained in document SCP-090176 adding
+- language: en
+  script: Latn
+  content: "Late implementation of the CR contained in document SCP-090176 adding
     requirements for the Secure Channel API. This CR was not implemented after SCP
     #41.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SCP-REQ
+    content: Technical Specification

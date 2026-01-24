@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIGROEU040V1.1.12025-06
+id: ETSIGROEU040V111202506
+schema_version: v1.4.1
 title:
-- content: Operational energy Efficiency for Users (OEU); Adaptive and multiple output
+- language: en
+  script: Latn
+  content: Operational energy Efficiency for Users (OEU); Adaptive and multiple output
     power supplies based on USB Type C with USB PD support
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73682
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/040/01.01.01_60/gr_OEU040v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR OEU 040 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73682
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/OEU/001_099/040/01.01.01_60/gr_OEU040v010101p.pdf
+docidentifier:
+- content: ETSI GR OEU 040 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI GR OEU 040 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operational energy Efficiency for Users
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The deliverable intends to help users understand the implications of Power
+- language: en
+  script: Latn
+  content: "The deliverable intends to help users understand the implications of Power
     Delivery on USB-C, help in successfully procure and employ PD supporting systems,
     and avoid safety issues. \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: POWER
-- content: POWER SUPPLY
-- content: USB
+- taxon:
+  - language: en
+    script: Latn
+    content: POWER
+  - language: en
+    script: Latn
+    content: POWER SUPPLY
+  - language: en
+    script: Latn
+    content: USB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Operational energy Efficiency for Users
+    content: Group Report

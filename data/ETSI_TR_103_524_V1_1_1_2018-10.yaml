@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103524V1.1.12018-10
+id: ETSITR103524V111201810
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Wireless access systems including radio
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Wireless access systems including radio
     local area networks (WAS/RLANs) in the band 5 925 MHz to 6 725 MHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51678
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103524/01.01.01_60/tr_103524v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 524 V1.1.1 (2018-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=51678
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103524/01.01.01_60/tr_103524v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 524 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 524 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The System Reference Document will provide information on the intended
+- language: en
+  script: Latn
+  content: The System Reference Document will provide information on the intended
     applications, the technical parameters, mitigation techniques, the relation to
     the existing spectrum regulation and additional new radio spectrum requirements
     for Wireless access systems including radio local area networks (WAS/RLANs). The
@@ -56,24 +65,36 @@ abstract:
     The document will  include the necessary information to support the co-operation
     between ETSI and the Electronic Communications Committee (ECC) of the European
     Conference of Post and Telecommunications Administrations (CEPT).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: LAN
-- content: LAYER 1
-- content: RADIO
-- content: REGULATION
-- content: SRDOC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: LAYER 1
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

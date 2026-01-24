@@ -1,70 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC027V2.1.12019-11
+id: ETSIGRMEC027V211201911
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Study on MEC support for alternative
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Study on MEC support for alternative
     virtualization technologies
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53966
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/027/02.01.01_60/gr_MEC027v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 027 V2.1.1 (2019-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53966
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/027/02.01.01_60/gr_MEC027v020101p.pdf
+docidentifier:
+- content: ETSI GR MEC 027 V2.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 027 V2.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This study item focuses on identifying the additional support that needs
+- language: en
+  script: Latn
+  content: This study item focuses on identifying the additional support that needs
     to be provided by MEC when MEC applications run as containers.  The work will
     be a study with the intent to collect and analyze the use cases relating to deployment
     of containers, evaluate the gaps from the currently defined MEC functionalities,
     if exist, and identify new requirements. As ETSI NFV is also working on containers,
     the MEC work should be aligned, where applicable. The study item will recommend
     the necessary normative work to close the gaps, if applicable.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Container
-- content: MEC
+- taxon:
+  - language: en
+    script: Latn
+    content: Container
+  - language: en
+    script: Latn
+    content: MEC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

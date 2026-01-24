@@ -1,48 +1,58 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300603/A1ed.11995-04
+id: ETSIETS300603A1ed1199504
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Interworking
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Interworking
     between a Public Land Mobile Network (PLMN) and a Packet Switched Public Data
     Network/Integrated Services Digital Network (PSPDN/ISDN) for the support of packet
     switched data transmission services (GSM 09.06)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3173
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300603/01_60/ets_300603e01p_a1p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 603/A1 ed.1 (1995-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3173
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300603/01_60/ets_300603e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 603/A1 ed.1 (1995-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 603/A1 ed.1 (1995-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "REASON 1:\r\nMany existing PH support only X.31 case B. For these PHs
+- language: en
+  script: Latn
+  content: "REASON 1:\r\nMany existing PH support only X.31 case B. For these PHs
     the case A/B\r\nconversion in the GSM HPLMN is necessary.\r\nCONSEQUENCES OF NON-ACCEPTANCE
     1:\r\nThis amendment is necessary to allow basic packet access to PH\r\nsupporting
     only case B. For these PH exists agreement between the\r\nPLMN and the fixed network
@@ -53,26 +63,42 @@ abstract:
     user rates as the PH\r\ndoes not send an applicable user rate.\r\n CONSEQUENCES
     OF NON-ACCEPTANCE 2:\r\nThe correct access of basic packet mode in case of more
     than one\r\nsubscribed basic packet service is not guaranteed.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERWORKING
-- content: ISDN
-- content: MOBILE
-- content: PACKET MODE
-- content: PDN
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: PDN
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

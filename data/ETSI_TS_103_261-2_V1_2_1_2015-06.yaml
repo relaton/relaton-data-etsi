@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103261-2V1.2.12015-06
+id: ETSITS1032612V121201506
+schema_version: v1.4.1
 title:
-- content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
+- language: en
+  script: Latn
+  content: 'Core Network and Interoperability Testing (INT); Diameter Conformance
     testing for S6a interface; (3GPP Release 10); Part 2: Test Suite Structure (TSS)
     and Test Purposes (TP)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44148
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10326102/01.02.01_60/ts_10326102v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 261-2 V1.2.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44148
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103200_103299/10326102/01.02.01_60/ts_10326102v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 261-2 V1.2.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 261-2 V1.2.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    4oCdQ29uZm9ybWFuY2UgVGVzdCBTcGVjaWZpY2F0aW9ucyBmb3IgdGhlIERpYW1ldGVyIFByb3RvY29sIG92ZXIgdGhlIFM2YSByZWZlcmVuY2UgcG9pbnRzDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Conformance Test Specifications for the Diameter Protocol over the S6a
+    reference points\r\n"
+status:
+  stage: Published
 keyword:
-- content: Diameter
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: Diameter
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103050V1.2.12002-09
+id: ETSITR103050V121200209
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Digital Access to Public Telephone Networks;
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Digital Access to Public Telephone Networks;
     Applicability of ITAAB Advisory Notes to TBRs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16171
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103050/01.02.01_60/tr_103050v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 050 V1.2.1 (2002-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16171
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103050/01.02.01_60/tr_103050v010201p.pdf
+docidentifier:
+- content: ETSI TR 103 050 V1.2.1 (2002-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 050 V1.2.1 (2002-09)
 date:
 - type: published
-  value: 2002-09
+  at: 2002-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2002-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revise TR 103 050 to include TS 101 966 and NWI DTS/AT-020032. To remove
+- language: en
+  script: Latn
+  content: Revise TR 103 050 to include TS 101 966 and NWI DTS/AT-020032. To remove
     reference to ITAAB from document title.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DIGITAL
-- content: ISDN
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: ISDN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital
+    content: Technical Report

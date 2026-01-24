@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGTSGSM03.07V5.0.01996-11
+id: ETSIGTSGSM0307V500199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Restoration procedures (GSM
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Restoration procedures (GSM
     03.07)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5123
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gts/03/0307/05.00.00_60/gsmts_0307v050000p.pdf
-  type: pdf
-docid:
-- id: ETSI GTS GSM 03.07 V5.0.0 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5123
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gts/03/0307/05.00.00_60/gsmts_0307v050000p.pdf
+docidentifier:
+- content: ETSI GTS GSM 03.07 V5.0.0 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI GTS GSM 03.07 V5.0.0 (1996-11)
 date:
 - type: published
-  value: 1996-11
+  at: 1996-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.0.0
-revdate: 1996-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The data stored in location registers are automatically updated in nor\r\nmal
+- language: en
+  script: Latn
+  content: "The data stored in location registers are automatically updated in nor\r\nmal
     operation; the main information stored in a location register defi\r\nnes the
     location of each mobile station and the subscriber data requir\r\ned to handle
     traffic for each mobile subscriber. The loss or corruptio\r\nn of these data will
@@ -54,22 +63,30 @@ abstract:
     necessary to define procedures to limit th\r\ne effects of failure of a location
     register, and to restore the locati\r\non register data automatically. This GTS
     defines the necessary procedu\r\nres.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: GSM Technical Specification
     abbreviation: GTS
-  editorialgroup:
-  - name: Network Aspects
+    content: GSM Technical Specification

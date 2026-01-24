@@ -1,63 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300233ed.11994-05
+id: ETSIETS300233ed1199405
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Access digital section for
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Access digital section for
     ISDN primary rate
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=293
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300233/01_60/ets_300233e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 233 ed.1 (1994-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=293
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300233/01_60/ets_300233e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 233 ed.1 (1994-05)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 233 ed.1 (1994-05)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces, architecture and functional requirements of transport
+          netw
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Configuration & requirements for the primary rate access digital sect-\r\n-ion
+- language: en
+  script: Latn
+  content: "Configuration & requirements for the primary rate access digital sect-\r\n-ion
     between the T & V3 reference points. Requirements for the ET for\r\ninterworking
     at the V3 ref pt. Applicable for different types of trans\r\n-mission systems
     & techniques. Contains conformance test spec.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ISDN
-- content: PRIMARY
-- content: RATE
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: PRIMARY
+  - language: en
+    script: Latn
+    content: RATE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Interfaces, architecture and functional requirements of transport netw
+    content: European Telecommunication Standard

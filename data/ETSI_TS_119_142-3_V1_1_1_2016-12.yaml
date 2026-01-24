@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119142-3V1.1.12016-12
+id: ETSITS1191423V111201612
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); PAdES digital signatures;
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); PAdES digital signatures;
     Part 3: PAdES Document Time-stamp digital signatures (PAdES-DTS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47975
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914203/01.01.01_60/ts_11914203v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 142-3 V1.1.1 (2016-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47975
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/11914203/01.01.01_60/ts_11914203v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 142-3 V1.1.1 (2016-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 142-3 V1.1.1 (2016-12)
 date:
 - type: published
-  value: 2016-12
+  at: 2016-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The aim of the NWI is to specify a type of PDF digital signature using
+- language: en
+  script: Latn
+  content: The aim of the NWI is to specify a type of PDF digital signature using
     a Document Time-stamp - as defined in EN 319 142-1 - as a digital signature to
     proof the integrity and existence of a PDF document (ISO 32000).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
-- content: PROFILE
-- content: SECURITY
-- content: Time-stamping
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Time-stamping
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

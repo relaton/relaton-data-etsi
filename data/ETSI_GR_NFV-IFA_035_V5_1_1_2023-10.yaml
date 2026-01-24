@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-IFA035V5.1.12023-10
+id: ETSIGRNFVIFA035V511202310
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV) Release 5; Architectural Framework;
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 5; Architectural Framework;
     Report on network connectivity integration and operationalization for NFV
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58459
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/035/05.01.01_60/gr_NFV-IFA035v050101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-IFA 035 V5.1.1 (2023-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58459
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-IFA/001_099/035/05.01.01_60/gr_NFV-IFA035v050101p.pdf
+docidentifier:
+- content: ETSI GR NFV-IFA 035 V5.1.1 (2023-10)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-IFA 035 V5.1.1 (2023-10)
 date:
 - type: published
-  value: 2023-10
+  at: 2023-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 5.1.1
-revdate: 2023-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Derived from the past deliverables (e.g. INF005, EVE005 and IFA022), this
+- language: en
+  script: Latn
+  content: "Derived from the past deliverables (e.g. INF005, EVE005 and IFA022), this
     work item will report about issues when it comes to fulfilling VNF networking
     requirements with the NFV framework. The work item will analyse the integration
     and operation for virtual networking and SDN usage. Recent advances available
@@ -56,20 +65,24 @@ abstract:
     and operations for Connectivity Service with recent traffic engineering technologies.\r\nThe
     deliverable will collect use cases and, based on them, recommendations on normative
     work will be made.The deliverable will be informative.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MANAGEMENT
-- content: MANO
-- content: NFV
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Interfaces and Architecture
+    content: Group Report

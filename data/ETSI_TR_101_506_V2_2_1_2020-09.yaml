@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101506V2.2.12020-09
+id: ETSITR101506V221202009
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Generic definitions, terminology and applicability
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Generic definitions, terminology and applicability
     of essential requirements covering article 3.2 of Directive 2014/53/EU to Fixed
     Radio Systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58385
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101506/02.02.01_60/tr_101506v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 506 V2.2.1 (2020-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58385
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101506/02.02.01_60/tr_101506v020201p.pdf
+docidentifier:
+- content: ETSI TR 101 506 V2.2.1 (2020-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 506 V2.2.1 (2020-09)
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2020-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update justifications for some parameters following EC remarks, draft revised
+- language: en
+  script: Latn
+  content: Update justifications for some parameters following EC remarks, draft revised
     ETSI Guide and ECC Report on receiver parameters
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DFRS
-- content: FWA
-- content: RADIO
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

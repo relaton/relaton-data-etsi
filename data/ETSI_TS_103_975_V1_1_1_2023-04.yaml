@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103975V1.1.12023-04
+id: ETSITS103975V111202304
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    Q29yZSBOZXR3b3JrIGFuZCBJbnRlcm9wZXJhYmlsaXR5IFRlc3RpbmcgKElOVCk7IENsb3NlZCBVc2VyIEdyb3VwIChDVUcpIHVzaW5nIElQIE11bHRpbWVkaWEgKElNKSBDb3JlIE5ldHdvcmsgKENOKSBzdWJzeXN0ZW0gYXQgdGhlIEFHQ0YgY29ubmVjdGluZyBsZWdhY3kgYWNjZXNzOyBDb25mb3JtYW5jZSBUZXN0IFNwZWNpZmljYXRpb24gKDNHUFDihKIgUmVsZWFzZSAxNyk7IFRlc3QgU3VpdGUgU3RydWN0dXJlIGFuZCBUZXN0IFB1cnBvc2VzIChUU1MmVFAp
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68493
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103975/01.01.01_60/ts_103975v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 975 V1.1.1 (2023-04)
+- language: en
+  script: Latn
+  content: Core Network and Interoperability Testing (INT); Closed User Group (CUG)
+    using IP Multimedia (IM) Core Network (CN) subsystem at the AGCF connecting legacy
+    access; Conformance Test Specification (3GPP Release 17); Test Suite Structure
+    and Test Purposes (TSS&TP)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68493
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103975/01.01.01_60/ts_103975v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 975 V1.1.1 (2023-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 975 V1.1.1 (2023-04)
 date:
 - type: published
-  value: 2023-04
+  at: 2023-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Core Network and Interoperability Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document provides the Test Suite Structure (TSS) and Test
+- language: en
+  script: Latn
+  content: "The present document provides the Test Suite Structure (TSS) and Test
     Purposes (TP) for the Closed User Group (CUG) using IP Multimedia (IM) Core Network
     (CN) subsystem at the AGCF connecting legacy access. The Closed User Group (CUG)
     interworking is defined in TS 183 036 [3], the CUG requirements are described
     in ETSI EN 300 138-1 [4] in compliance with the relevant requirements. This Technical
     Specification (TS) is based on the                ETSI TS 101 597-2 V2.1.1 (2019-01).\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CUG
-- content: IMS
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: CUG
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Core Network and Interoperability Testing
+    content: Technical Specification

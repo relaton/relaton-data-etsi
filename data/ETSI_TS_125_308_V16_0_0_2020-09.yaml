@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS125308V16.0.02020-09
+id: ETSITS125308V1600202009
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); High Speed Downlink
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); High Speed Downlink
     Packet Access (HSDPA); Overall description; Stage 2 (3GPP TS 25.308 version 16.0.0
     Release 16)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61055
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125308/16.00.00_60/ts_125308v160000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 125 308 V16.0.0 (2020-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=61055
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/125300_125399/125308/16.00.00_60/ts_125308v160000p.pdf
+docidentifier:
+- content: ETSI TS 125 308 V16.0.0 (2020-09)
   type: ETSI
   primary: true
 docnumber: ETSI TS 125 308 V16.0.0 (2020-09)
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Legacy RAN radio and protocol
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 16.0.0
-revdate: 2020-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: SA#88-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: SA#88-e
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Legacy RAN radio and protocol
+    content: Technical Specification

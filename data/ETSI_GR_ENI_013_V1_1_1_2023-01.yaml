@@ -1,65 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI013V1.1.12023-01
+id: ETSIGRENI013V111202301
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Intent Policy Model Gap Analysis
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62019
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/013/01.01.01_60/gr_ENI013v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 013 V1.1.1 (2023-01)
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Intent Policy Model Gap Analysis
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62019
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/013/01.01.01_60/gr_ENI013v010101p.pdf
+docidentifier:
+- content: ETSI GR ENI 013 V1.1.1 (2023-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 013 V1.1.1 (2023-01)
 date:
 - type: published
-  value: 2023-01
+  at: 2023-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2023-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgY29udGFpbnM6IA0KMSkgd29yayBvbiBhIGdhcCBhbmFseXNpcyByZXBvcnQgb24gaW50ZW50IGluZm9ybWF0aW9uIG1vZGVsIGJhc2VkIG9uIGV4aXN0aW5nIFNETyB3b3JrLCBpbmNsdWRpbmcgdGhlIHBvbGljeSBtYW5hZ2VtZW50IG1vZGVsIGFzIHNwZWNpZmllZCBieSBFVFNJIElTRyBFTkkgaW4gdGhlIHN5c3RlbSBhcmNoaXRlY3R1cmUgZGVsaXZlcmFibGVzLCBhbmQsDQoyKSB0aGUgcmVwb3J0IGFsc28gcHJvdmlkZXMgYSBsaXN0IG9mIHJlY29tbWVuZGF0aW9ucyBvbiBnZW5lcmFsIGd1aWRlbGluZXMgYWRkcmVzc2luZyB0aGUgaGlnaC1sZXZlbCBwb2xpY3kgbW9kZWwgb2YgYSBudW1iZXIgb2YgZWFjaCBTRE/igJlzIGludGVudCBwb2xpY3kgbW9kZWwgKGkuZS46IDNHUFAgU0E1LCBORlYsIFRNIEZvcnVtLCBJUlRGLCBhbmQgWlNNKSwgYW5kIGhvdyB0aGVzZSBndWlkZWxpbmVzIGNvbXBhcmUgd2l0aCB0aG9zZSBzdGF0ZWQgaW4gdGhlIEVUU0kgRU5JIHN5c3RlbSBhcmNoaXRlY3R1cmUuDQoNCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document contains: \r\n1) work on a gap analysis report on
+    intent information model based on existing SDO work, including the policy management
+    model as specified by ETSI ISG ENI in the system architecture deliverables, and,\r\n2)
+    the report also provides a list of recommendations on general guidelines addressing
+    the high-level policy model of a number of each SDOs intent policy model (i.e.:
+    3GPP SA5, NFV, TM Forum, IRTF, and ZSM), and how these guidelines compare with
+    those stated in the ETSI ENI system architecture.\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: INFORMATION MODEL
-- content: policies
-- content: policy management
+- taxon:
+  - language: en
+    script: Latn
+    content: INFORMATION MODEL
+  - language: en
+    script: Latn
+    content: policies
+  - language: en
+    script: Latn
+    content: policy management
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

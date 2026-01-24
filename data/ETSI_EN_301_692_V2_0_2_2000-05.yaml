@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301692V2.0.22000-05
+id: ETSIEN301692V202200005
+schema_version: v1.4.1
 title:
-- content: Cordless Terminal Mobility (CTM); Phase 2+ Feature Package 1 (FP1); Circuit-switched
+- language: en
+  script: Latn
+  content: Cordless Terminal Mobility (CTM); Phase 2+ Feature Package 1 (FP1); Circuit-switched
     data; Service description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5581
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301600_301699/301692/02.00.02_60/en_301692v020002p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 692 V2.0.2 (2000-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5581
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301600_301699/301692/02.00.02_60/en_301692v020002p.pdf
+docidentifier:
+- content: ETSI EN 301 692 V2.0.2 (2000-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 692 V2.0.2 (2000-05)
 date:
 - type: published
-  value: 2000-05
+  at: 2000-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Numbering, Addressing, Routeing & Interworking
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.2
-revdate: 2000-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This feature package of CTM Phase 2+ will give enhancements\r\nto the
+- language: en
+  script: Latn
+  content: "This feature package of CTM Phase 2+ will give enhancements\r\nto the
     CTM Phase 2 enabling CTM users to transmit data at\r\na fixed line digital rate
     (64kbit/s and 32kbit/s)\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CIRCUIT MODE
-- content: CTM
-- content: DATA
-- content: STAGE 1
+- taxon:
+  - language: en
+    script: Latn
+    content: CIRCUIT MODE
+  - language: en
+    script: Latn
+    content: CTM
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: STAGE 1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Numbering, Addressing, Routeing & Interworking
+    content: European Standard

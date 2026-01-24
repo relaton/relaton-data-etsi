@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300812ed.11998-11
+id: ETSIETS300812ed1199811
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Security aspects; Subscriber Identity
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Security aspects; Subscriber Identity
     Module to Mobile Equipment (SIM - ME) interface
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3864
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300812/01_60/ets_300812e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 812 ed.1 (1998-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3864
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300800_300899/300812/01_60/ets_300812e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 812 ed.1 (1998-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 812 ed.1 (1998-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SIM Card
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define a specification for an IC card (SIM) to be used in TETRA\r\nterminals.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To define a specification for an IC card (SIM) to be used in TETRA\r\nterminals.\r\n "
+status:
+  stage: Historical
 keyword:
-- content: CARD
-- content: SECURITY
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: CARD
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: SIM Card
+    content: European Telecommunication Standard

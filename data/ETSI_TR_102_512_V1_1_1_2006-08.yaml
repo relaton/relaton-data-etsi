@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102512V1.1.12006-08
+id: ETSITR102512V111200608
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Security; Security requirements analysis
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Security; Security requirements analysis
     for modulation enhancements to TETRA
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20700
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102512/01.01.01_60/tr_102512v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 512 V1.1.1 (2006-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20700
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102512/01.01.01_60/tr_102512v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 512 V1.1.1 (2006-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 512 V1.1.1 (2006-08)
 date:
 - type: published
-  value: 2006-08
+  at: 2006-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TCCE Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To review the security model for TETRA-2 with respect to TETRA-1 and other
+- language: en
+  script: Latn
+  content: To review the security model for TETRA-2 with respect to TETRA-1 and other
     ETSI and public security models. Deliverable should identify draft CRs required
     for EN 300 392-7.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Analysis
-- content: SECURITY
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: Analysis
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TCCE Security
+    content: Technical Report

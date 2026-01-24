@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRARF007V1.1.12025-03
+id: ETSIGRARF007V111202503
+schema_version: v1.4.1
 title:
-- content: Augmented Reality Framework (ARF); Standards landscape for ETSI AR Functional
+- language: en
+  script: Latn
+  content: Augmented Reality Framework (ARF); Standards landscape for ETSI AR Functional
     Reference Model
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63621
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/007/01.01.01_60/gr_ARF007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ARF 007 V1.1.1 (2025-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63621
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/007/01.01.01_60/gr_ARF007v010101p.pdf
+docidentifier:
+- content: ETSI GR ARF 007 V1.1.1 (2025-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR ARF 007 V1.1.1 (2025-03)
 date:
 - type: published
-  value: 2025-03
+  at: 2025-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB3b3JrIGl0ZW0gd2lsbCBwcmVwYXJlIGEgbmV3IFN0YW5kYXJkcyBMYW5kc2NhcGUgYmFzZWQgb24gRVRTSSBJU0cgQVJG4oCZcyBmdW5jdGlvbmFsIHJlZmVyZW5jZSBtb2RlbCAoaS5lLiwgRVRTSSBHUyBBUkYgMDAzKS4gSGF2aW5nIEVUU0kgR1MgQVIgMDAzIGFzIHRoZSBmb3VuZGF0aW9uIGZvciB0aGUgbmV3IHN0YW5kYXJkcyBsYW5kc2NhcGUgd2lsbCBlbnN1cmUgdGhhdCB0aGUgRXVyb3BlYW4tZGV2ZWxvcGVkIHJlZmVyZW5jZSBtb2RlbCBpcyB3aWRlbHkgYWNjZXB0ZWQuIEZ1cnRoZXJtb3JlLCBhcyBhIHJlc3VsdCBvZiB0aGUgYnJlYWR0aCBhbmQgZGVwdGggb2YgdGhlIEVUU0kgSVNHIEFSRiBmdW5jdGlvbmFsIHJlZmVyZW5jZSBtb2RlbCwgU0RPcyBhbmQgb3RoZXIgc3Rha2Vob2xkZXJzIGluIHRoZSBBUiBpbmR1c3RyeSB3aWxsIGJlIGFibGUgdG8gdXNlIHRoZSBtZXcgc3RhbmRhcmRzIGxhbmRzY2FwZSBmb3IgcHJpb3JpdGl6aW5nIG5ldyB3b3JrIG9yIGNvbnRpbnVlIHRoZWlyIHN0YW5kYXJkcyBkZXZlbG9wbWVudCBpbiBjb25maWRlbmNlLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This work item will prepare a new Standards Landscape based on ETSI ISG
+    ARFs functional reference model (i.e., ETSI GS ARF 003). Having ETSI GS AR 003
+    as the foundation for the new standards landscape will ensure that the European-developed
+    reference model is widely accepted. Furthermore, as a result of the breadth and
+    depth of the ETSI ISG ARF functional reference model, SDOs and other stakeholders
+    in the AR industry will be able to use the mew standards landscape for prioritizing
+    new work or continue their standards development in confidence.
+status:
+  stage: Published
 keyword:
-- content: Augmented Reality
-- content: INTEROPERABILITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Report

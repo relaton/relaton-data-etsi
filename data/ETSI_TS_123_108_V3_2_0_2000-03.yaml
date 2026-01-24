@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS123108V3.2.02000-03
+id: ETSITS123108V320200003
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); Mobile radio interface layer 3 specification;
     Core Network Protocols - Stage 2 (3G TS 23.108 version 3.2.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10024
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/123100_123199/123108/03.02.00_60/ts_123108v030200p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 123 108 V3.2.0 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10024
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/123100_123199/123108/03.02.00_60/ts_123108v030200p.pdf
+docidentifier:
+- content: ETSI TS 123 108 V3.2.0 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 123 108 V3.2.0 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.2.0
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUUyBzcGVjaWZpZXMgdGhlIHByb2NlZHVyZXMgdXNlZCBhdCB0aGUgcmFkaW8gaW50ZXJmYWNlIChSZWZlcmVuY2UgUG9pbnQgVW0sIHNlZSBHU03CoDA0LjAyKSBmb3IgQ2FsbCBDb250cm9sIChDQyksIE1vYmlsaXR5IE1hbmFnZW1lbnQgKE1NKSwgYW5kIFNlc3Npb24gTWFuYWdlbWVudCAoU00pLg0KV2hlbiB0aGUgbm90YXRpb25zIGZvciAiZnVydGhlciBzdHVkeSIgb3IgIkZTIiBvciAiRkZTIiBhcmUgcHJlc2VudCBpbiB0aGlzIFRTIHRoZXkgbWVhbiB0aGF0IHRoZSBpbmRpY2F0ZWQgdGV4dCBpcyBub3QgYSBub3JtYXRpdmUgcG9ydGlvbiBvZiB0aGlzIHN0YW5kYXJkLg0KVGhlc2UgcHJvY2VkdXJlcyBhcmUgZGVmaW5lZCBpbiB0ZXJtcyBvZiBtZXNzYWdlcyBleGNoYW5nZWQgb3ZlciB0aGUgY29udHJvbCBjaGFubmVscyBvZiB0aGUgcmFkaW8gaW50ZXJmYWNlLiBUaGUgY29udHJvbCBjaGFubmVscyBhcmUgZGVzY3JpYmVkIGluIEdTTcKgMDQuMDMuDQpUaGUgc3RydWN0dXJlZCBmdW5jdGlvbnMgYW5kIHByb2NlZHVyZXMgb2YgdGhpcyBwcm90b2NvbCBhbmQgdGhlIHJlbGF0aW9uc2hpcCB3aXRoIG90aGVyIGxheWVycyBhbmQgZW50aXRpZXMgYXJlIGRlc2NyaWJlZCBpbiBnZW5lcmFsIHRlcm1zIGluIFRTwqAyNC4wMDcu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This TS specifies the procedures used at the radio interface (Reference
+    Point Um, see GSM04.02) for Call Control (CC), Mobility Management (MM), and Session
+    Management (SM).\r\nWhen the notations for \"further study\" or \"FS\" or \"FFS\"
+    are present in this TS they mean that the indicated text is not a normative portion
+    of this standard.\r\nThese procedures are defined in terms of messages exchanged
+    over the control channels of the radio interface. The control channels are described
+    in GSM04.03.\r\nThe structured functions and procedures of this protocol and the
+    relationship with other layers and entities are described in general terms in
+    TS24.007."
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MM/CC/SM (lu)
+    content: Technical Specification

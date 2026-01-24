@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301840-1V1.1.12001-06
+id: ETSIEN3018401V111200106
+schema_version: v1.4.1
 title:
-- content: 'ElectroMagnetic Compatibility and Radio Spectrum Matters (ERM); Digital
+- language: en
+  script: Latn
+  content: 'ElectroMagnetic Compatibility and Radio Spectrum Matters (ERM); Digital
     radio microphones operating in the CEPT Harmonized band 1 785 MHz to 1 800 MHz;
     Part 1: Technical characteristics and methods of measurement'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8280
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301800_301899/30184001/01.01.01_60/en_30184001v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 840-1 V1.1.1 (2001-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8280
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301800_301899/30184001/01.01.01_60/en_30184001v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 840-1 V1.1.1 (2001-06)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 840-1 V1.1.1 (2001-06)
 date:
 - type: published
-  value: 2001-06
+  at: 2001-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Land Mobile Radio C
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Develop appropriate test methods and common characteristics for digital
+- language: en
+  script: Latn
+  content: "Develop appropriate test methods and common characteristics for digital
     wireless microphones.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: DIGITAL
-- content: RADIO
-- content: RADIO MIC
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RADIO MIC
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Land Mobile Radio C
+    content: European Standard

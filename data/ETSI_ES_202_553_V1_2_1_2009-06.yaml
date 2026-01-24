@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202553V1.2.12009-06
+id: ETSIES202553V121200906
+schema_version: v1.4.1
 title:
-- content: 'Methods for Testing and Specification (MTS); TPLan: A notation for expressing
+- language: en
+  script: Latn
+  content: 'Methods for Testing and Specification (MTS); TPLan: A notation for expressing
     Test Purposes'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30445
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202500_202599/202553/01.02.01_60/es_202553v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 553 V1.2.1 (2009-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30445
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202500_202599/202553/01.02.01_60/es_202553v010201p.pdf
+docidentifier:
+- content: ETSI ES 202 553 V1.2.1 (2009-06)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 553 V1.2.1 (2009-06)
 date:
 - type: published
-  value: 2009-06
+  at: 2009-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2009-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This revision of the TPLan standard will make no technical changes to the
+- language: en
+  script: Latn
+  content: This revision of the TPLan standard will make no technical changes to the
     specification. A small number of outstanding editorial corrections will be made.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: METHODOLOGY
-- content: TESTING
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: METHODOLOGY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: ETSI Standard

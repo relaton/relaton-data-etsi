@@ -1,64 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITR124980V13.3.02017-07
+id: ETSITR124980V1330201707
+schema_version: v1.4.1
 title:
-- content: LTE; Minimum requirements for support of Mission Critical Push To Talk
+- language: en
+  script: Latn
+  content: LTE; Minimum requirements for support of Mission Critical Push To Talk
     (MCPTT) service over the Gm reference point (3GPP TR 24.980 version 13.3.0 Release
     13)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53185
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/124900_124999/124980/13.03.00_60/tr_124980v130300p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 124 980 V13.3.0 (2017-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53185
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/124900_124999/124980/13.03.00_60/tr_124980v130300p.pdf
+docidentifier:
+- content: ETSI TR 124 980 V13.3.0 (2017-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 124 980 V13.3.0 (2017-07)
 date:
 - type: published
-  value: 2017-07
+  at: 2017-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MM/CC/SM [lu] (formely CN1)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 13.3.0
-revdate: 2017-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CT#76
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CT#76
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: MM/CC/SM [lu] (formely CN1)
+    content: Technical Report

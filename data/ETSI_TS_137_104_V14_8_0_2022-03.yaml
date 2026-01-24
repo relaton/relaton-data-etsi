@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS137104V14.8.02022-03
+id: ETSITS137104V1480202203
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); LTE; 5G; NR, E-UTRA, UTRA and GSM/EDGE;
     Multi-Standard Radio (MSR) Base Station (BS) radio transmission and reception
     (3GPP TS 37.104 version 14.8.0 Release 14)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64229
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/137100_137199/137104/14.08.00_60/ts_137104v140800p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 137 104 V14.8.0 (2022-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=64229
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/137100_137199/137104/14.08.00_60/ts_137104v140800p.pdf
+docidentifier:
+- content: ETSI TS 137 104 V14.8.0 (2022-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 137 104 V14.8.0 (2022-03)
 date:
 - type: published
-  value: 2022-03
+  at: 2022-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Specification for radio performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 14.8.0
-revdate: 2022-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RAN#94-e
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RAN#94-e
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Specification for radio performance
+    content: Technical Specification

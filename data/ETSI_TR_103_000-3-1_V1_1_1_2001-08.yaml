@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103000-3-1V1.1.12001-08
+id: ETSITR10300031V111200108
+schema_version: v1.4.1
 title:
-- content: 'Access and Terminals (AT); Analogue Access to Public Telephone Networks;
+- language: en
+  script: Latn
+  content: 'Access and Terminals (AT); Analogue Access to Public Telephone Networks;
     Advisory Notes to Standards Harmonizing Terminal Interface; Part 3: Country Specific
     Advisory Notes; Sub-part 1: ATAAB Advisory Note AN018 for the Czech Republic Network;
     Automatic dialling with dial tone detection'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14049
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/1030000301/01.01.01_60/tr_1030000301v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 000-3-1 V1.1.1 (2001-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14049
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/1030000301/01.01.01_60/tr_1030000301v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 000-3-1 V1.1.1 (2001-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 000-3-1 V1.1.1 (2001-08)
 date:
 - type: published
-  value: 2001-08
+  at: 2001-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Analogue
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Publish and ensure future availability of TRAC ATAAB AN 018 for Czech Republic.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Publish and ensure future availability of TRAC ATAAB AN 018 for Czech Republic.
+status:
+  stage: Published
 keyword:
-- content: ANALOGUE
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Analogue
+    content: Technical Report

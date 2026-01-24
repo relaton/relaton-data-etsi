@@ -1,65 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS118105V1.1.02016-03
+id: ETSITS118105V110201603
+schema_version: v1.4.1
 title:
-- content: oneM2M; Management Enablement (OMA) (oneM2M TS-0005 version 1.4.1 Release
+- language: en
+  script: Latn
+  content: oneM2M; Management Enablement (OMA) (oneM2M TS-0005 version 1.4.1 Release
     1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47611
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118105/01.01.00_60/ts_118105v010100p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 118 105 V1.1.0 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47611
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/118100_118199/118105/01.01.00_60/ts_118105v010100p.pdf
+docidentifier:
+- content: ETSI TS 118 105 V1.1.0 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 118 105 V1.1.0 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.0
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U3BlY2lmeSBvbmVNMk0gUHJvdG9jb2xzICYgQVBJcyBmb3IgbWFuYWdlbWVudCBzcGVjaWZpYyB0byBpbmRpdmlkdWFsIG1hbmFnZW1lbnQgdGVjaG5vbG9naWVzIChlLmcuLCBPTUEgRE0sIEJCRiBUUi0wNjksIExXTTJNKS4NClRoZSBzcGVjaWZpY2F0aW9uKHMpIHdpbGwgY292ZXI6DQrigKIgUGVyIGluZGl2aWR1YWwgbWFuYWdlbWVudCB0ZWNobm9sb2d5LCBzcGVjaWZ5aW5nIHRoZSB1c2FnZSBvZiB0aGUgbWFuYWdlbWVudCByZWxhdGVkIHJlc291cmNlcyBhbmQgdGhlIG1lc3NhZ2UgZmxvd3MgaW5jbHVkaW5nIG5vcm1hbCBjYXNlcyBhcyB3ZWxsIGFzIGVycm9yIGNhc2VzIHRvIGZ1bGZpbCB0aGUgbWFuYWdlbWVudCByZWxhdGVkIHJlcXVpcmVtZW50cyBkZWZpbmVkIGluIHJlcXVpcmVtZW50cyBUUyBvdmVyIHRoZSBNY2EsIE1jYyBhbmQgTWNuIHJlZmVyZW5jZSBwb2ludC4NCi0gTWFwcGluZyBvZiBvbmVNMk0gbWFuYWdlbWVudCByZWxhdGVkIHJlc291cmNlcyB0byB0aGUgcmVzb3VyY2VzIGZyb20gaW5kaXZpZHVhbCBtYW5hZ2VtZW50IHRlY2hub2xvZ2llcyAoZS5nLiwgT01BIERNLCBCQkYgVFItMDY5LCBMV00yTSByZXNvdXJjZXMpLg0KLSBQcm90b2NvbCB0cmFuc2xhdGlvbiBmcm9tIG9uZU0yTSBzZXJ2aWNlIGxheWVyIHRvIHRoZSBpbmRpdmlkdWFsIG1hbmFnZW1lbnQgdGVjaG5vbG9naWVzLiBUaGUgTWNhIHJlZmVyZW5jZSBwb2ludCwgbXMgaW50ZXJmYWNlIGFuZCBsYSBpbnRlcmZhY2UgYXJlIHBvc3NpYmx5IGludm9sdmVkIGluIHRoaXMgcHJvdG9jb2wgdHJhbnNsYXRpb24uDQpOb3RlOiBzaW5jZSB0aGUgbXMgaW50ZXJmYWNlIGFuZCBsYSBpbnRlcmZhY2UgaGF2ZSBub3QgYmVlbiBzcGVjaWZpZWQsIHRoaXMgY2FuIGltcGFjdCB0aGUgd29yayBvZiB0aGUgcHJvdG9jb2wgdHJhbnNsYXRpb24uDQrigKJQb3RlbnRpYWwgcmVzb3VyY2UgZGVmaW5pdGlvbnMgZm9yIHRoZSBpbmRpdmlkdWFsIG1hbmFnZW1lbnQgdGVjaG5vbG9naWVzIHRvIGZ1bGZpbCB0aGUgb25lTTJNIG1hbmFnZW1lbnQgcmVxdWlyZW1lbnRzLg0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Specify oneM2M Protocols & APIs for management specific to individual
+    management technologies (e.g., OMA DM, BBF TR-069, LWM2M).\r\nThe specification(s)
+    will cover:\r\n Per individual management technology, specifying the usage of
+    the management related resources and the message flows including normal cases
+    as well as error cases to fulfil the management related requirements defined in
+    requirements TS over the Mca, Mcc and Mcn reference point.\r\n- Mapping of oneM2M
+    management related resources to the resources from individual management technologies
+    (e.g., OMA DM, BBF TR-069, LWM2M resources).\r\n- Protocol translation from oneM2M
+    service layer to the individual management technologies. The Mca reference point,
+    ms interface and la interface are possibly involved in this protocol translation.\r\nNote:
+    since the ms interface and la interface have not been specified, this can impact
+    the work of the protocol translation.\r\nPotential resource definitions for the
+    individual management technologies to fulfil the oneM2M management requirements.\r\n"
+status:
+  stage: Published
 keyword:
-- content: IoT
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: oneM2M
+    content: Technical Specification

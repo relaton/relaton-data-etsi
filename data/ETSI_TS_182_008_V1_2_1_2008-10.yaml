@@ -1,69 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182008V1.2.12008-10
+id: ETSITS182008V121200810
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); Presence Service; Architecture and functional description
     [Endorsement of 3GPP TS 23.508 Release 7 and OMA-AD-Presence_SIMPLE-V1_0]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28403
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182008/01.02.01_60/ts_182008v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 008 V1.2.1 (2008-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28403
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182008/01.02.01_60/ts_182008v010201p.pdf
+docidentifier:
+- content: ETSI TS 182 008 V1.2.1 (2008-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 008 V1.2.1 (2008-10)
 date:
 - type: published
-  value: 2008-10
+  at: 2008-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2008-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: As part of the transfer of common IMS material to 3GPP, replace contents
+- language: en
+  script: Latn
+  content: As part of the transfer of common IMS material to 3GPP, replace contents
     of this specification by an undated  reference to the identical 3GPP technical
     specification 24.408 release 7. There is no technical change to the specification
     as a result of this work item, although future essential changes to the 3GPP specification
     can result in technical modification.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: STAGE 2
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: STAGE 2
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: TISPAN Architecture
+    content: Technical Specification

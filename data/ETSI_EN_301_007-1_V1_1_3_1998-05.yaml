@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301007-1V1.1.31998-05
+id: ETSIEN3010071V113199805
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Operations,
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Operations,
     Maintenance and Administration Part (OMAP); Part 1: Protocol specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1386
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301000_301099/30100701/01.01.03_60/en_30100701v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 007-1 V1.1.3 (1998-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1386
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301000_301099/30100701/01.01.03_60/en_30100701v010103p.pdf
+docidentifier:
+- content: ETSI EN 301 007-1 V1.1.3 (1998-05)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 007-1 V1.1.3 (1998-05)
 date:
 - type: published
-  value: 1998-05
+  at: 1998-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: OMAP
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 1998-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the procedures of the MTP routing verification test for\r\nSS7
+- language: en
+  script: Latn
+  content: "To define the procedures of the MTP routing verification test for\r\nSS7
     networks, for use without the TMN Q3 interface.\r\nTo list OAM aspects for interconnection
     of networks. To list MTP\r\naspects not covered by DE/SPS-02033.\r\nLater enhance
     to include control by TMN.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: MRVT
-- content: OMAP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: MRVT
+  - language: en
+    script: Latn
+    content: OMAP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: OMAP
+    content: European Standard

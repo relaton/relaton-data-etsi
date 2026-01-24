@@ -1,72 +1,93 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201735V1.1.12000-09
+id: ETSIES201735V111200009
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Internet Protocol (IP) datagram tunnelling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8628
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201700_201799/201735/01.01.01_60/es_201735v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 735 V1.1.1 (2000-09)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Internet Protocol (IP) datagram tunnelling
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8628
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201700_201799/201735/01.01.01_60/es_201735v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 735 V1.1.1 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 735 V1.1.1 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To describe how to transport Internet Protocol (IP) datagrams in a Digital
+- language: en
+  script: Latn
+  content: "To describe how to transport Internet Protocol (IP) datagrams in a Digital
     Audio Broadcasting (DAB) packet mode service component, a technique furhter on
     referred to as IP tunnelling.\r\nTS also to be published while the ES is in the
     Members' Vote procedure.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DAB
-- content: DATA
-- content: DIGITAL
-- content: INTERNET
-- content: IP
-- content: PROTOCOL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PROTOCOL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

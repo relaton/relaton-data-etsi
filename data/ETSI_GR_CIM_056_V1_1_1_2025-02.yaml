@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM056V1.1.12025-02
+id: ETSIGRCIM056V111202502
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); Handling of Linked Data Event Streams
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); Handling of Linked Data Event Streams
     with NGSI-LD
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70393
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/056/01.01.01_60/gr_CIM056v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 056 V1.1.1 (2025-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=70393
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/056/01.01.01_60/gr_CIM056v010101p.pdf
+docidentifier:
+- content: ETSI GR CIM 056 V1.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 056 V1.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Linked Data Event Streams (LDES) is a data publishing approach where a
+- language: en
+  script: Latn
+  content: Linked Data Event Streams (LDES) is a data publishing approach where a
     dataset is described as an ever-growing collection of immutable objects. Its basic
     use case is to enable consumers to stay synchronized with a dataset, as well as
     to retrieve historical changes. The LDES specification is a living standard and
@@ -54,21 +63,27 @@ abstract:
     data solutions for European public administrations. This report investigates how
     LDES sources can be consumed by NGSI-LD context brokers and vice versa how NGSI-LD
     context brokers can make their context information available to LDES consumers.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: ARCHITECTURE
-- content: data interoperability
-- content: data sharing
-- content: NGSI-LD
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: data interoperability
+  - language: en
+    script: Latn
+    content: data sharing
+  - language: en
+    script: Latn
+    content: NGSI-LD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

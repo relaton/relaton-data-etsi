@@ -1,65 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300419ed.11995-11
+id: ETSIETS300419ed1199511
+schema_version: v1.4.1
 title:
-- content: Business TeleCommunications (BTC); 2 048 kbit/s digital structured leased
+- language: en
+  script: Latn
+  content: Business TeleCommunications (BTC); 2 048 kbit/s digital structured leased
     lines (D2048S); Connection characteristics
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=944
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300419/01_60/ets_300419e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 419 ed.1 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=944
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300419/01_60/ets_300419e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 419 ed.1 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 419 ed.1 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the performance requirement for the connection\r\nthrough
+- language: en
+  script: Latn
+  content: "Specification of the performance requirement for the connection\r\nthrough
     the public network, including test procedures for compliance\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: CONNECTION-ORIENTED
-- content: DIGITAL
-- content: LEASED LINE
-- content: NETWORK
-- content: ONP
-- content: TESTING
-- content: UNI
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: CONNECTION-ORIENTED
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: LEASED LINE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: ONP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: UNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: European Telecommunication Standard

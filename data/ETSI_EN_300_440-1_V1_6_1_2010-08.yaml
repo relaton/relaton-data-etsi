@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300440-1V1.6.12010-08
+id: ETSIEN3004401V161201008
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Short
     range devices; Radio equipment to be used in the 1 GHz to 40 GHz frequency range;
     Part 1: Technical characteristics and test methods'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33512
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300400_300499/30044001/01.06.01_60/en_30044001v010601p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 440-1 V1.6.1 (2010-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=33512
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300400_300499/30044001/01.06.01_60/en_30044001v010601p.pdf
+docidentifier:
+- content: ETSI EN 300 440-1 V1.6.1 (2010-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 440-1 V1.6.1 (2010-08)
 date:
 - type: published
-  value: 2010-08
+  at: 2010-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.6.1
-revdate: 2010-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    SW4gcmVzcG9uc2UgdG8gdGhlIFImVFRFLUNBIHF1ZXJ5IChkb2N1bWVudCBFUk1fMzlfNDBfMzkgPGh0dHA6Ly9kb2Nib3guZXRzaS5vcmcvZXJtL2VybS9tZWV0aW5nMzlfNDAvRVJNXzM5XzQwXzM5X0xTX1JUVEVDQV90b19FUk1fcmVfRU5fMzAwXzQ0MC0xX2RldGVjdG9yLnppcD4pLCBFTiAzMDAgNDQwLTEgd2lsbCBiZSBzbGlnaHRseSByZXZpc2VkIGluIG9yZGVyIHRvIGNsYXJpZnkgd2hpY2ggaXMgdGhlIGFwcHJvcHJpYXRlIGRldGVjdG9yIHRvIGJlIHVzZWQgZm9yIG1lYXN1cmluZyBzcHVyaW91cyBlbWlzc2lvbnMuIFRoZSBmb2xsb3dpbmcgcGFyYW1ldGVycyB3aWxsIGFsc28gYmUgbW9kaWZpZWQ6IA0Kwrdmb3IgY2FycmllciBmcmVxdWVuY2llcyBhYm92ZSAyMCBHSHosIGluIG1lYXN1cmVtZW50cyBvZiB1bndhbnRlZCBlbWlzc2lvbnMgaW4gdGhlIHNwdXJpb3VzIGRvbWFpbiBhbmQgc3B1cmlvdXMgZW1pc3Npb25zLCB0aGUgdXBwZXIgZnJlcXVlbmN5IG9mIHRoZSBtZWFzdXJlbWVudHMgd2lsbCBiZSBjb25zaXN0ZW50IHdpdGggdGhlIG1hcmtldCBhY3R1YWwgY29tbW9ubHkgYXZhaWxhYmxlIG1lYXN1cmluZyByZWNlaXZlcnMuIA0KdGhlIHVwcGVyIGxpbWl0IG9mIHRoZSBjYWxpYnJhdGlvbiBvZiB0aGUgc2hpZWxkZWQgUkYgYW5lY2hvaWMgY2hhbWJlciB3aWxsIGJlIGJyb3VnaHQgaW4gbGluZSB3aXRoIHRoZSBhYm92ZSBidWxsZXQgcG9pbnQncyB1cHBlciBmcmVxdWVuY3kgbWVhc3VyZW1lbnQuDQo=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "In response to the R&TTE-CA query (document ERM_39_40_39 <http://docbox.etsi.org/erm/erm/meeting39_40/ERM_39_40_39_LS_RTTECA_to_ERM_re_EN_300_440-1_detector.zip>),
+    EN 300 440-1 will be slightly revised in order to clarify which is the appropriate
+    detector to be used for measuring spurious emissions. The following parameters
+    will also be modified: \r\nfor carrier frequencies above 20 GHz, in measurements
+    of unwanted emissions in the spurious domain and spurious emissions, the upper
+    frequency of the measurements will be consistent with the market actual commonly
+    available measuring receivers. \r\nthe upper limit of the calibration of the shielded
+    RF anechoic chamber will be brought in line with the above bullet point's upper
+    frequency measurement.\r\n"
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103885V1.1.22023-06
+id: ETSITR103885V112202306
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Feasibility study on existing spectrum
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Feasibility study on existing spectrum
     sharing frameworks for temporary and flexible spectrum access
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68588
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103885/01.01.02_60/tr_103885v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 885 V1.1.2 (2023-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68588
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103885/01.01.02_60/tr_103885v010102p.pdf
+docidentifier:
+- content: ETSI TR 103 885 V1.1.2 (2023-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 885 V1.1.2 (2023-06)
 date:
 - type: published
-  value: 2023-06
+  at: 2023-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: RRS System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2023-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides information on use cases of vertical sectors
+- language: en
+  script: Latn
+  content: The present document provides information on use cases of vertical sectors
     with specific characteristics of spectrum usage and access, such as audio PMSE,
     e-health, wireless industrial automation, PPDR, intelligent transport system,
     car test track, and drone control and payload, and introduces various spectrum
@@ -54,22 +63,30 @@ abstract:
     CBRS, standardized technology specific protocols, e.g. Listen Before Talk, Detect
     And Avoid, and Dynamic Channel Selection, and spectrum allocation procedures,
     such as audio PMSE frameworks and National Local Licensing.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: coexistence
-- content: coordination
-- content: local
-- content: NETWORK
-- content: PRIVATE
-- content: sharing
+- taxon:
+  - language: en
+    script: Latn
+    content: coexistence
+  - language: en
+    script: Latn
+    content: coordination
+  - language: en
+    script: Latn
+    content: local
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PRIVATE
+  - language: en
+    script: Latn
+    content: sharing
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: RRS System Aspects & Cognitive functionalities
+    content: Technical Report

@@ -1,66 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300676ed.11997-03
+id: ETSIETS300676ed1199703
+schema_version: v1.4.1
 title:
-- content: Radio Equipment and Systems (RES); Radio transmitters and receivers at
+- language: en
+  script: Latn
+  content: Radio Equipment and Systems (RES); Radio transmitters and receivers at
     aeronautical stations of the aeronautical mobile service operating in the VHF
     band (118 MHz -137 MHz) using amplitude modulation and 8,33 kHz channel spacing;
     Technical characteristics and methods of measurement
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2966
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300676/01_60/ets_300676e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 676 ed.1 (1997-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2966
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300676/01_60/ets_300676e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 676 ed.1 (1997-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 676 ed.1 (1997-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio Equipment & Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "International standard for ground based radio equipment used in\r\naeronautical
+- language: en
+  script: Latn
+  content: "International standard for ground based radio equipment used in\r\naeronautical
     VHF communication systems employing double sideband\r\namplitude modulation and
     8,33 kHz channel spacing.\r\nThe civil aeronautical authorities wish to apply
     this standard\r\nin the European air space.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AERONAUTICAL
-- content: AM
-- content: DSB
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: AERONAUTICAL
+  - language: en
+    script: Latn
+    content: AM
+  - language: en
+    script: Latn
+    content: DSB
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio Equipment & Systems
+    content: European Telecommunication Standard

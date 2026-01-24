@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103403V1.1.12017-06
+id: ETSITR103403V111201706
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Mitigation techniques to avoid harmful
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Mitigation techniques to avoid harmful
     interference between equipment compliant with ES 200 674-1 and ITS operating in
     the 5 GHz frequency range; Evaluation of mitigation methods and techniques
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47903
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103403/01.01.01_60/tr_103403v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 403 V1.1.1 (2017-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47903
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103403/01.01.01_60/tr_103403v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 403 V1.1.1 (2017-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 403 V1.1.1 (2017-06)
 date:
 - type: published
-  value: 2017-06
+  at: 2017-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media and Medium related
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Report of test executions and results of tests performed with equipment
+- language: en
+  script: Latn
+  content: Report of test executions and results of tests performed with equipment
     compliant with ES 200 674-1 and equipment compliant with IEEE 802.11 operating
     in the 5 GHz frequency band.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Media and Medium related
+    content: Technical Report

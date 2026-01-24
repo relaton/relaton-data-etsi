@@ -1,70 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302340V1.1.12006-04
+id: ETSIEN302340V111200604
+schema_version: v1.4.1
 title:
-- content: Satellite Earth Stations and Systems (SES); Harmonized EN for satellite
+- language: en
+  script: Latn
+  content: Satellite Earth Stations and Systems (SES); Harmonized EN for satellite
     Earth Stations on board Vessels (ESVs) operating in the 11/12/14 GHz frequency
     bands allocated to the Fixed Satellite Service (FSS) covering essential requirements
     under article 3.2 of the R&TTE directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20593
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302300_302399/302340/01.01.01_60/en_302340v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 340 V1.1.1 (2006-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20593
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302300_302399/302340/01.01.01_60/en_302340v010101p.pdf
+docidentifier:
+- content: ETSI EN 302 340 V1.1.1 (2006-04)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 340 V1.1.1 (2006-04)
 date:
 - type: published
-  value: 2006-04
+  at: 2006-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Maritime & Railways Satellite Earth Stations on Board Vessels & Trains
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Preparation of an Harmonised Standard based on ITU Resolution 902 under
+- language: en
+  script: Latn
+  content: Preparation of an Harmonised Standard based on ITU Resolution 902 under
     the RTTE directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EARTH STATION
-- content: ESV
-- content: MARITIME
-- content: REGULATION
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: EARTH STATION
+  - language: en
+    script: Latn
+    content: ESV
+  - language: en
+    script: Latn
+    content: MARITIME
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Maritime & Railways Satellite Earth Stations on Board Vessels & Trains
+    content: European Standard

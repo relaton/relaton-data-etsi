@@ -1,78 +1,107 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102013-2V1.1.12001-11
+id: ETSITS1020132V111200111
+schema_version: v1.4.1
 title:
-- content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
+- language: en
+  script: Latn
+  content: 'Digital Enhanced Cordless Telecommunications (DECT); DECT Packet Radio
     Service (DPRS); Application Specific Access Profile (ASAP): Ethernet Interworking;
     Profile Implementation Conformance Statement (ICS); Part 2: Fixed radio Termination
     (FT)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14576
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10201302/01.01.01_60/ts_10201302v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 013-2 V1.1.1 (2001-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14576
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/10201302/01.01.01_60/ts_10201302v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 013-2 V1.1.1 (2001-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 013-2 V1.1.1 (2001-11)
 date:
 - type: published
-  value: 2001-11
+  at: 2001-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2001-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To provide Profile Implementation Conformance Statement (ICS) for interoperability
+- language: en
+  script: Latn
+  content: 'To provide Profile Implementation Conformance Statement (ICS) for interoperability
     testing of terminals complying to Digital Enhanced Cordless Telecommunications
     (DECT); Application Specific Access profile: DECT LAN standard.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DATA
-- content: DECT
-- content: ethernet
-- content: ICS
-- content: INTEROPERABILITY
-- content: LAN
-- content: NETWORK
-- content: PACKET MODE
-- content: PROFILE
-- content: RADIO
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: ethernet
+  - language: en
+    script: Latn
+    content: ICS
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PACKET MODE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Testing aspects
+    content: Technical Specification

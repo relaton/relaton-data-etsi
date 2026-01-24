@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG202417V1.1.22006-12
+id: ETSIEG202417V112200612
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); User education guidelines for mobile terminals and
+- language: en
+  script: Latn
+  content: Human Factors (HF); User education guidelines for mobile terminals and
     services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20509
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/202400_202499/202417/01.01.02_60/eg_202417v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 202 417 V1.1.2 (2006-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20509
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/202400_202499/202417/01.01.02_60/eg_202417v010102p.pdf
+docidentifier:
+- content: ETSI EG 202 417 V1.1.2 (2006-12)
   type: ETSI
   primary: true
 docnumber: ETSI EG 202 417 V1.1.2 (2006-12)
 date:
 - type: published
-  value: 2006-12
+  at: 2006-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2006-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The proposed ETSI Guide (EG) will give guidance on minimum standards for
+- language: en
+  script: Latn
+  content: The proposed ETSI Guide (EG) will give guidance on minimum standards for
     user education (paper-based and electronic; on-line and stand-alone; textual,
     visual and spoken). The EG attempts at ensuring that (a) user guides are appropriate
     for the users' level of expertise and cognitive abilities, (b) media or a media
@@ -55,22 +64,30 @@ abstract:
     An additional outcome is a common platform for user instructions documents to
     enable third-party manufacturers to develop tools for generating special variants
     of a user guide for specific requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: INTERFACE
-- content: MMI
-- content: MOBILE
-- content: SERVICE
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Guide

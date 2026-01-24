@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102570V1.1.12007-03
+id: ETSITR102570V111200703
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); New Generation DECT;
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); New Generation DECT;
     Overview and Requirements
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21380
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102570/01.01.01_60/tr_102570v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 570 V1.1.1 (2007-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=21380
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102500_102599/102570/01.01.01_60/tr_102570v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 570 V1.1.1 (2007-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 570 V1.1.1 (2007-03)
 date:
 - type: published
-  value: 2007-03
+  at: 2007-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital Enhanced Cordless Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2007-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To study and recommend interworking requirements on the DECT air interface
+- language: en
+  script: Latn
+  content: To study and recommend interworking requirements on the DECT air interface
     for the provision of DECT Packet-switched Streaming Service (DPSS); to identify
     the intended services, applications and requirements (e.g. media types, codecs,
     etc., relevant for speech, natural and synthetic audio, video, still images, bitmap
@@ -54,18 +63,18 @@ abstract:
     networks and local DECT networks; to investigate the best DECT solutions and identify
     further standardisation steps. The UMTS PSS service specifications shall be used
     as much as possible to provide bases for re-use of investment.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DECT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital Enhanced Cordless Telecommunications
+    content: Technical Report

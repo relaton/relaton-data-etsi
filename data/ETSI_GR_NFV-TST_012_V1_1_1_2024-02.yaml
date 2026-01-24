@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-TST012V1.1.12024-02
+id: ETSIGRNFVTST012V111202402
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Testing; VIM & NFVI Control and
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing; VIM & NFVI Control and
     Management Performance Evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56334
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/012/01.01.01_60/gr_NFV-TST012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-TST 012 V1.1.1 (2024-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56334
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/012/01.01.01_60/gr_NFV-TST012v010101p.pdf
+docidentifier:
+- content: ETSI GR NFV-TST 012 V1.1.1 (2024-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-TST 012 V1.1.1 (2024-02)
 date:
 - type: published
-  value: 2024-02
+  at: 2024-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document will propose general aspects and related metrics and methods
+- language: en
+  script: Latn
+  content: "The document will propose general aspects and related metrics and methods
     for VIM&NFVI performance evaluation.\r\nThe testing area considered by this work
     item is the efficiency of the operation and management of virtual resources, e.g.
     the time of virtualization container instantiation, scaling, migration.\r\nThe
     proposed performance metrics are defined according to the functional requirements
     for VIM described in IFA010.\r\nThe VNF control and management performance is
     out of scope."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: NFVI
-- content: PERFORMANCE
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: NFVI
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Testing, Implementation, and Open Source Working Group
+    content: Group Report

@@ -1,63 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSITS136421V8.0.02008-11
+id: ETSITS136421V800200811
+schema_version: v1.4.1
 title:
-- content: LTE; Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 layer
+- language: en
+  script: Latn
+  content: LTE; Evolved Universal Terrestrial Radio Access Network (E-UTRAN); X2 layer
     1 (3GPP TS 36.421 version 8.0.0 Release 8)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29239
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/136400_136499/136421/08.00.00_60/ts_136421v080000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 136 421 V8.0.0 (2008-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=29239
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/136400_136499/136421/08.00.00_60/ts_136421v080000p.pdf
+docidentifier:
+- content: ETSI TS 136 421 V8.0.0 (2008-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 136 421 V8.0.0 (2008-11)
 date:
 - type: published
-  value: 2008-11
+  at: 2008-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: lub specification, lur specification, lu specification and UTRAN
+          & O&M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.0.0
-revdate: 2008-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: RP-38
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: RP-38
+status:
+  stage: Published
 keyword:
-- content: LTE
+- taxon:
+  - language: en
+    script: Latn
+    content: LTE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: lub specification, lur specification, lu specification and UTRAN & O&M
+    content: Technical Specification

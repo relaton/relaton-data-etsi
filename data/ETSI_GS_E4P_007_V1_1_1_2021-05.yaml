@@ -1,72 +1,100 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSE4P007V1.1.12021-05
+id: ETSIGSE4P007V111202105
+schema_version: v1.4.1
 title:
-- content: 'Europe for Privacy-Preserving Pandemic Protection (E4P); Pandemic proximity
+- language: en
+  script: Latn
+  content: 'Europe for Privacy-Preserving Pandemic Protection (E4P); Pandemic proximity
     tracing systems: Interoperability Framework'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59487
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/E4P/001_099/007/01.01.01_60/gs_E4P007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS E4P 007 V1.1.1 (2021-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59487
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/E4P/001_099/007/01.01.01_60/gs_E4P007v010101p.pdf
+docidentifier:
+- content: ETSI GS E4P 007 V1.1.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI GS E4P 007 V1.1.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Europe for Privacy-Preserving Pandemic Protection
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBkb2N1bWVudCBkZWZpbmVzIGFuIGludGVyb3BlcmFiaWxpdHkgZnJhbWV3b3JrIGZvciBwYW5kZW1pYyBjb250YWN0IHRyYWNpbmcgc3lzdGVtcyB3aGljaCBhbGxvd3MgdGhlIGNlbnRyYWxpemVkIGFuZCBkZWNlbnRyYWxpemVkIG1vZGVzIG9mIG9wZXJhdGlvbiB0byBmdWxseSBpbnRlcm9wZXJhdGUuIFRoaXMgZG9jdW1lbnQgaXMgcGFydCBvZiB0aGUgZmFtaWx5IG9mIElTRyBFNFAgR1MvR1JzICBhbmQgdGh1cyBhbGlnbmVkIHdpdGggR1Mg4oCcUmVxdWlyZW1lbnRzIGZvciBQYW5kZW1pYyBDb250YWN0IFRyYWNpbmcgU3lzdGVtcyB1c2luZyBNb2JpbGUgRGV2aWNlc+KAnS4gSXQgY292ZXJzIGludGVyb3BlcmFiaWxpdHkgYmV0d2VlbiBST0JFUlQsIE5IU1gsIERQM1QsIERFU0lSRSwgUHJvbnRvQzIgYW5kIG90aGVyIGFwcGxpY2F0aW9ucy9wcm90b2NvbHMgYXMgd2VsbCBhcyB0aGUgZGlmZmVyZW50IGRldmljZSBwbGF0Zm9ybXMsIHNvbWUgb2Ygd2hpY2ggbWF5IGVtZXJnZSBhbHNvIGR1cmluZyBJU0cgRTRQIHdvcmsuICA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'This document defines an interoperability framework for pandemic contact
+    tracing systems which allows the centralized and decentralized modes of operation
+    to fully interoperate. This document is part of the family of ISG E4P GS/GRs  and
+    thus aligned with GS Requirements for Pandemic Contact Tracing Systems using Mobile
+    Devices. It covers interoperability between ROBERT, NHSX, DP3T, DESIRE, ProntoC2
+    and other applications/protocols as well as the different device platforms, some
+    of which may emerge also during ISG E4P work.  '
+status:
+  stage: Published
 keyword:
-- content: Covid
-- content: eHealth
-- content: emergency services
-- content: Identity
-- content: MOBILITY
-- content: Pandemic
-- content: privacy
-- content: SECURITY
-- content: smartphone
+- taxon:
+  - language: en
+    script: Latn
+    content: Covid
+  - language: en
+    script: Latn
+    content: eHealth
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: Identity
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: Pandemic
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: smartphone
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: Europe for Privacy-Preserving Pandemic Protection
+    content: Group Specification

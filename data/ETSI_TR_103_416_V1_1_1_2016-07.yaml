@@ -1,69 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103416V1.1.12016-07
+id: ETSITR103416V111201607
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
     Wide Band (UWB); Technical characteristics and spectrum requirements for UWB based
     vehicular access systems for operation in the 3,4 GHz to 4,8 GHz and 6 GHz to
     8,5 GHz frequency ranges
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47934
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103416/01.01.01_60/tr_103416v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 416 V1.1.1 (2016-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47934
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103416/01.01.01_60/tr_103416v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 416 V1.1.1 (2016-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 416 V1.1.1 (2016-07)
 date:
 - type: published
-  value: 2016-07
+  at: 2016-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvdmlkZXMgaW5mb3JtYXRpb24gb24gdGhlIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gYW5kIGFkZGl0aW9uYWwgbmV3IHJhZGlvIHNwZWN0cnVtIHJlcXVpcmVtZW50cyAoaW5jbHVkaW5nIG1pdGlnYXRpb24gdGVjaG5pcXVlcykgZm9yIFVXQiBlcXVpcG1lbnQgZm9yIHRoZSBvcGVyYXRpb24gaW4gdmVoaWN1bGFyIGFjY2VzcyBzeXN0ZW1zLiBUaGUgcHJlc2VudCBkb2N1bWVudCBpbmNsdWRlcyBuZWNlc3NhcnkgaW5mb3JtYXRpb24gdG8gc3VwcG9ydCB0aGUgY28tb3BlcmF0aW9uIGJldHdlZW4gRVRTSSBhbmQgdGhlIEVsZWN0cm9uaWMgQ29tbXVuaWNhdGlvbnMgQ29tbWl0dGVlIChFQ0MpIG9mIHRoZSBFdXJvcGVhbiBDb25mZXJlbmNlIG9mIFBvc3QgYW5kIFRlbGVjb21tdW5pY2F0aW9ucyBBZG1pbmlzdHJhdGlvbnMgKENFUFQpLCBpbmNsdWRpbmc6IOKAoiBEZXRhaWxlZCBtYXJrZXQgaW5mb3JtYXRpb24gKGFubmV4IEEpOyDigKIgVGVjaG5pY2FsIGluZm9ybWF0aW9uIChhbm5leCBCKTsg4oCiIFJlbGF0aW9uIHRvIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKGFubmV4IEMpOyDigKIgRXZhbHVhdGlvbiBjb21wYXRpYmlsaXR5IGlzc3VlcyAoYW5uZXggRCkuICA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'The present document provides information on the intended applications,
+    the technical parameters, the relation to the existing spectrum regulation and
+    additional new radio spectrum requirements (including mitigation techniques) for
+    UWB equipment for the operation in vehicular access systems. The present document
+    includes necessary information to support the co-operation between ETSI and the
+    Electronic Communications Committee (ECC) of the European Conference of Post and
+    Telecommunications Administrations (CEPT), including:  Detailed market information
+    (annex A);  Technical information (annex B);  Relation to existing spectrum regulation
+    (annex C);  Evaluation compatibility issues (annex D).  '
+status:
+  stage: Published
 keyword:
-- content: access control
-- content: RADIO
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: access control
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

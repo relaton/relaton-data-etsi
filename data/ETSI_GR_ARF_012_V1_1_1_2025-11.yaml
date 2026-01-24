@@ -1,65 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRARF012V1.1.12025-11
+id: ETSIGRARF012V111202511
+schema_version: v1.4.1
 title:
-- content: Augmented Reality Framework (ARF); Executive Summary of the Virtual World
+- language: en
+  script: Latn
+  content: Augmented Reality Framework (ARF); Executive Summary of the Virtual World
     Standards Landscape Report and the Virtual World Standards Recommendations Report
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73719
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/012/01.01.01_60/gr_ARF012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ARF 012 V1.1.1 (2025-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73719
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ARF/001_099/012/01.01.01_60/gr_ARF012v010101p.pdf
+docidentifier:
+- content: ETSI GR ARF 012 V1.1.1 (2025-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR ARF 012 V1.1.1 (2025-11)
 date:
 - type: published
-  value: 2025-11
+  at: 2025-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Augmented Reality Framework
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    UHJlcGFyZSBhIGNvbXByZWhlbnNpdmUgcmVwb3J0IGluY2x1ZGluZyBhIHNob3J0ICgyLTMgcGFnZSkgZXhlY3V0aXZlIHN1bW1hcnkgc3VpdGFibGUgZm9yIHB1YmxpYyBkaXNzZW1pbmF0aW9uLiBUaGUgZmluYWwgcmVwb3J0IHdpbGwgcHJvdmlkZSB0aGUgcmVzdWx0cyBvZiB0aGUgc3RhbmRhcmRzIGxhbmRzY2FwZSBhc3Nlc3NtZW50IGFuZCByZWNvbW1lbmRlZCBhY3Rpb25zIG9yIGluaXRpYXRpdmVzIHRvIGFkZHJlc3MgdGhlIENvbW1pc3Npb27igJlzIGdvYWxzIHdpdGggcmVzcGVjdCB0byB2aXJ0dWFsIHdvcmxkcw==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Prepare a comprehensive report including a short (2-3 page) executive summary
+    suitable for public dissemination. The final report will provide the results of
+    the standards landscape assessment and recommended actions or initiatives to address
+    the Commissions goals with respect to virtual worlds
+status:
+  stage: Published
 keyword:
-- content: Augmented Reality
-- content: metaverse
+- taxon:
+  - language: en
+    script: Latn
+    content: Augmented Reality
+  - language: en
+    script: Latn
+    content: metaverse
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Augmented Reality Framework
+    content: Group Report

@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300777-1ed.11997-09
+id: ETSIETS3007771ed1199709
+schema_version: v1.4.1
 title:
-- content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
+- language: en
+  script: Latn
+  content: 'Terminal Equipment (TE); End-to-end protocols for multimedia information
     retrieval services; Part 1: Coding of multimedia and hypermedia information for
     basic multimedia applications (MHEG-5)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4203
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077701/01_60/ets_30077701e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 777-1 ed.1 (1997-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4203
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/30077701/01_60/ets_30077701e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 777-1 ed.1 (1997-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 777-1 ed.1 (1997-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multimedia Terminal Application Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS will be based on ISO/IEC 13552-5 for European use, selecting\r\nfrom
+- language: en
+  script: Latn
+  content: "This ETS will be based on ISO/IEC 13552-5 for European use, selecting\r\nfrom
     MHEG-1 the necessary features to ensure interoperability of\r\nbasic multimedia
     applications across minimal resource platforms.\r\nBasic multimedia applications
     include (eg, as defined by DAVIC),\r\nTelevision distribution, near Video on Demand,
@@ -50,20 +60,24 @@ abstract:
     and is planned to go\r\nto DIS ballot in November 1995.  PT75 will generate the
     BNF and ASN.1\r\nencodings and the execution model of MHEG-5.  This will result
     in a\r\njoint ISO/ETSI specification.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: MHEG
-- content: MULTIMEDIA
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: MHEG
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Multimedia Terminal Application Architecture
+    content: European Telecommunication Standard

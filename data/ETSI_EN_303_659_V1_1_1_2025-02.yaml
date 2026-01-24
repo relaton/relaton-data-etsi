@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN303659V1.1.12025-02
+id: ETSIEN303659V111202502
+schema_version: v1.4.1
 title:
-- content: "<empty>"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57420
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/303600_303699/303659/01.01.01_60/en_303659v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 303 659 V1.1.1 (2025-02)
+- language: en
+  script: Latn
+  content: "<empty>"
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57420
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/303600_303699/303659/01.01.01_60/en_303659v010101p.pdf
+docidentifier:
+- content: ETSI EN 303 659 V1.1.1 (2025-02)
   type: ETSI
   primary: true
 docnumber: ETSI EN 303 659 V1.1.1 (2025-02)
 date:
 - type: published
-  value: 2025-02
+  at: 2025-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies technical characteristics and methods of
+- language: en
+  script: Latn
+  content: "The present document specifies technical characteristics and methods of
     measurements for SRD network access point equipment, SRD network node equipment
     and SRD terminal node equipment in data networks, to be used in the frequency
     ranges 865-868MHz and 915-919.4MHz and with power levels up to 500 mW.\r\nNOTE:
     The relationship between the present document and essential requirements of article
     3.2 of Directive 2014/53/EU is given in Annex <A>.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Harmonised standard
-- content: RADIO
-- content: SRD
+- taxon:
+  - language: en
+    script: Latn
+    content: Harmonised standard
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: European Standard

@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSII-ETS300004ed.11991-08
+id: ETSIIETS300004ed1199108
+schema_version: v1.4.1
 title:
-- content: Business Telecommunications (BT); Transmission characteristics at 2-wire
+- language: en
+  script: Latn
+  content: Business Telecommunications (BT); Transmission characteristics at 2-wire
     analogue interfaces of a digital Private Automatic Branch Exchange (PABX)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=376
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300004/01_60/iets_300004e01p.pdf
-  type: pdf
-docid:
-- id: ETSI I-ETS 300 004 ed.1 (1991-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=376
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/300004/01_60/iets_300004e01p.pdf
+docidentifier:
+- content: ETSI I-ETS 300 004 ed.1 (1991-08)
   type: ETSI
   primary: true
 docnumber: ETSI I-ETS 300 004 ed.1 (1991-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Subscriber Complex Installation
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To produce ETSs specifying the transmission properties of digital PABX\r\nsystems,
+- language: en
+  script: Latn
+  content: "To produce ETSs specifying the transmission properties of digital PABX\r\nsystems,
     to be connected to the public network, and in particular, the\r\ntransmission
     characteristics at 2-wire and 4-wire analogue interfaces\r\nand at digital interfaces\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 2-WIRE
-- content: ANALOGUE
-- content: PABX
-- content: PISN
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: 2-WIRE
+  - language: en
+    script: Latn
+    content: ANALOGUE
+  - language: en
+    script: Latn
+    content: PABX
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Interim European Telecommunication Standard
     abbreviation: I-ETS
-  editorialgroup:
-  - name: Subscriber Complex Installation
+    content: Interim European Telecommunication Standard

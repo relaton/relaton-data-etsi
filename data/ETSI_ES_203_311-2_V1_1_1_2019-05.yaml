@@ -1,69 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203311-2V1.1.12019-05
+id: ETSIES2033112V111201905
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    SW50ZWdyYXRlZCBicm9hZGJhbmQgY2FibGUgdGVsZWNvbW11bmljYXRpb24gbmV0d29ya3MgKENBQkxFKTsgRm91cnRoIGdlbmVyYXRpb24gdHJhbnNtaXNzaW9uIHN5c3RlbXMgZm9yIGludGVyYWN0aXZlIGNhYmxlIHRlbGV2aXNpb24gc2VydmljZXMgLSBJUCBjYWJsZSBtb2RlbXM7IFBhcnQgMjogUGh5c2ljYWwgbGF5ZXI7IERPQ1NJU8KuIDMuMSBbQU5TSS9TQ1RFIDIyMC0xIDIwMTZd
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54036
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203300_203399/20331102/01.01.01_60/es_20331102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 311-2 V1.1.1 (2019-05)
+- language: en
+  script: Latn
+  content: 'Integrated broadband cable telecommunication networks (CABLE); Fourth
+    generation transmission systems for interactive cable television services - IP
+    cable modems; Part 2: Physical layer; DOCSIS 3.1 [ANSI/SCTE 220-1 2016]'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54036
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203300_203399/20331102/01.01.01_60/es_20331102v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 311-2 V1.1.1 (2019-05)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 311-2 V1.1.1 (2019-05)
 date:
 - type: published
-  value: 2019-05
+  at: 2019-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Physical layer specification of DOCSIS 3.1
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Physical layer specification of DOCSIS 3.1
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DOCSIS
-- content: ENDORSEMENT
-- content: IP
-- content: IPCable
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DOCSIS
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: IPCable
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: ETSI Standard

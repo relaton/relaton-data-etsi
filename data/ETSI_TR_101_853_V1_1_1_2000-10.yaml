@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101853V1.1.12000-10
+id: ETSITR101853V111200010
+schema_version: v1.4.1
 title:
-- content: Fixed Radio Systems; Point-to-point and point-to-multipoint equipment;
+- language: en
+  script: Latn
+  content: Fixed Radio Systems; Point-to-point and point-to-multipoint equipment;
     Rules for the co-existence of point-to-point and point-to-multipoint systems using
     different access methods in the same frequency band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6347
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101853/01.01.01_60/tr_101853v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 853 V1.1.1 (2000-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6347
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/101853/01.01.01_60/tr_101853v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 853 V1.1.1 (2000-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 853 V1.1.1 (2000-10)
 date:
 - type: published
-  value: 2000-10
+  at: 2000-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2000-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Study and definition of co-existence of P-MP systems using different access
+- language: en
+  script: Latn
+  content: "Study and definition of co-existence of P-MP systems using different access
     methods and having different characteristics within the same access methods.\r\nApplication
     for frequency planning purposes including sharing with P-P systems and for exploiting
     the frequency bands efficiently. To extend the possible application of P-MP systems
     in dense access networks."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DRRS
-- content: MULTIPOINT
-- content: POINT-TO-POINT
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: MULTIPOINT
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101903V1.4.22010-12
+id: ETSITS101903V142201012
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); XML Advanced Electronic
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); XML Advanced Electronic
     Signatures (XAdES)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35243
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 903 V1.4.2 (2010-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35243
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101903/01.04.02_60/ts_101903v010402p.pdf
+docidentifier:
+- content: ETSI TS 101 903 V1.4.2 (2010-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 903 V1.4.2 (2010-12)
 date:
 - type: published
-  value: 2010-12
+  at: 2010-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.2
-revdate: 2010-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "change in the xml schema of XAdES\r\nv1.4.1:\r\n\"ArchiveTimeStampV2\"
+- language: en
+  script: Latn
+  content: "change in the xml schema of XAdES\r\nv1.4.1:\r\n\"ArchiveTimeStampV2\"
     to \"ArchiveTimeStamp\"\r\n\"UR\" to \"URI\"\r\nChange typo in clause 8.1 of ETSI
     TS\r\nAdd some text remarking these typos in version v1.4.1\r\nFinal xml schema
     modified\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: XAdES
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: XAdES
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

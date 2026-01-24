@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300231ed.21998-04
+id: ETSIETS300231ed2199804
+schema_version: v1.4.1
 title:
-- content: Television systems; Specification of the domestic video Programme Delivery
+- language: en
+  script: Latn
+  content: Television systems; Specification of the domestic video Programme Delivery
     Control system (PDC)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5558
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300231/02_60/ets_300231e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 231 ed.2 (1998-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5558
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300200_300299/300231/02_60/ets_300231e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 231 ed.2 (1998-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 231 ed.2 (1998-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of ETS 300 231 in order to cope with the new TR 101 231:\r\n
+- language: en
+  script: Latn
+  content: "Revision of ETS 300 231 in order to cope with the new TR 101 231:\r\n
     \"Register of Country and Network Identification codes for\r\nTeletext based systems\".
     This register contains the so-far allocated v\r\nalues of the Network Identification
     (NI) field of the Teletext Broadca\r\nst Service Data packet (extension data packet
@@ -49,22 +59,30 @@ abstract:
     and 8/30\r\nformat 2)\".\r\nPDC is a data broadcasting system which carries programme-related
     info\r\nfor exploitation by suitably equipped domestic video recorders (eg\r\nwhen
     transmission time is different to that published in the programme\r\nguide).\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: PDC
-- content: TELETEXT
-- content: TV
-- content: VCR
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: PDC
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VCR
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: European Telecommunication Standard

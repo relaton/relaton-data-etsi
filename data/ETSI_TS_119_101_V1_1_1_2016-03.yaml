@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITS119101V1.1.12016-03
+id: ETSITS119101V111201603
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Policy and security requirements
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Policy and security requirements
     for applications for signature creation and signature validation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39398
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/119100_119199/119101/01.01.01_60/ts_119101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 119 101 V1.1.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39398
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119100_119199/119101/01.01.01_60/ts_119101v010101p.pdf
+docidentifier:
+- content: ETSI TS 119 101 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 119 101 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This document provides policy requirements for electronic Signature Creation
+- language: en
+  script: Latn
+  content: "This document provides policy requirements for electronic Signature Creation
     and Validation (Applications). This would include procedural aspects that are
     not directly machine processable, as well as aspects which may be defined in a
     machine processable. \r\nPolicy requirements for electronic Signature Creation
@@ -55,20 +64,24 @@ abstract:
     will be produced here taking into account STF member expertise , in business application
     and technical implementation of electronic signatures, and in conformity assessment
     of electronic signatures."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

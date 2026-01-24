@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG201121V1.1.32000-02
+id: ETSIEG201121V113200002
+schema_version: v1.4.1
 title:
-- content: A guide to the application of TBR 21
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6907
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201121/01.01.03_60/eg_201121v010103p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 201 121 V1.1.3 (2000-02)
+- language: en
+  script: Latn
+  content: A guide to the application of TBR 21
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6907
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/201100_201199/201121/01.01.03_60/eg_201121v010103p.pdf
+docidentifier:
+- content: ETSI EG 201 121 V1.1.3 (2000-02)
   type: ETSI
   primary: true
 docnumber: ETSI EG 201 121 V1.1.3 (2000-02)
 date:
 - type: published
-  value: 2000-02
+  at: 2000-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conventional Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.3
-revdate: 2000-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document provides updated guidance by making available Advisory Notes
+- language: en
+  script: Latn
+  content: This document provides updated guidance by making available Advisory Notes
     provided by ATAAB to be used in the application of TBR 21 and is therefore applicable
     to Terminal Equipment within the scope of this TBR.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: PSTN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Conventional Technologies
+    content: ETSI Guide

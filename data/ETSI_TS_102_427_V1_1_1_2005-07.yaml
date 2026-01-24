@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102427V1.1.12005-07
+id: ETSITS102427V111200507
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Data Broadcasting - MPEG-2 TS streaming
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22224
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102427/01.01.01_60/ts_102427v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 427 V1.1.1 (2005-07)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Data Broadcasting - MPEG-2 TS streaming
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=22224
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102400_102499/102427/01.01.01_60/ts_102427v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 427 V1.1.1 (2005-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 427 V1.1.1 (2005-07)
 date:
 - type: published
-  value: 2005-07
+  at: 2005-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2005-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document specifies how MPEG 2 Transport Stream can be encapsulated
+- language: en
+  script: Latn
+  content: "The present document specifies how MPEG 2 Transport Stream can be encapsulated
     within a DAB sub-channel including additional error protection mechanisms.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
-- content: MPEG
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: MPEG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

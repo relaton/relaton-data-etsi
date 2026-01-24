@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101036-1V1.3.12002-08
+id: ETSITR1010361V131200208
+schema_version: v1.4.1
 title:
-- content: 'Fixed Radio Systems; Generic wordings for standards on DFRS (Digital Fixed
+- language: en
+  script: Latn
+  content: 'Fixed Radio Systems; Generic wordings for standards on DFRS (Digital Fixed
     Radio Systems) characteristics; Part 1: General aspects and point-to-point equipment
     parameters'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8170
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101000_101099/10103601/01.03.01_60/tr_10103601v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 036-1 V1.3.1 (2002-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8170
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101000_101099/10103601/01.03.01_60/tr_10103601v010301p.pdf
+docidentifier:
+- content: ETSI TR 101 036-1 V1.3.1 (2002-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 036-1 V1.3.1 (2002-08)
 date:
 - type: published
-  value: 2002-08
+  at: 2002-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Fixed Radio Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2002-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Revision of generic wording standards in order to extend the baseband
+- language: en
+  script: Latn
+  content: "Revision of generic wording standards in order to extend the baseband
     interfaces definition, e.g. 10BAseT, 25 Mbit/s ATM UNI, etc  The new text should
     clarify the relation between the interface and the radio parameters.  Moreover,
     the background text should clarify: the relevant ENs and Recs. applicable for
     any interface; the aspects of usage of ATPC and RTPC in respect with the spectrum
     mask; the relationship between Residual BER in presence of adjacent channel interference.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DFRS
-- content: DRRS
-- content: FWA
-- content: POINT-TO-POINT
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: DFRS
+  - language: en
+    script: Latn
+    content: DRRS
+  - language: en
+    script: Latn
+    content: FWA
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Fixed Radio Systems
+    content: Technical Report

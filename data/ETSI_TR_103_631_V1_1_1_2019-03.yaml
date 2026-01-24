@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103631V1.1.12019-03
+id: ETSITR103631V111201903
+schema_version: v1.4.1
 title:
-- content: Wireless Access Systems including Radio Local Area Networks (WAS/RLANs)
+- language: en
+  script: Latn
+  content: Wireless Access Systems including Radio Local Area Networks (WAS/RLANs)
     in the band 6 725 MHz to 7 125 MHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56310
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103631/01.01.01_60/tr_103631v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 631 V1.1.1 (2019-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56310
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103631/01.01.01_60/tr_103631v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 631 V1.1.1 (2019-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 631 V1.1.1 (2019-03)
 date:
 - type: published
-  value: 2019-03
+  at: 2019-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Radio Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The Technical Report will provide information on: (1) the technical parameters
+- language: en
+  script: Latn
+  content: 'The Technical Report will provide information on: (1) the technical parameters
     for Wireless access systems including radio local area networks (WAS/RLANs) capable
     of operating in the 6 725 to 7 125 MHz, (2) possible techniques for sharing with
     incumbent services and (3) the intended applications.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Broadband Radio Access Networks
+    content: Technical Report

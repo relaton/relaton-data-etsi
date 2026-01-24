@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201912V1.2.12004-08
+id: ETSIES201912V121200408
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Short Message Service (SMS) for PSTN/ISDN; Short
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Short Message Service (SMS) for PSTN/ISDN; Short
     Message Communication between a fixed network Short Message Terminal Equipment
     and a Short Message Service Centre
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19813
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201900_201999/201912/01.02.01_60/es_201912v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 912 V1.2.1 (2004-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19813
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201900_201999/201912/01.02.01_60/es_201912v010201p.pdf
+docidentifier:
+- content: ETSI ES 201 912 V1.2.1 (2004-08)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 912 V1.2.1 (2004-08)
 date:
 - type: published
-  value: 2004-08
+  at: 2004-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: AT Features
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update the description of the SMS communication between a fixed Network
+- language: en
+  script: Latn
+  content: Update the description of the SMS communication between a fixed Network
     terminal (PSTN/ISDN)  and a SMS service centre using in band signalling by including
     the corrections noted in TS 103 912
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: POINT-TO-POINT
-- content: PSTN
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: POINT-TO-POINT
+  - language: en
+    script: Latn
+    content: PSTN
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: AT Features
+    content: ETSI Standard

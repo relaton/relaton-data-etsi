@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203408V1.1.12016-12
+id: ETSIES203408V111201612
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Colour and marking of DC cable and connecting
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Colour and marking of DC cable and connecting
     devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44559
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203400_203499/203408/01.01.01_60/es_203408v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 408 V1.1.1 (2016-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44559
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203400_203499/203408/01.01.01_60/es_203408v010101p.pdf
+docidentifier:
+- content: ETSI ES 203 408 V1.1.1 (2016-12)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 408 V1.1.1 (2016-12)
 date:
 - type: published
-  value: 2016-12
+  at: 2016-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define colours and identification of cables and wires used in DC distribution
+- language: en
+  script: Latn
+  content: "To define colours and identification of cables and wires used in DC distribution
     systems and installations. To define marking of cables, wires, connectors, any
     associated equipment for DC power distribution. To consider AC conductors colours
     and marking of AC circuits to avoid any confusion and status of the art on colour
@@ -54,19 +63,21 @@ abstract:
     or ITU-T L.1200 interface, as well as -48VDC EN 300 132-2 interface. It considers
     the different number of cables including the functional earthing arrangement.\r\n\r\n-----
     Joint activity with ITU-T SG5/WP3 in Q19/5 with reference L.DC.colour  ------"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CABLE
-- content: identification
-- content: POWER
+- taxon:
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: identification
+  - language: en
+    script: Latn
+    content: POWER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Standard

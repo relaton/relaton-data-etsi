@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301141-1V2.1.12000-11
+id: ETSIEN3011411V211200011
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Narrowband Multi-service Delivery
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Narrowband Multi-service Delivery
     System (NMDS); Part 1: NMDS interface specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7880
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114101/02.01.01_60/en_30114101v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 141-1 V2.1.1 (2000-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7880
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/30114101/02.01.01_60/en_30114101v020101p.pdf
+docidentifier:
+- content: ETSI EN 301 141-1 V2.1.1 (2000-11)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 141-1 V2.1.1 (2000-11)
 date:
 - type: published
-  value: 2000-11
+  at: 2000-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Networks and Service Node Interfaces
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2000-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To clearify following items: 1)  B-channel selection, 2) usage of STATUS/ENQUIRY
+- language: en
+  script: Latn
+  content: "To clearify following items: 1)  B-channel selection, 2) usage of STATUS/ENQUIRY
     message, 3) call collision.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BASIC
-- content: ISDN
-- content: NMDS
-- content: PSTN
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: NMDS
+  - language: en
+    script: Latn
+    content: PSTN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Access Networks and Service Node Interfaces
+    content: European Standard

@@ -1,70 +1,118 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300585ed.51997-04
+id: ETSIETS300585ed5199704
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Use of Data
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Use of Data
     Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE) interface
     for Short Message Service (SMS) and Cell Broadcast Service (CBS) (GSM 07.05)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4915
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300585/05_60/ets_300585e05p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 585 ed.5 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4915
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300585/05_60/ets_300585e05p.pdf
+docidentifier:
+- content: ETSI ETS 300 585 ed.5 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 585 ed.5 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBFdXJvcGVhbiBUZWxlY29tbXVuaWNhdGlvbiBTdGFuZGFyZCAoRVRTKSBkZWZpbmVzIHRocmVlIGludGVyZmFjZQ0KcHJvdG9jb2xzIGZvciBjb250cm9sIG9mIFNNUyBmdW5jdGlvbnMgd2l0aGluIGEgR1NNIG1vYmlsZSB0ZWxlcGhvbmUNCmZyb20gYSByZW1vdGUgdGVybWluYWwgdmlhIGFuIGFzeW5jaHJvbm91cyBpbnRlcmZhY2UuDQpTZWN0aW9uIDIgZGVmaW5lcyBhIGJpbmFyeSBwcm90b2NvbCAo4oCcQmxvY2sgTW9kZeKAnSkuIFRoZSBwcm90b2NvbA0KaW5jbHVkZXMgZXJyb3IgcHJvdGVjdGlvbiBhbmQgaXMgc3VpdGFibGUgZm9yIHVzZSB3aGVyZSB0aGUgbGluayBtYXkNCm5vdCBiZSBjb21wbGV0ZWx5IHJlbGlhYmxlLiBJdCB3aWxsIGJlIG9mIHBhcnRpY3VsYXIgdXNlIHdoZXJlIGNvbnRyb2wNCm9mIHJlbW90ZSBkZXZpY2VzIGlzIHJlcXVpcmVkLiBFZmZpY2llbnQgdHJhbnNmZXIgb2YgYmluYXJ5IGVuY29kZWQNCnVzZXIgZGF0YSBpcyBwb3NzaWJsZS4NClNlY3Rpb24gMyBkZWZpbmVzIGEgY2hhcmFjdGVyLWJhc2VkIGludGVyZmFjZWQgYmFzZWQgb24g4oCcQVTigJ0gY29tbWFuZHMNCijigJxUZXh0IE1vZGXigJ0pLiBUaGlzIG1vZGUgaXMgc3VpdGFibGUgZm9yIHVuaW50ZWxsaWdlbnQgdGVybWluYWxzIG9yDQp0ZXJtaW5hbCBlbXVsYXRvcnMsIGFuZCBmb3IgYXBwbGljYXRpb24gc29mdHdhcmUgYnVpbHQgb24gY29tbWFuZA0Kc3RydWN0dXJlcyBsaWtlIHRob3NlIGRlZmluZWQgaW4gVi4yNXRlci4gU29tZSBvZiB0aGUgY29tbWFuZHMgZGVmaW5lZA0KaW4gU2VjdGlvbiAzIHdpbGwgYWxzbyBiZSB1c2VmdWwgZm9yIGltcGxlbWVudGF0aW9ucyBvZiBTZWN0aW9uIDINCmFuZC9vciBTZWN0aW9uIDQsIGZvciBleGFtcGxlIGVuYWJsaW5nIGFuIGluZGljYXRpb24gb2YgaW5jb21pbmcgU01TDQptZXNzYWdlcy4NClNlY3Rpb24gNCBkZWZpbmVzIGEgY2hhcmFjdGVyLWJhc2VkIGludGVyZmFjZSB3aXRoIGhleC1lbmNvZGVkIGJpbmFyeQ0KdHJhbnNmZXIgb2YgbWVzc2FnZSBibG9ja3MgKOKAnFBEVSBNb2Rl4oCdKS4gVGhpcyBtb2RlIGlzIHN1aXRhYmxlIGZvcg0Kc29mdHdhcmUgZHJpdmVycyBiYXNlZCBvbiBBVCBjb21tYW5kIHN0cnVjdHVyZXMgd2hpY2ggZG8gbm90DQp1bmRlcnN0YW5kIHRoZSBjb250ZW50IG9mIHRoZSBtZXNzYWdlIGJsb2NrcyBhbmQgY2FuIG9ubHkgcGFzcyB0aGVtDQpiZXR3ZWVuIHRoZSBNVCBhbmQg4oCcdXBwZXIgbGV2ZWzigJ0gc29mdHdhcmUgcmVzaWRlbnQgaW4gdGhlIFRFLg0KSW4gYWxsIHRocmVlIG1vZGVzLCB0aGUgdGVybWluYWwgaXMgY29uc2lkZXJlZCB0byBiZSBpbiBjb250cm9sIGZvcg0KU01TL0NCUyB0cmFuc2FjdGlvbnMuDQpUaGlzIHNwZWNpZmljYXRpb24gY29uc2lkZXJzIHRoZSBtb2JpbGUgdGVybWluYXRpb24gdG8gYmUgYSBzaW5nbGUNCmVudGl0eS4gT3RoZXIgR1NNIFRlY2huaWNhbCBTcGVjaWZpY2F0aW9ucyBkZXNjcmliZSB0aGUgc3BsaXQgb2YNCmZ1bmN0aW9uYWxpdHkgYmV0d2VlbiB0aGUgbW9iaWxlIGVxdWlwbWVudCBhbmQgU0lNLg0KICA=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) defines three interface\r\nprotocols
+    for control of SMS functions within a GSM mobile telephone\r\nfrom a remote terminal
+    via an asynchronous interface.\r\nSection 2 defines a binary protocol (Block Mode).
+    The protocol\r\nincludes error protection and is suitable for use where the link
+    may\r\nnot be completely reliable. It will be of particular use where control\r\nof
+    remote devices is required. Efficient transfer of binary encoded\r\nuser data
+    is possible.\r\nSection 3 defines a character-based interfaced based on AT commands\r\n(Text
+    Mode). This mode is suitable for unintelligent terminals or\r\nterminal emulators,
+    and for application software built on command\r\nstructures like those defined
+    in V.25ter. Some of the commands defined\r\nin Section 3 will also be useful for
+    implementations of Section 2\r\nand/or Section 4, for example enabling an indication
+    of incoming SMS\r\nmessages.\r\nSection 4 defines a character-based interface
+    with hex-encoded binary\r\ntransfer of message blocks (PDU Mode). This mode is
+    suitable for\r\nsoftware drivers based on AT command structures which do not\r\nunderstand
+    the content of the message blocks and can only pass them\r\nbetween the MT and
+    upper level software resident in the TE.\r\nIn all three modes, the terminal is
+    considered to be in control for\r\nSMS/CBS transactions.\r\nThis specification
+    considers the mobile termination to be a single\r\nentity. Other GSM Technical
+    Specifications describe the split of\r\nfunctionality between the mobile equipment
+    and SIM.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: BROADCAST
-- content: CBS
-- content: CELL
-- content: DCE
-- content: DTE
-- content: GSM
-- content: GSM_PHASE2
-- content: INTERFACE
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CBS
+  - language: en
+    script: Latn
+    content: CELL
+  - language: en
+    script: Latn
+    content: DCE
+  - language: en
+    script: Latn
+    content: DTE
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data Services
+    content: European Telecommunication Standard

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102371V3.3.12023-12
+id: ETSITS102371V331202312
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Digital Radio Mondiale (DRM); Transportation
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Digital Radio Mondiale (DRM); Transportation
     and Binary Encoding Specification for Service and Programme Information (SPI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69043
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102371/03.03.01_60/ts_102371v030301p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 371 V3.3.1 (2023-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69043
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/102371/03.03.01_60/ts_102371v030301p.pdf
+docidentifier:
+- content: ETSI TS 102 371 V3.3.1 (2023-12)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 371 V3.3.1 (2023-12)
 date:
 - type: published
-  value: 2023-12
+  at: 2023-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.3.1
-revdate: 2023-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Major editorial revision to improve readability and consistency of implementation.
+- language: en
+  script: Latn
+  content: Major editorial revision to improve readability and consistency of implementation.
     Some additional tag values are defined for elements and attributes added to the
     XML since 2016
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
-- content: DRM
-- content: EPG
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DRM
+  - language: en
+    script: Latn
+    content: EPG
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

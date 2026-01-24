@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102632V1.1.12008-11
+id: ETSITS102632V111200811
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Voice Applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27745
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102632/01.01.01_60/ts_102632v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 632 V1.1.1 (2008-11)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Voice Applications
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27745
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102632/01.01.01_60/ts_102632v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 632 V1.1.1 (2008-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 632 V1.1.1 (2008-11)
 date:
 - type: published
-  value: 2008-11
+  at: 2008-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2008-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document describes Voice Applications specification. The VoiceXML
+- language: en
+  script: Latn
+  content: The present document describes Voice Applications specification. The VoiceXML
     profile is explained with details about the modularization of VoiceXML 2.0, the
     dialog constructs, the user input, the system output, the control flow and scripting
     and the environment and resources. The synchronisation management mechanism is
     explained, followed by the specification of the extended interfaces. Finally,
     the transport and signalling of Voice Applications are detailed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: DAB
-- content: DIGITAL
-- content: RECEIVER
-- content: VOICE
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: VOICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

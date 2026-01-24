@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101658V1.2.12000-04
+id: ETSITS101658V121200004
+schema_version: v1.4.1
 title:
-- content: Terrestrial Trunked Radio (TETRA); Digital Advanced Wireless Service (DAWS);
+- language: en
+  script: Latn
+  content: Terrestrial Trunked Radio (TETRA); Digital Advanced Wireless Service (DAWS);
     Logical Link Control (LLC) Service Description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9288
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101658/01.02.01_60/ts_101658v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 658 V1.2.1 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9288
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101600_101699/101658/01.02.01_60/ts_101658v010201p.pdf
+docidentifier:
+- content: ETSI TS 101 658 V1.2.1 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 658 V1.2.1 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Packet Data Optimised
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To revise TS 101 658
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To revise TS 101 658
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: PDO
-- content: RADIO
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: PDO
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Packet Data Optimised
+    content: Technical Specification

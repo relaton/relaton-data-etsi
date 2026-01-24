@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRMEC041V3.1.12024-03
+id: ETSIGRMEC041V311202403
+schema_version: v1.4.1
 title:
-- content: Multi-access Edge Computing (MEC); Study on MEC Security
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63028
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/041/03.01.01_60/gr_MEC041v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR MEC 041 V3.1.1 (2024-03)
+- language: en
+  script: Latn
+  content: Multi-access Edge Computing (MEC); Study on MEC Security
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63028
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/MEC/001_099/041/03.01.01_60/gr_MEC041v030101p.pdf
+docidentifier:
+- content: ETSI GR MEC 041 V3.1.1 (2024-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR MEC 041 V3.1.1 (2024-03)
 date:
 - type: published
-  value: 2024-03
+  at: 2024-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Multi-access Edge Computing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2024-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will study security topics and paradigms that apply to MEC
+- language: en
+  script: Latn
+  content: This Work Item will study security topics and paradigms that apply to MEC
     deployments. The study will broadly cover the themes of application and platform
     security, Zero-Trust Networking, and security requirements for MEC Federations.
     It may also draw upon prior work from other standards and gather requirements
     from industry associations (e.g. 5GAA). It will identify gaps in ETSI ISG MEC
     and provide recommendations for new normative work.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Application
-- content: MEC
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: MEC
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Multi-access Edge Computing
+    content: Group Report

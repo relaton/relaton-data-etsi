@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102151V6.0.02003-02
+id: ETSITR102151V600200302
+schema_version: v1.4.1
 title:
-- content: Smart Cards; Measurement of Electromagnetic Emission of SIM Cards (Release
+- language: en
+  script: Latn
+  content: Smart Cards; Measurement of Electromagnetic Emission of SIM Cards (Release
     6)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14973
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102151/06.00.00_60/tr_102151v060000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 151 V6.0.0 (2003-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14973
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102100_102199/102151/06.00.00_60/tr_102151v060000p.pdf
+docidentifier:
+- content: ETSI TR 102 151 V6.0.0 (2003-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 151 V6.0.0 (2003-02)
 date:
 - type: published
-  value: 2003-02
+  at: 2003-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart Card Platform
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 6.0.0
-revdate: 2003-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "1) The definition of a reference board in order to perform EMC tests to
+- language: en
+  script: Latn
+  content: "1) The definition of a reference board in order to perform EMC tests to
     investigate the EMC interaction between the UICC and the ME with respect to unsynchronised
     oscillators on the UICC.\r\n2) The definition of a test card with a SIM application
     in order to establish the correlation between the reference and the final system
@@ -64,18 +73,18 @@ abstract:
     documentation of the relation between the several clock modes (internal used frequency)
     and the power consumption is to be elaborated.\r\nThe time scale estimated for
     this task is 6 - 9 months."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart Card Platform
+    content: Technical Report

@@ -1,61 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300127ed.11994-01
+id: ETSIETS300127ed1199401
+schema_version: v1.4.1
 title:
-- content: Equipment Engineering (EE); Radiated emission testing of physically large
+- language: en
+  script: Latn
+  content: Equipment Engineering (EE); Radiated emission testing of physically large
     telecommunication systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1414
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300127/01_60/ets_300127e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 127 ed.1 (1994-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1414
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300127/01_60/ets_300127e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 127 ed.1 (1994-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 127 ed.1 (1994-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify technical requirements for the radiated emission testing\r\nof
+- language: en
+  script: Latn
+  content: "To specify technical requirements for the radiated emission testing\r\nof
     physically large systems. It applies to application specific\r\nsystems which
     are equipments or systems requiring installation\r\ndocumentation specific for
     the site at which the system is to be\r\ninstalled.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: EMC
-- content: EMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: EMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Electromagnetic Compatibility
+    content: European Telecommunication Standard

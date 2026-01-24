@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300535ed.41996-09
+id: ETSIETS300535ed4199609
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Functions related
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Functions related
     to Mobile Station (MS) in idle mode (GSM 03.22)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4216
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300535/04_60/ets_300535e04p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 535 ed.4 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4216
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300535/04_60/ets_300535e04p.pdf
+docidentifier:
+- content: ETSI ETS 300 535 ed.4 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 535 ed.4 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) gives an overview of\r\nthe
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) gives an overview of\r\nthe
     tasks undertaken by a GSM mobile station (MS) when in idle mode,\r\nthat is, switched
     on but not having a dedicated channel allocated,\r\ne.g. not making or receiving
     a call. It also describes the\r\ncorresponding network functions.\r\nNOTE: The
@@ -53,22 +63,30 @@ abstract:
     and technical\r\nsolutions of those requirements. Clause 4 describes the processes
     used\r\nin idle mode. There is inevitably some overlap between these clauses.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MOBILE
-- content: MS
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MS
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

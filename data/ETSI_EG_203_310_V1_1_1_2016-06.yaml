@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIEG203310V1.1.12016-06
+id: ETSIEG203310V111201606
+schema_version: v1.4.1
 title:
-- content: CYBER; Quantum Computing Impact on security of ICT Systems; Recommendations
+- language: en
+  script: Latn
+  content: CYBER; Quantum Computing Impact on security of ICT Systems; Recommendations
     on Business Continuity and Algorithm Selection
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45962
-  type: src
-- content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203310/01.01.01_60/eg_203310v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EG 203 310 V1.1.1 (2016-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=45962
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_eg/203300_203399/203310/01.01.01_60/eg_203310v010101p.pdf
+docidentifier:
+- content: ETSI EG 203 310 V1.1.1 (2016-06)
   type: ETSI
   primary: true
 docnumber: ETSI EG 203 310 V1.1.1 (2016-06)
 date:
 - type: published
-  value: 2016-06
+  at: 2016-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The intent of the work item is to address business continuity arising from
+- language: en
+  script: Latn
+  content: The intent of the work item is to address business continuity arising from
     the concern that quantum computing is likely to invalidate the problems that lie
     at the heart of both RSA and ECC asymmetric cryptography. The current assumptions
     that underpin the security strength of RSA and ECC are that the solution to the
@@ -62,19 +71,21 @@ abstract:
     era and they are not all algorithmic but many of the necessary considerations
     apply to business continuity. For example how to re-assert CAs in a PKI? How to
     distribute new algorithms? How to distribute new keys?
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ALGORITHM
-- content: quantum cryptography
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ALGORITHM
+  - language: en
+    script: Latn
+    content: quantum cryptography
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Guide
     abbreviation: EG
-  editorialgroup:
-  - name: Cyber Security
+    content: ETSI Guide

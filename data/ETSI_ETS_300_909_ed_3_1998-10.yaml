@@ -1,62 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300909ed.31998-10
+id: ETSIETS300909ed3199810
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Channel coding
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Channel coding
     (GSM 05.03 version 5.5.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6063
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300909/03_60/ets_300909e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 909 ed.3 (1998-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6063
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300909/03_60/ets_300909e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 909 ed.3 (1998-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 909 ed.3 (1998-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\n14.4kbps Data Service\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\n14.4kbps Data Service\r\n"
+status:
+  stage: Published
 keyword:
-- content: CODING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: CODING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Radio
+    content: European Telecommunication Standard

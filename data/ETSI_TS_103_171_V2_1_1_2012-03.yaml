@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103171V2.1.12012-03
+id: ETSITS103171V211201203
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); XAdES Baseline Profile
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35234
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103171/02.01.01_60/ts_103171v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 171 V2.1.1 (2012-03)
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); XAdES Baseline Profile
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35234
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/103171/02.01.01_60/ts_103171v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 171 V2.1.1 (2012-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 171 V2.1.1 (2012-03)
 date:
 - type: published
-  value: 2012-03
+  at: 2012-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2012-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of this deliverable is a profile of ETSI TS 101 903, XML Advanced
+- language: en
+  script: Latn
+  content: "The scope of this deliverable is a profile of ETSI TS 101 903, XML Advanced
     Electronic Signatures (XAdES), addressing requirements for pan-European use of
     electronic signatures including support of the Services Directive (Directive 2006/123/EC),
     for direct exchange of signed information. This version will add the long-term
     related properties.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: PROFILE
-- content: SECURITY
-- content: XAdES
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: XAdES
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR354ed.11996-11
+id: ETSIETR354ed1199611
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system; Example protocol stacks for
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Example protocol stacks for
     interconnecting Service Centre(s) (SC) and Mobile-services Switching Centre(s)
     (MSC) (GSM 03.47 version 5.0.0)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5147
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/354/01_60/etr_354e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 354 ed.1 (1996-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5147
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/354/01_60/etr_354e01p.pdf
+docidentifier:
+- content: ETSI ETR 354 ed.1 (1996-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 354 ed.1 (1996-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "No mandatory protocol between the Service Centre (SC) and the Mobile S\r\nwitching
+- language: en
+  script: Latn
+  content: "No mandatory protocol between the Service Centre (SC) and the Mobile S\r\nwitching
     Centre (MSC) below the transfer layer is specified by GSM; th\r\nis is a matter
     of agreement between SC and PLMN operators.\r\nThis ETSI Technical Report (ETR)
     specifies three approaches to the spe\r\ncification of protocol stacks of communication
@@ -57,24 +67,36 @@ abstract:
     describ\r\ned in clause 9 of GSM 03.40.\r\nSpecifications are based upon individual
     contributions. Any judgement\r\nconcerning functionality, completeness and advantages/disadvantages
     of\r\nimplementation is intentionally omitted.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: MOBILE
-- content: MSC
-- content: PLMN
-- content: RADIO
-- content: SC
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: MSC
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Data Services
+    content: ETSI Technical Report

@@ -1,67 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-REL012V1.1.12021-11
+id: ETSIGRNFVREL012V111202111
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Reliability; Report on availability
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Reliability; Report on availability
     and reliability under failure and overload conditions in NFV-MANO
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58466
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-REL/001_099/012/01.01.01_60/gr_NFV-REL012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-REL 012 V1.1.1 (2021-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58466
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-REL/001_099/012/01.01.01_60/gr_NFV-REL012v010101p.pdf
+docidentifier:
+- content: ETSI GR NFV-REL 012 V1.1.1 (2021-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-REL 012 V1.1.1 (2021-11)
 date:
 - type: published
-  value: 2021-11
+  at: 2021-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Reliability & Availability
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIGRvY3VtZW50IHJlcG9ydHMgb24gaW1wYWN0cyBvZiBORlYtTUFOTyBmYWlsdXJlcyBhbmQgb3ZlcmxvYWQgY29uZGl0aW9ucywgaW5jbHVkaW5nIGh1bWFuIGVycm9ycywgb24gdGhlIGF2YWlsYWJpbGl0eSBhbmQgcmVsaWFiaWxpdHkgb2YgTkZWLU1BTk8uIEEgc2V0IG9mIHVzZSBjYXNlcyB3aWxsIGJlIGRlc2NyaWJlZCBhbmQgYW5hbHlzZWQgd2hpY2ggaW5jbHVkZSBpbnRlcmFjdGlvbnMgYmV0d2VlbiBORlYtTUFOTyBmdW5jdGlvbmFsIGVudGl0aWVzIHVuZGVyIHN1Y2ggY29uZGl0aW9ucyBhbmQgb3RoZXIgZnVuY3Rpb25hbCBibG9ja3MgKFZORiwgRU0sIE9TUywg4oCmKS4gIEFsc28gc2l0dWF0aW9ucyBhcmUgYW5hbHlzZWQsIHdoZXJlIGF2YWlsYWJpbGl0eSBpcyBhY2hpZXZlZCBieSBhIHN5c3RlbSBvZiBjb2xsYWJvcmF0aW5nIE5GVi1NQU5PIGZ1bmN0aW9uYWwgZW50aXRpZXMgcG9zc2libHkgcHJvdmlkZWQgYnkgZGlmZmVyZW50IHZlbmRvcnMuIEFzIGEgcmVzdWx0LCByZWNvbW1lbmRhdGlvbnMgZm9yIHRoZSByZXF1aXJlbWVudHMgb2YgYW4gYXZhaWxhYmxlIGFuZCByZWxpYWJsZSBORlYtTUFOTyBzeXN0ZW0gd2lsbCBiZSBkZXJpdmVkLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: The document reports on impacts of NFV-MANO failures and overload conditions,
+    including human errors, on the availability and reliability of NFV-MANO. A set
+    of use cases will be described and analysed which include interactions between
+    NFV-MANO functional entities under such conditions and other functional blocks
+    (VNF, EM, OSS, ).  Also situations are analysed, where availability is achieved
+    by a system of collaborating NFV-MANO functional entities possibly provided by
+    different vendors. As a result, recommendations for the requirements of an available
+    and reliable NFV-MANO system will be derived.
+status:
+  stage: Published
 keyword:
-- content: AVAILABILITY
-- content: MANO
-- content: NFV
-- content: ROBUSTNESS
+- taxon:
+  - language: en
+    script: Latn
+    content: AVAILABILITY
+  - language: en
+    script: Latn
+    content: MANO
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: ROBUSTNESS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Reliability & Availability
+    content: Group Report

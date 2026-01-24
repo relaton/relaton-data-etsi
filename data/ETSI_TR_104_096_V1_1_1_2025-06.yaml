@@ -1,71 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104096V1.1.12025-06
+id: ETSITR104096V111202506
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices; Vehicular applications
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices; Vehicular applications
     operating in 300 GHz to 400 GHz and 600 GHz to 700 GHz ranges
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72259
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104096/01.01.01_60/tr_104096v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 096 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72259
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104096/01.01.01_60/tr_104096v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 096 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 096 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The new work item will cover SRDs to be used for vehicles in the frequency
+- language: en
+  script: Latn
+  content: The new work item will cover SRDs to be used for vehicles in the frequency
     ranges 300-400 GHz and 600-700 GHz. The target application is the imaging, detection
     and ranging of objects and the environment in front of and around a vehicle during
     highway and urban driving scenarios. Using SRDs at frequencies above 300 GHz will
     allow terahertz sensing with high resolution at ranges which are typical for a
     vehicle. The work will include a detailed description of technical characteristics,
     performance requirements and test procedures.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: SRD
-- content: SRDOC
-- content: THz
+- taxon:
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: THz
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

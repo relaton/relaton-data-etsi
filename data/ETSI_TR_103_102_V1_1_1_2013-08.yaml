@@ -1,73 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103102V1.1.12013-08
+id: ETSITR103102V111201308
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc); Spectrum Requirements for Narrow band Point-to-Multipoint
     (nP2M) system operating in the 430 MHz - 470 MHz frequency range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35687
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103102/01.01.01_60/tr_103102v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 102 V1.1.1 (2013-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35687
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103100_103199/103102/01.01.01_60/tr_103102v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 102 V1.1.1 (2013-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 102 V1.1.1 (2013-08)
 date:
 - type: published
-  value: 2013-08
+  at: 2013-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The SRdoc will describe the spectrum implications to support the necessary
+- language: en
+  script: Latn
+  content: The SRdoc will describe the spectrum implications to support the necessary
     performance requirements for Narrow band Point-to-Multipoint (nP2M) system. The
     required technical information (including expected sharing and compatibility issues),
     market data and spectrum regulation (including a radio spectrum request and justification
     of it) will be described and discussed in the SRdoc. It will also be a basis for
     further development of a relevant standard for nP2M services.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: narrowband
-- content: POINT-TO-MULTIPOINT
-- content: RADIO
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: narrowband
+  - language: en
+    script: Latn
+    content: POINT-TO-MULTIPOINT
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

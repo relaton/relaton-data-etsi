@@ -1,47 +1,57 @@
 ---
-schema-version: v1.2.9
-id: ETSITBR020ed.31997-09
+id: ETSITBR020ed3199709
+schema_version: v1.4.1
 title:
-- content: European digital cellular telecommunications system (Phase 2); Attachment
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Attachment
     requirements for Global System for Mobile communications (GSM) mobile stations;
     Telephony
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5498
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tbr/001_099/020/03_60/tbr_020e03p.pdf
-  type: pdf
-docid:
-- id: ETSI TBR 020 ed.3 (1997-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5498
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tbr/001_099/020/03_60/tbr_020e03p.pdf
+docidentifier:
+- content: ETSI TBR 020 ed.3 (1997-09)
   type: ETSI
   primary: true
 docnumber: ETSI TBR 020 ed.3 (1997-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This Technical Basis for Regulation (TBR) specifies the technical\r\nrequirements
+- language: en
+  script: Latn
+  content: "This Technical Basis for Regulation (TBR) specifies the technical\r\nrequirements
     to be met by terminal equipment capable of connecting to\r\na public telecommunications
     network. These requirements apply to\r\nterminals for Phase 2 of the public land
     mobile radio service,\r\noperating in the 900 MHz band with a channel separation
@@ -74,22 +84,30 @@ abstract:
     terminals, and either approved for use with those\r\nterminals only, or may possibly
     be approved for use with a wider range\r\nof terminals, depending on the nature
     and effect of the accessory.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: MOBILE
-- content: REGULATION
-- content: TELEPHONY
-- content: TERMINAL
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Basis for Regulation
     abbreviation: TBR
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: Technical Basis for Regulation

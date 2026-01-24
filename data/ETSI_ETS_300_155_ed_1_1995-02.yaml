@@ -1,61 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300155ed.11995-02
+id: ETSIETS300155ed1199502
+schema_version: v1.4.1
 title:
-- content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
+- language: en
+  script: Latn
+  content: Integrated Services Digital Network (ISDN); Facsimile group 4 class 1 equipment
     on the ISDN; End-to-end protocol tests (Interconnection capability testing)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1934
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300155/01_60/ets_300155e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 155 ed.1 (1995-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1934
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300155/01_60/ets_300155e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 155 ed.1 (1995-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 155 ed.1 (1995-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Facsimile, Document Handling and Transfer'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specifies interconnection capability, testing (Part 1) and\r\nconformance
+- language: en
+  script: Latn
+  content: "Specifies interconnection capability, testing (Part 1) and\r\nconformance
     testing (Part 2) for facsimile Group 4, class 1 equipment\r\non the ISDN\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: FAX
-- content: GROUP 4
-- content: ISDN
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: FAX
+  - language: en
+    script: Latn
+    content: GROUP 4
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: 'Telematics: Facsimile, Document Handling and Transfer'
+    content: European Telecommunication Standard

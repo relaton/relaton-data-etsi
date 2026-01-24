@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102280V1.1.12004-03
+id: ETSITS102280V111200403
+schema_version: v1.4.1
 title:
-- content: X.509 V.3 Certificate Profile for Certificates Issued to Natural Persons
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18831
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102280/01.01.01_60/ts_102280v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 280 V1.1.1 (2004-03)
+- language: en
+  script: Latn
+  content: X.509 V.3 Certificate Profile for Certificates Issued to Natural Persons
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=18831
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102280/01.01.01_60/ts_102280v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 280 V1.1.1 (2004-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 280 V1.1.1 (2004-03)
 date:
 - type: published
-  value: 2004-03
+  at: 2004-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The normative work to be carried out has been pointed out by the voluntary
+- language: en
+  script: Latn
+  content: The normative work to be carried out has been pointed out by the voluntary
     ETSI TR 102 153. The scope of this task is to provide a set of certificate profiles,
     which will allow actual interoperability of certificates issued under the various
     European Member States' provisions for the purposes of qualified and advanced
@@ -56,20 +65,24 @@ abstract:
     to become involved in this standard's development, promotion and implementation.
     The development of this standard is to be done in close interaction with corresponding
     standardization organizations, namely IETF and ISO.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: IP
-- content: PROFILE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PROFILE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Trust Infrastructures
+    content: Technical Specification

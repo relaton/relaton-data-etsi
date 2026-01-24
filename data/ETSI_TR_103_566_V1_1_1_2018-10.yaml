@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103566V1.1.12018-10
+id: ETSITR103566V111201810
+schema_version: v1.4.1
 title:
-- content: Evaluation status on receiver requirement on Signal interferer handling
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52898
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103566/01.01.01_60/tr_103566v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 566 V1.1.1 (2018-10)
+- language: en
+  script: Latn
+  content: Evaluation status on receiver requirement on Signal interferer handling
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52898
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103500_103599/103566/01.01.01_60/tr_103566v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 566 V1.1.1 (2018-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 566 V1.1.1 (2018-10)
 date:
 - type: published
-  value: 2018-10
+  at: 2018-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VFIgd2lsbCBjb3ZlcjoNCuKAoglEZWZpbml0aW9uIG9mIG1pbiBuZWNlc3NhcnkgcmVxdWlyZW1lbnRzIChlLmcuIHBlcmZvcm1hbmNlIGNyaXRlcmlhLCBpbnRlcmZlcmluZyBwb3dlciwgZnJlcXVlbmN5IHJhbmdlLCDigKYpDQrigKIJU3VtbWFyaXphdGlvbiBvZiBuZXcvYWRkaXRpb25hbCBzeXN0ZW1zIC8gZXF1aXBtZW50IHdoaWNoIGNvdWxkIHVzZSB0aGUgbmV3IGNvbmNlcHQNCuKAoglFdmFsdWF0aW9uIGN1cnJlbnQgUlggdGVzdCBpbXBsZW1lbnRlZCBpbiBIRU4gd2hpY2ggY291bGQgZmFsbCB1bmRlciB0aGlzIG5ldyBjb25jZXB0DQrigKIJUmVsYXRpb24gYmV0d2VlbiB0cmFkaXRpb25hbCBSWC1wYXJhbWV0ZXJzIGFuZCBuZXcgY29uY2VwdA0K
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "TR will cover:\r\n\tDefinition of min necessary requirements (e.g. performance
+    criteria, interfering power, frequency range, )\r\n\tSummarization of new/additional
+    systems / equipment which could use the new concept\r\n\tEvaluation current RX
+    test implemented in HEN which could fall under this new concept\r\n\tRelation
+    between traditional RX-parameters and new concept\r\n"
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: RECEIVER
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RECEIVER
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

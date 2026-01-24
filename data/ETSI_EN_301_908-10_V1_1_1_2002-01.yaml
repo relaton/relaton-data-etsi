@@ -1,54 +1,63 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301908-10V1.1.12002-01
+id: ETSIEN30190810V111200201
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Base Stations
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Base Stations
     (BS) and User Equipment (UE) for IMT-2000 Third-Generation cellular networks;
     Part 10: Harmonized EN for IMT-2000 FDMA/TDMA (DECT) covering essential requirements
     of article 3.2 of the R&TTE Directive'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10294
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301900_301999/30190810/01.01.01_60/en_30190810v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 908-10 V1.1.1 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10294
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301900_301999/30190810/01.01.01_60/en_30190810v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 908-10 V1.1.1 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 908-10 V1.1.1 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT Non Testing Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To develop a candidate harmonised EN under Article 3 (2) of the R&TTE
+- language: en
+  script: Latn
+  content: "To develop a candidate harmonised EN under Article 3 (2) of the R&TTE
     Directive, for base stations and user equipment covering the member IMT-FT (DECT)
     of the IMT-2000 family defined by ITU-R Recommendation M.1457 and operating in
     the frequency bands defined by ERC Decision (99) 25.\r\nThe document shall be
@@ -57,24 +66,36 @@ abstract:
     part 1 to 9 are developed by TB ERM. All ten parts are intended to be sent on
     the same PE.\r\n\r\nSupporting ETSI member Organisations; Siemens, Ericsson, Ascom,
     Telekom Austria, Alcatel."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3G
-- content: DECT
-- content: DIGITAL
-- content: GENERIC
-- content: IMT-2000
-- content: RADIO
-- content: REGULATION
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: 3G
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: GENERIC
+  - language: en
+    script: Latn
+    content: IMT-2000
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: REGULATION
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: DECT Non Testing Aspects
+    content: European Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI012V1.1.12022-03
+id: ETSIGRENI012V111202203
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Reactive In-situ Flow Information
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Reactive In-situ Flow Information
     Telemetry
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59544
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/012/01.01.01_60/gr_ENI012v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 012 V1.1.1 (2022-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59544
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/012/01.01.01_60/gr_ENI012v010101p.pdf
+docidentifier:
+- content: ETSI GR ENI 012 V1.1.1 (2022-03)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 012 V1.1.1 (2022-03)
 date:
 - type: published
-  value: 2022-03
+  at: 2022-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2022-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document will describe the motivation, requirements, and challenges
+- language: en
+  script: Latn
+  content: "The present document will describe the motivation, requirements, and challenges
     of using flow-oriented on-path telemetry techniques which provides relevant measurement
     or event reports to the AI-enabled network entities.\r\nThe present document will
     outline a reference framework, named as \"In-situ Flow Information Telemetry (IFIT)\"
@@ -54,19 +63,21 @@ abstract:
     telemetry; IFIT-based reactive telemetry framework; and technical requirements,
     including intelligent flow and packet selection, intelligent data export, dynamic
     network probe, on-demand underlying technique selection.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: NETWORK
-- content: TELEMETRY
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: TELEMETRY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

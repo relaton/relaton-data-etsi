@@ -1,71 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103365V1.1.12016-02
+id: ETSITR103365V111201602
+schema_version: v1.4.1
 title:
-- content: Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Time
+- language: en
+  script: Latn
+  content: Short Range Devices (SRD) using Ultra Wide Band technology (UWB); Time
     Domain Based Peak Power Measurement for UWB Devices
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46682
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103365/01.01.01_60/tr_103365v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 365 V1.1.1 (2016-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46682
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103365/01.01.01_60/tr_103365v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 365 V1.1.1 (2016-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 365 V1.1.1 (2016-02)
 date:
 - type: published
-  value: 2016-02
+  at: 2016-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Ultra Wide Band
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Based on TS-102883 the targeted TR shall describe a time domain based
+- language: en
+  script: Latn
+  content: "Based on TS-102883 the targeted TR shall describe a time domain based
     procedure for the Peak Power measurement. It shall be applicable to all UWB signals
     types and shall be an improvement to the shortcomings of the current measurement
     procedure (accurate results, no overestimation due to worst-case correction factors).\r\nThe
     developed measurement procedure in the time domain should lead to measurement
     results which are equivalent to the results obtained in the frequency domain measurements.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Power Measurement
-- content: RADIO
-- content: SRD
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: Power Measurement
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Ultra Wide Band
+    content: Technical Report

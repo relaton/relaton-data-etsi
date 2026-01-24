@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101966V1.1.12002-05
+id: ETSITS101966V111200205
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Sub-set of ETS 300 400 series requirements for
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Sub-set of ETS 300 400 series requirements for
     ISDN testing
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13981
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101966/01.01.01_60/ts_101966v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 966 V1.1.1 (2002-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13981
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/101966/01.01.01_60/ts_101966v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 966 V1.1.1 (2002-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 966 V1.1.1 (2002-05)
 date:
 - type: published
-  value: 2002-05
+  at: 2002-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document will identify a sub-set of the ETS-300 402 and ETS 300 403
+- language: en
+  script: Latn
+  content: This document will identify a sub-set of the ETS-300 402 and ETS 300 403
     requirements based upon the framework of TBR 3 and 4. these can be used during
     ISDN testing to demonstarte equivalence with the TBR essential requirements.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ISDN
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Digital
+    content: Technical Specification

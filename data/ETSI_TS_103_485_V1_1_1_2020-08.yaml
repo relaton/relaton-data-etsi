@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103485V1.1.12020-08
+id: ETSITS103485V111202008
+schema_version: v1.4.1
 title:
-- content: CYBER; Mechanisms for privacy assurance and verification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47652
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103485/01.01.01_60/ts_103485v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 485 V1.1.1 (2020-08)
+- language: en
+  script: Latn
+  content: CYBER; Mechanisms for privacy assurance and verification
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47652
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103485/01.01.01_60/ts_103485v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 485 V1.1.1 (2020-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 485 V1.1.1 (2020-08)
 date:
 - type: published
-  value: 2020-08
+  at: 2020-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To provide technical means, building on ongoing work in TC CYBER, that
+- language: en
+  script: Latn
+  content: 'To provide technical means, building on ongoing work in TC CYBER, that
     enable assurance of privacy and verification of said assurance. The document shall
     address Identity Management with respect to privacy, naming structures with respect
     to PII and objects that may be associated as proxies to entities requiring PII
     protection, protocols and policy mechanisms to give assurance and the verification
     of assurance for PII '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: assurance
-- content: CONFIDENTIALITY
-- content: identification
-- content: privacy
+- taxon:
+  - language: en
+    script: Latn
+    content: assurance
+  - language: en
+    script: Latn
+    content: CONFIDENTIALITY
+  - language: en
+    script: Latn
+    content: identification
+  - language: en
+    script: Latn
+    content: privacy
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

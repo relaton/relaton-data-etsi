@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103791V1.1.12025-06
+id: ETSITR103791V111202506
+schema_version: v1.4.1
 title:
-- content: Rail Telecommunications (RT); Future Railway Mobile Communication System
+- language: en
+  script: Latn
+  content: Rail Telecommunications (RT); Future Railway Mobile Communication System
     (FRMCS); Terminology for FRMCS specifications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62472
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103791/01.01.01_60/tr_103791v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 791 V1.1.1 (2025-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62472
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103791/01.01.01_60/tr_103791v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 791 V1.1.1 (2025-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 791 V1.1.1 (2025-06)
 date:
 - type: published
-  value: 2025-06
+  at: 2025-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Railway telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2025-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To identify technical terms used within the FRMCS system.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: To identify technical terms used within the FRMCS system.
+status:
+  stage: Published
 keyword:
-- content: FRMCS
-- content: railways
+- taxon:
+  - language: en
+    script: Latn
+    content: FRMCS
+  - language: en
+    script: Latn
+    content: railways
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Railway telecommunications
+    content: Technical Report

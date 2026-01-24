@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300827V1.1.11998-03
+id: ETSIEN300827V111199803
+schema_version: v1.4.1
 title:
-- content: Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
+- language: en
+  script: Latn
+  content: Electromagnetic compatibility and Radio spectrum Matters (ERM); ElectroMagnetic
     Compatibility (EMC) standard for Terrestrial Trunked Radio (TETRA) and ancillary
     equipment
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2263
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300800_300899/300827/01.01.01_60/en_300827v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 827 V1.1.1 (1998-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2263
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300800_300899/300827/01.01.01_60/en_300827v010101p.pdf
+docidentifier:
+- content: ETSI EN 300 827 V1.1.1 (1998-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 827 V1.1.1 (1998-03)
 date:
 - type: published
-  value: 1998-03
+  at: 1998-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Electromagnetic Compatibility
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "EMC standards covering TETRA\r\n This is intended to become a Harmonised
+- language: en
+  script: Latn
+  content: "EMC standards covering TETRA\r\n This is intended to become a Harmonised
     Standard, the reference of whi\r\nch is intended to be published in the Official
     Journal of the European\r\nCommunities referencing the EMC Directive\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: EMC
-- content: RADIO
-- content: TESTING
-- content: TETRA
+- taxon:
+  - language: en
+    script: Latn
+    content: EMC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TETRA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Electromagnetic Compatibility
+    content: European Standard

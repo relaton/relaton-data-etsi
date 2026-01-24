@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102690V2.1.12013-10
+id: ETSITS102690V211201310
+schema_version: v1.4.1
 title:
-- content: Machine-to-Machine communications (M2M); Functional architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38271
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102690/02.01.01_60/ts_102690v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 690 V2.1.1 (2013-10)
+- language: en
+  script: Latn
+  content: Machine-to-Machine communications (M2M); Functional architecture
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38271
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102600_102699/102690/02.01.01_60/ts_102690v020101p.pdf
+docidentifier:
+- content: ETSI TS 102 690 V2.1.1 (2013-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 690 V2.1.1 (2013-10)
 date:
 - type: published
-  value: 2013-10
+  at: 2013-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2013-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This stage 2 working item will describe the M2M functional architecture
+- language: en
+  script: Latn
+  content: This stage 2 working item will describe the M2M functional architecture
     to deliver M2M services to applications. It will describe the functional elements
     and provide normative references to standards already addressed in other ETSI
     TB or other organizations such as 3GPP or IETF. It will be based on a companion
@@ -54,19 +63,21 @@ abstract:
     liaison with other organizations to influence their work in accordance to the
     defined architecture or trigger stage 3 work in ETSI M2M. Smart Metering will
     be covered by this architecture.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: FUNCTIONAL
-- content: M2M
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: M2M
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Specification

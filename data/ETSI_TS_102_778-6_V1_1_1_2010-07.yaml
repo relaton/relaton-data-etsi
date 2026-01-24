@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102778-6V1.1.12010-07
+id: ETSITS1027786V111201007
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); PDF Advanced Electronic
     Signature Profiles; Part 6: Visual Representations of Electronic Signatures'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31986
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10277806/01.01.01_60/ts_10277806v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 778-6 V1.1.1 (2010-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31986
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10277806/01.01.01_60/ts_10277806v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 778-6 V1.1.1 (2010-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 778-6 V1.1.1 (2010-07)
 date:
 - type: published
-  value: 2010-07
+  at: 2010-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The document specifies requirements and recommendations for the visual
+- language: en
+  script: Latn
+  content: "The document specifies requirements and recommendations for the visual
     representations of electronic signatures in PDFs.   \r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: PAdES
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: PAdES
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

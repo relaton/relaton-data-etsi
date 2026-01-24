@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101115V8.2.02000-04
+id: ETSITR101115V820200004
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Background
     for Radio Frequency (RF) requirements (GSM 05.50 version 8.2.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9213
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101115/08.02.00_60/tr_101115v080200p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 115 V8.2.0 (2000-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9213
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101115/08.02.00_60/tr_101115v080200p.pdf
+docidentifier:
+- content: ETSI TR 101 115 V8.2.0 (2000-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 115 V8.2.0 (2000-04)
 date:
 - type: published
-  value: 2000-04
+  at: 2000-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 8.2.0
-revdate: 2000-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Upgrade to R99, CR SMG#31 - also \r\n05.50; s31b; CR: A022; R99; 8.1.0;
+- language: en
+  script: Latn
+  content: "Upgrade to R99, CR SMG#31 - also \r\n05.50; s31b; CR: A022; R99; 8.1.0;
     8.2.0; BTS Synchronisation, Location Accuracy and LMU update rates\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Radio
+    content: Technical Report

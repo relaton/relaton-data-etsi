@@ -1,74 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300674-1V1.2.12004-08
+id: ETSIEN3006741V121200408
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); Road Transport
     and Traffic Telematics (RTTT); Dedicated Short Range Communication (DSRC) transmission
     equipment (500 kbit/s / 250 kbit/s) operating in the 5,8 GHz Industrial, Scientific
     and Medical (ISM) band; Part 1: General characteristics and test methods for Road
     Side Units (RSU) and On-Board Units (OBU)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15893
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300600_300699/30067401/01.02.01_60/en_30067401v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 674-1 V1.2.1 (2004-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15893
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300600_300699/30067401/01.02.01_60/en_30067401v010201p.pdf
+docidentifier:
+- content: ETSI EN 300 674-1 V1.2.1 (2004-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 674-1 V1.2.1 (2004-08)
 date:
 - type: published
-  value: 2004-08
+  at: 2004-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Road Transport & Telematics (Joint with CEN TC 278)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2004-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Part 1 of the standard should specify the radio requirements for Road Side
+- language: en
+  script: Latn
+  content: Part 1 of the standard should specify the radio requirements for Road Side
     Units and On-Board Units for road telematics and include the testing methodology
     and test cases. The standard should be a product standard and not discuss specific
     systems or applications. However, the set of parameters and their values should
     be sufficient to achieve specific systems performance.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: DSRC
-- content: RADIO
-- content: RTTT
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DSRC
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RTTT
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: ERM Road Transport & Telematics (Joint with CEN TC 278)
+    content: European Standard

@@ -1,70 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN300356-32V3.0.42000-09
+id: ETSIEN30035632V304200009
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; ISDN
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; ISDN
     User Part (ISUP) version 3 for the international interface; Part 32: Test Suite
     Structure and Test Purposes (TSS&TP) specification for basic services'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4592
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035632/03.00.04_60/en_30035632v030004p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 300 356-32 V3.0.4 (2000-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4592
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/300300_300399/30035632/03.00.04_60/en_30035632v030004p.pdf
+docidentifier:
+- content: ETSI EN 300 356-32 V3.0.4 (2000-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 300 356-32 V3.0.4 (2000-09)
 date:
 - type: published
-  value: 2000-09
+  at: 2000-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Signalling
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.4
-revdate: 2000-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Definition of ISUP version 2 tests in order to support\r\ninteroperability
+- language: en
+  script: Latn
+  content: "Definition of ISUP version 2 tests in order to support\r\ninteroperability
     & validation for nodes having implemented\r\nbasic services.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: ISDN
-- content: ISUP
-- content: SS7
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: ISUP
+  - language: en
+    script: Latn
+    content: SS7
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Signalling
+    content: European Standard

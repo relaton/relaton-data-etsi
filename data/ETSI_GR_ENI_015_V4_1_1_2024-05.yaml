@@ -1,68 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI015V4.1.12024-05
+id: ETSIGRENI015V411202405
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); Processing and Management of
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); Processing and Management of
     Intent Policy
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62586
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/015/04.01.01_60/gr_ENI015v040101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 015 V4.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62586
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/015/04.01.01_60/gr_ENI015v040101p.pdf
+docidentifier:
+- content: ETSI GR ENI 015 V4.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 015 V4.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This NWI will study: \r\n1. Enhanced procedures for processing Intent
+- language: en
+  script: Latn
+  content: "This NWI will study: \r\n1. Enhanced procedures for processing Intent
     Policy. \r\n2. Knowledge management for Intent Policy, including: how to use a
     Knowledge Graph to manage intent policies; how to use a Knowledge Graph for managing
     intent policy knowledge; procedures for lifecycle management of intent knowledge.\r\n3.
     Typical use cases and requirements which can reduce the management complexity."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

@@ -1,69 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300641ed.21997-08
+id: ETSIETS300641ed2199708
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2) (GSM); Specification
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Specification
     of the 3 Volt Subscriber Identity Module - Mobile Equipment (SIM - ME) interface
     (GSM 11.12 version 4.2.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5478
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300641/02_60/ets_300641e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 641 ed.2 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5478
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/300641/02_60/ets_300641e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 641 ed.2 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 641 ed.2 (1997-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IC Card Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) defines the aspects of\r\nthe
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) defines the aspects of\r\nthe
     Subscriber Identity Module - Mobile Equipment (SIM - ME) interface\r\nwhich are
     based on 3V technology to be used in the Mobile Station (MS\r\n). It specifies
     the electrical and logical requirements necessary for\r\nthe operation of the
     3V SIM - ME interface where it differs from GSM 1\r\n1.11 (ETS 300 608) [1]. For
     all aspects of the SIM - ME interface whic\r\nh are not covered by this ETS, GSM
     11.11 (ETS 300 608) [1] applies.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SIM
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SIM
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: IC Card Aspects
+    content: European Telecommunication Standard

@@ -1,60 +1,70 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR258ed.11996-03
+id: ETSIETR258ed1199603
+schema_version: v1.4.1
 title:
-- content: Intelligent Network (IN); Intelligent Network Capability Set 2 (CS2); Scoping
+- language: en
+  script: Latn
+  content: Intelligent Network (IN); Intelligent Network Capability Set 2 (CS2); Scoping
     of Intelligent Network Application Protocol (INAP)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3534
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/258/01_60/etr_258e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 258 ed.1 (1996-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3534
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/258/01_60/etr_258e01p.pdf
+docidentifier:
+- content: ETSI ETR 258 ed.1 (1996-03)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 258 ed.1 (1996-03)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To identify the exact scope of IN Capability Set 2, especially in\r\nrelation
+- language: en
+  script: Latn
+  content: "To identify the exact scope of IN Capability Set 2, especially in\r\nrelation
     to ongoing standardization work in ITU-T, and identification\r\nof milestones
     for the development of ETS DE/SPS-03038-1.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS2
-- content: IN
+- taxon:
+  - language: en
+    script: Latn
+    content: CS2
+  - language: en
+    script: Latn
+    content: IN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: IN protocols
+    content: ETSI Technical Report

@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103716V1.1.12021-04
+id: ETSITR103716V111202104
+schema_version: v1.4.1
 title:
-- content: SmartM2M; oneM2M Discovery and Query solution(s) simulation and performance
+- language: en
+  script: Latn
+  content: SmartM2M; oneM2M Discovery and Query solution(s) simulation and performance
     evaluation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58448
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103716/01.01.01_60/tr_103716v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 716 V1.1.1 (2021-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58448
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103716/01.01.01_60/tr_103716v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 716 V1.1.1 (2021-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 716 V1.1.1 (2021-04)
 date:
 - type: published
-  value: 2021-04
+  at: 2021-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Smart M2M
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work will develop a simulation with the goal to provide a proof of
+- language: en
+  script: Latn
+  content: This work will develop a simulation with the goal to provide a proof of
     concept and a performance evaluation to support the selection and development
     of the discovery and query solution to be contributed to oneM2M. An extract of
     the simulation results will be used to support the discussion and the proposal
     with oneM2M.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTEROPERABILITY
-- content: IoT
-- content: oneM2M
-- content: SAREF
-- content: Semantic
-- content: Simulation
+- taxon:
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: oneM2M
+  - language: en
+    script: Latn
+    content: SAREF
+  - language: en
+    script: Latn
+    content: Semantic
+  - language: en
+    script: Latn
+    content: Simulation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Smart M2M
+    content: Technical Report

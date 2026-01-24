@@ -1,69 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103311-3V1.1.12017-02
+id: ETSITS1033113V111201702
+schema_version: v1.4.1
 title:
-- content: !binary |-
-    SW50ZWdyYXRlZCBicm9hZGJhbmQgY2FibGUgdGVsZWNvbW11bmljYXRpb24gbmV0d29ya3MgKENBQkxFKTsgRm91cnRoIEdlbmVyYXRpb24gVHJhbnNtaXNzaW9uIFN5c3RlbXMgZm9yIEludGVyYWN0aXZlIENhYmxlIFRlbGV2aXNpb24gU2VydmljZXMgLSBJUCBDYWJsZSBNb2RlbXM7IFBhcnQgMzogTUFDIGFuZCBVcHBlciBMYXllciBQcm90b2NvbHMgSW50ZXJmYWNlOyBET0NTSVPCriAzLjE=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43804
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103300_103399/10331103/01.01.01_60/ts_10331103v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 311-3 V1.1.1 (2017-02)
+- language: en
+  script: Latn
+  content: 'Integrated broadband cable telecommunication networks (CABLE); Fourth
+    Generation Transmission Systems for Interactive Cable Television Services - IP
+    Cable Modems; Part 3: MAC and Upper Layer Protocols Interface; DOCSIS 3.1'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=43804
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103300_103399/10331103/01.01.01_60/ts_10331103v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 311-3 V1.1.1 (2017-02)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 311-3 V1.1.1 (2017-02)
 date:
 - type: published
-  value: 2017-02
+  at: 2017-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Architecture, Interfaces, protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: DOCSIS 3.1 MAC and Upper Layer Protocols Interface Specification
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: DOCSIS 3.1 MAC and Upper Layer Protocols Interface Specification
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: CABLE
-- content: DOCSIS
-- content: IPCable
-- content: MODEM
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: DOCSIS
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Architecture, Interfaces, protocols
+    content: Technical Specification

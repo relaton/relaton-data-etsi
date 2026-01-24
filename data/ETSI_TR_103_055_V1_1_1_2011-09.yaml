@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103055V1.1.12011-09
+id: ETSITR103055V111201109
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     Reference document (SRdoc): Spectrum Requirements for Short Range Device, Metropolitan
     Mesh Machine Networks (M3N) and Smart Metering (SM) applications'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34078
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103055/01.01.01_60/tr_103055v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 055 V1.1.1 (2011-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=34078
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103055/01.01.01_60/tr_103055v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 055 V1.1.1 (2011-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 055 V1.1.1 (2011-09)
 date:
 - type: published
-  value: 2011-09
+  at: 2011-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Generic SRD's
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2011-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "System Reference document to describe expected functionalities, benefits
+- language: en
+  script: Latn
+  content: "System Reference document to describe expected functionalities, benefits
     and service & facilities (including brief Layer 1, Layer 2, Layer3) for Metropolitan
     Mesh Machine Network (M3N) and Smart Metering (SM).\r\nSpectrum Requirements and
     preliminary sharing feasibility for M3N and SM applications will also be outlined
     in the System reference document."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RFID
-- content: SRD
-- content: UHF
+- taxon:
+  - language: en
+    script: Latn
+    content: RFID
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: UHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Generic SRD's
+    content: Technical Report

@@ -1,51 +1,60 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103973V1.1.12024-10
+id: ETSITS103973V111202410
+schema_version: v1.4.1
 title:
-- content: Coded Multisource Media Format (CMMF) for Content Distribution and Delivery
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67985
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103973/01.01.01_60/ts_103973v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 973 V1.1.1 (2024-10)
+- language: en
+  script: Latn
+  content: Coded Multisource Media Format (CMMF) for Content Distribution and Delivery
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67985
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103973/01.01.01_60/ts_103973v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 973 V1.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 973 V1.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The work is referred to as Coded Multisource Media Format (CMMF).\r\nThe
+- language: en
+  script: Latn
+  content: "The work is referred to as Coded Multisource Media Format (CMMF).\r\nThe
     objective of this work is to develop a single specification that:\r\n-includes
     a reference architecture for generation and distribution of content, including
     real-time media content, that is coded in order to support delivery from multiple
@@ -60,26 +69,42 @@ abstract:
     defined in RFC6330 and Reed-Solomon in RFC 5510; and\r\n-includes deployment examples
     and guidelines for the usage of the format in different scenarios, for example
     in video-on-demand streaming with DASH or large file distribution."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: BROADCAST
-- content: CDN
-- content: Container
-- content: distribution
-- content: MULTIMEDIA
-- content: multi-path
-- content: multi-source
-- content: network coding
-- content: ROBUSTNESS
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: CDN
+  - language: en
+    script: Latn
+    content: Container
+  - language: en
+    script: Latn
+    content: distribution
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: multi-path
+  - language: en
+    script: Latn
+    content: multi-source
+  - language: en
+    script: Latn
+    content: network coding
+  - language: en
+    script: Latn
+    content: ROBUSTNESS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Specification

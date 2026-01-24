@@ -1,63 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300374-3ed.21997-12
+id: ETSIETS3003743ed2199712
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
     Core Intelligent Network Application Protocol (INAP); Part 3: Test Suite Structure
     and Test Purposes (TSS&TP) specification for Service Switching Function (SSF)
     and Specialized Resource Function (SRF)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5297
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037403/02_60/ets_30037403e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 374-3 ed.2 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5297
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037403/02_60/ets_30037403e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 374-3 ed.2 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 374-3 ed.2 (1997-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Intelligent Network
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To supply PIXIT & TTCN test suite for ETS 300 374-1 & 2.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "To supply PIXIT & TTCN test suite for ETS 300 374-1 & 2.\r\n  "
+status:
+  stage: Published
 keyword:
-- content: CS1
-- content: IN
-- content: INAP
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Intelligent Network
+    content: European Telecommunication Standard

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101830-2V1.2.12008-07
+id: ETSITR1018302V121200807
+schema_version: v1.4.1
 title:
-- content: 'Transmission and Multiplexing (TM); Access networks; Spectral management
+- language: en
+  script: Latn
+  content: 'Transmission and Multiplexing (TM); Access networks; Spectral management
     on metallic access networks; Part 2: Technical methods for performance evaluations'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27077
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101800_101899/10183002/01.02.01_60/tr_10183002v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 830-2 V1.2.1 (2008-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27077
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101800_101899/10183002/01.02.01_60/tr_10183002v010201p.pdf
+docidentifier:
+- content: ETSI TR 101 830-2 V1.2.1 (2008-07)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 830-2 V1.2.1 (2008-07)
 date:
 - type: published
-  value: 2008-07
+  at: 2008-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2008-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The present document gives guidance on a common methodology for studying
+- language: en
+  script: Latn
+  content: "The present document gives guidance on a common methodology for studying
     the impact of noise on xDSL performance (maximum reach, noise margin, maximum
     bitrate) when changing parameters within various Spectral Management scenarios.
     These methods enable reproducible results and a consistent presentation of the
@@ -59,30 +68,54 @@ abstract:
     (relevant for VDSL simulations) or branched topologies.\r\n(d) additional example
     scenarios\r\n(e) refining the generic DMT model by accounting for side-lobe pick-up\r\n(f)
     etc."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: ADSL
-- content: HDSL
-- content: ISDN
-- content: LOCAL LOOP
-- content: MODEM
-- content: NETWORK
-- content: POTS
-- content: SDSL
-- content: Spectral Management
-- content: TRANSMISSION
-- content: Unbundling
-- content: VDSL
-- content: xDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: HDSL
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: LOCAL LOOP
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: SDSL
+  - language: en
+    script: Latn
+    content: Spectral Management
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: Unbundling
+  - language: en
+    script: Latn
+    content: VDSL
+  - language: en
+    script: Latn
+    content: xDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Report

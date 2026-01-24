@@ -1,63 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300757ed.11997-04
+id: ETSIETS300757ed1199704
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
     (DSP); Low rate messaging service (service type E, class 2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3721
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300757/01_60/ets_300757e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 757 ed.1 (1997-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3721
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300757/01_60/ets_300757e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 757 ed.1 (1997-04)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 757 ed.1 (1997-04)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Data applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A standard profile for non-voice DECT equipment with roaming\r\nmobility,
+- language: en
+  script: Latn
+  content: "A standard profile for non-voice DECT equipment with roaming\r\nmobility,
     to provide a slow acknowledged or unacknowledged\r\ntransfer service for multimedia
     message objects, to be the\r\nbasis for inter-operability between DECT equipment
     in a wide\r\nrange of applications, and including specific interworking\r\nprovisions
     for GSM SMS messages.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: DECT
-- content: PROFILE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: PROFILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Data applications
+    content: European Telecommunication Standard

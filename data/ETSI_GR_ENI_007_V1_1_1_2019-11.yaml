@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRENI007V1.1.12019-11
+id: ETSIGRENI007V111201911
+schema_version: v1.4.1
 title:
-- content: Experiential Networked Intelligence (ENI); ENI Definition of Categories
+- language: en
+  script: Latn
+  content: Experiential Networked Intelligence (ENI); ENI Definition of Categories
     for AI Application to Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56393
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/007/01.01.01_60/gr_ENI007v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR ENI 007 V1.1.1 (2019-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56393
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/ENI/001_099/007/01.01.01_60/gr_ENI007v010101p.pdf
+docidentifier:
+- content: ETSI GR ENI 007 V1.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR ENI 007 V1.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Experiential Networked Intelligence
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This Work Item will address the aspects of gradual implementation of networked
+- language: en
+  script: Latn
+  content: This Work Item will address the aspects of gradual implementation of networked
     intelligence and specify a categorization framework for systems based on several
     different levels (e.g. 5, ranging from fully manual to fully autonomic systems
     as written in ENI whitepaper). This categorization framework will be based on
     the amount of network engineer intervention and attentiveness required and the
     expected interfaces with the assisted system. The details of each level will be
     defined according to scenarios supported and techniques needed.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: artificial intelligence
-- content: categorization
-- content: category
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: artificial intelligence
+  - language: en
+    script: Latn
+    content: categorization
+  - language: en
+    script: Latn
+    content: category
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Experiential Networked Intelligence
+    content: Group Report

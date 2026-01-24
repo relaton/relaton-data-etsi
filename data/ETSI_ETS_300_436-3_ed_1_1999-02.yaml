@@ -1,70 +1,96 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300436-3ed.11999-02
+id: ETSIETS3004363ed1199902
+schema_version: v1.4.1
 title:
-- content: 'Broadband Integrated Services Digital Network (B-ISDN); Signalling ATM
+- language: en
+  script: Latn
+  content: 'Broadband Integrated Services Digital Network (B-ISDN); Signalling ATM
     Adaptation Layer (SAAL); Service Specific Connection Oriented Protocol (SSCOP);
     Part 3: Test Suite Structure and Test Purposes (TSS&TP) specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4544
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30043603/01_60/ets_30043603e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 436-3 ed.1 (1999-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4544
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/30043603/01_60/ets_30043603e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 436-3 ed.1 (1999-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 436-3 ed.1 (1999-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Conformance Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Description of the test suite structure and test purposes of the SSCOP\r\nbetween
+- language: en
+  script: Latn
+  content: "Description of the test suite structure and test purposes of the SSCOP\r\nbetween
     any pair of SSCOP entities, user and network side, at the ATM\r\nUNI. The interactions
     between the SSCOP and the SSCF-UNI and between\r\nSSCOP and the AAL common part
     is described.\r\n  "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AAL
-- content: ATM
-- content: B-ISDN
-- content: DSS1
-- content: LAYER 2
-- content: NNI
-- content: SSCF
-- content: SSCOP
-- content: TSS&amp;TP
-- content: USER
+- taxon:
+  - language: en
+    script: Latn
+    content: AAL
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: B-ISDN
+  - language: en
+    script: Latn
+    content: DSS1
+  - language: en
+    script: Latn
+    content: LAYER 2
+  - language: en
+    script: Latn
+    content: NNI
+  - language: en
+    script: Latn
+    content: SSCF
+  - language: en
+    script: Latn
+    content: SSCOP
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
+  - language: en
+    script: Latn
+    content: USER
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Conformance Testing
+    content: European Telecommunication Standard

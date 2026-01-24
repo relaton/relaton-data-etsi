@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103901V1.1.12015-06
+id: ETSITS103901V111201506
+schema_version: v1.4.1
 title:
-- content: PowerLine Telecommunications (PLT); Coexistence of Narrow Band PLT technologies
+- language: en
+  script: Latn
+  content: PowerLine Telecommunications (PLT); Coexistence of Narrow Band PLT technologies
     operating in the frequency bands 3kHz to 95 kHz, 95 kHz to 125 kHz and 125 kHz
     to 140 kHz; [IEEE Std 1901.2TM - 2013, IEEE Standard for Low-Frequency (less than
     500 kHz) Narrowband Power Line Communications for Smart grid Applications, Section
     10 Coexistence]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38912
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103901/01.01.01_60/ts_103901v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 901 V1.1.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38912
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103901/01.01.01_60/ts_103901v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 901 V1.1.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 901 V1.1.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Powerline Telecommunications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Coexistence of existing Narrow Band PLT technologies operating in the
+- language: en
+  script: Latn
+  content: "Coexistence of existing Narrow Band PLT technologies operating in the
     Cenelec A, B and C bands. At least the following technologies will be considered
     are ITU G.9955 Annex A and B, ITU G.9956 Annex A and B, ETSI TS 103 908 and IEC
     61334.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ENDORSEMENT
-- content: MODEM
-- content: Powerline
-- content: Smart Grid
+- taxon:
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: MODEM
+  - language: en
+    script: Latn
+    content: Powerline
+  - language: en
+    script: Latn
+    content: Smart Grid
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Powerline Telecommunications
+    content: Technical Specification

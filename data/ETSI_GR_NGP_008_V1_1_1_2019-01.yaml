@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP008V1.1.12019-01
+id: ETSIGRNGP008V111201901
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocol (NGP) Mobile Deterministic Networking
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52933
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/008/01.01.01_60/gr_NGP008v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 008 V1.1.1 (2019-01)
+- language: en
+  script: Latn
+  content: Next Generation Protocol (NGP) Mobile Deterministic Networking
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=52933
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/008/01.01.01_60/gr_NGP008v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 008 V1.1.1 (2019-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 008 V1.1.1 (2019-01)
 date:
 - type: published
-  value: 2019-01
+  at: 2019-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item will do the gap analysis and identify the requirements of
+- language: en
+  script: Latn
+  content: This work item will do the gap analysis and identify the requirements of
     3GPP mobile network towards deterministic networking capabilities for the Ultra
     Reliable and Low Latency Communication (URLLC) applications.The target is to propose
     a holistic architecture which includes functions,interface and protocols for how
     to realize end-to-end deterministic networking across Radio Access Network, Core
     Network, Back-haul or transport, and virtual networks within data center.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MOBILE
-- content: Next Generation Protocol
-- content: Requirements
+- taxon:
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: Next Generation Protocol
+  - language: en
+    script: Latn
+    content: Requirements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES283039-4V2.1.12007-04
+id: ETSIES2830394V211200704
+schema_version: v1.4.1
 title:
-- content: 'Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: 'Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Overload Control Architecture; Part 4: Adaptative Control
     for the MGC'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24193
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/283000_283099/28303904/02.01.01_60/es_28303904v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 283 039-4 V2.1.1 (2007-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24193
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/283000_283099/28303904/02.01.01_60/es_28303904v020101p.pdf
+docidentifier:
+- content: ETSI ES 283 039-4 V2.1.1 (2007-04)
   type: ETSI
   primary: true
 docnumber: ETSI ES 283 039-4 V2.1.1 (2007-04)
 date:
 - type: published
-  value: 2007-04
+  at: 2007-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2007-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To create a new H.248 AMG to MGC overload control, etsi_nr, using rate
+- language: en
+  script: Latn
+  content: To create a new H.248 AMG to MGC overload control, etsi_nr, using rate
     based restrictions that support multiple priorities.  This control will complement
     the existing etsi_nb (ES 283 039-3) package which is targeted at the same interface.?The
     ES deliverable is expected to be a part 4 of a the multi-part deliverable ES 283
     039.????
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CONTROL
-- content: GATEWAY
-- content: MGC
+- taxon:
+  - language: en
+    script: Latn
+    content: CONTROL
+  - language: en
+    script: Latn
+    content: GATEWAY
+  - language: en
+    script: Latn
+    content: MGC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: TISPAN Protocols
+    content: ETSI Standard

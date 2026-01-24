@@ -1,76 +1,101 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203228V1.4.12022-04
+id: ETSIES203228V141202204
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Assessment of mobile network energy efficiency
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59484
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203200_203299/203228/01.04.01_60/es_203228v010401p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 228 V1.4.1 (2022-04)
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Assessment of mobile network energy efficiency
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59484
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203200_203299/203228/01.04.01_60/es_203228v010401p.pdf
+docidentifier:
+- content: ETSI ES 203 228 V1.4.1 (2022-04)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 228 V1.4.1 (2022-04)
 date:
 - type: published
-  value: 2022-04
+  at: 2022-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Eco Environmental Product Standards
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.4.1
-revdate: 2022-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This revision refers to the Network Slicing implementation brought by
+- language: en
+  script: Latn
+  content: "This revision refers to the Network Slicing implementation brought by
     3GPP Release 16, the virtual functions implemented in the new 5G Core Network,
     the inclusion of metrics for the massive type communications, and the possible
     further new additions implied by the definition of the innovative features of
     New Radio that will take place in the next months. \r\nComments received during
     the previous version Vote will be addressed."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: ACCESS
-- content: BASE STATION
-- content: Energy Efficiency
-- content: GSM
-- content: LTE
-- content: MOBILE
-- content: NETWORK
-- content: RADIO
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BASE STATION
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Eco Environmental Product Standards
+    content: ETSI Standard

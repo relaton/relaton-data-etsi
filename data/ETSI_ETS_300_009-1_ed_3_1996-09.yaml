@@ -1,68 +1,88 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300009-1ed.31996-09
+id: ETSIETS3000091ed3199609
+schema_version: v1.4.1
 title:
-- content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Signalling
+- language: en
+  script: Latn
+  content: 'Integrated Services Digital Network (ISDN); Signalling System No.7; Signalling
     Connection Control Part (SCCP) (connectionless and connection-oriented class 2)
     to support international interconnection; Part 1: Protocol specification [ITU-T
     Recommendations Q.711 to Q.714 and Q.716 (1993), modified]'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2118
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30000901/03_60/ets_30000901e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 009-1 ed.3 (1996-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2118
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300001_300099/30000901/03_60/ets_30000901e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 009-1 ed.3 (1996-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 009-1 ed.3 (1996-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Signalling Network & Mobility Applications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SCCP is defined for the use between and within public networks\r\ncovering:
+- language: en
+  script: Latn
+  content: "SCCP is defined for the use between and within public networks\r\ncovering:
     protocol classes 0, 1, 2; SCCP management procedures\r\n(complete); additional
     clarifications to Q.71x\r\naccording to the CCITT White Book Recommendations;\r\nPICS
     proforma is included.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CCS
-- content: CL
-- content: CONNECTION-ORIENTED
-- content: ENDORSEMENT
-- content: ISDN
-- content: SCCP
-- content: SS7
+- taxon:
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: CL
+  - language: en
+    script: Latn
+    content: CONNECTION-ORIENTED
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: ISDN
+  - language: en
+    script: Latn
+    content: SCCP
+  - language: en
+    script: Latn
+    content: SS7
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Signalling Network & Mobility Applications
+    content: European Telecommunication Standard

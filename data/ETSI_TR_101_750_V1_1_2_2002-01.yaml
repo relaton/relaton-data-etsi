@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101750V1.1.22002-01
+id: ETSITR101750V112200201
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     Requirements Definition Study; Studies into the Impact of lawful interception
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15478
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101750/01.01.02_60/tr_101750v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 750 V1.1.2 (2002-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15478
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101700_101799/101750/01.01.02_60/tr_101750v010102p.pdf
+docidentifier:
+- content: ETSI TR 101 750 V1.1.2 (2002-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 750 V1.1.2 (2002-01)
 date:
 - type: published
-  value: 2002-01
+  at: 2002-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TIPHON Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2002-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Liaison and studies into the impact of lawful interception on TIPHON and
+- language: en
+  script: Latn
+  content: "Liaison and studies into the impact of lawful interception on TIPHON and
     TIPHON access networks.  This shall include the following specific tasks:\r\nReview
     of IUR, CALEA and ETR 331 to assess applicability to TIPHON and report findings
     to TC-SEC-L1 in addition to EP-TIPHON;\r\nReview of TIPHON access networks to
     determine capability to support L1 requirement;\r\nAct as primary liaison with
     TC-SEC-L1 during development of packet data handover interface ensuring that it
     is suited to TIPHON.\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: IP
-- content: NETWORK
-- content: SECURITY
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TIPHON Security
+    content: Technical Report

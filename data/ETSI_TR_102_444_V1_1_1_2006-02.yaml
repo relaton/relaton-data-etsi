@@ -1,68 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102444V1.1.12006-02
+id: ETSITR102444V111200602
+schema_version: v1.4.1
 title:
-- content: Emergency Communications (EMTEL); Analysis of the Short Message Service
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Analysis of the Short Message Service
     (SMS) and Cell Broadcast Service (CBS) for Emergency Messaging applications; Emergency
     Messaging; SMS and CBS
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23383
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102444/01.01.01_60/tr_102444v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 444 V1.1.1 (2006-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=23383
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102400_102499/102444/01.01.01_60/tr_102444v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 444 V1.1.1 (2006-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 444 V1.1.1 (2006-02)
 date:
 - type: published
-  value: 2006-02
+  at: 2006-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2006-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The TR will describe the Pros and Cons for the use of SMS and Cell Broadcast
+- language: en
+  script: Latn
+  content: The TR will describe the Pros and Cons for the use of SMS and Cell Broadcast
     Service (CBS) for emergency messaging applications and will include typical performance
     expectations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CBS
-- content: EMERGENCY
-- content: SMS
+- taxon:
+  - language: en
+    script: Latn
+    content: CBS
+  - language: en
+    script: Latn
+    content: EMERGENCY
+  - language: en
+    script: Latn
+    content: SMS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Emergency Communications
+    content: Technical Report

@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101295V1.1.11998-09
+id: ETSITR101295V111199809
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); Rules for the transportation
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); Rules for the transportation
     of ASN.1 definitions using X.681, X.682 and X.683 to equivalent X.680 constructs
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5378
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101295/01.01.01_60/tr_101295v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 295 V1.1.1 (1998-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5378
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101295/01.01.01_60/tr_101295v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 295 V1.1.1 (1998-09)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 295 V1.1.1 (1998-09)
 date:
 - type: published
-  value: 1998-09
+  at: 1998-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHdvcmsgc2hvdWxkIGJlIHNwbGl0IGludG8gdHdvIHBoYXNlcy4gVGhpcyBpcyBwaGFzZSAyIGZvciBkb2N1bWVudA0KaW5nIHRoZSBpbXBhY3QgYW5kIHByb3Bvc2UgdGVjaG5pY2FsIHNvbHV0aW9ucyBvbiB0aGUgdXNlIG9mIEFTTi4xIOKAmDk0DQog
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The work should be split into two phases. This is phase 2 for document\r\ning
+    the impact and propose technical solutions on the use of ASN.1 94\r\n "
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: SDL
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

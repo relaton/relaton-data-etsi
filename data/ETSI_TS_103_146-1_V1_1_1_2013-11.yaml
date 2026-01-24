@@ -1,66 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103146-1V1.1.12013-11
+id: ETSITS1031461V111201311
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Mobile Device Information Models and
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Mobile Device Information Models and
     Protocols; Part 1:Multiradio Interface (MURI)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42392
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103100_103199/10314601/01.01.01_60/ts_10314601v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 146-1 V1.1.1 (2013-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42392
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103100_103199/10314601/01.01.01_60/ts_10314601v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 146-1 V1.1.1 (2013-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 146-1 V1.1.1 (2013-11)
 date:
 - type: published
-  value: 2013-11
+  at: 2013-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: REA - Reconfigurable Radio Equipment Architecture
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBUZWNobmljYWwgU3BlY2lmaWNhdGlvbiB3aWxsIGRlZmluZSB0aGUgTXVsdGlyYWRpbyBJbnRlcmZhY2UgKE1VUkkpIHJlY29uZmlndXJpbmcgdGhlIHJhZGlvcyBpbiBtb2JpbGUgZGV2aWNlcyAtIHRoaXMgaW50ZXJmYWNlIGhhcyBiZWVuIGlkZW50aWZpZWQsIGFtb25nIG90aGVycywgYXMgc3RhbmRhcmRpemF0aW9uIGNhbmRpZGF0ZXMgaW4gRVRTSSBUUyAxMDMgMDk1IGZvbGxvd2luZyB0aGUgUlJTIHdvcmsgZmxvdyByZWNvbW1lbmRhdGlvbiAoc3RhZ2UgNDogUHJvdG9jb2wgYW5kIEludGVyZmFjZXMgIFNwZWNpZmljYXRpb24oVFMpKS4gVGhlIHdvcmsgd2lsbCBiZSBiYXNlZCBvbiB0aGUgVXNlIENhc2VzIGRlZmluZWQgaW4gRVRTSSBUUiAxMDMgMDYyIChVc2UgQ2FzZXMgYW5kIFNjZW5hcmlvcyBmb3IgU0RSIFJlZmVyZW5jZSBBcmNoaXRlY3R1cmUgZm9yIE1vYmlsZSBEZXZpY2UpLCBFVFNJIFRSIDEwMiA4MzkgKE11bHRpcmFkaW8gSW50ZXJmYWNlIGZvciBTb2Z0d2FyZSBEZWZpbmVkIFJhZGlvIChTRFIpOyBNb2JpbGUgRGV2aWNlIEFyY2hpdGVjdHVyZSBhbmQgU2VydmljZXMpICwgRVRTSSBUUiAxMDIgOTQ0IChVc2UgQ2FzZXMgZm9yIEJhc2ViYW5kIEludGVyZmFjZXMgZm9yIFVuaWZpZWQgUmFkaW8gQXBwbGljYXRpb25zIG9mIE1vYmlsZSBEZXZpY2XigJ0pLCB0aGUgcmVxdWlyZW1lbnRzIGRlZmluZWQgaW4gRVRTSSBUUyAxMDIgOTY5IChSYWRpbyBSZWNvbmZpZ3VyYXRpb24gcmVsYXRlZCBSZXF1aXJlbWVudHMgZm9yIE1vYmlsZSBEZXZpY2VzKSBhbmQgdGhlIFJhZGlvIFJlY29uZmlndXJhdGlvbiByZWxhdGVkIEFyY2hpdGVjdHVyZSBmb3IgTW9iaWxlIERldmljZXMgZGVmaW5lZCBpbiBFVFNJIFRTIDEwMyAwOTUu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'This Technical Specification will define the Multiradio Interface (MURI)
+    reconfiguring the radios in mobile devices - this interface has been identified,
+    among others, as standardization candidates in ETSI TS 103 095 following the RRS
+    work flow recommendation (stage 4: Protocol and Interfaces  Specification(TS)).
+    The work will be based on the Use Cases defined in ETSI TR 103 062 (Use Cases
+    and Scenarios for SDR Reference Architecture for Mobile Device), ETSI TR 102 839
+    (Multiradio Interface for Software Defined Radio (SDR); Mobile Device Architecture
+    and Services) , ETSI TR 102 944 (Use Cases for Baseband Interfaces for Unified
+    Radio Applications of Mobile Device), the requirements defined in ETSI TS 102
+    969 (Radio Reconfiguration related Requirements for Mobile Devices) and the Radio
+    Reconfiguration related Architecture for Mobile Devices defined in ETSI TS 103
+    095.'
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: MOBILE
-- content: SDR
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: SDR
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: REA - Reconfigurable Radio Equipment Architecture
+    content: Technical Specification

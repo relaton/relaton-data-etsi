@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR345ed.11997-01
+id: ETSIETR345ed1199701
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Characteristics of telephone keypads and keyboards;
+- language: en
+  script: Latn
+  content: Human Factors (HF); Characteristics of telephone keypads and keyboards;
     Requirements of elderly and disabled people
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2059
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/345/01_60/etr_345e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 345 ed.1 (1997-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2059
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/345/01_60/etr_345e01p.pdf
+docidentifier:
+- content: ETSI ETR 345 ed.1 (1997-01)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 345 ed.1 (1997-01)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: People with Special Needs
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In a process where users participate in the work on three different\r\nlevels
+- language: en
+  script: Latn
+  content: "In a process where users participate in the work on three different\r\nlevels
     the requirements for key size and key spacing for\r\npeople with special needs
     will be investigated. These items are\r\nprioritised as standardisation issues
     in the report from PT16V. Also\r\nthe need has been recognised by the Danish Centre\r\nfor
@@ -48,20 +58,24 @@ abstract:
     needs. The work item will be carried out as a part\r\nof the Heart project, line
     A, workpackage A.3  Case study in user\r\nparticipation on standardisation & testing
     requirements .\"\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: KEYPAD
-- content: MMI
-- content: PWSN
-- content: TERMINAL
+- taxon:
+  - language: en
+    script: Latn
+    content: KEYPAD
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: PWSN
+  - language: en
+    script: Latn
+    content: TERMINAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: People with Special Needs
+    content: ETSI Technical Report

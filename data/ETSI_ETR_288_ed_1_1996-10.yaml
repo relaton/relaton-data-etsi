@@ -1,61 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR288ed.11996-10
+id: ETSIETR288ed1199610
+schema_version: v1.4.1
 title:
-- content: Television systems; Code of practice for an Electronic Programme Guide
+- language: en
+  script: Latn
+  content: Television systems; Code of practice for an Electronic Programme Guide
     (EPG)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4378
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/288/01_60/etr_288e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 288 ed.1 (1996-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4378
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/288/01_60/etr_288e01p.pdf
+docidentifier:
+- content: ETSI ETR 288 ed.1 (1996-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 288 ed.1 (1996-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Level 2.5 Teletext;\r\nCode of Practice (CoP)\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Level 2.5 Teletext;\r\nCode of Practice (CoP)\r\n "
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: COP
-- content: DATA
-- content: TELETEXT
-- content: TRANSMISSION
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: COP
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: TELETEXT
+  - language: en
+    script: Latn
+    content: TRANSMISSION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Technical Report

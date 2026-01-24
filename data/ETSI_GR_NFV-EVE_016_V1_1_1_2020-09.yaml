@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNFV-EVE016V1.1.12020-09
+id: ETSIGRNFVEVE016V111202009
+schema_version: v1.4.1
 title:
-- content: Network Functions Virtualisation (NFV); Evolution and Ecosystem; Report
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Evolution and Ecosystem; Report
     on Connection-based Virtual Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53575
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/016/01.01.01_60/gr_NFV-EVE016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NFV-EVE 016 V1.1.1 (2020-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=53575
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-EVE/001_099/016/01.01.01_60/gr_NFV-EVE016v010101p.pdf
+docidentifier:
+- content: ETSI GR NFV-EVE 016 V1.1.1 (2020-09)
   type: ETSI
   primary: true
 docnumber: ETSI GR NFV-EVE 016 V1.1.1 (2020-09)
 date:
 - type: published
-  value: 2020-09
+  at: 2020-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution and Ecosystem
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Connection based Virtual  Services are  provided over connections between
+- language: en
+  script: Latn
+  content: "Connection based Virtual  Services are  provided over connections between
     a service user and applications hosted by a data center in the cloud (e.g. Virtual
     Services defined by MEF).\r\nThis Work Item will:\r\n- Describe use cases and
     \ identify gaps within the NFV Architecture Framework to support connection-based
@@ -58,20 +67,24 @@ abstract:
     capabilities within EVE-008 and NFV Security capabilities within IFA 026, NFV
     Multi Domain within IFA-028 and NFV Multisite within IFA-022 may be applied to
     work of  this Work Item."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: NFV
-- content: SERVICE
-- content: virtual services
-- content: Virtualisation
+- taxon:
+  - language: en
+    script: Latn
+    content: NFV
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: virtual services
+  - language: en
+    script: Latn
+    content: Virtualisation
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Evolution and Ecosystem
+    content: Group Report

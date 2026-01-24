@@ -1,67 +1,76 @@
 ---
-schema-version: v1.2.9
-id: ETSITS123119V3.0.02000-03
+id: ETSITS123119V300200003
+schema_version: v1.4.1
 title:
-- content: Universal Mobile Telecommunications System (UMTS); Gateway Location Register
+- language: en
+  script: Latn
+  content: Universal Mobile Telecommunications System (UMTS); Gateway Location Register
     (GLR); Stage2 (3G TS 23.119 version 3.0.0 Release 1999)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10234
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/123100_123199/123119/03.00.00_60/ts_123119v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 123 119 V3.0.0 (2000-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=10234
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/123100_123199/123119/03.00.00_60/ts_123119v030000p.pdf
+docidentifier:
+- content: ETSI TS 123 119 V3.0.0 (2000-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 123 119 V3.0.0 (2000-03)
 date:
 - type: published
-  value: 2000-03
+  at: 2000-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: CAMEL
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2000-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Stage 2 description of the Gateway Location Register (GLR) within the
+- language: en
+  script: Latn
+  content: "Stage 2 description of the Gateway Location Register (GLR) within the
     UMTS Core Network as a means of reducing the amount of MAP signalling traffic
     associated with location management carried over inter-PLMN links for roaming
     users; restricted to the case where the GLR supports one VPLMN only.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: CAMEL
+    content: Technical Specification

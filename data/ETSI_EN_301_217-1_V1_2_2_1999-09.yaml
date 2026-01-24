@@ -1,74 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301217-1V1.2.21999-09
+id: ETSIEN3012171V122199909
+schema_version: v1.4.1
 title:
-- content: 'V interfaces at the digital Service Node (SN); Interfaces at the VB5.2
+- language: en
+  script: Latn
+  content: 'V interfaces at the digital Service Node (SN); Interfaces at the VB5.2
     reference point for the support of broadband or combined narrowband and broadband
     Access Networks (ANs); Part 1: Interface specification'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3784
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121701/01.02.02_60/en_30121701v010202p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 217-1 V1.2.2 (1999-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3784
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301200_301299/30121701/01.02.02_60/en_30121701v010202p.pdf
+docidentifier:
+- content: ETSI EN 301 217-1 V1.2.2 (1999-09)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 217-1 V1.2.2 (1999-09)
 date:
 - type: published
-  value: 1999-09
+  at: 1999-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Access Networks and Service Node Interfaces
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.2
-revdate: 1999-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This part of a set of ETSs on VB5 reference points specifies the\r\nphysical,
+- language: en
+  script: Latn
+  content: "This part of a set of ETSs on VB5 reference points specifies the\r\nphysical,
     procedural and protocol requirements for the interfaces at\r\nthe VB5.2 reference
     point between a broadband or combined narrowband &\r\nbroadband access network
     and a service node. The access network shall\r\nsupport flexible (provisioned)
     VPC and VCC allocation and flexible VCC\r\nallocation on a connection by connection
     basis which provides flexible\r\nconcentration capability at VC level within the
     access network and\r\naccross the VB5.2 reference point.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: AN
-- content: BROADBAND
-- content: SN
-- content: V5 INTERFACE
-- content: VB5 INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: AN
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: SN
+  - language: en
+    script: Latn
+    content: V5 INTERFACE
+  - language: en
+    script: Latn
+    content: VB5 INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Access Networks and Service Node Interfaces
+    content: European Standard

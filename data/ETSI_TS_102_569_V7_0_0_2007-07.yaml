@@ -1,63 +1,72 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102569V7.0.02007-07
+id: ETSITS102569V700200707
+schema_version: v1.4.1
 title:
-- content: Smart Cards; UICC Security Service Module (USSM); Stage 2 (Release 7)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25839
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102569/07.00.00_60/ts_102569v070000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 569 V7.0.0 (2007-07)
+- language: en
+  script: Latn
+  content: Smart Cards; UICC Security Service Module (USSM); Stage 2 (Release 7)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25839
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102500_102599/102569/07.00.00_60/ts_102569v070000p.pdf
+docidentifier:
+- content: ETSI TS 102 569 V7.0.0 (2007-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 569 V7.0.0 (2007-07)
 date:
 - type: published
-  value: 2007-07
+  at: 2007-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SET-TEC
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.0
-revdate: 2007-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Stage 2 resulting from TS 102 266\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Stage 2 resulting from TS 102 266\r\n"
+status:
+  stage: Published
 keyword:
-- content: SECURITY
-- content: SMART CARD
+- taxon:
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: SMART CARD
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SET-TEC
+    content: Technical Specification

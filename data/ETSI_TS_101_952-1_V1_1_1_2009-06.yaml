@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101952-1V1.1.12009-06
+id: ETSITS1019521V111200906
+schema_version: v1.4.1
 title:
-- content: 'Access network xDSL splitters for European deployment; Part 1: Generic
+- language: en
+  script: Latn
+  content: 'Access network xDSL splitters for European deployment; Part 1: Generic
     specification of xDSL over POTS splitters'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31043
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101900_101999/10195201/01.01.01_60/ts_10195201v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 952-1 V1.1.1 (2009-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31043
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101900_101999/10195201/01.01.01_60/ts_10195201v010101p.pdf
+docidentifier:
+- content: ETSI TS 101 952-1 V1.1.1 (2009-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 952-1 V1.1.1 (2009-06)
 date:
 - type: published
-  value: 2009-06
+  at: 2009-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2009-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Specification of the requirements applicable to the low pass and high
+- language: en
+  script: Latn
+  content: "Specification of the requirements applicable to the low pass and high
     pass parts of the central splitter for deployment in the central office, cabinet
     and in the customers premises. The requirements will cover ADSL, ADLS2, ADSL2plus
     and VDSL2.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: POTS
-- content: Splitter
-- content: VDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: VDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Specification

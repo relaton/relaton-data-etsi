@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103404V1.1.12016-10
+id: ETSITR103404V111201610
+schema_version: v1.4.1
 title:
-- content: Network Technologies (NTECH); Autonomic network engineering for the self-managing
+- language: en
+  script: Latn
+  content: Network Technologies (NTECH); Autonomic network engineering for the self-managing
     Future Internet (AFI); Autonomicity and Self-Management in the Backhaul and Core
     network parts of the 3GPP Architecture
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42951
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103404/01.01.01_60/tr_103404v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 404 V1.1.1 (2016-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=42951
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103404/01.01.01_60/tr_103404v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 404 V1.1.1 (2016-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 404 V1.1.1 (2016-10)
 date:
 - type: published
-  value: 2016-10
+  at: 2016-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Evolution of Management towards Autonomic Future Internet
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Instantiation of the Reference Model for Autonomic Networking, Cognition
+- language: en
+  script: Latn
+  content: Instantiation of the Reference Model for Autonomic Networking, Cognition
     and Self-Management onto the architecture defined in ETSI TS 123 401 and TS 123
     402, by superimposing GANA Decision Elements (DEs) into node/device architectures
     and the overall network architecture, so that the DEs and their associated Control-Loops
@@ -56,19 +65,21 @@ abstract:
     basic behaviours of the GANA Functional Blocks (FBs) in the above context will
     be developed. 3GPP specifications on policy control (TS 123 203) and network management
     will be taken into account (TS 123 32x series).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 3GPP
-- content: ARCHITECTURE
-- content: Autonomic Networking
+- taxon:
+  - language: en
+    script: Latn
+    content: 3GPP
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: Autonomic Networking
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Evolution of Management towards Autonomic Future Internet
+    content: Technical Report

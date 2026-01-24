@@ -1,66 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300374-9ed.11998-02
+id: ETSIETS3003749ed1199802
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
+- language: en
+  script: Latn
+  content: 'Intelligent Network (IN); Intelligent Network Capability Set 1 (CS1);
     Core Intelligent Network Application Protocol (INAP); Part 9: Test Suite Structure
     and Test Purposes (TSS&TP) specification for the Service Control Function (SCF)
     to Service Switching Function and the SCF to Specialized Resource Function (SRF)
     interfaces'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3787
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037409/01_60/ets_30037409e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 374-9 ed.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3787
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300300_300399/30037409/01_60/ets_30037409e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 374-9 ed.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 374-9 ed.1 (1998-02)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IN protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "TSS&TP specification for the SCF part of  ETS 300 374-1,\r\nincluding
+- language: en
+  script: Latn
+  content: "TSS&TP specification for the SCF part of  ETS 300 374-1,\r\nincluding
     the definition of any required test Service Logic\r\nPrograms\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CS1
-- content: IN
-- content: INAP
-- content: PROTOCOL
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: CS1
+  - language: en
+    script: Latn
+    content: IN
+  - language: en
+    script: Latn
+    content: INAP
+  - language: en
+    script: Latn
+    content: PROTOCOL
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: IN protocols
+    content: European Telecommunication Standard

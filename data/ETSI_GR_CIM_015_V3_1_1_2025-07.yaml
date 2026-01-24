@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRCIM015V3.1.12025-07
+id: ETSIGRCIM015V311202507
+schema_version: v1.4.1
 title:
-- content: Context Information Management (CIM); NGSI-LD Testing Environment Validation
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69114
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/015/03.01.01_60/gr_CIM015v030101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR CIM 015 V3.1.1 (2025-07)
+- language: en
+  script: Latn
+  content: Context Information Management (CIM); NGSI-LD Testing Environment Validation
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69114
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/CIM/001_099/015/03.01.01_60/gr_CIM015v030101p.pdf
+docidentifier:
+- content: ETSI GR CIM 015 V3.1.1 (2025-07)
   type: ETSI
   primary: true
 docnumber: ETSI GR CIM 015 V3.1.1 (2025-07)
 date:
 - type: published
-  value: 2025-07
+  at: 2025-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: cross-cutting Context Information Management
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.1.1
-revdate: 2025-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'it checks that the extended tests run successfully in the test environment.
+- language: en
+  script: Latn
+  content: 'it checks that the extended tests run successfully in the test environment.
     Additionally, it allows to learn from use of the chosen test purposes description
     language and operating environment   '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: API
-- content: IoT
-- content: NGSI-LD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: API
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: NGSI-LD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: cross-cutting Context Information Management
+    content: Group Report

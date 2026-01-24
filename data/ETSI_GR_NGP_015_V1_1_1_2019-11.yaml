@@ -1,70 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP015V1.1.12019-11
+id: ETSIGRNGP015V111201911
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocol (NGP); Recommendation for Network Layer Multi-Path
+- language: en
+  script: Latn
+  content: Next Generation Protocol (NGP); Recommendation for Network Layer Multi-Path
     Support
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56356
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/015/01.01.01_60/gr_NGP015v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 015 V1.1.1 (2019-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56356
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/015/01.01.01_60/gr_NGP015v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 015 V1.1.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 015 V1.1.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This work item will present the gap analysis for new internet architectures,
+- language: en
+  script: Latn
+  content: 'This work item will present the gap analysis for new internet architectures,
     focusing on the solution to support multi-path for 5G and beyond: 1) access network
     may or may not have multiple interfaces; 2) content provider network is directly
     connected to access network or peering through an IXP or a transit network 3)
     multi-path are available between access networks of end-users. The solution may
     include new control and data plane protocol proposals.'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERNET
-- content: IP
-- content: PATH
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERNET
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: PATH
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRNGP004V1.1.12018-01
+id: ETSIGRNGP004V111201801
+schema_version: v1.4.1
 title:
-- content: Next Generation Protocol (NGP); Evolved Architecture for mobility using
+- language: en
+  script: Latn
+  content: Next Generation Protocol (NGP); Evolved Architecture for mobility using
     Identity Oriented Networks
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50531
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/004/01.01.01_60/gr_NGP004v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR NGP 004 V1.1.1 (2018-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50531
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NGP/001_099/004/01.01.01_60/gr_NGP004v010101p.pdf
+docidentifier:
+- content: ETSI GR NGP 004 V1.1.1 (2018-01)
   type: ETSI
   primary: true
 docnumber: ETSI GR NGP 004 V1.1.1 (2018-01)
 date:
 - type: published
-  value: 2018-01
+  at: 2018-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Next Generation Protocols
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2018-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This work item focuses on using  Identity Oriented Networks (ION) for next
+- language: en
+  script: Latn
+  content: This work item focuses on using  Identity Oriented Networks (ION) for next
     generation architectures toward 5G and beyond. The basic concept and goal behind
     ION is to dis-associate the permanent identity and temporal location information
     for an entity. Ideally this goal should be whilst also being able to be used to
@@ -55,22 +64,30 @@ abstract:
     improve and simplify the network infrastructure and its mobility, by adopting
     by using ION. In addition, the work item  may require the development of new protocols
     and/ or modification of existing protocols.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GRIDS
-- content: Identity
-- content: ION
-- content: IoT
-- content: mapping system
-- content: MOBILITY
+- taxon:
+  - language: en
+    script: Latn
+    content: GRIDS
+  - language: en
+    script: Latn
+    content: Identity
+  - language: en
+    script: Latn
+    content: ION
+  - language: en
+    script: Latn
+    content: IoT
+  - language: en
+    script: Latn
+    content: mapping system
+  - language: en
+    script: Latn
+    content: MOBILITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Next Generation Protocols
+    content: Group Report

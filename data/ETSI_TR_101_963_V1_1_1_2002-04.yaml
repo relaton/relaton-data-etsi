@@ -1,72 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101963V1.1.12002-04
+id: ETSITR101963V111200204
+schema_version: v1.4.1
 title:
-- content: Access and Terminals (AT); Report on the Requirements of European Cable
+- language: en
+  script: Latn
+  content: Access and Terminals (AT); Report on the Requirements of European Cable
     Industry for Implementation of IPCablecom Technologies; Identification of high
     level requirements and establishment of priorities
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13978
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101963/01.01.01_60/tr_101963v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 963 V1.1.1 (2002-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=13978
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101900_101999/101963/01.01.01_60/tr_101963v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 963 V1.1.1 (2002-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 963 V1.1.1 (2002-04)
 date:
 - type: published
-  value: 2002-04
+  at: 2002-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Digital
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2002-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Collection of high level service requirments of European Cable industry
+- language: en
+  script: Latn
+  content: Collection of high level service requirments of European Cable industry
     and their relative priorities into a Technical Report to form the basis of further
     ETSI work in upgrading DTS-AT-020020-01 specifications to add European specific
     requirements. It is recognised that there will will an ongoing need to track subsequent
     requirements for further enhancement of the current ETSI specifications. Consultation
     with relevant industry bodies external to ETSI will therefore be necessary.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADBAND
-- content: CABLE
-- content: IPCable
-- content: MULTIMEDIA
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: IPCable
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Digital
+    content: Technical Report

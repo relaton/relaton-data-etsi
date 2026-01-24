@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102702V1.1.12010-03
+id: ETSITR102702V111201003
+schema_version: v1.4.1
 title:
-- content: Access, Terminals, Transmission and Multiplexing (ATTM) Study of issues
+- language: en
+  script: Latn
+  content: Access, Terminals, Transmission and Multiplexing (ATTM) Study of issues
     related to POTS injection in the customer wiring from xDSL VoIP Home Gateway
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30931
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102702/01.01.01_60/tr_102702v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 702 V1.1.1 (2010-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=30931
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102700_102799/102702/01.01.01_60/tr_102702v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 702 V1.1.1 (2010-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 702 V1.1.1 (2010-03)
 date:
 - type: published
-  value: 2010-03
+  at: 2010-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Wireline Access Network Systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2010-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To identify the major issues related with the speech and DSL performances
+- language: en
+  script: Latn
+  content: To identify the major issues related with the speech and DSL performances
     of customer installations exploiting the VoIP telephony provision through the
     re-injection of the analogue telephony service, as generated at the POTS interface
     of the DSL Home Gateway, in the customer wiring  without electrically disconnecting
     it from the external line.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ADSL
-- content: POTS
-- content: Splitter
-- content: VDSL
+- taxon:
+  - language: en
+    script: Latn
+    content: ADSL
+  - language: en
+    script: Latn
+    content: POTS
+  - language: en
+    script: Latn
+    content: Splitter
+  - language: en
+    script: Latn
+    content: VDSL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Wireline Access Network Systems
+    content: Technical Report

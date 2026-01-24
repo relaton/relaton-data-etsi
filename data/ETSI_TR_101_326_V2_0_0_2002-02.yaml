@@ -1,53 +1,62 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101326V2.0.02002-02
+id: ETSITR101326V200200202
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
     The procedure for determining IP addresses for routeing packets on interconnected
     IP networks that support public telephony
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12148
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101326/02.00.00_60/tr_101326v020000p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 326 V2.0.0 (2002-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=12148
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101326/02.00.00_60/tr_101326v020000p.pdf
+docidentifier:
+- content: ETSI TR 101 326 V2.0.0 (2002-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 326 V2.0.0 (2002-02)
 date:
 - type: published
-  value: 2002-02
+  at: 2002-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Naming and address translation issues
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.0.0
-revdate: 2002-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In telecommunication systems and therefore also in IP systems E.164 numbers
+- language: en
+  script: Latn
+  content: "In telecommunication systems and therefore also in IP systems E.164 numbers
     (or dialled numbers related to E.164) are used by end users to identify the destination
     of a call.  In IP systems, when an end user is attached to a terminal, the E.164
     name of this end user is temporarily associated with the IP address (transport
@@ -63,19 +72,21 @@ abstract:
     and Media Stream Packets.\r\nThe TR covers the requirements for calls to all types
     of number structures within E.164, national and private networks and includes
     the support of number portability, mobility and roaming."
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ARCHITECTURE
-- content: FUNCTIONAL
-- content: INTERNET
+- taxon:
+  - language: en
+    script: Latn
+    content: ARCHITECTURE
+  - language: en
+    script: Latn
+    content: FUNCTIONAL
+  - language: en
+    script: Latn
+    content: INTERNET
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Naming and address translation issues
+    content: Technical Report

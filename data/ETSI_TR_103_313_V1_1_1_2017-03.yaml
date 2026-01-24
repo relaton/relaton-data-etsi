@@ -1,67 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103313V1.1.12017-03
+id: ETSITR103313V111201703
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Technical characteristics for SRD equipment
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Technical characteristics for SRD equipment
     using Ultra Wide Band Sensor technology (UWB); Medical, wellness and assisted
     living applications
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46023
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103313/01.01.01_60/tr_103313v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 313 V1.1.1 (2017-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46023
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103300_103399/103313/01.01.01_60/tr_103313v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 313 V1.1.1 (2017-03)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 313 V1.1.1 (2017-03)
 date:
 - type: published
-  value: 2017-03
+  at: 2017-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2017-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvdmlkZXMgaW5mb3JtYXRpb24gb24gdGhlIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gYW5kIGFkZGl0aW9uYWwgbmV3IHJhZGlvIHNwZWN0cnVtIHJlcXVpcmVtZW50cyBmb3IgVVdCIGVxdWlwbWVudCBmb3IgdGhlIG9wZXJhdGlvbiBpbiBtZWRpY2FsLCB3ZWxsbmVzcyBhbmQgYXNzaXN0ZWQgbGl2aW5nIGVudmlyb25tZW50cyBhbmQgYXBwbGljYXRpb25zLg0KDQpUaGUgYXBwbGljYXRpb25zIGNhbiBiZSBkaXZpZGVkIGluIDMgZGlmZmVyZW50IGNhdGVnb3JpZXM6DQotIENhdGVnb3J5IEE6IFNlbnNvciBhbmQgSW1hZ2luZw0KLSBDYXRlZ29yeSBCOiBDb21tdW5pY2F0aW9ucw0KLSBDYXRlZ29yeSBDOiBIeWJyaWQgc2Vuc29yIGFuZCBjb21tdW5pY2F0aW9ucw0KLSBDYXRlZ29yeSBEOiBMb2NhdGlvbiBhbmQgdHJhY2tpbmcgDQoNClRoZSBhcHBsaWNhdGlvbiBlbnZpcm9ubWVudHMgb2YgdGhlIHByZXNlbnRlZCB0ZWNobm9sb2dpZXMgd2lsbCBjb3ZlciBob21lIGVudmlyb25tZW50cyBmb3IgYXNzaXN0ZWQgbGl2aW5nIGFwcGxpY2F0aW9ucywgaG9zcGl0YWwgZW52aXJvbm1lbnRzIGluY2x1ZGluZyBkb2N0b3LigJlzIHN1cmdlcmllcyBhbmQgYXV0b21vdGl2ZSBlbnZpcm9ubWVudHMuDQpUaGUgcHJlc2VudCBkb2N1bWVudCBpbmNsdWRlcyBuZWNlc3NhcnkgaW5mb3JtYXRpb24gdG8gc3VwcG9ydCB0aGUgY28tb3BlcmF0aW9uIGJldHdlZW4gRVRTSSBhbmQgdGhlIEVsZWN0cm9uaWMgQ29tbXVuaWNhdGlvbnMgQ29tbWl0dGVlIChFQ0MpIG9mIHRoZSBFdXJvcGVhbiBDb25mZXJlbmNlIG9mIFBvc3QgYW5kIFRlbGVjb21tdW5pY2F0aW9ucyBBZG1pbmlzdHJhdGlvbnMgKENFUFQpLCBpbmNsdWRpbmc6DQrigKIJRGV0YWlsZWQgbWFya2V0IGluZm9ybWF0aW9uIChhbm5leCBBKTsNCuKAoglUZWNobmljYWwgaW5mb3JtYXRpb24gKGFubmV4IEIpOw0K4oCiCVJlbGF0aW9uIHRvIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gKGFubmV4IEMpOw0K4oCiCUV4cGVjdGVkIGNvbXBhdGliaWxpdHkgaXNzdWVzIChhbm5leCBEKS4NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The present document provides information on the intended applications,
+    the technical parameters, the relation to the existing spectrum regulation and
+    additional new radio spectrum requirements for UWB equipment for the operation
+    in medical, wellness and assisted living environments and applications.\r\n\r\nThe
+    applications can be divided in 3 different categories:\r\n- Category A: Sensor
+    and Imaging\r\n- Category B: Communications\r\n- Category C: Hybrid sensor and
+    communications\r\n- Category D: Location and tracking \r\n\r\nThe application
+    environments of the presented technologies will cover home environments for assisted
+    living applications, hospital environments including doctors surgeries and automotive
+    environments.\r\nThe present document includes necessary information to support
+    the co-operation between ETSI and the Electronic Communications Committee (ECC)
+    of the European Conference of Post and Telecommunications Administrations (CEPT),
+    including:\r\n\tDetailed market information (annex A);\r\n\tTechnical information
+    (annex B);\r\n\tRelation to existing spectrum regulation (annex C);\r\n\tExpected
+    compatibility issues (annex D).\r\n"
+status:
+  stage: Published
 keyword:
-- content: HEALTH
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: HEALTH
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

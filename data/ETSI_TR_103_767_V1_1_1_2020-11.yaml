@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103767V1.1.12020-11
+id: ETSITR103767V111202011
+schema_version: v1.4.1
 title:
-- content: Lawful Interception (LI); Considerations about interfacing with providers
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); Considerations about interfacing with providers
     of vehicle information
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59520
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103767/01.01.01_60/tr_103767v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 767 V1.1.1 (2020-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59520
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103700_103799/103767/01.01.01_60/tr_103767v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 767 V1.1.1 (2020-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 767 V1.1.1 (2020-11)
 date:
 - type: published
-  value: 2020-11
+  at: 2020-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The present document provides a high-level description of a process for
+- language: en
+  script: Latn
+  content: The present document provides a high-level description of a process for
     interfacing between law enforcement and providers of vehicle information. The
     present document is not a legal document and does not state when or whether such
     an interface should be used. Instead, the present document highlights that (whenever
@@ -56,18 +65,18 @@ abstract:
     present document does not specify any details of such an interface; the interface
     design would need to be done in conjunction with a cross-section of the relevant
     industries.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERFACE
-- content: Retained Data
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: Retained Data
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Lawful Interception
+    content: Technical Report

@@ -1,67 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102188-3V1.1.22004-07
+id: ETSITS1021883V112200407
+schema_version: v1.4.1
 title:
-- content: 'Satellite Earth Stations and Systems (SES); Regenerative Satellite Mesh
+- language: en
+  script: Latn
+  content: 'Satellite Earth Stations and Systems (SES); Regenerative Satellite Mesh
     - A (RSM-A) air interface; Physical layer specification; Part 3: Channel coding'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20893
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10218803/01.01.02_60/ts_10218803v010102p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 188-3 V1.1.2 (2004-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20893
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10218803/01.01.02_60/ts_10218803v010102p.pdf
+docidentifier:
+- content: ETSI TS 102 188-3 V1.1.2 (2004-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 188-3 V1.1.2 (2004-07)
 date:
 - type: published
-  value: 2004-07
+  at: 2004-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: SES Broadband Satellite Multimedia
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.2
-revdate: 2004-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Change of two document titles in Bibliography.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Change of two document titles in Bibliography.\r\n"
+status:
+  stage: Published
 keyword:
-- content: AIR INTERFACE
-- content: BROADBAND
-- content: IP
-- content: MULTIMEDIA
-- content: SATELLITE
+- taxon:
+  - language: en
+    script: Latn
+    content: AIR INTERFACE
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: SATELLITE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: SES Broadband Satellite Multimedia
+    content: Technical Specification

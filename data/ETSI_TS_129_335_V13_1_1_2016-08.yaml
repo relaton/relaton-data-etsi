@@ -1,67 +1,78 @@
 ---
-schema-version: v1.2.9
-id: ETSITS129335V13.1.12016-08
+id: ETSITS129335V1311201608
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
     Mobile Telecommunications System (UMTS); LTE; User Data Convergence (UDC); User
     data repository access protocol over the Ud interface; Stage 3 (3GPP TS 29.335
     version 13.1.1 Release 13)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50198
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/129300_129399/129335/13.01.01_60/ts_129335v130101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 129 335 V13.1.1 (2016-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50198
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/129300_129399/129335/13.01.01_60/ts_129335v130101p.pdf
+docidentifier:
+- content: ETSI TS 129 335 V13.1.1 (2016-08)
   type: ETSI
   primary: true
 docnumber: ETSI TS 129 335 V13.1.1 (2016-08)
 date:
 - type: published
-  value: 2016-08
+  at: 2016-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 13.1.1
-revdate: 2016-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: CT#72
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: CT#72
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: LTE
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: LTE
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: MAP/CAMEL/GTP/BCH/SS/TrFO/IMS/GUP/WLAN (formely CN4)
+    content: Technical Specification

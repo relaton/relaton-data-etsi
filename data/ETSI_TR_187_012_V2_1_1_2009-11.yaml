@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR187012V2.1.12009-11
+id: ETSITR187012V211200911
+schema_version: v1.4.1
 title:
-- content: Telecommunications and Internet converged Services and Protocols for Advanced
+- language: en
+  script: Latn
+  content: Telecommunications and Internet converged Services and Protocols for Advanced
     Networking (TISPAN); NGN Security; Report and recommendations on compliance to
     the data retention directive for NGN-R2
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27313
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187012/02.01.01_60/tr_187012v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 187 012 V2.1.1 (2009-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=27313
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/187000_187099/187012/02.01.01_60/tr_187012v020101p.pdf
+docidentifier:
+- content: ETSI TR 187 012 V2.1.1 (2009-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 187 012 V2.1.1 (2009-11)
 date:
 - type: published
-  value: 2009-11
+  at: 2009-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: TISPAN Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2009-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHdvcmsgaXRlbSBzaGFsbCByZXBvcnQgb24gdGhlIHN0ZXBzIHJlcXVpcmVkIHRvIGNvdmVyIHRoZSByZXF1aXJlbWVudHMgb2YgdGhlIERhdGEgUmV0ZW50aW9uIChEUikgZGlyZWN0aXZlIGZvciBhbGwgb2YgTkdOLVIyLlRoZSByZXBvcnQgaXMgZXhwZWN0ZWQgdG8gaWRlbnRpZnkgYW4gYXJjaGl0ZWN0dXJlIGZvciBEUiBpbiBhbiBOR04gdGhhdCBjb3ZlcnMgdGhlIGZvbGxvd2luZzoNCsK3SWRlbnRpZnkgdGhlIFBvaW50cyBvZiBSZXRlbnRpb24gKFBvUikgaW4gYW4gTkdOOw0KwrdJZGVudGlmeSB0aGUgUG9pbnRzIG9mIEFyY2hpdmUgYW5kIFJldHJpZXZhbCAoUG9BYVIpIGluIGFuIE5HTjsNCsK3SWRlbnRpZnkgdGhlIGRhdGEgdG8gYmUgcmV0YWluZWQgYXQgZWFjaCBQb1I7DQrCt0lkZW50aWZ5IHRoZSB0cmFuc2ZlciBmcm9tIFBvUnMgdG8gUG9pbnRzIG9mIEFyY2hpdmUgYW5kIFJldHJpZXZhbCAoUG9BYVIpOw0KwrdUbyBpZGVudGlmeSB0aGUgc2VjdXJpdHkgcmVxdWlyZW1lbnRzIGZvciBQb1JzIGFuZCBQb0FhUnMgaW5jbHVkaW5nIHRoZSByZXF1aXJlbWVudHMgZm9yIHNlY3VyaXR5IG9mIHRyYW5zZmVycyBiZXR3ZWVuIHRoZW07DQrCt1RvIGlkZW50aWZ5IHRoZSBmdXR1cmUgc3RhbmRhcmRpc2F0aW9uIHdvcmsuDQogVGhlIHNjb3BlIHNoYWxsIG5vdCBleHRlbmQgdG8gdGhlIGhhbmRvdmVyIGRvbWFpbiAocmVzcG9uc2liaWxpdHkgb2YgVEMgTEkpIGJ1dCBzaGFsbCBjb25zaWRlciB0aGUgbXVsdGktdmVuZG9yLCBtdWx0aS1wcm92aWRlciwgYXNwZWN0cyBvZiBEUiBpbiBhbiBOR04uIEFzcGVjdHMgcmVsYXRpbmcgdG8gY29tbW9uIElNUyBzaGFsbCBub3QgYmUgY292ZXJlZCBidXQgaWYgaWRlbnRpZmllZCBzaGFsbCBiZSB0cmFuc2ZlcnJlZCB0byB0aGUgcmVzcG9uc2liaWxpdHkgb2YgM0dQUC4=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "The work item shall report on the steps required to cover the requirements
+    of the Data Retention (DR) directive for all of NGN-R2.The report is expected
+    to identify an architecture for DR in an NGN that covers the following:\r\nIdentify
+    the Points of Retention (PoR) in an NGN;\r\nIdentify the Points of Archive and
+    Retrieval (PoAaR) in an NGN;\r\nIdentify the data to be retained at each PoR;\r\nIdentify
+    the transfer from PoRs to Points of Archive and Retrieval (PoAaR);\r\nTo identify
+    the security requirements for PoRs and PoAaRs including the requirements for security
+    of transfers between them;\r\nTo identify the future standardisation work.\r\n
+    The scope shall not extend to the handover domain (responsibility of TC LI) but
+    shall consider the multi-vendor, multi-provider, aspects of DR in an NGN. Aspects
+    relating to common IMS shall not be covered but if identified shall be transferred
+    to the responsibility of 3GPP."
+status:
+  stage: Published
 keyword:
-- content: DATA
-- content: RETENTION
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: RETENTION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: TISPAN Security
+    content: Technical Report

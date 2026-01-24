@@ -1,66 +1,77 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101101V1.1.11997-08
+id: ETSITR101101V111199708
+schema_version: v1.4.1
 title:
-- content: Methods for Testing and Specification (MTS); TTCN interim version including
+- language: en
+  script: Latn
+  content: Methods for Testing and Specification (MTS); TTCN interim version including
     ASN.1 1994 support [ISO/IEC 9646-3] (Second Edition Mock-up for JTC1/SC21 Review)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4893
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101101/01.01.01_60/tr_101101v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 101 V1.1.1 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4893
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101100_101199/101101/01.01.01_60/tr_101101v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 101 V1.1.1 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 101 V1.1.1 (1997-08)
 date:
 - type: published
-  value: 1997-08
+  at: 1997-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To give the enhancements to TTCN over and above ISO 9646, edition 1, t\r\no
+- language: en
+  script: Latn
+  content: "To give the enhancements to TTCN over and above ISO 9646, edition 1, t\r\no
     support the 1994 version of ASN.1, concurrency etc.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ASN.1
-- content: ENDORSEMENT
-- content: TTCN
+- taxon:
+  - language: en
+    script: Latn
+    content: ASN.1
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: TTCN
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Report

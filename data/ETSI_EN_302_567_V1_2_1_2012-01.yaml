@@ -1,73 +1,90 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN302567V1.2.12012-01
+id: ETSIEN302567V121201201
+schema_version: v1.4.1
 title:
-- content: Broadband Radio Access Networks (BRAN); 60 GHz Multiple-Gigabit WAS/RLAN
+- language: en
+  script: Latn
+  content: Broadband Radio Access Networks (BRAN); 60 GHz Multiple-Gigabit WAS/RLAN
     Systems; Harmonized EN covering the essential requirements of article 3.2 of the
     R&TTE Directive
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35744
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/302500_302599/302567/01.02.01_60/en_302567v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 302 567 V1.2.1 (2012-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35744
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/302500_302599/302567/01.02.01_60/en_302567v010201p.pdf
+docidentifier:
+- content: ETSI EN 302 567 V1.2.1 (2012-01)
   type: ETSI
   primary: true
 docnumber: ETSI EN 302 567 V1.2.1 (2012-01)
 date:
 - type: published
-  value: 2012-01
+  at: 2012-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Broadband Radio Access Networks
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2012-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Revision to V1.1.1 to align the power limit to ERC Rec 70-03 Annex 3 by
+- language: en
+  script: Latn
+  content: Revision to V1.1.1 to align the power limit to ERC Rec 70-03 Annex 3 by
     specifying a single power limit of +40dBm. Align the spurious emission limit above
     40 GHz in line with the FCC limit to enable global regulation and a global product
     solution. Clarify the measurement method for the spurious emission limit. To consider
     changes because of the note 1 in Annex 3 of ERC Rec 70.03.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: BROADBAND
-- content: LAN
-- content: RADIO
-- content: SRD
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: BROADBAND
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRD
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Broadband Radio Access Networks
+    content: European Standard

@@ -1,67 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN319422V1.1.12016-03
+id: ETSIEN319422V111201603
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Time-stamping protocol
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Time-stamping protocol
     and time-stamp token profiles
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39370
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/319400_319499/319422/01.01.01_60/en_319422v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 319 422 V1.1.1 (2016-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=39370
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/319400_319499/319422/01.01.01_60/en_319422v010101p.pdf
+docidentifier:
+- content: ETSI EN 319 422 V1.1.1 (2016-03)
   type: ETSI
   primary: true
 docnumber: ETSI EN 319 422 V1.1.1 (2016-03)
 date:
 - type: published
-  value: 2016-03
+  at: 2016-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2016-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document specifies a profile for the format and procedures for time-stamping
+- language: en
+  script: Latn
+  content: This document specifies a profile for the format and procedures for time-stamping
     as specified in RFC 3161, based upon TS 101 861
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: Time-stamping
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: Time-stamping
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: European Standard

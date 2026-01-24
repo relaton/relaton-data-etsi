@@ -1,72 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102374-1V1.1.12004-11
+id: ETSITS1023741V111200411
+schema_version: v1.4.1
 title:
-- content: 'Methods for Testing and Specification (MTS); Conformance Test Specification
+- language: en
+  script: Latn
+  content: 'Methods for Testing and Specification (MTS); Conformance Test Specification
     for ITU-T H.248.1; Part 1: Protocol Implementation Conformance Statement (PICS)
     proforma'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19742
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10237401/01.01.01_60/ts_10237401v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 374-1 V1.1.1 (2004-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=19742
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102300_102399/10237401/01.01.01_60/ts_10237401v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 374-1 V1.1.1 (2004-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 374-1 V1.1.1 (2004-11)
 date:
 - type: published
-  value: 2004-11
+  at: 2004-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Methods for Testing & Specification
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: The document will provide the Protocol Implementation Conformance Statement
+- language: en
+  script: Latn
+  content: The document will provide the Protocol Implementation Conformance Statement
     (PICS) proforma for the H.248/ Megaco (Extended Megaco Package,Aggreated Bearer
     load control) for the ITU-T Recommendation H.248.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: H.248
-- content: IP
-- content: MEGACO
-- content: PICS
-- content: TELEPHONY
-- content: TESTING
-- content: VoIP
+- taxon:
+  - language: en
+    script: Latn
+    content: H.248
+  - language: en
+    script: Latn
+    content: IP
+  - language: en
+    script: Latn
+    content: MEGACO
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: VoIP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Methods for Testing & Specification
+    content: Technical Specification

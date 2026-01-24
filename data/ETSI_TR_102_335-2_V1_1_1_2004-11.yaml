@@ -1,72 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102335-2V1.1.12004-11
+id: ETSITR1023352V111200411
+schema_version: v1.4.1
 title:
-- content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); System
+- language: en
+  script: Latn
+  content: 'Electromagnetic compatibility and Radio spectrum Matters (ERM); System
     reference document for harmonized use of Digital Mobile Radio (DMR); Part 2: Systems
     operating under individual licences in the existing land mobile service spectrum
     bands'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20687
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10233502/01.01.01_60/tr_10233502v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 335-2 V1.1.1 (2004-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=20687
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102300_102399/10233502/01.01.01_60/tr_10233502v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 335-2 V1.1.1 (2004-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 335-2 V1.1.1 (2004-11)
 date:
 - type: published
-  value: 2004-11
+  at: 2004-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ERM Radio Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Draft a System Reference Document to be submitted to ERC for a decision
+- language: en
+  script: Latn
+  content: Draft a System Reference Document to be submitted to ERC for a decision
     on an harmonised frequency allocation for licence-exempt DMR within the band 440-450
     MHz, with particular emphasis on the re-use of the PMR446 spectrum.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DIGITAL
-- content: MOBILE
-- content: PMR
-- content: RADIO
-- content: SRDOC
-- content: UHF
+- taxon:
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PMR
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UHF
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ERM Radio Matters
+    content: Technical Report

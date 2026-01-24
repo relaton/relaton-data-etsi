@@ -1,69 +1,82 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101673V1.1.11999-10
+id: ETSITR101673V111199910
+schema_version: v1.4.1
 title:
-- content: Technical Framework for the Provision of Interoperable ATM Services; Overview
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6300
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101673/01.01.01_60/tr_101673v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 673 V1.1.1 (1999-10)
+- language: en
+  script: Latn
+  content: Technical Framework for the Provision of Interoperable ATM Services; Overview
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6300
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101600_101699/101673/01.01.01_60/tr_101673v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 673 V1.1.1 (1999-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 673 V1.1.1 (1999-10)
 date:
 - type: published
-  value: 1999-10
+  at: 1999-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: ETSI Project ATM Services and Inter-operability
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1999-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To specify a Technical Framework for the network-network and network management
+- language: en
+  script: Latn
+  content: "To specify a Technical Framework for the network-network and network management
     interfaces to enable interoperable ATM-based services, based on the requirements
     of the ATM MoU working group.\r\nThis standard gives an overview of the structure
     and content of a set of Technical Specifications which comprise the Technical
     Framework.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ATM
-- content: INTERFACE
-- content: INTEROPERABILITY
-- content: NNI
+- taxon:
+  - language: en
+    script: Latn
+    content: ATM
+  - language: en
+    script: Latn
+    content: INTERFACE
+  - language: en
+    script: Latn
+    content: INTEROPERABILITY
+  - language: en
+    script: Latn
+    content: NNI
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: ETSI Project ATM Services and Inter-operability
+    content: Technical Report

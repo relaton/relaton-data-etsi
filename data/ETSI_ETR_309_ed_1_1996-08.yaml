@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR309ed.11996-08
+id: ETSIETR309ed1199608
+schema_version: v1.4.1
 title:
-- content: Special Mobile Group (SMG); Vocabulary for the Universal Mobile Telecommunications
+- language: en
+  script: Latn
+  content: Special Mobile Group (SMG); Vocabulary for the Universal Mobile Telecommunications
     System (UMTS) (UMTS 01.02)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2817
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/309/01_60/etr_309e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 309 ed.1 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2817
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/309/01_60/etr_309e01p.pdf
+docidentifier:
+- content: ETSI ETR 309 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 309 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Universal Mobile Telecommunications System
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETSI Technical Report (ETR) is a collection of terms, definitions\r\nand
+- language: en
+  script: Latn
+  content: "This ETSI Technical Report (ETR) is a collection of terms, definitions\r\nand
     abbreviations related to the baseline documents defining Universal\r\nMobile Telecommunications
     System (UMTS) objectives and systems\r\nframework. This ETR provides a tool for
     further work on UMTS technical\r\ndocumentation and facilitates their understanding.\r\nThe
@@ -52,17 +62,15 @@ abstract:
     with updates of this ETR.\r\nAll efforts have been made to harmonize this vocabulary,
     i.e. to avoid\r\nconflicts with the usage of the same or similar terms in other
     not\r\nUMTS related applications.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: UMTS
+- taxon:
+  - language: en
+    script: Latn
+    content: UMTS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Universal Mobile Telecommunications System
+    content: ETSI Technical Report

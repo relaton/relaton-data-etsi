@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101200V1.1.11997-08
+id: ETSITR101200V111199708
+schema_version: v1.4.1
 title:
-- content: Digital Video Broadcasting (DVB); A guideline for the use of DVB specifications
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); A guideline for the use of DVB specifications
     and standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5841
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101200/01.01.01_60/tr_101200v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 200 V1.1.1 (1997-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5841
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101200_101299/101200/01.01.01_60/tr_101200v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 200 V1.1.1 (1997-08)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 200 V1.1.1 (1997-08)
 date:
 - type: published
-  value: 1997-08
+  at: 1997-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1997-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "In the course of recent years the DVB Project has very successfully de\r\nveloped
+- language: en
+  script: Latn
+  content: "In the course of recent years the DVB Project has very successfully de\r\nveloped
     a considerable list of specifications for Digital Video Broadc\r\nasting. As a
     matter of fact, the term \"Digital Video Broadcasting\" has\r\neven become too
     restricted, since DVB specifications can be used for\r\nbroadcasting all kinds
@@ -62,22 +71,30 @@ abstract:
     documents. This overview should be regarded as a \"cookbook\", list\r\ning all
     the ingredients for a DVB meal. It does not serve the purpose\r\nof giving a detailed
     description of the contents of the documents prod\r\nuced by the DVB Project.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DIGITAL
-- content: DVB
-- content: MPEG
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MPEG
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

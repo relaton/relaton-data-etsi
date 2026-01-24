@@ -1,66 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101495V2.2.12019-11
+id: ETSITR101495V221201911
+schema_version: v1.4.1
 title:
-- content: Digital Audio Broadcasting (DAB); Guide to DAB standards
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58045
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101495/02.02.01_60/tr_101495v020201p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 495 V2.2.1 (2019-11)
+- language: en
+  script: Latn
+  content: Digital Audio Broadcasting (DAB); Guide to DAB standards
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58045
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101400_101499/101495/02.02.01_60/tr_101495v020201p.pdf
+docidentifier:
+- content: ETSI TR 101 495 V2.2.1 (2019-11)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 495 V2.2.1 (2019-11)
 date:
 - type: published
-  value: 2019-11
+  at: 2019-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.2.1
-revdate: 2019-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update to reflect changes in past 2 years
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update to reflect changes in past 2 years
+status:
+  stage: Published
 keyword:
-- content: AUDIO
-- content: BROADCAST
-- content: BROADCASTING
-- content: DAB
-- content: DIGITAL
+- taxon:
+  - language: en
+    script: Latn
+    content: AUDIO
+  - language: en
+    script: Latn
+    content: BROADCAST
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DAB
+  - language: en
+    script: Latn
+    content: DIGITAL
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: Technical Report

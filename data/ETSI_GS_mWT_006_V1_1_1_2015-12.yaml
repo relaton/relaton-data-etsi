@@ -1,68 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSIGSmWT006V1.1.12015-12
+id: ETSIGSmWT006V111201512
+schema_version: v1.4.1
 title:
-- content: millimetre Wave Transmission (mWT); Analysis of antennas for millimetre
+- language: en
+  script: Latn
+  content: millimetre Wave Transmission (mWT); Analysis of antennas for millimetre
     wave transmission
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46644
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/006/01.01.01_60/gs_mWT006v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GS mWT 006 V1.1.1 (2015-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=46644
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gs/mWT/001_099/006/01.01.01_60/gs_mWT006v010101p.pdf
+docidentifier:
+- content: ETSI GS mWT 006 V1.1.1 (2015-12)
   type: ETSI
   primary: true
 docnumber: ETSI GS mWT 006 V1.1.1 (2015-12)
 date:
 - type: published
-  value: 2015-12
+  at: 2015-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: millimeter Wave Transmission
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2015-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    4oCiCUtleSBvcGVyYXRvcnPigJkgZXhwZWN0YXRpb25zIA0K4oCiCVVzZSBjYXNlcyAoaW4gY29ubmVjdGlvbiB3aXRoIFdJIzIpIGFuZCByZWxhdGVkIHBvaW50IHRvIHBvaW50IGFuZCBtdWx0aXBvaW50cyBtaWx0aW1ldHJlLXdhdmUgKFYtYmFuZCAmIEUtYmFuZCkgYW50ZW5uYSByZXF1aXJlbWVudHMuIA0K4oCiCVJldmlldyBvZiB0aGUgY3VycmVudCB0ZWNobm9sb2dpY2FsIGFuZCByZWd1bGF0b3J5IHN0YXR1cw0K4oCiCURlZmluaXRpb24gb2YgdGVybWluaWxvZ3k=
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "\tKey operators expectations \r\n\tUse cases (in connection with WI#2)
+    and related point to point and multipoints miltimetre-wave (V-band & E-band) antenna
+    requirements. \r\n\tReview of the current technological and regulatory status\r\n\tDefinition
+    of terminilogy"
+status:
+  stage: Published
 keyword:
-- content: ANTENNA
-- content: Application
-- content: Millimetre wave
-- content: mWT
-- content: use case
+- taxon:
+  - language: en
+    script: Latn
+    content: ANTENNA
+  - language: en
+    script: Latn
+    content: Application
+  - language: en
+    script: Latn
+    content: Millimetre wave
+  - language: en
+    script: Latn
+    content: mWT
+  - language: en
+    script: Latn
+    content: use case
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Specification
     abbreviation: GS
-  editorialgroup:
-  - name: millimeter Wave Transmission
+    content: Group Specification

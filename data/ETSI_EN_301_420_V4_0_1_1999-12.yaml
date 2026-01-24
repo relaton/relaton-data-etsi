@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301420V4.0.11999-12
+id: ETSIEN301420V401199912
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2); Attachment requirements
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2); Attachment requirements
     for Global System for Mobile communications (GSM); Mobile stations in the DCS
     1 800 band and additional GSM 900 band; Telephony (GSM 13.02 version 4.0.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7090
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301400_301499/301420/04.00.01_60/en_301420v040001p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 420 V4.0.1 (1999-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=7090
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301400_301499/301420/04.00.01_60/en_301420v040001p.pdf
+docidentifier:
+- content: ETSI EN 301 420 V4.0.1 (1999-12)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 420 V4.0.1 (1999-12)
 date:
 - type: published
-  value: 1999-12
+  at: 1999-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 4.0.1
-revdate: 1999-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Merged EN 301 432 and EN 301 420 (GSM 13.02 parts 1 and 2) GSM 900 and
+- language: en
+  script: Latn
+  content: Merged EN 301 432 and EN 301 420 (GSM 13.02 parts 1 and 2) GSM 900 and
     1800
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ACCESS
-- content: DCS
-- content: GSM
-- content: MOBILE
-- content: REGULATION
+- taxon:
+  - language: en
+    script: Latn
+    content: ACCESS
+  - language: en
+    script: Latn
+    content: DCS
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: REGULATION
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Mobile Station (MS) Testing
+    content: European Standard

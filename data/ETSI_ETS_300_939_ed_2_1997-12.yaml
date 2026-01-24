@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300939ed.21997-12
+id: ETSIETS300939ed2199712
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile radio
     interface signalling layer 3; General aspects (GSM 04.07 version 5.2.1)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5428
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300939/02_60/ets_300939e02p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 939 ed.2 (1997-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5428
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300900_300999/300939/02_60/ets_300939e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 939 ed.2 (1997-12)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 939 ed.2 (1997-12)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETS defines the architecture of layer 3\r\nand its sublayers on the
+- language: en
+  script: Latn
+  content: "This ETS defines the architecture of layer 3\r\nand its sublayers on the
     GSM Um interface, i.e. the interface between\r\nmobile station and network. It
     also defines the basic message format\r\nand error handling applied by the layer
     3 protocols.\r\nThe corresponding protocols are defined elsewhere:\r\n- the Radio
@@ -53,23 +63,33 @@ abstract:
     are distributed by use of abstract\r\nservice primitives. But only externally
     observable behaviour resulting\r\nfrom the description is normatively prescribed
     by this Technical\r\nSpecification.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CALL BARRING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: PLMN
-- content: RADIO
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: CALL BARRING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Network Aspects
+    content: European Telecommunication Standard

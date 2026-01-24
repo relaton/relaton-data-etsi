@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSIGRE4P002V1.1.12021-02
+id: ETSIGRE4P002V111202102
+schema_version: v1.4.1
 title:
-- content: Europe for Privacy-Preserving Pandemic Protection (E4P); Comparison of
+- language: en
+  script: Latn
+  content: Europe for Privacy-Preserving Pandemic Protection (E4P); Comparison of
     existing pandemic contact tracing systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59489
-  type: src
-- content: http://www.etsi.org/deliver/etsi_gr/E4P/001_099/002/01.01.01_60/gr_E4P002v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI GR E4P 002 V1.1.1 (2021-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59489
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/E4P/001_099/002/01.01.01_60/gr_E4P002v010101p.pdf
+docidentifier:
+- content: ETSI GR E4P 002 V1.1.1 (2021-02)
   type: ETSI
   primary: true
 docnumber: ETSI GR E4P 002 V1.1.1 (2021-02)
 date:
 - type: published
-  value: 2021-02
+  at: 2021-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Europe for Privacy-Preserving Pandemic Protection
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: This document provides a review of existing pandemic proximity detection
+- language: en
+  script: Latn
+  content: This document provides a review of existing pandemic proximity detection
     methods, applications and other aspects of a pandemic contact tracing system.
     The similarities and differences of the various available or upcoming approaches
     are examined, particularly concerning but not limited to the degree of interoperability,
@@ -60,25 +69,39 @@ abstract:
     the applications and other technical enablers which can be installed on the devices.
     This document provides a basis for the analysis of suitable requirements for a
     standardised solution in Work Item D/E4P-003.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Covid
-- content: eHealth
-- content: emergency services
-- content: Identity
-- content: MOBILITY
-- content: Pandemic
-- content: privacy
-- content: SECURITY
-- content: smartphone
+- taxon:
+  - language: en
+    script: Latn
+    content: Covid
+  - language: en
+    script: Latn
+    content: eHealth
+  - language: en
+    script: Latn
+    content: emergency services
+  - language: en
+    script: Latn
+    content: Identity
+  - language: en
+    script: Latn
+    content: MOBILITY
+  - language: en
+    script: Latn
+    content: Pandemic
+  - language: en
+    script: Latn
+    content: privacy
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: smartphone
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Group Report
     abbreviation: GR
-  editorialgroup:
-  - name: Europe for Privacy-Preserving Pandemic Protection
+    content: Group Report

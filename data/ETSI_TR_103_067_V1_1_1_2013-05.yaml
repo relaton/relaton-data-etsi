@@ -1,68 +1,114 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103067V1.1.12013-05
+id: ETSITR103067V111201305
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Feasibility study on Radio Frequency
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Feasibility study on Radio Frequency
     (RF) performance for Cognitive Radio Systems operating in UHF TV band White Spaces
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35269
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103067/01.01.01_60/tr_103067v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 067 V1.1.1 (2013-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35269
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103000_103099/103067/01.01.01_60/tr_103067v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 067 V1.1.1 (2013-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 067 V1.1.1 (2013-05)
 date:
 - type: published
-  value: 2013-05
+  at: 2013-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyB0ZWNobmljYWwgcmVwb3J0IGFpbXMgdG8gaWRlbnRpZnkgdGhlIHJlbGV2YW50IFJGIHNjZW5hcmlvcyBhbmQgUkYgcGVyZm9ybWFuY2VzIGFwcGxpY2FibGUgdG8gQ29nbml0aXZlIFJhZGlvIFN5c3RlbXMgZm9yOiDCtyBDb2V4aXN0ZW5jZSBiZXR3ZWVuIENvZ25pdGl2ZSBSYWRpbyBTeXN0ZW1zIHdoZW4gc3VjaCBDb2duaXRpdmUgUmFkaW8gU3lzdGVtcyBhcmUgb3BlcmF0aW5nIGluIFVIRiBUViBiYW5kIFdoaXRlIFNwYWNlczsgwrcgRGVwbG95bWVudHMgc2NlbmFyaW9zIGluIHRoZSBVSEYgVFYgYmFuZCBXUyBpbmNsdWRpbmcgYWR2YW5jZWQgaW5jdW1iZW50IHByb3RlY3Rpb24gdGVjaG5pcXVlcyBhbmQgaW1wbGVtZW50YXRpb25zIHN1Y2ggYXMgY29vcGVyYXRpdmUgc2Vuc2luZyBhbmQgYWRkaXRpb25hbCBSRiBhdHRyaWJ1dGVzIGZvciBhZHZhbmNlZCBnZW8tbG9jYXRpb24gZGF0YWJhc2UuICDCtyBDb2V4aXN0ZW5jZSBzdHVkaWVzIGluIFVIRiBUViBiYW5kIFdoaXRlIFNwYWNlcyBpbiByZWdpb25zIG91dHNpZGUgb2YgQ0VQVCByZXNwb25zaWJpbGl0eTsgUkYgc2NlbmFyaW9zIHRvIGJlIGNvbnNpZGVyZWQgaW4gdGhpcyBzdHVkeSBhcmUgdGhlIG9uZXMgZWxhYm9yYXRlZCB3aXRoaW4gRVRTSSBUQyBSUlMgYW5kIGluIHBhcnRpY3VsYXIgYmFzZWQgb24gVFIgMTAyIDkwNyAiVXNlIGNhc2VzIGZvciBPcGVyYXRpb24gaW4gV2hpdGUgU3BhY2UgRnJlcXVlbmN5IEJhbmRzIiBhbmQgd2l0aGluIENFUFQgaW4gZHJhZnQgRUNDIFJlcG9ydCAxNTkgIlRlY2huaWNhbCBhbmQgb3BlcmF0aW9uYWwgcmVxdWlyZW1lbnRzIGZvciB0aGUgcG9zc2libGUgb3BlcmF0aW9uIG9mIGNvZ25pdGl2ZSByYWRpbyBzeXN0ZW1zIGluIHRoZSAnV2hpdGUgc3BhY2VzJyBvZiB0aGUgZnJlcXVlbmN5IGJhbmQgNDcwLTc5MCBNSFoiLiAgSXQgc2hvdWxkIGJlIG5vdGVkIHRoYXQgQ0VQVCBpbnZlc3RpZ2F0ZWQgcHJlbGltaW5hcmlseSB0aGUgcHJhY3RpY2FiaWxpdHkgb2YgaW1wbGVtZW50YXRpb24gb2YgbmV3L2Z1dHVyZSBhcHBsaWNhdGlvbnMgd2l0aGluIHRoZSB3aGl0ZSBzcGFjZSBzcGVjdHJ1bSBpbiB0aGUgYmFuZCA0NzAgLSA4NjIgTUh6IGluIENFUFQgUmVwb3J0IDI0LiBUaGlzIHdhcyBwcmlvciB0aGUgbGljZW5zaW5nIG9mIDc5MCAtIDg2MiBNSHogYmFuZCB0byBNQkIuIE1vcmUgcmVjZW50bHkgZnVydGhlciBpbnZlc3RpZ2F0aW9ucyB3ZXJlIGNvbmR1Y3RlZCBieSBDRVBUIChieSB0aGUgU3BlY3RydW0gRW5naW5lZXJpbmcgZ3JvdXAgNDMpIGFuZCB3ZXJlIHB1Ymxpc2hlZCBpbiB0aGUgZHJhZnQgRUNDIFJlcG9ydCAxNTkgIlRlY2huaWNhbCBhbmQgb3BlcmF0aW9uYWwgcmVxdWlyZW1lbnRzIGZvciB0aGUgcG9zc2libGUgb3BlcmF0aW9uIG9mIGNvZ25pdGl2ZSByYWRpbyBzeXN0ZW1zIGluIHRoZSAnV2hpdGUgc3BhY2VzJyBvZiB0aGUgZnJlcXVlbmN5IGJhbmQgNDcwLTc5MCBNSFoiLiBDRVBUIG1haW5seSBmb2N1c2VkIG9uIHRoZSBwcm90ZWN0aW9uIG9mIHRoZSBpbmN1bWJlbnQgdXNlcnMgYW5kIG9mIHRoZSBzZXJ2aWNlcyBvcGVyYXRpbmcgaW4gYmFuZHMgYWRqYWNlbnQgdG8gdGhlIGJhbmQgNDcwLTc5MCBNSHouIENFUFQgc3R1ZGllcywgd2hpY2ggYXJlIGJhc2VkIG9uIHRoZSBzcGVjdHJ1bSB1c2FnZSBhbmQgZXhwZWN0ZWQgZGVwbG95bWVudHMgaW4gQ0VQVCwgbWF5IG5vdCBiZSBhcHBsaWNhYmxlIHRvIG90aGVyIHJlZ2lvbnMgb2YgdGhlIHdvcmxkLiBIb3dldmVyIGl0IGlzIGV4cGVjdGVkIHRoYXQgdGhlIENFUFQgd29yayB3aWxsIGJlIHRha2VuIGludG8gYWNjb3VudCBpbiB0aGlzIHRlY2huaWNhbCByZXBvcnQuIFJSUyB3aWxsIHVzZSB0aGUgRVRTSSBsaWFpc29uIHdpdGggQ0VQVCB0byBhdm9pZCBvdmVybGFwIGFuZCBpbmZvcm0gb24gdGhlIHByb2dyZXNzIG9mIHRoZSBmZWFzaWJpbGl0eSBzdHVkeS4gVGhpcyB0ZWNobmljYWwgcmVwb3J0IHNob3VsZCBub3QgZHVwbGljYXRlIHdpdGggdGhlIHN0dWRpZXMgYmVpbmcgZG9uZSBpbiBDRVBULiBJZiBhZGRpdGlvbmFsIHN0dWRpZXMgcmVsZXZhbnQgZm9yIENFUFQgYXJlIGlkZW50aWZpZWQsIENFUFQgd2lsbCBiZSBhc2tlZCB0byBjYXJyeSB0aGVtIG91dC4gVGhpcyB0ZWNobmljYWwgcmVwb3J0IHdpbGwgYWRkcmVzcyBhZGRpdGlvbmFsIHN0dWRpZXMgbm90IHJlbGV2YW50IGZvciBDRVBULiBGb3IgaW5zdGFuY2UgYXMgdGhlIHNwZWN0cnVtIHVzYWdlIG1heSBkaWZmZXIgZnJvbSBjb3VudHJpZXMgb3IgcmVnaW9ucywgaXQgaXMgYW50aWNpcGF0ZWQgdG8gaGF2ZSByZWdpb24gb3IgY291bnRyeSBzcGVjaWZpYyBzY2VuYXJpb3MgZS5nLiBSZWdpb24gMSBhbmQgUmVnaW9uIDMuIEFzIGEgcG9zc2libGUgb3V0cHV0IG9mIHRoaXMgdGVjaG5pY2FsIHJlcG9ydCwgcHJvcG9zYWxzIGZvciBkZXZpY2UgY2xhc3NlcyBjYW4gYmUgZWxhYm9yYXRlZC4gIFRoZSB0ZWNobmljYWwgcmVwb3J0IGNhbiBwcmVwYXJlIGZvciBzdGFuZGFyZGl6YXRpb24gd29yayBsYXRlciBvbi4gSW4gdGhlIHByZXNlbnQgdGV4dCwgQ29nbml0aXZlIFJhZGlvIFN5c3RlbXMgb3BlcmF0aW5nIGluIFVIRiBUViBiYW5kIFdoaXRlIFNwYWNlcyBleGNsdWRlIFBNU0Ugc3lzdGVtcy4gDQ0NCg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "This technical report aims to identify the relevant RF scenarios and RF
+    performances applicable to Cognitive Radio Systems for:  Coexistence between Cognitive
+    Radio Systems when such Cognitive Radio Systems are operating in UHF TV band White
+    Spaces;  Deployments scenarios in the UHF TV band WS including advanced incumbent
+    protection techniques and implementations such as cooperative sensing and additional
+    RF attributes for advanced geo-location database.   Coexistence studies in UHF
+    TV band White Spaces in regions outside of CEPT responsibility; RF scenarios to
+    be considered in this study are the ones elaborated within ETSI TC RRS and in
+    particular based on TR 102 907 \"Use cases for Operation in White Space Frequency
+    Bands\" and within CEPT in draft ECC Report 159 \"Technical and operational requirements
+    for the possible operation of cognitive radio systems in the 'White spaces' of
+    the frequency band 470-790 MHZ\".  It should be noted that CEPT investigated preliminarily
+    the practicability of implementation of new/future applications within the white
+    space spectrum in the band 470 - 862 MHz in CEPT Report 24. This was prior the
+    licensing of 790 - 862 MHz band to MBB. More recently further investigations were
+    conducted by CEPT (by the Spectrum Engineering group 43) and were published in
+    the draft ECC Report 159 \"Technical and operational requirements for the possible
+    operation of cognitive radio systems in the 'White spaces' of the frequency band
+    470-790 MHZ\". CEPT mainly focused on the protection of the incumbent users and
+    of the services operating in bands adjacent to the band 470-790 MHz. CEPT studies,
+    which are based on the spectrum usage and expected deployments in CEPT, may not
+    be applicable to other regions of the world. However it is expected that the CEPT
+    work will be taken into account in this technical report. RRS will use the ETSI
+    liaison with CEPT to avoid overlap and inform on the progress of the feasibility
+    study. This technical report should not duplicate with the studies being done
+    in CEPT. If additional studies relevant for CEPT are identified, CEPT will be
+    asked to carry them out. This technical report will address additional studies
+    not relevant for CEPT. For instance as the spectrum usage may differ from countries
+    or regions, it is anticipated to have region or country specific scenarios e.g.
+    Region 1 and Region 3. As a possible output of this technical report, proposals
+    for device classes can be elaborated.  The technical report can prepare for standardization
+    work later on. In the present text, Cognitive Radio Systems operating in UHF TV
+    band White Spaces exclude PMSE systems. \r\r\r\n"
+status:
+  stage: Published
 keyword:
-- content: CRS
-- content: GLDB
-- content: PERFORMANCE
-- content: UHF
-- content: white space
+- taxon:
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: GLDB
+  - language: en
+    script: Latn
+    content: PERFORMANCE
+  - language: en
+    script: Latn
+    content: UHF
+  - language: en
+    script: Latn
+    content: white space
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Report

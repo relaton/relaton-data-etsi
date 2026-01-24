@@ -1,65 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300701ed.11996-10
+id: ETSIETS300701ed1199610
+schema_version: v1.4.1
 title:
-- content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
+- language: en
+  script: Latn
+  content: Digital Enhanced Cordless Telecommunications (DECT); Data Services Profile
     (DSP); Generic frame relay service with mobility (service types A and B, class
     2)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2453
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300701/01_60/ets_300701e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 701 ed.1 (1996-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2453
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300700_300799/300701/01_60/ets_300701e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 701 ed.1 (1996-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 701 ed.1 (1996-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: DECT
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "A standard profile for non-voice equipment with roaming mobility,\r\noptimised
+- language: en
+  script: Latn
+  content: "A standard profile for non-voice equipment with roaming mobility,\r\noptimised
     for low complexity and low power consumption (Service A)\r\nor optimised for high
     performance (Service B) , to be the basis\r\nfor inter-operability between DECT
     equipment in a wide range of\r\napplications, and including specific inter-working
     provisions for\r\nradio LAN access.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Historical
 keyword:
-- content: DATA
-- content: DECT
-- content: LAN
-- content: PROFILE
+- taxon:
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DECT
+  - language: en
+    script: Latn
+    content: LAN
+  - language: en
+    script: Latn
+    content: PROFILE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: DECT
+    content: European Telecommunication Standard

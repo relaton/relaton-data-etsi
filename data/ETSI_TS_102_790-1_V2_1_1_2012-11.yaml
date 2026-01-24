@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102790-1V2.1.12012-11
+id: ETSITS1027901V211201211
+schema_version: v1.4.1
 title:
-- content: 'IMS Network Testing (INT); IMS specific use of Session Initiation Protocol
+- language: en
+  script: Latn
+  content: 'IMS Network Testing (INT); IMS specific use of Session Initiation Protocol
     (SIP) and Session Description Protocol (SDP); Conformance Testing; Part 1: Protocol
     Implementation Conformance Statement (PICS)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37799
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10279001/02.01.01_60/ts_10279001v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 790-1 V2.1.1 (2012-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=37799
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/10279001/02.01.01_60/ts_10279001v020101p.pdf
+docidentifier:
+- content: ETSI TS 102 790-1 V2.1.1 (2012-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 790-1 V2.1.1 (2012-11)
 date:
 - type: published
-  value: 2012-11
+  at: 2012-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: IMS Network Testing
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2012-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Update of the existing document (based on Rel. 7) to 3GPP Rel.10
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Update of the existing document (based on Rel. 7) to 3GPP Rel.10
+status:
+  stage: Published
 keyword:
-- content: IMS
-- content: NETWORK
-- content: PICS
-- content: SIP
-- content: TESTING
+- taxon:
+  - language: en
+    script: Latn
+    content: IMS
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PICS
+  - language: en
+    script: Latn
+    content: SIP
+  - language: en
+    script: Latn
+    content: TESTING
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: IMS Network Testing
+    content: Technical Specification

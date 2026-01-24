@@ -1,69 +1,87 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR313ed.11996-10
+id: ETSIETR313ed1199610
+schema_version: v1.4.1
 title:
-- content: Terminal Equipment (TE); End-to-end protocols for multimedia information
+- language: en
+  script: Latn
+  content: Terminal Equipment (TE); End-to-end protocols for multimedia information
     retrieval services; Interworking between Digital Audio Visual Council (DAVIC)
     compliant broadband systems and Videotex systems
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4200
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/300_399/313/01_60/etr_313e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 313 ed.1 (1996-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4200
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/300_399/313/01_60/etr_313e01p.pdf
+docidentifier:
+- content: ETSI ETR 313 ed.1 (1996-10)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 313 ed.1 (1996-10)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This ETR will describe interworking between a Videotex Enhanced Man\r\nMachine
+- language: en
+  script: Latn
+  content: "This ETR will describe interworking between a Videotex Enhanced Man\r\nMachine
     Interface (VEMMI) and a DAVIC system making use of the DAVIC\r\nhigher layer interface
     (MHEG-5).  The ETR will describe the mapping\r\nof objects (VEMMI - MHEG-5) as
     well as defining the required\r\nbehaviour for the instance of actually performing
     the mapping and the\r\ninterworking.  The mapping rules and interworking mechanisms
     that are\r\nidentified will be generic and applicable to all applications on\r\neither
     platform.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MMI
-- content: MULTIMEDIA
-- content: RETRIEVAL
-- content: TERMINAL
-- content: VEMMI
-- content: VIDEOTEX
+- taxon:
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: MULTIMEDIA
+  - language: en
+    script: Latn
+    content: RETRIEVAL
+  - language: en
+    script: Latn
+    content: TERMINAL
+  - language: en
+    script: Latn
+    content: VEMMI
+  - language: en
+    script: Latn
+    content: VIDEOTEX
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: 'Telematics: Videotex and MultimediaInformation Retrieval Services'
+    content: ETSI Technical Report

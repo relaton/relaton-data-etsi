@@ -1,70 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102792V1.2.12015-06
+id: ETSITS102792V121201506
+schema_version: v1.4.1
 title:
-- content: Intelligent Transport Systems (ITS); Mitigation techniques to avoid interference
+- language: en
+  script: Latn
+  content: Intelligent Transport Systems (ITS); Mitigation techniques to avoid interference
     between European CEN Dedicated Short Range Communication (CEN DSRC) equipment
     and Intelligent Transport Systems (ITS) operating in the 5 GHz frequency range
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44131
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102792/01.02.01_60/ts_102792v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 792 V1.2.1 (2015-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44131
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102700_102799/102792/01.02.01_60/ts_102792v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 792 V1.2.1 (2015-06)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 792 V1.2.1 (2015-06)
 date:
 - type: published
-  value: 2015-06
+  at: 2015-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Media and Medium related
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2015-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Data elements to transmit the position(s) of CEN DSRC equipment have been
+- language: en
+  script: Latn
+  content: Data elements to transmit the position(s) of CEN DSRC equipment have been
     included in EN 302 637-2 (CAM). The new version of TS 102 792 shall further detail
     the definition of its mitigation techniques by making use of these data elements.
     The work item also includes editorial changes to improve the standard.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: DSRC
-- content: ITS
-- content: RADIO
-- content: RTTT
+- taxon:
+  - language: en
+    script: Latn
+    content: DSRC
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: RTTT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Media and Medium related
+    content: Technical Specification

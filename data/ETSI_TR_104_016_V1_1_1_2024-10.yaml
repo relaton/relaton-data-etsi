@@ -1,67 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITR104016V1.1.12024-10
+id: ETSITR104016V111202410
+schema_version: v1.4.1
 title:
-- content: CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe
+- language: en
+  script: Latn
+  content: CYBER; Quantum-Safe Cryptography (QSC); A Repeatable Framework for Quantum-Safe
     Migrations
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68629
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 104 016 V1.1.1 (2024-10)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68629
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104016/01.01.01_60/tr_104016v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 016 V1.1.1 (2024-10)
   type: ETSI
   primary: true
 docnumber: ETSI TR 104 016 V1.1.1 (2024-10)
 date:
 - type: published
-  value: 2024-10
+  at: 2024-10
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Quantum-Safe Cryptography
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-10
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhpcyBwcm9wb3NlZCB3b3JrIGl0ZW0gd2lsbCBkZXNjcmliZSBhIHJlcGVhdGFibGUgZGl2aWRlIGFuZCBjb25xdWVyLXN0eWxlIGZyYW1ld29yayBmb3IgbWlncmF0aW5nLCBpbiBhIHByaW9yaXRpemVkIG9yZGVyLCBhbiBlbnRlcnByaXNl4oCZcyBpbmZvcm1hdGlvbiBzZWN1cml0eSBhc3NldHMgZnJvbSBxdWFudHVtLXZ1bG5lcmFibGUgc3RhdGVzIHRvIHF1YW50dW0tc2FmZSBzdGF0ZXMuIEZpcnN0LCB0aGUgYXBwcm9hY2ggd2lsbCBnaXZlIHJlY29tbWVuZGF0aW9ucyBmb3IgcGFydGl0aW9uaW5nIHRoZSBlbnRlcnByaXNlIGludG8gZGlzY3JldGUgZWxlbWVudHMuIEZvbGxvd2luZywgdGhyb3VnaCB2YXJpb3VzIGFuYWx5c2VzIHdpdGhpbiBhbmQgYmV0d2VlbiB0aGUgZWxlbWVudHMgb2YgdGhlIHBhcnRpdGlvbiwgYSBtZXRob2RvbG9neSB3aWxsIGJlIGRlc2NyaWJlZCBmb3IgZXN0YWJsaXNoaW5nIHF1YW50dW0tc2FmZSBtaWdyYXRpb24gcGxhbnMgZm9yIGVhY2ggcGFydGl0aW9uIGVsZW1lbnQu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: This proposed work item will describe a repeatable divide and conquer-style
+    framework for migrating, in a prioritized order, an enterprises information security
+    assets from quantum-vulnerable states to quantum-safe states. First, the approach
+    will give recommendations for partitioning the enterprise into discrete elements.
+    Following, through various analyses within and between the elements of the partition,
+    a methodology will be described for establishing quantum-safe migration plans
+    for each partition element.
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: Framework
-- content: MIGRATION
-- content: Quantum Safe Cryptography
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: Framework
+  - language: en
+    script: Latn
+    content: MIGRATION
+  - language: en
+    script: Latn
+    content: Quantum Safe Cryptography
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Quantum-Safe Cryptography
+    content: Technical Report

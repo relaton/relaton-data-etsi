@@ -1,59 +1,71 @@
 ---
-schema-version: v1.2.9
-id: ETSIETR297ed.11996-07
+id: ETSIETR297ed1199607
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Human Factors in Videotelephony
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1090
-  type: src
-- content: http://www.etsi.org/deliver/etsi_etr/200_299/297/01_60/etr_297e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETR 297 ed.1 (1996-07)
+- language: en
+  script: Latn
+  content: Human Factors (HF); Human Factors in Videotelephony
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1090
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_etr/200_299/297/01_60/etr_297e01p.pdf
+docidentifier:
+- content: ETSI ETR 297 ed.1 (1996-07)
   type: ETSI
   primary: true
 docnumber: ETSI ETR 297 ed.1 (1996-07)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Telecommunication Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Human factors aspects of Controls and Indications (C+I) in\r\nvideotelephony
+- language: en
+  script: Latn
+  content: "Human factors aspects of Controls and Indications (C+I) in\r\nvideotelephony
     including displays, feedback, tones & pictograms with\r\nemphasis on usability.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MMI
-- content: TELEPHONY
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: TELEPHONY
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Technical Report
     abbreviation: ETR
-  editorialgroup:
-  - name: Telecommunication Services
+    content: ETSI Technical Report

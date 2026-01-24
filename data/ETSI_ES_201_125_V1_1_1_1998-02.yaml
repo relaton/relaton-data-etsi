@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSIES201125V1.1.11998-02
+id: ETSIES201125V111199802
+schema_version: v1.4.1
 title:
-- content: Human Factors (HF); Universal Personal Telecommunications (UPT); Specification
+- language: en
+  script: Latn
+  content: Human Factors (HF); Universal Personal Telecommunications (UPT); Specification
     of the minimum Man-Machine Interface (MMI) for Phase 1 UPT
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4147
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/201100_201199/201125/01.01.01_60/es_201125v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 201 125 V1.1.1 (1998-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4147
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/201100_201199/201125/01.01.01_60/es_201125v010101p.pdf
+docidentifier:
+- content: ETSI ES 201 125 V1.1.1 (1998-02)
   type: ETSI
   primary: true
 docnumber: ETSI ES 201 125 V1.1.1 (1998-02)
 date:
 - type: published
-  value: 1998-02
+  at: 1998-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Human Factors
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "To define the man machine interface requirements for Phase 1 UPT.  To\r\ndescribe
+- language: en
+  script: Latn
+  content: "To define the man machine interface requirements for Phase 1 UPT.  To\r\ndescribe
     user procedures, menu contents, key assignments and voice\r\nannouncements for
     a restricted number of core features.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: HF
-- content: MMI
-- content: SDL
-- content: UPT
+- taxon:
+  - language: en
+    script: Latn
+    content: HF
+  - language: en
+    script: Latn
+    content: MMI
+  - language: en
+    script: Latn
+    content: SDL
+  - language: en
+    script: Latn
+    content: UPT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: Human Factors
+    content: ETSI Standard

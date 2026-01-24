@@ -1,69 +1,91 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300172ed.31995-11
+id: ETSIETS300172ed3199511
+schema_version: v1.4.1
 title:
-- content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
+- language: en
+  script: Latn
+  content: Private Integrated Services Network (PISN); Inter-exchange signalling protocol;
     Circuit-mode basic services [ISO/IEC 11572 (1994) modified]
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3402
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300172/03_60/ets_300172e03p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 172 ed.3 (1995-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3402
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300100_300199/300172/03_60/ets_300172e03p.pdf
+docidentifier:
+- content: ETSI ETS 300 172 ed.3 (1995-11)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 172 ed.3 (1995-11)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) defines the layer 3\r\nprotocol
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) defines the layer 3\r\nprotocol
     for signalling for the support of circuit-mode bearer\r\nservices (used either
     on thei own or in support of teleservices) at\r\nthe Q reference point between
     Private Telecommunication Network\r\neXchanges (PTNX) connected together within
     a Private Telecommunication\r\nNetwork (PTN). The Q reference point is defined
     in ETS 300 475-1.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BASIC
-- content: CCS
-- content: CIRCUIT MODE
-- content: ENDORSEMENT
-- content: PISN
-- content: QSIG
-- content: SERVICE
-- content: STAGE 3
+- taxon:
+  - language: en
+    script: Latn
+    content: BASIC
+  - language: en
+    script: Latn
+    content: CCS
+  - language: en
+    script: Latn
+    content: CIRCUIT MODE
+  - language: en
+    script: Latn
+    content: ENDORSEMENT
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: QSIG
+  - language: en
+    script: Latn
+    content: SERVICE
+  - language: en
+    script: Latn
+    content: STAGE 3
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Telecommunication Standard

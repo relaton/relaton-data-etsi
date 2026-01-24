@@ -1,66 +1,75 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103457V1.2.12023-03
+id: ETSITS103457V121202303
+schema_version: v1.4.1
 title:
-- content: 'CYBER; Trusted Cross-Domain Interface: Interface to offload sensitive
+- language: en
+  script: Latn
+  content: 'CYBER; Trusted Cross-Domain Interface: Interface to offload sensitive
     functions to a trusted domain'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66854
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103457/01.02.01_60/ts_103457v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 457 V1.2.1 (2023-03)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66854
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103457/01.02.01_60/ts_103457v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 457 V1.2.1 (2023-03)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 457 V1.2.1 (2023-03)
 date:
 - type: published
-  value: 2023-03
+  at: 2023-03
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2023-03
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'To implement updates and corrections to the interface specification that
+- language: en
+  script: Latn
+  content: 'To implement updates and corrections to the interface specification that
     have been identified during the implementation of the interface. In addition,
     add sample code to ETSI Forge and link that to the core specification.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cybersecurity
-- content: INTERFACE
+- taxon:
+  - language: en
+    script: Latn
+    content: Cybersecurity
+  - language: en
+    script: Latn
+    content: INTERFACE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

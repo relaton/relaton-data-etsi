@@ -1,69 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103992V1.1.12024-05
+id: ETSITS103992V111202405
+schema_version: v1.4.1
 title:
-- content: Cyber Security (CYBER); Implementation of the Revised Network and Information
+- language: en
+  script: Latn
+  content: Cyber Security (CYBER); Implementation of the Revised Network and Information
     Security (NIS2) Directive applying Critical Security Controls
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68504
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103992/01.01.01_60/ts_103992v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 992 V1.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=68504
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103900_103999/103992/01.01.01_60/ts_103992v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 992 V1.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 992 V1.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Review ETSI TR 103 866 with a view to creating a related Technical Specification.
+- language: en
+  script: Latn
+  content: Review ETSI TR 103 866 with a view to creating a related Technical Specification.
     As part of the review process, all text from the TR will be scrutinised to determine
     if text is OK as it is, needs some altering (e.g. change of language, further
     clarification, etc) or should be moved out (e.g. into an informative annex, removed
     entirely).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: Cyber Security
-- content: Cyber-defence
-- content: Cybersecurity
+- taxon:
+  - language: en
+    script: Latn
+    content: Cyber Security
+  - language: en
+    script: Latn
+    content: Cyber-defence
+  - language: en
+    script: Latn
+    content: Cybersecurity
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Cyber Security
+    content: Technical Specification

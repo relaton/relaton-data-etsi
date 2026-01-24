@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103665V1.1.12021-05
+id: ETSITR103665V111202105
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Data Transmission Systems using Wide
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Data Transmission Systems using Wide
     Band technologies in the 2,4 GHz band
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57448
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103665/01.01.01_60/tr_103665v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 665 V1.1.1 (2021-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=57448
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103665/01.01.01_60/tr_103665v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 665 V1.1.1 (2021-05)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 665 V1.1.1 (2021-05)
 date:
 - type: published
-  value: 2021-05
+  at: 2021-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2021-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'The System Reference Document will be developed in response to the request
+- language: en
+  script: Latn
+  content: 'The System Reference Document will be developed in response to the request
     from WGFM as in document FM(19)075-Annex 48 and will cover the following: (1)
     A description of possible new systems using Wide Band technologies operating at
     100 mW eirp within the 2.4 GHz band which may not fit within the current Annex
@@ -61,18 +70,18 @@ abstract:
     The document will  include the necessary information to support the co-operation
     between ETSI and the Electronic Communications Committee (ECC) of the European
     Conference of Post and Telecommunications Administrations (CEPT).'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRDOC
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

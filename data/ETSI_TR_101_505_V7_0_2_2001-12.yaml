@@ -1,64 +1,73 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101505V7.0.22001-12
+id: ETSITR101505V702200112
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+); Adaptive Multi-Rate
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+); Adaptive Multi-Rate
     (AMR) speech codec; Study Phase Report (3GPP TR 06.76 version 7.0.2 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15481
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101505/07.00.02_60/tr_101505v070002p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 505 V7.0.2 (2001-12)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15481
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/101505/07.00.02_60/tr_101505v070002p.pdf
+docidentifier:
+- content: ETSI TR 101 505 V7.0.2 (2001-12)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 505 V7.0.2 (2001-12)
 date:
 - type: published
-  value: 2001-12
+  at: 2001-12
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Codec
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.2
-revdate: 2001-12
 language:
 - en
 script:
 - Latn
 abstract:
-- content: edito
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: edito
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Codec
+    content: Technical Report

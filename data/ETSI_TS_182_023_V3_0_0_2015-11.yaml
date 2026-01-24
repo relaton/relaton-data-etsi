@@ -1,65 +1,74 @@
 ---
-schema-version: v1.2.9
-id: ETSITS182023V3.0.02015-11
+id: ETSITS182023V300201511
+schema_version: v1.4.1
 title:
-- content: Network Technologies (NTECH); Core and enterprise NGN interaction scenarios;
+- language: en
+  script: Latn
+  content: Network Technologies (NTECH); Core and enterprise NGN interaction scenarios;
     Architecture and functional description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44520
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182023/03.00.00_60/ts_182023v030000p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 182 023 V3.0.0 (2015-11)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=44520
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/182000_182099/182023/03.00.00_60/ts_182023v030000p.pdf
+docidentifier:
+- content: ETSI TS 182 023 V3.0.0 (2015-11)
   type: ETSI
   primary: true
 docnumber: ETSI TS 182 023 V3.0.0 (2015-11)
 date:
 - type: published
-  value: 2015-11
+  at: 2015-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Technologies
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 3.0.0
-revdate: 2015-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Replace the technical contents of this document with references to ETSI
+- language: en
+  script: Latn
+  content: Replace the technical contents of this document with references to ETSI
     TS 124 523(3GPP 24.523).
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INTERACTION
-- content: NETWORK
+- taxon:
+  - language: en
+    script: Latn
+    content: INTERACTION
+  - language: en
+    script: Latn
+    content: NETWORK
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Technologies
+    content: Technical Specification

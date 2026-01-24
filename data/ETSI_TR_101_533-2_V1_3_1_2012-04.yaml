@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSITR101533-2V1.3.12012-04
+id: ETSITR1015332V131201204
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Data Preservation Systems
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Data Preservation Systems
     Security; Part 2: Guidelines for Assessors'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38844
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10153302/01.03.01_60/tr_10153302v010301p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 101 533-2 V1.3.1 (2012-04)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38844
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101500_101599/10153302/01.03.01_60/tr_10153302v010301p.pdf
+docidentifier:
+- content: ETSI TR 101 533-2 V1.3.1 (2012-04)
   type: ETSI
   primary: true
 docnumber: ETSI TR 101 533-2 V1.3.1 (2012-04)
 date:
 - type: published
-  value: 2012-04
+  at: 2012-04
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.3.1
-revdate: 2012-04
 language:
 - en
 script:
 - Latn
 abstract:
-- content: TR 101 533-2 v1.2.1 needs to fix the issues specified in the ESI mailing
+- language: en
+  script: Latn
+  content: TR 101 533-2 v1.2.1 needs to fix the issues specified in the ESI mailing
     list "Amendment of TS/TR 101 533 and TS 102 573" dated Mon, 23 Jan 2012 11:06:45
     +0100
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: data preservation
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: data preservation
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

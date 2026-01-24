@@ -1,68 +1,81 @@
 ---
-schema-version: v1.2.9
-id: ETSITS103868-2V2.1.12024-05
+id: ETSITS1038682V211202405
+schema_version: v1.4.1
 title:
-- content: 'Intelligent Transport Systems (ITS); Testing; Conformance test specifications
+- language: en
+  script: Latn
+  content: 'Intelligent Transport Systems (ITS); Testing; Conformance test specifications
     for ITS Misbehaviour Reporting service; Part 2: Test Suite Structure and Test
     Purposes (TSS & TP); Release 2'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63536
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10386802/02.01.01_60/ts_10386802v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 103 868-2 V2.1.1 (2024-05)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63536
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103800_103899/10386802/02.01.01_60/ts_10386802v020101p.pdf
+docidentifier:
+- content: ETSI TS 103 868-2 V2.1.1 (2024-05)
   type: ETSI
   primary: true
 docnumber: ETSI TS 103 868-2 V2.1.1 (2024-05)
 date:
 - type: published
-  value: 2024-05
+  at: 2024-05
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2024-05
 language:
 - en
 script:
 - Latn
 abstract:
-- content: To develop the TSS&TP document to support testing of the ETSI ITS Misbehaviour
+- language: en
+  script: Latn
+  content: To develop the TSS&TP document to support testing of the ETSI ITS Misbehaviour
     Reporting protocol and service defined in ETSI TS 103 759
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: ITS
-- content: SECURITY
-- content: TESTING
-- content: TSS&amp;TP
+- taxon:
+  - language: en
+    script: Latn
+    content: ITS
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: TESTING
+  - language: en
+    script: Latn
+    content: TSS&amp;TP
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Security
+    content: Technical Specification

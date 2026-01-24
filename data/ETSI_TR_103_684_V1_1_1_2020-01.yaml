@@ -1,71 +1,86 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103684V1.1.12020-01
+id: ETSITR103684V111202001
+schema_version: v1.4.1
 title:
-- content: Electronic Signatures and Infrastructures (ESI); Global Acceptance of EU
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Global Acceptance of EU
     Trust Services
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50839
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103684/01.01.01_60/tr_103684v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 684 V1.1.1 (2020-01)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50839
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103600_103699/103684/01.01.01_60/tr_103684v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 684 V1.1.1 (2020-01)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 684 V1.1.1 (2020-01)
 date:
 - type: published
-  value: 2020-01
+  at: 2020-01
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2020-01
 language:
 - en
 script:
 - Latn
 abstract:
-- content: 'This report will assess the relevant differences between existing global
+- language: en
+  script: Latn
+  content: 'This report will assess the relevant differences between existing global
     PKI schemes and the EU standards for policy requirements, assessment scheme and
     trust status defined in ETSI EN 319 411, EN 319 401, EN 319 403 and TS 119 612,
     and identify opportunities to further steps which could be taken to increase European
     foothold in the global market for Trust Services.  '
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: conformity
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
-- content: trust services
+- taxon:
+  - language: en
+    script: Latn
+    content: conformity
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
+  - language: en
+    script: Latn
+    content: trust services
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Report

@@ -1,68 +1,83 @@
 ---
-schema-version: v1.2.9
-id: ETSITS101415V7.3.02000-07
+id: ETSITS101415V730200007
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Support of
     Localised Service Area (SoLSA); Service description; Stage 1 (GSM 02.43 version
     7.3.0 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11114
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101415/07.03.00_60/ts_101415v070300p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 101 415 V7.3.0 (2000-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=11114
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/101400_101499/101415/07.03.00_60/ts_101415v070300p.pdf
+docidentifier:
+- content: ETSI TS 101 415 V7.3.0 (2000-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 101 415 V7.3.0 (2000-07)
 date:
 - type: published
-  value: 2000-07
+  at: 2000-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Services
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.3.0
-revdate: 2000-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Crs from TSG#8\r\n\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "Crs from TSG#8\r\n\r\n"
+status:
+  stage: Published
 keyword:
-- content: CHARGING
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: MOBILE
-- content: STAGE 1
+- taxon:
+  - language: en
+    script: Latn
+    content: CHARGING
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: STAGE 1
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Services
+    content: Technical Specification

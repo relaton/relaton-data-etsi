@@ -1,46 +1,56 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300612-1ed.11996-08
+id: ETSIETS3006121ed1199608
+schema_version: v1.4.1
 title:
-- content: 'Digital cellular telecommunications system (Phase 2) (GSM); Network Management
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2) (GSM); Network Management
     (NM); Part 1: Objectives and structure of network management (GSM 12.00)'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2057
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30061201/01_60/ets_30061201e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 612-1 ed.1 (1996-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=2057
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300600_300699/30061201/01_60/ets_30061201e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 612-1 ed.1 (1996-08)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 612-1 ed.1 (1996-08)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Operations & Maintenance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "This European Telecommunication Standard (ETS) provides the conceptual\r\nand
+- language: en
+  script: Latn
+  content: "This European Telecommunication Standard (ETS) provides the conceptual\r\nand
     methodological framework for the definition of a standardized\r\napproach to the
     management of a PLMN. (This framework is elaborated in\r\nthe remainder of the
     12 series specifications) It introduces concepts\r\ndeveloped for the management
@@ -56,23 +66,33 @@ abstract:
     of the enterprise model is outside of the\r\nscope of this series of ETSs, an
     understanding of the requirements is\r\nnecessary so as to provide the underlying
     network management\r\nprocedures.\r\n "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2
-- content: MANAGEMENT
-- content: MOBILE
-- content: NETWORK
-- content: PLMN
-- content: RADIO
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: MOBILE
+  - language: en
+    script: Latn
+    content: NETWORK
+  - language: en
+    script: Latn
+    content: PLMN
+  - language: en
+    script: Latn
+    content: RADIO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Operations & Maintenance
+    content: European Telecommunication Standard

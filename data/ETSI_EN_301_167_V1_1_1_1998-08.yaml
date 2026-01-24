@@ -1,69 +1,84 @@
 ---
-schema-version: v1.2.9
-id: ETSIEN301167V1.1.11998-08
+id: ETSIEN301167V111199808
+schema_version: v1.4.1
 title:
-- content: Transmission and Multiplexing (TM); Management of Synchronous Digital Hierarchy
+- language: en
+  script: Latn
+  content: Transmission and Multiplexing (TM); Management of Synchronous Digital Hierarchy
     (SDH) transmission equipment; Fault management and performance monitoring; Functional
     description
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6136
-  type: src
-- content: http://www.etsi.org/deliver/etsi_en/301100_301199/301167/01.01.01_60/en_301167v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI EN 301 167 V1.1.1 (1998-08)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6136
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_en/301100_301199/301167/01.01.01_60/en_301167v010101p.pdf
+docidentifier:
+- content: ETSI EN 301 167 V1.1.1 (1998-08)
   type: ETSI
   primary: true
 docnumber: ETSI EN 301 167 V1.1.1 (1998-08)
 date:
 - type: published
-  value: 1998-08
+  at: 1998-08
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Architecture, Operations, Maintenance, Principle & Performance
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 1998-08
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Functional specification for all management aspects fo\r\nSDH equipment
+- language: en
+  script: Latn
+  content: "Functional specification for all management aspects fo\r\nSDH equipment
     and the mapping between the atomic functions and the\r\ninformation model.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: MANAGEMENT
-- content: SDH
-- content: TMN
-- content: TRANSMISSION
-- content: TRANSPORT
+- taxon:
+  - language: en
+    script: Latn
+    content: MANAGEMENT
+  - language: en
+    script: Latn
+    content: SDH
+  - language: en
+    script: Latn
+    content: TMN
+  - language: en
+    script: Latn
+    content: TRANSMISSION
+  - language: en
+    script: Latn
+    content: TRANSPORT
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Standard
     abbreviation: EN
-  editorialgroup:
-  - name: Network Architecture, Operations, Maintenance, Principle & Performance
+    content: European Standard

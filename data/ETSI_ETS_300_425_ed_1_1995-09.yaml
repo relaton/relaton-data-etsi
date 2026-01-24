@@ -1,64 +1,80 @@
 ---
-schema-version: v1.2.9
-id: ETSIETS300425ed.11995-09
+id: ETSIETS300425ed1199509
+schema_version: v1.4.1
 title:
-- content: Private Telecommunication Network (PTN); Specification, functional models
+- language: en
+  script: Latn
+  content: Private Telecommunication Network (PTN); Specification, functional models
     and information flows; Call intrusion supplementary service
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1195
-  type: src
-- content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300425/01_60/ets_300425e01p.pdf
-  type: pdf
-docid:
-- id: ETSI ETS 300 425 ed.1 (1995-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=1195
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300400_300499/300425/01_60/ets_300425e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 425 ed.1 (1995-09)
   type: ETSI
   primary: true
 docnumber: ETSI ETS 300 425 ed.1 (1995-09)
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Standardizing information and communications systems
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "Contains stages 1 and stage 2 description of the intrusion\r\nsupplementary
+- language: en
+  script: Latn
+  content: "Contains stages 1 and stage 2 description of the intrusion\r\nsupplementary
     service. See ECMA DTR/ECMA-0002 (ECMA-TR/SVC) for a\r\ndescription of the intrusion
     supplementary service. See ENv 41 005 for\r\ndefinition of stages 1 and 2.\r\n
     \ "
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: INT
-- content: PISN
-- content: STAGE 1
-- content: STAGE 2
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: INT
+  - language: en
+    script: Latn
+    content: PISN
+  - language: en
+    script: Latn
+    content: STAGE 1
+  - language: en
+    script: Latn
+    content: STAGE 2
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: European Telecommunication Standard
     abbreviation: ETS
-  editorialgroup:
-  - name: Standardizing information and communications systems
+    content: European Telecommunication Standard

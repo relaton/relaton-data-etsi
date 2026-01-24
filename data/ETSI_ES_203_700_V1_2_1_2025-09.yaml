@@ -1,73 +1,92 @@
 ---
-schema-version: v1.2.9
-id: ETSIES203700V1.2.12025-09
+id: ETSIES203700V121202509
+schema_version: v1.4.1
 title:
-- content: Environmental Engineering (EE); Sustainable power feeding solutions for
+- language: en
+  script: Latn
+  content: Environmental Engineering (EE); Sustainable power feeding solutions for
     5G network
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72229
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/203700_203799/203700/01.02.01_60/es_203700v010201p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 203 700 V1.2.1 (2025-09)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=72229
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/203700_203799/203700/01.02.01_60/es_203700v010201p.pdf
+docidentifier:
+- content: ETSI ES 203 700 V1.2.1 (2025-09)
   type: ETSI
   primary: true
 docnumber: ETSI ES 203 700 V1.2.1 (2025-09)
 date:
 - type: published
-  value: 2025-09
+  at: 2025-09
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EE Power Supply
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.2.1
-revdate: 2025-09
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "- Complete a full review of the standard updating information which is
+- language: en
+  script: Latn
+  content: "- Complete a full review of the standard updating information which is
     not current. Including section 5 which makes reference to 5G as a future technology
     and references future dates which are now in the past. \r\n- Correct errors identified
     in Section 5 concerning voltage levels.\r\n- Remove reference to EN 300 132 -3-1
     and replace it with EN 300 132 -3"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: 5G
-- content: CABLE
-- content: Energy Efficiency
-- content: HYBRID
-- content: POWER
-- content: REMOTE
-- content: Sustainability
+- taxon:
+  - language: en
+    script: Latn
+    content: 5G
+  - language: en
+    script: Latn
+    content: CABLE
+  - language: en
+    script: Latn
+    content: Energy Efficiency
+  - language: en
+    script: Latn
+    content: HYBRID
+  - language: en
+    script: Latn
+    content: POWER
+  - language: en
+    script: Latn
+    content: REMOTE
+  - language: en
+    script: Latn
+    content: Sustainability
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EE Power Supply
+    content: ETSI Standard

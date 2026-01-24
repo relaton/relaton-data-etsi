@@ -1,66 +1,79 @@
 ---
-schema-version: v1.2.9
-id: ETSITS100606V7.0.11999-07
+id: ETSITS100606V701199907
+schema_version: v1.4.1
 title:
-- content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Signalling
     interworking for supplementary services (GSM 09.11 version 7.0.1 Release 1998)
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8136
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100606/07.00.01_60/ts_100606v070001p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 100 606 V7.0.1 (1999-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8136
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/100600_100699/100606/07.00.01_60/ts_100606v070001p.pdf
+docidentifier:
+- content: ETSI TS 100 606 V7.0.1 (1999-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 100 606 V7.0.1 (1999-07)
 date:
 - type: published
-  value: 1999-07
+  at: 1999-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 7.0.1
-revdate: 1999-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "SUBJECT\r\nIntroduction of CD\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nIntroduction of CD\r\n"
+status:
+  stage: Published
 keyword:
-- content: GSM
-- content: GSM_PHASE2_PLUS
-- content: INTERWORKING
-- content: SUPPLEMENTARY SERVICE
+- taxon:
+  - language: en
+    script: Latn
+    content: GSM
+  - language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+  - language: en
+    script: Latn
+    content: INTERWORKING
+  - language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Network Aspects
+    content: Technical Specification

@@ -1,66 +1,85 @@
 ---
-schema-version: v1.2.9
-id: ETSITS102176-1V2.1.12011-07
+id: ETSITS1021761V211201107
+schema_version: v1.4.1
 title:
-- content: 'Electronic Signatures and Infrastructures (ESI); Algorithms and Parameters
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Infrastructures (ESI); Algorithms and Parameters
     for Secure Electronic Signatures; Part 1: Hash functions and asymmetric algorithms'
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31439
-  type: src
-- content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10217601/02.01.01_60/ts_10217601v020101p.pdf
-  type: pdf
-docid:
-- id: ETSI TS 102 176-1 V2.1.1 (2011-07)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=31439
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102100_102199/10217601/02.01.01_60/ts_10217601v020101p.pdf
+docidentifier:
+- content: ETSI TS 102 176-1 V2.1.1 (2011-07)
   type: ETSI
   primary: true
 docnumber: ETSI TS 102 176-1 V2.1.1 (2011-07)
 date:
 - type: published
-  value: 2011-07
+  at: 2011-07
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 2.1.1
-revdate: 2011-07
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    U2luY2UgbmF0aW9uYWwgbGVnaXNsYXRpb24gb2Ygc29tZSBFVSBNZW1iZXIgU3RhdGVzIHJlbHkgb24gdGhlIFRTIDEwMjE3Ni0xIG9uIHBhcmFtZXRlcnMgb2YgQWxnb3JpdGhtcyBuZWVkcyB0byByZXZpc2UgcmVndWxhcmx5IGR1ZSB0byBjcnlwdG9hbmFseXNpcyBwcm9ncmVzcyBhbmQgdGhlIGludHJvZHVjdGlvbiBvZiBuZXcgYWxnb3JpdGhtcy4gVGhlIHVzZSBvZiBhIG1hY2hpbmUtcHJvY2Vzc2FibGUgcGFyYW1ldGVyIGRlc2NyaXB0aW9uLCBhcyBlLmcuIHRoZSBjdXJyZW50IEludGVybmV0IERyYWZ0IOKAnERhdGEgU3RydWN0dXJlIGZvciB0aGUgU2VjdXJpdHkgU3VpdGFiaWxpdHkgb2YgQ3J5cHRvZ3JhcGhpYyBBbGdvcml0aG1zIChEU1NDKeKAnSBwdWJsaXNoZWQgYnkgdGhlIElFVEYgTFRBTlMgZ3JvdXAsIGEgc3RhbmRhcmQgZm9ybWF0IHdoaWNoIGFsbG93IHVuaXF1ZSBkZXNjcmlwdGlvbiBvZiBzdWl0YWJsZSBwYXJhbWV0ZXJzIHJlbGF0ZWQgdG8gY29uY3JldGUgcGVyaW9kIG9mIHRpbWUgc2hvdWxkIGJlIGNvbnNpZGVyZWQuIFRoZSBtYWludGVuYW5jZSBwb2xpY3kgb2YgY3J5cHRvZ3JhcGhpYyBhbGdvcml0aG1zIG9uIHRoZSBsb25nIHRlcm0gb2Ygc2lnbmF0dXJlIGFsZ29yaXRobXMgaXMgbm90IGZvcm1hbGl6ZWQgeWV0LCBhcyBpdCBpcyBmb3IgdGhlIHNpZ25hdHVyZSBwb2xpY3kgdG9kYXkuIFRoZSByZXZpc2VkIFRTIHdpbGwgYWRkcmVzcyB0aGlzIGNvbmNlcm4gdG9vLg==
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: Since national legislation of some EU Member States rely on the TS 102176-1
+    on parameters of Algorithms needs to revise regularly due to cryptoanalysis progress
+    and the introduction of new algorithms. The use of a machine-processable parameter
+    description, as e.g. the current Internet Draft Data Structure for the Security
+    Suitability of Cryptographic Algorithms (DSSC) published by the IETF LTANS group,
+    a standard format which allow unique description of suitable parameters related
+    to concrete period of time should be considered. The maintenance policy of cryptographic
+    algorithms on the long term of signature algorithms is not formalized yet, as
+    it is for the signature policy today. The revised TS will address this concern
+    too.
+status:
+  stage: Historical
 keyword:
-- content: e-commerce
-- content: ELECTRONIC SIGNATURE
-- content: SECURITY
+- taxon:
+  - language: en
+    script: Latn
+    content: e-commerce
+  - language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+  - language: en
+    script: Latn
+    content: SECURITY
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Specification
     abbreviation: TS
-  editorialgroup:
-  - name: Electronic Signatures and Infrastructures
+    content: Technical Specification

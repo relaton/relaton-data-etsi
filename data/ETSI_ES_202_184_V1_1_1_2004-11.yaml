@@ -1,71 +1,94 @@
 ---
-schema-version: v1.2.9
-id: ETSIES202184V1.1.12004-11
+id: ETSIES202184V111200411
+schema_version: v1.4.1
 title:
-- content: MHEG-5 Broadcast Profile
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16127
-  type: src
-- content: http://www.etsi.org/deliver/etsi_es/202100_202199/202184/01.01.01_60/es_202184v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI ES 202 184 V1.1.1 (2004-11)
+- language: en
+  script: Latn
+  content: MHEG-5 Broadcast Profile
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=16127
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_es/202100_202199/202184/01.01.01_60/es_202184v010101p.pdf
+docidentifier:
+- content: ETSI ES 202 184 V1.1.1 (2004-11)
   type: ETSI
   primary: true
 docnumber: ETSI ES 202 184 V1.1.1 (2004-11)
 date:
 - type: published
-  value: 2004-11
+  at: 2004-11
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2004-11
 language:
 - en
 script:
 - Latn
 abstract:
-- content: Specification of a European MHEG-5 profile for broadcasting compatible
+- language: en
+  script: Latn
+  content: Specification of a European MHEG-5 profile for broadcasting compatible
     with DVB transmission systems.
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: BROADCASTING
-- content: DATA
-- content: DIGITAL
-- content: DVB
-- content: MHEG
-- content: MPEG
-- content: TERRESTRIAL
-- content: TV
-- content: VIDEO
+- taxon:
+  - language: en
+    script: Latn
+    content: BROADCASTING
+  - language: en
+    script: Latn
+    content: DATA
+  - language: en
+    script: Latn
+    content: DIGITAL
+  - language: en
+    script: Latn
+    content: DVB
+  - language: en
+    script: Latn
+    content: MHEG
+  - language: en
+    script: Latn
+    content: MPEG
+  - language: en
+    script: Latn
+    content: TERRESTRIAL
+  - language: en
+    script: Latn
+    content: TV
+  - language: en
+    script: Latn
+    content: VIDEO
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: ETSI Standard
     abbreviation: ES
-  editorialgroup:
-  - name: EBU/CENELEC/ETSI on Broadcasting
+    content: ETSI Standard

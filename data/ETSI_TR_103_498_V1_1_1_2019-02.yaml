@@ -1,68 +1,89 @@
 ---
-schema-version: v1.2.9
-id: ETSITR103498V1.1.12019-02
+id: ETSITR103498V111201902
+schema_version: v1.4.1
 title:
-- content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
+- language: en
+  script: Latn
+  content: System Reference document (SRdoc); Short Range Devices (SRD) using Ultra
     Wide Band (UWB); Transmission characteristics; Technical characteristics for SRD
     equipment using Ultra Wide Band technology (UWB); Radiodetermination application
     within the frequency range 120 GHz to 260 GHz
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50989
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103498/01.01.01_60/tr_103498v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 103 498 V1.1.1 (2019-02)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50989
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103400_103499/103498/01.01.01_60/tr_103498v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 498 V1.1.1 (2019-02)
   type: ETSI
   primary: true
 docnumber: ETSI TR 103 498 V1.1.1 (2019-02)
 date:
 - type: published
-  value: 2019-02
+  at: 2019-02
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: EMC and Radio Spectrum Matters
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2019-02
 language:
 - en
 script:
 - Latn
 abstract:
-- content: !binary |-
-    VGhlIHByZXNlbnQgZG9jdW1lbnQgcHJvdmlkZXMgaW5mb3JtYXRpb24gb24gdGhlIGludGVuZGVkIGFwcGxpY2F0aW9ucywgdGhlIHRlY2huaWNhbCBwYXJhbWV0ZXJzLCB0aGUgcmVsYXRpb24gdG8gdGhlIGV4aXN0aW5nIHNwZWN0cnVtIHJlZ3VsYXRpb24gYW5kIGFkZGl0aW9uYWwgbmV3IHJhZGlvIHNwZWN0cnVtIHJlcXVpcmVtZW50cyBmb3IgYWR2YW5jZWQgVVdCIGVxdWlwbWVudC4gVGhlIHByZXNlbnQgZG9jdW1lbnQgaW5jbHVkZXMgbmVjZXNzYXJ5IGluZm9ybWF0aW9uIHRvIHN1cHBvcnQgdGhlIGNvLW9wZXJhdGlvbiBiZXR3ZWVuIEVUU0kgYW5kIHRoZSBFbGVjdHJvbmljIENvbW11bmljYXRpb25zIENvbW1pdHRlZSAoRUNDKSBvZiB0aGUgRXVyb3BlYW4gQ29uZmVyZW5jZSBvZiBQb3N0IGFuZCBUZWxlY29tbXVuaWNhdGlvbnMgQWRtaW5pc3RyYXRpb25zIChDRVBUKSwgaW5jbHVkaW5nOiDigKIgRGV0YWlsZWQgbWFya2V0IGluZm9ybWF0aW9uIChhbm5leCBBKTsg4oCiIFRlY2huaWNhbCBpbmZvcm1hdGlvbiAoYW5uZXggQik7IOKAoiBSZWxhdGlvbiB0byBleGlzdGluZyBzcGVjdHJ1bSByZWd1bGF0aW9uIChhbm5leCBDKTsg4oCiIEV4cGVjdGVkIGNvbXBhdGliaWxpdHkgaXNzdWVzIChhbm5leCBEKS4gUmVxdWlyZW1lbnRzIG9uIHRoZSBkZXZpY2VzIGZvciB0aGUgaW50ZW5kZWQgYXBwbGljYXRpb25zIGFyZSBlLmcgdG8gbWVhc3VyZSBzaG9ydCBkaXNjdGFuY2VzIGluIHNtYWxsIGNvbnRhaW5lcnMgd2l0aCBhbiBoaWdoIGFjY3VyYWN5IChzdWIgbW0pIGFuZCBvYmplY3QgcmVzb2x1dGlvbiBvciB0byBkZXRlY3Qgc21hbGwgYW5kIGZhc3Qgb2JqZWN0cyB3aXRoaW4gYSBnaXZlbiBzdXJ2ZWlsbGFuY2UgYXJlYS4gVGhlcmVmb3JlIGEgVVdCIFNSRCBhbGxvY2F0aW9uIHdpdGggMTUgLSAyMEdIeiBiYW5kd2lkdGggaXMgcmVxdWlyZWQu
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+- language: en
+  script: Latn
+  content: 'The present document provides information on the intended applications,
+    the technical parameters, the relation to the existing spectrum regulation and
+    additional new radio spectrum requirements for advanced UWB equipment. The present
+    document includes necessary information to support the co-operation between ETSI
+    and the Electronic Communications Committee (ECC) of the European Conference of
+    Post and Telecommunications Administrations (CEPT), including:  Detailed market
+    information (annex A);  Technical information (annex B);  Relation to existing
+    spectrum regulation (annex C);  Expected compatibility issues (annex D). Requirements
+    on the devices for the intended applications are e.g to measure short disctances
+    in small containers with an high accuracy (sub mm) and object resolution or to
+    detect small and fast objects within a given surveillance area. Therefore a UWB
+    SRD allocation with 15 - 20GHz bandwidth is required.'
+status:
+  stage: Published
 keyword:
-- content: RADIO
-- content: SRDOC
-- content: UWB
+- taxon:
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: SRDOC
+  - language: en
+    script: Latn
+    content: UWB
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: EMC and Radio Spectrum Matters
+    content: Technical Report

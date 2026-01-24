@@ -1,52 +1,61 @@
 ---
-schema-version: v1.2.9
-id: ETSITR102947V1.1.12013-06
+id: ETSITR102947V111201306
+schema_version: v1.4.1
 title:
-- content: Reconfigurable Radio Systems (RRS); Use Cases for building and exploitation
+- language: en
+  script: Latn
+  content: Reconfigurable Radio Systems (RRS); Use Cases for building and exploitation
     of Radio Environment Maps (REMs) for intra-operator scenarios
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
-link:
-- content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35719
-  type: src
-- content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102947/01.01.01_60/tr_102947v010101p.pdf
-  type: pdf
-docid:
-- id: ETSI TR 102 947 V1.1.1 (2013-06)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=35719
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/102900_102999/102947/01.01.01_60/tr_102947v010101p.pdf
+docidentifier:
+- content: ETSI TR 102 947 V1.1.1 (2013-06)
   type: ETSI
   primary: true
 docnumber: ETSI TR 102 947 V1.1.1 (2013-06)
 date:
 - type: published
-  value: 2013-06
+  at: 2013-06
 contributor:
-- organization:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
     name:
     - content: European Telecommunications Standards Institute
-      language:
-      - en
-      script:
-      - Latn
+    subdivision:
+    - name:
+      - content: System Aspects & Cognitive functionalities
+      type: technical-committee
     abbreviation:
+      language: en
+      script: Latn
       content: ETSI
-      language:
-      - en
-      script:
-      - Latn
-  role:
-  - type: publisher
 version:
 - draft: 1.1.1
-revdate: 2013-06
 language:
 - en
 script:
 - Latn
 abstract:
-- content: "The scope of the work in this technical report is to identify use cases
+- language: en
+  script: Latn
+  content: "The scope of the work in this technical report is to identify use cases
     and provide system level functionality for building and exploiting evolutionary
     Radio Environment Maps (REMs) in a single or multi-RAT context in intra-operator
     scenarios.\r\nBuilding the REM within RRS context requires the enhancement of
@@ -57,19 +66,21 @@ abstract:
     includes a general description of the use cases and associated stakeholders as
     well as information flows and high level requirements. Technical challenges are
     also identified.\r\n"
-  language:
-  - en
-  script:
-  - Latn
-  format: text/plain
+status:
+  stage: Published
 keyword:
-- content: CRS
-- content: RADIO
-- content: radio measurements
+- taxon:
+  - language: en
+    script: Latn
+    content: CRS
+  - language: en
+    script: Latn
+    content: RADIO
+  - language: en
+    script: Latn
+    content: radio measurements
 ext:
-  schema-version: v0.0.3
+  schema_version: v0.0.3
   doctype:
-    type: Technical Report
     abbreviation: TR
-  editorialgroup:
-  - name: System Aspects & Cognitive functionalities
+    content: Technical Report
