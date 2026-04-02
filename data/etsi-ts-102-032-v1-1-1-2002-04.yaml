@@ -1,0 +1,103 @@
+---
+id: ETSITS102032V111200204
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Digital Video Broadcasting (DVB); SNMP MIB for test and measurement applications
+    in DVB systems
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=15162
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102000_102099/102032/01.01.01_60/ts_102032v010101p.pdf
+docidentifier:
+- content: ETSI TS 102 032 V1.1.1 (2002-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 032 V1.1.1 (2002-04)
+date:
+- type: published
+  at: 2002-04
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This document contains a recommendation for the SNMP MIB (Simple Network
+    Management Protocol - Management Information Base) that addresses the relevant
+    issues of the DVB Measurement Guidelines (TR 101 290).\r\nThe intention was to
+    create a MIB that can be used in all test and measurement instruments which provide
+    information on parameters defined in the DVB Measurement Guidelines. It can also
+    be implemented in other equipment that provides besides its main functionalities
+    information on parameters as defined in the DVB Measurement Guidelines, and which
+    is strictly speaking not a test and measurement instrument.\r\nThis MG MIB is
+    self-sufficient in the sense that it does not require any other MIB for proper
+    operation. It contains all administrative information necessary for its operation,
+    and it provides a description of the data base for all parameters in the TR 101
+    290 that are suitable for network managment; i. e. it does not address out-of-service
+    measurments or similar issues.\r\nThe lower layers of the SNMP protocol stack
+    were not addressed for the purpose of this document. It was understood that there
+    is a variety of existing standards which are applicable for different application
+    scenarios. Neither the speed of the links in the management network is considered,
+    nor are the security aspects addressed."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: BROADCASTING
+- vocab:
+    language: en
+    script: Latn
+    content: DIGITAL
+- vocab:
+    language: en
+    script: Latn
+    content: DVB
+- vocab:
+    language: en
+    script: Latn
+    content: TESTING
+- vocab:
+    language: en
+    script: Latn
+    content: VIDEO
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

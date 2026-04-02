@@ -1,0 +1,106 @@
+---
+id: ETSITS104002V111202308
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Publicly Available Specification (PAS); DASH-IF Forensic A/B Watermarking
+    An interoperable watermarking integration schema
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=67989
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/104000_104099/104002/01.01.01_60/ts_104002v010101p.pdf
+docidentifier:
+- content: ETSI TS 104 002 V1.1.1 (2023-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 104 002 V1.1.1 (2023-08)
+date:
+- type: published
+  at: 2023-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The scope of this work is the definition of an architecture and an Application
+    Programming Interface (API) for supporting A/B forensic watermarking for Over-The-Top
+    (OTT) on content that is delivered in an Adaptive Bitrate (ABR) format. To the
+    possible extend, the proposed solutions do not make assumptions on the ABR technology
+    that is being used, it can be for example, DASH or HLS. A/B forensic watermarking
+    means that at least two watermarked versions of content (variant A and variant
+    B) are delivered up to a CDN edge server from the encoder. The edge server is
+    responsible for delivering either the A or B variant of every segment to the device.\r\n\tWhile
+    digital watermarking can be used for different use cases, this work will focus
+    on forensic use cases. In this context, it is used to define the origin of content
+    leakage. The watermarking technology modifies media content in a robust and invisible
+    way in order to encode a unique identifier, e.g., a unique session ID. The embedded
+    watermark provides means to identify where the media content, that has been redistributed
+    without authorization, is coming from. In other words, the watermark is used to
+    forensically trace the origin of content leakage.\r\nThis work is carried out
+    under the PAS agreement between ETSI and DASH-IF\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: BROADBAND
+- vocab:
+    language: en
+    script: Latn
+    content: CDN
+- vocab:
+    language: en
+    script: Latn
+    content: DASH
+- vocab:
+    language: en
+    script: Latn
+    content: DRM
+- vocab:
+    language: en
+    script: Latn
+    content: INTERNET
+- vocab:
+    language: en
+    script: Latn
+    content: PAS
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

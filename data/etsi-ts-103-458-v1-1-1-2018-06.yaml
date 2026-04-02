@@ -1,0 +1,99 @@
+---
+id: ETSITS103458V111201806
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: CYBER; Application of Attribute Based Encryption (ABE) for PII and personal
+    data protection on IoT devices, WLAN, cloud and mobile services - High level requirements
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50110
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/103400_103499/103458/01.01.01_60/ts_103458v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 458 V1.1.1 (2018-06)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 103 458 V1.1.1 (2018-06)
+date:
+- type: published
+  at: 2018-06
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This WI specifies an application of ABE to implement ABAC for specific
+    environments where access to data has to be given to multiple parties and under
+    different conditions.\r\nThe work item will describe the ABE encryption and decryption
+    mechanisms, the boundary conditions relating to the underlying cryptography, the
+    key distribution protocols and any related architectural aspect.\r\nThree main
+    use cases will be addressed: Cloud, Mobile, IoT.\r\nCloud: At least one use case
+    from ISO 19944. The use case will adopt policy rule syntax from 19944, and ISO
+    definition and standard architecture for Cloud computing from ISO/IEC 17788/9.
+    Under the liaison with ISO/IEC SC38, it is proposed that this activity could be
+    performed in connection and with the advisory of ISO 19944 project for impact
+    evaluation.\r\nMobile: At least one use cases from the Smarter 3GPP document TR22.891
+    related to the scenario of user access from less trusted networks. The objective
+    is to provide user identity protection preventivg disclousure to unauthorized
+    entity.\r\nIoT: At least two use cases covering IoT or edge scenarios where data
+    access mechanisms are actioned either in the network or on the device. The objective
+    is to retain flexibility w.r.t. reuse of the work by other standardisation bodies,
+    e.g. oneM2M."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: access control
+- vocab:
+    language: en
+    script: Latn
+    content: CONFIDENTIALITY
+- vocab:
+    language: en
+    script: Latn
+    content: PORTABILITY
+- vocab:
+    language: en
+    script: Latn
+    content: privacy
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

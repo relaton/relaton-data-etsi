@@ -1,0 +1,88 @@
+---
+id: ETSITR104066V111202407
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Securing Artificial Intelligence (SAI); Security Testing of AI
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69993
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/104000_104099/104066/01.01.01_60/tr_104066v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 066 V1.1.1 (2024-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 104 066 V1.1.1 (2024-07)
+date:
+- type: published
+  at: 2024-07
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Securing Artificial Intelligence TC
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The purpose of this work item is to identify methods and techniques that
+    are appropriate for security testing of AI-based components including to show
+    that the requirements for explicability and transparency are met by the test objectives.
+    Security testing of AI has some commonalities with security testing of traditional
+    systems but provides new challenges and requires different approaches, due to
+    (a) significant differences between subsymbolic AI and traditional systems that
+    have strong implications on their security and on how to test their security properties,
+    (b) non-determinism since AI-based systems may evolve over time (self-learning
+    systems) and security properties may degrade, (c) test oracle problem, assigning
+    a test verdict is different and more difficult for AI-based systems since not
+    all expected results are known a priori, and (d) data-driven algorithms: in contrast
+    to traditional systems, (training) data forms the behaviour of subsymbolic AI.\r\nThe
+    scope of this work item is to cover the following topics:\r\n security testing
+    approaches for AI\r\n security test oracles for AI\r\n definition of test adequacy
+    criteria for security testing of AI.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: artificial intelligence
+- vocab:
+    language: en
+    script: Latn
+    content: SECURITY
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TR
+    content: Technical Report
+  flavor: etsi

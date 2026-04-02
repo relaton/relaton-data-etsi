@@ -1,0 +1,87 @@
+---
+id: ETSITS102266V710200601
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: 'Smart Cards; USSM: UICC Security Service Module; Stage 1'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=24203
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/102200_102299/102266/07.01.00_60/ts_102266v070100p.pdf
+docidentifier:
+- content: ETSI TS 102 266 V7.1.0 (2006-01)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 266 V7.1.0 (2006-01)
+date:
+- type: published
+  at: 2006-01
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: SET-REQ
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 7.1.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The UICC may contain several applications, each dealing with keys and
+    realising crypto services. Some keys might be shareable (e.g. signing key of the
+    WIM application) but there are no standardised mechanisms to share keys and indicate
+    allowed functions to authorised applications. \r\nTo allow applications on the
+    UICC to use shared security objects, it's essential that there is one standardised
+    mechanism to administer and use these shared objects on the UICC. \r\nThe USSM
+    (UICC Security Services Module) will consist of  \r\n- security objects (keys,
+    pins, ... ) including information on allowed functions and authorised applications
+    \r\n- an API for administrative functions to administer objects of the USSM\r\n-
+    an API for cryptographic functions (non administrative) to be used by applications\r\n\r\nThe
+    scope of this Work Item is:\r\n- Preparation of a stage 1 service requirements
+    document including the needed functions \r\n- Initial work on the format of parameters
+    used in the functions \r\n(existing specifications (e.g. ISO 7816-15, Global Platform,
+    ...) are taken into account for evaluation if mechanisms of them can be reused.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: SECURITY
+- vocab:
+    language: en
+    script: Latn
+    content: SMART CARD
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

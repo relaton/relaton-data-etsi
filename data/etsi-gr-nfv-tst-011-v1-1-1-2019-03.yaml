@@ -1,0 +1,93 @@
+---
+id: ETSIGRNFVTST011V111201903
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV); Testing; Test Domain and Description
+    Language Recommendations
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54716
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_gr/NFV-TST/001_099/011/01.01.01_60/gr_NFV-TST011v010101p.pdf
+docidentifier:
+- content: ETSI GR NFV-TST 011 V1.1.1 (2019-03)
+  type: ETSI
+  primary: true
+docnumber: ETSI GR NFV-TST 011 V1.1.1 (2019-03)
+date:
+- type: published
+  at: 2019-03
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The report will propose a model of the NFV test domain and recommend requirements
+    for a test Domain Specific Language (DSL) to manipulate it. The description will
+    include an NFV test automation ecosystem that facilitates interaction among NFV
+    suppliers and operators, based on the DevOps principles outlined in TST006.  \r\nThe
+    scope of the NFV test domain considered by this work item contains: \r\n- System
+    Under Test (SUT): Network Functions (NF), Network Functions Virtualization Infrastructure
+    (NFVI), and Network Services  (NS)\r\n- Test Resources: tools or instrumented
+    NF's and NFVI elements that test cases can interface to manipulate the SUT\r\n-
+    Test Execution Flow: controlled and uncontrolled state transitions\r\n- Test case
+    configuration data and parameters: test-resource-specific and non-test-resource-specific
+    \ \r\nThe report will explore the following attributes to enable efficient multi-supplier
+    NFV interaction: \r\n- Reusability of test plans, test cases and test resources
+    \r\n- Abstraction of test data \r\n- Decoupling of test case from the test environment
+    \r\n- Use of test resource abstractions in place of concrete test resources  \r\n-
+    Dynamic allocation of concrete test resources"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Language
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: TESTING
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GR
+    content: Group Report
+  flavor: etsi

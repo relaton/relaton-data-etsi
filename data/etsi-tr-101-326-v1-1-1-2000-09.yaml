@@ -1,0 +1,95 @@
+---
+id: ETSITR101326V111200009
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Telecommunications and Internet Protocol Harmonization Over Networks (TIPHON);
+    The procedure for determining IP addresses for routeing packets on interconnected
+    IP networks that support public telephony
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=8267
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/101300_101399/101326/01.01.01_60/tr_101326v010101p.pdf
+docidentifier:
+- content: ETSI TR 101 326 V1.1.1 (2000-09)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 101 326 V1.1.1 (2000-09)
+date:
+- type: published
+  at: 2000-09
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Naming and address translation issues
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "In telecommunication systems and therefore also in IP systems E.164 numbers
+    (or dialled numbers related to E.164) are used by end users to identify the destination
+    of a call.  In IP systems, when an end user is attached to a terminal, the E.164
+    name of this end user is temporarily associated with the IP address (transport
+    address) of the terminal (endpoint).  Private numbering schemes use similar arrangements.\r\nThis
+    technical report defines the requirements for finding destinations (IP addresses
+    of endpoints) on interconnected IP networks (systems) for calls originating on
+    or transiting via IP telephony networks.  The final destination of the call may
+    be either the IP network itself or on the SCN.  In this case the IP address needs
+    to identify the POI to the SCN.\r\nAlthough the TR defines requirements for E.164
+    numbers, the same principles could be applied to any new naming system that might
+    be introduced for telephony.\r\nThe TR deals with obtaining IP-address (or Contact
+    Addresses) for routing Call and Service Control Messages (including database queries)
+    and Media Stream Packets.\r\nThe TR covers the requirements for calls to all types
+    of number structures within E.164, national and private networks and includes
+    the support of number portability, mobility and roaming."
+status:
+  stage: Historical
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: ARCHITECTURE
+- vocab:
+    language: en
+    script: Latn
+    content: FUNCTIONAL
+- vocab:
+    language: en
+    script: Latn
+    content: INTERNET
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TR
+    content: Technical Report
+  flavor: etsi

@@ -1,0 +1,106 @@
+---
+id: ETSITR103829V111202208
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Lawful Interception (LI); IP address retention and traceability
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63132
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_tr/103800_103899/103829/01.01.01_60/tr_103829v010101p.pdf
+docidentifier:
+- content: ETSI TR 103 829 V1.1.1 (2022-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 103 829 V1.1.1 (2022-08)
+date:
+- type: published
+  at: 2022-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Lawful Interception
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The present document serves as a guide for policy makers, communication
+    service providers and law enforcement agencies, regarding the retention of IP
+    addresses for law enforcement purposes.\r\n The study considers and documents:\r\n1.
+    \   Basic Internet protocol principles, highlighting specifically how IP addresses
+    and ports are used to access the internet.\r\n2.    Key differences between IPv4,
+    IPv6, Dual Stack and other relevant layer 3 protocols.\r\n3.    How IP addresses
+    are allocated within networks, including EPC and 5GC, documenting any differences
+    in approach.\r\n4.    The role of Network and Port address translation within
+    a CSP network.\r\n5.    The impact address translation technologies on IP address
+    attribution as observed from outside the CSPs network. This includes a discussion
+    on the different translation technologies commonly used by CSPs (e.g. NAT, PAT,
+    CGNAT, NAT64).\r\n6.    Description of the key elements which define user and
+    IP address association and therefore make up the minimal set of stored attributes
+    for a viable IP retention solution.\r\n7.    Methods for accessing records of
+    IP and Port allocation from within a CSP network.\r\n8.   Methods for retaining
+    and querying stored IP association records, consideration is given to the storage
+    volumes, durations and accuracy requirements.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CGNAT
+- vocab:
+    language: en
+    script: Latn
+    content: IP Address Resolution
+- vocab:
+    language: en
+    script: Latn
+    content: IP Retention
+- vocab:
+    language: en
+    script: Latn
+    content: NAT
+- vocab:
+    language: en
+    script: Latn
+    content: PAT
+- vocab:
+    language: en
+    script: Latn
+    content: Traceability
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TR
+    content: Technical Report
+  flavor: etsi

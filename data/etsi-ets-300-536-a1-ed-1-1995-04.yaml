@@ -1,0 +1,97 @@
+---
+id: ETSIETS300536A1ed1199504
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: European digital cellular telecommunications system (Phase 2); Technical
+    realization of Short Message Service (SMS) Point-to-Point (PP) (GSM 03.40)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3171
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_i_ets/300500_300599/300536/01_60/ets_300536e01p_a1p.pdf
+docidentifier:
+- content: ETSI ETS 300 536/A1 ed.1 (1995-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI ETS 300 536/A1 ed.1 (1995-04)
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "REASON 1:\r\nTo enable the SC to discard duplicate SMs.\r\n CONSEQUENCES
+    OF NON-ACCEPTANCE 1:\r\nSM duplication may in certain cases cause severe inconvenience
+    to SMS\r\nusers.\r\nREASON 2:\r\nA number of situations can occur at the Visited
+    MSC whereby an SM\r\ndelivery attempt to an MS can fail due to congestion. The
+    current\r\nerror cause - system failure - is inappropriate.\r\n CONSEQUENCES OF
+    NON-ACCEPTANCE 2:\r\nThe SC is unable to distinguish between \"congestion\" and
+    \"system\r\nfailure\" and therefore cannot take action which would be more\r\nappropriate
+    to a congestion situation.\r\n  "
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: GSM_PHASE2
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: PLMN
+- vocab:
+    language: en
+    script: Latn
+    content: POINT-TO-POINT
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SMS
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: ETS
+    content: European Telecommunication Standard
+  flavor: etsi

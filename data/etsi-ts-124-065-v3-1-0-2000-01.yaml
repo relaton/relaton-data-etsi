@@ -1,0 +1,86 @@
+---
+id: ETSITS124065V310200001
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Universal
+    Mobile Telecommunications System (UMTS); General Packet Radio Service (GPRS);
+    Mobile Station (MS) - Serving GPRS Support Node (SGSN); Subnetwork Dependent Convergence
+    Protocol (SNDCP) (3G TS 24.065 version 3.1.0 Release 1999)
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=9749
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/124000_124099/124065/03.01.00_60/ts_124065v030100p.pdf
+docidentifier:
+- content: ETSI TS 124 065 V3.1.0 (2000-01)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 124 065 V3.1.0 (2000-01)
+date:
+- type: published
+  at: 2000-01
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: MM/CC/SM (lu)
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 3.1.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The user of the services provided by SNDCP is a packet data protocol (PDP)
+    at the mobile Station (MS) or the Relay at the Serving GPRS Support Node (SGSN).
+    Additionally, a control entity, e.g., AT command interpreter, may be an SNDCP
+    user. SNDCP uses the services provided by the Logical Link Control (LLC) layer
+    and the Session Management (SM) sub-layer.\r\nThe main functions of SNDCP are:\r\n-Multiplexing
+    of several PDPs.\r\n-Compression/ decompression of user data.\r\n-Compression/
+    decompression of protocol control information.\r\n-Segmentation of a network protocol
+    data unit (N-PDU) into Logical Link Control Protocol Data Units (LL-PDUs) and
+    re-assembly of LL-PDUs into a N-PDU.\r\nGSM04.65 is applicable to GPRS MS and
+    SGSN."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: UMTS
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

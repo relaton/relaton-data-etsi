@@ -1,0 +1,100 @@
+---
+id: ETSITS1194722V121202603
+schema_version: v1.5.6
+title:
+- language: en
+  script: Latn
+  content: 'Electronic Signatures and Trust Infrastructures (ESI); Profiles for Electronic
+    Attestation of Attributes; Part 2: Profiles for EAA/PID Presentations to Relying
+    Party'
+source:
+- type: src
+  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=77507
+- type: pdf
+  content: http://www.etsi.org/deliver/etsi_ts/119400_119499/11947202/01.02.01_60/ts_11947202v010201p.pdf
+docidentifier:
+- content: ETSI TS 119 472-2 V1.2.1 (2026-03)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 119 472-2 V1.2.1 (2026-03)
+date:
+- type: published
+  at: 2026-03
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Trust Infrastructures
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- draft: 1.2.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "Ammend TS 119 472-2 v1.1.1 based on comments arrived from the EC \r\n\r\n1)
+    Update references to HAIP to its latest version\r\n2) Align requirements on cryptographic
+    algorithms to the requirements in ISO 18013-5 in clause 5.2 \r\n3) Clause 5.3.\r\n\ta)
+    Drop some requirements that are either repetitions of requirements already stated
+    in ISO 18013-5.\r\n\tb) Drop some requirements that are out of the scope of the
+    TS as they affect to Issuers of Access Certificates.\r\n4) Clause 5.4:\r\n\ta)Both
+    deviceSigned and issuerSigned should be able to carry attributes for satisfying
+    needs of well identified use cases.\r\n\tb) Allow responses that are secured using
+    digital signatures or MAC.\r\n\tc) Drop some requirements that are duplicates
+    of requirements stated in ISO 18013-5\r\n\r\n5) Clause 6.3.1.3. Remove requirements
+    that are duplicates of requirements stated in HAIP.\r\n\r\n6) Clause 6.3.1.4:
+    for covering the cases where the RP does not have registration certificate, the
+    RO has to contain verifier_info with registration information. Clause 6.3.1.4
+    has to include requirements for allowing the incorporation of this information
+    in the RO.\r\n\r\n7) The TS must also provide profiles for HAIP clause 5.2  and
+    ISO 18013-7 Annex C (which version 1.1.1 does not include)\r\n\r\n8) resolve additional
+    comments raised by TC members"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Attribute Attestation
+- vocab:
+    language: en
+    script: Latn
+    content: digital identity
+- vocab:
+    language: en
+    script: Latn
+    content: EUDI Wallet
+- vocab:
+    language: en
+    script: Latn
+    content: trust services
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi
