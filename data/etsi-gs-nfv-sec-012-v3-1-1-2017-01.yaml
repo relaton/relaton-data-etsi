@@ -8,9 +8,9 @@ title:
     specification for execution of sensitive NFV components
 source:
 - type: src
-  content: http://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47619
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=47619
 - type: pdf
-  content: http://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/012/03.01.01_60/gs_NFV-SEC012v030101p.pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/012/03.01.01_60/gs_NFV-SEC012v030101p.pdf
 docidentifier:
 - content: ETSI GS NFV-SEC 012 V3.1.1 (2017-01)
   type: ETSI
@@ -55,17 +55,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'Many different VNFs include components  VNFCIs, whether VMs or Containers  which
-    contain sensitive data or algorithms.  These may need integrity and/or confidentiality
-    protection from a number of different entities, including NFVI administrators.  Some
-    elements of the Mangement and Orchestration domain also require such protection.  Equally,
-    NFVI hosts must be assured that they are protected from malicious or compromised
-    work loads.  This normative Work Item will describe a system architecture for
-    the execution of sensitive NFV components, covering all of these use cases.  This
-    system architecture will describe technical measures, software interfaces and
-    hardware and software techniques.  The expectation is that for some use cases,
-    sensitive and non-sensitive workloads may have to co-exist on the same platform,
-    and protection one from the other is considered in scope of this WI. '
+  content: 'Many different VNFs include components – VNFCIs, whether VMs or Containers
+    – which contain sensitive data or algorithms.  These may need integrity and/or
+    confidentiality protection from a number of different entities, including NFVI
+    administrators.  Some elements of the Mangement and Orchestration domain also
+    require such protection.  Equally, NFVI hosts must be assured that they are protected
+    from malicious or compromised work loads.  This normative Work Item will describe
+    a system architecture for the execution of sensitive NFV components, covering
+    all of these use cases.  This system architecture will describe technical measures,
+    software interfaces and hardware and software techniques.  The expectation is
+    that for some use cases, sensitive and non-sensitive workloads may have to co-exist
+    on the same platform, and protection one from the other is considered in scope
+    of this WI. '
 status:
   stage: Published
 keyword:
