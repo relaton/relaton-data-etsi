@@ -2,4 +2,4 @@
 
 source "https://rubygems.org"
 
-gem "relaton-etsi", "~> 2.0.0.alpha.2" # , github: "relaton/relaton-etsi", branch: "main"
+gem "relaton-etsi", github: "relaton/relaton-etsi", branch: "lutaml-integration"
