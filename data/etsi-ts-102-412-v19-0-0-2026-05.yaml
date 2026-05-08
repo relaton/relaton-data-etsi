@@ -1,0 +1,92 @@
+---
+id: ETSITS102412V1900202605
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Smart Cards; Smart Card Platform Requirements Stage 1 (Release 19)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74433
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102400_102499/102412/19.00.00_60/ts_102412v190000p.pdf
+docidentifier:
+- content: ETSI TS 102 412 V19.0.0 (2026-05)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 412 V19.0.0 (2026-05)
+date:
+- type: published
+  at: 2026-05
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: SET-REQ
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 19.0.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'At the moment, the maximum polling interval that the Terminal can negotiate
+    with the UICC is 255 minutes. This interval is unfortunately not sufficient for
+    use cases where power savings mode cases are important, if not critical (e.g.
+    Non-Terrestrial Network eSIM Profiles, Provisioning eSIM Profiles). It is also
+    recognised that, in specific cases, permanently disabling POLLING might not be
+    the best approach as it will prevent some JavaCard applications to e.g. connect
+    to their Carrier OTA platform to carry out business-critical updates.  The scope
+    of this work item is to define technical requirements and solutions allowing the
+    power saving options looking around CAT e.g.:- depending on the access technology
+    being used by the device, or - depending on the battery status of the device.  '
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: secure element
+- vocab:
+    language: en
+    script: Latn
+    content: SIM
+- vocab:
+    language: en
+    script: Latn
+    content: SMART CARD
+- vocab:
+    language: en
+    script: Latn
+    content: UICC
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi
