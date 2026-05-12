@@ -6,6 +6,9 @@ on:
   - cron: "0 0 1 * *" # on the first day-of-month
   workflow_dispatch:
 
+permissions:
+  actions: write
+
 jobs:
   keep-alive:
     uses: relaton/support/.github/workflows/keep-alive.yml@main
