@@ -1,5 +1,5 @@
 ---
-id: ETSIGSNFVSOL020V521202503
+id: ETSIGSNFVSOL020V541202607
 schema_version: v1.5.6
 type: standard
 title:
@@ -10,17 +10,17 @@ title:
     Cluster Management
 source:
 - type: src
-  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=73024
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=74853
 - type: pdf
-  content: https://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/020/05.02.01_60/gs_NFV-SOL020v050201p.pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/020/05.04.01_60/gs_NFV-SOL020v050401p.pdf
 docidentifier:
-- content: ETSI GS NFV-SOL 020 V5.2.1 (2025-03)
+- content: ETSI GS NFV-SOL 020 V5.4.1 (2026-07)
   type: ETSI
   primary: true
-docnumber: ETSI GS NFV-SOL 020 V5.2.1 (2025-03)
+docnumber: ETSI GS NFV-SOL 020 V5.4.1 (2026-07)
 date:
 - type: published
-  at: 2025-03
+  at: 2026-07
 contributor:
 - role:
   - type: publisher
@@ -49,7 +49,7 @@ contributor:
       script: Latn
       content: ETSI
 version:
-- content: 5.2.1
+- content: 5.4.1
 language:
 - en
 script:
@@ -57,19 +57,18 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This revision of ETSI GS NFV-SOL020 continues the development of the specification
-    as part of the Release 5 and applies maintenance changes where applicable. This
-    edition will also add updates according to latest published versions of the reference
-    open source APIs and data model solutions related to daemon sets. The scope of
-    the former edition is summarized hereafter:\r\n\r\nThe work item will specify
-    the service interfaces to fulfill the functional requirement of the container
-    infrastructure service cluster management (CIS Cluster Management, or CCM in abbreviation)
-    as specified by ETSI GS NFV-IFA 036. It will analyze the NFV object model for
-    CIS cluster management and the managed objects of the referenced open-source solutions
-    (e.g. Kubernetes® cluster API) and provide a mapping between them. Based on the
-    analysis results, the referenced solutions will be profiled for specifying the
-    CIS cluster lifecycle, configuration, performance, fault and security management
-    service interfaces. The resulting deliverable will contain normative provisions."
+  content: "This revision of NFV-SOL 020 continues the development of the specification
+    as part of the NFV Release 5. This edition will extend the specification of protocol
+    and data models to support the Release 5 features. The scope of the former edition
+    is summarized hereafter:\r\n\r\nThe work item will specify the service interfaces
+    to fulfill the functional requirement of the container infrastructure service
+    cluster management (CIS Cluster Management, or CCM in abbreviation) as specified
+    by ETSI GS NFV-IFA 036. It will analyze the NFV object model for CIS cluster management
+    and the managed objects of the referenced open-source solutions (e.g. Kubernetes®
+    cluster API) and provide a mapping between them. Based on the analysis results,
+    the referenced solutions will be profiled for specifying the CIS cluster lifecycle,
+    configuration, performance, fault and security management service interfaces.
+    The resulting deliverable will contain normative provisions."
 status:
   stage: Published
 keyword:
