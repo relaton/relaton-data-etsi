@@ -2,4 +2,5 @@
 
 source "https://rubygems.org"
 
-gem "relaton-etsi", github: "relaton/relaton-etsi", branch: "lutaml-integration"
+gem "relaton", git: "https://github.com/relaton/relaton.git", branch: "main"
+gem "pubid", git: "https://github.com/metanorma/pubid.git", branch: "main"
