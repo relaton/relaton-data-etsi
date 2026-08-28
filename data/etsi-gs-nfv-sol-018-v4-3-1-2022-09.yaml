@@ -1,0 +1,110 @@
+---
+id: ETSIGSNFVSOL018V431202209
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 4; Protocols and Data Models;
+    Profiling specification of protocol and data model solutions for OS Container
+    management and orchestration
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=62022
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-SOL/001_099/018/04.03.01_60/gs_NFV-SOL018v040301p.pdf
+docidentifier:
+- content: ETSI GS NFV-SOL 018 V4.3.1 (2022-09)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-SOL 018 V4.3.1 (2022-09)
+date:
+- type: published
+  at: 2022-09
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Solutions
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 4.3.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: The work item will provide a mapping of the NFV object model for OS container
+    management and orchestration to managed objects of Kubernetes® and Helm(TM) as
+    specified by the CNCF® along with a specification of a mapping between a common
+    set of input parameters (e.g., derived from VNFD/NSD and/or NFV-MANO RESTful APIs)
+    and output parameters associated to the management and orchestration of the referred
+    managed objects. It will profile the reference Kubernetes® API as NFV protocol
+    and data model solution for OS container management and orchestration. It will
+    profile the reference Helm(TM) documentation as NFV protocol and data model solution
+    for management of OS container workload based on an MCIOP. It will profile the
+    reference Docker(TM) registry API as NFV protocol and data model solution for
+    OS container image management. The latest published versions of the reference
+    Kubernetes® API, Helm(TM) documentation and Docker(TM) registry API are profiled
+    against the requirements on the functions and the management service interfaces
+    of the Container Infrastructure Service Management (CISM) and Container Image
+    Registry (CIR) functions as specified in ETSI GS NFV-IFA 040 and ETSI GS NFV-IFA
+    010. The work item will include guidelines and rules on how the profiled and referenced
+    solutions can be adopted in a way that facilitates their integration with NFV-MANO
+    framework solutions. The resulting deliverable will contain normative provisions.
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Container
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: orchestration
+- vocab:
+    language: en
+    script: Latn
+    content: PROTOCOL
+- vocab:
+    language: en
+    script: Latn
+    content: SERVICE
+- vocab:
+    language: en
+    script: Latn
+    content: Virtualisation
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

@@ -1,0 +1,122 @@
+---
+id: ETSIGSNFVIFA013V311201808
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
+    Os-Ma-Nfvo reference point - Interface and Information Model Specification
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54091
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/013/03.01.01_60/gs_NFV-IFA013v030101p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 013 V3.1.1 (2018-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-IFA 013 V3.1.1 (2018-08)
+date:
+- type: published
+  at: 2018-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 3.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This revision of  NFV-IFA 013 propagates the deliverable into NFV Release
+    3. \r\nThis edition will add requirements and specification of interfaces and
+    associated information model to support the Release 3 features, and it will extend
+    the scope of the former Release 2 edition summarized hereafter:\r\nAs described
+    in the informative GS NFV MAN 001, Os-Ma-nfvo is a reference point between the
+    OSS and the NFV Orchestrator. This reference point is used for all management
+    interactions between OSS and the NFV-specific management framework, and mainly
+    used for the lifecycle management Network Services (a group of VNFs with defined
+    relationship between them).The scope of the Work Item will include the detailed
+    functional and information requirements of all NFV management interfaces over
+    the reference point Os-Ma-nfvo, based on which complete interfaces technical specifications
+    can subsequently be defined, for interoperability purposes.  The results of the
+    work item will include: \r\n• Detailed description of interfaces and its operations
+    functionality.\r\n• Detailed information model requirements of related NS lifecycle
+    management interfaces, for: \r\n- Management of NS Descriptor and VNF Packages;
+    \r\n- Lifecycle management of Network Services, including the instantiation, modification,
+    update, scaling, and termination, testing of NSs. \r\n- Lifecycle change notifications
+    of NSs. \r\n• Complete and detailed information model requirements of other related
+    NFV management interfaces, for: \r\n- NS monitoring (e.g. NS fault information
+    retrieval and management, NS performance information retrieval and management).
+    \r\n- Policy Management \r\n• Detailed information model requirements of any other
+    NFV management interfaces (new and/or previously described in GS NFV MAN 001)
+    needed to be exposed between OSS and NFVO in support of necessary OSS-driven E2E
+    operations. \r\n• Validation of interface operations and information model requirements
+    against end-to-end flows. \r\nData models/schemas and protocols needed to implement
+    the detailed functional requirements are not covered in this deliverable. The
+    WI will leverage GS NFV MAN001, and will consider any applicable other guidelines,
+    studies and requirements as appropriate.  The deliverable will contain normative
+    provisions.\r\nThis revision of NFV-IFA 013 will address the Release 3 candidate
+    features listed in Annex B of the Release 3 Definition (v0.8.0).\r\nThis revision
+    will also reflect the maintenance performed to NFV Release 2 documentation."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: INTERFACE
+- vocab:
+    language: en
+    script: Latn
+    content: MANAGEMENT
+- vocab:
+    language: en
+    script: Latn
+    content: MANO
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: orchestration
+- vocab:
+    language: en
+    script: Latn
+    content: Virtualisation
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

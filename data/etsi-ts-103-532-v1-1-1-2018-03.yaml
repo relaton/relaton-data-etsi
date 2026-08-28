@@ -1,0 +1,88 @@
+---
+id: ETSITS103532V111201803
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: CYBER; Attribute Based Encryption for Attribute Based Access Control
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=50940
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/103500_103599/103532/01.01.01_60/ts_103532v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 532 V1.1.1 (2018-03)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 103 532 V1.1.1 (2018-03)
+date:
+- type: published
+  at: 2018-03
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Cyber Security
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This WI specifies standard features needed to use ABE as ABAC. It specifies
+    a protocol including the following features: \r\n- Interactions between the principal,
+    the service provider, the authority releasing attributed\r\n- The policy schema
+    for data access control\r\n- Key, policy, and attribute distribution\r\n- Key,
+    policy, and attribute expiration and revocation\r\n- Definition of what subset
+    of ABAC (XACML) may be mapped into the protocol\r\n-Definition of semantics for
+    a basic set of attributes to ensure interoperability\r\n- Identification of additional
+    attributes required by the protocol that would require an extension to traditional
+    ABAC (e.g. an extension to XACML)\r\n- Mapping the protocol to a standard Public
+    Key Infrastructure X.509 (PKIX)\r\n- Mapping the protocol to a standard assertion
+    protocol (SAML)\r\n- Definition of new protocol bindings when existing bindings
+    do not cover the deployment scenario (e.g. a CoAP binding for the IoT case)\r\nThe
+    deliverable will cover both the Ciphertext-Policy (CP-ABE) and Key-Policy (KP-ABE)
+    variants of Attribute-Based Encryption."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: access control
+- vocab:
+    language: en
+    script: Latn
+    content: privacy
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

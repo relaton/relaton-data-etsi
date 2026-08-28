@@ -1,0 +1,114 @@
+---
+id: ETSIGTSGSM0808V530199607
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Mobile-services
+    Switching Centre - Base Station System (MSC - BSS) interface; Layer 3 specification
+    (GSM 08.08)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4729
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gts/08/0808/05.03.00_60/gsmts_0808v050300p.pdf
+docidentifier:
+- content: ETSI GTS GSM 08.08 V5.3.0 (1996-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI GTS GSM 08.08 V5.3.0 (1996-07)
+date:
+- type: published
+  at: 1996-07
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Network Aspects
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 5.3.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This Technical Specification specifies the layer 3 procedures used on\r\nthe
+    BSS to MSC interface for control of GSM services.\r\nFor the purposes of call
+    control and mobility management, messages are\r\nnot interpreted at the Base Station
+    System (BSS) which acts as a relay\r\nfunction. These messages and procedures
+    are documented in Technical\r\nSpecification GSM 04.08, the only relevant issues
+    covering these\r\nmessages in this Technical Specification are those concerned
+    with\r\nerror conditions at the interface, and the headers that are required\r\nfor
+    the correct addressing of the messages. This is specified in more\r\ndetail in
+    Technical Specification GSM 08.06.\r\nThe functional split between MSC and BSS
+    is defined in Technical\r\nSpecification GSM 08.02 and states that the BSS is
+    responsible for\r\nlocal radio resource allocation and in order to support this
+    the\r\nrequired procedures between BSS and MSC are defined in detail in this\r\nTechnical
+    Specification.\r\nTechnical Specification GSM 08.02 also states that the BSS is\r\nresponsible
+    for the scheduling of all CCCH/BCCH messages and therefore\r\nsome procedures
+    for providing the BSS with the necessary information\r\nto be passed on these
+    channels for individual calls (ie paging) are\r\ndefined in this Technical Specification,
+    but the scheduling is not\r\ndiscussed.\r\nThis interface and consequently these
+    layer 3 procedures are designed\r\nto support BSSs providing one or more cells.\r\n "
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CALL BARRING
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: PLMN
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GTS
+    content: GSM Technical Specification
+  flavor: etsi

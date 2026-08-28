@@ -1,0 +1,98 @@
+---
+id: ETSIGSNFVSEC022V261201908
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 2; Security; Access Token
+    Specification for API Access
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54060
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-SEC/001_099/022/02.06.01_60/gs_NFV-SEC022v020601p.pdf
+docidentifier:
+- content: ETSI GS NFV-SEC 022 V2.6.1 (2019-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-SEC 022 V2.6.1 (2019-08)
+date:
+- type: published
+  at: 2019-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Security
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 2.6.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This Group Specification will specify the access tokens and related metadata
+    for APIs defined between VNFs, VNFM, NFVO and VIM.\r\nThe work will consist in:\r\n1.
+    \           defining security requirements for API access tokens (e.g. API requester
+    ID binding, provide Authentication feature), \r\n2.            Analyzing the tokens
+    specifications (e.g. Openstack Keystone, OpenID Connect Id-Token , IETF OAuth
+    token Binding, 3GPP TS 33.179),\r\n3.            Defining an NFV token request
+    and generation profile, the access token format and the associated metadata.  The
+    specification will refer to existing specifications of access tokens if the NFV
+    requirements are met by these specifications. \r\n4.            Defining the process
+    for the token verification by the API Producer.\r\n\r\nThis WI will produce a
+    new GS."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: API
+- vocab:
+    language: en
+    script: Latn
+    content: authentication
+- vocab:
+    language: en
+    script: Latn
+    content: authorization
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: SECURITY
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

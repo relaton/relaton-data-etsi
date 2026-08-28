@@ -1,0 +1,100 @@
+---
+id: ETSITS10282231V141200711
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Broadcast and On-line Services: Search, select, and rightful use of content
+    on personal storage systems ("TV-Anytime"); Part 3: Metadata; Sub-part 1: Phase
+    1 - Metadata schemas'
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=25940
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102800_102899/1028220301/01.04.01_60/ts_1028220301v010401p.pdf
+docidentifier:
+- content: ETSI TS 102 822-3-1 V1.4.1 (2007-11)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 822-3-1 V1.4.1 (2007-11)
+date:
+- type: published
+  at: 2007-11
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.4.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "·Change cardinality of Title and Synopsis to 'unbounded' in InstanceDescriptionType\r\n·Add
+    'mini-series' as a ProgramGroupTypeType\r\n·Add SampleFrequency and BitsPerSample
+    to AudioAttributesType\r\n·Add FragmentExpirationDate to FragmentIdentification\r\n·In
+    SegmentInformation, change SegmentLocator cardinality to optional\r\n·Add a 'DRM'
+    complex element in PurchaseItem with a choice between a LicenseLocator or a LicenseExpression\r\n·Clarification
+    on regionalisation of classification schemes (CS), use of CSs, extensions of existing
+    CSs and creation of new CSs\r\n·Create TVAParentalGuidanceType\r\n·Create a GenericDerivationReasonType\r\n·Addition
+    of a 'closed' attribute of boolean type to SignLanguageType\r\n·Create new CaptioningAttributesType
+    in AVAttributesType\r\n·Add serviceIdRef in OnDemandProgramType and associated
+    text on the use of fragmentId\r\n·Add optional RelatedMaterial to ServiceInformation\r\n·Create
+    a TVAPlaceType and change the name of DepictedLocation to TVAPlaceType\r\nAdd
+    clarification not on the use of Crid in SegmentInformationType"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: BROADCASTING
+- vocab:
+    language: en
+    script: Latn
+    content: Content
+- vocab:
+    language: en
+    script: Latn
+    content: DATA
+- vocab:
+    language: en
+    script: Latn
+    content: TV
+- vocab:
+    language: en
+    script: Latn
+    content: VIDEO
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

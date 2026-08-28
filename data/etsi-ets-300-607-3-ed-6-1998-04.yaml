@@ -1,0 +1,132 @@
+---
+id: ETSIETS3006073ed6199804
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Digital cellular telecommunications system (Phase 2) (GSM); Mobile Station
+    (MS) conformance specification; Part 3: Layer 3 (L3) Abstract Test Suite (ATS)
+    (GSM 11.10-3 version 4.20.1)'
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6085
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_i_ets/300600_300699/30060703/06_60/ets_30060703e06p.pdf
+docidentifier:
+- content: ETSI ETS 300 607-3 ed.6 (1998-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI ETS 300 607-3 ed.6 (1998-04)
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Mobile Station (MS) Testing
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "SUBJECT\r\nUpdate definition and loose checks for LLCMP\r\nTCV_SpecialCase
+    needed for non-supported services\r\nProblems with TC_26_6_5_4_1\r\nFreqTch_ef1
+    and ef2 use wrong mac values\r\nUnnecesary check on follow-on request within location
+    update\r\nStructured rest octet definitions for SI 3 & 4\r\nToo short T_guard
+    timer in TC_31_6_2_2\r\nNo check of CCcap in CallConfirm_20\r\nAddition of 1 s.
+    delay between CHAN REL and PAGE REQ\r\nVerdicts in test steps and test cases need
+    to be labelled\r\nError In Default Behaviour List of TS RR_Hocomp1\r\nHandling
+    non CC MS\r\nNew Cell selection ATS\r\nRcvSetupotEsetup not setting Emergency
+    TC variable\r\nCiphering between changes of radio rate needs to be disabled\r\nWrong
+    start type in preamble for TC_26_9_6_2_1,_2\r\nMS receiving AoCC parameters midway
+    through a call\r\nError in BS61or81MT prevents checking of MS abilities to service\r\nCiphering
+    key problem in MM_LupAuthRpt\r\nWait period too short and an uneccessary Chan
+    Rel\r\nUse correct channels in TC_31_6_2_1\r\nInitate normal MO call in TC_26_7_4_2_1\r\nNew
+    EFR ATS\r\nChange order of ICS/IXIT parameters\r\nAction on expiry of timer T3210
+    in TC_26_7_4_3_2, _3 \r\nWildcards used in a qualifier expression\r\nChanging
+    of RF Levels To Ensure Cell Selection\r\nCorrection to TC_26_6_5_5_1\r\nCorrection
+    Structured Type Constraint ProgInd_01\r\nStructured rest octet definitions for
+    SI 2ter, 5ter, 7 and 8\r\nCorrect error in formation of SI 4 messages for CBCH
+    needs\r\nPossible Expiry of T3240 in TC_26_6_8_4 & TC_26_6_4_1\r\nChange to TSO
+    OM_NoL2Ack\r\nRemove the setting ciphering in the pre-amble of CC TCs\r\nSMS data
+    link establishments against the wrong sapi\r\nNot return the MS to idle state
+    after executing localtree in TC_31_6_1_1\r\nWrong Transaction Identifier in a
+    Call Proceeding message for a second call in TC_31_6_1_2\r\nDont care what the
+    deleted LAI is in the pre-amble of TC_26_7_4_6\r\nCorrect cell for paging and
+    access grants after checking for no-paging in cell-B  in TC_26_7_5_7_1\r\nTest
+    step RcvSetupOrEsetup consumes messages in error in TC_26_7_5_3\r\nIndentation
+    error in TC_26_8_1_2_3_2\r\nChannel Rate Variable Not Set For Half-Rate\r\nTTCN
+    Verdict Error in TC_26_8_1_2_4_2\r\nChanges to ATS v4190 in order to support EFR
+    mobiles\r\nIncorrect Delays In Test Case TC_26_2_4_6\r\nCorrection to PDU constraints
+    Setup_10_UDI, Setup_10_3100 and Setup_11_3100\r\nRACH Random Ref. & Frame No.
+    not used by IMM. ASS. In TC_26_6_4_1\r\nUnnecessary iei in several constraints*\r\nRedundant
+    Call in TC_26_9_3\r\nProblem in TS SvcSupportedChk\r\nProblems in Non-Sync HandOver
+    Test Case\r\nUse correct channels in TC_34_2_2 for SMS\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: ATS
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: GSM_PHASE2
+- vocab:
+    language: en
+    script: Latn
+    content: LAYER 3
+- vocab:
+    language: en
+    script: Latn
+    content: MS
+- vocab:
+    language: en
+    script: Latn
+    content: PLMN
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: TERMINAL
+- vocab:
+    language: en
+    script: Latn
+    content: TESTING
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: ETS
+    content: European Telecommunication Standard
+  flavor: etsi

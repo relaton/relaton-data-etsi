@@ -1,0 +1,96 @@
+---
+id: ETSITS103625V121202204
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Emergency Communications (EMTEL); Transporting Handset Location to PSAPs
+    for Emergency Communications - Advanced Mobile Location
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=60702
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/103600_103699/103625/01.02.01_60/ts_103625v010201p.pdf
+docidentifier:
+- content: ETSI TS 103 625 V1.2.1 (2022-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 103 625 V1.2.1 (2022-04)
+date:
+- type: published
+  at: 2022-04
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Emergency Communications
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.2.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "Update the current AML data fields to adapt it to the needs of the users.
+    Mainly and not restricted to:\r\n- replace the “time of positioning” by the “time
+    of emergency call” in the SMS string. A new parameter would also be added to the
+    SMS consisting in a location time delta, i.e. the time of the location - in seconds
+    -after the emergency call is launched\r\n- add a new parameter to the SMS: “vertical
+    location”\r\n- add a method to establish the link between https message and the
+    voice call\r\n- update the solution for AML roaming\r\n- add to the https message
+    fields the language of the settings of the smart phone\r\n- add to the https message
+    fields the dialled emergency number"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: EMERGENCY
+- vocab:
+    language: en
+    script: Latn
+    content: handset
+- vocab:
+    language: en
+    script: Latn
+    content: LOCATION
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: TRANSPORT
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

@@ -1,0 +1,123 @@
+---
+id: ETSIGSNFVIFA008V311201808
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
+    Ve-Vnfm reference point - Interface and Information Model Specification
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=54098
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/008/03.01.01_60/gs_NFV-IFA008v030101p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 008 V3.1.1 (2018-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-IFA 008 V3.1.1 (2018-08)
+date:
+- type: published
+  at: 2018-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 3.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This revision of  NFV-IFA 008 propagates the deliverable into NFV Release
+    3. \r\nThis edition will add requirements and specification of interfaces and
+    associated information model to support the Release 3 features, and it will extend
+    the scope of the former Release 2 edition summarized hereafter:\r\n\r\nThe reference
+    point Ve-Vnfm described as part of the NFV architecture framework in GS NFV002
+    is actually further split in the informative GS NFV MAN001  in two reference points
+    - one between the VNF Manager and a VNF (Ve-Vnfm-vnf) and one between the VNF
+    Manager and an EM associated with that VNF (Ve-Vnfm-em); these reference points
+    are mainly used for the lifecycle management of that VNF.  The scope of the Work
+    Item will include the functional and information requirements of all VNF management
+    interfaces over the reference points between the VNFM and theVNF/EM, based on
+    which complete interfaces technical specifications can subsequently be defined,
+    for interoperability purposes.\r\nThe results of the work item will include: \r\n•
+    Detailed description of interfaces and its operations functionality. \r\n• Detailed
+    information model requirements of related VNF lifecycle management interfaces,
+    for:\r\n- Lifecycle management of VNFs, including the instantiation, modification,
+    update, scaling, healing and termination of VNFs. \r\n- Lifecycle change notifications
+    of VNFs.\r\n• Detailed information model requirements of other related generic
+    VNF management interfaces, for: \r\n- VNF fault management. \r\n- VNF performance
+    management. \r\n- VNF configuration \r\n• Detailed information model requirements
+    of any other generic VNF management interfaces (new and/or previously described
+    in GS NFV MAN 001) needed to be exposed between  in support of VNF/EM and VNFM,
+    in support of necessary VNF-related management operations. \r\n• Validation of
+    interface operations and information model requirements against end-to-end flows.
+    Data models/schemas and protocols needed to implement the detailed functional
+    requirements are not covered in this deliverable. \r\nThe WI will leverage  GS
+    NFV MAN001 and will consider any applicable other guidelines, studies and requirements
+    as appropriate, in close collaboration with the other organizations working on
+    these aspects, such as 3GPP SA5 and TMF. The deliverable will contain normative
+    provisions.\r\n\r\nThis revision of NFV-IFA 008 will address the Release 3 candidate
+    features listed in Annex B of the Release 3 Definition (v0.8.0).\r\nThis revision
+    will also reflect the maintenance performed to NFV Release 2 documentation."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CONFIGURATION
+- vocab:
+    language: en
+    script: Latn
+    content: INTERFACE
+- vocab:
+    language: en
+    script: Latn
+    content: MANAGEMENT
+- vocab:
+    language: en
+    script: Latn
+    content: MANO
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: Virtualisation
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

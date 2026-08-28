@@ -1,0 +1,122 @@
+---
+id: ETSIETS300961ed2199805
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Full rate
+    speech; Transcoding (GSM 06.10 version 5.1.1)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=6243
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_i_ets/300900_300999/300961/02_60/ets_300961e02p.pdf
+docidentifier:
+- content: ETSI ETS 300 961 ed.2 (1998-05)
+  type: ETSI
+  primary: true
+docnumber: ETSI ETS 300 961 ed.2 (1998-05)
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Speech Aspects
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The transcoding procedure specified in this European Telecommunication\r\nStandard
+    (ETS) is applicable for the full-rate Traffic Channel (TCH)\r\nin the digital
+    cellular telecommunications system. The use of this tra\r\nnscoding scheme for
+    other applications has not been considered.\r\nIn GSM 06.01, a reference configuration
+    for the speech transmission ch\r\nain of the digital cellular telecommunications
+    system is shown. Accord\r\ning to this reference configuration, the speech encoder
+    takes its inpu\r\nt as a 13 bit uniform PCM signal either from the audio part
+    of the mob\r\nile station or on the network side, from the PSTN via an 8 bit/A-law
+    t\r\no 13 bit uniform PCM conversion. The encoded speech at the output of t\r\nhe
+    speech encoder is delivered to a channel encoder unit which is spec\r\nified in
+    GSM 05.03. In the receive direction, the inverse operations t\r\nake place.\r\nThis
+    ETS describes the detailed mapping between input blocks of 160 sp\r\neech samples
+    in 13 bit uniform PCM format to encoded blocks of 260 bit\r\ns and from encoded
+    blocks of 260 bits to output blocks of 160 reconstr\r\nucted speech samples.  The
+    sampling rate is 8000 sample/s leading to a\r\nn average bit rate for the encoded
+    bit stream of 13 kbit/s. The coding\r\nscheme is the so-called Regular Pulse Excitation
+    - Long Term predicti\r\non - Linear Predictive Coder, here-after referred to as
+    RPE-LTP.\r\nThis ETS also specifies the conversion between A-law PCM and 13 bit
+    un\r\niform PCM. Performance requirements for the audio input and output par\r\nts
+    are included only to the extent that they affect the transcoder per\r\nformance.
+    The ETS also describes the codec down to the bit level, thus\r\nenabling the verification
+    of compliance to the ETS to a high degree o\r\nf confidence by use of a set of
+    digital test sequences. These test seq\r\nuenc\0s are described and are included
+    in this ETS on diskette.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CODING
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+- vocab:
+    language: en
+    script: Latn
+    content: INTERWORKING
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: PLMN
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SPEECH
+- vocab:
+    language: en
+    script: Latn
+    content: TELEPHONY
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: ETS
+    content: European Telecommunication Standard
+  flavor: etsi

@@ -1,0 +1,118 @@
+---
+id: ETSITS103465V1510201908
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Smart Cards; Smart Secure Platform (SSP); Requirements Specification
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=58419
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/103400_103499/103465/15.01.00_60/ts_103465v150100p.pdf
+docidentifier:
+- content: ETSI TS 103 465 V15.1.0 (2019-08)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 103 465 V15.1.0 (2019-08)
+date:
+- type: published
+  at: 2019-08
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: SCP-REQ
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 15.1.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "Scope of work to be undertaken: The current specification of the (e)UICC
+    is based on the ISO/IEC 7816 series of specifications for IC-cards. This series
+    of specifications has been developed in 1980s and was suitable at that point in
+    time but today limits the capabilities that are required by the market. The current
+    (e)UICC specifications also link the form factor to the electrical interface and
+    the logical protocol. This link limits the (e)UICC implementations to specified
+    form factors. New requirements are emerging, for example inspired from embedded
+    secure elements in terminals that are intended to provide security services or
+    store data securely. Such embedded secure elements may come in different form
+    factors and are intended to be integrated into the terminals architecture and
+    using other electrical and physical interfaces than those used by the (e)UICC.
+    Such secure elements could also provide the capability to store large amount of
+    data to be protected which requires new and more efficient ways to store and manage
+    data.  The scope of the work is to collect and define requirements for the (e)UICC
+    to evolve to be used as a more generic secure element in various areas and taking
+    into account state of the art technologies. The work includes the following aspects:
+    - Improvement of existing physical/electrical interface and/or logical interface
+    or definition of new ones for removable and non-removable secure elements. - Definition
+    of a framework for new flexible ETSI form factors for a secure element (for non-removable
+    secure elements, interoperability may not be required in terms of physical dimensions,
+    pin locations and physical/electrical interface).Definition of new data structures
+    being able to handle large amount of data in a secure way. Potential impacts on
+    the use of APDUs and maintaining the ability to transport them as well as impact
+    on the SWP/HCI interface and protocols shall be taken into account, including
+    potential separation of layers in line with the ISO/OSI layer model.  The work
+    shall also provide secure element configurations (i.e. sets of specific choices
+    of options e.g. regarding physical form factor, electrical interface, data structure,
+    etc) that include the logical interface, physical interface or the binding to
+    physical layer protocols and hardware platforms. These configurations shall also
+    provide the possibility for a certification against existing certification schemes,
+    e.g. common criteria. Such configurations shall cover at least: - use as an (e)UICC
+    and providing at least the same security level (e.g. according to an applicable
+    Protection Profile such as BSI-CC-PP-0089-2015). - an optimized configuration
+    for IoT (e.g. for future 3GPP 5G or oneM2M). The solutions defined in this work
+    item shall be able to fulfil the security requirements of the applications for
+    which they are intended. Note; (e)UICC means UICC and/or eUICC\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: INTERFACE
+- vocab:
+    language: en
+    script: Latn
+    content: secure element
+- vocab:
+    language: en
+    script: Latn
+    content: SECURITY
+- vocab:
+    language: en
+    script: Latn
+    content: UICC
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

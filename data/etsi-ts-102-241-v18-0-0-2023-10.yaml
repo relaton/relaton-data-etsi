@@ -1,0 +1,90 @@
+---
+id: ETSITS102241V1800202310
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Smart Cards; UICC Application Programming Interface (UICC API) for Java
+    Card (TM) (Release 18)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=66826
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102200_102299/102241/18.00.00_60/ts_102241v180000p.pdf
+docidentifier:
+- content: ETSI TS 102 241 V18.0.0 (2023-10)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 241 V18.0.0 (2023-10)
+date:
+- type: published
+  at: 2023-10
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: SET-TEC
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 18.0.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "When the physical interface is not accessible to an attached test tool,
+    alternative methods for the verification of conformance requirements based on
+    APDU communication on the UICC-terminal interface are needed. The LS C6-220198/SETTEC(22)000102
+    from 3GPP WG CT6 is proposing a new verification method based on toolkit test
+    events as one of the recommended test methods.\r\n\r\nThis Work Item defines the
+    implementation of requirements defined in TS 102 240 for the CAT test events in
+    TS 102 241. \r\n\r\nThe usage of the toolkit test event remains under the responsibility
+    of the NAA specific test specifications (eg: 3GPP 31.127 and 3GPP 31.117, currently
+    in development stage).\r\n\r\nThe scope of this Work Item is as below.\r\n- Implementation
+    of the requirements for the CAT test events. \r\n- Implementation of the requirements
+    for a mechanism in the CAT runtime environment for applets to register and deregister
+    for the CAT test events.\r\n- Implementation of the requirements for a mechanism
+    in the CAT runtime environment to trigger the CAT test events.\r\n- Implementation
+    of security requirements to restrict the usage of the CAT test events to test
+    purposes only."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: API
+- vocab:
+    language: en
+    script: Latn
+    content: secure element
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

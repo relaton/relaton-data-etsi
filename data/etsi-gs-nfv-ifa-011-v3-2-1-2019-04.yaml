@@ -1,0 +1,119 @@
+---
+id: ETSIGSNFVIFA011V321201904
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Management and Orchestration;
+    VNF Descriptor and Packaging Specification
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56316
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-IFA/001_099/011/03.02.01_60/gs_NFV-IFA011v030201p.pdf
+docidentifier:
+- content: ETSI GS NFV-IFA 011 V3.2.1 (2019-04)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-IFA 011 V3.2.1 (2019-04)
+date:
+- type: published
+  at: 2019-04
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Interfaces and Architecture
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 3.2.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This revision of  NFV-IFA 011 continues the development of the specification
+    as part of the NFV Release 3. \r\nThis edition will add functional requirements
+    and specification of the information model to support the Release 3 features,
+    and it will extend the scope of the former Release 2 edition summarized hereafter:\r\n\r\nThis
+    Work Item will develop a specification for packaging VNFs(Virtual Network Functions)
+    to be delivered to service providers. This work item will build from the requirements
+    captured in the SWA and MAN Group Specification documents related to the VNF state
+    machine, VNF design patterns, and the VNF Descriptor information elements, among
+    others. \r\nThe new work item will consider a holistic end-to-end view of the
+    package lifecycle from design to runtime, thus capturing development as well as
+    operational views.\r\nAnalysis for this WI will use and potentially refine End
+    to end VNF Package lifecycle management operations based on use cases, detailing
+    actors and NFV Architectural Framework functional blocks impacted. This new work
+    item will also use other industry developments related to software procurement
+    as input into the analysis.\r\nDeliverables for this work item will be an informative
+    GS document addressing:\r\n- Requirements for the structure and format of the
+    VNF archive, list of mandatory and optional files and authorized formats\r\n-Extensible
+    language independent meta-model for describing the VNF properties and resource
+    requirements buiding on existing work on VNFD. This will require using consistent
+    terminology and refinement of the existing VNF model\r\n-Recommendation for Implementation
+    ready packaging structure by selecting and reusing (e.g.,  profiling or identifying
+    requirements for extension of) existing cloud services (e.g. TOSCA) and network
+    configuration specifications (e.g. DMTF, MEF).\r\nThis work item will benefit
+    from the SDO gap analysis and it will be used as input to open source activities
+    related to packaging tools, runtime package interpretors and execution environments.\r\nThe
+    output of this work should be used as formal requirements for extensions into
+    normative specifications developed by other SDOs identified in the analysis. \r\n\r\nThis
+    revision of NFV-IFA 011 will address the Release 3 candidate features listed in
+    Annex B of the Release 3 Definition (v0.10.0). Where needed, it will continue
+    the previous version to enhance and complete the specified Release 3 features.\r\nThis
+    revision will reflect the maintenance performed to NFV Release 2 documentation
+    and of already specified Release 3 features."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: MANAGEMENT
+- vocab:
+    language: en
+    script: Latn
+    content: MANO
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: orchestration
+- vocab:
+    language: en
+    script: Latn
+    content: Virtualisation
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

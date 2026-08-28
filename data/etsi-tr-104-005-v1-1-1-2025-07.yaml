@@ -1,0 +1,101 @@
+---
+id: ETSITR104005V111202507
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Secure Element Technologies (SET); Technical Report on impacts of the post-quantum
+    cryptography on ETSI TC SET specifications
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=69051
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_tr/104000_104099/104005/01.01.01_60/tr_104005v010101p.pdf
+docidentifier:
+- content: ETSI TR 104 005 V1.1.1 (2025-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI TR 104 005 V1.1.1 (2025-07)
+date:
+- type: published
+  at: 2025-07
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Secure Element Technologies
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The quantum threat presents multiple high impact risks for the industry
+    and its users. The consequences are important to stakeholders as they may lead
+    to privacy breach, network disruption or other impacts with significant implications.\r\nIt
+    is expected that the security mechanisms defined in specifications under ETSI
+    TC SET responsibility, based on cryptography, are at risk to  be broken by a sufficiently
+    powerful quantum computer within a foreseeable timeframe:\r\n-\twhere asymmetric
+    cryptography is used, both confidentiality and authenticity of the communications
+    will be compromised.\r\n-\tsymmetric cryptography will also be impacted but to
+    a smaller extent as a moderate increase of the key length should be sufficient
+    to withstand attacks using quantum computing.\r\n(For more information see the
+    document SET(23)000065r1)\r\nRemediation thus cannot wait for the realization
+    of a sufficiently powerful quantum computer.\r\nTherefore, ETSI TC SET needs to
+    \ analyse the impacts of the post-quantum computing. \r\nThe work is expected
+    to produce a technical report that addresses the following:\r\n-\tAnalysis of
+    the mechanisms that use cryptography in specifications under ETSI SET responsibility
+    focused on the risks described above.\r\n-\tDescription of potential changes to
+    adapt the existing mechanisms to be post-quantum safe. For example, the impact
+    on performances may be considered and may lead to the adaptation of the current
+    mechanisms.\r\n-\tLiaison with relevant ETSI bodies (TC CYBER WG QSC and ISG QKD)
+    and partner organizations (e.g., 3GPP, GlobalPlatform, GSMA) for coordination
+    purpose and to estimate a roadmap for the update of the specifications under ETSI
+    TC SET responsibility, with consideration to the items to be prioritized.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: post-quantum cryptography
+- vocab:
+    language: en
+    script: Latn
+    content: SIM
+- vocab:
+    language: en
+    script: Latn
+    content: UICC
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TR
+    content: Technical Report
+  flavor: etsi

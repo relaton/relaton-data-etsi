@@ -1,0 +1,93 @@
+---
+id: ETSITS102588V720200805
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Smart Cards; Application invocation Application Programming Interface (API)
+    by a UICC webserver for Java Card™ platform; (Release 7)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=28201
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102500_102599/102588/07.02.00_60/ts_102588v070200p.pdf
+docidentifier:
+- content: ETSI TS 102 588 V7.2.0 (2008-05)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 588 V7.2.0 (2008-05)
+date:
+- type: published
+  at: 2008-05
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: SCP-TEC
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 7.2.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "15 new CRs at SCP #33 and #35.\r\nSCPt070861 CR #002   Fix of missing
+    exceptions and wrong constant values (Cat F)\r\nSCPt070862 CR #003   Define a
+    new constant to retrieve the query part of an URI (Cat F)\r\nSCPt070863 CR #004
+    \  Editorial correction (Cat D)\r\nSCPt070864 CR #005   Add an exception in the
+    HttpResponse.sendError() and HttpResponse.setContentType() methods (Cat F)\r\nSCPt070867
+    CR #006   Protected SCWS exception (constructor of exception made public instead
+    of private) (Cat F)\r\nSCPt070874 CR #007   Specify default headers fields added
+    by the SCWS in HTTP responses (Cat F)\r\nSCPt071043 CR #008   Adding Reason BUFFER
+    OVERFLOW  to some SCWS methods (Cat F)\r\nSCPt071045 CR #009   Adding reason HTTP_RESPONSE_ALREADY_SENT
+    to getRemainingResponseBufferSize method (Cat F)\r\nSCPt071046 CR #010   Adding
+    SCWS Exception to method getContentType (Cat F)\r\nSCPt071048 CR #011   Change
+    constant value CONTENT_TYPE_UNKNOWN to avoid value overlapping (Cat F)\r\nSCPt071049
+    CR #012   Specification of chunked buffer mode behaviour in case of exception
+    (Cat F)\r\nSCPt071053 CR #015   Align values returned by copy method with the
+    one defined in Java Card™ or UICC APIs (Cat F)\r\nSCPt071055 CR #016   Introduction
+    of a reset method to the HttpResponse interface (Cat F)\r\nSCPt071059 CR #014r1
+    Delete the URI FRAGMENT TAG constant (Cat F)\r\nSCPt071060 CR #013r1 Fix the \"OPTION\"
+    method documentation and name (Cat D)"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: API
+- vocab:
+    language: en
+    script: Latn
+    content: SMART CARD
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

@@ -1,0 +1,98 @@
+---
+id: ETSIGSNFVTST009V321201906
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Network Functions Virtualisation (NFV) Release 3; Testing; Specification
+    of Networking Benchmarks and Measurement Methods for NFVI
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=56910
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/NFV-TST/001_099/009/03.02.01_60/gs_NFV-TST009v030201p.pdf
+docidentifier:
+- content: ETSI GS NFV-TST 009 V3.2.1 (2019-06)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS NFV-TST 009 V3.2.1 (2019-06)
+date:
+- type: published
+  at: 2019-06
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Testing, Implementation, and Open Source Working Group
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 3.2.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This revision of NFV-TST 009 continues the development of the specification
+    as part of the NFV Release 3. The scope of the previous work item is summarized
+    hereafter:\r\n\r\nThis work item will specify vendor-agnostic definitions of performance
+    metrics and the associated methods of measurement for Benchmarking networks supported
+    in the NFVI. The Benchmarks and Methods will take into account the communication-affecting
+    aspects of the compute/networking/virtualisation environment (such as the transient
+    interrupts that block other processes or the ability to dedicate variable amounts
+    of resources to communication processes). These Benchmarks are intended to serve
+    as a basis for fair comparison of different implementations of NFVI, (composed
+    of various hardware and software components) according to each individual Benchmark
+    and networking configuration evaluated. Note that a Virtual Infrastructure Manager
+    (VIM) may play a supporting role in configuring the network under test. Examples
+    of existing Benchmarks include IETF RFC 2544 Throughput and Latency (developed
+    for physical network functions).\r\n\r\nThis revision will also reflect the maintenance
+    needed for the previous specified version.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: Benchmarking
+- vocab:
+    language: en
+    script: Latn
+    content: Measurement
+- vocab:
+    language: en
+    script: Latn
+    content: NFV
+- vocab:
+    language: en
+    script: Latn
+    content: NFVI
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi

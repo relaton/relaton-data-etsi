@@ -1,0 +1,90 @@
+---
+id: ETSITS118122V200201705
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: oneM2M Field Device Configuration (oneM2M TS-0022 version 2.0.0 Release
+    2)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49976
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/118100_118199/118122/02.00.00_60/ts_118122v020000p.pdf
+docidentifier:
+- content: ETSI TS 118 122 V2.0.0 (2017-05)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 118 122 V2.0.0 (2017-05)
+date:
+- type: published
+  at: 2017-05
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: oneM2M
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 2.0.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This work item provides a framework to configure oneM2M AEs and CSEs in
+    the Field Domain by the oneM2M SP. \r\nThe configuration information may include:\r\n·The
+    availability of protocol bindings\r\n·The URI of registrar CSE that  receives
+    Registration requests.\r\n·The URI of registrar CSE that receives non-Registration
+    requests.\r\n·The address of target resource to use a oneM2M Service. [e.g. reconfigurable
+    to add/delete service during operation]\r\n·The credential data that is required
+    for accessing the resource. [e.g. reconfigurable to grant/revoke authorization]\r\nAs
+    the result of consideration in stage 2 work, it is needed to develop a Technical
+    Specification to solve existing problem in Release-1 specifications which only
+    supports pre-provitioning for configuring the filed-domain devices. \r\nThe security
+    aspects for remote provisioning should be discussed in WG4.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CONFIGURATION
+- vocab:
+    language: en
+    script: Latn
+    content: IoT
+- vocab:
+    language: en
+    script: Latn
+    content: M2M
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

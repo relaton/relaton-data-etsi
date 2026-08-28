@@ -1,0 +1,151 @@
+---
+id: ETSIGTSGSM0705V520199703
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system (Phase 2+) (GSM); Use of Data
+    Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE) interface
+    for Short Message Service (SMS) and Cell Broadcast Service (CBS) (GSM 07.05)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=5468
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gts/07/0705/05.02.00_60/gsmts_0705v050200p.pdf
+docidentifier:
+- content: ETSI GTS GSM 07.05 V5.2.0 (1997-03)
+  type: ETSI
+  primary: true
+docnumber: ETSI GTS GSM 07.05 V5.2.0 (1997-03)
+date:
+- type: published
+  at: 1997-03
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Data Services
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 5.2.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "This Global System for Mobile communications Technical Specification (\r\nGTS)
+    defines three interface protocols for control of SMS functions wi\r\nthin a GSM
+    mobile telephone from a remote terminal via an asynchronous\r\ninterface.\r\nClause
+    2 defines a binary protocol (\"Block Mode\"). The protocol includ\r\nes error
+    protection and is suitable for use where the link may not be\r\ncompletely reliable.
+    It will be of particular use where control of rem\r\note devices is required.
+    Efficient transfer of binary encoded user dat\r\na is possible.\r\nClause 3 defines
+    a character-based interfaced based on \"AT\" commands (\r\n\"Text Mode\"). This
+    mode is suitable for unintelligent terminals or ter\r\nminal emulators, and for
+    application software built on command structu\r\nres like those defined in V.25ter.
+    Some of the commands defined in cla\r\nuse 3 will also be useful for implementations
+    of clause 2 and/or claus\r\ne 4, for example enabling an indication of incoming
+    SMS messages.\r\nClause 4 defines a character-based interface with hex-encoded
+    binary t\r\nransfer of message blocks (\"PDU Mode\"). This mode is suitable for
+    soft\r\nware drivers based on AT command structures which do not understand th\r\ne
+    content of the message blocks and can only pass them between the MT\r\nand \"upper
+    level\" software resident in the TE.\r\nIn all three modes, the terminal is considered
+    to be in control for SM\r\nS/CBS transactions.\r\nThis specification considers
+    the mobile termination to be a single ent\r\nity. Other GSM Technical Specifications
+    describe the split of function\r\nality between the mobile equipment and SIM.\r\nThe
+    three \"modes\" referred to above, are represented in figure 0.1/GSM\r\n07.05.\r\nThe
+    \"Block mode\" is a self contained mode in its own right, and when e\r\nntered,
+    control will remain within that mode until the procedures to e\r\noit the mode
+    are executed, after which control is returned to the V.25\r\nter \"command\" state
+    or \"on-line command\" state.\r\nThe \"Text\" and \"PDU\" modes are not in themselves
+    V.25ter states but ar\r\ne simply sets of commands which will operate in either
+    the V.25ter \"co\r\nmmand\" state or \"on-line command\" state. The \"Text\" and
+    \"PDU\" modes ar\r\ne transitory states and after each operation, control is automatically\r\nreturned
+    to the V.25ter \"command\" state or \"on-line command\" state. W\r\nhilst in the
+    V.25ter command state, the MS is available to handle inco\r\nming and outgoing
+    calls such as Data or Facsimile.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: BROADCAST
+- vocab:
+    language: en
+    script: Latn
+    content: CBS
+- vocab:
+    language: en
+    script: Latn
+    content: CELL
+- vocab:
+    language: en
+    script: Latn
+    content: DCE
+- vocab:
+    language: en
+    script: Latn
+    content: DTE
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: GSM_PHASE2_PLUS
+- vocab:
+    language: en
+    script: Latn
+    content: INTERFACE
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: PLMN
+- vocab:
+    language: en
+    script: Latn
+    content: PLUS
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SMS
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GTS
+    content: GSM Technical Specification
+  flavor: etsi

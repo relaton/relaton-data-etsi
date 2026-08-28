@@ -1,0 +1,104 @@
+---
+id: ETSITS1003921222V151202010
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: 'Terrestrial Trunked Radio (TETRA); Voice plus Data (V+D); Part 12: Supplementary
+    services stage 3; Sub-part 22: Dynamic Group Number Assignment (DGNA)'
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=59531
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/100300_100399/1003921222/01.05.01_60/ts_1003921222v010501p.pdf
+docidentifier:
+- content: ETSI TS 100 392-12-22 V1.5.1 (2020-10)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 100 392-12-22 V1.5.1 (2020-10)
+date:
+- type: published
+  at: 2020-10
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: TCCE Air Interface and Network Protocols
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.5.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "DGNA deassignment can be ignored if e.g. authentication of the SwMI has
+    failed, or the Deassignment is received in clear while operating in security class
+    2 or 3.\r\nDGNA Assignment can be ignored for the same reasons.\r\nMS may reject
+    a DGNA Deassignment of a pre-programmed group for operational or other reasons.
+    In this case, the group may be permanently detached in the current SwMI.\r\nThis
+    change request updates the \"Result of deassignment\" information element table
+    and other text to clarify this behaviour. It clarifies that the MS does not have
+    to respond to Assign and Deassign requests in the event of an authentication failure
+    or a security class mismatch.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: DATA
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SPEECH
+- vocab:
+    language: en
+    script: Latn
+    content: STAGE 3
+- vocab:
+    language: en
+    script: Latn
+    content: SUPPLEMENTARY SERVICE
+- vocab:
+    language: en
+    script: Latn
+    content: TETRA
+- vocab:
+    language: en
+    script: Latn
+    content: V+D
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

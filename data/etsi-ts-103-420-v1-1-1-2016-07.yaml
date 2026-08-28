@@ -1,0 +1,92 @@
+---
+id: ETSITS103420V111201607
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Backwards-compatible object audio carriage using Enhanced AC-3
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=49401
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/103400_103499/103420/01.01.01_60/ts_103420v010101p.pdf
+docidentifier:
+- content: ETSI TS 103 420 V1.1.1 (2016-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 103 420 V1.1.1 (2016-07)
+date:
+- type: published
+  at: 2016-07
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: EBU/CENELEC/ETSI on Broadcasting
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "In a separate document, define extensions to the Enhanced AC-3 codec as
+    defined in TS 102 366 to carry object audio in a manner that is backwards compatible
+    with existing channel based operation. (In this context, backwards compatibility
+    means that if audio is encoded as defined in the proposed specification but decoded
+    on an old device compliant just with TS 102 366, such device would output channel
+    audio with the established semantics, using the mechanisms defined in TS 102 366
+    alone).\r\nThe specification will cover:\r\n1. EMDF based metadata for object
+    audio\r\n2. A mapping from 1) to ADM as defined in ITU-R BS.2076\r\n3. EMDF based
+    metadata for carrying objects backwards compatible with channel-based operation\r\n4.
+    Signal processing for 3)."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: AUDIO
+- vocab:
+    language: en
+    script: Latn
+    content: BROADCASTING
+- vocab:
+    language: en
+    script: Latn
+    content: CODING
+- vocab:
+    language: en
+    script: Latn
+    content: DIGITAL
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

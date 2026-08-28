@@ -1,0 +1,102 @@
+---
+id: ETSITS102918V121201202
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Electronic Signatures and Infrastructures (ESI); Associated Signature Containers
+    (ASiC)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=38258
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102900_102999/102918/01.02.01_60/ts_102918v010201p.pdf
+docidentifier:
+- content: ETSI TS 102 918 V1.2.1 (2012-02)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 918 V1.2.1 (2012-02)
+date:
+- type: published
+  at: 2012-02
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Electronic Signatures and Infrastructures
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.2.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "TS 102 918 v1.1.1 as currently published need some fix addressing the
+    following issues:\r\n- All clause 7 is missing from the ToC (ED)\r\n- Some errors
+    in referencing clauses, such as in §5.2.2 point 3c refers to A.5 twice instead
+    of A.4 and A.6 (not all listed here, needs check)\r\n- 6.1 second sentence needs
+    to be more precise referencing to torm types instead of signature formats and
+    \"time stamp token\" type is missing between parenthesis\r\n- 6.2 again format
+    -> form type and need to delete \"or external\" as signing of external objects
+    is out of scope (as decided by the TB and indicated at the beginning of the document)\r\n-
+    &.2.2 point 4, internal points numbering must start from \"a\" and in the first
+    point MUST -> SHALL\r\n- 6.3.2 point 3 \"META-INF/ASiCManifest\" -> \"META-INF/ASiCManifest*.xml\"\r\n-
+    A note should be added on the first occurrence of \"*\" explaining that it is
+    meant to indicate ant printable char allowed by \"ZIP\" as filename for internal
+    content\r\n- 6.3.2 point 4 a) and b) all occurrences of \"p7m\" need to be changed
+    to \"p7s\" or \"tst\" as applicable (critical)\r\n- 7 first sentence: \"Associated
+    Advanced Electronic Signature\" -> \"Associated Signature Containers\" (align
+    with change of the title of the TS)\r\n- A.5 \"ASiCSignatures\" -> \"XAdESSignatures\"
+    (critical,  needs to be aligned with this clause content)\r\n- Any other editorial
+    change as identified during the review of the document.\r\n\r\nThe issues described
+    as critical can lead to incorrect implementations."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: ASiC
+- vocab:
+    language: en
+    script: Latn
+    content: e-commerce
+- vocab:
+    language: en
+    script: Latn
+    content: ELECTRONIC SIGNATURE
+- vocab:
+    language: en
+    script: Latn
+    content: SECURITY
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi

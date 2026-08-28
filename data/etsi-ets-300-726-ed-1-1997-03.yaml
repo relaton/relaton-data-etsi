@@ -1,0 +1,103 @@
+---
+id: ETSIETS300726ed1199703
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Digital cellular telecommunications system; Enhanced Full Rate (EFR) speech
+    transcoding (GSM 06.60)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=4133
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_i_ets/300700_300799/300726/01_60/ets_300726e01p.pdf
+docidentifier:
+- content: ETSI ETS 300 726 ed.1 (1997-03)
+  type: ETSI
+  primary: true
+docnumber: ETSI ETS 300 726 ed.1 (1997-03)
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Radio
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The transcoding procedure specified in this ETS is applicable for the\r\nenhanced
+    full rate traffic channel (TCH) in the GSM system.\r\nIn GSM EFR 06.51, a reference
+    configuration for the speech\r\ntransmission chain of the GSM EFR system is shown.
+    According to this\r\nreference configuration, the speech encoder takes its input
+    as a\r\n13-bit uniform PCM signal either from the audio part of the Mobile\r\nStation
+    or on the network side, from the PSTN via an 8-bit/A-law to\r\n13-bit uniform
+    PCM conversion. The encoded speech at the output of the\r\nspeech encoder is delivered
+    to a channel encoder unit which is\r\nspecified in GSM 05.03. In the receive direction,
+    the inverse\r\noperations take place.\r\n This draft European Technical Specification
+    (ETS) describes the\r\ndetailed mapping between input blocks of 160 speech samples
+    in 13-bit\r\nuniform PCM format to encoded blocks of 260 bits and from encoded\r\nblocks
+    of 260 bits to output blocks of 160 reconstructed speech\r\nsamples. The sampling
+    rate is 8000 sample/s leading to a bit rate for\r\nthe encoded bit stream of 13
+    kbit/s. The coding scheme is the\r\nso-called Algebraic Code Excited Linear Prediction
+    Coder, here-after\r\nreferred to as ACELP.\r\n This ETS also specifies the conversion
+    between A-law PCM and 13-bit\r\nuniform PCM. Performance requirements for the
+    audio input and output\r\nparts are included only to the extent that they affect
+    the transcoder\r\nperformance. This part also describes the codec down to the
+    bit level,\r\nthus enabling the verification of compliance to the part to a high\r\ndegree
+    of confidence by use of a set of digital test sequences. These\r\ntest sequences
+    are also described and are available on disks.\r\n"
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: CODEC
+- vocab:
+    language: en
+    script: Latn
+    content: GSM
+- vocab:
+    language: en
+    script: Latn
+    content: MOBILE
+- vocab:
+    language: en
+    script: Latn
+    content: RADIO
+- vocab:
+    language: en
+    script: Latn
+    content: SPEECH
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: ETS
+    content: European Telecommunication Standard
+  flavor: etsi

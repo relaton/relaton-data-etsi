@@ -1,0 +1,93 @@
+---
+id: ETSITS102223V400200107
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Smart cards; Card Application Toolkit (CAT); (Release 4)
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=14370
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_ts/102200_102299/102223/04.00.00_60/ts_102223v040000p.pdf
+docidentifier:
+- content: ETSI TS 102 223 V4.0.0 (2001-07)
+  type: ETSI
+  primary: true
+docnumber: ETSI TS 102 223 V4.0.0 (2001-07)
+date:
+- type: published
+  at: 2001-07
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: " "
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 4.0.0
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: "The present document defines the interface between the UICC and the Terminal,
+    and mandatory Terminal procedures, specifically for \"NAA Card Application Toolkit\".\r\nThe
+    CAT is a set of generic commands and procedures for use by the ICC, irrespective
+    of the access technology of the network. Within the scope of this document, the
+    UICC refers here to a ICC which support at least one application in order to access
+    a network. This application is called here Network Access Application (NAA). \r\nThe
+    ICC is considered as a platform, which is either based on TS 102 221, here called
+    \"3G platform\", or TS 151 011, here called \"2G platform\".\r\nNAA can be:\r\n-a
+    USIM application, as defined in TS 131 102, which can reside only on a 3G platform,\r\n-a
+    SIM application, as defined in TS 151 011, which can reside either on a 3G or
+    a 2G platform,\r\n-a TSIM application, as defined in TS 100 812 Part 2, which
+    can reside only on a 3G platform,\r\n-a RUIM application, as defined in TIA /
+    IS -820, 3GPP2  C.S0023-0, which can reside on a 2G platform,\r\n-or other applications
+    residing on a 3G platform or a 2G platform. Specifying the interface is to ensure
+    interoperability between a ICC and a Terminal independently of the respective
+    manufacturers and operators.\r\nThese document specifies as well mechanisms in
+    order to expand the generic set of commands and procedures by access technology
+    specific ones. \r\nThe present document defines:\r\n-the commands;\r\n-the application
+    protocol;\r\n-the mandatory requirements on the ICC and Terminal for each procedure.\r\nThe
+    present document does not specify any aspects related to the administrative management
+    phase. Any internal technical realization of either the ICC or the Terminal are
+    only specified where these reflect over the interface. The present document does
+    not specify any of the security algorithms that may be used."
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: SMART CARD
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: TS
+    content: Technical Specification
+  flavor: etsi
