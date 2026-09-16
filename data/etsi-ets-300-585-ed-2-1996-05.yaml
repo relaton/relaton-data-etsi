@@ -1,13 +1,10 @@
----
 id: ETSIETS300585ed2199605
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: Digital cellular telecommunications system (Phase 2) (GSM); Use of Data
-    Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE) interface
-    for Short Message Service (SMS) and Cell Broadcast Service (CBS) (GSM 07.05)
+  content: Digital cellular telecommunications system (Phase 2) (GSM); Use of Data Terminal Equipment - Data Circuit terminating Equipment (DTE - DCE) interface for Short Message Service (SMS) and Cell Broadcast Service (CBS) (GSM 07.05)
 source:
 - type: src
   content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=3923
@@ -52,19 +49,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "REASON 1:\r\nGSM 07.05 defines the length of the SC address in table 5.6
-    and 5.8 as\r\nbeing 1-13 octets long. This is not correct since the SC address\r\nlength
-    is coded as the RP-Destination address specified in GSM 04.11.\r\nThese addresses
-    can only be up to 12 octets long.\r\n CONSEQUENCES OF NON-ACCEPTANCE 1:\r\nImplementors
-    may use too long addresses.\r\n REASON 2:\r\nAt the end of chapter 3.3 it is stated
-    that it is possible for the TE\r\nto request the MT to both store and send the
-    SMS message. It is\r\nunclear what happens to the stored message if the transmission
-    fails\r\nafter the storing has suceeded.\r\n CONSEQUENCES OF NON-ACCEPTANCE 2:\r\nThe
-    TE does not know the message reference of this SMS message and\r\nthus has no
-    means of pointing to it.\r\n REASON 3:\r\nSection 3.1.2.2 defines GET NEXT MESSAGE
-    command. right after GET\r\nFIRST MESSAGE command. GET NEXT MESSAGE command may
-    give a wrong\r\nresponse in a situation where a session is started with a GET
-    MESSAGE\r\ncommand.\r\n"
+  content: "REASON 1:\r\nGSM 07.05 defines the length of the SC address in table 5.6 and 5.8 as\r\nbeing 1-13 octets long. This is not correct since the SC address\r\nlength is coded as the RP-Destination address specified in GSM 04.11.\r\nThese addresses can only be up to 12 octets long.\r\n CONSEQUENCES OF NON-ACCEPTANCE 1:\r\nImplementors may use too long addresses.\r\n REASON 2:\r\nAt the end of chapter 3.3 it is stated that it is possible for the TE\r\nto request the MT to both store and send the SMS message. It is\r\nunclear what happens to the stored message if the transmission fails\r\nafter the storing has suceeded.\r\n CONSEQUENCES OF NON-ACCEPTANCE 2:\r\nThe TE does not know the message reference of this SMS message and\r\nthus has no means of pointing to it.\r\n REASON 3:\r\nSection 3.1.2.2 defines GET NEXT MESSAGE command. right after GET\r\nFIRST MESSAGE command. GET NEXT MESSAGE command may give a wrong\r\nresponse in a situation where a session is started with a GET MESSAGE\r\ncommand.\r\n"
 status:
   stage: Published
 keyword:

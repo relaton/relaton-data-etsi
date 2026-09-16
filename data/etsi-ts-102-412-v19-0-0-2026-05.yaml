@@ -1,4 +1,3 @@
----
 id: ETSITS102412V1900202605
 schema_version: v1.5.6
 type: standard
@@ -55,16 +54,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: 'At the moment, the maximum polling interval that the Terminal can negotiate
-    with the UICC is 255 minutes. This interval is unfortunately not sufficient for
-    use cases where power savings mode cases are important, if not critical (e.g.
-    Non-Terrestrial Network eSIM Profiles, Provisioning eSIM Profiles). It is also
-    recognised that, in specific cases, permanently disabling POLLING might not be
-    the best approach as it will prevent some JavaCard applications to e.g. connect
-    to their Carrier OTA platform to carry out business-critical updates.  The scope
-    of this work item is to define technical requirements and solutions allowing the
-    power saving options looking around CAT e.g.:- depending on the access technology
-    being used by the device, or - depending on the battery status of the device.  '
+  content: 'At the moment, the maximum polling interval that the Terminal can negotiate with the UICC is 255 minutes. This interval is unfortunately not sufficient for use cases where power savings mode cases are important, if not critical (e.g. Non-Terrestrial Network eSIM Profiles, Provisioning eSIM Profiles). It is also recognised that, in specific cases, permanently disabling POLLING might not be the best approach as it will prevent some JavaCard applications to e.g. connect to their Carrier OTA platform to carry out business-critical updates.  The scope of this work item is to define technical requirements and solutions allowing the power saving options looking around CAT e.g.:- depending on the access technology being used by the device, or - depending on the battery status of the device.  '
 status:
   stage: Published
 keyword:

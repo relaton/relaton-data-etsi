@@ -1,12 +1,10 @@
----
 id: ETSITR103965V111202410
 schema_version: v1.5.6
 type: standard
 title:
 - language: en
   script: Latn
-  content: CYBER; Quantum-Safe Cryptography (QSC); Impact of Quantum Computing on
-    Cryptographic Security Proofs
+  content: CYBER; Quantum-Safe Cryptography (QSC); Impact of Quantum Computing on Cryptographic Security Proofs
 source:
 - type: src
   content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=63084
@@ -56,24 +54,7 @@ script:
 abstract:
 - language: en
   script: Latn
-  content: "This work item is intended to provide an overview of the impact of quantum
-    computing on the security proofs of several cryptographic protocols. It discusses
-    which security proofs are invalidated, or otherwise affected, in the presence
-    of a large-scale quantum-capable attacker, and discusses for each affected system
-    whether \r\na)\tan alternative proof has been found that does provide security
-    against quantum attacks, but possibly with a reduced security level, \r\nb)\tno
-    alternative proof has been found, but security is expected to still hold,\r\nc)\tthe
-    cryptographic system is expected to be broken by quantum attacks, in a way which
-    is not captured by the classical security proof, although no concrete quantum
-    attack exists yet, or\r\nd)\ta concrete quantum attack that breaks security, in
-    a way which is not captured by the classical proof, is available.\r\nFurthermore,
-    the practical impact of these considerations is presented.\r\nExamples of cryptographic
-    security proofs that are affected by quantum computing are proofs written with
-    the Random-Oracle methodology (thus impacting the popular Fiat-Shamir and Fujisaki-Okamoto
-    transforms), the rewinding technique for zero-knowledge proof systems, and the
-    binding property of commitment schemes.\r\nA starting point for this work item
-    is provided by the e-print paper “Post-Quantum Cryptography: Computational-Hardness
-    Assumptions and Beyond” (https://eprint.iacr.org/2021/571)"
+  content: "This work item is intended to provide an overview of the impact of quantum computing on the security proofs of several cryptographic protocols. It discusses which security proofs are invalidated, or otherwise affected, in the presence of a large-scale quantum-capable attacker, and discusses for each affected system whether \r\na)\tan alternative proof has been found that does provide security against quantum attacks, but possibly with a reduced security level, \r\nb)\tno alternative proof has been found, but security is expected to still hold,\r\nc)\tthe cryptographic system is expected to be broken by quantum attacks, in a way which is not captured by the classical security proof, although no concrete quantum attack exists yet, or\r\nd)\ta concrete quantum attack that breaks security, in a way which is not captured by the classical proof, is available.\r\nFurthermore, the practical impact of these considerations is presented.\r\nExamples of cryptographic security proofs that are affected by quantum computing are proofs written with the Random-Oracle methodology (thus impacting the popular Fiat-Shamir and Fujisaki-Okamoto transforms), the rewinding technique for zero-knowledge proof systems, and the binding property of commitment schemes.\r\nA starting point for this work item is provided by the e-print paper “Post-Quantum Cryptography: Computational-Hardness Assumptions and Beyond” (https://eprint.iacr.org/2021/571)"
 status:
   stage: Published
 keyword:
