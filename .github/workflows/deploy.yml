@@ -7,8 +7,6 @@ on:
     # actual default branch, so listing all three here is safe.
     branches: [ master, main, v2 ]
     tags: [ v* ]
-  schedule:
-  - cron: '0 15 * * *'   # an hour after crawler.yml's 14:00 UTC run
   workflow_dispatch:
 
 jobs:
