@@ -1,12 +1,10 @@
 name: Deploy
 
 on:
-  push:
-    # Include v2: this repo's default branch is v2 (many relaton-data-* repos
-    # moved). The reusable data-deploy.yml gates publication on the repo's
-    # actual default branch, so listing all three here is safe.
+  workflow_run:
+    workflows: [ Crawler ]
+    types: [ completed ]
     branches: [ master, main, v2 ]
-    tags: [ v* ]
   workflow_dispatch:
 
 jobs:
