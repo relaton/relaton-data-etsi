@@ -1,0 +1,105 @@
+---
+id: ETSIGSZSM028V111202611
+schema_version: v1.5.6
+type: standard
+title:
+- language: en
+  script: Latn
+  content: Zero-touch network and Service Management (ZSM); Continuous Operation and
+    Management Framework for Large and Small Language Models in Production Network
+    Environments
+source:
+- type: src
+  content: https://webapp.etsi.org/workprogram/Report_WorkItem.asp?WKI_ID=78527
+- type: pdf
+  content: https://www.etsi.org/deliver/etsi_gs/ZSM/001_099/028/01.01.01_60/gs_ZSM028v010101p.pdf
+docidentifier:
+- content: ETSI GS ZSM 028 V1.1.1 (2026-11)
+  type: ETSI
+  primary: true
+docnumber: ETSI GS ZSM 028 V1.1.1 (2026-11)
+date:
+- type: published
+  at: 2026-11
+contributor:
+- role:
+  - type: publisher
+  organization:
+    name:
+    - language: en
+      script: Latn
+      content: European Telecommunications Standards Institute
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+- role:
+  - type: author
+    description:
+    - content: committee
+  organization:
+    name:
+    - content: European Telecommunications Standards Institute
+    subdivision:
+    - name:
+      - content: Zero-touch network and Service Management
+      type: technical-committee
+    abbreviation:
+      language: en
+      script: Latn
+      content: ETSI
+version:
+- content: 1.1.1
+language:
+- en
+script:
+- Latn
+abstract:
+- language: en
+  script: Latn
+  content: 'The present document specifies an operational framework and detailed requirements
+    for the sustained management, monitoring, and governance of Large Language Models
+    (LLMs) and Small Language Models (SLMs) after their deployment into live telecommunications
+    network production environments. It exclusively addresses the post-deployment
+    operational phase, defining standardized processes to ensure continuous reliability,
+    safety, and performance alignment with network operational objectives. Key aspects
+    include the definition of a model metadata schema with network-specific attributes
+    for operational traceability; real-time performance monitoring and automated corrective
+    actions (e.g., rollback) triggered against Network Service Level Objectives (NSLOs);
+    online validation of models within operational network segments; standardized
+    integration with network data sources and policy enforcement points; and comprehensive
+    security, multi-tenancy, and compliance controls throughout the operational lifecycle.
+    This framework is scoped independently of both generic AI management enablers
+    and end-to-end LLM lifecycle frameworks: it is complementary to ETSI GS ZSM 012,
+    which defines a set of generic AI/ML enablers (e.g., validation services, sandboxing,
+    trust management) without specifying how to operate LLMs in production networks,
+    and to ETSI GS ENI 050, which provides a high-level end-to-end lifecycle framework
+    covering design, training, deployment and retirement but does not detail the operational
+    phase. By focusing exclusively on the continuous operation of LLMs/SLMs in telecom
+    production networks, the present document fills a dedicated niche that is not
+    addressed by either of those specifications.'
+status:
+  stage: Published
+keyword:
+- vocab:
+    language: en
+    script: Latn
+    content: AI
+- vocab:
+    language: en
+    script: Latn
+    content: Network Large Language Model
+- vocab:
+    language: en
+    script: Latn
+    content: network management
+- vocab:
+    language: en
+    script: Latn
+    content: operational
+ext:
+  schema_version: v0.1.2
+  doctype:
+    abbreviation: GS
+    content: Group Specification
+  flavor: etsi
